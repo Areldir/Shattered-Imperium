@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<!--kingdom factions-->
+	<Kingdom id="empire"
+	         owner="Hero.AR_lord_1_5"
+	         banner_key="11.4.4.4345.4345.768.768.1.0.0.163.5.5.512.512.769.764.1.0.0"
+	         primary_banner_color="0xff793191"
+	         secondary_banner_color="0xffFCDE90"
+	         label_color="FF850C6D"
+	         color="FF4E3A55"
+	         color2="FFDE9953"
+	         alternative_color="FFffffff"
+	         alternative_color2="FF660653"
+	         culture="Culture.empire_n"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=AR_kingdom_empire_n_name}Eastern Empire"
+	         short_name="{=AR_kingdom_empire_n_short_name}Eastern Empire"
+	         title="{=AR_kingdom_empire_n_title}Eastern Empire"
+	         ruler_title="{=AR_kingdom_empire_n_ruler_title}Strategos"
+	         text="{=AR_kingdom_empire_n_text}For the last two centuries, the vaunted legions of the Calradian Empire have won fame and fortune in the east, expanding the frontier greatly into the former lands of the Laconians. Halted when they reached the shores of Lake Tanaesis, they drained marshes and turned the river floodplains into wheatfields, cut back forests and turned the hillsides into pasture. The generals of the east; proud sons of the Empire's noble families, are uniquely bloodthirsty amongst their fellows. Three years ago, after a victory over the Gotarnians, the pre-eminent general Zenon of the Neretzes clan was hailed Emperor by his troops, splitting the Calradian Empire and igniting civil war. Zenon, now calling himself Solarios 'Light-Giver', channels his ever-growing insanity into ruling the east with an iron fist, driving the armies of friend and foe alike before his battle-hardened legions.">
+		<relationships>
+			<relationship kingdom="Kingdom.khuzait"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_feudal_inheritance"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="empire_w"
+	         owner="Hero.lord_1_11"
+	         banner_key="11.8.8.4345.4345.768.768.1.0.0.164.9.9.512.512.769.764.1.0.0"
+	         primary_banner_color="0xff591645"
+	         secondary_banner_color="0xffFFAD54"
+	         label_color="FFDB8330"
+	         color="FF9E5072"
+	         color2="FFDE9953"
+	         alternative_color="FF1F1D1F"
+	         alternative_color2="FFc28446"
+	         culture="Culture.empire_w"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=AR_kingdom_empire_w_name}Western Empire"
+	         short_name="{=AR_kingdom_empire_w_short_name}Western Empire"
+	         title="{=AR_kingdom_empire_w_title}Western Empire"
+	         ruler_title="{=AR_kingdom_empire_w_ruler_title}Illustrios"
+	         text="{=AR_kingdom_empire_w_text}The warm, green land of oak forests and volcanic outcrops that makes up the western provinces of the Calradian Empire is the spiritual heartland of the Calradians. According to legend, Calradios the Great first landed at the site of the present-day city of Charasea, laying the foundation of an empire which would last through the ages. However, now the Empire's western provinces are in crisis. The former capital city of Baravenos has fallen to the Vlandians; one-time auxiliaries in the Empire's legions. Facing an existential threat to their ancestral lands and way of life, the senators of the western provinces voted for secession from the Empire, electing the Praetor of Charasea to be Emperor and plunging the Empire into civil war.">
+		<relationships>
+			<relationship kingdom="Kingdom.battania"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_land_grants_for_veterans"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="empire_s"
+	         owner="Hero.AR_lord_1_8"
+	         banner_key="11.6.6.4345.4345.768.768.1.0.0.162.7.7.512.512.769.764.1.0.0"
+	         primary_banner_color="0xff382188"
+	         secondary_banner_color="0xffDEA940"
+	         label_color="FF6d62b5"
+	         color="FF9382D0"
+	         color2="FFDE9953"
+	         alternative_color="FFF4CA14"
+	         alternative_color2="FF6d62b5"
+	         culture="Culture.empire"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=AR_kingdom_empire_s_name}Calradian Empire"
+	         short_name="{=AR_kingdom_empire_s_short_name}Calradian Empire"
+	         title="{=AR_kingdom_empire_s_title}Calradian Empire"
+	         ruler_title="{=AR_kingdom_empire_s_ruler_title}Basileos"
+	         text="{=AR_kingdom_empire_s_text}According to tradition, the first Calradians entered the continent as exiles, following Calradios the Great across the vast Western Ocean to found a colony at Charasea. Over time, the Calradians relentlessly expanded their territories across the continent, founding new colonies and conquering neighbouring peoples until soon, their empire stretched from the Western Ocean to the Great Grass Sea. Cunning politics ensured new peoples and cultures were assimilated into the Empire, whilst the might of the legions ensured the stability of the borders. However, recently cracks have started to form in the very heart of the Calradian Empire, pitting brother against brother in a series of devastating civil wars. Smelling weakness, barbarians now make frequent incursions into the Empire's borders to raid, or worse, to carve out their own kingdoms. Despite this, to many in the Empire's heartland, life continues much as it always has. Farmers still toil under a blazing sun, the senate still meets to debate matters of state, and the vaunted imperial legions have lost none of their potency, carrying the Dragon Banner of Calradios forward to victory.">
+		<relationships>
+			<relationship kingdom="Kingdom.aserai"
+			              value="-1"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.vaegiria"
+			              value="1"/>
+		</relationships>
+		<policies>
+			<policy id="policy_royal_privilege"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="sturgia"
+	         owner="Hero.lord_2_1"
+	         banner_key="11.12.12.4345.4345.768.768.1.0.0.462.13.13.512.512.769.764.1.0.0"
+	         primary_banner_color="0xff224277"
+	         secondary_banner_color="0xffCEDAE7"
+	         label_color="FF1856A1"
+	         color="FF1C2A50"
+	         color2="FF949CCC"
+	         alternative_color="FFFFFFFF"
+	         alternative_color2="FF2A4B78"
+	         culture="Culture.sturgia"
+	         settlement_banner_mesh="encounter_flag_b"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=PjO7oY16}Sturgian Principalities"
+	         short_name="{=C4qjBqLO}Sturgians"
+	         title="{=iYCR3xuQ}Sturgian Principalities"
+	         ruler_title="{=FmbgPGBL}Grand Prince"
+	         text="{=bVihnRUu}The people who dwell in the frigid north of Calradia have long been ruled over by a collection of petty realms, though collectively they may be called Sturgians. As boomtowns sprung up alongside the bays and lakes of the north, the local tribal leaders forged marriage pacts with Nords and other adventurers, trading amber and furs for their swords to subdue neighbouring Sturgian principalities or Vakken tribes. However, despite their shared ancestry, the Sturgians refuse to unify, even refusing to use the term 'king'. Instead, the petty princes of Sturgia occasionally come together to follow the strongest prince during times of crisis. In recent decades, the leader of the powerful Gundaroving principality has sought to increase their power over the other princes, forcing the adoption of Nordic names and titles, and the formation of a centralized authority. Now, the Sturgian principalities look outwards, seeking to conquer lands to the east and south, and to unify the entire north under their rule.">
+		<relationships>
+			<relationship kingdom="Kingdom.vaegiria"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_precarial_land_tenure"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="aserai"
+	         owner="Hero.lord_3_18"
+	         banner_key="11.101.0.4345.4345.776.777.1.0.0.222.1.0.507.507.767.764.0.0.359.411.1.0.256.256.767.764.0.0.0.500.1.0.315.315.767.766.0.0.0"
+	         primary_banner_color="0xffB57A1E"
+	         secondary_banner_color="0xff4E1A13"
+	         label_color="FFebce5e"
+	         color="FF965228"
+	         color2="FF4F2212"
+	         alternative_color="FF1F1D1F"
+	         alternative_color2="FFebce5e"
+	         culture="Culture.aserai"
+	         settlement_banner_mesh="encounter_flag_c"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=aseraifaction}Aserai Confederacy"
+	         short_name="{=aseraimembers}Aserai"
+	         title="{=UsbwPmYb}Aserai Confederacy"
+	         ruler_title="{=5djtBrHj}Shah"
+	         text="{=qggtvf8Y}The Nahasa is an unforgiving place of shifting sands, and so to are its people strong and changeable. Centuries ago, the Padishah of the Darshi led an army into the Nahasa from the east, conquering the Aserai clans along the fringe of the desert. In doing so, he brought Darshi culture and laws to the Nahasa, which many Aserai clans adopted. Soon, the Padishah retreated again, and the Aserai have since formed a loose union under the rule of the head of the Banu Atij, taking Darshi titles of Shah and Banbishn. The Calradian Empire has ensured the instability of the region by pitting the clans of the Banu Asera against each other, forcing the weak out into the desert to raise goats and raid caravans. However, change is once again afoot, and a prophet from a distant oasis whispers in the court of the Banu Hulyan of treachery and a new way in which the clans of the Aserai may be united.">
+		<relationships>
+			<relationship kingdom="Kingdom.empire_s"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_council_of_the_commons"/>
+			<policy id="policy_council_of_elders"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="vlandia"
+	         owner="Hero.AR_lord_4_1"
+	         banner_key="11.14.14.1536.1536.768.768.1.0.0.160.15.15.512.512.769.764.1.0.0"
+	         primary_banner_color="0xff6b2929"
+	         secondary_banner_color="0xffF7BF46"
+	         label_color="ffB01301"
+	         color="0xff6b2929"
+	         color2="FFECBA44"
+	         alternative_color="0xff6b2929"
+	         alternative_color2="ff910101"
+	         culture="Culture.vlandia"
+	         settlement_banner_mesh="encounter_flag_d"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=FjwRsf1C}Vlandian Kingdom"
+	         short_name="{=8HMyTKF6}Vlandians"
+	         title="{=lAWwcO6b}Kingdom of Vlandia"
+	         ruler_title="{=hwnp9abW}King"
+	         text="{=IudGLWQZ}The Vlandian monarchy has risen in recent years, led by Osric Iron-Arm. The young warlord seized the westernmost lands of the Empire and crowned himself king of a independent Vlandia, rallying a coalition of former Vlandian and Swadic auxiliary commanders to him and granting them lands and titles in his growing realm. Now, the young kingdom looks outward for conquest, seeking to unify all the western lands under a single banner, whilst withstanding constant attempts by the Calradian Empire to reconquer their lost provinces.">
+		<relationships>
+			<relationship kingdom="Kingdom.empire_w"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_feudal_inheritance"/>
+			<policy id="policy_castle_charters"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="battania"
+	         owner="Hero.lord_5_3"
+	         banner_key="11.2.2.4345.4345.776.777.1.0.0.412.13.13.508.508.768.799.0.0.180.504.13.13.95.129.766.761.0.1.3.510.13.13.137.98.658.717.0.1.242.510.13.13.137.97.873.707.0.1.121.510.13.13.137.97.772.906.0.1.2"
+	         primary_banner_color="0xff284E19"
+	         secondary_banner_color="0xffB4F0F1"
+	         label_color="FF55831A"
+	         color="FF2D3F1D"
+	         color2="FFBFCBB0"
+	         alternative_color="FFD69516"
+	         alternative_color2="FF55831A"
+	         culture="Culture.battania"
+	         settlement_banner_mesh="encounter_flag_e"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=0B27RrYJ}Battanian Kingdom"
+	         short_name="{=bgjiFSHZ}Battanians"
+	         title="{=qaDIU0XC}High Kingdom of the Battanians"
+	         ruler_title="{=afvM7XpQ}High King"
+	         text="{=ZjaaAoxd}From time immemorial there has been a High King of Battania, crowned with great ceremony on the sacred hill of Dunthanach. Ask any Battanian chieftain, however, whose ”kingdom” he lives in, and he will look around at his hall and his fields and his pastures, his flocks and his retainers, and answer ”Mine, of course.” Only lately, following the example of the Empire, have the High Kings made any effort to exert their authority. ”Such unruly cattle as my people require a strong herdsman's hand to steer them from the ravine and protect them from the wolf,” said the last high king, just before he was betrayed by a jealous cousin and taken in chains to the nearest imperial outpost.">
+		<relationships>
+			<relationship kingdom="Kingdom.vaegiria"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_cantons"/>
+			<policy id="policy_lawspeakers"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="khuzait"
+	         owner="Hero.AR_lord_6_1"
+	         banner_key="11.116.116.4345.4345.780.802.1.0.0.449.11.0.309.319.764.654.0.0.0.449.11.0.309.319.764.884.0.0.180.510.11.0.351.240.643.769.0.0.180.510.11.0.351.240.886.769.0.0.180.500.11.0.500.500.764.771.0.0.0"
+	         primary_banner_color="0xff1a1a1a"
+	         secondary_banner_color="0xffEFC990"
+	         label_color="FF7CC8EB"
+	         color="0xff1a1a1a"
+	         color2="FFCCBB89"
+	         alternative_color="0xff1a1a1a"
+	         alternative_color2="FF6caecc"
+	         culture="Culture.khuzait"
+	         settlement_banner_mesh="encounter_flag_f"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=AR_kingdom_iltanlar_name}Iltanlar Khanate"
+	         short_name="{=AR_kingdom_iltanlar_short_name}Iltanlar"
+	         title="{=AR_kingdom_iltanlar_title}Iltanlar Khanate"
+	         ruler_title="{=AR_kingdom_iltanlar_ruler_title}Khan"
+	         text="{=AR_kingdom_iltanlar_text}For centuries, the tribes in the vast steppe east of Calradia have been content to live as nomads, venturing into the western lands to raid and trade, and then returning to their ancestral freedom. Just over a century however, a number of tribes confederated and settled the western plateau known as the Devseg, becoming known as Iltanlar due to their frequent travels into the Iltan Portages. Whilst still largely autonomous, these tribes have notionally fallen under the control of the Itakhar; the strongest tribe inhabiting the Devseg, hailing their leader as Khan of an uneasy tribal alliance.">
+		<relationships>
+			<relationship kingdom="Kingdom.empire"
+			              value="-1"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.cizygia"
+			              value="1"/>
+		</relationships>
+		<policies>
+			<policy id="policy_grazing_rights"/>
+			<policy id="policy_sacred_majesty"/>
+		</policies>
+	</Kingdom>
+	<!-- lesser kingdom factions -->
+	<Kingdom id="vaegiria"
+	         owner="Hero.AR_lord_8_1"
+	         banner_key="11.33.33.4345.4345.776.778.1.0.0.306.148.148.312.479.770.930.0.1.-90.503.148.148.124.126.765.619.0.1.90.144.148.148.441.407.773.803.0.1.0"
+	         primary_banner_color="0xffffffff"
+	         secondary_banner_color="0xff4E1A13"
+	         label_color="FF1856A1"
+	         color="0xffffffff"
+	         color2="0xff4E1A13"
+	         alternative_color="0xffffffff"
+	         alternative_color2="0xff4E1A13"
+	         culture="Culture.vakken"
+	         settlement_banner_mesh="encounter_flag_b"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=AR_kingdom_vaegiria_name}Vaegirian Republic"
+	         short_name="{=AR_kingdom_vaegiria_short_name}Vaegirians"
+	         title="{=AR_kingdom_vaegiria_title}Vaegirian Republic"
+	         ruler_title="{=AR_kingdom_vaegiria_ruler_title}High Boyar"
+	         text="{=AR_kingdom_vaegiria_text}The Vaegirian Republic rules over the open grasslands fringing the dark northern forests and the western edge of the Calradic Steppe. Originating from the intermarrying of native Vakken peoples with Laconians and Calradian colonists from Varnovapol, the Vaegirians were briefly annexed into the Calradic Empire by the famed general Sarapios, at the height of Calradian expansion into the northern lands. However, realizing the fragile nature of Calradian rule in the north, the emperors instead chose to form a puppet state, electing a High Boyar to oversee a small senate comprising the elders of the Vakken tribes. Since then, the Boyars of Vaegiria have expanded their realm to the east, seizing the territories of both the Iltanlar and other Vakken alike. They still remain loyal to the emperors; at least notionally, though the free spirit of the Vakken people still survives, waiting for the day they once more may be the rulers of their own destinies.">
+		<relationships>
+			<relationship kingdom="Kingdom.sturgia"
+			              value="-1"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.empire_s"
+			              value="1"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_feudal_inheritance"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="paraoia"
+	         owner="Hero.AR_lord_9_4"
+	         banner_key="11.72.72.4922.4922.776.777.1.0.0.333.5.0.300.300.749.729.0.0.0.423.5.0.507.507.764.751.0.0.0"
+	         primary_banner_color="0xff0c4b63"
+	         secondary_banner_color="0xffFCDE90"
+	         label_color="FF1856A1"
+	         color="0xff0c4b63"
+	         color2="FFDE9953"
+	         alternative_color="0xff0c4b63"
+	         alternative_color2="FFDE9953"
+	         culture="Culture.paraoi"
+	         settlement_banner_mesh="encounter_flag_b"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=AR_kingdom_paraoia_name}Paraoian Empire"
+	         short_name="{=AR_kingdom_paraoia_short_name}Paraoians"
+	         title="{=AR_kingdom_paraoia_title}Paraoian Empire"
+	         ruler_title="{=AR_kingdom_paraoia_ruler_title}Basileos"
+	         text="{=AR_kingdom_paraoia_text}Despite being subjugated long ago by the Calradian Empire and shaped into an imperial province, the Kannic colonies of Paraoia still retained a largely autonomous lifestyle within their own borders, even maintaining an elected senate to manage local affairs. During recent years, increasing military activity on the Nahasan borders stretched local garrisons to breaking point, resulting in a number of border forts being overrun. Ineffective imperial administration ignored the pleas of the Paraoians to protect them, and so the province soon looked to its own protection, raising legions and electing generals from among the Paraoian nobility. Ten years ago, in a period of imperial instability, a rising Paraoian general seized the opportunity, declaring independence from the Calradian Empire and founding the Paraoian Empire. However, not long after his ascendence he was found in his chambers with a knife embedded in his back, and so the crown was passed by will to his daughter's line. Under their young empress, the Paraoians now look outwards for conquest.">
+		<relationships>
+			<relationship kingdom="Kingdom.empire_w"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_land_grants_for_veterans"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="cizygia"
+	         owner="Hero.AR_lord_10_1"
+	         banner_key="11.25.10.1536.1536.768.768.1.0.0.427.11.11.400.400.764.923.1.0.0.129.11.11.300.300.759.694.1.0.0.340.11.11.200.200.764.484.1.0.0.504.11.11.90.90.718.476.1.0.-40.504.11.11.90.90.810.477.1.0.39.410.11.11.113.113.764.879.1.0.0"
+	         primary_banner_color="0xff7a7a7a"
+	         secondary_banner_color="0xffFFAD54"
+	         label_color="FF7CC8EB"
+	         color="0xff7a7a7a"
+	         color2="0xffFFAD54"
+	         alternative_color="0xff7a7a7a"
+	         alternative_color2="0xffFFAD54"
+	         culture="Culture.cizygian"
+	         settlement_banner_mesh="encounter_flag_f"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=AR_kingdom_cizygian_name}Cizygian Khanate"
+	         short_name="{=AR_kingdom_cizygian_short_name}Cizygians"
+	         title="{=AR_kingdom_cizygian_title}Cizygian Khanate"
+	         ruler_title="{=AR_kingdom_cizygian_ruler_title}Khan"
+	         text="{=AR_kingdom_cizygian_text}Much like their Iltanlar cousins, the Cizygians are a conglomeration of tribal peoples who dwelt in the vast grasslands east of Calradia. However, unlike the Iltanlar, who remain largely independent of the rule of a single khan, the Cizygians religiously follow the bloodline of Cizghun the Chosen, worshipping the sitting khan of the Cizghunait tribe as a divine leader. Following their god-ruler into the fertile southern grasslands between the Nahasa desert and the Perassic sea, the Cizygians dream of carving out their own boundless empire. They make ready for war, driving vast herds of horses and shaping powerful bows of wood and sinew..">
+		<relationships>
+			<relationship kingdom="Kingdom.spahad"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_sacred_majesty"/>
+			<policy id="policy_lawspeakers"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="massa"
+	         owner="Hero.AR_lord_11_1"
+	         banner_key="11.12.12.1536.1536.768.768.1.0.0.105.40.127.500.500.764.724.0.0.0.301.40.127.500.500.764.964.0.0.-90"
+	         primary_banner_color="0xff429081"
+	         secondary_banner_color="0xffF7BF46"
+	         label_color="ffB01301"
+	         color="FF58888B"
+	         color2="FFECBA44"
+	         alternative_color="FF58888B"
+	         alternative_color2="ff910101"
+	         culture="Culture.massa"
+	         settlement_banner_mesh="encounter_flag_d"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=AR_kingdom_massa_name}Massan Kingdom"
+	         short_name="{=AR_kingdom_massa_short_name}Massans"
+	         title="{=AR_kingdom_massa_title}Kingdom of Massa"
+	         ruler_title="{=AR_kingdom_massa_ruler_title}King"
+	         text="{=AR_kingdom_massa_text}The Kingdom of Massa claims the same descent as their Vlandian cousins, forming only recently from a union of former Swadic federate tribes in the Calradian Empire's western provinces. After the Empire lost Baravenos to Osric Iron-Arm, many Massan chieftains saw an opportunity to gain their own independent kingdom, and so overthrew the local Imperial Archon and massacred the vaunted Seventh Legion in their camp in the Rhennod mountains, near the village of Ormanfard. Viewed by the Empire as traitors, and their Vlandian cousins as brutal barbarians, the Massan tribes now consolidate for themselves a small kingdom in the Ebor Peninsula.">
+		<relationships>
+			<relationship kingdom="Kingdom.battania"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_castle_charters"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="spahad"
+	         owner="Hero.AR_lord_12_1"
+	         banner_key="11.61.154.4345.4345.776.777.1.0.0.216.137.0.450.450.764.774.0.0.180.427.137.0.200.100.759.994.0.0.0.342.137.0.100.100.764.504.0.0.0"
+	         primary_banner_color="0xff8d5c44"
+	         secondary_banner_color="0xff429081"
+	         label_color="FFebce5e"
+	         color="0xff8d5c44"
+	         color2="FF58888B"
+	         alternative_color="0xff8d5c44"
+	         alternative_color2="FF58888B"
+	         culture="Culture.darshi"
+	         settlement_banner_mesh="encounter_flag_c"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=AR_kingdom_spahad_name}Spahad Satrapy"
+	         short_name="{=AR_kingdom_spahad_short_name}Spahadi"
+	         title="{=AR_kingdom_spahad_title}Spahad Satrapy"
+	         ruler_title="{=AR_kingdom_spahad_ruler_title}Shahanshah"
+	         text="{=AR_kingdom_spahad_text}The Spahad Kingdom is the westernmost satrapy of the vast empire of the eastern Darshi Padishahs. Centuries ago, their armies crossed the southern tip of the Jabal Ashabi Mountains, shattering the Calradian Empire's rule over the Nahasa and allowing the Aserai to break free from the imperial yoke, only to fall under the rule of the Padishah. In return, the Padishah granted the Spahadi shahs rule over the eastern Nahasa, founding great cities sheltered from the shifting sands by high walls. Now, with the Aserai growing increasingly assertive and seeking to create a realm of their own, the Spahadi shahs find themselves on the defensive, fighting to maintain their hold over the great bronze desert.">
+		<relationships>
+			<relationship kingdom="Kingdom.aserai"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_sacred_majesty"/>
+			<policy id="policy_council_of_elders"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="gotarnia"
+	         owner="Hero.AR_lord_13_1"
+	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"
+	         primary_banner_color="0xffF7BF46"
+	         secondary_banner_color="FF2D3F1D"
+	         label_color="FFebce5e"
+	         color="FFECBA44"
+	         color2="FF2D3F1D"
+	         alternative_color="FFECBA44"
+	         alternative_color2="FF2D3F1D"
+	         culture="Culture.gotarni"
+	         settlement_banner_mesh="encounter_flag_e"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=gotarnianfaction}Gotarnian Kingdom"
+	         short_name="{ARgjiFSHZ}Gotarnians"
+	         title="{ARaDIU0XC}Gotarnian Kingdom"
+	         ruler_title="{=afvM7XpQ}King"
+	         text="The Myzean peoples of Calradia's eastern grasslands once comprised a myriad of city states and petty kingdoms, occupying a vast territory from the Nevys River in the west to Lake Tanaesis in the east. Time and the inexorable march of the Calradian Empire's legions have been cruel to these people, extinguishing many old and famous states and assimilating others. A hardy warrior society, descended from the intermarrying of countless generations of Myzean with migrating Laconians and Vakken tribesmen, the Gotarnians resisted Imperial authority, maintaining their old traditions and stockpiling weapons for their eventual liberation. Two generations ago, they rose up against the Empire, conquering a vast territory across the Iltan Portages to the Darshi trade cities beyond Lake Tanaesis; 'Tanash' to the Darshi, hoping the high walls of these eastern territories would be safe from the Empire's grip. However, with whispers from the east of a great cataclysm, heralded by the thunder of hooves, the Gotarnians now find themselves facing threats from all sides.">
+		<relationships>
+			<relationship kingdom="Kingdom.vaegiria"
+			              value="-1"
+			              isAtWar="true"/>
+		</relationships>
+		<policies>
+			<policy id="policy_cantons"/>
+			<policy id="policy_council_of_elders"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>
