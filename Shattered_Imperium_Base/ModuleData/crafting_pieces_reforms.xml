@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+		<!-- MODIFIED VANILLA PIECES -->
+	<CraftingPiece id="spear_handle_24" name="{=8yb60cDi}Mahogany Long Spear Shaft" tier="4" piece_type="Handle" mesh="spear_handle_24" length="260" weight="2.381">
+		<BuildData piece_offset="70.0"/>
+		<Materials>
+			<Material id="Wood" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_6" name="{=S75vUGzK}Fine Steel Hewing Spear Head" tier="5" piece_type="Blade" mesh="spear_blade_6" length="84.4" weight="0.4" excluded_item_usage_features="swing">
+		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+			<Thrust damage_type="Pierce" damage_factor="3.6"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron5" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_38" name="{=nr3K4od2}Pilum Head" tier="4" piece_type="Blade" mesh="spear_blade_38" length="23.7" weight="0.250" excluded_item_usage_features="swing">
+		<BladeData stack_amount="2" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_2" holster_body_name="bo_throwing_spear_quiver_2" holster_mesh_length="96.2">
+			<Thrust damage_type="Pierce" damage_factor="1.0"/>
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_11" name="{=S9zZO7qJ}Fine Steel Pike Head" tier="4" piece_type="Blade" mesh="spear_blade_11" length="34.56" weight="0.3096" excluded_item_usage_features="swing">
+		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_4" holster_body_name="bo_throwing_spear_quiver_4" holster_mesh_length="96.2">
+			<Thrust damage_type="Pierce" damage_factor="1"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_7" name="{=dXRt8jY4}Menavlion Head" tier="6" piece_type="Blade" mesh="spear_blade_7" length="52.924" weight="0.1656" excluded_item_usage_features="swing">
+		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+			<Thrust damage_type="Pierce" damage_factor="3"/>
+			<Swing damage_type="Cut" damage_factor="1.4"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_18" name="{=qSV6C2tp}Swordstaff Head" tier="6" piece_type="Blade" mesh="spear_blade_18" length="70" weight="0.2096" excluded_item_usage_features="swing">
+		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+			<Thrust damage_type="Pierce" damage_factor="3.3"/>
+			<Swing damage_type="Cut" damage_factor="1.7"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4" count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_1" name="{=Oxew9WCe}Imperial Simple Spear Head" tier="2" piece_type="Blade" mesh="spear_blade_1" length="48" weight="0.16" excluded_item_usage_features="swing">
+		<BladeData stack_amount="5" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_4" holster_body_name="bo_throwing_spear_quiver_4" holster_mesh_length="96.2">
+			<Thrust damage_type="Pierce" damage_factor="0.8" />
+		</BladeData>
+		<Materials>
+			<Material id="Iron2" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_3" name="{=ZAoWK9Gt}Rounded Imperial Spear Head" tier="2" piece_type="Blade" mesh="spear_blade_3" length="57.143" weight="0.3536" excluded_item_usage_features="swing">
+		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+			<Thrust damage_type="Pierce" damage_factor="0.8" />
+		</BladeData>
+		<Materials>
+			<Material id="Iron2" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_4" name="{=ZcUNAfKT}Extra Long Fine Steel Spear Head" tier="4" piece_type="Blade" mesh="spear_blade_4" length="72.558" weight="0.3168" excluded_item_usage_features="swing">
+		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+			<Thrust damage_type="Pierce" damage_factor="1" />
+		</BladeData>
+		<Materials>
+			<Material id="Iron4" count="2"/>
+		</Materials>
+	</CraftingPiece>
+	
+	
+	
+		<!-- SI CUSTOM PIECES -->
+  <CraftingPiece id="AR_SI_spear_handle_a" name="{=8yb60cDi}Mahogany One Handed Spear Shaft" tier="4" piece_type="Handle" mesh="spear_handle_24" length="260" weight="2.381">
+    <BuildData piece_offset="70.0" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="AR_SI_spear_handle_b" name="{=RXjhTS9s}Long One Handed Oak Shaft" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="0.65" CraftingCost="120">
+    <BuildData piece_offset="-13" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="AR_SI_spear_handle_c" name="{=Uhc0KIdz}Pine One Handed Spear Staff" tier="1" piece_type="Handle" mesh="spear_handle_1" length="149" weight="0.5" excluded_item_usage_features="long" CraftingCost="100" is_default="true">
+    <BuildData piece_offset="14.9" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>	
+  <CraftingPiece id="AR_SI_spear_handle_d" name="{=baQ99nza}Long One Handed Ash Shaft" tier="2" piece_type="Handle" mesh="spear_handle_5" length="229" weight="0.595" CraftingCost="110">
+    <BuildData piece_offset="-11" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>	
+  <CraftingPiece id="AR_SI_spear_handle_e" name="{=yD9v5GS0}Decorated One Handed Pine Shaft" tier="4" piece_type="Handle" mesh="spear_handle_16" length="180" weight="0.468">
+    <BuildData piece_offset="-9" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</CraftingPieces>  
