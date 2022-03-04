@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- SPAHAD -->
+	<!-- T1 Recruit Skill 5-20 -->
+	<NPCCharacter id="AR_spahad_recruit" default_group="Infantry" level="6" name="Spahadi Wastaryoshan Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t2_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_spa_t2_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.ao_mabili_hide_skirt"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.peasant_hammer_2_t1"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Body" id="Item.baggy_trunks"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Body" id="Item.fur_skirt"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Body" id="Item.ao_mabili_hide_skirt"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Head" id="Item.AR_hat_c"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Infantry Skill 20-40 -->
+	<NPCCharacter id="AR_spa_t2_spearman" default_group="Infantry" level="11" name="{=arb5nRri}Spahadi Nahasar Footman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t3_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_spa_t3_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_axe_2_t2"/>
+				<equipment slot="Head" id="Item.AR_hat_c"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_axe_2_t2"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_axe_2_t2"/>
+				<equipment slot="Head" id="Item.southern_helmet_IIII"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.saracen_helmet_d_ii"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Head" id="Item.wrapped_desert_cap"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.southern_small_axe_t2"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Head" id="Item.AR_hat_d"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_a"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Spear Infantry Skill 40-70 -->
+	<NPCCharacter id="AR_spa_t3_spearman" default_group="Infantry" level="16" name="{=wtmCSMrC}Spahadi Nahasar Spearman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t4_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_f2"/>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.southern_helmet_IIII"/>
+				<equipment slot="Body" id="Item.tv_battania_armor_a"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_f"/>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.southern_heavy_tuareg"/>
+				<equipment slot="Body" id="Item.tv_battania_armor_a"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_f2"/>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Body" id="Item.tv_battania_armor_a"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Head" id="Item.saracen_helmet_d_ii"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Infantry Skill 60-100 -->
+	<NPCCharacter id="AR_spa_t4_spearman" default_group="Infantry" level="21" name="{=tke6VCV6}Spahadi Neyzedaran Spearman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_f2"/>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.southern_cone_helmet"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_e2"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_f"/>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.aserai_light_helmet"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_e"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_f2"/>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.southern_light_helmet_a"/>
+				<equipment slot="Body" id="Item.aserai_armor_02"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_b"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Infantry Skill 60-130 -->
+	<NPCCharacter id="AR_spa_t5_spearman" default_group="Infantry" level="26" name="{=g1zvdEE3}Spahadi Veteran Neyzedaran Spearman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t6_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.bamboo_axe_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_g2"/>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.saracen_helmet_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_d2"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_d"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_g"/>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.aserai_mail_helmet"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_d"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_d2"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_g2"/>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.saracen_helmet_d"/>
+				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_d"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Spear Infantry Skill 80-180 -->
+	<NPCCharacter id="AR_spa_t6_spearman" default_group="Infantry" level="31" name="{=g1zvdEE3}Spahanfar Zhayedan Spearman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_h2"/>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Head" id="Item.southern_vendel_helmet"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_c"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_h"/>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Head" id="Item.eastern_vendel_helmet"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c2"/>
+				<equipment slot="Body" id="Item.desert_scale_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_h2"/>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Head" id="Item.southern_vendel_helmet"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Sword Infantry Skill 40-70 -->
+	<NPCCharacter id="AR_spa_t3_swordsman" default_group="Infantry" level="16" name="{=wtmCSMrC}Spahadi Nahasar Warrior" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t4_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_j"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_h"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_i"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_i"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Infantry Skill 60-100 -->
+	<NPCCharacter id="AR_spa_t4_swordsman" default_group="Infantry" level="21" name="{=tke6VCV6}Spahadi Sparabara Swordsman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_j"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_g"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+				<equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_j"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.aserai_armor_02"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+				<equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_j"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_g"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+				<equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_b"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Infantry Skill 60-130 -->
+	<NPCCharacter id="AR_spa_t5_swordsman" default_group="Infantry" level="26" name="{=g1zvdEE3}Spahadi Veteran Sparabara Swordsman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t6_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_j"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_h"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_j"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_6_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_j"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_h"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Infantry Skill 80-180 -->
+	<NPCCharacter id="AR_spa_t6_swordsman" default_group="Infantry" level="31" name="{=g1zvdEE3}Spahanfar Ayyar Swordmaster" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_k"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_f"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_k"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.southern_lord_helmet"/>
+				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_k"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_f"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ARCHERS -->
+	<!-- T2 Archer Skill 20-40 -->
+	<NPCCharacter id="AR_spa_t2_archer" default_group="Ranged" level="11" name="{=arb5nRri}Spahadi Nahasar Hunter" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t3_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_b"/>
+				<equipment slot="Body" id="Item.battanian_savage_armor"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Head" id="Item.AR_hat_c"/>
+				<equipment slot="Body" id="Item.aserai_civil_c"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.AR_hat_d"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_c"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.wrapped_desert_cap"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+				<equipment slot="Body" id="Item.ao_mabili_hide_skirt"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Archer Skill 40-70 -->
+	<NPCCharacter id="AR_spa_t3_archer" default_group="Ranged" level="16" name="{=wtmCSMrC}Spahadi Nahasar Hurler" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.trailed_desert_helmet"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.open_desert_helmet"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_h"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Head" id="Item.closed_desert_helmet"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.open_desert_helmet"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_h"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Skill 60-100 -->
+	<NPCCharacter id="AR_spa_t4_archer" default_group="Ranged" level="21" name="{=yhBagy1Y}Spahadi Sangandaz Slinger" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Skill 60-130 -->
+	<NPCCharacter id="AR_spa_t5_archer" default_group="Ranged" level="26" name="{=B4ls6R2b}Spahadi Veteran Sangandaz Slinger" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t6_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_c"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_c"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_c"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Archer Skill 80-180 -->
+	<NPCCharacter id="AR_spa_t6_archer" default_group="Ranged" level="31" name="{=B4ls6R2b}Spahanfar Sangafgan Marksman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zc"/>
+				<equipment slot="Item2" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_d"/>
+				<equipment slot="Body" id="Item.aserai_archer_armor"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_j"/>
+				<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item3" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_a"/>
+				<equipment slot="Body" id="Item.aserai_archer_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_m"/>
+				<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zc"/>
+				<equipment slot="Item2" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.southern_noble_helmet"/>
+				<equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_k"/>
+				<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item3" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_a"/>
+				<equipment slot="Body" id="Item.aserai_archer_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_s"/>
+				<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ELITES -->
+	<!-- T2 Shock Infantry Skill 20-40 -->
+	<NPCCharacter id="AR_spa_elite_recruit" default_group="Infantry" level="11" name="{=arb5nRri}Spahadi Azadan Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t3_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_hat_d"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_hat_c"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_b"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.wrapped_desert_cap"/>
+				<equipment slot="Body" id="Item.aserai_civil_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.aserai_civil_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_a"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Shock Infantry Skill 40-70 -->
+	<NPCCharacter id="AR_spa_t3_shock_inf" default_group="Infantry" level="16" name="{=wtmCSMrC}Spahadi Azadan Warrior" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t4_shock_inf"/>
+			<upgrade_target id="NPCCharacter.AR_spa_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_k"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_k2"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_l"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_l2"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Shock Infantry Skill 60-100 -->
+	<NPCCharacter id="AR_spa_t4_shock_inf" default_group="Infantry" level="21" name="{=tke6VCV6}Spahadi Marzban Axeman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t5_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_m2"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Skill 60-130 -->
+	<NPCCharacter id="AR_spa_t5_shock_inf" default_group="Infantry" level="26" name="{=g1zvdEE3}Spahadi Veteran Marzban Axeman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t6_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_n"/>
+				<equipment slot="Body" id="Item.AO_aserai_armor_a"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AO_aserai_shoulders_b"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_n2"/>
+				<equipment slot="Body" id="Item.AO_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AO_aserai_shoulders_b"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_n"/>
+				<equipment slot="Body" id="Item.AO_aserai_armor_a"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AO_aserai_shoulders_b"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Shock Infantry Skill 80-180 -->
+	<NPCCharacter id="AR_spa_t6_shock_inf" default_group="Infantry" level="31" name="{=g1zvdEE3}Spahanfar Hamharzan Axeman" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g"/>
+				<equipment slot="Cape" id="Item.AO_aserai_shoulders_c"/>
+				<equipment slot="Body" id="Item.ao_imperial_brass_scale_armor"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zc"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>
+				<equipment slot="Cape" id="Item.AO_aserai_shoulders_c"/>
+				<equipment slot="Body" id="Item.ao_imperial_brass_scale_armor_b"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Cavalry Skill 60-100 -->
+	<NPCCharacter id="AR_spa_t4_cavalry" default_group="Cavalry" level="21" name="{=jaK1A7CI}Spahadi Pushtighban" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_g"/>
+				<equipment slot="Body" id="Item.AR_empire_brass_lamellar_b"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_b"/>
+				<equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_b"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_b"/>
+				<equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_g"/>
+				<equipment slot="Body" id="Item.southern_lamellar_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a"/>
+				<equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_b"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.aserai_armor_02"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_b"/>
+				<equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Skill 60-130 -->
+	<NPCCharacter id="AR_spa_t5_cavalry" default_group="Cavalry" level="26" name="{=6oc7CXbI}Spahadi Veteran Pushtighban" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_spa_t6_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_h"/>
+				<equipment slot="Body" id="Item.AR_empire_brass_lamellar_a"/>
+				<equipment slot="Leg" id="Item.AR_empire_boots_b"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_shoulder"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.closed_desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.AR_aserai_lamellar_a"/>
+				<equipment slot="Leg" id="Item.AR_empire_boots_a"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_shoulder"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_b"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_b"/>
+				<equipment slot="Body" id="Item.AR_empire_brass_lamellar_a"/>
+				<equipment slot="Leg" id="Item.AR_empire_boots_b"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_shoulder"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.closed_desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
+				<equipment slot="Leg" id="Item.AR_empire_boots_a"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_shoulder"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_b"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_r"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Elite Cavalry Skill 80-180 -->
+	<NPCCharacter id="AR_spa_t6_cavalry" default_group="Cavalry" level="31" name="{=AoFZUbun}Spahanfar Gyan Avspar" occupation="Soldier" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_spahad"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_d"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_cape"/>
+				<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_c"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_cape"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
+				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+				<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_cape"/>
+				<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_c"/>
+				<equipment slot="Cape" id="Item.brass_lamellar_cape"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
+				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+				<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>  
