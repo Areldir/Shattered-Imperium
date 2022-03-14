@@ -8,7 +8,6 @@ Version: Beta 0.1.0
 ----------------------------------------------------------------------------------------------------------
 Required files: 
 				AdonnaysTroopChanger
-				CalradiaExpanded
 				RealisticBattleCombatModule
 				OpenSourceArmory
 	
