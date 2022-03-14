@@ -3,7 +3,7 @@ Alpha Version - For Mount and Blade Bannerlord
 
 Name: Shattered Imperium (Calradian Reforms - Definitive Edition)
 
-Version: Alpha 0.2.0
+Version: Beta 0.1.0
 
 ----------------------------------------------------------------------------------------------------------
 Required files: 
