@@ -48,6 +48,7 @@
 				
 	
 	<xsl:variable name="one-handed-polearm-pieces" select="concat(
+                    'spear_handle_24,',
                     'AR_SI_spear_handle_a,',
                     'AR_SI_spear_handle_b,',
                     'AR_SI_spear_handle_c,',
@@ -56,6 +57,9 @@
                 )"/>
 				
 	<xsl:variable name="javelin-alternative-pieces" select="concat(
+                    'spear_handle_24,',
+                    'spear_pommel_10,',
+                    'spear_guard_2,',
                     'AR_SI_spear_handle_a,',
                     'AR_SI_spear_handle_b,',
                     'AR_SI_spear_handle_c,',
