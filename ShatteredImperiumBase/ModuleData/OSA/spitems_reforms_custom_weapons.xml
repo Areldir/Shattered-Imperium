@@ -40,14 +40,6 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" DoNotScaleBodyAccordingToWeaponLength="true"/>
 	</Item>
-	<Item id="AR_lance_heraldic_banner_b" name="One Handed Lance With Heraldic Banner" is_merchandise="true" body_name="bo_spear_b" recalculate_body="true" mesh="campaign_flag" using_tableau="true" value="18698" subtype="two_handed_wpn" weight="6.0" difficulty="0" appearance="1" Type="Polearm" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
-		<ItemComponent>
-			<Weapon weapon_class="TwoHandedPolearm" weapon_balance="100" thrust_speed="100" speed_rating="100" physics_material="wood_weapon" weapon_length="260" position="0.0, 0.0, -0.8" swing_damage="5" thrust_damage="112" swing_damage_type="Pierce" thrust_damage_type="Pierce" item_usage="polearm_block_thrust">
-				<WeaponFlags MeleeWeapon="true" PenaltyWithShield="false" NotUsableWithOneHand="false" TwoHandIdleOnMount="false" WideGrip="false"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags WoodenParry="true" DoNotScaleBodyAccordingToWeaponLength="true"/>
-	</Item>
 	<Item id="AR_aquila_a" name="Imperial Aquila Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_aquila_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
@@ -421,7 +413,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_v" name="Wooden Square Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_v" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_v" name="Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_v" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="460" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -429,7 +421,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_w" name="Leather Rimmed Wooden Square Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_w" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_w" name="Leather Rimmed Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_w" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="510" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -437,7 +429,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_x" name="Iron Rimmed Wooden Square Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_x" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+	<Item id="AR_shield_infantry_x" name="Iron Rimmed Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_x" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="550" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -445,7 +437,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_y" name="Iron Rimmed Wooden Square Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_y" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6400">
+	<Item id="AR_shield_infantry_y" name="Iron Reinforced Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_y" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6400">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="600" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>

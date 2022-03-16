@@ -1,114 +1,117 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-	<Item id="vlandia_helmet_s_ii" name="Western Flat Topped Helmet Over Leather" mesh="ap_vlandia_helmet_s_ii" culture="Culture.vlandia" weight="2.2" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="50" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-	</Item>
-	<Item id="vlandia_helmet_s_iii" name="Western Flat Topped Helmet Over Mail" mesh="ap_vlandia_helmet_s_iii" culture="Culture.vlandia" weight="3.2" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="100" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-	</Item>
-	<Item id="sloven_hat" name="Sloven Hat" mesh="ap_sloven_hat" culture="Culture.sturgia" weight="1.4" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="16" hair_cover_type="type2" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
-		</ItemComponent>
-	</Item>
-	<Item id="green_hat" name="Green Cloth Hat" mesh="ap_green_hat" culture="Culture.vlandia" weight="1.2" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="14" hair_cover_type="type2" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
-		</ItemComponent>
-	</Item>
-	<Item id="sloven_helmet" name="Eastern Conical Helmet" mesh="ap_sloven_helmet" culture="Culture.sturgia" weight="2.6" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="94" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-	</Item>
-	<Item id="sloven_hat_a" name="Rich Sloven Hat" mesh="ap_sloven_hat_a" culture="Culture.sturgia" weight="1.4" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="16" hair_cover_type="type2" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
-		</ItemComponent>
-	</Item>
-	<Item id="southern_helmet_with_band" name="Southern Helmet With Band" mesh="ap_southern_helmet_with_band" culture="Culture.aserai" weight="1.2" appearance="0.9" Type="HeadArmor">
+	<!-- RBM BALANCE -->
+	<!-- Aserai Helmets -->
+	<Item id="southern_helmet_with_band" name="{=osa_southern_helmet_with_band}Southern Helmet With Band" mesh="ap_southern_helmet_with_band" culture="Culture.aserai" weight="1.2" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="southern_cone_helmet" name="Southern Open Pointed Skullcap" mesh="ap_southern_cone_helmet" culture="Culture.aserai" weight="1.1" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_cone_helmet" name="{=osa_southern_cone_helmet}Southern Open Pointed Skullcap" mesh="ap_southern_cone_helmet" culture="Culture.aserai" weight="1.1" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="57" hair_cover_type="type2" beard_cover_type="type1" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="southern_heavy_helmet" name="Southern Heavy Helmet" mesh="ap_southern_heavy_helmet" culture="Culture.aserai" weight="1.2" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_heavy_helmet" name="{=osa_southern_heavy_helmet}Southern Heavy Helmet" mesh="ap_southern_heavy_helmet" culture="Culture.aserai" weight="1.2" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="62" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="southern_heavy_tuareg" name="Southern Pointed Skullcap With Tuareg" mesh="ap_southern_heavy_tuareg" culture="Culture.aserai" weight="1.3" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_heavy_tuareg" name="{=osa_southern_heavy_tuareg}Southern Pointed Skullcap With Tuareg" mesh="ap_southern_heavy_tuareg" culture="Culture.aserai" weight="1.3" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="56" hair_cover_type="type2" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="saracen_helmet_c" name="Closed Southern Spiked Helmet" mesh="ap_saracen_helmet_c" culture="Culture.aserai" weight="1.3" appearance="0.9" Type="HeadArmor">
+	<Item id="saracen_helmet_c" name="{=osa_saracen_helmet_c}Closed Southern Spiked Helmet" mesh="ap_saracen_helmet_c" culture="Culture.aserai" weight="1.3" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="47" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
-		<Flags/>
 	</Item>
-	<Item id="southern_lord_helmet_a" name="Southern Spiked Lord Helmet Over Guarded Mail" mesh="ap_southern_lord_helmet_a" culture="Culture.aserai" weight="3.5" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_lord_helmet_a" name="{=osa_southern_lord_helmet_a}Southern Spiked Lord Helmet Over Guarded Mail" mesh="ap_southern_lord_helmet_a" culture="Culture.aserai" weight="3.5" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="95" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 	</Item>
-	<Item id="southern_lord_helmet_b" name="Southern Spiked Lord Helmet Over Mail" mesh="ap_southern_lord_helmet_b" culture="Culture.aserai" weight="3.5" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_lord_helmet_b" name="{=osa_southern_lord_helmet_b}Southern Spiked Lord Helmet Over Mail" mesh="ap_southern_lord_helmet_b" culture="Culture.aserai" weight="3.5" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="95" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 	</Item>
-	<Item id="aserai_light_helmet" name="Southern Pointed Skullcap" mesh="ap_aserai_light_helmet" culture="Culture.aserai" weight="0.8" appearance="0.9" Type="HeadArmor">
+	<Item id="aserai_light_helmet" name="{=osa_aserai_light_helmet}Southern Pointed Skullcap" mesh="ap_aserai_light_helmet" culture="Culture.aserai" weight="0.8" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 	</Item>
-	<Item id="southern_light_helmet_a" name="Southern Closed Pointed Skullcap" mesh="ap_southern_light_helmet_a" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_light_helmet_a" name="{=osa_southern_light_helmet_a}Southern Closed Pointed Skullcap" mesh="ap_southern_light_helmet_a" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="aserai_mail_helmet" name="Southern Pointed Skullcap Over Mail" mesh="ap_aserai_mail_helmet" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
+	<Item id="aserai_mail_helmet" name="{=osa_aserai_mail_helmet}Southern Pointed Skullcap Over Mail" mesh="ap_aserai_mail_helmet" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="90" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 	</Item>
-	<Item id="saracen_helmet_d" name="Southern Vendel Helmet With Tuareg" mesh="ap_saracen_helmet_d" culture="Culture.aserai" weight="1.6" appearance="0.9" Type="HeadArmor">
+	<Item id="saracen_helmet_d" name="{=osa_saracen_helmet_d}Southern Vendel Helmet With Tuareg" mesh="ap_saracen_helmet_d" culture="Culture.aserai" weight="1.6" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="94" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="saracen_helmet_d_ii" name="Southern Wrapped Pointed Skullcap" mesh="ap_saracen_helmet_d_ii" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
+	<Item id="saracen_helmet_d_ii" name="{=osa_saracen_helmet_d_ii}Southern Wrapped Pointed Skullcap" mesh="ap_saracen_helmet_d_ii" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="47" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="southern_helmet_IIII" name="Southern Tailed Pointed Skullcap" mesh="ap_southern_helmet_IIII" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_helmet_IIII" name="{=osa_southern_helmet_IIII}Southern Tailed Pointed Skullcap" mesh="ap_southern_helmet_IIII" culture="Culture.aserai" weight="1.0" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="southern_heavy_helmet_with_feather" name="Southern Feathered Lord Helmet Over Mail" mesh="ap_southern_heavy_helmet_with_feather" culture="Culture.aserai" weight="3.2" appearance="0.9" Type="HeadArmor">
+	<Item id="southern_heavy_helmet_with_feather" name="{=osa_southern_heavy_helmet_with_feather}Southern Feathered Lord Helmet Over Mail" mesh="ap_southern_heavy_helmet_with_feather" culture="Culture.aserai" weight="3.2" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="94" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Strugian Helmets -->
+	<Item id="sloven_hat" name="{=osa_sloven_hat}Sloven Hat" mesh="ap_sloven_hat" culture="Culture.sturgia" weight="1.4" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="16" hair_cover_type="type2" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+	</Item>
+	<Item id="sloven_hat_a" name="{=osa_sloven_hat_a}Rich Sloven Hat" mesh="ap_sloven_hat_a" culture="Culture.sturgia" weight="1.4" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="16" hair_cover_type="type2" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+	</Item>
+	<Item id="sloven_helmet" name="{=osa_sloven_helmet}Eastern Conical Helmet" mesh="ap_sloven_helmet" culture="Culture.sturgia" weight="2.6" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="94" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+	</Item>
+	<Item id="green_hat" name="{=osa_green_hat}Green Cloth Hat" mesh="ap_green_hat" culture="Culture.vlandia" weight="1.2" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14" hair_cover_type="type2" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+	</Item>
+	<!-- Vlandian Helmets -->
+	<Item id="vlandia_helmet_s_ii" name="{=osa_vlandia_helmet_s_ii}Western Flat Topped Helmet Over Leather" mesh="ap_vlandia_helmet_s_ii" culture="Culture.vlandia" weight="2.2" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+	</Item>
+	<Item id="vlandia_helmet_s_iii" name="{=osa_vlandia_helmet_s_iii}Western Flat Topped Helmet Over Mail" mesh="ap_vlandia_helmet_s_iii" culture="Culture.vlandia" weight="3.2" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="100" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
 	</Item>
 </Items>
