@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-	<Item id="pauldron_cape_z" name="Northern Long Cape" mesh="bl_sturgian_cape_a" using_tableau="true" culture="Culture.sturgia" weight="3.5" appearance="4" Type="Cape">
+	<!-- RBM BALANCE -->
+	<Item id="pauldron_cape_z" name="{=osa_pauldron_cape_z}Northern Long Cape" mesh="bl_sturgian_cape_a" using_tableau="true" culture="Culture.sturgia" weight="3.5" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="42" arm_armor="0" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="lamellar_shoulder" name="Northern Lamellar Shoulders" mesh="bl_sturgian_cape_b" culture="Culture.sturgia" weight="3.5" appearance="4" Type="Cape">
+	<Item id="lamellar_shoulder" name="{=osa_lamellar_shoulder}Northern Lamellar Shoulders" mesh="bl_sturgian_cape_b" culture="Culture.sturgia" weight="3.5" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="34" arm_armor="0" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="lamellar_shoulder_scarf" name="Northern Lamellar Shoulders With Scarf" mesh="bl_sturgian_cape_c" culture="Culture.sturgia" weight="3.5" appearance="4" Type="Cape">
+	<Item id="lamellar_shoulder_scarf" name="{=osa_lamellar_shoulder_scarf}Northern Lamellar Shoulders With Scarf" mesh="bl_sturgian_cape_c" culture="Culture.sturgia" weight="3.5" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="36" arm_armor="0" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="brass_lamellar_cape" name="Brass Lamellar Cape" mesh="bl_brass_lamellar_cape" culture="Culture.khuzait" weight="5.0" appearance="2" Type="Cape">
+	<Item id="brass_lamellar_cape" name="{=osa_brass_lamellar_cape}Brass Lamellar Cape" mesh="bl_brass_lamellar_cape" culture="Culture.khuzait" weight="5.0" appearance="2" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="42" arm_armor="0" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="brass_lamellar_cape_z" name="Northern Lamellar Cape" mesh="bl_brass_lamellar_cape_z" culture="Culture.khuzait" weight="5.0" appearance="2" Type="Cape">
+	<Item id="brass_lamellar_cape_z" name="{=osa_brass_lamellar_cape_z}Northern Lamellar Cape" mesh="bl_brass_lamellar_cape_z" culture="Culture.khuzait" weight="5.0" appearance="2" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="42" arm_armor="0" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>

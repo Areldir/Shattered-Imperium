@@ -104,13 +104,13 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="TV_aserai_lord_helmet_b" name="{=osa_tv_aserai_lord_helmet_b}Ornate Southern Silvered Battle Crown" mesh="TV_aserai_lord_helmet_b" culture="Culture.aserai" weight="2.8" appearance="9" Type="HeadArmor" subtype="head_armor">
+	<Item id="TV_aserai_lord_helmet_b" name="{=osa_tv_aserai_lord_helmet_b}Ornate Southern Silvered Battle Crown" mesh="TV_aserai_lord_helmet_b" culture="Culture.aserai" weight="2.8" appearance="9" Type="HeadArmor" subtype="head_armor" is_merchandise="false">
 		<ItemComponent>
 			<Armor head_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="TV_aserai_lord_helmet_c" name="{=osa_tv_aserai_lord_helmet_c}Ornate Southern Battle Crown" mesh="TV_aserai_lord_helmet_c" culture="Culture.aserai" weight="2.8" appearance="9" Type="HeadArmor" subtype="head_armor">
+	<Item id="TV_aserai_lord_helmet_c" name="{=osa_tv_aserai_lord_helmet_c}Ornate Southern Battle Crown" mesh="TV_aserai_lord_helmet_c" culture="Culture.aserai" weight="2.8" appearance="9" Type="HeadArmor" subtype="head_armor" is_merchandise="false">
 		<ItemComponent>
 			<Armor head_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
 		</ItemComponent>
@@ -297,21 +297,21 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="TV_battania_lord_helmet_a" name="{=osa_tv_battania_lord_helmet_a}Iron Highland Crown" mesh="TV_battania_lord_helmet_a" culture="Culture.battania" weight="2.3" appearance="3" Type="HeadArmor" subtype="head_armor">
+	<Item id="TV_battania_lord_helmet_a" name="{=osa_tv_battania_lord_helmet_a}Iron Highland Crown" mesh="TV_battania_lord_helmet_a" culture="Culture.battania" weight="2.3" appearance="3" Type="HeadArmor" subtype="head_armor" is_merchandise="false">
 		<ItemComponent>
-			<Armor head_armor="66" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+			<Armor head_armor="66" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<Item id="TV_battania_lord_helmet_b" name="{=osa_tv_battania_lord_helmet_b}Two Pronged Gold Crown" mesh="TV_battania_lord_helmet_b" culture="Culture.battania" weight="2.3" appearance="3" Type="HeadArmor" subtype="head_armor">
+	<Item id="TV_battania_lord_helmet_b" name="{=osa_tv_battania_lord_helmet_b}Two Pronged Gold Crown" mesh="TV_battania_lord_helmet_b" culture="Culture.battania" weight="2.3" appearance="3" Type="HeadArmor" subtype="head_armor" is_merchandise="false">
 		<ItemComponent>
-			<Armor head_armor="66" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+			<Armor head_armor="66" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
 	<Item id="TV_battania_lord_helmet_c" name="{=osa_tv_battania_lord_helmet_c}Crested Decorated Steel Cap With Cheek Guards" mesh="TV_battania_lord_helmet_c" culture="Culture.battania" weight="3.1" appearance="3" Type="HeadArmor" subtype="head_armor">
 		<ItemComponent>
-			<Armor head_armor="89" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+			<Armor head_armor="89" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
@@ -633,13 +633,13 @@
 	</Item>
 	<Item id="TV_vlandia_helmet_l" name="{=osa_tv_vlandia_helmet_l}Western Peaked Lancer's Helmet Over Red Cloth" mesh="TV_vlandia_helmet_l" culture="Culture.vlandia" weight="1.1" appearance="1" Type="HeadArmor" subtype="head_armor">
 		<ItemComponent>
-			<Armor head_armor="65" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+			<Armor head_armor="65" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="TV_vlandia_helmet_m" name="{=osa_tv_vlandia_helmet_m}Western Peaked Lancer's Helmet Over Leather" mesh="TV_vlandia_helmet_m" culture="Culture.vlandia" weight="1" appearance="1" Type="HeadArmor" subtype="head_armor">
 		<ItemComponent>
-			<Armor head_armor="74" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+			<Armor head_armor="74" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>

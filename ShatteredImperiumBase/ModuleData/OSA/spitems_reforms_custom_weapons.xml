@@ -2,37 +2,37 @@
 <Items>
 	<!-- RBM Balance -->
 	<!-- Banners -->
-	<Item id="AR_imperial_dragon_banner_a" name="Imperial Gold Draco Standard With Banner" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_imperial_dragon_banner_a" name="{=osa_ar_imperial_dragon_banner_a}Imperial Gold Draco Standard With Banner" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_imperial_dragon_banner_b" name="Imperial Gold Draco Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_imperial_dragon_banner_b" name="{=osa_ar_imperial_dragon_banner_b}Imperial Gold Draco Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_imperial_dragon_banner_c" name="Imperial Silver Draco Standard With Banner" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_c" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_imperial_dragon_banner_c" name="{=osa_ar_imperial_dragon_banner_c}Imperial Silver Draco Standard With Banner" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_c" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_imperial_dragon_banner_d" name="Imperial Silver Draco Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_d" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_imperial_dragon_banner_d" name="{=osa_ar_imperial_dragon_banner_d}Imperial Silver Draco Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_dragonbanner_d" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+		<ItemComponent>
+			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
+		</ItemComponent>
+		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
+	</Item>
+	<Item id="AR_heraldic_banner" name="{=osa_ar_heraldic_banner}Heraldic Banner" is_merchandise="true" body_name="bo_spear_b" recalculate_body="true" mesh="campaign_flag" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_heraldic_banner" name="Heraldic Banner" is_merchandise="true" body_name="bo_spear_b" recalculate_body="true" mesh="campaign_flag" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
-		<ItemComponent>
-			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" physics_material="wood_weapon" weapon_length="104"/>
-		</ItemComponent>
-		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
-	</Item>
-	<Item id="AR_lance_heraldic_banner" name="Lance With Heraldic Banner" is_merchandise="true" body_name="bo_spear_b" recalculate_body="true" mesh="campaign_flag" using_tableau="true" value="18698" subtype="two_handed_wpn" weight="6.0" difficulty="0" appearance="1" Type="Polearm" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_lance_heraldic_banner" name="{=osa_ar_lance_heraldic_banner}Lance With Heraldic Banner" is_merchandise="true" body_name="bo_spear_b" recalculate_body="true" mesh="campaign_flag" using_tableau="true" value="18698" subtype="two_handed_wpn" weight="6.0" difficulty="0" appearance="1" Type="Polearm" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="TwoHandedPolearm" weapon_balance="100" thrust_speed="100" speed_rating="100" physics_material="wood_weapon" weapon_length="260" position="0.0, 0.0, -0.8" swing_damage="5" thrust_damage="112" swing_damage_type="Pierce" thrust_damage_type="Pierce" item_usage="polearm_block_thrust">
 				<WeaponFlags MeleeWeapon="true" PenaltyWithShield="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" WideGrip="true"/>
@@ -40,92 +40,92 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" DoNotScaleBodyAccordingToWeaponLength="true"/>
 	</Item>
-	<Item id="AR_aquila_a" name="Imperial Aquila Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_aquila_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_aquila_a" name="{=osa_ar_aquila_a}Imperial Aquila Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_aquila_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_signum_a" name="Imperial Gold Signum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_signum_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_signum_a" name="{=osa_ar_signum_a}Imperial Gold Signum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_signum_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_signum_b" name="Imperial Silver Signum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_signum_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_signum_b" name="{=osa_ar_signum_b}Imperial Silver Signum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_signum_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_hawk_banner_a" name="Highland Hawk Standard" is_merchandise="true" culture="Culture.battania" body_name="bo_spear_b" recalculate_body="true" mesh="ar_hawk_banner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_hawk_banner_a" name="{=osa_ar_hawk_banner_a}Highland Hawk Standard" is_merchandise="true" culture="Culture.battania" body_name="bo_spear_b" recalculate_body="true" mesh="ar_hawk_banner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_hog_banner_a" name="Highland Hog Standard" is_merchandise="true" culture="Culture.battania" body_name="bo_spear_b" recalculate_body="true" mesh="ar_hog_banner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_hog_banner_a" name="{=osa_ar_hog_banner_a}Highland Hog Standard" is_merchandise="true" culture="Culture.battania" body_name="bo_spear_b" recalculate_body="true" mesh="ar_hog_banner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_imago_a" name="Imperial Imago Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_imago_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_imago_a" name="{=osa_ar_imago_a}Imperial Imago Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="ar_imago_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_vexillum_a" name="Decorated Gold Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_vexillum_a" name="{=osa_ar_vexillum_a}Decorated Gold Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_vexillum_b" name="Decorated Silver Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_vexillum_b" name="{=osa_ar_vexillum_b}Decorated Silver Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_vexillum_c" name="Gold Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_c" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_vexillum_c" name="{=osa_ar_vexillum_c}Gold Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_c" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_vexillum_d" name="Silver Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_d" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_vexillum_d" name="{=osa_ar_vexillum_d}Silver Vexillum Standard" is_merchandise="true" culture="Culture.empire" body_name="bo_spear_b" recalculate_body="true" mesh="AR_vexillum_d" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_horse_banner_a" name="Steppe Decorated Gold Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_horse_banner_a" name="{=osa_ar_horse_banner_a}Steppe Decorated Gold Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_a" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_horse_banner_b" name="Steppe Decorated Silver Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_horse_banner_b" name="{=osa_ar_horse_banner_b}Steppe Decorated Silver Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_b" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_horse_banner_c" name="Steppe Gold Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_c" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_horse_banner_c" name="{=osa_ar_horse_banner_c}Steppe Gold Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_c" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
-	<Item id="AR_horse_banner_d" name="Steppe Silver Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_d" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
+	<Item id="AR_horse_banner_d" name="{=osa_ar_horse_banner_d}Steppe Silver Horse Standard" is_merchandise="true" culture="Culture.khuzait" body_name="bo_spear_b" recalculate_body="true" mesh="AR_horse_banner_d" using_tableau="true" value="5000" weight="5" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2" has_lower_holster_priority="true" holster_position_shift="0,-0.035,-1.1">
 		<ItemComponent>
 			<Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.8" rotation="0.0,0.0,180" physics_material="wood_weapon" weapon_length="104"/>
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" DropOnWeaponChange="false" HeldInOffHand="true" HasToBeHeldUp="true"/>
 	</Item>
 	<!-- Shields -->
-	<Item id="AR_shield_infantry_a" name="Iron Rimmed Oval Shield" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_a" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_a" name="{=osa_ar_shield_infantry_a}Iron Rimmed Oval Shield" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_a" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="540" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -133,7 +133,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_a2" name="Bronze Rimmed Oval Shield" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_a2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_a2" name="{=osa_ar_shield_infantry_a2}Bronze Rimmed Oval Shield" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_a2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="540" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -141,7 +141,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_b" name="Iron Reinforced Oval Shield" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_b" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+	<Item id="AR_shield_infantry_b" name="{=osa_ar_shield_infantry_b}Iron Reinforced Oval Shield" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_b" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="560" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -149,7 +149,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_b2" name="Bronze Reinforced Oval Shield" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_b2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+	<Item id="AR_shield_infantry_b2" name="{=osa_ar_shield_infantry_b2}Bronze Reinforced Oval Shield" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_b2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="560" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -157,7 +157,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_c" name="Iron Decorated Oval Shield" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_c" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+	<Item id="AR_shield_infantry_c" name="{=osa_ar_shield_infantry_c}Iron Decorated Oval Shield" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_c" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="610" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -165,7 +165,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_c2" name="Bronze Decorated Oval Shield" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_c2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+	<Item id="AR_shield_infantry_c2" name="{=osa_ar_shield_infantry_c2}Bronze Decorated Oval Shield" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_c2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="610" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -173,7 +173,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_d" name="Iron Simple Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_d" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
+	<Item id="AR_shield_infantry_d" name="{=osa_ar_shield_infantry_d}Iron Simple Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_d" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="195.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -181,7 +181,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_d2" name="Bronze Simple Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_d2" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
+	<Item id="AR_shield_infantry_d2" name="{=osa_ar_shield_infantry_d2}Bronze Simple Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_d2" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="195.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -189,7 +189,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_e" name="Iron Reinforced Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_e" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
+	<Item id="AR_shield_infantry_e" name="{=osa_ar_shield_infantry_e}Iron Reinforced Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_e" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -197,7 +197,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_e2" name="Bronze Reinforced Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_e2" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
+	<Item id="AR_shield_infantry_e2" name="{=osa_ar_shield_infantry_e2}Bronze Reinforced Round Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_e2" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -205,7 +205,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_f" name="Iron Rimmed Wooden Oval Shield" body_name="bo_cap_aserai_shields_b" shield_body_name="bo_aserai_shields_b" recalculate_body="false" mesh="AR_shield_infantry_f" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_f" name="{=osa_ar_shield_infantry_f}Iron Rimmed Wooden Oval Shield" body_name="bo_cap_aserai_shields_b" shield_body_name="bo_aserai_shields_b" recalculate_body="false" mesh="AR_shield_infantry_f" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="540" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -213,7 +213,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_f2" name="Bronze Rimmed Wooden Oval Shield" body_name="bo_cap_aserai_shields_b" shield_body_name="bo_aserai_shields_b" recalculate_body="false" mesh="AR_shield_infantry_f2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_f2" name="{=osa_ar_shield_infantry_f2}Bronze Rimmed Wooden Oval Shield" body_name="bo_cap_aserai_shields_b" shield_body_name="bo_aserai_shields_b" recalculate_body="false" mesh="AR_shield_infantry_f2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="540" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -221,7 +221,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_g" name="Iron Reinforced Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_g" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_g" name="{=osa_ar_shield_infantry_g}Iron Reinforced Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_g" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="560" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -229,7 +229,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_g2" name="Bronze Reinforced Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_g2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_g2" name="{=osa_ar_shield_infantry_g2}Bronze Reinforced Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_g2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="560" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -237,7 +237,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_h" name="Iron Decorated Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_h" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+	<Item id="AR_shield_infantry_h" name="{=osa_ar_shield_infantry_h}Iron Decorated Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_h" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="610" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -245,7 +245,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_h2" name="Bronze Decorated Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_h2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+	<Item id="AR_shield_infantry_h2" name="{=osa_ar_shield_infantry_h2}Bronze Decorated Wooden Oval Shield" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_h2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="610" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -253,7 +253,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_i" name="Wrapped Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_i" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_i" name="{=osa_ar_shield_infantry_i}Wrapped Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_i" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="460" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -261,7 +261,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_j" name="Reinforced Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_j" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_j" name="{=osa_ar_shield_infantry_j}Reinforced Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_j" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="510" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -269,7 +269,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_k" name="Decorated Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_k" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+	<Item id="AR_shield_infantry_k" name="{=osa_ar_shield_infantry_k}Decorated Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_k" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="550" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -277,7 +277,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_l" name="Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_l" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_l" name="{=osa_ar_shield_infantry_l}Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_l" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="420" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -285,7 +285,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_m" name="Strapped Iron Bound Round Shield" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_m" using_tableau="true" weight="7.3" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" value="4000" culture="Culture.aserai">
+	<Item id="AR_shield_infantry_m" name="{=osa_ar_shield_infantry_m}Strapped Iron Bound Round Shield" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_m" using_tableau="true" weight="7.3" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" value="4000" culture="Culture.aserai">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0, 0.1, 0.1" hit_points="445">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -293,7 +293,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_m2" name="Strapped Bronze Bound Round Shield" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_m2" using_tableau="true" weight="7.3" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" value="4000" culture="Culture.aserai">
+	<Item id="AR_shield_infantry_m2" name="{=osa_ar_shield_infantry_m2}Strapped Bronze Bound Round Shield" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_m2" using_tableau="true" weight="7.3" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" value="4000" culture="Culture.aserai">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0, 0.1, 0.1" hit_points="445">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -301,7 +301,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_n" name="Strapped Iron Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_n" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="3000" culture="Culture.aserai">
+	<Item id="AR_shield_infantry_n" name="{=osa_ar_shield_infantry_n}Strapped Iron Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_n" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="3000" culture="Culture.aserai">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="500">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -309,7 +309,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_n2" name="Strapped Bronze Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_n2" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="3000" culture="Culture.aserai">
+	<Item id="AR_shield_infantry_n2" name="{=osa_ar_shield_infantry_n2}Strapped Bronze Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_n2" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="3000" culture="Culture.aserai">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="500">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -317,7 +317,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_o" name="Strapped Iron Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_o" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="4200" culture="Culture.aserai">
+	<Item id="AR_shield_infantry_o" name="{=osa_ar_shield_infantry_o}Strapped Iron Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_o" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="4200" culture="Culture.aserai">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="530">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -325,7 +325,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_o2" name="Strapped Bronze Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_o2" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="4200" culture="Culture.aserai">
+	<Item id="AR_shield_infantry_o2" name="{=osa_ar_shield_infantry_o2}Strapped Bronze Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_o2" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="4200" culture="Culture.aserai">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="530">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -333,7 +333,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_p" name="Strapped Northern Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_p" culture="Culture.sturgia" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+	<Item id="AR_shield_infantry_p" name="{=osa_ar_shield_infantry_p}Strapped Northern Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_p" culture="Culture.sturgia" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -341,7 +341,15 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_r" name="Strapped Iron Simple Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_r" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+	<Item id="AR_shield_infantry_q" name="{=osa_ar_shield_infantry_q}Strapped Norse Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_q" culture="Culture.sturgia" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" item_modifier_group="shield_wood">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_r" name="{=osa_ar_shield_infantry_r}Strapped Iron Simple Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_r" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -349,7 +357,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_r2" name="Strapped Bronze Simple Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_r2" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+	<Item id="AR_shield_infantry_r2" name="{=osa_ar_shield_infantry_r2}Strapped Bronze Simple Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_r2" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -357,7 +365,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_q" name="Strapped Norse Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_q" culture="Culture.sturgia" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+	<Item id="AR_shield_infantry_s" name="{=osa_ar_shield_infantry_s}Strapped Iron Reinforced Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_s" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -365,7 +373,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_s" name="Strapped Iron Reinforced Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_s" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+	<Item id="AR_shield_infantry_s2" name="{=osa_ar_shield_infantry_s2}Strapped Bronze Reinforced Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_s2" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -373,15 +381,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_s2" name="Strapped Bronze Reinforced Round Shield" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_s2" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
-		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" item_modifier_group="shield_wood">
-				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
-	</Item>
-	<Item id="AR_shield_infantry_t" name="Iron Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_t" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="3000">
+	<Item id="AR_shield_infantry_t" name="{=osa_ar_shield_infantry_t}Iron Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_t" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="3000">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="500">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -389,7 +389,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_t2" name="Bronze Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_t2" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="3000">
+	<Item id="AR_shield_infantry_t2" name="{=osa_ar_shield_infantry_t2}Bronze Reinforced Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_t2" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="3000">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="500">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -397,7 +397,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_u" name="Iron Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_u" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
+	<Item id="AR_shield_infantry_u" name="{=osa_ar_shield_infantry_u}Iron Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_u" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="530">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -405,7 +405,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_u2" name="Bronze Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_u2" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
+	<Item id="AR_shield_infantry_u2" name="{=osa_ar_shield_infantry_u2}Bronze Decorated Round Shield" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_u2" culture="Culture.empire" using_tableau="true" weight="3.5" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="530">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -413,7 +413,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_v" name="Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_v" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_v" name="{=osa_ar_shield_infantry_v}Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_v" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="460" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -421,7 +421,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_w" name="Leather Rimmed Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_w" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_w" name="{=osa_ar_shield_infantry_w}Leather Rimmed Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_w" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="510" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -429,7 +429,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_x" name="Iron Rimmed Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_x" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+	<Item id="AR_shield_infantry_x" name="{=osa_ar_shield_infantry_x}Iron Rimmed Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_x" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="550" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -437,7 +437,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_y" name="Iron Reinforced Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_y" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6400">
+	<Item id="AR_shield_infantry_y" name="{=osa_ar_shield_infantry_y}Iron Reinforced Wooden Square Shield" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_y" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6400">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="600" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -445,7 +445,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_z" name="Leather Rimmed Coffin Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_z" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+	<Item id="AR_shield_infantry_z" name="{=osa_ar_shield_infantry_z}Leather Rimmed Coffin Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_z" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="540" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -453,7 +453,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_za" name="Iron Reinforced Coffin Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_za" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+	<Item id="AR_shield_infantry_za" name="{=osa_ar_shield_infantry_za}Iron Reinforced Coffin Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_za" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="560" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -461,7 +461,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_zb" name="Iron Decorated Coffin Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zb" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+	<Item id="AR_shield_infantry_zb" name="{=osa_ar_shield_infantry_zb}Iron Decorated Coffin Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zb" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="610" item_modifier_group="shield_wood">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -469,7 +469,7 @@
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
-	<Item id="AR_shield_infantry_zc" name="{=FktkkUMK}Steel Round Shield" body_name="bo_cap_aserai_shields_g" shield_body_name="bo_aserai_shields_g" recalculate_body="false" mesh="AR_shield_infantry_zc" weight="4" appearance="0.9" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" value="12000" culture="Culture.khuzait">
+	<Item id="AR_shield_infantry_zc" name="{=osa_ar_shield_infantry_zc}Steel Round Shield" body_name="bo_cap_aserai_shields_g" shield_body_name="bo_aserai_shields_g" recalculate_body="false" mesh="AR_shield_infantry_zc" weight="4" appearance="0.9" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" value="12000" culture="Culture.khuzait">
 		<ItemComponent>
 			<Weapon weapon_class="LargeShield" body_armor="15" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.01, 0.07, 0.1" hit_points="2000">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
@@ -478,7 +478,7 @@
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
 	</Item>
 	<!-- Ranged Weapons -->
-	<Item id="AR_naptha_pot" name="{=1CPdu9K0}Calradic Naphtha Pots" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="AR_fire_pot" value="26842" weight="0.5" difficulty="40" appearance="0.1" Type="Thrown" flying_mesh="AR_fire_pot" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
+	<Item id="AR_naptha_pot" name="{=osa_ar_naptha_pot}Calradic Fire Pots" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="AR_fire_pot" value="26842" weight="0.5" difficulty="40" appearance="0.1" Type="Thrown" flying_mesh="AR_fire_pot" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
 		<ItemComponent>
 			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="4" physics_material="burning_jar" accuracy="69" thrust_speed="80" speed_rating="80" missile_speed="60" weapon_length="95" thrust_damage="800" item_usage="stone" rotation="100,30,20" passby_sound_code="" rotation_speed="0, -3.0, 0" trail_particle_name="psys_game_burning_jar_trail">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" UseHandAsThrowBase="true" Burning="true" LeavesTrail="true" CanPenetrateShield="true" AffectsAreaBig="true"/>
@@ -486,7 +486,7 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="AR_plumbata" name="{=1CPdu9K0}Plumbata Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_e_quiver" holster_mesh_with_weapon="bolt_bl_e_quiver" mesh="AR_plumbata" culture="Culture.empire" weight="0.3" value="2000" appearance="0.1" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
+	<Item id="AR_plumbata" name="{=osa_ar_plumbata}Plumbata Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_e_quiver" holster_mesh_with_weapon="bolt_bl_e_quiver" mesh="AR_plumbata" culture="Culture.empire" weight="0.3" value="2000" appearance="0.1" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
 			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="92" thrust_speed="100" speed_rating="100" missile_speed="92" weapon_length="34" thrust_damage="450" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" UseHandAsThrowBase="true"/>
@@ -494,7 +494,7 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="AR_plumbata_heavy" name="{=1CPdu9K0}Heavy Plumbata Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_a_quiver" holster_mesh_with_weapon="bolt_bl_a_quiver" mesh="AR_plumbata_heavy" culture="Culture.empire" weight="0.4" value="5000" appearance="0.1" difficulty="20" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
+	<Item id="AR_plumbata_heavy" name="{=osa_ar_plumbata_heavy}Heavy Plumbata Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_a_quiver" holster_mesh_with_weapon="bolt_bl_a_quiver" mesh="AR_plumbata_heavy" culture="Culture.empire" weight="0.4" value="5000" appearance="0.1" difficulty="20" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
 			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="84" thrust_speed="100" speed_rating="100" missile_speed="84" weapon_length="47" thrust_damage="550" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" CanPenetrateShield="true" UseHandAsThrowBase="true"/>
@@ -502,7 +502,7 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="AR_martiobarbuli" name="{=1CPdu9K0}Martiobarbuli Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_c_quiver" holster_mesh_with_weapon="bolt_bl_c_quiver" mesh="AR_Martiobarbuli" culture="Culture.aserai" weight="0.4" value="5000" appearance="0.1" difficulty="40" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
+	<Item id="AR_martiobarbuli" name="{=osa_ar_martiobarbuli}Martiobarbuli Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_c_quiver" holster_mesh_with_weapon="bolt_bl_c_quiver" mesh="AR_Martiobarbuli" culture="Culture.aserai" weight="0.4" value="5000" appearance="0.1" difficulty="40" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
 			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="3" physics_material="missile" accuracy="82" thrust_speed="100" speed_rating="100" missile_speed="92" weapon_length="38" thrust_damage="650" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" CanPenetrateShield="true" UseHandAsThrowBase="true"/>
@@ -510,7 +510,7 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="AR_throwing_pot" name="{=1CPdu9K0}Throwing Pots" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="AR_throwing_pot" value="100" weight="0.5" difficulty="0" appearance="0.1" Type="Thrown" flying_mesh="AR_throwing_pot" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
+	<Item id="AR_throwing_pot" name="{=osa_ar_throwing_pot}Throwing Pots" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="AR_throwing_pot" value="100" weight="0.5" difficulty="0" appearance="0.1" Type="Thrown" flying_mesh="AR_throwing_pot" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
 		<ItemComponent>
 			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="pot_breakable" accuracy="45" thrust_speed="102" speed_rating="102" missile_speed="40" weapon_length="10" thrust_damage="15" item_usage="stone" rotation="100,30,20" passby_sound_code="" rotation_speed="0, -3.0, 0">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" UseHandAsThrowBase="true" UnloadWhenSheathed="true" AffectsArea="true" AmmoBreaksOnBounceBack="true"/>
@@ -518,7 +518,7 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="AR_war_dart_a" name="{=1CPdu9K0}Highland War Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="arrow_bl_h_quiver" holster_mesh_with_weapon="arrow_bl_h_quiver" mesh="AR_war_dart_a" culture="Culture.aserai" weight="0.4" value="5000" appearance="0.1" difficulty="40" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
+	<Item id="AR_war_dart_a" name="{=osa_ar_war_dart_a}Highland War Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="arrow_bl_h_quiver" holster_mesh_with_weapon="arrow_bl_h_quiver" mesh="AR_war_dart_a" culture="Culture.aserai" weight="0.4" value="5000" appearance="0.1" difficulty="40" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
 			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="82" thrust_speed="100" speed_rating="100" missile_speed="84" weapon_length="38" thrust_damage="550" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" CanPenetrateShield="true" UseHandAsThrowBase="true"/>
