@@ -6,6 +6,7 @@
 		<ItemComponent>
 			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="heavy_samurai_shoulder" name="{=osa_heavy_samurai_shoulder}Oriental Laminar Shoulders" mesh="ap_heavy_samutai_shoulder" culture="Culture.khuzait" subtype="body_armor" weight="3.1" appearance="0.6" Type="Cape">
 		<ItemComponent>
@@ -16,6 +17,7 @@
 		<ItemComponent>
 			<Armor body_armor="22" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="leather_shoulder_b" name="{=osa_leather_shoulder_b}Western Plated Leather Shoulders" mesh="ap_leather_shoulder_b" culture="Culture.vlandia" subtype="body_armor" weight="3.4" appearance="0.6" Type="Cape">
 		<ItemComponent>
@@ -27,6 +29,7 @@
 		<ItemComponent>
 			<Armor body_armor="6" leg_armor="5" arm_armor="5" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="mercenary_gambeson" name="{=osa_mercenary_gambeson}Mercenary Gambeson" mesh="ap_mercenary_gambeson" culture="Culture.vlandia" weight="8.3" appearance="0.7" Type="BodyArmor">
 		<ItemComponent>

@@ -67,6 +67,10 @@
                     'AR_SI_spear_handle_e'
                 )"/>
 				
+	<xsl:variable name="javelin-pieces" select="concat(
+                    'spear_handle_11,',
+                    'spear_pommel_12'
+                )"/>
 				
     <xsl:template match="node()|@*">
         <xsl:copy>
@@ -98,5 +102,12 @@
         </xsl:call-template>
     </xsl:template>
 	
+	<xsl:template match="//WeaponDescription[@id='Javelin']//AvailablePiece[not(following-sibling::AvailablePiece)]">
+        <xsl:call-template name="generate-available-pieces">
+            <xsl:with-param name="weapon-pieces">
+                <xsl:value-of select="$javelin-pieces"/>
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
     
 </xsl:stylesheet>
