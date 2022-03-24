@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- EMPIRE AUXILIARIES -->
-	<!-- T1 Sword Infantry Skill 5-20 -->
+	<!-- T1 Sword Infantry Light Skill 5-20 -->
 	<NPCCharacter id="AR_emp_aux_northern_recruit" default_group="Infantry" level="6" name="{=IfjWyWjc}Foederatus Borealis" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -98,13 +98,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Sword Infantry Skill 20-40 -->
+	<!-- T2 Sword Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_northern_axeman" default_group="Infantry" level="11" name="{=IZ8OmByJ}Foederatus Vaegiri Pedes" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -170,7 +170,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Infantry Skill 40-70 -->
+	<!-- T3 Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_northern_axeman" default_group="Infantry" level="16" name="{=yrGYZsQ7}Foederatus Vaegiri Junior Ripensis" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -252,13 +252,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_northern_axeman" default_group="Infantry" level="21" name="{=JGsUtBT3}Foederatus Vaegiri Senior Ripensis" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -314,13 +314,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Infantry Skill 60-130 -->
+	<!-- T5 Infantry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_northern_axeman" default_group="Infantry" level="26" name="{=qAsnj7vU}Foederatus Vaegiri Hetaireia Guard" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -374,13 +374,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Slinger Skill 20-40 -->
+	<!-- T2 Slinger Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_northern_slinger" default_group="Ranged" level="11" name="Foederatus Vanni Explorator" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -440,7 +440,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Slinger Skill 40-70 -->
+	<!-- T3 Slinger Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_northern_slinger" default_group="Ranged" level="16" name="{=CRzrHomf}Foederatus Vanni Junior Funditor" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -528,13 +528,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Slinger Skill 60-100 -->
+	<!-- T4 Slinger Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_northern_slinger" default_group="Ranged" level="21" name="Foederatus Vanni Senior Funditor" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -616,13 +616,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Slinger Skill 60-130 -->
+	<!-- T5 Slinger Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_northern_slinger" default_group="Ranged" level="26" name="Foederatus Vanni Funditor Armatus" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -691,13 +691,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Archer Skill 20-40 -->
+	<!-- T1 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_southern_recruit" default_group="Ranged" level="6" name="{=LbjxH9yp}Foederatus Australis" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -764,13 +764,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_southern_archer" default_group="Ranged" level="11" name="{=fHQ8ifKM}Foederatus Aserai Explorator" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -816,7 +816,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_southern_archer" default_group="Ranged" level="16" name="{=8bA4PvdG}Foederatus Aserai Toxotes" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -888,13 +888,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_southern_archer" default_group="Ranged" level="21" name="{=CDUvlu4d}Foederatus Aserai Sagittarius" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -998,13 +998,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_southern_archer" default_group="Ranged" level="26" name="{=CDUvlu4d}Foederatus Aserai Sagittarius Armatus" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1051,13 +1051,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Archer Skill 20-40 -->
+	<!-- T2 Cavalry Archer Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_southern_camel" default_group="HorseArcher" level="11" name="{=LbjxH9yp}Foederatus Nahasi Explorator" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1105,13 +1105,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Archer Skill 40-70 -->
+	<!-- T3 Cavalry Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_southern_camel" default_group="HorseArcher" level="16" name="{=LbjxH9yp}Foederatus Nahasi Junior Praeventor" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1173,13 +1173,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_southern_camel" default_group="HorseArcher" level="21" name="{=LbjxH9yp}Foederatus Nahasi Senior Praeventor" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1230,13 +1230,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_southern_camel" default_group="HorseArcher" level="26" name="{=LbjxH9yp}Foederatus Nahasi Dromedarius" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1274,13 +1274,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Cavalry Archer Skill 5-20 -->
+	<!-- T1 Cavalry Archer Light Skill 5-20 -->
 	<NPCCharacter id="AR_emp_aux_eastern_recruit" default_group="HorseArcher" level="6" name="{=pRbbJHkU}Foederatus Orientalis" occupation="Soldier" is_basic_troop="true" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="5"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -1350,13 +1350,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Archer Skill 20-40 -->
+	<!-- T2 Cavalry Archer Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_eastern_cav_archer" default_group="HorseArcher" level="11" name="{=pRbbJHkU}Foederatus Kankhari Hippo Toxotes" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1434,13 +1434,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Archer Skill 40-70 -->
+	<!-- T3 Cavalry Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_eastern_cav_archer" default_group="HorseArcher" level="16" name="{=pRbbJHkU}Foederatus Kankhari Junior Bucellarius" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1508,13 +1508,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_eastern_cav_archer" default_group="HorseArcher" level="21" name="{=pRbbJHkU}Foederatus Kankhari Senior Bucellarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1572,13 +1572,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_eastern_cav_archer" default_group="HorseArcher" level="26" name="{=pRbbJHkU}Foederatus Kankhari Scholaris Sagittarius" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1624,13 +1624,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Skill 20-40 -->
+	<!-- T2 Cavalry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_eastern_cavalry" default_group="Cavalry" level="11" name="{=fHQ8ifKM}Foederatus Eleftheri Equite" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1681,13 +1681,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_eastern_cavalry" default_group="Cavalry" level="16" name="{=UdTc1PGo}Foederatus Eleftheri Equite Promotus" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1738,13 +1738,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_eastern_cavalry" default_group="Cavalry" level="21" name="{=UdTc1PGo}Foederatus Eleftheri Scholaris" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1795,13 +1795,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_i"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_eastern_cavalry" default_group="Cavalry" level="26" name="{=THyv3q9f}Foederatus Eleftheri Scholaris Armatus" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1839,13 +1839,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_h"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Skirmisher Cavalry Skill 5-20 -->
+	<!-- T1 Skirmisher Cavalry Light Skill 5-20 -->
 	<NPCCharacter id="AR_emp_aux_lowland_recruit" default_group="Ranged" level="6" name="{=LbjxH9yp}Foederatus Litoralis" occupation="Soldier" is_basic_troop="true" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -1902,13 +1902,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Skirmisher Cavalry Skill 20-40 -->
+	<!-- T2 Skirmisher Cavalry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_lowland_cavalry" default_group="Cavalry" level="11" name="{=1PsLlMaQ}Foederatus Rhotiai Equite" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1966,13 +1966,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Cavalry Skill 40-70 -->
+	<!-- T3 Skirmisher Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_lowland_cavalry" default_group="Cavalry" level="16" name="{=1PsLlMaQ}Foederatus Rhotiai Junior Contarius" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2030,13 +2030,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Cavalry Skill 60-100 -->
+	<!-- T4 Skirmisher Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_lowland_cavalry" default_group="Cavalry" level="21" name="{=GUQ3zfg2}Foederatus Rhotiai Senior Contarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2104,13 +2104,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_i"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Cavalry Skill 60-130 -->
+	<!-- T5 Skirmisher Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_lowland_cavalry" default_group="Cavalry" level="26" name="{=u0UNwnw2}Foederatus Rhotiai Scholaris" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2156,13 +2156,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_h"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Shock Infantry Skill 20-40 -->
+	<!-- T2 Shock Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_lowland_axeman" default_group="Ranged" level="11" name="{=ARUvlu41}Foederatus Temeai Explorator" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -2211,7 +2211,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Shock Infantry Skill 40-70 -->
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_lowland_axeman" default_group="Ranged" level="16" name="{=ARUvlu42}Foederatus Temeai Junior Funditor" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
@@ -2266,13 +2266,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_lowland_axeman" default_group="Ranged" level="21" name="{=ARUvlu43}Foederatus Temeai Senior Funditor" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2332,13 +2332,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_lowland_axeman" default_group="Ranged" level="26" name="{=ARUvlu44}Foederatus Temeai Funditor Cestri" occupation="Soldier" culture="Culture.palaic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2385,31 +2385,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Infantry Skill 5-20 -->
+	<!-- T1 Infantry Light Skill 5-20 -->
 	<NPCCharacter id="AR_emp_aux_western_recruit" default_group="Infantry" level="6" name="{=LbjxH9yp}Foederatus Occidentalis" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -2486,31 +2468,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_western_pikeman" default_group="Infantry" level="11" name="{=IfjWyWjc}Foederatus Biscani Doryphorus" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -2566,31 +2530,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_western_pikeman" default_group="Infantry" level="16" name="{=fHQ8ifKM}Foederatus Biscani Junior Phalangiarius" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2636,31 +2582,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_western_pikeman" default_group="Infantry" level="21" name="{=CDUvlu4d}Foederatus Biscani Senior Phalangiarius" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2706,31 +2634,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_western_pikeman" default_group="Infantry" level="26" name="{=CDUvlu4d}Foederatus Biscani Palatinus" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2784,31 +2694,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Skill 20-40 -->
+	<!-- T2 Cavalry Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_western_cavalry" default_group="Cavalry" level="11" name="{=IfjWyWjc}Foederatus Swadici Equite" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -2903,31 +2795,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_western_cavalry" default_group="Cavalry" level="16" name="{=fHQ8ifKM}Foederatus Swadici Junior Bucellarius" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3000,31 +2874,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_western_cavalry" default_group="Cavalry" level="21" name="{=CDUvlu4d}Foederatus Swadici Senior Bucellarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3086,31 +2942,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_b"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_western_cavalry" default_group="Cavalry" level="26" name="{=CDUvlu4d}Foederatus Swadici Excubitor" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3170,31 +3008,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_a"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Infantry Skill 5-20 -->
+	<!-- T1 Infantry Light Skill 5-20 -->
 	<NPCCharacter id="AR_emp_aux_alpine_recruit" default_group="Infantry" level="6" name="{=LbjxH9yp}Foederatus Alpinus" occupation="Soldier" is_basic_troop="true" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -3247,31 +3067,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_alpine_spearman" default_group="Infantry" level="11" name="{=IfjWyWjc}Foederatus Balasoi Miles" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -3331,31 +3133,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Infantry Skill 40-70 -->
+	<!-- T3 Infantry Heavy Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_alpine_spearman" default_group="Infantry" level="16" name="{=fHQ8ifKM}Foederatus Balasoi Junior Ripensis" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3470,31 +3254,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Infantry Skill 60-100 -->
+	<!-- T4 Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_alpine_spearman" default_group="Infantry" level="21" name="{=CDUvlu4d}Foederatus Balasoi Senior Ripensis" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3577,31 +3343,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Infantry Skill 60-130 -->
+	<!-- T5 Infantry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_alpine_spearman" default_group="Infantry" level="26" name="Foederatus Balasoi Palatinus" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3659,31 +3407,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_t3_alpine_archer" default_group="Ranged" level="11" name="Foederatus Dryati Explorator" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3729,28 +3459,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_t4_alpine_archer" default_group="Ranged" level="16" name="Foederatus Dryati Toxotes" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -3799,31 +3511,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_t5_alpine_archer" default_group="Ranged" level="21" name="Foederatus Dryati Sagittarius" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3869,31 +3563,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_alpine_archer" default_group="Ranged" level="26" name="Foederatus Dryati Sagittarius Armatus" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3937,31 +3613,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_t6_alpine_cavalry" default_group="Cavalry" level="26" name="Foederatus Balasoi Scholaris" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3998,13 +3656,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- EMPIRE REBEL AUXILIARIES -->
-	<!-- T1 Sword Infantry Skill 5-20 -->
+	<!-- T1 Sword Infantry Light Skill 5-20 -->
 	<NPCCharacter id="AR_emp_aux_slave_recruit" default_group="Infantry" level="6" name="Calradian Citizen Defector" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -4061,13 +3719,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Sword Infantry Skill 20-40 -->
+	<!-- T2 Sword Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_slave_t2_infantry" default_group="Infantry" level="11" name="Calradian Pedes Footman Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -4133,7 +3791,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Infantry Skill 40-70 -->
+	<!-- T3 Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_slave_t3_infantry" default_group="Infantry" level="16" name="Calradian Miles Swordsman Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -4225,13 +3883,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_slave_t4_infantry" default_group="Infantry" level="21" name="Calradian Comitatensis Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4297,13 +3955,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Infantry Skill 60-130 -->
+	<!-- T5 Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_slave_t5_infantry" default_group="Infantry" level="26" name="Calradian Palatinus Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4357,13 +4015,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_emp_aux_slave_t2_skirmisher" default_group="Ranged" level="11" name="Calradian Levis Armatura Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -4414,13 +4072,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Light Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_slave_t3_skirmisher" default_group="Ranged" level="16" name="Calradian Explorator Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -4476,13 +4134,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_slave_t4_skirmisher" default_group="Ranged" level="21" name="Calradian Lanciarius Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4538,13 +4196,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_slave_t5_skirmisher" default_group="Ranged" level="26" name="Calradian Matiarius Defector" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>

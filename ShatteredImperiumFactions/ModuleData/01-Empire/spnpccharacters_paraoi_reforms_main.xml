@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- PARAOI -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_paraoi_recruit" default_group="Infantry" level="6" name="Paraoian Tiro Conscript" occupation="Soldier" is_basic_troop="true" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -93,25 +81,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Spear Infantry Skill 20-40 -->
+	<!-- T2 Spear Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_par_t2_spearman" default_group="Infantry" level="11" name="Paraoian Nautes Sailor" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -168,22 +144,10 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Pike Infantry Skill 40-70 -->
+	<!-- T3 Pike Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_par_t3_spearman" default_group="Infantry" level="16" name="Paraoian Hypaspistes Pikeman" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -232,25 +196,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Pike Infantry Skill 60-100 -->
+	<!-- T4 Pike Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_par_t4_spearman" default_group="Infantry" level="21" name="Paraoian Junior Phalangiarios" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -296,25 +248,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Pike Infantry Skill 60-130 -->
+	<!-- T5 Pike Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_par_t5_spearman" default_group="Infantry" level="26" name="Paraoian Senior Phalangiarios" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -360,25 +300,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Pike Infantry Skill 80-180 -->
+	<!-- T6 Pike Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_par_t6_spearman" default_group="Infantry" level="31" name="Naumatos Doryphoros Guardsman" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -432,25 +360,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Shock Infantry Skill 40-70 -->
+	<!-- T3 Shock Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_par_t3_shock_inf" default_group="Infantry" level="16" name="Paraoian Classiarios Marine" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="70"/>
@@ -499,25 +415,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_par_t4_shock_inf" default_group="Infantry" level="21" name="Paraoian Junior Skoutatos Nautou" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -566,25 +470,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_par_t5_shock_inf" default_group="Infantry" level="26" name="Paraoian Senior Skoutatos Nautou" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -633,25 +525,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Shock Infantry Skill 80-180 -->
+	<!-- T6 Shock Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_par_t6_shock_inf" default_group="Infantry" level="31" name="Naumatos Hikanatos Nautou" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -699,25 +579,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_par_t2_skirmisher" default_group="Ranged" level="11" name="Paraoian Explorator" occupation="Soldier" is_basic_troop="false" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -805,25 +673,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Light Skill 40-70 -->
 	<NPCCharacter id="AR_par_t3_skirmisher" default_group="Ranged" level="16" name="Paraoian Lanciarios" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -869,25 +725,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_par_t4_skirmisher" default_group="Ranged" level="21" name="Paraoian Ripensis" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -933,25 +777,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_par_t5_skirmisher" default_group="Ranged" level="26" name="Paraoian Ripensis Armatos" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1000,25 +832,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Skirmisher Skill 80-180 -->
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_par_t6_skirmisher" default_group="Ranged" level="31" name="Naumatos Matiarios" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1066,25 +886,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ELITES -->
-	<!-- T2 Crossbowman Skill 20-40 -->
+	<!-- T2 Crossbowman Light Skill 20-40 -->
 	<NPCCharacter id="AR_paraoi_elite_recruit" default_group="Ranged" level="11" name="Paraoian Civis Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1177,22 +985,10 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Crossbowman Skill 40-70 -->
+	<!-- T3 Crossbowman Medium Skill 40-70 -->
 	<NPCCharacter id="AR_par_t3_crossbowman" default_group="Ranged" level="16" name="Paraoian Stratiotes Footman" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -1245,25 +1041,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Crossbowman Skill 60-100 -->
+	<!-- T4 Crossbowman Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_par_t4_crossbowman" default_group="Ranged" level="21" name="Paraoian Junior Bucellarios Pedes" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1312,25 +1096,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Crossbowman Skill 60-130 -->
+	<!-- T5 Crossbowman Skill Heavy 60-130 -->
 	<NPCCharacter id="AR_par_t5_crossbowman" default_group="Ranged" level="26" name="Paraoian Senior Bucellarios Pedes" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1379,25 +1151,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Crossbowman Skill 80-180 -->
+	<!-- T6 Crossbowman Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_par_t6_crossbowman" default_group="Ranged" level="31" name="Naumatos Palatinos Guardsman" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1444,25 +1204,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_par_t4_cavalry" default_group="Cavalry" level="21" name="Paraoian Kontarios" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.paraoi">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
+			<face_key_template value="BodyProperty.fighter_paraoi"/>=
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1530,25 +1278,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_par_t5_cavalry" default_group="Cavalry" level="26" name="Paraoian Kataphractarios" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1616,25 +1352,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Archer Skill 80-180 -->
+	<!-- T6 Cavalry Archer Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_par_t6_cavalry" default_group="Cavalry" level="31" name="Naumatos Klibanophoros" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
