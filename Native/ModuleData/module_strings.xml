@@ -3,7 +3,6 @@
 	<strings>
 		<!--WARBAND-->
 		<!--WARBAND-->
-		<string id="str_gamescom_demo_welcome_message" text="{=kIAsKjp1}Welcome to Mount&amp;Blade II: Bannerlord Gamescom demo!{newline}This demo showcases the mid-game features of Bannerlord!{newline}You are free to resolve issues, conquer settlements, govern cities, join tournaments, trade or just hang around in the game world. {newline}Have fun and don't hesitate to ask if you have any questions."/>
 		<string id="str_STR1_STR2" text="{=!}{STR1}{STR2}"/>
 		<string id="str_STR1_space_STR2" text="{=7AFlpaem}{STR1} {STR2}"/>
 		<string id="str_LEFT_colon" text="{=eqAc8AOs}{LEFT}:"/>
@@ -60,6 +59,7 @@
 		<string id="str_today" text="{=5cGXHF1a}Today"/>
 		<string id="str_yesterday" text="{=f6pjlKdz}Yesterday"/>
 		<string id="str_DAY_days_ago" text="{=IPjqLEdQ}{DAY} days ago"/>
+		<string id="str_for_DAY_days" text="{=xqeFT0cU}For {DAY} {?DAY_IS_PLURAL}days{?}day{\?}"/>
 		<string id="str_DAY_days" text="{=qDSda1OI}{DAY} {?DAY_IS_PLURAL}days{?}day{\?}"/>
 		<string id="str_DAY_days_capital" text="{=B1j4F6i7}{?DAY_IS_PLURAL}Days{?}Day{\?}"/>
 		<string id="str_you_have_encountered_settlement_to_raid_with_resisting_on_peace" text="{=1AcoIQVl}You have arrived at {SETTLEMENT} to raid it. Some of the residents have gathered to resist you. Raiding this village will cause a war with the {KINGDOM}."/>
@@ -154,7 +154,7 @@
 		<string id="str_randomize" text="{=NSSsxBHV}Randomize"/>
 		<string id="str_preparations_complete_in_hours" text="{=kDV7wCtI}Complete in: {PREPARATION_TIME}"/>
 		<string id="str_building_siege_camp" text="{=R5IOmwN1}Building Siege Camp"/>
-		<string id="str_town_management_reserve_explanation" text="{=HWSKCne0}Boosting a project adds +{BOOST} construction and costs {COST}&lt;img src=&quot;General\Icons\Coin@2x&quot;&gt; / day."/>
+		<string id="str_town_management_reserve_explanation" text="{=9zpZRkYz}Boosting a project adds +{BOOST} construction and costs {COST} denars / day."/>
 		<string id="str_total_army_food" text="{=slKe6Gyc}Total food of army"/>
 		<string id="str_total_army_food_consumption" text="{=K0mlQblA}Daily food consumption of army"/>
 		<string id="str_days_until_no_food_never" text="{=I6OJtaMT}Never"/>
@@ -189,7 +189,7 @@
 		<string id="str_settlement_given_troop_notification" text="{=3xeuA9VP}+{TROOP_AMOUNT} Troop{?ISPLURAL}s{?} {\?} to Settlement"/>
 		<string id="str_settlement_item_sold_notification" text="{=DTt1aeSj}{?IS_POSITIVE}+{?}-{\?}{ITEM_AMOUNT} {ITEM_TYPE}"/>
 		<string id="str_settlement_prisoner_sold_notification" text="{=Xv6knZP8}-{PRISONERS_AMOUNT} Prisoner{?ISPLURAL}s{?} {\?}"/>
-		<string id="str_killed_by_stray_horse" text="{=zDHbQtm9}You've been killed by a stray horse!"/>
+		<string id="str_killed_by_stray_horse" text="{=hdyQFP2Z}You've been killed by a stray {MOUNT_NAME}!"/>
 		<string id="str_killed_self" text="{=tqSODeKW}You've killed yourself!"/>
 		<string id="str_killed_by" text="{=zeGAw2IE}Killed by"/>
 		<string id="str_clans" text="{=bfQLwMUp}Clans"/>
@@ -227,8 +227,11 @@
 		<string id="str_clan_name_invalid_character_count" text="{=g6J4Oe6z}Clan name needs to be between {MIN} - {MAX} characters."/>
 		<string id="str_clan_name_invalid_characters" text="{=Hlusn1gG}Clan name has invalid characters."/>
 		<string id="str_clan_name_invalid_already_exist" text="{=BxeU4zMb}There is already another clan with this name."/>
+		<string id="str_faction_name_invalid_character_count" text="{=ZnsseELq}Faction name needs to be between {MIN} - {MAX} characters."/>
+		<string id="str_faction_name_invalid_characters" text="{=NarcUcZA}Faction name has invalid characters."/>
+		<string id="str_kingdom_name_invalid_already_exist" text="{=LpVaZbRS}There is already another kingdom with this name."/>
 		<string id="str_staying_at_settlement" text="{=xKa6TwEX}Staying at {SETTLEMENT_NAME}"/>
-		<string id="str_governing_at_settlement" text="{=*}Governing at {SETTLEMENT_NAME}"/>
+		<string id="str_governing_at_settlement" text="{=XNNvdkul}Governing at {SETTLEMENT_NAME}"/>
 		<string id="str_prisoner_at_settlement" text="{=ZhiB1EOM}Prisoner at {SETTLEMENT_NAME}"/>
 		<string id="str_on_prisoner_taken" text="{=Y20AQIvo}{PRISONER.NAME} has been captured by {CAPTOR_NAME}!"/>
 		<string id="str_on_prisoner_released_main_clan.EscapeFromLootedParty" text="{=QtSz6JNJ}{PRISONER.NAME} has escaped from {?PRISONER.GENDER}her{?}his{\?} captors."/>
@@ -280,7 +283,6 @@
 		<string id="str_kingdom_declate_war_action" text="{=EbB9y2zZ}Declare War"/>
 		<string id="str_kingdom_propose_peace_action" text="{=r312jCKr}Propose Peace"/>
 		<string id="str_war_faction_versus_faction" text="{=Vi6ojGrk}{FACTION_1_NAME} vs {FACTION_2_NAME}"/>
-		<string id="str_war_since_days" text="{=LKb6dMnU}Since {DAYS}"/>
 		<string id="str_need_to_be_in_kingdom" text="{=VHjIJGja}You need to be in a kingdom"/>
 		<string id="str_kingdom_decision_declare_war" text="{=0amC7X1h}War Declaration"/>
 		<string id="str_kingdom_decision_declare_war_desc" text="{=oTGDxKW7}Declare War Against {FACTION}"/>
@@ -396,7 +398,7 @@
 		<string id="str_perk_two_roles" text="{=gflnRhhe}({PRIMARY_ROLE}/{SECONDARY_ROLE})"/>
 		<string id="str_perk_one_role" text="{=uFDiRV1Z}({PRIMARY_ROLE})"/>
 		<string id="str_troop_group_name.0" text="{=1Bm1Wk1v}Infantry"/>
-		<string id="str_troop_group_name.1" text="{=rangedtroop}Archers"/>
+		<string id="str_troop_group_name.1" text="{=archers}Archers"/>
 		<string id="str_troop_group_name.2" text="{=YVGtcLHF}Cavalry"/>
 		<string id="str_troop_group_name.3" text="{=q2Y2DHiA}Horse Archers"/>
 		<string id="str_troop_group_name.4" text="{=cmn6qNoX}Skirmishers"/>
@@ -405,6 +407,7 @@
 		<string id="str_troop_group_name.7" text="{=MLmHSSg0}Heavy Cavalry"/>
 		<string id="str_troop_group_name.8" text="{=8byRf9zO}Generals"/>
 		<string id="str_troop_group_name.9" text="{=Z8LeI4ho}Bodyguards"/>
+		<string id="str_troop_group_name_definite" text="{=troopclassname}{FORMATION_CLASS}"/>
 		<string id="str_ok" text="{=oHaWR73d}Ok"/>
 		<string id="str_info" text="{=cJmI2poS}Info"/>
 		<string id="str_facegen_error_on_paste" text="{=1XVvU23F}Unable to use the clipboard text as body properties key!"/>
@@ -502,6 +505,7 @@
 		<string id="str_party_category_prisoners_tooltip" text="{=N6QTvjMf}Prisoners"/>
 		<string id="str_party_cancel" text="{=3CpNUnVl}Cancel"/>
 		<string id="str_mission_exit_query" text="{=9gNjg4P0}This will not save your game and return you the the Main Menu. Are you sure you want to exit?"/>
+		<string id="str_mp_exit_query" text="{=HQgSPtK6}Are you sure you want to exit multiplayer?"/>
 		<string id="str_exit" text="{=3CsACce8}Exit"/>
 		<string id="str_continue" text="{=DM6luo3c}Continue"/>
 		<string id="str_siege_move_to_reserve" text="{=caPP57v9}Move to Reserve"/>
@@ -520,6 +524,7 @@
 		<string id="str_tier_five" text="{=ap1wEfdW}V"/>
 		<string id="str_crafting_tier_filter_all" text="{=yfa7tpbK}All"/>
 		<string id="str_reset_camera" text="{=WzcY3WMe}Reset Camera"/>
+		<string id="str_toggle_camera" text="{=*}Toggle Camera Mode"/>
 		<string id="str_offer" text="{=vpx7Pa7v}Offer"/>
 		<string id="str_gift" text="{=giftverb}Gift"/>
 		<string id="str_diplomatic_group" text="{=L7wn49Uz}Diplomacy"/>
@@ -578,8 +583,11 @@
 		<string id="str_sf_text_with_focus_icon" text="{=VeOqrmx5}{LEFT}{FOCUS_ICON}{RIGHT}"/>
 		<string id="str_and_the_lord_of_TOWNS" text="{=OLKGQGHU}I am lord of {TOWNS}."/>
 		<string id="str_and_the_lady_of_TOWNS" text="{=1klXxZFS}I am lady of {TOWNS}."/>
-		<string id="str_army_of_HERO" text="{=C0llOApK}{HERO}'s Army"/>
+		<string id="str_army_of_HERO" text="{=C0llOApK}{HERO}{.o} Army"/>
 		<string id="str_action_disabled_reason_prisoner" text="{=21t7Ev03}You can not perform this action while you are imprisoned."/>
+		<string id="str_action_disabled_reason_siege" text="{=*}You can not perform this action while you are in a siege."/>
+		<string id="str_action_disabled_reason_encounter" text="{=*}You can not perform this action while you are in an encounter"/>
+		<string id="str_action_disabled_reason_raid" text="{=*}You can not perform this action while raiding a village"/>
 		<string id="str_disband_party" text="{=VWQbVKT4}Disband Party"/>
 		<string id="str_disbanding" text="{=lznqF0oO}Disbanding"/>
 		<string id="str_cannot_disband_milita_party" text="{=z716wRaB}You cannot disband a milita party"/>
@@ -828,6 +836,7 @@
 		<string id="str_quests" text="{=KUEHAD4U}Quests"/>
 		<string id="str_old_quests" text="{=lrAnY7Fb}Old Quests"/>
 		<string id="str_old_quests_explanation" text="{=vo867CHX}Completed quests in the last year"/>
+		<string id="str_sort_quests" text="{=hE4XvvXv}Sort by:"/>
 		<string id="str_available_quest" text="{=cMrROb6w}Available Quest"/>
 		<string id="str_active_quests" text="{=jd4ULLGr}Active Quests"/>
 		<string id="str_no_active_quest" text="{=QgUej8DP}No Active Quest"/>
@@ -924,7 +933,7 @@
 		<string id="str_hero_family_relation" text="{=MacceKIX}{RELATION_TEXT} of {BASE_HERO.NAME}"/>
 		<string id="str_inventory" text="{=rbz1Bwbv}Inventory"/>
 		<string id="str_party" text="{=qnxJYAs7}Party"/>
-		<string id="str_lord_party_name" text="{=shL0WElC}{TROOP.NAME}'s Party"/>
+		<string id="str_lord_party_name" text="{=shL0WElC}{TROOP.NAME}{.o} Party"/>
 		<string id="str_caravan_party_name" text="{=LjUhEJxz}Caravan of {OWNER.NAME}"/>
 		<string id="str_return_to_hero" text="{=tDy1TfDq}Return To Hero"/>
 		<string id="str_camp" text="{=pT9TZehy}Camp"/>
@@ -936,8 +945,11 @@
 		<string id="str_male_child" text="{=malechild}Child"/>
 		<string id="str_son" text="{=aS3xHcD4}Son"/>
 		<string id="str_daughter" text="{=oKct1ecg}Daughter"/>
-		<string id="str_sister" text="{=2FWBCCw0}Sister"/>
-		<string id="str_brother" text="{=wWwoTzpG}Brother"/>
+		<string id="str_twin" text="{=twin}Twin"/>
+		<string id="str_bigsister" text="{=bigsister}Sister"/>
+		<string id="str_bigbrother" text="{=bigbrother}Brother"/>
+		<string id="str_littlesister" text="{=littlesister}Sister"/>
+		<string id="str_littlebrother" text="{=littlebrother}Brother"/>
 		<string id="str_people_encyclopedia_details" text="{=svArZT0G}Details"/>
 		<string id="str_husband_fatherinlaw" text="{=husbandfatherinlaw}father-in-law"/>
 		<string id="str_husband_motherinlaw" text="{=husbandmotherinlaw}mother-in-law"/>
@@ -1188,7 +1200,7 @@
 		<string id="str_quest_collect_debt_quest_gold_removed" text="{=VyJMWO8a}{GOLD_AMOUNT}{GOLD_ICON} removed."/>
 		<string id="str_gold_removed_with_icon" text="{=nvswKHTZ}You paid {GOLD_AMOUNT}{GOLD_ICON}."/>
 		<string id="str_you_received_gold_with_icon" text="{=eAGeVRjI}You received {GOLD_AMOUNT}{GOLD_ICON}."/>
-		<string id="str_you_are_following_army" text="{=I4BbOX46}You are in {ARMY_LEADER}'s army."/>
+		<string id="str_you_are_following_army" text="{=I4BbOX46}You are in {ARMY_LEADER}{.o} army."/>
 		<string id="str_you_are_leading_army" text="{=dKXdN4BL}You are leading an army"/>
 		<string id="str_cohesion" text="{=p2WBSIa7}Cohesion:"/>
 		<string id="str_boost_cohesion" text="{=SEBZa2Lh}Boost Cohesion"/>
@@ -1260,7 +1272,8 @@
 		<string id="str_trait_name_calculating.1" text="{=g0gDsalr}Impulsive"/>
 		<string id="str_trait_name_calculating.3" text="{=5sMBbn7y}Calculating"/>
 		<string id="str_trait_name_calculating.4" text="{=mwegfVKr}Cerebral"/>
-		<string id="str_trait_tooltip" text="{=zwAjXuEk}{TRAIT_NAME} ({TRAIT} {TRAIT_VALUE})"/>
+		<string id="str_trait_tooltip" text="{=IiyN5krb}{TRAIT_NAME} ({TRAIT} {TRAIT_VALUE}){newline}{TRAIT_DESCRIPTION}"/>
+		<string id="str_trait_description_tooltip" text="{=gwKPbSVE}{TRAIT}{newline}{TRAIT_DESCRIPTION}"/>
 		<string id="str_trait_gained_text" text="{=8c8NDpAd}{HERO.NAME} has gained {TRAIT_NAME} trait."/>
 		<string id="str_trait_lost_text" text="{=mds0myr4}{HERO.NAME} has lost {?PLAYER.GENDER}her{?}his{\?} {TRAIT_NAME} trait."/>
 		<string id="str_hero_rank.0" text="{=ObTSCxra}Vassal"/>
@@ -1318,7 +1331,7 @@
 		<string id="str_villager_returns_to_village" text="{=Zg5Zmgui}We are returning from the market at {TOWN} back to our village."/>
 		<string id="str_looted_villager_returns_to_village" text="{=72Rasm5f}We have nothing - no silver, no wares."/>
 		<string id="str_looted_party_have_money" text="{=bZJs2AQX}Here's our money: {MONEY}{GOLD_ICON}. And here's our wares: {ITEM_LIST}. Just take them and let us live, {?PLAYER.GENDER}madam{?}sir{\?}."/>
-		<string id="str_offered_item_list" text="{=ISJ8Tt8a}{COUNT} pieces of {ITEM}"/>
+		<string id="str_offered_item_list" text="{=ISJ8Tt8a}{COUNT} {.%}{?(COUNT &gt; 1)}{PLURAL(ITEM)}{?}{ITEM}{\?}{.%}"/>
 		<string id="str_looted_party_have_money_but_no_item" text="{=GDugjWao}Here is {MONEY}{GOLD_ICON}. Just take it and let us go."/>
 		<string id="str_looted_party_have_no_money" text="{=7MWaMaez}Here's what we've got: {ITEM_LIST}. Take them, but let us live."/>
 		<string id="str_bandit_join_yes" text="{=c7bVbjD7}As you wish. From now on, we fight for you."/>
@@ -1454,6 +1467,7 @@
 		<string id="str_attacker_is_state_defender" text="{=mIt6k9Rs}{ATTACKER} is {STATE} {DEFENDER}"/>
 		<string id="str_defenders_make_sally_out" text="{=Txbga7jx}Defenders make sally out to siege camp you are inside"/>
 		<string id="str_enemy_not_attackable_tooltip" text="{=oYUAuLO7}You have sworn not to attack."/>
+		<string id="str_cant_join_army_safe_passage" text="{=GZKY51fB}You can't join armies within the duration of safe passage."/>
 		<string id="str_soldier" text="{=XbdX2AHF}soldier"/>
 		<string id="str_soldiers" text="{=wXwZ778J}soldiers"/>
 		<string id="str_election_string" text="{=FxPzcyLN}{SUPPORTERNAME} is supporting {CANDIDATENAME}"/>
@@ -1501,6 +1515,7 @@
 		<string id="str_item_needed_for_upgrade" text="{=a0YMy8E5}{REQUIRED_ITEM} is needed for upgrade."/>
 		<string id="str_gold_needed_for_upgrade" text="{=ggzCiYkk}{VALUE}{GOLD_ICON} is needed for upgrade."/>
 		<string id="str_cannot_execute_nonhero" text="{=cThSwxbP}Cannot execute non-hero prisoners"/>
+		<string id="str_cannot_execute_hero" text="{=*}Cannot execute hero during a battle"/>
 		<string id="str_execute_prisoner" text="{=Fa16r8MN}Execute Prisoner"/>
 		<string id="str_executing_prisoner" text="{=jsf7b6bD}Executing Prisoner"/>
 		<string id="str_first_banner_piece_found" text="{=pERXhX7A}You've found the first banner piece!"/>
@@ -1599,12 +1614,17 @@
 		<string id="str_clan_tier_vassal_eligible" text="{=rxOK6dn1}Eligible for being a Vassal"/>
 		<string id="str_clan_tier_kingdom_eligible" text="{=4bq2mUf1}Eligible to create a Kingdom"/>
 		<string id="str_clan_tier_party_size_bonus" text="{=rQ5On2GL}Additional Party Size for every party in the clan"/>
+		<string id="str_clan_tier_workshop_count_bonus" text="{=QL2t7D44}Additional Workshop Limit"/>
 		<string id="str_party_health" text="{=3tJq5QyQ}{HEALTHY_NUM}+{WOUNDED_NUM}w"/>
 		<string id="str_party_food_left" text="{=Mms9bbhY}{DAY_NUM} {?DAY_NUM==1}day{?}days{\?}"/>
 		<string id="str_char_denar_tooltip" text="{=hYgmzZJX}Denars"/>
 		<string id="str_need_to_be_a_part_of_kingdom" text="{=qg0WttZb}You need to be a part of a Kingdom"/>
 		<string id="str_need_to_be_leader_of_army_to_manage" text="{=L7teSXvq}You need to be the leader of an army to manage it"/>
 		<string id="str_mercenary_cannot_manage_army" text="{=DjoYTx2w}Mercenaries cannot gather armies"/>
+		<string id="str_cannot_gather_army_during_conversation" text="{=*}Can't gather an army during an encounter"/>
+		<string id="str_cannot_manage_army_during_conversation" text="{=*}Can't manage the army during an encounter"/>
+		<string id="str_cannot_gather_army_during_siege" text="{=*}Can't gather an army during a siege"/>
+		<string id="str_cannot_manage_army_during_siege" text="{=*}Can't manage the army during a siege"/>
 		<string id="str_new_item_line" text="{=ol0rBSrb}{STR1}{newline}{STR2}"/>
 		<string id="str_party_morale_party_size" text="{=IXwOaa98}Party Size"/>
 		<string id="str_recent_events" text="{=cRwZI5o2}Recent Events"/>
@@ -1889,6 +1909,16 @@
 		<string id="str_player_salutation_madame" text="{=hMIjbLjt}madame"/>
 		<string id="str_player_salutation_my_lord" text="{=RpfgdR45}my lord"/>
 		<string id="str_player_salutation_my_lady" text="{=bjxBjKH2}my lady"/>
+		<string id="str_relation_brother" text="{=MUStU7ab}brother"/>
+		<string id="str_relation_sister" text="{=Or9YduTA}sister"/>
+		<string id="str_relation_father" text="{=1z0rLrhs}father"/>
+		<string id="str_relation_mother" text="{=KOwCdwEU}mother"/>
+		<string id="str_relation_son" text="{=SCAehHN6}son"/>
+		<string id="str_relation_daughter" text="{=gQCEJvmf}daughter"/>
+		<string id="str_relation_husband" text="{=UtQhRvS8}husband"/>
+		<string id="str_relation_wife" text="{=8Gh3Waa3}wife"/>
+		<string id="str_relation_kinsman" text="{=fveVnpbZ}kinsman"/>
+		<string id="str_relation_kinswoman" text="{=QxdINoOA}kinswoman"/>
 		<string id="str_relation_my_brother" text="{=kgqCVvIb}my brother {REFERING_HERO.LINK}"/>
 		<string id="str_relation_my_sister" text="{=13q8IRfZ}my sister {REFERING_HERO.LINK}"/>
 		<string id="str_relation_my_father" text="{=UgMbCUMO}my father {REFERING_HERO.LINK}"/>
@@ -1989,7 +2019,7 @@
 		<string id="str_formation_ai_side_change_string" text="{=3vT6TQmF}{PLAYER.LINK}, you are in {SIDE_STRING} {CLASS_NAME}."/>
 		<string id="str_formation_ai_sergeant_instruction_text" text="{=!}Your unit is expected to: {BEHAVIOUR_NAME_BEGIN}{?IS_PLURAL} and {?}{\?}{BEHAVIOUR_NAME_END}{?IS_GENERAL_SIDE} from {SIDE_STRING}{?}{\?}"/>
 		<string id="str_formation_ai_side_strings.Left" text="{=7zUWqY3O}Left"/>
-		<string id="str_formation_ai_side_strings.Middle" text="{=qIvDX0JR}Center"/>
+		<string id="str_formation_ai_side_strings.Middle" text="{=centerformation}Center"/>
 		<string id="str_formation_ai_side_strings.Right" text="{=25MeMNbP}Right"/>
 		<string id="str_formation_class_string.Infantry" text="{=1Bm1Wk1v}Infantry"/>
 		<string id="str_formation_class_string.Ranged" text="{=bIiBytSB}Archers"/>
@@ -2183,8 +2213,8 @@
 		<string id="str_your_alley_ALLEY_NAME_at_TOWN_is_captured" text="{=4kKxsVzZ}Your alley {.%}{ALLEY_NAME}{.%} at {TOWN} is captured."/>
 		<string id="str_attacker_banner" text="{=rTuptXLg}Attacker Banner"/>
 		<string id="str_defender_banner" text="{=bdFJgWp3}Defender Banner"/>
-		<string id="str_number_of_healthy_attacker_soldiers" text="{=tDDG7gPa}Number of Healthy Attacker Soldiers"/>
-		<string id="str_number_of_healthy_defender_soldiers" text="{=3F35l4QF}Number of Healthy Defender Soldiers"/>
+		<string id="str_number_of_healthy_attacker_soldiers" text="{=FC64p6ED}Number of Healthy Attacker Troops"/>
+		<string id="str_number_of_healthy_defender_soldiers" text="{=EuEJ08Dg}Number of Healthy Defender Troops"/>
 		<string id="str_ui_agent_interaction_use" text="{=8ZZgNNaY}{USE_KEY}"/>
 		<string id="str_army_gathering" text="{=QFMshJaj}Gathering near {SETTLEMENT_NAME}."/>
 		<string id="str_army_gathering_around_hero" text="{=eURzhtb0}Gathering around {PARTY_NAME}."/>
@@ -2240,7 +2270,7 @@
 		<string id="str_building_effect_explanation.LoyaltyDaily" text="{=vqHDX6hf}+{BONUS_AMOUNT} increase to settlement loyalty"/>
 		<string id="str_building_effect_explanation.MilitiaDaily" text="{=a6zaA9Um}+{BONUS_AMOUNT} increase to settlement militia."/>
 		<string id="str_building_effect_explanation.ProsperityDaily" text="{=ki5DqTtC}+{BONUS_AMOUNT} increase to settlement prosperity."/>
-		<string id="str_building_effect_explanation.GarrisonWageReduce" text="{=kVLfRWjE}+{BONUS_AMOUNT}% reduce at garrison wages."/>
+		<string id="str_building_effect_explanation.GarrisonWageReduce" text="{=kVLfRWjE}+{BONUS_AMOUNT}% reduction of garrison wages."/>
 		<string id="str_comment_common_area_fight_other.default" text="{=uUlO8l6M}Heard you got into a fight with some of the people working for {COMMON_AREA_OWNER}. Well, that's no business of mine.">
 			<tags>
 				<tag tag_name="DefaultTag" weight="1"/>
@@ -2330,7 +2360,7 @@
 		<string id="str_item_category.medium_armor" text="{=6SFktFH3}Medium Armor"/>
 		<string id="str_item_category.heavy_armor" text="{=KawqKhwh}Heavy Armor"/>
 		<string id="str_item_category.ultra_armor" text="{=1BSSOa8a}Ultra Armor"/>
-		<string id="str_item_category.banner" text="{=*}Banner"/>
+		<string id="str_item_category.banner" text="{=FvYhaE3z}Banner"/>
 		<string id="str_item_category.unassigned" text="{=joICaqvo}Unassigned"/>
 		<string id="str_prisoner_of_party_menu_text" text="{=OWCoBElc}You are taken captive by {PARTY_NAME}."/>
 		<string id="str_prisoner_of_party_for_days_menu_text" text="{=Z5RlxyPJ}You've been held prisoner for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?} by {PARTY_NAME}."/>
