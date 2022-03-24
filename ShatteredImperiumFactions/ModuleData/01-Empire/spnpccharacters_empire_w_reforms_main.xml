@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- EMPIRE -->
-	<!-- T1 Alternate Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_w_emp_recruit" default_group="Infantry" level="6" name="{=s3IJIFUw}W. Imperial Tiro Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -95,25 +83,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- INFANTRY -->
-	<!-- T2 Sword Infantry Skill 20-40 -->
+	<!-- T2 Sword Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_w_emp_t2_swordsman" default_group="Infantry" level="11" name="{=IfjWyWjc}W. Imperial Pedes Footman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -240,22 +216,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sword Infantry Skill 40-70 -->
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_w_emp_t3_swordsman" default_group="Infantry" level="16" name="{=IZ8OmByJ}W. Imperial Miles Swordsman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -450,25 +414,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_swordsman" default_group="Infantry" level="21" name="{=yrGYZsQ7}W. Imperial Junior Comitatensis" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -605,25 +557,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Infantry Skill 60-130 -->
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_swordsman" default_group="Infantry" level="26" name="{=JGsUtBT3}W. Imperial Senior Comitatensis" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -804,25 +744,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Skill 80-180 -->
+	<!-- T6 Sword Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_swordsman" default_group="Infantry" level="31" name="Dionicos Palatinus Guardsman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="230"/>
 			<skill id="TwoHanded" value="80"/>
@@ -935,22 +863,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_w_emp_t3_spearman" default_group="Infantry" formation_position_preference="Back" level="16" name="{=IZ8OmByJ}W. Imperial Numerus Spearman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -1090,25 +1006,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Skill Medium 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_spearman" default_group="Infantry" formation_position_preference="Back" level="21" name="{=yrGYZsQ7}W. Imperial Junior Ripensis" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1234,27 +1138,15 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_spearman" default_group="Infantry" formation_position_preference="Back" level="26" occupation="Soldier" culture="Culture.empire_w" name="W. Imperial Senior Ripensis">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="130"/>
+			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="60"/>
@@ -1398,27 +1290,15 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Spear Infantry Skill 80-180 -->
+	<!-- T6 Spear Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_spearman" default_group="Infantry" formation_position_preference="Back" level="31" name="{=qAsnj7vU}Dionicos Antesignanus" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
-			<skill id="OneHanded" value="180"/>
+			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="180"/>
 			<skill id="Bow" value="80"/>
@@ -1520,25 +1400,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Pike Infantry Skill 60-100 -->
+	<!-- T4 Pike Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_pikeman" default_group="Infantry" formation_position_preference="Back" level="21" name="{=e8qbF7Ey}W. Imperial Junior Phalangiarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1694,25 +1562,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Pike Infantry Skill 60-130 -->
+	<!-- T5 Pike Infantry Skill Heavy 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_pikeman" default_group="Infantry" formation_position_preference="Back" level="26" name="{=e8qbF7Ey}W. Imperial Senior Phalangiarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1868,25 +1724,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Pike Infantry Skill 80-180 -->
+	<!-- T6 Pike Infantry Skill Very Heavy 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_pikeman" default_group="Infantry" formation_position_preference="Back" level="31" name="{=qAsnj7vU}Dionicos Doryphorus Bodyguard" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1951,25 +1795,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CAVALRY -->
-	<!-- *Alternate* Recruit Cavalry Skill 20-40 -->
+	<!-- Recruit Cavalry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_w_emp_cavalry_recruit" default_group="Cavalry" level="11" name="{=n41jlEa3}W. Imperial Explorator Equester" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -2152,25 +1984,13 @@
 			<equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_w_emp_t3_cavalry" default_group="Cavalry" level="16" name="{=1PsLlMaQ}W. Imperial Equite Horseman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2299,25 +2119,13 @@
 			<equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_lance_cavalry" default_group="Cavalry" level="21" name="{=eYIMQafj}W. Imperial Contarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2441,25 +2249,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_lance_cavalry" default_group="Cavalry" level="26" name="{=u0UNwnw2}W. Imperial Cataphractarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2523,25 +2319,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Skill 80-180 -->
+	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=MYwUFMsz}Dionicos Clibanarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -2615,29 +2399,17 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_heavy_cavalry" default_group="Cavalry" level="21" name="{=eYIMQafj}W. Imperial Equite Promotus" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="130"/>
+			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="100"/>
@@ -2695,32 +2467,20 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zc"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=GUQ3zfg2}W. Imperial Scholaris Armatus" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="130"/>
+			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="130"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_w_emp_t6_heavy_cavalry"/>
@@ -2819,32 +2579,20 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_b"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Skill 80-180 -->
+	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=u0UNwnw2}Dionicos Excubitor" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
-			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="180"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="180"/>
-			<skill id="Bow" value="60"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
@@ -2931,25 +2679,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_w_emp_t2_skirmisher" default_group="Ranged" level="11" name="{=LbjxH9yp}W. Imperial Levis Armatura" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -3012,22 +2748,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Crossbowman Skill 40-70 -->
+	<!-- T3 Crossbowman Medium Skill 40-70 -->
 	<NPCCharacter id="AR_w_emp_t3_crossbowman" default_group="Ranged" level="16" name="{=fHQ8ifKM}W. Imperial Arcuballistarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -3096,25 +2820,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Crossbowman Skill 60-100 -->
+	<!-- T4 Crossbowman Medium Skill 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_crossbowman" default_group="Ranged" level="21" name="{=UdTc1PGo}W. Imperial Junior Ballistarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3200,25 +2912,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Crossbowman Skill 60-130 -->
+	<!-- T5 Crossbowman Medium Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_crossbowman" default_group="Ranged" level="26" name="{=UdTc1PGo}W. Imperial Senior Ballistarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3264,25 +2964,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Crossbowman Skill 80-180 -->
+	<!-- T6 Crossbowman Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_crossbowman" default_group="Ranged" level="31" name="{=THyv3q9f}Dionicos Ballistarius Armatus" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
@@ -3351,25 +3039,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Light Skill 40-70 -->
 	<NPCCharacter id="AR_w_emp_t3_skirmisher" default_group="Ranged" level="16" name="{=IfjWyWjc}W. Imperial Explorator Javelinman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3445,25 +3121,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_w_emp_t4_skirmisher" default_group="Ranged" level="21" name="{=fHQ8ifKM}W. Imperial Junior Lanciarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3579,25 +3243,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_skirmisher" default_group="Ranged" level="26" name="{=CDUvlu4d}W. Imperial Senior Lanciarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3663,25 +3315,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Skirmisher Skill 80-180 -->
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_w_emp_t6_skirmisher" default_group="Ranged" level="31" name="{=CDUvlu4d}Dionicos Matiarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
