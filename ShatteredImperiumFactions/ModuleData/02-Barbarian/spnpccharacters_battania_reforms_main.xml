@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- BATTANIA -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_bat_recruit" default_group="Infantry" level="6" name="{=GUQ3zfg2}Battanian Bothach Freeman" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -97,31 +79,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- INFANTRY -->
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_bat_t2_swordsman" default_group="Infantry" level="11" name="{=VtlvxEs7}Battanian Ocaire Warrior" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -215,28 +179,10 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Infantry Skill 40-70 -->
+	<!-- T3 Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_bat_t3_swordsman" default_group="Infantry" level="16" name="{=HMHzTNqJ}Battanian Hardened Ocaire Warrior" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -322,31 +268,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Infantry Skill 60-100 -->
+	<!-- T4 Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_swordsman" default_group="Infantry" level="21" name="{=tSc0mHy7}Battanian Octhigern Spearman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -428,31 +356,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Infantry Skill 60-130 -->
+	<!-- T5 Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_swordsman" default_group="Infantry" level="26" name="{=bNZXcw3q}Battanian Picked Octhigern" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -545,31 +455,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Infantry Skill 80-180 -->
+	<!-- T6 Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_swordsman" default_group="Infantry" level="31" name="{=bNZXcw3q}fen Derngil Boaire Oathsworn" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -638,31 +530,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Pike Infantry Skill 40-70 -->
+	<!-- T3 Pike Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_bat_t3_pike_inf" default_group="Infantry" level="16" name="{=6C3OMP1X}Battanian Pedyt Pikeman" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -768,31 +642,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Pike Infantry Skill 60-100 -->
+	<!-- T4 Pike Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_pike_inf" default_group="Infantry" level="21" name="{=6C3OMP1X}Battanian Gwrda Pikeman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -878,31 +734,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Pike Infantry Skill 60-130 -->
+	<!-- T5 Pike Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_pike_inf" default_group="Infantry" level="26" name="{=2gUjKT5H}Battanian Veteran Gwrda Pikeman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1008,31 +846,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Pike Infantry Skill 80-180 -->
+	<!-- T6 Pike Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_pike_inf" default_group="Infantry" level="31" name="{=2gUjKT5H}fen Derngil Gaiscedach Guardsman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1106,31 +926,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skirmisher Skill 60-100 -->
+	<!-- T4 Cavalry Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_cav_skirm" default_group="HorseArcher" level="21" name="{=q7VeZazL}Battanian Scabhta Scout" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1181,31 +983,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skirmisher Skill 60-130 -->
+	<!-- T5 Cavalry Skirmisher Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_cav_skirm" default_group="HorseArcher" level="26" name="{=abFIj4ZW}Battanian Capaill Sleafear Rider" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1267,31 +1051,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Skirmisher Skill 80-180 -->
+	<!-- T6 Cavalry Skirmisher Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_cav_skirm" default_group="HorseArcher" level="31" name="{=2gUjKT5H}fen Derngil Cipryswr Sentinel" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1341,31 +1107,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_bat_t2_skirmisher" default_group="Ranged" level="11" name="{=DNsbKR7B}Battanian Coillear Woodsman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1426,31 +1174,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Light Skill 40-70 -->
 	<NPCCharacter id="AR_bat_t3_skirmisher" default_group="Ranged" level="16" name="{=q7VeZazL}Battanian Fiadhaich Wildsman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1512,28 +1242,10 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Light Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_skirmisher" default_group="Ranged" level="21" name="{=lxU4pWsS}Battanian Sleafear Skirmisher" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -1588,33 +1300,15 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_skirmisher" default_group="Ranged" level="26" name="{=gyvXsXs8}Battanian Veteran Sleafear Skirmisher" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="130"/>
+			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="60"/>
@@ -1668,33 +1362,15 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Skirmisher Skill 80-180 -->
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_skirmisher" default_group="Ranged" level="31" name="{=Btb7p3mD}fen Derngil Ceithernach" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
-			<skill id="OneHanded" value="180"/>
+			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="80"/>
 			<skill id="Bow" value="80"/>
@@ -1746,31 +1422,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_shock_inf" default_group="Infantry" level="21" name="{=X4GvzDdW}Battanian Claidibfear Falxman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1813,31 +1471,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_shock_inf" default_group="Infantry" level="26" name="{=yMqWnBfT}Battanian Veteran Claidibfear Falxman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -1880,31 +1520,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Shock Infantry Skill 80-180 -->
+	<!-- T6 Shock Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_shock_inf" default_group="Infantry" level="31" name="{=yMqWnBfT}fen Derngil Caur Vanguard" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="230"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -1946,31 +1568,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ELITE SKIRMISHERS -->
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_bat_archer_recruit" default_group="Ranged" level="11" name="{=cZms8Ivb}Battanian Fer Midboth Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2046,28 +1650,10 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_bat_t3_archer" default_group="Ranged" level="16" name="{=IHczn7ti}Battanian Uchelwr Warrior" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -2153,31 +1739,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_cavalry" default_group="Cavalry" level="21" name="{=ac8MZYne}Battanian Marcach Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2239,31 +1807,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_cavalry" default_group="Cavalry" level="26" name="{=Btb7p3mD}Battanian Veteran Marcach Horseman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -2314,31 +1864,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Skill 80-180 -->
+	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_cavalry" default_group="Cavalry" level="31" name="{=1zObCG2o}fen Derngil Riglach Champion" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -2420,31 +1952,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Archer Skill 60-100 -->
+	<!-- T4 Elite Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_t4_archer" default_group="Ranged" level="21" name="{=ac8MZYne}Battanian Saethydd Archer" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2493,31 +2007,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Archer Skill 60-130 -->
+	<!-- T5 Elite Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_archer" default_group="Ranged" level="26" name="{=Btb7p3mD}Battanian Picked Saethydd Archer" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -2566,31 +2062,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Archer Skill 80-180 -->
+	<!-- T6 Elite Archer Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_bat_t6_archer" default_group="Ranged" level="31" name="{=1zObCG2o}fen Derngil Fianaige Marksman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-				<beard_tag name="BeardWithShavedCheeks"/>
-				<beard_tag name="LongTiedBeard"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>

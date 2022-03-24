@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- BATTANIAN AUXILIARIES -->
-	<!-- T1 Dryatic Auxiliary Skill 5-20 -->
+	<!-- T1 Dryatic Auxiliary Light Skill 5-20 -->
 	<NPCCharacter id="AR_bat_aux_recruit" default_group="Ranged" level="6" name="{=VtlvxEs7}Dryatic Gallogaich Wanderer" occupation="Soldier" is_basic_troop="true" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="5"/>
 			<skill id="TwoHanded" value="5"/>
@@ -63,13 +63,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Dryatic Auxiliary Skill 20-40 -->
+	<!-- T2 Dryatic Auxiliary Light Skill 20-40 -->
 	<NPCCharacter id="AR_bat_aux_t3_archer" default_group="Ranged" level="11" name="{=HMHzTNqJ}Dryatic Coillear Woodsman" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -129,13 +129,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Dryatic Auxiliary Skill 40-70 -->
+	<!-- T3 Dryatic Auxiliary Light Skill 40-70 -->
 	<NPCCharacter id="AR_bat_aux_t4_archer" default_group="Ranged" level="16" name="{=ac8MZYne}Dryatic Sealgair Huntsman" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -206,13 +206,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Dryatic Auxiliary Skill 60-100 -->
+	<!-- T4 Dryatic Auxiliary Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_aux_t5_archer" default_group="Ranged" level="21" name="{=Btb7p3mD}Dryatic Ribeadh Ambusher" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -272,13 +272,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Dryatic Auxiliary Skill 60-130 -->
+	<!-- T5 Dryatic Auxiliary Medium Skill 60-130 -->
 	<NPCCharacter id="AR_bat_aux_t6_archer" default_group="Ranged" level="26" name="{=1zObCG2o}Dryatic Maer Ranger" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -336,7 +336,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Axe Infantry Skill 20-40 -->
+	<!-- T2 Axe Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_bat_aux_t3_axeman" default_group="Infantry" level="11" name="{=q7VeZazL}Dryatic Fear Beinne Hillman" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -408,7 +408,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Axe Infantry Skill 40-70 -->
+	<!-- T3 Axe Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_bat_aux_t4_axeman" default_group="Infantry" level="16" name="{=q7VeZazL}Dryatic Tuagh Axeman" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -460,13 +460,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Axe Infantry Skill 60-100 -->
+	<!-- T4 Axe Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_aux_t5_axeman" default_group="Infantry" level="21" name="{=abFIj4ZW}Dryatic Veteran Tuagh Axeman" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -522,13 +522,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Axe Infantry Skill 60-130 -->
+	<!-- T5 Axe Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_aux_t6_axeman" default_group="Infantry" level="26" name="Dryatic Curaidh Champion" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -573,13 +573,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- GOTARNIAN AUXILIARIES -->
-	<!-- T1 Spearman Skill 5-20 -->
+	<!-- T1 Spearman Light Skill 5-20 -->
 	<NPCCharacter id="AR_got_aux_recruit" default_group="Infantry" level="6" name="{=arb5nRri}Darshi Tanash Conscript" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -656,13 +656,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Spearman Skill 20-40 -->
+	<!-- T2 Spearman Light Skill 20-40 -->
 	<NPCCharacter id="AR_got_aux_t3_spearman" default_group="Infantry" level="11" name="{=4BxUa4Sr}Darshi Tanash Footman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -733,7 +733,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spearman Skill 40-70 -->
+	<!-- T3 Spearman Medium Skill 40-70 -->
 	<NPCCharacter id="AR_got_aux_t4_spearman" default_group="Infantry" level="16" name="{=vZlMfmng}Darshi Tanash Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -787,13 +787,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spearman Skill 60-100 -->
+	<!-- T4 Spearman Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_got_aux_t5_spearman" default_group="Infantry" level="21" name="{=g1zvdEE3}Darshi Tanash Veteran Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -842,13 +842,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spearman Skill 60-130 -->
+	<!-- T5 Spearman Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_aux_t6_spearman" default_group="Infantry" level="26" name="{=B4ls6R2b}Darshi Tanash City Guard" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -895,13 +895,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Medium Skill 20-40 -->
 	<NPCCharacter id="AR_got_aux_t3_archer" default_group="Ranged" level="11" name="{=wtmCSMrC}Darshi Tanash Bowman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -949,7 +949,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_got_aux_t4_archer" default_group="Ranged" level="16" name="{=yhBagy1Y}Darshi Tanash Archer" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -1004,13 +1004,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_got_aux_t5_archer" default_group="Ranged" level="21" name="{=B4ls6R2b}Darshi Tanash Veteran Archer" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1059,13 +1059,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_aux_t6_archer" default_group="Ranged" level="26" name="{=B4ls6R2b}Darshi Tanash City Marksman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>

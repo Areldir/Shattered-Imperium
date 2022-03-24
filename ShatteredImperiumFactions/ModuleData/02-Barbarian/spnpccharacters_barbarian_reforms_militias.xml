@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- BATTANIAN MILITIAS -->
-	<!-- T3 Battanian Militia Archer Skill 40-70 -->
+	<!-- T3 Battanian Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_bat_militia_archer" default_group="Ranged" level="16" name="{=b4QPaEnA}Battanian Militia Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -138,26 +122,10 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Battanian Militia Archer Skill 60-100 -->
+	<!-- T4 Battanian Militia Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_bat_militia_veteran_archer" default_group="Ranged" level="21" name="{=i5DfUz6D}Battanian Militia Veteran Archer" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -256,29 +224,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Battanian Militia Archer Skill 60-130 -->
+	<!-- T5 Battanian Militia Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_bat_clann_archer" default_group="Ranged" level="26" name="{=ac8MZYne}Battanian Clann Guard Archer" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -332,29 +284,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Battanian Militia Skill 40-70 -->
+	<!-- T3 Battanian Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_bat_militia_spearman" default_group="Infantry" level="16" name="{=L0cGAnWw}Battanian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -457,29 +393,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Battanian Militia Skill 60-100 -->
+	<!-- T4 Battanian Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_militia_veteran_spearman" default_group="Infantry" level="21" name="{=IxcCmtxz}Battanian Militia Veteran Spearman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -545,29 +465,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Battanian Militia Skill 60-130 -->
+	<!-- T5 Battanian Militia Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_clann_guard" default_group="Infantry" level="26" name="{=tSc0mHy7}Battanian Clann Guard Spearman" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -659,13 +563,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- BATTANIAN CARAVANS -->
-	<!-- T5 Battanian Caravan Master Skill 60-130 -->
+	<!-- T5 Battanian Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_caravan_master" default_group="Infantry" level="26" name="{=LKb8DXby}Battanian Caravan Master" occupation="CaravanGuard" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -705,13 +609,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Battanian Armed Trader Skill 40-70 -->
+	<!-- T3 Battanian Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_bat_armed_trader" default_group="Ranged" level="16" name="{=v8hRrmY2}Battanian Armed Trader" occupation="CaravanGuard" culture="Culture.battania" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -769,13 +673,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Battanian Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Battanian Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_bat_caravan_guard" default_group="Cavalry" level="21" name="{=qfaTMEBw}Battanian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -847,13 +751,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Battanian Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Battanian Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_vet_caravan_guard" default_group="Cavalry" level="26" name="{=juBPAThy}Battanian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -924,13 +828,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- GOTARNIAN MILITIAS -->
-	<!-- T3 Gotarnian Militia Archer Skill 40-70 -->
+	<!-- T3 Gotarnian Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_got_militia_archer" default_group="Ranged" level="16" name="{=b4QPaEnA}Gotarnian Militia Crossbowman" occupation="Soldier" is_basic_troop="false" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1045,7 +949,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Gotarnian Militia Archer Skill 60-100 -->
+	<!-- T4 Gotarnian Militia Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_got_militia_veteran_archer" default_group="Ranged" level="21" name="{=i5DfUz6D}Gotarnian Militia Veteran Crossbowman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
@@ -1147,13 +1051,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Gotarnian Militia Archer Skill 60-130 -->
+	<!-- T5 Gotarnian Militia Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_got_clann_archer" default_group="Ranged" level="26" name="{=ac8MZYne}Gotarnian Weihs Guard Crossbowman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -1207,13 +1111,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Gotarnian Militia Skill 40-70 -->
+	<!-- T3 Gotarnian Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_got_militia_spearman" default_group="Infantry" level="16" name="{=L0cGAnWw}Gotarnian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1327,13 +1231,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Gotarnian Militia Skill 60-100 -->
+	<!-- T4 Gotarnian Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_got_militia_veteran_spearman" default_group="Infantry" level="21" name="{=IxcCmtxz}Gotarnian Militia Veteran Spearman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1409,13 +1313,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Gotarnian Militia Skill 60-130 -->
+	<!-- T5 Gotarnian Militia Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_clann_guard" default_group="Infantry" level="26" name="{=tSc0mHy7}Gotarnian Weihs Guard Spearman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1507,13 +1411,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- GOTARNIAN CARAVANS -->
-	<!-- T5 Gotarnian Caravan Master Skill 60-130 -->
+	<!-- T5 Gotarnian Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_caravan_master" default_group="Infantry" level="26" name="{=LKb8DXby}Gotarnian Caravan Master" occupation="CaravanGuard" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1553,13 +1457,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Gotarnian Armed Trader Skill 40-70 -->
+	<!-- T3 Gotarnian Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_got_armed_trader" default_group="Ranged" level="16" name="{=v8hRrmY2}Gotarnian Armed Trader" occupation="CaravanGuard" culture="Culture.gotarni" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1617,13 +1521,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Gotarnian Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Gotarnian Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_got_caravan_guard" default_group="Cavalry" level="21" name="{=qfaTMEBw}Gotarnian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1695,13 +1599,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Gotarnian Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Gotarnian Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_vet_caravan_guard" default_group="Cavalry" level="26" name="{=juBPAThy}Gotarnian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1777,7 +1681,7 @@
 			<face_key_template value="BodyProperty.townswoman_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1904,7 +1808,7 @@
 			<face_key_template value="BodyProperty.townswoman_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>

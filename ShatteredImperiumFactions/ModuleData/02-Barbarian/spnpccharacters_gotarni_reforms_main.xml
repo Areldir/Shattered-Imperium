@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- GOTARNIA -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_got_recruit" default_group="Infantry" level="6" name="{=GUQ3zfg2}Gotarnian Fralets Freeman" occupation="Soldier" is_basic_troop="true" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -82,13 +82,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_got_t2_pikeman" default_group="Infantry" level="11" name="{=VtlvxEs7}Gotarnian Sturiliggs Warrior" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -155,13 +155,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Infantry Skill 40-70 -->
+	<!-- T3 Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_got_t3_pikeman" default_group="Infantry" level="16" name="{=HMHzTNqJ}Gotarnian Militonds Pikeman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -247,13 +247,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Infantry Skill 60-100 -->
+	<!-- T4 Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_got_t4_pikeman" default_group="Infantry" level="21" name="{=tSc0mHy7}Gotarnian Gadrauhts Pikeman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -349,13 +349,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Infantry Skill 60-130 -->
+	<!-- T5 Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_pikeman" default_group="Infantry" level="26" name="{=bNZXcw3q}Gotarnian Veteran Gadrauhts Pikeman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -441,13 +441,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Infantry Skill 80-180 -->
+	<!-- T6 Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_got_t6_pikeman" default_group="Infantry" level="31" name="{=bNZXcw3q}Aertus Gaisfatha Guardsman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -501,13 +501,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Shock Infantry Skill 40-70 -->
+	<!-- T3 Shock Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_got_t3_shock_inf" default_group="Infantry" level="16" name="{=q7VeZazL}Gotarnian Fanthja Footman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="70"/>
@@ -553,13 +553,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_got_t4_shock_inf" default_group="Infantry" level="21" name="{=X4GvzDdW}Gotarnian Spadiggs Falxman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -605,13 +605,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_shock_inf" default_group="Infantry" level="26" name="{=yMqWnBfT}Gotarnian Veteran Spadiggs Falxman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -657,13 +657,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Shock Infantry Skill 80-180 -->
+	<!-- T6 Shock Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_got_t6_shock_inf" default_group="Infantry" level="31" name="{=yMqWnBfT}Aertus Tulgusguma Vanguard" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -708,13 +708,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Crossbowman Skill 20-40 -->
+	<!-- T2 Crossbowman Light Skill 20-40 -->
 	<NPCCharacter id="AR_got_t2_crossbowman" default_group="Ranged" level="11" name="{=SvAADOwm}Gotarnian Farands Wanderer" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -770,13 +770,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Crossbowman Skill 40-70 -->
+	<!-- T3 Crossbowman Light Skill 40-70 -->
 	<NPCCharacter id="AR_got_t3_crossbowman" default_group="Ranged" level="16" name="{=kih9DwL4}Gotarnian Widousguma Wildsman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -830,13 +830,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Crossbowman Skill 60-130 -->
+	<!-- T4 Crossbowman Medium Skill 60-130 -->
 	<NPCCharacter id="AR_got_t4_crossbowman" default_group="Ranged" level="21" name="{=acubGB3g}Gotarnian Waithja Huntsman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -896,13 +896,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Crossbowman Skill 60-130 -->
+	<!-- T5 Crossbowman Medium Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_crossbowman" default_group="Ranged" level="26" name="{=X6CQ9CMZ}Gotarnian Veteran Waithja Huntsman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -973,13 +973,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Crossbowman Skill 80-180 -->
+	<!-- T6 Crossbowman Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_got_t6_crossbowman" default_group="Ranged" level="31" name="{=X6CQ9CMZ}Aertus Ferja Ambusher" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1038,13 +1038,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CAVALRY -->
-	<!-- T2 Cavalry Skill 20-40 -->
+	<!-- T2 Cavalry Light Skill 20-40 -->
 	<NPCCharacter id="AR_got_elite_recruit" default_group="HorseArcher" level="11" name="{=DNsbKR7B}Gotarnian Marhaskalks Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1117,13 +1117,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_got_t3_cavalry" default_group="HorseArcher" level="16" name="{=6C3OMP1X}Gotarnian Caballarius Horseman" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1197,13 +1197,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_got_t4_cavalry" default_group="HorseArcher" level="21" name="{=6C3OMP1X}Gotarnian Bucellarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1287,13 +1287,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_cavalry" default_group="HorseArcher" level="26" name="{=2gUjKT5H}Gotarnian Veteran Bucellarius" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1366,13 +1366,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Skill 80-180 -->
+	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_got_t6_cavalry" default_group="HorseArcher" level="31" name="{=2gUjKT5H}Aertus Optimas Sagittarius" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1443,13 +1443,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lance Cavalry Skill 60-100 -->
+	<!-- T4 Lance Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_got_t4_lance_cav" default_group="Cavalry" level="21" name="{=q7VeZazL}Gotarnian Contarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1511,13 +1511,13 @@
 			<equipment slot="HorseHarness" id="Item.imperial_heavy_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lance Cavalry Skill 60-130 -->
+	<!-- T5 Lance Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_lance_cav" default_group="Cavalry" level="26" name="{=abFIj4ZW}Gotarnian Veteran Contarius" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1579,13 +1579,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_m"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Lance Cavalry Skill 80-180 -->
+	<!-- T6 Lance Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_got_t6_lance_cav" default_group="Cavalry" level="31" name="{=2gUjKT5H}Aertus Athals Cataphractarius" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
