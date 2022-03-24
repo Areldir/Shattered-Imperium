@@ -3039,7 +3039,7 @@
 				<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 				<Equipment slot="Head" id="Item.AR_roman_helmet_d_plumed_b"/>
 				<Equipment slot="Body" id="Item.AR_empire_armor_d"/>
-				<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
@@ -3061,7 +3061,7 @@
 				<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 				<Equipment slot="Head" id="Item.AR_roman_helmet_d_plumed_b"/>
 				<Equipment slot="Body" id="Item.AR_empire_armor_d"/>
-				<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
@@ -3138,7 +3138,7 @@
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Cape" id="Item.ao_focale"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
@@ -3159,7 +3159,7 @@
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Cape" id="Item.ao_focale"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
@@ -3232,7 +3232,7 @@
 				<Equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Gloves" id="Item.padded_vambrace"/>
-				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+				<Equipment slot="Cape" id="Item.AR_imperial_shoulders_s"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
@@ -3255,7 +3255,7 @@
 				<Equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Gloves" id="Item.padded_vambrace"/>
-				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+				<Equipment slot="Cape" id="Item.AR_imperial_shoulders_s"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
@@ -3920,18 +3920,18 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Item1" id="Item.viking_round_shield"/>
-				<Equipment slot="Head" id="Item.AR_vlandia_helmet_l"/>
+				<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+				<Equipment slot="Head" id="Item.AR_vlandia_helmet_z"/>
 				<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<Equipment slot="Cape" id="Item.AR_fur_cape_a"/>
+				<Equipment slot="Gloves" id="Item.leather_gloves"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.light_harness"/>
+				<Equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+				<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -3943,18 +3943,18 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Item1" id="Item.viking_round_shield"/>
-				<Equipment slot="Head" id="Item.AR_vlandia_helmet_l"/>
+				<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+				<Equipment slot="Head" id="Item.AR_vlandia_helmet_z"/>
 				<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<Equipment slot="Cape" id="Item.AR_fur_cape_a"/>
+				<Equipment slot="Gloves" id="Item.leather_gloves"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.light_harness"/>
+				<Equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+				<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -3969,7 +3969,7 @@
 				<Equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
 				<Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
 				<Equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
-				<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<Equipment slot="Body" id="Item.aketon"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Head" id="Item.open_mail_coif"/>
 				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
@@ -3979,7 +3979,7 @@
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Body" id="Item.padded_short_coat"/>
+				<Equipment slot="Body" id="Item.long_woolen_tunic"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 			</EquipmentSet>
@@ -3992,7 +3992,7 @@
 				<Equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
 				<Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
 				<Equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
-				<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<Equipment slot="Body" id="Item.aketon"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Head" id="Item.open_mail_coif"/>
 				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
@@ -4002,7 +4002,7 @@
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Body" id="Item.padded_short_coat"/>
+				<Equipment slot="Body" id="Item.long_woolen_tunic"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 			</EquipmentSet>
@@ -4059,7 +4059,7 @@
 				<Equipment slot="Item2" id="Item.default_arrows"/>
 				<Equipment slot="Item1" id="Item.hunting_bow"/>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<Equipment slot="Body" id="Item.cloth_tunic"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Head" id="Item.padded_cap"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -4082,7 +4082,7 @@
 				<Equipment slot="Item2" id="Item.default_arrows"/>
 				<Equipment slot="Item1" id="Item.hunting_bow"/>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<Equipment slot="Body" id="Item.cloth_tunic"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Head" id="Item.padded_cap"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -4231,10 +4231,10 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.AR_empire_scale_armor_g"/>
-				<Equipment slot="Leg" id="Item.fine_town_boots"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
+				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
 				<Equipment slot="Head" id="Item.AR_empire_crested_helm_a"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Cape" id="Item.tv_battania_cloak_c"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4254,7 +4254,7 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-				<Equipment slot="Leg" id="Item.strapped_shoes"/>
+				<Equipment slot="Leg" id="Item.fine_town_boots"/>
 				<Equipment slot="Head" id="Item.merchants_hat"/>
 			</EquipmentSet>
 		</xsl:copy>
@@ -4266,6 +4266,7 @@
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.laced_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.female_hood"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4276,6 +4277,7 @@
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Head" id="Item.AR_hat_a"/>
 				<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4329,6 +4331,7 @@
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.plain_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4336,8 +4339,8 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<Equipment slot="Body" id="Item.AR_empire_armor_f"/>
+				<Equipment slot="Leg" id="Item.simple_shoes"/>
 				<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 			</EquipmentSet>
 		</xsl:copy>
@@ -4900,10 +4903,10 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.AR_vlandia_scale_a"/>
-				<Equipment slot="Head" id="Item.AR_vlandia_helmet_r"/>
-				<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_c"/>
+				<Equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
 				<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-				<Equipment slot="Cape" id="Item.AR_fur_cape_a"/>
+				<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4913,6 +4916,7 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Cape" id="Item.female_hood"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4922,6 +4926,7 @@
 			<EquipmentSet>
 				<Equipment slot="Body" id="Item.merchants_fur_coat"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
