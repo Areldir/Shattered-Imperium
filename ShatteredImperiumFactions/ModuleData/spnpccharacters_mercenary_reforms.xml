@@ -6,13 +6,13 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="15"/>
+			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
 			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="15"/>
+			<skill id="Throwing" value="40"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.mercenary_2"/>
@@ -20,37 +20,61 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Head" id="ao_mabili_leather_headband"/>
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.battania_civil_a"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Cape" id="Item.scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.hood"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Head" id="nordic_fur_cap"/>
 				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
 				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
 			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
@@ -200,7 +224,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_7" default_group="Infantry" is_hero="false" level="26" name="{=R74i2pQz}Hired Provocator Champion" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_7" default_group="Infantry" is_hero="false" level="26" name="{=R74i2pQz}Mercenary Provocator Champion" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -274,7 +298,7 @@
 	
 	
 	
-	<NPCCharacter id="AR_merc_t3_crossbowman" default_group="Infantry" is_hero="false" level="16" name="{=0GKH29JG}Mercenary Guard" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="AR_merc_t3_crossbowman" default_group="Ranged" level="16" name="{=0GKH29JG}Hired Hunter" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -293,8 +317,10 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.short_sword_t3"/>
-				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.short_sword_t3"/>
+				<equipment slot="Item2" id="Item.bolt_e"/>
+				<equipment slot="Item3" id="Item.sturgia_old_shield_c"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.bandit_gambeson"/>
 				<equipment slot="Cape" id="Item.scarf"/>
@@ -303,7 +329,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_5" default_group="Ranged" is_hero="false" level="21" name="{=PgOknaEN}Mercenary Crossbowman" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_5" default_group="Ranged" level="21" name="{=PgOknaEN}Mercenary Crossbowman" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -323,7 +349,7 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.crossbow_d"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item1" id="Item.bolt_e"/>
 				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
 				<equipment slot="Item3" id="Item.empire_sword_3_t3"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
@@ -333,7 +359,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_8" default_group="Ranged" is_hero="false" level="26" name="{=QfVe3IVw}Hired Crossbow" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_8" default_group="Ranged" level="26" name="{=QfVe3IVw}Mercenary Ballistarius" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -351,7 +377,7 @@
 			<EquipmentRoster>
 				<equipment slot="Item2" id="Item.empire_sword_2_t3"/>
 				<equipment slot="Item3" id="Item.desert_round_shield"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
 				<equipment slot="Item0" id="Item.crossbow_f"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.hauberk"/>
@@ -365,7 +391,7 @@
 	
 	
 	
-	<NPCCharacter id="mercenary_3" default_group="Cavalry" is_hero="false" level="16" name="{=xaYwo9tM}Mercenary Scout" upgrade_requires="ItemCategory.horse" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_3" default_group="Cavalry" level="16" name="{=xaYwo9tM}Mercenary Scout" upgrade_requires="ItemCategory.horse" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -427,7 +453,7 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_9" default_group="Cavalry" is_hero="false" level="26" name="{=SaqVvzyV}Hired Lancer" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_9" default_group="Cavalry" level="26" name="{=SaqVvzyV}Hired Lancer" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -500,7 +526,7 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Head" id="AR_phrygian_cap_a"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.empire_short_dress"/>
 				<equipment slot="Gloves" id="Item.armwraps"/>
@@ -509,7 +535,8 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Head" id="ao_mabili_leather_headband"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
 				<equipment slot="Leg" id="Item.simple_shoes"/>
 				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<equipment slot="Cape" id="Item.female_scarf"/>
@@ -517,6 +544,7 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
+				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.battania_civil_a"/>
 				<equipment slot="Gloves" id="Item.armwraps"/>
@@ -525,6 +553,7 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
 				<equipment slot="Leg" id="Item.simple_shoes"/>
 				<equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
@@ -533,7 +562,7 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Head" id="nordic_fur_cap"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.tundra_tunic"/>
 				<equipment slot="Cape" id="Item.female_scarf"/>
@@ -541,15 +570,16 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
+				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Leg" id="Item.simple_shoes"/>
 				<equipment slot="Body" id="Item.hemp_tunic"/>
 				<equipment slot="Gloves" id="Item.armwraps"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
 				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.footmans_tunic"/>
@@ -801,6 +831,7 @@
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
 				<equipment slot="Head" id="Item.padded_cap"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_bow"/>
@@ -811,6 +842,7 @@
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
 				<equipment slot="Head" id="Item.open_padded_coif"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_bow"/>
@@ -821,6 +853,7 @@
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
 				<equipment slot="Head" id="Item.laced_coif"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_bow"/>
@@ -831,6 +864,7 @@
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
 				<equipment slot="Head" id="Item.arming_coif"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
 			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 			<equipment slot="Horse" id="Item.empire_horse"/>
@@ -864,6 +898,7 @@
 				<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
 				<equipment slot="Head" id="Item.nasal_cervelliere_over_laced_coif"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
@@ -874,6 +909,7 @@
 				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
 				<equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
@@ -884,6 +920,7 @@
 				<equipment slot="Body" id="Item.eastern_studded_leather"/>
 				<equipment slot="Head" id="Item.imperial_mail_coif"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
@@ -894,6 +931,7 @@
 				<equipment slot="Body" id="Item.woven_leather_vest"/>
 				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
 			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 			<equipment slot="Horse" id="Item.empire_horse"/>
@@ -924,6 +962,7 @@
 				<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_c2"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_o"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
@@ -934,6 +973,7 @@
 				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_c"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
@@ -944,6 +984,7 @@
 				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_k"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
@@ -954,6 +995,7 @@
 				<equipment slot="Body" id="Item.ao_sturgian_leather_over_mail"/>
 				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 				<equipment slot="Horse" id="Item.empire_horse"/>
