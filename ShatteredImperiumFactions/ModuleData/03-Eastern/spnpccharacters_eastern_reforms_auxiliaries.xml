@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- KHUZAIT AUXILIARIES -->
-	<!-- T1 Female Cavalry Skirmisher Skill 5-20 -->
+	<!-- T1 Female Cavalry Skirmisher Light Skill 5-20 -->
 	<NPCCharacter id="AR_khu_aux_campfollower_recruit" default_group="Cavalry" is_female="true" level="6" name="{=ZKuabzhK}Kizborunin Camp Follower" occupation="Soldier" is_basic_troop="true" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="5"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -50,13 +50,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Female Cavalry Skirmisher Skill 20-40 -->
+	<!-- T2 Female Cavalry Skirmisher Medium Skill 20-40 -->
 	<NPCCharacter id="AR_khu_aux_t3_campfollower_melee" default_group="Cavalry" is_female="true" level="11" name="{=UYPaQP2j}Kizborunin Tribeswoman" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -107,13 +107,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Female Cavalry Skirmisher Skill 40-70 -->
+	<!-- T3 Female Cavalry Skirmisher Medium Skill 40-70 -->
 	<NPCCharacter id="AR_khu_aux_t4_campfollower_melee" default_group="Cavalry" is_female="true" level="16" name="{=QhNpvW0Y}Kizborunin Horsewoman" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -164,13 +164,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Female Cavalry Skirmisher Skill 60-100 -->
+	<!-- T4 Female Cavalry Skirmisher Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_khu_aux_t5_campfollower_melee" default_group="Cavalry" is_female="true" level="21" name="{=VqrQ096u}Kizborunin Warrior Woman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -221,13 +221,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Female Cavalry Skirmisher Skill 60-130 -->
+	<!-- T5 Female Cavalry Skirmisher Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_khu_aux_t6_campfollower_melee" default_group="Cavalry" is_female="true" level="26" name="{=B7oI7AZG}Kizborunin Gonji Amazon" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -276,13 +276,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_za"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_khu_aux_t3_campfollower_ranged" default_group="HorseArcher" is_female="true" level="11" name="{=Loc1XOIk}Kizborunin Bowwoman" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -330,13 +330,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_khu_aux_t4_campfollower_ranged" default_group="HorseArcher" is_female="true" level="16" name="{=lkrV8jZa}Kizborunin Archer Woman" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -384,13 +384,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_khu_aux_t5_campfollower_ranged" default_group="HorseArcher" is_female="true" level="21" name="{=DlIU2vJB}Kizborunin Veteran Archer Woman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -441,13 +441,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_khu_aux_t6_campfollower_ranged" default_group="HorseArcher" is_female="true" level="26" name="{=DlIU2vJB}Kizborunin Behichi Huntress" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -485,13 +485,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Spear Infantry Skill 5-20 -->
+	<!-- T1 Spear Infantry Light Skill 5-20 -->
 	<NPCCharacter id="AR_khu_aux_hawlan_recruit" default_group="Infantry" level="6" name="{=0000009}Hawlan Slave" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -536,13 +536,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Spear Infantry Skill 20-40 -->
+	<!-- T2 Spear Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_khu_aux_t3_hawlan_infantry" default_group="Infantry" level="11" name="{=0000010}Hawlan Slave Conscript" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -591,13 +591,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_khu_aux_t4_hawlan_infantry" default_group="Infantry" level="16" name="{=0000011}Hawlan Slave Footman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -657,13 +657,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_khu_aux_t5_hawlan_infantry" default_group="Infantry" level="21" name="{=0000012}Hawlan Slave Warrior" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -712,13 +712,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_khu_aux_t6_hawlan_infantry" default_group="Infantry" level="26" name="{=0000013}Hawlan Slave Veteran" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -765,13 +765,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_khu_aux_t3_hawlan_archer" default_group="Ranged" level="11" name="{=0000014}Hawlan Slave Hunter" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -817,13 +817,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_khu_aux_t4_hawlan_archer" default_group="Ranged" level="16" name="{=0000014}Hawlan Slave Bowman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -869,7 +869,7 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_khu_aux_t5_hawlan_archer" default_group="Ranged" level="21" name="{=0000015}Hawlan Slave Archer" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
@@ -921,13 +921,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_khu_aux_t6_hawlan_archer" default_group="Ranged" level="26" name="{=0000015}Hawlan Slave Marksman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>

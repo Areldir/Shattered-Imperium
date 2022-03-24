@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- CIZYGIANS -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_ciz_recruit" default_group="Infantry" level="6" name="Cizygian Nuudelchin Nomad" occupation="Soldier" is_basic_troop="true" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -54,13 +54,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- INFANTRY -->
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_ciz_t2_axeman" default_group="Infantry" level="11" name="Cizygian Baildagch Young Warrior" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -108,7 +108,7 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Infantry Skill 40-70 -->
+	<!-- T3 Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_t3_axeman" default_group="Infantry" level="16" name="Cizygian Daichin Warrior" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
@@ -163,13 +163,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Infantry Skill 60-100 -->
+	<!-- T4 Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_t4_axeman" default_group="Infantry" level="21" name="Cizygian Jadchin Pikeman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -218,13 +218,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Infantry Skill 60-130 -->
+	<!-- T5 Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_axeman" default_group="Infantry" level="26" name="Cizygian Veteran Jadchin Pikeman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -273,13 +273,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Skill 80-180 -->
+	<!-- T6 Sword Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ciz_t6_axeman" default_group="Infantry" level="31" name="Cizghunait Darkhan Guardsman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -327,13 +327,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CAVALRY ARCHER -->
-	<!-- T2 Cavalry Archer Skill 20-40 -->
+	<!-- T2 Cavalry Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_ciz_t2_cav_arch" default_group="HorseArcher" level="11" name="Cizygian Moriton Rider" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -392,13 +392,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Archer Skill 40-70 -->
+	<!-- T3 Cavalry Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_t3_cav_arch" default_group="HorseArcher" level="16" name="Cizygian Deeremchin Raider" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -456,13 +456,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_t4_cav_arch" default_group="HorseArcher" level="21" name="Cizygian Kharvaach Mori Horse Archer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -510,13 +510,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_cav_arch" default_group="HorseArcher" level="26" name="Cizygian Veteran Kharvaach Mori" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -567,13 +567,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Archer Skill 80-180 -->
+	<!-- T6 Cavalry Archer Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ciz_t6_cav_arch" default_group="HorseArcher" level="31" name="Cizghunait Okcularmori Horsemaster" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -611,13 +611,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sword Cavalry Skill 40-70 -->
+	<!-- T3 Sword Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_t3_cavalry" default_group="Cavalry" level="16" name="Cizygian Morin Tsereg Horseman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -665,13 +665,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Cavalry Skill 60-100 -->
+	<!-- T4 Sword Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_t4_cavalry" default_group="Cavalry" level="21" name="Cizygian Ildmori Mounted Swordsman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -719,13 +719,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Cavalry Skill 60-130 -->
+	<!-- T5 Sword Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_cavalry" default_group="Cavalry" level="26" name="Cizygian Veteran Ildmori Swordsman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -773,13 +773,13 @@
 			<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Cavalry Skill 80-180 -->
+	<!-- T6 Sword Cavalry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ciz_t6_cavalry" default_group="Cavalry" level="31" name="Cizghunait Usan Khui Swordmaster" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -845,13 +845,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_za"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- Recruit Elite Recruit Skill 20-40 -->
+	<!-- Recruit Elite Recruit Light Skill 20-40 -->
 	<NPCCharacter id="AR_ciz_elite_recruit" default_group="Cavalry" level="11" name="Cizygian A-ge Noble Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -902,13 +902,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Elite Cavalry Archer Skill 40-70 -->
+	<!-- T3 Elite Cavalry Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_t3_elite_cav" default_group="Cavalry" level="16" name="Cizygian Qanqli Noble Rider" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -971,13 +971,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Cavalry Archer Skill 60-100 -->
+	<!-- T4 Elite Cavalry Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_t4_elite_lancer" default_group="Cavalry" level="21" name="Cizygian Nokkor Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1028,13 +1028,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Cavalry Archer Skill 60-130 -->
+	<!-- T5 Elite Cavalry Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_elite_lancer" default_group="Cavalry" level="26" name="Cizygian Veteran Nokkor Lancer" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1089,13 +1089,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Cavalry Archer Skill 80-180 -->
+	<!-- T6 Elite Cavalry Archer Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ciz_t6_elite_lancer" default_group="Cavalry" level="31" name="Cizghunait Khorchin Guardsman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1144,13 +1144,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_g"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Skirmisher Cavalry Skill 60-100 -->
+	<!-- T4 Elite Skirmisher Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_t4_elite_cav" default_group="Cavalry" level="21" name="Cizygian Shuurga Charger" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1201,13 +1201,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Skirmisher Cavalry Skill 60-130 -->
+	<!-- T5 Elite Skirmisher Cavalry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_elite_cav" default_group="Cavalry" level="26" name="Cizygian Veteran Shuurga Charger" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1262,13 +1262,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Skirmisher Cavalry Skill 80-180 -->
+	<!-- T6 Elite Skirmisher Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ciz_t6_elite_cav" default_group="Cavalry" level="31" name="Cizghunait Khevtuul Sentinel" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>

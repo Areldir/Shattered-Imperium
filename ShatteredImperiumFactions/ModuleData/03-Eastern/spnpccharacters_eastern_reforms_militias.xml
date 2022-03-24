@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- KHUZAIT MILITIAS -->
-	<!-- T3 Khuzait Militia Archer Skill 40-70 -->
+	<!-- T3 Khuzait Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_khu_militia_archer" default_group="Ranged" level="16" name="{=CKoq1wQa}Iltanlar Militia Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -61,13 +61,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Khuzait Militia Archer Skill 60-100 -->
+	<!-- T4 Khuzait Militia Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_khu_militia_veteran_archer" default_group="Ranged" level="21" name="{=5JFkQn5U}Iltanlar Militia Veteran Archer" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -126,13 +126,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Khuzait Militia Archer Skill 60-130 -->
+	<!-- T5 Khuzait Militia Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_khu_orda_archer" default_group="Ranged" level="26" name="{=lkrV8jZa}Iltanlar Oguz Sentinel" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -185,13 +185,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Khuzait Militia Skill 40-70 -->
+	<!-- T3 Khuzait Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_khu_militia_spearman" default_group="Infantry" level="16" name="{=MDIuyBHP}Iltanlar Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -241,13 +241,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Khuzait Militia Skill 60-100 -->
+	<!-- T4 Khuzait Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_khu_militia_veteran_spearman" default_group="Infantry" level="21" name="{=f2a1fPca}Iltanlar Militia Veteran Spearman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -302,13 +302,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Khuzait Militia Skill 60-130 -->
+	<!-- T5 Khuzait Militia Medium Skill 60-130 -->
 	<NPCCharacter id="AR_khu_orda_guard" default_group="Infantry" level="26" name="{=6UFEfIJV}Iltanlar Oguz Guardsman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -367,13 +367,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- KHUZAIT CARAVANS -->
-	<!-- T5 Khuzait Caravan Master Skill 60-130 -->
+	<!-- T5 Khuzait Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_khu_caravan_master" default_group="Infantry" level="26" name="{=WEHDGbEE}Iltanlar Caravan Master" occupation="CaravanGuard" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -417,13 +417,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Khuzait Armed Trader Skill 40-70 -->
+	<!-- T3 Khuzait Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_khu_armed_trader" default_group="Ranged" level="16" name="{=l6NFOl8c}Iltanlar Armed Trader" occupation="CaravanGuard" culture="Culture.khuzait" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -473,13 +473,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Khuzait Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Khuzait Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_khu_caravan_guard" default_group="Cavalry" level="21" name="{=THOfB9DZ}Iltanlar Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -539,13 +539,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Khuzait Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Khuzait Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_khu_vet_caravan_guard" default_group="HorseArcher" level="26" name="{=6hhspFvz}Iltanlar Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -614,13 +614,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CIZYGIAN MILITIAS -->
-	<!-- T3 Cizygian Militia Archer Skill 40-70 -->
+	<!-- T3 Cizygian Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_militia_archer" default_group="Ranged" level="16" name="{=CKoq1wQa}Cizygian Militia Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -674,7 +674,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cizygian Militia Archer Skill 60-100 -->
+	<!-- T4 Cizygian Militia Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_militia_veteran_archer" default_group="Ranged" level="21" name="{=5JFkQn5U}Cizygian Militia Veteran Archer" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
@@ -739,13 +739,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cizygian Militia Archer Skill 60-130 -->
+	<!-- T5 Cizygian Militia Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_orda_archer" default_group="Ranged" level="26" name="{=lkrV8jZa}Cizygian Oguz Sentinel" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -798,13 +798,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cizygian Militia Skill 40-70 -->
+	<!-- T3 Cizygian Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_militia_spearman" default_group="Infantry" level="16" name="{=MDIuyBHP}Cizygian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -854,13 +854,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cizygian Militia Skill 60-100 -->
+	<!-- T4 Cizygian Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_militia_veteran_spearman" default_group="Infantry" level="21" name="{=f2a1fPca}Cizygian Militia Veteran Spearman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -915,13 +915,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cizygian Militia Skill 60-130 -->
+	<!-- T5 Cizygian Militia Medium Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_orda_guard" default_group="Infantry" level="26" name="{=6UFEfIJV}Cizygian Oguz Guardsman" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -980,13 +980,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CIZYGIAN CARAVANS -->
-	<!-- T5 Cizygian Caravan Master Skill 60-130 -->
+	<!-- T5 Cizygian Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_caravan_master" default_group="Infantry" level="26" name="{=WEHDGbEE}Cizygian Caravan Master" occupation="CaravanGuard" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1030,13 +1030,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cizygian Armed Trader Skill 40-70 -->
+	<!-- T3 Cizygian Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_armed_trader" default_group="Ranged" level="16" name="{=l6NFOl8c}Cizygian Armed Trader" occupation="CaravanGuard" culture="Culture.cizygian" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1086,13 +1086,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cizygian Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Cizygian Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ciz_caravan_guard" default_group="Cavalry" level="21" name="{=THOfB9DZ}Cizygian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1152,13 +1152,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cizygian Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Cizygian Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_vet_caravan_guard" default_group="HorseArcher" level="26" name="{=6hhspFvz}Cizygian Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1232,7 +1232,7 @@
 			<face_key_template value="BodyProperty.townswoman_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1343,7 +1343,7 @@
 			<face_key_template value="BodyProperty.townswoman_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
