@@ -1,5 +1,5 @@
 # Shattered-Imperium
-Alpha Version - For Mount and Blade Bannerlord
+Beta Version - For Mount and Blade Bannerlord
 
 Name: Shattered Imperium (Calradian Reforms - Definitive Edition)
 
@@ -10,9 +10,11 @@ Required files:
 				AdonnaysTroopChanger
 				RealisticBattleCombatModule
 				OpenSourceArmory
+				BannerColorPersistence
 	
 Recommended files:
 				RealisticBattleAiModule
+				EnhancedBattleTest
 
 ----------------------------------------------------------------------------------------------------------
 Installation: 
