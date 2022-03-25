@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- STURGIAN MILITIAS -->
-	<!-- T3 Sturgia Militia Crossbowman Skill 40-70 -->
+	<!-- T3 Sturgia Militia Crossbowman Light Skill 40-70 -->
 	<NPCCharacter id="AR_stu_militia_archer" default_group="Ranged" level="16" name="{=jRFfRZv2}Sturgian Militia Slinger" occupation="Soldier" is_basic_troop="false" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -76,13 +76,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sturgia Militia Crossbowman Skill 60-100 -->
+	<!-- T4 Sturgia Militia Crossbowman Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_militia_veteran_archer" default_group="Ranged" level="21" name="{=gZ4JeEw4}Sturgian Militia Veteran Slinger" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -137,13 +137,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sturgia Militia Crossbowman Skill 60-130 -->
+	<!-- T5 Sturgia Militia Crossbowman Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_hearthguard_archer" default_group="Ranged" level="26" name="{=1WfDVpya}Sturgian Hearthguard Slinger" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -206,13 +206,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sturgia Militia Skill 40-70 -->
+	<!-- T3 Sturgia Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_stu_militia_spearman" default_group="Infantry" level="16" name="{=Zmajp2o1}Sturgian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -286,13 +286,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sturgia Militia Skill 60-100 -->
+	<!-- T4 Sturgia Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_militia_veteran_spearman" default_group="Infantry" level="21" name="{=LVEU4se3}Sturgian Militia Veteran Spearman" occupation="Soldier" culture="Culture.sturgia" skill_template="NPCCharacter.infantry_heavyinfantry_level21_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -367,13 +367,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sturgia Militia Skill 60-130 -->
+	<!-- T5 Sturgia Militia Medium Skill 60-130 -->
 	<NPCCharacter id="AR_stu_hearthguard" default_group="Infantry" level="26" name="{=CfO7eDsv}Sturgian Hearthguard" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -431,13 +431,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- STURGIAN CARAVANS -->
-	<!-- T5 Sturgian Caravan Master Skill 60-130 -->
+	<!-- T5 Sturgian Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_caravan_master" default_group="Infantry" level="26" name="{=uDseaKcb}Sturgian Caravan Master" occupation="CaravanGuard" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -481,13 +481,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sturgian Armed Trader Skill 40-70 -->
+	<!-- T3 Sturgian Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_stu_armed_trader" default_group="Ranged" level="16" name="{=cPQx1RXt}Sturgian Armed Trader" occupation="CaravanGuard" culture="Culture.sturgia" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -542,13 +542,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sturgian Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Sturgian Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_caravan_guard" default_group="Cavalry" level="21" name="{=pzmgMODE}Sturgian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -613,13 +613,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sturgian Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Sturgian Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_vet_caravan_guard" default_group="Cavalry" level="26" name="{=0GkJB08d}Sturgian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -690,13 +690,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- VAEGIRIAN MILITIAS -->
-	<!-- T3 Vaegiria Militia Crossbowman Skill 40-70 -->
+	<!-- T3 Vaegiria Militia Crossbowman Light Skill 40-70 -->
 	<NPCCharacter id="AR_vae_militia_archer" default_group="Ranged" level="16" name="{=jRFfRZv2}Vaegirian Militia Crossbowman" occupation="Soldier" is_basic_troop="false" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -818,13 +818,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegiria Militia Crossbowman Skill 60-100 -->
+	<!-- T4 Vaegiria Militia Crossbowman Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vae_militia_veteran_archer" default_group="Ranged" level="21" name="{=gZ4JeEw4}Vaegirian Militia Veteran Crossbowman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -905,13 +905,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegiria Militia Crossbowman Skill 60-130 -->
+	<!-- T5 Vaegiria Militia Crossbowman Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_hearthguard_archer" default_group="Ranged" level="26" name="{=1WfDVpya}Vaegirian Hearthguard Crossbowman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -994,13 +994,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vaegiria Militia Skill 40-70 -->
+	<!-- T3 Vaegiria Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_vae_militia_spearman" default_group="Infantry" level="16" name="{=Zmajp2o1}Vaegirian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1118,13 +1118,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegiria Militia Skill 60-100 -->
+	<!-- T4 Vaegiria Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vae_militia_veteran_spearman" default_group="Infantry" level="21" name="{=LVEU4se3}Vaegirian Militia Veteran Spearman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1219,13 +1219,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegiria Militia Skill 60-130 -->
+	<!-- T5 Vaegiria Militia Medium Skill 60-130 -->
 	<NPCCharacter id="AR_vae_hearthguard" default_group="Infantry" level="26" name="{=CfO7eDsv}Vaegirian Hearthguard" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1338,13 +1338,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- VAEGIRIAN CARAVANS -->
-	<!-- T5 Vaegirian Caravan Master Skill 60-130 -->
+	<!-- T5 Vaegirian Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_caravan_master" default_group="Infantry" level="26" name="{=uDseaKcb}Vaegirian Caravan Master" occupation="CaravanGuard" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1388,13 +1388,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vaegirian Armed Trader Skill 40-70 -->
+	<!-- T3 Vaegirian Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_vae_armed_trader" default_group="Ranged" level="16" name="{=cPQx1RXt}Vaegirian Armed Trader" occupation="CaravanGuard" culture="Culture.vakken" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1449,13 +1449,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegirian Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Vaegirian Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vae_caravan_guard" default_group="Cavalry" level="21" name="{=pzmgMODE}Vaegirian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1520,13 +1520,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegirian Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Vaegirian Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_vet_caravan_guard" default_group="Cavalry" level="26" name="{=0GkJB08d}Vaegirian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1602,7 +1602,7 @@
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1776,7 +1776,7 @@
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>

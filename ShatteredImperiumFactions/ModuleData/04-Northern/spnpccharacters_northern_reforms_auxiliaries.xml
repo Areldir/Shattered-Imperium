@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- STURGIAN AUXILIARIES -->
-	<!-- T1 Female Infantry Skill 5-20 -->
-	<NPCCharacter id="AR_vae_aux_recruit" default_group="Infantry" is_female="true" level="6" name="{=auxU5OGA}Vakken Wanderess" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+	<!-- T1 Female Infantry Light Skill 5-20 -->
+	<NPCCharacter id="AR_vae_aux_recruit" default_group="Infantry" is_female="true" level="6" name="{=auxU5OGA}Vakken Strannika Wanderess" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -54,13 +54,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Female Infantry Skill 20-40 -->
-	<NPCCharacter id="AR_vae_aux_t3_archer" default_group="HorseArcher" is_female="true" level="11" name="{=4C4WiTb2}Vakken Woodswoman" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.vakken">
+	<!-- T2 Female Infantry Medium Skill 20-40 -->
+	<NPCCharacter id="AR_vae_aux_t3_archer" default_group="HorseArcher" is_female="true" level="11" name="{=4C4WiTb2}Vanni Drovoseka Woodswoman" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -111,8 +111,8 @@
 			<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Female Infantry Skill 40-70 -->
-	<NPCCharacter id="AR_vae_aux_t4_archer" default_group="HorseArcher" is_female="true" level="16" name="{=QGPAEtj7}Vakken Huntress" occupation="Soldier" culture="Culture.vakken">
+	<!-- T3 Female Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_vae_aux_t4_archer" default_group="HorseArcher" is_female="true" level="16" name="{=QGPAEtj7}Vanni Oxotnica Huntress" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -168,13 +168,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Female Infantry Skill 60-100 -->
-	<NPCCharacter id="AR_vae_aux_t5_archer" default_group="HorseArcher" is_female="true" level="21" name="{=iZqYAIQy}Vakken Veteran Huntress" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
+	<!-- T4 Female Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_aux_t5_archer" default_group="HorseArcher" is_female="true" level="21" name="{=iZqYAIQy}Vanni Veteran Oxotnica Huntress" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -225,13 +225,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Female Infantry Skill 60-130 -->
-	<NPCCharacter id="AR_vae_aux_t6_archer" default_group="HorseArcher" is_female="true" level="26" name="{=iZqYAIQy}Vakken Herja's Chosen" occupation="Soldier" culture="Culture.vakken">
+	<!-- T5 Female Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_aux_t6_archer" default_group="HorseArcher" is_female="true" level="26" name="{=iZqYAIQy}Vanni Pobornika Champion" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -280,13 +280,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Female Infantry Skill 20-40 -->
-	<NPCCharacter id="AR_vae_aux_t3_infantry" default_group="Infantry" is_female="true" level="11" name="{=4C4WiTb2}Vakken Camp Follower" occupation="Soldier" culture="Culture.vakken">
+	<!-- T2 Female Infantry Medium Skill 20-40 -->
+	<NPCCharacter id="AR_vae_aux_t3_infantry" default_group="Infantry" is_female="true" level="11" name="{=4C4WiTb2}Chertyga Vigmaer Fighter" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -346,13 +346,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Female Infantry Skill 40-70 -->
-	<NPCCharacter id="AR_vae_aux_t4_infantry" default_group="Infantry" is_female="true" level="16" name="{=QGPAEtj7}Vakken Skjaldmaer" occupation="Soldier" culture="Culture.vakken">
+	<!-- T3 Female Infantry Heavy Skill 40-70 -->
+	<NPCCharacter id="AR_vae_aux_t4_infantry" default_group="Infantry" is_female="true" level="16" name="{=QGPAEtj7}Chertyga Skjaldmaer Warrior" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -412,13 +412,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Female Infantry Skill 60-100 -->
-	<NPCCharacter id="AR_vae_aux_t5_infantry" default_group="Infantry" is_female="true" level="21" name="{=iZqYAIQy}Vakken Veteran Skjaldmaer" occupation="Soldier" culture="Culture.vakken">
+	<!-- T4 Female Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_vae_aux_t5_infantry" default_group="Infantry" is_female="true" level="21" name="{=iZqYAIQy}Chertyga Veteran Skjaldmaer" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -478,13 +478,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Female Infantry Skill 60-130 -->
-	<NPCCharacter id="AR_vae_aux_t6_infantry" default_group="Infantry" is_female="true" level="26" name="{=iZqYAIQy}Vakken Valkyrja" occupation="Soldier" culture="Culture.vakken">
+	<!-- T5 Female Infantry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_aux_t6_infantry" default_group="Infantry" is_female="true" level="26" name="{=iZqYAIQy}Chertyga Valkyrja" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -542,13 +542,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T1 Infantry Skill 5-20 -->
+	<!-- T1 Infantry Light Skill 5-20 -->
 	<NPCCharacter id="AR_stu_aux_recruit" default_group="Infantry" level="6" name="Nord Stigandi Traveller" occupation="Soldier" is_basic_troop="true" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -619,13 +619,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Medium Skill 20-40 -->
 	<NPCCharacter id="AR_stu_aux_t3_archer" default_group="Ranged" level="11" name="Nord Veidimadr Huntsman" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="40"/>
@@ -691,7 +691,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_stu_aux_t4_archer" default_group="Ranged" level="16" name="Nord Bogikarl Archer" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -753,13 +753,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_aux_t5_archer" default_group="Ranged" level="21" name="Nord Veteran Bogikarl Archer" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="100"/>
@@ -815,13 +815,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_aux_t6_archer" default_group="Ranged" level="26" name="Nord Bogidrengr Marksman" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
@@ -865,13 +865,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Spear Infantry Skill 20-40 -->
+	<!-- T2 Spear Infantry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_stu_aux_t3_spearman" default_group="Infantry" level="11" name="Nord Farmadr Sailor" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -907,13 +907,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Heavy Skill 40-70 -->
 	<NPCCharacter id="AR_stu_aux_t4_spearman" default_group="Infantry" level="16" name="Nord Vikingr Raider" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -960,13 +960,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_stu_aux_t5_spearman" default_group="Infantry" level="21" name="Nord Hardened Vikingr Raider" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1013,13 +1013,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_aux_t6_spearman" default_group="Infantry" level="26" name="Nord Skipari Captain" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>

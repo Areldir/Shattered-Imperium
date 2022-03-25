@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- STURGIA -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_stu_recruit" default_group="Infantry" level="6" name="{=BBJKgKj2}Sturgian Baendr Freeholder" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -63,13 +63,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- INFANTRY -->
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_stu_t2_swordsman" default_group="Infantry" level="11" name="{=96pj2wxH}Sturgian Drengr Warrior" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -136,7 +136,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_stu_t3_swordsman" default_group="Infantry" level="16" name="Sturgian Rekkr Axeman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -188,7 +188,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_stu_t3_spearman" default_group="Infantry" level="16" name="Sturgian Spjotmandr Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -276,13 +276,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_spearman" default_group="Infantry" level="21" name="Sturgian Spjotvigmandr" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -331,13 +331,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_spearman" default_group="Infantry" level="26" name="Sturgian Veteran Spjotvigmandr" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -408,13 +408,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Spear Infantry Skill 80-180 -->
+	<!-- T6 Spear Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_spearman" default_group="Infantry" level="31" name="{=iZqYAIQy}Gundaroving Skipari Captain" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -450,13 +450,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_swordsman" default_group="Infantry" level="21" name="Sturgian Hardened Rekkr Axeman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -512,13 +512,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Infantry Skill 60-130 -->
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_swordsman" default_group="Infantry" formation_position_preference="Back" level="26" name="Sturgian Veteran Rekkr Axeman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -574,13 +574,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Skill 80-180 -->
+	<!-- T6 Sword Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_swordsman" default_group="Infantry" formation_position_preference="Back" level="31" name="Gundaroving Hirthmathr Guard" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -624,13 +624,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Elite Shock Infantry Skill 20-40 -->
+	<!-- T2 Elite Shock Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_stu_elite_recruit" default_group="Infantry" level="11" name="Sturgian Skelmir Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="70"/>
@@ -664,13 +664,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Elite Shock Infantry Skill 40-70 -->
+	<!-- T3 Elite Shock Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_stu_t3_shock_inf" default_group="Infantry" level="16" name="Sturgian Ulfhednar Warrior" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="100"/>
@@ -723,13 +723,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Shock Infantry Skill 60-100 -->
+	<!-- T4 Elite Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_shock_inf" default_group="Infantry" level="21" name="{=a9b2fKYR}Sturgian Berserkr Axeman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="130"/>
@@ -765,13 +765,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Shock Infantry Skill 60-130 -->
+	<!-- T5 Elite Shock Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_shock_inf" default_group="Infantry" level="26" name="Sturgian Veteran Berserkr Axeman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="180"/>
@@ -807,13 +807,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Shock Infantry Skill 80-180 -->
+	<!-- T6 Elite Shock Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_shock_inf" default_group="Infantry" level="31" name="{=k4EiLrU0}Gundaroving Hersir Vanguard" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="230"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="230"/>
@@ -847,13 +847,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Shock Infantry Skill 60-100 -->
+	<!-- T4 Elite Shock Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_elite_inf" default_group="Infantry" level="21" name="Sturgian Felagi Companion" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -891,13 +891,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Shock Infantry Skill 60-130 -->
+	<!-- T5 Elite Shock Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_elite_inf" default_group="Infantry" level="26" name="Sturgian Veteran Felagi Companion" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -935,13 +935,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Shock Infantry Skill 80-180 -->
+	<!-- T6 Elite Shock Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_elite_inf" default_group="Infantry" level="31" name="Gundaroving Huskarl Guardsman" formation_position_preference="Back" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -978,13 +978,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_stu_t2_skirmisher" default_group="Ranged" level="11" name="{=fdaZ3tri}Sturgian Skogrmandr Woodsman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1027,13 +1027,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Crossbowman Skill 40-70 -->
+	<!-- T3 Crossbowman Light Skill 40-70 -->
 	<NPCCharacter id="AR_stu_t3_archer" default_group="Ranged" level="16" name="{=i17zuvS4}Sturgian Fehirdir Herdsman" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1078,13 +1078,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Crossbowman Skill 60-100 -->
+	<!-- T4 Crossbowman Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_archer" default_group="Ranged" level="21" name="{=1WfDVpya}Sturgian Slungnir Slinger" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1130,13 +1130,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Crossbowman Skill 60-130 -->
+	<!-- T5 Crossbowman Medium Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_archer" default_group="Ranged" level="26" name="{=7WWUxI6y}Sturgian Veteran Slungnir Slinger" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1196,13 +1196,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Crossbowman Skill 80-180 -->
+	<!-- T6 Crossbowman Medium Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_archer" default_group="Ranged" level="31" name="{=7WWUxI6y}Gundaroving Valslongvamandr" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1239,13 +1239,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- RAIDERS -->
-	<!-- T3 Raider Skill 40-70 -->
+	<!-- T3 Raider Light Skill 40-70 -->
 	<NPCCharacter id="AR_stu_t3_skirmisher" default_group="Ranged" level="16" name="{=RJNNsaSP}Sturgian Herskaprmogr Raider" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1291,13 +1291,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Raider Skill 60-100 -->
+	<!-- T4 Raider Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_skirmisher" default_group="Ranged" level="16" name="Sturgian Fleinnmogr Skirmisher" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1343,13 +1343,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Raider Skill 60-130 -->
+	<!-- T5 Raider Medium Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_skirmisher" default_group="Ranged" level="21" name="Sturgian Veteran Fleinnkarl Skirmisher" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1398,13 +1398,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Raider Skill 80-180 -->
+	<!-- T6 Raider Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_skirmisher" default_group="Ranged" level="26" name="Gundaroving Vigmandr Sentinel" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1451,13 +1451,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Raider Cavalry Skill 60-100 -->
+	<!-- T4 Raider Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_stu_t4_skrim_cav" default_group="HorseArcher" level="21" name="{=VbWtdAWn}Sturgian Viggrudr Horseman" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1505,13 +1505,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Raider Cavalry Skill 60-130 -->
+	<!-- T5 Raider Cavalry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_skrim_cav" default_group="HorseArcher" level="26" name="{=xnzpQbwQ}Sturgian Viggrudr Veteran Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1560,13 +1560,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Raider Cavalry Skill 80-180 -->
+	<!-- T6 Raider Cavalry Medium Skill 80-180 -->
 	<NPCCharacter id="AR_stu_t6_skrim_cav" default_group="HorseArcher" level="31" name="{=xnzpQbwQ}Gundaroving Herjandi Marauder" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>

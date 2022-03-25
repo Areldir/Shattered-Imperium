@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- VAEGIRIA -->
-	<!-- T1 Recruit Skill 5-20 -->
-	<NPCCharacter id="AR_vaegirian_recruit" default_group="Infantry" level="6" name="Vaegirian Smerd Wanderer" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_vaegirian_recruit" default_group="Infantry" level="6" name="Vaegirian Strannik Wanderer" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -70,13 +70,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Vaegirian Infantry Skill 20-40 -->
-	<NPCCharacter id="AR_vae_t2_swordsman" default_group="Infantry" level="11" name="Vaegirian Smerd Warrior" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+	<!-- T2 Vaegirian Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_t2_swordsman" default_group="Infantry" level="11" name="Vaegirian Smerd Freeman" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -120,7 +120,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vaegirian Infantry Skill 40-70 -->
+	<!-- T3 Vaegirian Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vae_t3_swordsman" default_group="Infantry" level="16" name="Vaegirian Miles Swordsman" formation_position_preference="Back" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -208,13 +208,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegirian Infantry Skill 60-100 -->
+	<!-- T4 Vaegirian Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vae_t4_swordsman" default_group="Infantry" level="21" name="Vaegirian Junior Pseudocomitatensis" formation_position_preference="Back" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -285,13 +285,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegirian Infantry Skill 60-130 -->
+	<!-- T5 Vaegirian Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_t5_swordsman" default_group="Infantry" level="26" name="Vaegirian Senior Pseudocomitatensis" formation_position_preference="Back" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -362,13 +362,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Vaegirian Infantry Skill 80-180 -->
+	<!-- T6 Vaegirian Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vae_t6_swordsman" default_group="Infantry" level="31" name="Kaldavic Palatinus Bodyguard" formation_position_preference="Back" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -437,8 +437,8 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vaegirian Infantry Skill 40-70 -->
-	<NPCCharacter id="AR_vae_t3_shock_inf" default_group="Infantry" level="16" name="Vaegirian Smerd Glaiveman" occupation="Soldier" culture="Culture.vakken">
+	<!-- T3 Vaegirian Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_shock_inf" default_group="Infantry" level="16" name="Vaegirian Smerd Warrior" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -489,13 +489,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegirian Shock Infantry Skill 60-100 -->
-	<NPCCharacter id="AR_vae_t4_shock_inf" default_group="Infantry" level="21" name="Vaegirian Hardened Glaiveman" occupation="Soldier" culture="Culture.vakken">
+	<!-- T4 Vaegirian Shock Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_shock_inf" default_group="Infantry" level="21" name="Vaegirian Boec Glaiveman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -541,13 +541,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegirian Shock Infantry Skill 60-130 -->
-	<NPCCharacter id="AR_vae_t5_shock_inf" default_group="Infantry" level="26" name="Vaegirian Veteran Glaiveman" occupation="Soldier" culture="Culture.vakken">
+	<!-- T5 Vaegirian Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_shock_inf" default_group="Infantry" level="26" name="Vaegirian Veteran Boec Glaiveman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -593,13 +593,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Vaegirian Shock Infantry Skill 80-180 -->
-	<NPCCharacter id="AR_vae_t6_shock_inf" default_group="Infantry" level="31" name="Kaldavic Hetaireia Guardsman" occupation="Soldier" culture="Culture.vakken">
+	<!-- T6 Vaegirian Shock Infantry Very Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vae_t6_shock_inf" default_group="Infantry" level="31" name="Kaldavic Hetaireia Ratnika Guardsman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -644,13 +644,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Archer Skill 20-40 -->
-	<NPCCharacter id="AR_vae_t2_archer" default_group="Ranged" level="11" name="Vaegirian Ohotnik Woodsman" occupation="Soldier" culture="Culture.vakken">
+	<!-- T2 Archer Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_t2_archer" default_group="Ranged" level="11" name="Vaegirian Drovosek Woodsman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -695,13 +695,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
-	<NPCCharacter id="AR_vae_t3_archer" default_group="Ranged" level="16" name="Vaegirian Ohotnik Bowman" occupation="Soldier" culture="Culture.vakken">
+	<!-- T3 Archer Light Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_archer" default_group="Ranged" level="16" name="Vaegirian Oxotnik Hunter" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -746,13 +746,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
-	<NPCCharacter id="AR_vae_t4_archer" default_group="Ranged" level="16" name="Vaegirian Archer" occupation="Soldier" culture="Culture.vakken">
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_archer" default_group="Ranged" level="16" name="Vaegirian Lucnik Archer" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -797,13 +797,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
-	<NPCCharacter id="AR_vae_t5_archer" default_group="Ranged" level="21" name="Vaegirian Veteran Archer" occupation="Soldier" culture="Culture.vakken">
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_archer" default_group="Ranged" level="21" name="Vaegirian Veteran Lucnik Archer" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -849,13 +849,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Archer Skill 80-180 -->
+	<!-- T6 Archer Medium Skill 80-180 -->
 	<NPCCharacter id="AR_vae_t6_archer" default_group="Ranged" level="26" name="Kaldavic Strelac Longbowman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -900,13 +900,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CAVALRY -->
-	<!-- T2 Vaegirian Cavalry Recruit Skill 20-40 -->
+	<!-- T2 Vaegirian Cavalry Recruit Light Skill 20-40 -->
 	<NPCCharacter id="AR_vae_cavalry_recruit" default_group="Cavalry" level="11" name="Vaegirian Otrok Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -973,13 +973,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vaegirian Cavalry Skill 40-70 -->
+	<!-- T3 Vaegirian Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vae_t3_cavalry" default_group="Cavalry" level="16" name="Vaegirian Druzhinnik Equite" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1028,13 +1028,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegirian Cavalry Skill 60-100 -->
-	<NPCCharacter id="AR_vae_t4_cavalry" default_group="Cavalry" level="21" name="Vaegirian Druzhinnik Contarius" occupation="Soldier" culture="Culture.vakken">
+	<!-- T4 Vaegirian Cavalry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_cavalry" default_group="Cavalry" level="21" name="Vaegirian Lansjer" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1082,13 +1082,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegirian Cavalry Skill 60-130 -->
-	<NPCCharacter id="AR_vae_t5_cavalry" default_group="Cavalry" level="26" name="Vaegirian Druzhinnik Cataphractarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
+	<!-- T5 Vaegirian Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_cavalry" default_group="Cavalry" level="26" name="Vaegirian Veteran Lansjer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1152,13 +1152,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Vaegirian Cavalry Skill 80-180 -->
-	<NPCCharacter id="AR_vae_t6_cavalry" default_group="Cavalry" level="31" name="Kaldavic Druzhinnik Clibanarius" occupation="Soldier" culture="Culture.vakken">
+	<!-- T6 Vaegirian Cavalry Very Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vae_t6_cavalry" default_group="Cavalry" level="31" name="Kaldavic Duxovki Cataphract" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1220,13 +1220,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vaegirian Archer Skill 60-100 -->
+	<!-- T4 Vaegirian Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vae_t4_cav_archer" default_group="HorseArcher" level="21" name="Vaegirian Druzhinnik Mounted Skirmisher" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1274,13 +1274,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vaegirian Cavalry Skill 60-130 -->
+	<!-- T5 Vaegirian Cavalry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_vae_t5_cav_archer" default_group="HorseArcher" level="26" name="Vaegirian Druzhinnik Lanciarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1331,13 +1331,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Vaegirian Cavalry Skill 80-180 -->
+	<!-- T6 Vaegirian Cavalry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vae_t6_cav_archer" default_group="HorseArcher" level="31" name="Kaldavic Druzhinnik Bucellarius" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
