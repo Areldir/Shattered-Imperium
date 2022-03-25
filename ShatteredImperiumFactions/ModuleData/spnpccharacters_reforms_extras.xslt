@@ -22,37 +22,61 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentRoster>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.battania_civil_a"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Cape" id="Item.scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.hood"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Head" id="Item.nordic_fur_cap"/>
 				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
 				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
 			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</xsl:copy>
