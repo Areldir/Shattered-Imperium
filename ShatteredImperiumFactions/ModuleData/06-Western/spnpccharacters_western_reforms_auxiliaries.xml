@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- VLANDIAN AUXILIARIES -->
-	<!-- T1 Cavalry Skill 5-20 -->
+	<!-- T1 Cavalry Light Skill 5-20 -->
 	<NPCCharacter id="AR_vla_outrider_recruit" default_group="Cavalry" level="6" name="Swadic Utridder Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="5"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -70,13 +70,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Skill 20-40 -->
+	<!-- T2 Cavalry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_vla_t3_outrider" default_group="Cavalry" level="11" name="Swadic Caballarius Horseman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -181,7 +181,7 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Heavy Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t4_outrider" default_group="Cavalry" level="16" name="Swadic Mercenary Lancier" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
@@ -304,13 +304,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t5_outrider" default_group="Cavalry" level="21" name="Swadic Mercenary Veteran Lancier" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -391,13 +391,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t6_outrider" default_group="Cavalry" level="26" name="Swadic Librelancier Freelancer" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -476,13 +476,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Bow Cavalry Skill 20-40 -->
+	<!-- T2 Bow Cavalry Light Skill 20-40 -->
 	<NPCCharacter id="AR_vla_t3_crossbow_cav" default_group="HorseArcher" level="11" name="{=kih9DwL4}Swadic Buskasridder Woodland Horseman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -533,13 +533,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Bow Cavalry Skill 40-70 -->
+	<!-- T3 Bow Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t4_crossbow_cav" default_group="HorseArcher" level="16" name="{=kih9DwL4}Swadic Mounted Draefend Huntsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -577,13 +577,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Bow Cavalry Skill 60-100 -->
+	<!-- T4 Bow Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t5_crossbow_cav" default_group="HorseArcher" level="21" name="{=kih9DwL4}Swadic Mounted Arbaleste" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -623,13 +623,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Crossbowman Skill 60-130 -->
+	<!-- T5 Crossbowman Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t6_crossbow_cav" default_group="HorseArcher" level="26" name="{=X6CQ9CMZ}Swadic Mounted Tireur Marksman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>

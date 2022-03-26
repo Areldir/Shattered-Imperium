@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- MASSA -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_mas_recruit" default_group="Infantry" level="6" name="Massan Kotselta Tribesman" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -55,13 +55,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- INFANTRY -->
-	<!-- T2 Spear Infantry Skill 20-40 -->
+	<!-- T2 Spear Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_mas_t2_spearman" default_group="Infantry" level="11" name="Massan Hirdmann Warrior" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -155,7 +155,7 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_mas_t3_spearman" default_group="Infantry" level="16" name="Massan Wigand Spearman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -309,13 +309,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_mas_t4_spearman" default_group="Infantry" level="21" name="Massan Werand Spearman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -463,13 +463,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_spearman" default_group="Infantry" level="26" name="Massan Veteran Werand Spearman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -573,13 +573,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Spear Infantry Skill 80-180 -->
+	<!-- T6 Spear Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_mas_t6_spearman" default_group="Infantry" level="31" name="dey Cananc Antrustion" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -681,7 +681,7 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Shock Infantry Skill 40-70 -->
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_mas_t3_shock_inf" default_group="Infantry" level="16" name="Massan Geoguth Swordsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -753,13 +753,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_mas_t4_shock_inf" default_group="Infantry" level="21" name="Massan Hardened Geoguth Swordsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -825,13 +825,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_shock_inf" default_group="Infantry" level="26" name="Massan Veteran Duguth Swordsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -897,13 +897,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Shock Infantry Skill 80-180 -->
+	<!-- T6 Shock Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_mas_t6_shock_inf" default_group="Infantry" level="31" name="dey Cananc Gesith Guardsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="230"/>
 			<skill id="TwoHanded" value="80"/>
@@ -968,13 +968,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_mas_t2_skirmisher" default_group="Ranged" level="11" name="Massan Draefend Huntsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1026,13 +1026,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Light Skill 40-70 -->
 	<NPCCharacter id="AR_mas_t3_skirmisher" default_group="Ranged" level="16" name="Massan Gargetrum Skirmisher" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1088,13 +1088,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_mas_t4_skirmisher" default_group="Ranged" level="21" name="Massan Hardened Gargetrum Skirmisher" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1143,13 +1143,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_skirmisher" default_group="Ranged" level="26" name="Massan Veteran Gargetrum Skirmisher" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1209,13 +1209,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Skirmisher Skill 80-180 -->
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_mas_t6_skirmisher" default_group="Ranged" level="31" name="dey Cananc Fyrdweard" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1263,13 +1263,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MASSA ELITE -->
-	<!-- T2 Elite Skill 20-40 -->
+	<!-- T2 Elite Light Skill 20-40 -->
 	<NPCCharacter id="AR_mas_elite_recruit" default_group="Infantry" level="11" name="Massan Puer Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1334,7 +1334,7 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Elite Skill 40-70 -->
+	<!-- T3 Elite Medium Skill 40-70 -->
 	<NPCCharacter id="AR_mas_t3_elite" default_group="Infantry" level="16" name="Massan Warjandi Warrior" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -1397,13 +1397,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Cavalry Skill 60-100 -->
+	<!-- T4 Sword Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_mas_t4_cavalry" default_group="Cavalry" level="21" name="Massan Eoredmann Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1471,13 +1471,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Cavalry Skill 60-130 -->
+	<!-- T5 Sword Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_cavalry" default_group="Cavalry" level="26" name="Massan Veteran Eoredmann Horseman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1532,13 +1532,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Cavalry Skill 80-180 -->
+	<!-- T6 Sword Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_mas_t6_cavalry" default_group="Cavalry" level="31" name="dey Cananc Gehorsod Vanguard" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1604,13 +1604,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Shock Skill 60-130 -->
+	<!-- T4 Elite Shock Medium Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t4_elite_shock" default_group="Infantry" level="21" name="Massan Compaignon" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
@@ -1666,13 +1666,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Shock Skill 60-130 -->
+	<!-- T5 Elite Shock Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_elite_shock" default_group="Infantry" level="26" name="Massan Veteran Compaignon" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="180"/>
@@ -1718,13 +1718,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Shock Skill 80-180 -->
+	<!-- T6 Elite Shock Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_mas_t6_elite_shock" default_group="Infantry" level="31" name="dey Cananc Thegn" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="230"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- VLANDIA -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_vla_recruit" default_group="Infantry" level="6" name="{=GEnwDYp1}Vlandian Gebur Freeman" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -60,13 +60,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- INFANTRY -->
-	<!-- T2 Spear Infantry Skill 20-40 -->
+	<!-- T2 Spear Infantry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_vla_t2_spearman" default_group="Infantry" level="11" name="{=yPF32fbh}Vlandian Levy Kotselta Footman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -133,7 +133,7 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sword Infantry Skill 40-70 -->
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t3_swordsman" default_group="Infantry" level="16" name="{=SAILNYbu}Vlandian Geoguth Swordsman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -264,13 +264,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t4_swordsman" default_group="Infantry" level="21" name="{=pooybAKI}Vlandian Hardened Geoguth Swordsman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -406,13 +406,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Infantry Skill 60-130 -->
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_swordsman" default_group="Infantry" level="26" name="{=nPyqHxmf}Vlandian Veteran Duguth Swordsman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -501,7 +501,7 @@
 				<equipment slot="Item2" id="Item.battle_axe_t4"/>
 				<equipment slot="Body" id="Item.western_scale_mail"/>
 				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
-				<equipment slot="Head" id="Item.AR_vlandia_helmet_a"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_m"/>
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
 				<equipment slot="Cape" id="Item.AR_imperial_shoulders_b"/>
 			</EquipmentRoster>
@@ -518,13 +518,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Skill 80-180 -->
+	<!-- T6 Sword Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_swordsman" default_group="Infantry" level="31" name="{=UrSjhs4x}dey Meroc Gesith Guardsman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -598,13 +598,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Cavalry Skill 60-100 -->
+	<!-- T4 Sword Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t4_sword_cav" default_group="Cavalry" level="21" name="{=5b6KjY5b}Vlandian Eoredmann Mounted Swordsman" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -672,13 +672,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Cavalry Skill 60-130 -->
+	<!-- T5 Sword Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_sword_cav" default_group="Cavalry" level="26" name="{=UrSjhs4x}Vlandian Veteran Eoredmann" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -766,13 +766,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Cavalry Skill 80-180 -->
+	<!-- T6 Sword Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_sword_cav" default_group="Cavalry" level="31" name="{=Si5ZCb1O}dey Meroc Gehorsod Vanguard" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -834,7 +834,7 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Pike Infantry Skill 40-70 -->
+	<!-- T3 Pike Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t3_spearman" default_group="Infantry" level="16" name="{=Gd0y7SxJ}Vlandian Wigand Pikeman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -906,13 +906,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Pike Infantry Skill 60-100 -->
+	<!-- T4 Pike Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t4_spearman" default_group="Infantry" level="21" name="{=5b6KjY5b}Vlandian Werand Pikeman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -958,13 +958,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Pike Infantry Skill 60-130 -->
+	<!-- T5 Pike Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_spearman" default_group="Infantry" level="26" name="{=Si5ZCb1O}Vlandian Veteran Werand Pikeman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1020,13 +1020,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Pike Infantry Skill 80-180 -->
+	<!-- T6 Pike Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_spearman" default_group="Infantry" level="31" name="{=nPyqHxmf}dey Meroc Antrustion" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1081,13 +1081,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CAVALRY -->
-	<!-- Recruit Cavalry Skill 20-40 -->
+	<!-- Recruit Cavalry Medium Skill 20-40 -->
 	<NPCCharacter id="AR_vla_cavalry_recruit" default_group="Cavalry" level="11" name="{=XzDObEiH}Vlandian Puer Young Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1135,13 +1135,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t3_cavalry" default_group="Cavalry" level="16" name="{=OQPDvtpk}Vlandian Caballarius Horseman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1200,13 +1200,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Axe Cavalry Skill 60-100 -->
+	<!-- T4 Axe Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t4_axe_cav" default_group="Cavalry" level="21" name="{=AloMryIU}Vlandian Franceskion Caballi" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
@@ -1287,13 +1287,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Axe Cavalry Skill 60-130 -->
+	<!-- T5 Axe Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_axe_cav" default_group="Cavalry" level="26" name="{=8PLgCsiR}Vlandian Veteran Franceskion Caballi" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="180"/>
@@ -1374,13 +1374,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Axe Cavalry Skill 80-180 -->
+	<!-- T6 Axe Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_axe_cav" default_group="Cavalry" level="31" name="{=8PLgCsiR}dey Meroc Kampijo Horsemaster" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="230"/>
@@ -1440,13 +1440,13 @@
 			<equipment slot="HorseHarness" id="Item.chain_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Cavalry Skill 60-100 -->
+	<!-- T4 Spear Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t4_lancer" default_group="Cavalry" level="21" name="{=oseSwa56}Vlandian Lancier" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1546,13 +1546,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Cavalry Skill 60-130 -->
+	<!-- T5 Spear Cavalry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_lancer" default_group="Cavalry" level="26" name="{=3VosbFR0}Vlandian Veteran Lancier" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1640,13 +1640,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Spear Cavalry Skill 80-180 -->
+	<!-- T6 Spear Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_lancer" default_group="Cavalry" level="31" name="{=bTApMxWr}dey Meroc Marhskalk Cataphract" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1723,13 +1723,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Crossbowman Skill 20-40 -->
+	<!-- T2 Crossbowman Light Skill 20-40 -->
 	<NPCCharacter id="AR_vla_t2_crossbowman" default_group="Ranged" level="11" name="{=SvAADOwm}Vlandian Draefend Huntsman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1782,13 +1782,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Crossbowman Skill 40-70 -->
+	<!-- T3 Crossbowman Light Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t3_crossbowman" default_group="Ranged" level="16" name="{=kih9DwL4}Vlandian Arbaleste" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1837,13 +1837,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Crossbowman Skill 60-130 -->
+	<!-- T4 Crossbowman Medium Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t4_crossbowman" default_group="Ranged" level="21" name="{=acubGB3g}Vlandian Hardened Arbaleste" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1903,13 +1903,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Crossbowman Skill 60-130 -->
+	<!-- T5 Crossbowman Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_crossbowman" default_group="Ranged" level="26" name="{=X6CQ9CMZ}Vlandian Veteran Arbaleste" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1958,13 +1958,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Crossbowman Skill 80-180 -->
+	<!-- T6 Crossbowman Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_crossbowman" default_group="Ranged" level="31" name="{=X6CQ9CMZ}dey Meroc Tireur Marksman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -2022,7 +2022,7 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t3_archer" default_group="Ranged" level="16" name="{=SvAADOwm}Vlandian Sceotend Bowman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -2084,13 +2084,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vla_t4_archer" default_group="Ranged" level="21" name="{=SvAADOwm}Vlandian Straelbora Archer" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2146,13 +2146,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_archer" default_group="Ranged" level="26" name="{=5b6KjY5b}Vlandian Veteran Straelbora Archer" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2198,13 +2198,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Archer Skill 80-180 -->
+	<!-- T6 Archer Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vla_t6_archer" default_group="Ranged" level="31" name="{=UrSjhs4x}dey Meroc Scytta Longbowman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- VLANDIA MILITIAS -->
-	<!-- T3 Vlandia Militia Archer Skill 40-70 -->
+	<!-- T3 Vlandia Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_vla_militia_archer" default_group="Ranged" level="16" name="{=vkuJeNSa}Vlandian Militia Crossbowman" occupation="Soldier" is_basic_troop="false" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -81,13 +81,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vlandia Militia Archer Skill 60-100 -->
+	<!-- T4 Vlandia Militia Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vla_militia_veteran_archer" default_group="Ranged" level="21" name="{=DNIa6a5p}Vlandian Militia Veteran Crossbowman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -145,13 +145,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vlandia Militia Archer Skill 60-130 -->
+	<!-- T5 Vlandia Militia Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_castellan_crossbowman" default_group="Ranged" level="26" name="{=SvAADOwm}Vlandian Castellan Crossbowman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -207,13 +207,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vlandian Militia Skill 40-70 -->
+	<!-- T3 Vlandian Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_vla_militia_spearman" default_group="Infantry" level="16" name="{=aUHtqC9o}Vlandian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -290,13 +290,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vlandian Militia Skill 60-100 -->
+	<!-- T4 Vlandian Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vla_militia_veteran_spearman" default_group="Infantry" level="21" name="{=vGFdbjFC}Vlandian Militia Veteran Spearman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -351,13 +351,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vlandian Militia Skill 60-130 -->
+	<!-- T5 Vlandian Militia Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_castellan_guard" default_group="Infantry" level="26" name="{=5b6KjY5b}Vlandian Castellan" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -415,13 +415,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- VLANDIAN CARAVANS -->
-	<!-- T5 Vlandian Caravan Master Skill 60-130 -->
+	<!-- T5 Vlandian Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_caravan_master" default_group="Infantry" level="26" name="{=QbSjMefR}Vlandian Caravan Master" occupation="CaravanGuard" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -462,13 +462,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Vlandian Armed Trader Skill 40-70 -->
+	<!-- T3 Vlandian Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_vla_armed_trader" default_group="Ranged" level="16" name="{=X12lazIs}Vlandian Armed Trader" occupation="CaravanGuard" culture="Culture.vlandia" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -521,13 +521,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Vlandian Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Vlandian Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vla_caravan_guard" default_group="Cavalry" level="21" name="{=rQ0t0Wws}Vlandian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -613,13 +613,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Vlandian Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Vlandian Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_vet_caravan_guard" default_group="Cavalry" level="26" name="{=YE4RGuzU}Vlandian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -685,13 +685,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MASSAN MILITIAS -->
-	<!-- T3 Massan Militia Archer Skill 40-70 -->
+	<!-- T3 Massan Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_mas_militia_archer" default_group="Ranged" level="16" name="{=vkuJeNSa}Massan Militia Crossbowman" occupation="Soldier" is_basic_troop="false" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -765,13 +765,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Massan Militia Archer Skill 60-100 -->
+	<!-- T4 Massan Militia Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_mas_militia_veteran_archer" default_group="Ranged" level="21" name="{=DNIa6a5p}Massan Militia Veteran Crossbowman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -829,13 +829,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Massan Militia Archer Skill 60-130 -->
+	<!-- T5 Massan Militia Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_castellan_crossbowman" default_group="Ranged" level="26" name="{=SvAADOwm}Massan Castellan Crossbowman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -891,13 +891,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Massan Militia Skill 40-70 -->
+	<!-- T3 Massan Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_mas_militia_spearman" default_group="Infantry" level="16" name="{=aUHtqC9o}Massan Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -974,13 +974,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Massan Militia Skill 60-100 -->
+	<!-- T4 Massan Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_mas_militia_veteran_spearman" default_group="Infantry" level="21" name="{=vGFdbjFC}Massan Militia Veteran Spearman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1035,13 +1035,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Massan Militia Skill 60-130 -->
+	<!-- T5 Massan Militia Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_castellan_guard" default_group="Infantry" level="26" name="{=5b6KjY5b}Massan Castellan" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1099,13 +1099,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MASSA CARAVANS -->
-	<!-- T5 Massan Caravan Master Skill 60-130 -->
+	<!-- T5 Massan Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_caravan_master" default_group="Infantry" level="26" name="{=QbSjMefR}Massan Caravan Master" occupation="CaravanGuard" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1146,13 +1146,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Massan Armed Trader Skill 40-70 -->
+	<!-- T3 Massan Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_mas_armed_trader" default_group="Ranged" level="16" name="{=X12lazIs}Massan Armed Trader" occupation="CaravanGuard" culture="Culture.massa" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1205,13 +1205,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Massan Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Massan Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_mas_caravan_guard" default_group="Cavalry" level="21" name="{=rQ0t0Wws}Massan Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1297,13 +1297,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Massan Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Massan Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_vet_caravan_guard" default_group="Cavalry" level="26" name="{=YE4RGuzU}Massan Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1374,7 +1374,7 @@
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1482,7 +1482,7 @@
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
