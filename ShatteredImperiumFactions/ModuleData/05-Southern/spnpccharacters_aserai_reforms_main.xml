@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- ASERAI -->
-	<!-- T1 Recruit Alternate Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_ase_recruit" default_group="Infantry" level="6" name="{=H5HJUejD}Aserai Wastaryoshan Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -84,13 +84,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_t2_swordsman" default_group="Infantry" level="11" name="{=arb5nRri}Aserai Paighan Footman" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -197,7 +197,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ase_t3_spearman" default_group="Infantry" level="16" name="{=wtmCSMrC}Aserai Paighan Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -269,13 +269,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_spearman" default_group="Infantry" level="21" name="{=tke6VCV6}Aserai Neyzedaran Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -321,13 +321,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_spearman" default_group="Infantry" level="26" name="{=g1zvdEE3}Aserai Veteran Neyzedaran Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -383,13 +383,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Spear Infantry Skill 80-180 -->
+	<!-- T6 Spear Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_spearman" default_group="Infantry" level="31" name="{=g1zvdEE3}Banu Atij Zhayedan Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -443,7 +443,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sword Infantry Skill 40-70 -->
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ase_t3_swordsman" default_group="Infantry" level="16" name="{=wtmCSMrC}Aserai Paighan Warrior" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -495,13 +495,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_swordsman" default_group="Infantry" level="21" name="{=tke6VCV6}Aserai Sparabara Swordsman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -547,13 +547,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Infantry Skill 60-130 -->
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_swordsman" default_group="Infantry" level="26" name="{=g1zvdEE3}Aserai Veteran Sparabara Swordsman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -599,13 +599,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Skill 80-180 -->
+	<!-- T6 Sword Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_swordsman" default_group="Infantry" level="31" name="{=g1zvdEE3}Banu Atij Ayyar Swordmaster" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -650,13 +650,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKIRMISHERS -->
-	<!-- T2 Skirmisher Skill 20-40 -->
+	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_t2_skirmisher" default_group="Ranged" level="11" name="{=arb5nRri}Aserai Paighan Scout" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -743,13 +743,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Skirmisher Skill 40-70 -->
+	<!-- T3 Skirmisher Light Skill 40-70 -->
 	<NPCCharacter id="AR_ase_t3_skirmisher" default_group="Ranged" level="16" name="{=4BxUa4Sr}Aserai Paighan Javelinman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -798,7 +798,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Light Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_skirmisher" default_group="Ranged" level="21" name="{=vZlMfmng}Aserai Takabara Skirmisher" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -852,13 +852,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_skirmisher" default_group="Ranged" level="26" name="{=g1zvdEE3}Aserai Veteran Takabara Skirmisher" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -907,13 +907,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Skirmisher Skill 80-180 -->
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_skirmisher" default_group="Ranged" level="31" name="{=B4ls6R2b}Banu Atij Marzban Borderguard" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="80"/>
@@ -960,13 +960,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ase_t3_archer" default_group="Ranged" level="16" name="{=wtmCSMrC}Aserai Paighan Bowman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1015,13 +1015,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_archer" default_group="Ranged" level="21" name="{=yhBagy1Y}Aserai Kamandaran Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1070,13 +1070,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_archer" default_group="Ranged" level="26" name="{=B4ls6R2b}Aserai Veteran Kamandaran Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1125,13 +1125,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Archer Skill 80-180 -->
+	<!-- T6 Archer Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_archer" default_group="Ranged" level="31" name="{=B4ls6R2b}Banu Atij Tirandaz Marksman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="230"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1178,13 +1178,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_archer_cav" default_group="HorseArcher" level="21" name="{=jaK1A7CI}Aserai Dehqan Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1235,13 +1235,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_archer_cav" default_group="HorseArcher" level="26" name="{=6oc7CXbI}Aserai Heavy Dehqan Horseman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1292,13 +1292,13 @@
 			<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Cavalry Archer Skill 80-180 -->
+	<!-- T6 Cavalry Archer Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_archer_cav" default_group="HorseArcher" level="31" name="{=AoFZUbun}Banu Atij Elite Dehqan" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1370,13 +1370,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ELITE CAVALRY -->
-	<!-- Recruit Elite Cavalry Skill 20-40 -->
+	<!-- Recruit Elite Cavalry Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_cavalry_recruit" default_group="Cavalry" level="11" name="{=Gvy2b4fa}Aserai Azadan Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1444,13 +1444,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Elite Cavalry Skill 40-70 -->
+	<!-- T3 Elite Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ase_t3_cavalry" default_group="Cavalry" level="16" name="{=dfv7E49q}Aserai Azadan Horseman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1499,13 +1499,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Cavalry Skill 60-100 -->
+	<!-- T4 Elite Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_lance_cavalry" default_group="Cavalry" level="21" name="{=jaK1A7CI}Aserai Pushtighban" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1556,13 +1556,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Cavalry Skill 60-130 -->
+	<!-- T5 Elite Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_lance_cavalry" default_group="Cavalry" level="26" name="{=6oc7CXbI}Aserai Veteran Pushtighban" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1617,13 +1617,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Cavalry Skill 80-180 -->
+	<!-- T6 Elite Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=AoFZUbun}Banu Atij Gyan Avspar" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="230"/>
 			<skill id="TwoHanded" value="80"/>
@@ -1676,13 +1676,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Sword Cavalry Skill 60-100 -->
+	<!-- T4 Elite Sword Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_heavy_cavalry" default_group="Cavalry" level="21" name="{=jaK1A7CI}Aserai Savaran Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1737,13 +1737,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Sword Cavalry Skill 60-130 -->
+	<!-- T5 Elite Sword Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=6oc7CXbI}Aserai Savaran Cataphract" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1837,13 +1837,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Sword Cavalry Skill 80-180 -->
+	<!-- T6 Elite Sword Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=AoFZUbun}Banu Atij Grivpanvar" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- ASERAI MILITIAS -->
-	<!-- T3 Aserai Militia Archer Skill 40-70 -->
+	<!-- T3 Aserai Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_ase_militia_archer" default_group="Ranged" level="16" name="{=CPcJ2gRF}Aserai Militia Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -91,13 +91,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Aserai Militia Archer Skill 60-100 -->
+	<!-- T4 Aserai Militia Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_militia_veteran_archer" default_group="Ranged" level="21" name="{=tL6aGah4}Aserai Militia Veteran Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -165,13 +165,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Aserai Militia Archer Skill 60-130 -->
+	<!-- T5 Aserai Militia Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_madina_archer" default_group="Ranged" level="26" name="{=yhBagy1Y}Aserai Deh Guard Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -227,13 +227,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Aserai Militia Skill 40-70 -->
+	<!-- T3 Aserai Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_ase_militia_spearman" default_group="Infantry" level="16" name="{=ULaNn3pp}Aserai Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -310,13 +310,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Aserai Militia Skill 60-100 -->
+	<!-- T4 Aserai Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_militia_veteran_spearman" default_group="Infantry" level="21" name="{=Pd9qAiOu}Aserai Militia Veteran Spearman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -371,13 +371,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Aserai Militia Skill 60-130 -->
+	<!-- T5 Aserai Militia Medium Skill 60-130 -->
 	<NPCCharacter id="AR_ase_madina_guard" default_group="Infantry" level="26" name="{=tke6VCV6}Aserai Deh Guard" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -435,13 +435,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ASERAI CARAVANS -->
-	<!-- T5 Aserai Caravan Master Skill 60-130 -->
+	<!-- T5 Aserai Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_caravan_master" default_group="Infantry" level="26" name="{=nDoENDqD}Aserai Caravan Master" occupation="CaravanGuard" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -484,13 +484,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Aserai Armed Trader Skill 40-70 -->
+	<!-- T3 Aserai Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_ase_armed_trader" default_group="Ranged" level="16" name="{=8TdbKFa9}Aserai Armed Trader" occupation="CaravanGuard" culture="Culture.aserai" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -548,13 +548,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Aserai Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Aserai Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_caravan_guard" default_group="Cavalry" level="21" name="{=yG42k5GC}Aserai Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -625,13 +625,13 @@
 			<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Aserai Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Aserai Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_vet_caravan_guard" default_group="HorseArcher" level="26" name="{=QlVeZvbv}Aserai Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -694,13 +694,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SPAHADI MILITIAS -->
-	<!-- T3 Spahadi Militia Archer Skill 40-70 -->
+	<!-- T3 Spahadi Militia Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_spa_militia_archer" default_group="Ranged" level="16" name="{=CPcJ2gRF}Spahadi Militia Slinger" occupation="Soldier" is_basic_troop="false" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -759,13 +759,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spahadi Militia Archer Skill 60-100 -->
+	<!-- T4 Spahadi Militia Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_spa_militia_veteran_archer" default_group="Ranged" level="21" name="{=tL6aGah4}Spahadi Militia Veteran Slinger" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -828,13 +828,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spahadi Militia Archer Skill 60-130 -->
+	<!-- T5 Spahadi Militia Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_madina_archer" default_group="Ranged" level="26" name="{=yhBagy1Y}Spahadi Deh Guard Slinger" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -887,13 +887,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spahadi Militia Skill 40-70 -->
+	<!-- T3 Spahadi Militia Light Skill 40-70 -->
 	<NPCCharacter id="AR_spa_militia_spearman" default_group="Infantry" level="16" name="{=ULaNn3pp}Spahadi Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -970,13 +970,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spahadi Militia Skill 60-100 -->
+	<!-- T4 Spahadi Militia Medium Skill 60-100 -->
 	<NPCCharacter id="AR_spa_militia_veteran_spearman" default_group="Infantry" level="21" name="{=Pd9qAiOu}Spahadi Militia Veteran Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1031,13 +1031,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spahadi Militia Skill 60-130 -->
+	<!-- T5 Spahadi Militia Medium Skill 60-130 -->
 	<NPCCharacter id="AR_spa_madina_guard" default_group="Infantry" level="26" name="{=tke6VCV6}Spahadi Deh Guard" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1095,13 +1095,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SPAHADI CARAVANS -->
-	<!-- T5 Spahadi Caravan Master Skill 60-130 -->
+	<!-- T5 Spahadi Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_caravan_master" default_group="Infantry" level="26" name="{=nDoENDqD}Spahadi Caravan Master" occupation="CaravanGuard" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1144,13 +1144,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spahadi Armed Trader Skill 40-70 -->
+	<!-- T3 Spahadi Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_spa_armed_trader" default_group="Ranged" level="16" name="{=8TdbKFa9}Spahadi Armed Trader" occupation="CaravanGuard" culture="Culture.darshi" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1208,13 +1208,13 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spahadi Caravan Cavalry Skill 60-100 -->
+	<!-- T4 Spahadi Caravan Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_spa_caravan_guard" default_group="Cavalry" level="21" name="{=yG42k5GC}Spahadi Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1285,13 +1285,13 @@
 			<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spahadi Caravan Cavalry Skill 60-130 -->
+	<!-- T5 Spahadi Caravan Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_vet_caravan_guard" default_group="HorseArcher" level="26" name="{=QlVeZvbv}Spahadi Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1359,7 +1359,7 @@
 			<face_key_template value="BodyProperty.townswoman_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -1484,7 +1484,7 @@
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>

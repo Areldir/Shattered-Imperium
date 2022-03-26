@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- ASERAI AUXILIARIES -->
-	<!-- T1 Cavalry Archer Skill 5-20 -->
+	<!-- T1 Cavalry Archer Light Skill 5-20 -->
 	<NPCCharacter id="AR_ase_aux_recruit" default_group="HorseArcher" level="6" name="{=*}Nahasan Bedouin Outcast" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="5"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -70,13 +70,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Archer Skill 20-40 -->
+	<!-- T2 Cavalry Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_aux_t3_archer" default_group="HorseArcher" level="11" name="{=*}Nahasan Bedouin Tribesman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -138,13 +138,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Archer Skill 40-70 -->
+	<!-- T3 Cavalry Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_ase_aux_t4_archer" default_group="HorseArcher" level="16" name="{=*}Nahasan Bedouin Raider" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -206,13 +206,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_aux_t5_archer" default_group="HorseArcher" level="21" name="{=*}Nahasan Bedouin Pillager" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -263,13 +263,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_aux_t6_archer" default_group="HorseArcher" level="26" name="{=*}Nahasan Bedouin Marauder" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -318,13 +318,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Cavalry Archer Skill 20-40 -->
+	<!-- T2 Cavalry Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_aux_t3_skirmisher" default_group="HorseArcher" level="11" name="Nahasan Bedouin Nomad" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -372,13 +372,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Cavalry Skill 40-70 -->
+	<!-- T3 Cavalry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ase_aux_t4_skirmisher" default_group="HorseArcher" level="16" name="Nahasan Bedouin Tracker" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -426,13 +426,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Skill 60-100 -->
+	<!-- T4 Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_aux_t5_skirmisher" default_group="HorseArcher" level="21" name="Nahasan Bedouin Scout" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -483,13 +483,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Skill 60-130 -->
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_aux_t6_skirmisher" default_group="HorseArcher" level="26" name="Nahasan Bedouin Pathfinder" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>

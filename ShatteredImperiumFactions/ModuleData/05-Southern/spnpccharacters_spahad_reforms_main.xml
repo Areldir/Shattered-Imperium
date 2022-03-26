@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- SPAHAD -->
-	<!-- T1 Recruit Skill 5-20 -->
+	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_spahad_recruit" default_group="Infantry" level="6" name="Spahadi Wastaryoshan Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
@@ -53,13 +53,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Infantry Skill 20-40 -->
+	<!-- T2 Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_spa_t2_spearman" default_group="Infantry" level="11" name="{=arb5nRri}Spahadi Nahasar Footman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -156,7 +156,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_spa_t3_spearman" default_group="Infantry" level="16" name="{=wtmCSMrC}Spahadi Nahasar Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
@@ -208,13 +208,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_spa_t4_spearman" default_group="Infantry" level="21" name="{=tke6VCV6}Spahadi Neyzedaran Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -260,13 +260,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_spearman" default_group="Infantry" level="26" name="{=g1zvdEE3}Spahadi Veteran Neyzedaran Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -312,13 +312,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Spear Infantry Skill 80-180 -->
+	<!-- T6 Spear Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_spa_t6_spearman" default_group="Infantry" level="31" name="{=g1zvdEE3}Spahanfar Zhayedan Spearman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -362,7 +362,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sword Infantry Skill 40-70 -->
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_spa_t3_swordsman" default_group="Infantry" level="16" name="{=wtmCSMrC}Spahadi Nahasar Warrior" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
@@ -414,13 +414,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Infantry Skill 60-100 -->
+	<!-- T4 Sword Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_spa_t4_swordsman" default_group="Infantry" level="21" name="{=tke6VCV6}Spahadi Sparabara Swordsman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -466,13 +466,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Infantry Skill 60-130 -->
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_swordsman" default_group="Infantry" level="26" name="{=g1zvdEE3}Spahadi Veteran Sparabara Swordsman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -518,13 +518,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Skill 80-180 -->
+	<!-- T6 Sword Infantry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_spa_t6_swordsman" default_group="Infantry" level="31" name="{=g1zvdEE3}Spahanfar Ayyar Swordmaster" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -569,13 +569,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ARCHERS -->
-	<!-- T2 Archer Skill 20-40 -->
+	<!-- T2 Archer Light Skill 20-40 -->
 	<NPCCharacter id="AR_spa_t2_archer" default_group="Ranged" level="11" name="{=arb5nRri}Spahadi Nahasar Hunter" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -654,13 +654,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_spa_t3_archer" default_group="Ranged" level="16" name="{=wtmCSMrC}Spahadi Nahasar Hurler" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -718,7 +718,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_spa_t4_archer" default_group="Ranged" level="21" name="{=yhBagy1Y}Spahadi Sangandaz Slinger" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
@@ -784,13 +784,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_archer" default_group="Ranged" level="26" name="{=B4ls6R2b}Spahadi Veteran Sangandaz Slinger" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -839,13 +839,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Archer Skill 80-180 -->
+	<!-- T6 Archer Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_spa_t6_archer" default_group="Ranged" level="31" name="{=B4ls6R2b}Spahanfar Sangafgan Marksman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -904,13 +904,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ELITES -->
-	<!-- T2 Shock Infantry Skill 20-40 -->
+	<!-- T2 Shock Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_spa_elite_recruit" default_group="Infantry" level="11" name="{=arb5nRri}Spahadi Azadan Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="70"/>
@@ -1016,7 +1016,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Shock Infantry Skill 40-70 -->
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
 	<NPCCharacter id="AR_spa_t3_shock_inf" default_group="Infantry" level="16" name="{=wtmCSMrC}Spahadi Azadan Warrior" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
@@ -1079,13 +1079,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_spa_t4_shock_inf" default_group="Infantry" level="21" name="{=tke6VCV6}Spahadi Marzban Axeman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
@@ -1131,13 +1131,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_shock_inf" default_group="Infantry" level="26" name="{=g1zvdEE3}Spahadi Veteran Marzban Axeman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="180"/>
@@ -1183,13 +1183,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Shock Infantry Skill 80-180 -->
+	<!-- T6 Shock Infantry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_spa_t6_shock_inf" default_group="Infantry" level="31" name="{=g1zvdEE3}Spahanfar Hamharzan Axeman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="230"/>
@@ -1223,13 +1223,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Cavalry Skill 60-100 -->
+	<!-- T4 Elite Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_spa_t4_cavalry" default_group="Cavalry" level="21" name="{=jaK1A7CI}Spahadi Pushtighban" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1297,13 +1297,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Cavalry Skill 60-130 -->
+	<!-- T5 Elite Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_cavalry" default_group="Cavalry" level="26" name="{=6oc7CXbI}Spahadi Veteran Pushtighban" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1371,13 +1371,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Cavalry Skill 80-180 -->
+	<!-- T6 Elite Cavalry Very Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_spa_t6_cavalry" default_group="Cavalry" level="31" name="{=AoFZUbun}Spahanfar Gyan Avspar" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
