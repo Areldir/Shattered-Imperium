@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- ASERAI -->
-	<!-- T3 Naptha Thrower Skill 40-70 -->
+	<!-- T3 Naptha Thrower Light Skill 40-70 -->
 	<NPCCharacter id="AR_ase_naphtha_thrower" default_group="Ranged" level="16" name="{=arb5nRri}Aserai Naphtha Thrower" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -63,13 +63,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Naptha Thrower Skill 60-130 -->
+	<!-- T5 Naptha Thrower Medium Skill 60-130 -->
 	<NPCCharacter id="AR_ase_vet_naphtha_thrower" default_group="Ranged" level="26" name="{=B4ls6R2b}Aserai Veteran Naphtha Thrower" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -114,7 +114,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ASERAI -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ase_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Aserai Wuzurgan Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_aserai"/>
@@ -170,13 +170,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_officer" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Aserai Zih Asbar" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -218,13 +218,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_ase_t7_officer" default_group="Cavalry" level="36" name="{=qAsnj7vU}Banu Atij Pahlawan-i Gehan" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -264,13 +264,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Aserai Drafshbara" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -305,13 +305,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Standard Bearer Skill 100-230 -->
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_ase_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Banu Atij Drafs-e Kavian Bearer" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -343,13 +343,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_ase_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Banu Atij Drafs-e Kavian Rider" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -386,26 +386,10 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- BATTANIA -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_bat_t3_veteran" default_group="Ranged" level="16" name="{=IZ8OmByJ}Battanian Arsaid Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -469,29 +453,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_officer" default_group="Ranged" level="26" name="{=IZ8OmByJ}Battanian Campiwr" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -551,29 +519,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_bat_t7_officer" default_group="Ranged" level="36" name="{=qAsnj7vU}fen Derngil Teulu" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="230"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -631,29 +583,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_bat_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Battanian Samhladh" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -706,29 +642,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Standard Bearer Skill 100-230 -->
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_bat_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}fen Derngil Meirgeach" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -769,29 +689,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_bat_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}fen Derngil Gwas Ys Tafell" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_battania"/>
-			<hair_tags>
-				<hair_tag name="Bowl"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="PageBoy"/>
-				<hair_tag name="Short"/>
-				<hair_tag name="SlickedLong"/>
-				<hair_tag name="LongAndBushy"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyLongBeard"/>
-				<beard_tag name="LongScragglyBeard"/>
-				<beard_tag name="DroopyMustache"/>
-				<beard_tag name="MediumMustache"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -835,25 +739,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- EMPIRE -->
-	<!-- T3 Naptha Thrower Skill 40-70 -->
+	<!-- T3 Naptha Thrower Light Skill 40-70 -->
 	<NPCCharacter id="AR_emp_naptha_thrower" default_group="Ranged" level="16" name="{=LbjxH9yp}Imperial Naphtha Thrower" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -898,25 +790,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Naptha Thrower Skill 60-130 -->
+	<!-- T5 Naptha Thrower Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_veteran_naptha_thrower" default_group="Ranged" level="26" name="{=CDUvlu4d}Imperial Veteran Naphtha Thrower" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -988,22 +868,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_s_emp_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Imperial Evocatus Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -1056,25 +924,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_s_emp_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}Imperial Optio" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1112,25 +968,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_s_emp_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}Calradic Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1188,25 +1032,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_s_emp_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Imperial Signifier" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1241,25 +1073,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_s_emp_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Calradic Draconarius" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1291,25 +1111,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_s_emp_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Calradic Draconarius Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1345,22 +1153,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_n_emp_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}E. Imperial Evocatus Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -1424,25 +1220,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_n_emp_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}E. Imperial Optio" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1502,25 +1286,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_n_emp_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}Neretzes Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1578,25 +1350,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_n_emp_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}E. Imperial Signifier" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1631,25 +1391,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_n_emp_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Neretzes Imaginifer" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1681,25 +1429,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_n_emp_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Neretzes Imaginifer Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1735,22 +1471,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_w_emp_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}W. Imperial Evocatus Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -1803,25 +1527,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}W. Imperial Optio" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1859,25 +1571,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_w_emp_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}Dionicos Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -1935,25 +1635,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_w_emp_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}W. Imperial Signifier" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1997,25 +1685,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_w_emp_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Dionicos Aquilifer" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2056,25 +1732,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_w_emp_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Dionicos Aquilifer Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2122,13 +1786,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- KHUZAIT -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_khu_t3_veteran" default_group="Cavalry" level="16" name="{=IZ8OmByJ}Iltanlar Arban-u Darga" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="70"/>
@@ -2180,13 +1844,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_khu_t5_officer" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Iltanlar Jagutu-iin Darga" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="130"/>
@@ -2241,13 +1905,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_khu_t7_officer" default_group="Cavalry" level="36" name="{=qAsnj7vU}Itakhar Baghatur" occupation="Soldier" upgrade_requires="ItemCategory.linen" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="230"/>
@@ -2287,13 +1951,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_khu_t5_banner_carrier" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Iltanlar Dalbaa" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2321,13 +1985,13 @@
 			<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Standard Bearer Skill 100-230 -->
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_khu_t7_banner_carrier" default_group="Cavalry" level="36" name="{=qAsnj7vU}Itakhar Nisdeg Luu" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2352,13 +2016,13 @@
 			<equipment slot="HorseHarness" id="Item.reinforced_studded_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_khu_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Itakhar Baagvai" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2384,7 +2048,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- STURGIA -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_stu_t3_veteran" default_group="Infantry" level="16" name="{=!}Sturgian Sterkrdrengr" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
@@ -2440,13 +2104,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_officer" default_group="Infantry" level="26" name="{=!}Sturgian Ohraeddr" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
@@ -2473,13 +2137,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_stu_t7_officer" default_group="Infantry" level="36" name="{=!}Gundaroving Sigrherra" occupation="Soldier" upgrade_requires="ItemCategory.linen" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="230"/>
 			<skill id="TwoHanded" value="230"/>
@@ -2504,13 +2168,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_stu_t5_banner_carrier" default_group="Infantry" level="26" name="{=!}Sturgian Merkiberar" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2545,13 +2209,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_stu_t7_banner_carrier" default_group="Infantry" level="36" name="{=!}Gundaroving Merkismathr" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2574,13 +2238,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_stu_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=!}Gundaroving Mounted Merkismathr" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.sturgia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2608,7 +2272,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- VLANDIA -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vla_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Vlandian Cempa Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
@@ -2646,9 +2310,9 @@
 				<equipment slot="Item3" id="Item.western_throwing_axe_1_t1"/>
 				<equipment slot="Body" id="Item.leather_scale_armor"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_c"/>
-				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
-				<equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+				<equipment slot="Cape" id="Item.tv_battania_cloak_k"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_sword_4_t4"/>
@@ -2659,18 +2323,18 @@
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_k"/>
 				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
-				<equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+				<equipment slot="Cape" id="Item.tv_battania_cloak_k"/>
 			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_officer" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Vlandian Geneat" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2692,7 +2356,7 @@
 				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_e"/>
 				<equipment slot="Gloves" id="Item.mail_mitten"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
+				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
 			</EquipmentRoster>
@@ -2702,23 +2366,36 @@
 				<equipment slot="Item2" id="Item.AR_vlandian_throwing_spear_2_t4"/>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 				<equipment slot="Body" id="Item.plated_leather_coat"/>
-				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_d"/>
 				<equipment slot="Gloves" id="Item.mail_mitten"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item3" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+				<equipment slot="Item2" id="Item.AR_vlandian_throwing_spear_2_t4"/>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Head" id="Item.AR_vlandian_knights_helmet_a"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_vla_t7_officer" default_group="Cavalry" level="36" name="{=qAsnj7vU}dey Meroc Ealdorman" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2738,7 +2415,7 @@
 				<equipment slot="Leg" id="Item.tv_empire_plate_a"/>
 				<equipment slot="Head" id="Item.AR_vlandia_lord_helmet_a"/>
 				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
+				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_h"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.chain_barding"/>
 			</EquipmentRoster>
@@ -2747,24 +2424,37 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
 				<equipment slot="Item2" id="Item.AR_vlandian_throwing_spear_2_t4"/>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Body" id="Item.AR_empire_scale_armor_f"/>
+				<equipment slot="Body" id="Item.northern_coat_of_plates"/>
 				<equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
-				<equipment slot="Leg" id="Item.tv_empire_plate_a"/>
-				<equipment slot="Head" id="Item.western_plated_helmet"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+				<equipment slot="Head" id="Item.AR_vlandian_knights_helmet_b"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item3" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+				<equipment slot="Item2" id="Item.AR_vlandian_throwing_spear_2_t4"/>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Body" id="Item.AR_vlandia_scale_b"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+				<equipment slot="Head" id="Item.AR_vlandia_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
 			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vla_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Vlandian Signifier" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2787,16 +2477,25 @@
 				<equipment slot="Gloves" id="Item.mail_mitten"/>
 				<equipment slot="Cape" id="Item.AR_fur_cape_a"/>
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.AR_signum_b"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_b"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_j"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Cape" id="Item.AR_fur_cape_e"/>
+			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_vla_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}dey Meroc Vexillarius" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2819,13 +2518,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_vla_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}dey Meroc Vexillarius Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2843,7 +2542,7 @@
 				<equipment slot="Leg" id="Item.tv_empire_plate_a"/>
 				<equipment slot="Head" id="Item.western_crowned_plated_helmet"/>
 				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_j"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
@@ -2860,13 +2559,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- CIZYGIANS -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ciz_t3_veteran" default_group="Cavalry" level="16" name="{=IZ8OmByJ}Cizygian Arban-u Darga" occupation="Soldier" is_basic_troop="true" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2918,13 +2617,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_officer" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Cizygian Jagutu-iin Darga" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="180"/>
@@ -2979,13 +2678,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_ciz_t7_officer" default_group="Cavalry" level="36" name="{=qAsnj7vU}Cizghunait Baghatur" occupation="Soldier" upgrade_requires="ItemCategory.linen" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="280"/>
@@ -3025,13 +2724,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ciz_t5_banner_carrier" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Cizygian Dalbaa" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3070,13 +2769,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Standard Bearer Skill 100-230 -->
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_ciz_t7_banner_carrier" default_group="Cavalry" level="36" name="{=qAsnj7vU}Cizghunait Nisdeg Luu" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3112,13 +2811,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_ciz_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Cizghunait Baagvai" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3155,7 +2854,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- GOTARNIA -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_got_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Gotarnian Altheis Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_gotarni"/>
@@ -3218,13 +2917,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}Gotarnian Gawaliths" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -3280,13 +2979,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_got_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}Aertus Hundafaths" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="280"/>
@@ -3350,13 +3049,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_got_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Gotarnian Bairils" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3409,13 +3108,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Standard Bearer Skill 100-230 -->
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_got_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Aertus Draka Bairils" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3456,13 +3155,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_got_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Aertus Aihws Bairils" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.gotarni">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3506,7 +3205,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Massa -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_mas_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Massan Cempa Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
@@ -3546,7 +3245,7 @@
 				<equipment slot="Head" id="Item.nasal_cervelliere_over_padded_coif"/>
 				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
 				<equipment slot="Gloves" id="Item.leather_gloves"/>
-				<equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+				<equipment slot="Cape" id="Item.tv_battania_cloak_k"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_sword_4_t4"/>
@@ -3562,13 +3261,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}Massan Geneat" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="130"/>
@@ -3601,18 +3300,18 @@
 				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
 				<equipment slot="Head" id="Item.AR_vlandia_helmet_z2"/>
 				<equipment slot="Gloves" id="Item.mail_mitten"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
 			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_mas_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}dey Cananc Ealdorman" occupation="Soldier" upgrade_requires="ItemCategory.linen" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="230"/>
@@ -3642,19 +3341,19 @@
 				<equipment slot="Body" id="Item.ao_eorling_plates_over_mail"/>
 				<equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
 				<equipment slot="Leg" id="Item.tv_empire_plate_a"/>
-				<equipment slot="Head" id="Item.AR_vlandia_helmet_a"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
+				<equipment slot="Head" id="Item.AR_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
 			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mas_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Massan Signifier" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3677,16 +3376,25 @@
 				<equipment slot="Gloves" id="Item.mail_mitten"/>
 				<equipment slot="Cape" id="Item.AR_fur_cape_a"/>
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.AR_signum_b"/>
+				<equipment slot="Body" id="Item.AR_vlandia_leather_a"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_j"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Cape" id="Item.AR_fur_cape_e"/>
+			</EquipmentRoster>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_mas_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}dey Cananc Vexillarius" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3709,13 +3417,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_mas_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}dey Cananc Vexillarius Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -3744,7 +3452,7 @@
 				<equipment slot="Leg" id="Item.tv_empire_plate_a"/>
 				<equipment slot="Head" id="Item.western_crowned_plated_helmet"/>
 				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_j"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
 			</EquipmentRoster>
@@ -3752,13 +3460,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- PARAOI -->
-	<!-- T3 Naptha Thrower Skill 40-70 -->
+	<!-- T3 Naptha Thrower Light Skill 40-70 -->
 	<NPCCharacter id="AR_par_naptha_thrower" default_group="Ranged" level="16" name="Paraoian Naphtha Thrower" occupation="Soldier" is_basic_troop="true" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3803,13 +3511,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Naptha Thrower Skill 60-130 -->
+	<!-- T5 Naptha Thrower Medium Skill 60-130 -->
 	<NPCCharacter id="AR_par_veteran_naptha_thrower" default_group="Ranged" level="26" name="Paraoian Veteran Naphtha Thrower" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3881,22 +3589,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_par_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Paraoian Evocatos Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -3960,25 +3656,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_par_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}Paraoian Optio" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4027,25 +3711,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_par_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}Naumatos Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4103,25 +3775,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_par_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Paraoian Signifier" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4165,25 +3825,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_par_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Naumatos Draconarios" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4224,25 +3872,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_par_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Naumatos Draconarios Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_paraoi"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4290,7 +3926,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SPAHAD -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_spa_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Spahadi Wuzurgan Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_spahad"/>
@@ -4346,13 +3982,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_officer" default_group="Cavalry" level="26" name="{=IZ8OmByJ}Spahadi Zih Asbar" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4394,13 +4030,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_spa_t7_officer" default_group="Cavalry" level="36" name="{=qAsnj7vU}Spahanfar Pahlawan-i Gehan" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4440,13 +4076,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_spa_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Spahadi Drafshbara" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4481,13 +4117,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Standard Bearer Skill 100-230 -->
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_spa_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Spahanfar Drafs-e Kavian Bearer" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4519,13 +4155,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_spa_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Spahanfar Drafs-e Kavian Rider" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4562,7 +4198,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- VAEGIRIA -->
-	<!-- T3 Veteran Skill 40-70 -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
 	<NPCCharacter id="AR_vae_t3_veteran" default_group="Infantry" level="16" name="{=IZ8OmByJ}Vaegirian Evocatus Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
@@ -4618,13 +4254,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Officer Skill 60-130 -->
+	<!-- T5 Officer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_t5_officer" default_group="Infantry" level="26" name="{=IZ8OmByJ}Vaegirian Optio" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4684,13 +4320,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Officer Skill 100-230 -->
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_vae_t7_officer" default_group="Infantry" level="36" name="{=qAsnj7vU}Kaldavic Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4748,13 +4384,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Standard Bearer Skill 60-130 -->
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_t5_banner_carrier" default_group="Infantry" level="26" name="{=IZ8OmByJ}Vaegirian Signifier" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4789,13 +4425,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Standard Bearer Skill 100-230 -->
+	<!-- T6 Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_vae_t7_banner_carrier" default_group="Infantry" level="36" name="{=qAsnj7vU}Kaldavic Vexillarius" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4818,13 +4454,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T7 Cavalry Standard Bearer Skill 100-230 -->
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
 	<NPCCharacter id="AR_vae_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=MYwUFMsz}Kaldavic Vexillarius Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="230"/>
 			<skill id="OneHanded" value="280"/>
 			<skill id="TwoHanded" value="100"/>

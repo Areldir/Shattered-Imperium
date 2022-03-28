@@ -11,9 +11,11 @@
 		<DependedModule Id="Sandbox" DependentVersion="e1.7.1"/>
 		<DependedModule Id="CustomBattle" DependentVersion="e1.7.1"/>
 		<DependedModule Id="StoryMode" DependentVersion="e1.7.1"/>
+		<DependedModule Id="Bannerlord.Harmony"/>
 		<DependedModule Id="AdonnaysTroopChanger"/>
 		<DependedModule Id="RealisticBattleCombatModule"/>
 		<DependedModule Id="OpenSourceArmory"/>
+		<DependedModule Id="BannerColorPersistence"/>
 		<DependedModule Id="ShatteredImperiumBase"/>
 	</DependedModules>
 	<SubModules>
@@ -48,6 +50,15 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="spnpccharacters_reforms_extras"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="spnpccharacters_conspiracy_reforms"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -345,15 +356,6 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="partyTemplates" path="partytemplates_reforms"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="15-MinorFactions/spnpccharacters_conspiracy_reforms"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
