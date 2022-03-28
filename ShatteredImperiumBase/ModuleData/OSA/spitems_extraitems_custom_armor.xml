@@ -132,11 +132,11 @@
 		<Flags/>
 	</Item>
 	<!-- Shoulder Armors -->
-	<Item id="AR_fur_cape_e" name="{=osa_ar_fur_cape_e}Furred Long Green Cape" mesh="AR_fur_cape_e" culture="Culture.vlandia" subtype="body_armor" weight="4.0" difficulty="0" appearance="1.5" Type="Cape">
+	<Item id="AR_fur_cape_e" name="{=osa_ar_fur_cape_e}Furred Long Western Cape" mesh="AR_fur_cape_e" culture="Culture.vlandia" subtype="body_armor" weight="4.0" difficulty="0" appearance="1.5" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags/>
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_gladiator_shoulder_a" name="{=osa_ar_gladiator_shoulder_a}Single Lamellar Pauldron Over Leather" mesh="AR_gladiator_shoulder_a" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
 		<ItemComponent>
@@ -168,29 +168,29 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="AR_imperial_lamellar_cape_h" name="{=osa_ar_imperial_lamellar_cape_h}Imperial Lamellar With Long Green Cape" mesh="AR_imperial_lamellar_cape_h" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
+	<Item id="AR_imperial_lamellar_cape_h" name="{=osa_ar_imperial_lamellar_cape_h}Lamellar With Long Western Cape" mesh="AR_imperial_lamellar_cape_h" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="46" modifier_group="plate" material_type="Plate" arm_armor="8"/>
 		</ItemComponent>
-		<Flags/>
+		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="AR_imperial_lamellar_cape_i" name="{=osa_ar_imperial_lamellar_cape_i}Imperial Lamellar With Green Cape" mesh="AR_imperial_lamellar_cape_i" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
+	<Item id="AR_imperial_lamellar_cape_i" name="{=osa_ar_imperial_lamellar_cape_i}Lamellar With Western Cape" mesh="AR_imperial_lamellar_cape_i" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="40" modifier_group="plate" material_type="Plate" arm_armor="8"/>
 		</ItemComponent>
-		<Flags/>
+		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="AR_imperial_lamellar_cape_j" name="{=osa_ar_imperial_lamellar_cape_j}Imperial Lamellar With Green Cape" mesh="AR_imperial_lamellar_cape_j" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
+	<Item id="AR_imperial_lamellar_cape_j" name="{=osa_ar_imperial_lamellar_cape_j}Lamellar With Western Fur Cape" mesh="AR_imperial_lamellar_cape_j" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="44" modifier_group="plate" material_type="Plate" arm_armor="8"/>
 		</ItemComponent>
-		<Flags/>
+		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="AR_imperial_lamellar_cape_k" name="{=osa_ar_imperial_lamellar_cape_k}Imperial Strip Shoulders With Green Cape" mesh="AR_imperial_lamellar_cape_k" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
+	<Item id="AR_imperial_lamellar_cape_k" name="{=osa_ar_imperial_lamellar_cape_k}Strip Shoulders With Western Cape" mesh="AR_imperial_lamellar_cape_k" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="38" modifier_group="plate" material_type="Plate" arm_armor="6"/>
 		</ItemComponent>
-		<Flags/>
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_wolf_shoulder_a" name="{=osa_ar_wolf_shoulder_a}Imperial Lamellar Shoulders With Wolf Pelt" mesh="AR_wolf_shoulder_a" culture="Culture.empire" weight="4.8" appearance="3" Type="Cape">
 		<ItemComponent>

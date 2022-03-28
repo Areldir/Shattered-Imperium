@@ -243,11 +243,11 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="tv_battania_cloak_k" name="{=osa_tv_battania_cloak_k}Long Green Cape" mesh="tv_battania_cloak_k" culture="Culture.vlandia" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+	<Item id="tv_battania_cloak_k" name="{=osa_tv_battania_cloak_k}Long Western Cape" mesh="tv_battania_cloak_k" culture="Culture.vlandia" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="22" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="TV_battania_cloak_l" name="{=osa_tv_battania_cloak_l}Highland Plaid Cloak" mesh="TV_battania_cloak_l" culture="Culture.battania" weight="4" appearance="1.5" Type="Cape" subtype="body_armor" difficulty="0">
 		<ItemComponent>
