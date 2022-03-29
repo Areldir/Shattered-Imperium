@@ -209,8 +209,98 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match='Item[@id="small_heater_shield"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="northern_scouts_shield"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
 	<!-- Helmets -->
-	<xsl:template match='Item[@id="full_helm_over_arming_coif"]'>
+	<xsl:template match='Item[@id="vlandia_lord_helmet_b2"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="western_plated_helmet"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="tv_vlandia_helmet_d"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="AR_vlandia_helmet_a"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="AR_vlandia_helmet_b"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="TV_vlandia_helmet_o"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="tv_vlandia_helmet_r"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="western_crowned_plated_helmet"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="western_crowned_helmet"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="AR_vlandian_crown_mask_a"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="AR_vlandian_crown_mask_b"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="tv_vlandia_lord_helmet_j"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="vlandian_faceguard_helmet_a"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="vlandian_faceguard_helmet_b"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_merchandise">false</xsl:attribute>
 			<xsl:apply-templates select="@*|node()"/>
@@ -475,6 +565,84 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='Item[@id="tv_vlandia_lord_helmet_b"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="khuzait_ironlame_kettle"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="ironlame_roundkettle_over_imperial_leather"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="leatherlame_roundkettle_over_imperial_leather"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="leatherlame_roundkettle_over_imperial_mail"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="ironlame_roundkettle_over_imperial_mail"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="roundkettle_over_imperial_mail"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="leatherlame_roundkettle"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="roundkettle_over_imperial_cloth"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="roundkettle_over_laced_cloth"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="AR_closed_kettle_helmet_a"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="battania_crown"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="ao_battanian_crowned_helmet"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="battanian_plated_noble_helmet"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_merchandise">false</xsl:attribute>
 			<xsl:apply-templates select="@*|node()"/>
