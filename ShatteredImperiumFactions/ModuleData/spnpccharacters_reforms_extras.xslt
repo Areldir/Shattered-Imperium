@@ -5,7 +5,7 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_1"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_1"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="40"/>
@@ -17,7 +17,7 @@
 			<skill id="Crossbow" value="20"/>
 			<skill id="Throwing" value="20"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_1"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -81,7 +81,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_2"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_2"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="70"/>
@@ -93,7 +93,7 @@
 			<skill id="Crossbow" value="40"/>
 			<skill id="Throwing" value="40"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_2"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -140,7 +140,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_3"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_3"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="40"/>
@@ -152,7 +152,7 @@
 			<skill id="Crossbow" value="40"/>
 			<skill id="Throwing" value="40"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_3"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -169,7 +169,7 @@
 			<equipment slot="Horse" id="Item.empire_horse"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_4"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_4"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="100"/>
@@ -181,7 +181,7 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_4"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -251,7 +251,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_5"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_5"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="100"/>
@@ -263,7 +263,7 @@
 			<skill id="Crossbow" value="100"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_5"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -279,7 +279,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_6"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_6"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="60"/>
@@ -291,7 +291,7 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_6"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -308,7 +308,7 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_7"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_7"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="130"/>
@@ -320,7 +320,7 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_7"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -379,7 +379,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_8"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_8"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="130"/>
@@ -391,7 +391,7 @@
 			<skill id="Crossbow" value="130"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_8"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -408,7 +408,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="mercenary_9"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="mercenary_9"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="60"/>
@@ -420,7 +420,7 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="mercenary_9"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -437,7 +437,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="storymode_quest_raider"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="storymode_quest_raider"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="20"/>
@@ -448,7 +448,7 @@
 			<skill id="Throwing" value="20"/>
 			<skill id="TwoHanded" value="20"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -468,7 +468,7 @@
 			</beard_tags>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/skills'>
+	<!--xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/skills'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<skill id="Athletics" value="60"/>
@@ -480,7 +480,7 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>

@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- LOST LEGION -->
-	<!-- T3 Lost Legion Skill 40-70 -->
+	<!-- T3 Lost Legion Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_legion_t3" default_group="Infantry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w" name="{=G9ByT85b}Lost Miles">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="40"/>
@@ -38,7 +26,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
 				<equipment slot="Cape" id="Item.battania_cloak"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -49,7 +37,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
 				<equipment slot="Gloves" id="Item.padded_mitten"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -82,7 +70,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
 				<equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -104,7 +92,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<equipment slot="Cape" id="Item.battania_cloak"/>
 				<equipment slot="Gloves" id="Item.padded_mitten"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -115,7 +103,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -137,7 +125,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
 				<equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
 				<equipment slot="Gloves" id="Item.padded_mitten"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -159,7 +147,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<equipment slot="Cape" id="Item.battania_cloak"/>
 				<equipment slot="Gloves" id="Item.padded_mitten"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -170,7 +158,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<equipment slot="Gloves" id="Item.padded_mitten"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -192,7 +180,7 @@
 				<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
 				<equipment slot="Item3" id="Item.AR_plumbata"/>
-				<equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
 				<equipment slot="Cape" id="Item.battania_cloak"/>
 				<equipment slot="Gloves" id="Item.padded_mitten"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -212,25 +200,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lost Legion Skill 60-100 -->
+	<!-- T4 Lost Legion Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_legion_t4_inf" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_w" name="{=qMYpZKWo}Lost Comitatensis">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -367,25 +343,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lost Legion Skill 60-130 -->
+	<!-- T5 Lost Legion Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_legion_t5_inf" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.empire_w" name="{=cOt1onbR}Lost Palatinus">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -564,22 +528,10 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lost Legion Skirmisher Skill 60-100 -->
+	<!-- T4 Lost Legion Skirmisher Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_legion_t4_skirm" default_group="Ranged" level="21" name="{=fHQ8ifKM}Lost Explorator" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -610,7 +562,7 @@
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
 				<equipment slot="Item3" id="Item.AR_shield_infantry_d2"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
@@ -630,7 +582,7 @@
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
 				<equipment slot="Item3" id="Item.AR_shield_infantry_d2"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<equipment slot="Head" id="Item.AR_hat_g"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
@@ -640,7 +592,7 @@
 				<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
 				<equipment slot="Item3" id="Item.AR_shield_infantry_d2"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_k"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<equipment slot="Head" id="Item.merchants_hat"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
@@ -650,7 +602,7 @@
 				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
 				<equipment slot="Item3" id="Item.AR_shield_infantry_d"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
@@ -659,25 +611,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lost Legion Skirmisher Skill 60-130 -->
+	<!-- T5 Lost Legion Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_legion_t5_skirm" default_group="Ranged" level="26" name="{=CDUvlu4d}Lost Lanciarius" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -791,25 +731,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lost Legion Cavalry Skill 60-130 -->
+	<!-- T5 Lost Legion Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_legion_t5_cav" default_group="Cavalry" level="26" name="{=eYIMQafj}Lost Equite" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -870,13 +798,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- HIDDEN HAND -->
-	<!-- T3 Hidden Hand Skill 40-70 -->
+	<!-- T3 Hidden Hand Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_hand_t3" default_group="Infantry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.empire" name="{=ehACDRBk}Hidden Hand Initiate">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -933,13 +861,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Hidden Hand Skill 60-100 -->
+	<!-- T4 Hidden Hand Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_hand_t4_inf" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire" name="{=MVHawAEp}Hidden Hand Extortionist">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -988,13 +916,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Hidden Hand Skill 60-130 -->
+	<!-- T5 Hidden Hand Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_hand_t5_inf" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.empire" name="{=PU2zIMu0}Hidden Hand Enforcer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1041,7 +969,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Hidden Hand Skill 60-100 -->
+	<!-- T4 Hidden Hand Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_hand_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.empire" name="{=MVHawAEp}Hidden Hand Footpad">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -1096,13 +1024,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Hidden Hand Skill 60-130 -->
+	<!-- T5 Hidden Hand Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_hand_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.empire" name="{=PU2zIMu0}Hidden Hand Assassin">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1161,7 +1089,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- GUARDIANS -->
-	<!-- T3 Guardian Skill 40-70 -->
+	<!-- T3 Guardian Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_guardians_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.palaic" name="{=rtOJNB6u}Protector Miles Footman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
@@ -1219,22 +1147,33 @@
 				<equipment slot="Item1" id="Item.empire_mace_1_t2"/>
 				<equipment slot="Item2" id="Item.AR_sling_a"/>
 				<equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Head" id="Item.laced_cloth_coif"/>
 				<equipment slot="Leg" id="Item.strapped_shoes"/>
 				<equipment slot="Cape" id="Item.battania_cloak"/>
 				<equipment slot="Gloves" id="Item.padded_vambrace"/>
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_sling_a"/>
+				<equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_k"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+				<equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Guardian Skill 60-100 -->
+	<!-- T4 Guardian Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_guardians_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.palaic" name="{=cMcGn6n3}Protector Funditor Slinger">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1283,13 +1222,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Guardian Skill 60-130 -->
+	<!-- T5 Guardian Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_guardians_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.palaic" name="{=WNU7kE5N}Protector Funditor Armatus">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1347,13 +1286,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Guardian Skill 60-100 -->
+	<!-- T4 Guardian Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_guardians_t4_cavalry" default_group="Cavalry" level="21" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.palaic" name="{=cMcGn6n3}Protector Equite Horseman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1411,13 +1350,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Guardian Skill 60-130 -->
+	<!-- T5 Guardian Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_guardians_t5_cavalry" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.palaic" name="{=WNU7kE5N}Protector Contarius">
 		<face>
 			<face_key_template value="BodyProperty.fighter_western"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1474,7 +1413,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- EMBERS OF FLAME -->
-	<!-- T3 Embers of Flame Skill 40-70 -->
+	<!-- T3 Embers of Flame Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_embers_t3" default_group="Infantry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_n" name="{=80plewQ1}Seeker Initiate">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -1527,13 +1466,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Embers of Flame Skill 60-100 -->
+	<!-- T4 Embers of Flame Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_embers_t4_inf" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_n" name="{=bYn4ad1t}Seeker Journeyman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1582,13 +1521,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Embers of Flame Skill 60-130 -->
+	<!-- T5 Embers of Flame Light Skill 60-130 -->
 	<NPCCharacter id="AR_min_embers_t5_inf" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.empire_n" name="{=nsyTIbtp}Seeker Zealot">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1635,7 +1574,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Embers of Flame Skill 60-100 -->
+	<!-- T4 Embers of Flame Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_embers_t4_shock" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_n" name="Seeker Enforcer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
@@ -1690,13 +1629,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Embers of Flame Skill 60-130 -->
+	<!-- T5 Embers of Flame Light Skill 60-130 -->
 	<NPCCharacter id="AR_min_embers_t5_shock" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.empire_n" name="Seeker Elder">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1744,13 +1683,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ELEFTHEROI -->
-	<!-- T3 Eleftheroi Skill 40-70 -->
+	<!-- T3 Eleftheroi Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_eleftheroi_t3" default_group="Cavalry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_n" name="{=S6BosJUq}Eleftheros Caballarius">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -1824,13 +1763,13 @@
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Eleftheroi Skill 60-100 -->
+	<!-- T4 Eleftheroi Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_eleftheroi_t4_cav" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.empire_n" name="{=qBVNIhme}Eleftheros Contarius">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1892,13 +1831,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Eleftheroi Skill 60-130 -->
+	<!-- T5 Eleftheroi Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_eleftheroi_t5_cav" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.empire_n" name="{=cEKbOxRA}Eleftheros Contarius Armatus">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1958,13 +1897,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_i"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Eleftheroi Skill 60-100 -->
+	<!-- T4 Eleftheroi Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_eleftheroi_t4_cav_archer" default_group="HorseArcher" level="21" occupation="Soldier" culture="Culture.empire_n" name="{=qBVNIhme}Eleftheros Hippo Toxotes">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2015,13 +1954,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Eleftheroi Skill 60-130 -->
+	<!-- T5 Eleftheroi Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_eleftheroi_t5_cav_archer" default_group="HorseArcher" level="26" occupation="Soldier" culture="Culture.empire_n" name="{=cEKbOxRA}Eleftheros Sagittarius Equester">
 		<face>
 			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2032,6 +1971,17 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_n"/>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.AR_imperial_axe_t5"/>
+				<equipment slot="Head" id="Item.AR_empire_desert_helmet_b"/>
+				<equipment slot="Body" id="Item.AR_empire_scout_armor_a"/>
+				<equipment slot="Cape" id="Item.bearskin"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item2" id="Item.AR_shield_infantry_n"/>
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
@@ -2071,13 +2021,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- EXPLORATORES NAHASAE -->
-	<!-- T3 Cavalry Archer Skill 40-70 -->
+	<!-- T3 Cavalry Archer Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_exploratores_t3" default_group="HorseArcher" level="16" name="{=LbjxH9yp}Nahasan Explorator" occupation="Soldier" is_basic_troop="true" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2140,13 +2090,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Cavalry Archer Skill 60-100 -->
+	<!-- T4 Cavalry Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_exploratores_t4_camel" default_group="HorseArcher" level="21" name="{=LbjxH9yp}Nahasan Dromedarius" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2208,13 +2158,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Cavalry Archer Skill 60-130 -->
+	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_exploratores_t5_camel" default_group="HorseArcher" level="26" name="{=LbjxH9yp}Nahasan Dromedarius Armatus" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2274,13 +2224,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Shock Infantry Skill 60-100 -->
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_exploratores_t4_cav" default_group="Cavalry" level="21" name="{=ARUvlu42}Nahasan Praeventor Equester" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="100"/>
@@ -2342,13 +2292,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skill 60-130 -->
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_exploratores_t5_cav" default_group="Cavalry" level="26" name="{=ARUvlu43}Nahasan Excubitor Equester" occupation="Soldier" culture="Culture.paraoi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_paraoi"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
@@ -2408,13 +2358,13 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Aracathan Infantry Skill 40-70 -->
+	<!-- T3 Aracathan Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_aracathans_t3" default_group="Infantry" level="16" name="Aracathan Fear Beinne Hillman" occupation="Soldier" is_basic_troop="true" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2474,7 +2424,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Aracathan Infantry Skill 60-100 -->
+	<!-- T4 Aracathan Infantry Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_aracathans_t4_infantry" default_group="Infantry" level="21" name="Aracathan Ocaire Warrior" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
@@ -2529,13 +2479,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Aracathan Infantry Skill 60-130 -->
+	<!-- T5 Aracathan Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_aracathans_t5_infantry" default_group="Infantry" level="26" name="Aracathan Boaire Veteran" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2593,13 +2543,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Aracathan Horse Archer Skill 60-100 -->
+	<!-- T4 Aracathan Horse Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_aracathans_t4_cavalry" default_group="HorseArcher" level="21" name="Aracathan Marcach Rider" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2683,13 +2633,13 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Aracathan Horse Archer Skill 60-130 -->
+	<!-- T5 Aracathan Horse Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_aracathans_t5_cavalry" default_group="HorseArcher" level="26" name="Aracathan Riglach Horseman" occupation="Soldier" culture="Culture.dryatic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2761,13 +2711,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SALEAS SISTERS -->
-	<!-- T3 Sisters Skill 40-70 -->
+	<!-- T3 Sisters Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_sisters_t3" default_group="Infantry" level="16" occupation="Soldier" is_female="true" is_basic_troop="true" culture="Culture.empire" name="Sister Junior Gladiatrix">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="40"/>
@@ -2824,13 +2774,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sisters Skill 60-100 -->
+	<!-- T4 Sisters Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_sisters_t4_inf" default_group="Infantry" level="21" occupation="Soldier" is_female="true" culture="Culture.empire" name="Sister Secutrix Swordswoman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2876,13 +2826,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sisters Skill 60-130 -->
+	<!-- T5 Sisters Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_sisters_t5_inf" default_group="Infantry" level="26" occupation="Soldier" is_female="true" culture="Culture.empire" name="Sister Champion Secutrix">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -2926,13 +2876,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sisters Skill 60-100 -->
+	<!-- T4 Sisters Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_sisters_t4_shock_inf" default_group="Infantry" level="21" occupation="Soldier" is_female="true" culture="Culture.empire" name="Sister Provocatrix Spearwoman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="130"/>
@@ -2981,13 +2931,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sisters Skill 60-130 -->
+	<!-- T5 Sisters Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_sisters_t5_shock_inf" default_group="Infantry" level="26" occupation="Soldier" is_female="true" culture="Culture.empire" name="Sister Champion Provocatrix">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="180"/>
@@ -3024,13 +2974,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- KARAKHUZAITS -->
-	<!-- T3 Karakhuzait Skill 40-70 -->
+	<!-- T3 Karakhuzait Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_karakhuzaits_t3" default_group="HorseArcher" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.kankharit" name="{=xIFHLI66}Kankharit Nomad">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3108,13 +3058,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Karakhuzait Skill 60-100 -->
+	<!-- T4 Karakhuzait Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_karakhuzaits_t4_cav_archer" default_group="HorseArcher" level="21" occupation="Soldier" culture="Culture.kankharit" name="{=lduchnvD}Kankharit Rider">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3165,13 +3115,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Karakhuzait Skill 60-130 -->
+	<!-- T5 Karakhuzait Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_karakhuzaits_t5_cav_archer" default_group="HorseArcher" level="26" occupation="Soldier" culture="Culture.kankharit" name="{=gBuGfUg3}Kankharit Elder">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3209,13 +3159,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Karakhuzait Lancer Skill 60-100 -->
+	<!-- T4 Karakhuzait Lancer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_karakhuzaits_t4_lancer" default_group="Cavalry" level="21" name="{=lumFaIud}Kankharit Lancer" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3266,13 +3216,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Karakhuzait Lancer Skill 60-130 -->
+	<!-- T5 Karakhuzait Lancer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_karakhuzaits_t5_lancer" default_group="Cavalry" level="26" name="{=cP1bu5GK}Kankharit Guard Lancer" occupation="Soldier" culture="Culture.kankharit">
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3333,13 +3283,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Hawlan Rebels -->
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_hawlan_t3" default_group="Infantry" level="16" name="{=0000010}Hawlan Rebel Volunteer" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3389,7 +3339,7 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_hawlan_t4_infantry" default_group="Infantry" level="21" name="{=0000011}Hawlan Rebel Footman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
@@ -3444,13 +3394,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_hawlan_t5_infantry" default_group="Infantry" level="26" name="{=0000012}Hawlan Rebel Warrior" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3508,7 +3458,7 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_hawlan_t4_archer" default_group="Ranged" level="21" name="{=0000014}Hawlan Rebel Bowman" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
@@ -3560,13 +3510,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Light Skill 60-130 -->
 	<NPCCharacter id="AR_min_hawlan_t5_archer" default_group="Ranged" level="26" name="{=0000015}Hawlan Rebel Archer" occupation="Soldier" culture="Culture.khuzait">
 		<face>
 			<face_key_template value="BodyProperty.fighter_hawlan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3625,13 +3575,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Chosen of the Sky -->
-	<!-- T3 Chosen of the Sky Skill 40-70 -->
+	<!-- T3 Chosen of the Sky Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_chosensky_t3" default_group="HorseArcher" level="16" name="Chosen Initiate" occupation="Soldier" is_basic_troop="true" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_chosensky"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -3691,13 +3641,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Chosen of the Sky Skill 60-100 -->
+	<!-- T4 Chosen of the Sky Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_chosensky_t4_cav_archer" default_group="HorseArcher" level="21" name="Chosen Rider" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_chosensky"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3759,13 +3709,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Chosen of the Sky Skill 60-130 -->
+	<!-- T5 Chosen of the Sky Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_chosensky_t5_cav_archer" default_group="HorseArcher" level="26" name="Chosen Stormshield" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_chosensky"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3814,13 +3764,13 @@
 			<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Cavalry Skill 60-100 -->
+	<!-- T4 Spear Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_min_chosensky_t4_lancer" default_group="Cavalry" level="21" name="Chosen Lancer" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_chosensky"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3882,13 +3832,13 @@
 			<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Cavalry Skill 60-130 -->
+	<!-- T5 Spear Cavalry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_chosensky_t5_lancer" default_group="Cavalry" level="26" name="Chosen Sunspear" occupation="Soldier" culture="Culture.cizygian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_chosensky"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -3942,13 +3892,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SKOLDER -->
-	<!-- T3 Skolder Skill 40-70 -->
+	<!-- T3 Skolder Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_skolder_t3" default_group="Infantry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nord" name="{=uViDMxLC}Skolderbroda Mogr Youth">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="40"/>
@@ -4005,13 +3955,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skolder Skill 60-100 -->
+	<!-- T4 Skolder Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_min_skolder_t4_melee" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.nord" name="{=LXybWXde}Skolderbroda Drengr Warrior">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4060,13 +4010,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skolder Skill 60-130 -->
+	<!-- T5 Skolder Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_skolder_t5_melee" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.nord" name="{=YGexslSX}Skolderbroda Rekkr Veteran">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4102,13 +4052,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skolder Archer Skill 60-100 -->
+	<!-- T4 Skolder Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_skolder_t4_archer" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.nord" name="{=LXybWXde}Skolderbroda Bogikarl Bowman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4146,13 +4096,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skolder Archer Skill 60-130 -->
+	<!-- T5 Skolder Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_skolder_t5_archer" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.nord" name="{=YGexslSX}Skolderbroda Bogidrengr Archer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4189,7 +4139,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- LAKE RATS -->
-	<!-- T3 Lake Rats Skill 40-70 -->
+	<!-- T3 Lake Rats Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_lakepike_t3" default_group="Infantry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia" name="{=6j9iJMRr}Lake Rat Thjofr Thief">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -4262,13 +4212,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lake Rats Skill 60-100 -->
+	<!-- T4 Lake Rats Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_lakepike_t4_melee" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.sturgia" name="{=1gAasy1t}Lake Rat Vigmandr Pillager">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4328,13 +4278,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lake Rats Skill 60-130 -->
+	<!-- T5 Lake Rats Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_lakepike_t5_melee" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.sturgia" name="{=BC5YGna3}Lake Rat Herjandi Marauder">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4392,7 +4342,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lake Rats Archer Skill 60-100 -->
+	<!-- T4 Lake Rats Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_lakepike_t4_crossbowman" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.sturgia" name="{=1gAasy1t}Lake Rat Brestandi Breaker">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -4455,13 +4405,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lake Rats Archer Skill 60-130 -->
+	<!-- T5 Lake Rats Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_lakepike_t5_crossbowman" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.sturgia" name="{=BC5YGna3}Lake Rat Skiprekandi Shipwrecker">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="180"/>
@@ -4515,13 +4465,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Seax Infantry Skill 40-70 -->
+	<!-- T3 Seax Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_seax_t3" default_group="Infantry" level="16" name="Seax Farmadr Sailor" occupation="Soldier" is_basic_troop="true" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -4571,13 +4521,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Seax Infantry Skill 60-100 -->
+	<!-- T4 Seax Infantry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_seax_t4_infantry" default_group="Infantry" level="21" name="Seax Vigmandr Raider" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4626,13 +4576,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Seax Infantry Skill 60-130 -->
+	<!-- T5 Seax Infantry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_seax_t5_infantry" default_group="Infantry" level="26" name="Seax Vikingr Marauder" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4679,13 +4629,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Seax Berserker Skill 60-100 -->
+	<!-- T4 Seax Berserker Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_seax_t4_shock_inf" default_group="Infantry" level="21" name="Seax Berserkr Axeman" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -4721,13 +4671,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Seax Berserker Skill 60-130 -->
+	<!-- T5 Seax Berserker Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_seax_t5_shock_inf" default_group="Infantry" level="26" name="Seax Huskarl Guardsman" occupation="Soldier" culture="Culture.nord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -4771,7 +4721,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Valkyrie Infantry Skill 40-70 -->
+	<!-- T3 Valkyrie Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_valkyries_t3" default_group="Infantry" level="16" name="Vezha Wanderess" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -4824,13 +4774,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Valkyrie Cavalry Skill 60-100 -->
+	<!-- T4 Valkyrie Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_min_valkyries_t4_infantry" default_group="Cavalry" level="21" name="Vezha Warmaiden" is_female="true" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4878,13 +4828,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Valkyrie Cavalry Skill 60-130 -->
+	<!-- T5 Valkyrie Cavalry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_valkyries_t5_infantry" default_group="Cavalry" level="26" name="Vezha Skjaldmaer" is_female="true" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4930,13 +4880,13 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zd"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Valkyrie Archer Skill 60-100 -->
+	<!-- T4 Valkyrie Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_valkyries_t4_archer" default_group="Ranged" level="21" name="Vezha Huntress" occupation="Soldier" is_female="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -4985,13 +4935,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Valkyrie Archer Skill 60-130 -->
+	<!-- T5 Valkyrie Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_valkyries_t5_archer" default_group="Ranged" level="26" name="Vezha Valkyrja" occupation="Soldier" is_female="true" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5039,13 +4989,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- FREE COMPANY -->
-	<!-- T3 Free Company Skill 40-70 -->
+	<!-- T3 Free Company Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_companyboar_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia" name="{=9Bw85Elg}Boar Stepende Initiate">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -5128,13 +5078,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Free Company Skill 60-100 -->
+	<!-- T4 Free Company Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_companyboar_t4_crossbowman" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.vlandia" name="{=9Ylw5Spz}Boar Hirdmann Warrior">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5172,13 +5122,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Free Company Skill 60-130 -->
+	<!-- T5 Free Company Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_companyboar_t5_crossbowman" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.vlandia" name="{=cSdSSXsO}Boar Duguth Veteran">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5236,13 +5186,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Free Company Cavalry Skill 60-100 -->
+	<!-- T4 Free Company Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_companyboar_t4_crossbow_cav" default_group="HorseArcher" level="21" name="{=kih9DwL4}Boar Eoredmann Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5310,13 +5260,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Free Company Cavalry Skill 60-130 -->
+	<!-- T5 Free Company Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_companyboar_t5_crossbow_cav" default_group="HorseArcher" level="26" name="{=kih9DwL4}Boar Gehorsod Vanguard" occupation="Soldier" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5357,7 +5307,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- BROTHERHOOD OF THE WOODS -->
-	<!-- T3 Brotherhood of the Woods Skill 40-70 -->
+	<!-- T3 Brotherhood of the Woods Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_brotherhood_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia" name="{=DIt9SuMb}Brotherhood Theof">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -5423,13 +5373,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Brotherhood of the Woods Skill 60-100 -->
+	<!-- T4 Brotherhood of the Woods Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_brotherhood_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.vlandia" name="{=riT39wKu}Brotherhood Ahithend Thug">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5489,13 +5439,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Brotherhood of the Woods Skill 60-130 -->
+	<!-- T5 Brotherhood of the Woods Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_brotherhood_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.vlandia" name="{=u3K1SozQ}Brotherhood Sceatha Outlaw">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5542,13 +5492,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Brotherhood of the Woods Skill 60-100 -->
+	<!-- T4 Brotherhood of the Woods Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_brotherhood_t4_skirm" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.vlandia" name="{=riT39wKu}Brotherhood Beeacere Robber">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5586,13 +5536,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Brotherhood of the Woods Skill 60-130 -->
+	<!-- T5 Brotherhood of the Woods Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_brotherhood_t5_skirm" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.vlandia" name="{=u3K1SozQ}Brotherhood Hergend Plunderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5629,7 +5579,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Biscani -->
-	<!-- T3 Archer Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_min_swadician_t3" default_group="Ranged" level="16" name="Biscani Kotselta Tribesman" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -5692,13 +5642,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Archer Skill 60-100 -->
+	<!-- T4 Archer Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_swadician_t4_archer" default_group="Ranged" level="21" name="Biscani Draefend Huntsman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5754,13 +5704,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Archer Skill 60-130 -->
+	<!-- T5 Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_swadician_t5_archer" default_group="Ranged" level="26" name="Biscani Gargetrum Slinger" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5814,13 +5764,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sword Cavalry Skill 60-100 -->
+	<!-- T4 Sword Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_min_swadician_t4_melee" default_group="HorseArcher" level="21" name="Biscani Eoredmann Rider" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5893,13 +5843,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sword Cavalry Skill 60-130 -->
+	<!-- T5 Sword Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_swadician_t5_melee" default_group="HorseArcher" level="26" name="Biscani Gehorsod Horseman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -5953,13 +5903,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- DARSHI -->
-	<!-- T3 Darshi Skill 40-70 -->
+	<!-- T3 Darshi Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_ghilman_t3" default_group="Cavalry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi" name="{=KnhpjA7Y}Kolemen Slave">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -5998,13 +5948,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Darshi Skill 60-100 -->
+	<!-- T4 Darshi Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_min_ghilman_t4_lancer" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.darshi" upgrade_requires="ItemCategory.war_horse" name="{=H5iWxbbl}Kolemen Lancer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6044,13 +5994,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Darshi Skill 60-130 -->
+	<!-- T5 Darshi Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_ghilman_t5_lancer" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.darshi" name="{=7EUhAv8b}Kolemen Grivpanvar">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6088,13 +6038,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Darshi Skirmisher Skill 60-100 -->
+	<!-- T4 Darshi Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_ghilman_t4_cav_archer" default_group="HorseArcher" level="21" occupation="Soldier" culture="Culture.darshi" upgrade_requires="ItemCategory.war_horse" name="{=H5iWxbbl}Kolemen Mounted Archer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6134,13 +6084,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Darshi Skirmisher Skill 60-130 -->
+	<!-- T5 Darshi Skirmisher Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_ghilman_t5_cav_archer" default_group="HorseArcher" level="26" occupation="Soldier" culture="Culture.darshi" name="{=7EUhAv8b}Kolemen Marksman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6194,7 +6144,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- BENI ZILAL -->
-	<!-- T3 Beni Zilal Skill 40-70 -->
+	<!-- T3 Beni Zilal Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_benizilal_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai" name="{=uca778lM}Beni Zilal Initiate">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -6250,13 +6200,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Beni Zilal Skill 60-100 -->
+	<!-- T4 Beni Zilal Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_benizilal_t4_slinger" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.aserai" name="{=9zXXes9i}Beni Zilal Hurler">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6305,13 +6255,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Beni Zilal Skill 60-130 -->
+	<!-- T5 Beni Zilal Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_benizilal_t5_slinger" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.aserai" name="{=8Gh8q1PX}Beni Zilal Chosen Slinger">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="180"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6358,13 +6308,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Beni Zilal Skill 60-100 -->
+	<!-- T4 Beni Zilal Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_benizilal_t4_cav_archer" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.aserai" upgrade_requires="ItemCategory.war_horse" name="{=9zXXes9i}Beni Zilal Rider">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -6415,13 +6365,13 @@
 			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Beni Zilal Skill 60-130 -->
+	<!-- T5 Beni Zilal Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_benizilal_t5_cav_archer" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.aserai" name="{=8Gh8q1PX}Beni Zilal Chosen Horseman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -6471,13 +6421,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- JAWWAL -->
-	<!-- T3 Jawwal Skill 40-70 -->
+	<!-- T3 Jawwal Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_jawwal_t3" default_group="Cavalry" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai" name="{=vxlAJIiU}Jawwal Bedouin Tribesman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -6544,13 +6494,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Jawwal Skill 60-100 -->
+	<!-- T4 Jawwal Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_jawwal_t4_lancer" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.aserai" name="{=Mcbjdntz}Jawwal Bedouin Warrior">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6612,13 +6562,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Jawwal Skill 60-130 -->
+	<!-- T5 Jawwal Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_jawwal_t5_lancer" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.aserai" name="{=qAvxmnav}Jawwal Bedouin Veteran">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6667,13 +6617,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Jawwal Archer Skill 60-100 -->
+	<!-- T4 Jawwal Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_jawwal_t4_cav_archer" default_group="HorseArcher" level="21" name="Jawwal Bedouin Hunter" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6735,13 +6685,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Jawwal Archer Skill 60-130 -->
+	<!-- T5 Jawwal Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_jawwal_t5_cav_archer" default_group="HorseArcher" level="26" name="Jawwal Bedouin Raider" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_nahasar"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6801,13 +6751,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Spear Infantry Skill 40-70 -->
+	<!-- T3 Spear Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_ethawian_t3" default_group="Infantry" level="16" name="{=wtmCSMrC}Ethawian Tribesman" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="40"/>
@@ -6869,7 +6819,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Spear Infantry Skill 60-100 -->
+	<!-- T4 Spear Infantry Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_ethawian_t4_infantry" default_group="Infantry" level="21" name="{=tke6VCV6}Ethawian Warrior" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
@@ -6935,13 +6885,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Spear Infantry Skill 60-130 -->
+	<!-- T5 Spear Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_ethawian_t5_infantry" default_group="Infantry" level="26" name="{=g1zvdEE3}Ethawian Veteran Warrior" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -6999,7 +6949,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Skirmisher Skill 60-100 -->
+	<!-- T4 Skirmisher Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_ethawian_t4_skirmisher" default_group="Ranged" level="21" name="{=vZlMfmng}Ethawian Hunter" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
@@ -7051,13 +7001,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Skirmisher Skill 60-130 -->
+	<!-- T5 Skirmisher Light Skill 60-130 -->
 	<NPCCharacter id="AR_min_ethawian_t5_skirmisher" default_group="Ranged" level="26" name="{=g1zvdEE3}Ethawian Bowman" occupation="Soldier" culture="Culture.darshi">
 		<face>
 			<face_key_template value="BodyProperty.fighter_spahad"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -7102,13 +7052,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- LOCHANIANS -->
-	<!-- T3 Lochanian Skill 40-70 -->
+	<!-- T3 Lochanian Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_lochanian_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.gotarni" name="Lochanian Widousguma Hillman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -7165,13 +7115,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lochanian Skill 60-100 -->
+	<!-- T4 Lochanian Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_lochanian_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.gotarni" name="Lochanian Waithja Hunter">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -7217,13 +7167,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lochanian Skill 60-130 -->
+	<!-- T5 Lochanian Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_lochanian_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.gotarni" name="Lochanian Ferja Slinger">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -7267,13 +7217,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Lochanian Melee Skill 60-100 -->
+	<!-- T4 Lochanian Melee Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_lochanian_t4_swordsman" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.gotarni" name="Lochanian Militonds Warrior">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -7333,13 +7283,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Lochanian Melee Skill 60-130 -->
+	<!-- T5 Lochanian Melee Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_lochanian_t5_swordsman" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.gotarni" name="Lochanian Gaisfatha Oathsworn">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -7398,13 +7348,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- WOLFSKINS -->
-	<!-- T3 Wolfskins Skill 40-70 -->
+	<!-- T3 Wolfskins Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_wolfskins_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.battania" name="{=mrBbsiPN}Wolfskin Initiate">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -7448,7 +7398,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Wolfskins Skill 60-100 -->
+	<!-- T4 Wolfskins Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_wolfskins_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.battania" name="{=q7b4pQc9}Wolfskin Disciple">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -7510,13 +7460,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Wolfskins Skill 60-130 -->
+	<!-- T5 Wolfskins Light Skill 60-130 -->
 	<NPCCharacter id="AR_min_wolfskins_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.battania" name="{=QvSmhaAV}Wolfskin Elder">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -7570,13 +7520,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Wolfskins Slinger Skill 60-100 -->
+	<!-- T4 Wolfskins Slinger Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_wolfskins_t4_shock_inf" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.battania" name="{=q7b4pQc9}Wolfskin Savage">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -7636,13 +7586,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Wolfskins Slinger Skill 60-130 -->
+	<!-- T5 Wolfskins Slinger Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_wolfskins_t5_shock_inf" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.battania" name="{=QvSmhaAV}Wolfskin Zealot">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="180"/>
@@ -7701,7 +7651,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- FORESTERS -->
-	<!-- T3 Forester Skill 40-70 -->
+	<!-- T3 Forester Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_foresters_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken" name="{=h7nGFImt}Vanni Tribesman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -7764,7 +7714,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Forester Skill 60-100 -->
+	<!-- T4 Forester Light Skill 60-100 -->
 	<NPCCharacter id="AR_min_foresters_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.vakken" name="{=2HDPaohZ}Vanni Woodsman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -7826,13 +7776,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Forester Skill 60-130 -->
+	<!-- T5 Forester Medium Skill 60-130 -->
 	<NPCCharacter id="AR_min_foresters_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.vakken" name="{=ueasbGtd}Vanni Huntsman">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Bow" value="180"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="Polearm" value="60"/>
@@ -7890,13 +7840,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Forester Skill 60-100 -->
+	<!-- T4 Forester Medium Skill 60-100 -->
 	<NPCCharacter id="AR_min_foresters_t4_swordsman" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.vakken" name="{=2HDPaohZ}Vanni Warrior">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Bow" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -7934,13 +7884,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Forester Skill 60-130 -->
+	<!-- T5 Forester Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_min_foresters_t5_swordsman" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.vakken" name="{=ueasbGtd}Vanni Veteran Warrior">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Bow" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -7999,13 +7949,13 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- BANDIT CLAN TROOPS -->
-	<!-- T1 Looter Skill 5-20 -->
+	<!-- T1 Looter Light Skill 5-20 -->
 	<NPCCharacter id="AR_ban_t1_looter" default_group="Infantry" name="{=urUwa4bf}Looter" level="6" occupation="Bandit" is_basic_troop="true" culture="Culture.looters">
 		<face>
 			<face_key_template value="BodyProperty.bandit_looter"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="5"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -8102,13 +8052,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Looter Skill 20-40 -->
+	<!-- T2 Looter Light Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_looter" default_group="Infantry" level="11" name="Looter Savage" occupation="Bandit" culture="Culture.looters">
 		<face>
 			<face_key_template value="BodyProperty.bandit_looter"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -8247,13 +8197,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter-->
-	<!-- T3 Looter Skill 20-40 -->
+	<!-- T3 Looter Medium Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t3_looter" default_group="Infantry" level="16" name="Looter Chief" occupation="Bandit" culture="Culture.looters">
 		<face>
 			<face_key_template value="BodyProperty.bandit_looter"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -8334,13 +8284,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Sea Raider Skill 20-40 -->
+	<!-- T2 Sea Raider Light Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_sea_raider" default_group="Infantry" name="{=dq2cP8h0}Sea Raider Farmadr Sailor" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.sea_raiders">
 		<face>
 			<face_key_template value="BodyProperty.villager_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -8416,7 +8366,7 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Sea Raider Skill 40-70 -->
+	<!-- T3 Sea Raider Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_sea_raider" default_group="Infantry" name="{=Nr8NkHXU}Sea Raider Vikingr Raider" level="16" occupation="Bandit" culture="Culture.sea_raiders">
 		<face>
 			<face_key_template value="BodyProperty.villager_sturgia"/>
@@ -8494,13 +8444,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sea Raider Skill 60-100 -->
+	<!-- T4 Sea Raider Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_sea_raider" default_group="Infantry" name="{=0Ikzzm71}Sea Raider Herjandi Reaver" level="21" occupation="Bandit" culture="Culture.sea_raiders">
 		<face>
 			<face_key_template value="BodyProperty.villager_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -8569,13 +8519,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Sea Raider Skill 60-130 -->
+	<!-- T5 Sea Raider Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_sea_raiders_boss" default_group="Infantry" name="{=C1Fkzdvu}Sea Raider Skipari Captain" level="26" occupation="Bandit" culture="Culture.sea_raiders">
 		<face>
 			<face_key_template value="BodyProperty.villager_sturgia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -8622,13 +8572,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Mountain Bandit Skill 20-40 -->
+	<!-- T2 Mountain Bandit Light Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_mountain_bandit" default_group="Infantry" name="{=9laVlEH9}Mountain Bandit Heoruwearh Savage" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.mountain_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -8677,7 +8627,7 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Mountain Bandit Skill 40-70 -->
+	<!-- T3 Mountain Bandit Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_mountain_bandit" default_group="Infantry" name="{=ZKdiaaFo}Mountain Bandit Ahithend Wildsman" level="16" occupation="Bandit" culture="Culture.mountain_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
@@ -8752,13 +8702,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Mountain Bandit Skill 60-100 -->
+	<!-- T4 Mountain Bandit Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_mountain_bandit" default_group="Cavalry" name="{=P6Md9DpR}Mountain Bandit Hergend Marauder" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -8850,13 +8800,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Mountain Bandit Skill 60-130 -->
+	<!-- T5 Mountain Bandit Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_mountain_bandits_boss" default_group="Cavalry" name="{=ziOBJSzR}Mountain Bandit Geraeswa Chief" level="26" occupation="Bandit" culture="Culture.mountain_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -8906,13 +8856,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Forest Bandit Skill 20-40 -->
+	<!-- T2 Forest Bandit Light Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_forest_bandit" default_group="Ranged" name="{=HadsURl8}Forest Bandit Gataige Thief" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.forest_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -9007,13 +8957,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Forest Bandit Skill 40-70 -->
+	<!-- T3 Forest Bandit Light Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_forest_bandit" default_group="Ranged" name="{=ZxmBdWTu}Forest Bandit Mheirleach Ruffian" level="16" occupation="Bandit" culture="Culture.forest_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="70"/>
@@ -9079,13 +9029,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Forest Bandit Skill 60-100 -->
+	<!-- T4 Forest Bandit Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_forest_bandit" default_group="Ranged" name="{=sFgODQ1q}Forest Bandit Gadaiche Freebooter" level="21" occupation="Bandit" culture="Culture.forest_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="100"/>
@@ -9149,13 +9099,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Forest Bandit Skill 60-130 -->
+	<!-- T5 Forest Bandit Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_forest_bandits_boss" default_group="Ranged" name="{=dc2qxanZ}Forest Bandit Ceannasai Chief" level="26" occupation="Bandit" culture="Culture.forest_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -9202,13 +9152,13 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Desert Bandit Skill 20-40 -->
+	<!-- T2 Desert Bandit Light Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_desert_bandit" default_group="Cavalry" name="{=uOAnHN47}Desert Bandit Rahzan Vagrant" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
@@ -9284,13 +9234,13 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Desert Bandit Skill 40-70 -->
+	<!-- T3 Desert Bandit Light Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_desert_bandit" default_group="Cavalry" name="{=0qDNS83n}Desert Bandit Owbas Extortionist" level="16" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -9378,13 +9328,13 @@
 			<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Desert Bandit Skill 60-100 -->
+	<!-- T4 Desert Bandit Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_desert_bandit" default_group="Cavalry" name="{=cdbSCr6G}Desert Bandit Arazel Pillager" level="21" upgrade_requires="ItemCategory.war_horse" occupation="Bandit" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -9466,13 +9416,13 @@
 			<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Desert Bandit Skill 60-130 -->
+	<!-- T5 Desert Bandit Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_desert_bandits_boss" default_group="Cavalry" name="{=Q2V4uQrr}Desert Bandit Ra'is Chief" level="26" upgrade_requires="ItemCategory.war_horse" occupation="Bandit" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -9521,13 +9471,13 @@
 			<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Steppe Bandit Skill 20-40 -->
+	<!-- T2 Steppe Bandit Light Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_steppe_bandit" default_group="HorseArcher" name="{=ZA4bgJ5V}Steppe Bandit Hulgaych Raider" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.steppe_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -9619,13 +9569,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Steppe Bandit Skill 40-70 -->
+	<!-- T3 Steppe Bandit Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_steppe_bandit" default_group="HorseArcher" name="{=Awc23bFS}Steppe Bandit Deeremchin Ransacker " level="16" occupation="Bandit" culture="Culture.steppe_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -9725,13 +9675,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Steppe Bandit Skill 60-100 -->
+	<!-- T4 Steppe Bandit Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_steppe_bandit" default_group="HorseArcher" name="{=cbnvgVhH}Steppe Bandit Khulgai Marauder" upgrade_requires="ItemCategory.war_horse" level="21" occupation="Bandit" culture="Culture.steppe_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -9836,13 +9786,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Desert Bandit Skill 60-130 -->
+	<!-- T5 Desert Bandit Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_steppe_bandits_boss" default_group="Cavalry" name="{=Bg63YFnh}Steppe Bandit Darga Chief" upgrade_requires="ItemCategory.war_horse" level="26" occupation="Bandit" culture="Culture.steppe_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_khuzait"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -9895,13 +9845,13 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T2 Brigand Skill 20-40 -->
+	<!-- T2 Brigand Medium Skill 20-40 -->
 	<NPCCharacter id="AR_ban_t2_vagabond" default_group="Ranged" level="11" name="{=lxU4pWs4}Vagabond" occupation="Bandit" is_basic_troop="true" culture="Culture.looters">
 		<face>
 			<face_key_template value="BodyProperty.fighter_brigand"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
@@ -10041,7 +9991,7 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Brigand Skill 40-70 -->
+	<!-- T3 Brigand Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_vagabond" default_group="Ranged" level="16" name="{=lxU4pWs5}Vagabond Brigand" occupation="Bandit" culture="Culture.looters">
 		<face>
 			<face_key_template value="BodyProperty.fighter_brigand"/>
@@ -10107,13 +10057,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Bandit Infantry Skill 60-100 -->
+	<!-- T4 Bandit Infantry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_vagabond" default_group="Ranged" level="21" name="Vagabond Chief" occupation="Bandit" culture="Culture.looters">
 		<face>
 			<face_key_template value="BodyProperty.fighter_brigand"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -10182,13 +10132,13 @@
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Slavers Skill 60-130 -->
+	<!-- T5 Slavers Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_slavers_boss" default_group="Cavalry" level="26" culture="Culture.slavers" occupation="Bandit" name="Slaver Chief">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="80"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -10221,13 +10171,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Slavers Skill 40-70 -->
+	<!-- T3 Slavers Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_slaver" default_group="Cavalry" level="21" name="Slaver Tracker" occupation="Bandit" is_basic_troop="true" culture="Culture.slavers">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
@@ -10290,13 +10240,13 @@
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Slavers Skill 60-100 -->
+	<!-- T4 Slavers Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_slaver" default_group="Cavalry" level="21" name="Slaver Strongman" occupation="Bandit" upgrade_requires="ItemCategory.war_horse" culture="Culture.slavers">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -10359,13 +10309,13 @@
 			<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Slavers Skill 60-130 -->
+	<!-- T5 Slavers Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ban_t5_slaver" default_group="Cavalry" level="26" name="Slaver Manhunter" occupation="Bandit" culture="Culture.slavers">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="60"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -10423,7 +10373,7 @@
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="130"/>
@@ -10447,13 +10397,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Rebel Gladiator Skill 40-70 -->
+	<!-- T3 Rebel Gladiator Light Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_rebel_gladiator" default_group="Infantry" level="16" name="{=lxU4pWs5}Rebel Gladiator Veles Youth" occupation="Bandit" is_basic_troop="true" culture="Culture.rebel_gladiators">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="70"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="40"/>
@@ -10509,13 +10459,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Rebel Gladiator Skill 60-100 -->
+	<!-- T4 Rebel Gladiator Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ban_t4_rebel_gladiator" default_group="Infantry" level="21" name="{=lxU4pWs5}Rebel Gladiator Secutor Fighter" occupation="Bandit" is_basic_troop="true" culture="Culture.rebel_gladiators">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="100"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
@@ -10594,13 +10544,13 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Rebel Gladiator Skill 60-130 -->
+	<!-- T5 Rebel Gladiator Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ban_t5_rebel_gladiator" default_group="Infantry" level="26" name="Rebel Gladiator Provocator Champion" occupation="Bandit" culture="Culture.rebel_gladiators">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="130"/>
+			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="60"/>
@@ -10672,7 +10622,7 @@
 			<BodyPropertiesMax version="4" age="71.09" weight="0.6244" build="0.6336" key="001CFC0CC02C3959AD8AA89C9A86CDEC9FCA8BBC8AA4CD775DACED6B7E2F8D4807EEE6780ECADBC9000000000000000000000000000000000000000067D48105"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="20"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
@@ -10716,7 +10666,7 @@
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="70"/>
