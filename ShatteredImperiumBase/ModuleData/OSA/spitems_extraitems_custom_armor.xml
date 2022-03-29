@@ -276,6 +276,11 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
+	<Item id="eastern_heavy_lamellar_shoulders" name="Eastern Heavy Lamellar Shoulders" mesh="sturgia_cavalry_shoulderguards" culture="Culture.khuzait" weight="4.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+	</Item>
 	<!-- Body Armors -->
 	<Item id="AR_huntress_armor_a" name="{=osa_ar_huntress_armor_a}Huntress' Leather Breastplate With Skirt" mesh="AR_huntress_armor_a_converted" culture="Culture.empire" weight="1.9" Type="BodyArmor" appearance="1">
 		<ItemComponent>
@@ -288,5 +293,11 @@
 			<Armor body_armor="32" leg_armor="6" covers_body="false" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="12"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="eastern_heavy_lamellar_armor" name="Eastern Heavy Lamellar Armor" mesh="sturgia_cavalry_armor_reinforced" culture="Culture.khuzait" weight="25.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="135" leg_armor="122" arm_armor="86" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
 	</Item>
 </Items>

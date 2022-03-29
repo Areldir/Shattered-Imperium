@@ -862,18 +862,7 @@
 		<Flags Civilian="true"/>
 	</Item>
 	<!-- Shoulder Armors -->
-	<Item id="eastern_heavy_lamellar_shoulders" name="Eastern Heavy Lamellar Shoulders" mesh="sturgia_cavalry_shoulderguards" culture="Culture.neutral_culture" weight="4.5" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="28" arm_armor="10" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-	</Item>
 	<!-- Body Armors -->
-	<Item id="eastern_heavy_lamellar_armor" name="Eastern Heavy Lamellar Armor" mesh="sturgia_cavalry_armor_reinforced" culture="Culture.khuzait" weight="25.3" Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="135" leg_armor="122" arm_armor="86" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="battania_noble_armor" name="{=mMGfhc3M}Highland Noble Armor" mesh="battania_noble_armor" culture="Culture.battania" weight="13.6" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
 		<ItemComponent>
 			<Armor body_armor="100" leg_armor="30" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="60"/>
@@ -888,13 +877,6 @@
 	</Item>
 	<!-- Horse Armors -->
 	<!-- ITEMS -->
-	<!-- #Reforms custom Trade -->
-	<!--Item id="AR_diploma_a" name="{=!*}Military Diploma{@Plural}Military Diplomas{\@}" mesh="AR_diploma_a" item_category="jewelry" value="500" weight="10" Type="Goods" culture="Culture.empire">
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="AR_drinking_horn_a" name="{=!*}Companion's Drinking Horn{@Plural}Companion's Drinking Horns{\@}" mesh="AR_drinking_horn_a" item_category="jewelry" value="500" weight="10" Type="Goods" culture="Culture.sturgia">
-		<Flags Civilian="true"/>
-	</Item-->
 	<!-- #region Trade -->
 	<Item id="wool" name="{=WVqaRKUm}Wool{@Plural}loads of wool{\@}" mesh="merchandise_wool" item_category="wool" value="60" weight="10" Type="Goods">
 		<Flags Civilian="true"/>
