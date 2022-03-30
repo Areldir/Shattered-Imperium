@@ -221,6 +221,12 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match='Item[@id="northern_horsemans_shield"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
 	<!-- Helmets -->
 	<xsl:template match='Item[@id="vlandia_lord_helmet_b2"]'>
 		<xsl:copy>
@@ -643,6 +649,12 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='Item[@id="battanian_plated_noble_helmet"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_merchandise">false</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Item[@id="full_helm_over_arming_coif"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_merchandise">false</xsl:attribute>
 			<xsl:apply-templates select="@*|node()"/>
