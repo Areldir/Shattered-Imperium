@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<NPCCharacter id="mercenary_1" default_group="Infantry" is_hero="false" level="11" name="{=RYP9hzIy}Sellsword" occupation="Mercenary" is_basic_troop="true" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_1" default_group="Infantry" level="11" name="{=RYP9hzIy}Sellsword" occupation="Mercenary" is_basic_troop="true" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -79,7 +79,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_2" default_group="Infantry" is_hero="false" level="16" name="{=0GKH29JG}Hired Gladiator Fighter" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_2" default_group="Infantry" level="16" name="{=0GKH29JG}Hired Gladiator Fighter" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -140,7 +140,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_4" default_group="Infantry" is_hero="false" level="21" name="{=Mgr6qv1j}Mercenary Secutor Swordsman" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_4" default_group="Infantry" level="21" name="{=Mgr6qv1j}Mercenary Secutor Swordsman" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -224,7 +224,7 @@
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_7" default_group="Infantry" is_hero="false" level="26" name="{=R74i2pQz}Mercenary Provocator Champion" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_7" default_group="Infantry" level="26" name="{=R74i2pQz}Mercenary Provocator Champion" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -390,8 +390,133 @@
 	
 	
 	
+	<NPCCharacter id="AR_merc_south_recruit" default_group="Infantry" level="11" name="{=RYP9hzIy}Sellspear" occupation="Mercenary" is_basic_troop="true" culture="Culture.neutral_culture">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_south_t3_slinger"/>
+			<upgrade_target id="NPCCharacter.mercenary_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Item2" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_merc_south_t3_slinger" default_group="Ranged" level="16" name="{=0GKH29JG}Hired Hurler" occupation="Mercenary" culture="Culture.neutral_culture">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_south_t4_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Item2" id="Item.empire_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.AR_roman_helmet_a"/>
+				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Cape" id="Item.leather_shoulder_a"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_merc_south_t4_slinger" default_group="Ranged" level="21" name="{=Mgr6qv1j}Mercenary Slinger" occupation="Mercenary" culture="Culture.neutral_culture">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_south_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.AR_gladiator_helmet_d"/>
+				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_gladiator_shoulder_a"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_merc_south_t5_slinger" default_group="Ranged" level="26" name="{=R74i2pQz}Mercenary Funditor" occupation="Mercenary" culture="Culture.neutral_culture">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.AR_gladiator_helmet_b"/>
+				<equipment slot="Body" id="Item.tv_empire_armor_b"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_gladiator_shoulder_b"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	
-	<NPCCharacter id="mercenary_3" default_group="Cavalry" level="16" name="{=xaYwo9tM}Mercenary Scout" upgrade_requires="ItemCategory.horse" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_3" default_group="Cavalry" level="16" name="{=xaYwo9tM}Hired Outrider" upgrade_requires="ItemCategory.horse" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
@@ -453,7 +578,7 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mercenary_9" default_group="Cavalry" level="26" name="{=SaqVvzyV}Hired Lancer" occupation="Mercenary" culture="Culture.neutral_culture">
+	<NPCCharacter id="mercenary_9" default_group="Cavalry" level="26" name="{=SaqVvzyV}Mercenary Freelancer" occupation="Mercenary" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
 		</face>
