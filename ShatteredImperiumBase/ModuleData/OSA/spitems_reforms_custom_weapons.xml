@@ -488,7 +488,7 @@
 	</Item>
 	<Item id="AR_plumbata" name="{=osa_ar_plumbata}Plumbata Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_e_quiver" holster_mesh_with_weapon="bolt_bl_e_quiver" mesh="AR_plumbata" culture="Culture.empire" weight="0.3" value="2000" appearance="0.1" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
-			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="92" thrust_speed="100" speed_rating="100" missile_speed="92" weapon_length="34" thrust_damage="450" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
+			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="92" thrust_speed="100" speed_rating="100" missile_speed="92" weapon_length="34" thrust_damage="600" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" UseHandAsThrowBase="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -496,7 +496,7 @@
 	</Item>
 	<Item id="AR_plumbata_heavy" name="{=osa_ar_plumbata_heavy}Heavy Plumbata Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_a_quiver" holster_mesh_with_weapon="bolt_bl_a_quiver" mesh="AR_plumbata_heavy" culture="Culture.empire" weight="0.4" value="5000" appearance="0.1" difficulty="20" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
-			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="84" thrust_speed="100" speed_rating="100" missile_speed="84" weapon_length="47" thrust_damage="550" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
+			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="84" thrust_speed="100" speed_rating="100" missile_speed="84" weapon_length="47" thrust_damage="750" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" CanPenetrateShield="true" UseHandAsThrowBase="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -504,7 +504,7 @@
 	</Item>
 	<Item id="AR_martiobarbuli" name="{=osa_ar_martiobarbuli}Martiobarbuli Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="bolt_bl_c_quiver" holster_mesh_with_weapon="bolt_bl_c_quiver" mesh="AR_Martiobarbuli" culture="Culture.aserai" weight="0.4" value="5000" appearance="0.1" difficulty="40" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
-			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="3" physics_material="missile" accuracy="82" thrust_speed="100" speed_rating="100" missile_speed="92" weapon_length="38" thrust_damage="650" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
+			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="3" physics_material="missile" accuracy="82" thrust_speed="100" speed_rating="100" missile_speed="92" weapon_length="38" thrust_damage="800" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" CanPenetrateShield="true" UseHandAsThrowBase="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -520,7 +520,7 @@
 	</Item>
 	<Item id="AR_war_dart_a" name="{=osa_ar_war_dart_a}Highland War Darts" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="arrow_bl_h_quiver" holster_mesh_with_weapon="arrow_bl_h_quiver" mesh="AR_war_dart_a" culture="Culture.aserai" weight="0.4" value="5000" appearance="0.1" difficulty="40" Type="Thrown" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top" has_lower_holster_priority="true">
 		<ItemComponent>
-			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="82" thrust_speed="100" speed_rating="100" missile_speed="84" weapon_length="38" thrust_damage="550" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
+			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="missile" accuracy="82" thrust_speed="100" speed_rating="100" missile_speed="84" weapon_length="38" thrust_damage="700" thrust_damage_type="Pierce" item_usage="stone" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby" flying_sound_code="event:/mission/combat/missile/foley/passby" center_of_mass="0,0,-0.1">
 				<WeaponFlags RangedWeapon="true" Consumable="true" AutoReload="true" AmmoSticksWhenShot="true" CanPenetrateShield="true" UseHandAsThrowBase="true"/>
 			</Weapon>
 		</ItemComponent>
