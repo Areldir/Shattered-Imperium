@@ -35,7 +35,7 @@
 				<equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
 				<equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
 				<equipment slot="Body" id="Item.battania_civil_a"/>
 				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
 				<equipment slot="Cape" id="Item.scarf"/>
@@ -53,7 +53,7 @@
 				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
 				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
 				<equipment slot="Head" id="Item.nordic_fur_cap"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
 				<equipment slot="Body" id="Item.tundra_tunic"/>
 				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
 				<equipment slot="Cape" id="Item.wrapped_scarf"/>
@@ -73,7 +73,7 @@
 				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
 				<equipment slot="Item2" id="Item.lowland_throwing_knife"/>
 				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
 				<equipment slot="Body" id="Item.footmans_tunic"/>
 				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
 				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
@@ -269,14 +269,49 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.crossbow_d"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
-				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item1" id="Item.bolt_e"/>
+				<equipment slot="Item2" id="Item.sturgia_old_shield_a"/>
 				<equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
-				<equipment slot="Head" id="Item.roundkettle_over_laced_cloth"/>
+				<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
 			</EquipmentRoster>
-			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_d"/>
+				<equipment slot="Item1" id="Item.bolt_e"/>
+				<equipment slot="Item2" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_laced_coif"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.eastern_studded_leather"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_d"/>
+				<equipment slot="Item1" id="Item.bolt_e"/>
+				<equipment slot="Item2" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_p"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.leather_scale_armor"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_d"/>
+				<equipment slot="Item1" id="Item.bolt_e"/>
+				<equipment slot="Item2" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Item3" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Cape" id="Item.AR_battanian_shoulder_d"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<!--xsl:template match='NPCCharacter[@id="mercenary_6"]/skills'>
@@ -396,14 +431,48 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentRoster>
-				<equipment slot="Item2" id="Item.empire_sword_2_t3"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
 				<equipment slot="Item0" id="Item.crossbow_f"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Body" id="Item.hauberk"/>
-				<equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather"/>
-				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+				<equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_n"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.ao_sturgian_leather_over_mail"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_q"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_i"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_j"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_c"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
 			</EquipmentRoster>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
