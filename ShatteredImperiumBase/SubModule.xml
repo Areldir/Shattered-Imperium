@@ -3,22 +3,24 @@
 	<Name value="Shattered Imperium: Base Files"/>
 	<Id value="ShatteredImperiumBase"/>
 	<Version value="v1.0.0"/>
-	<SingleplayerModule value="true"/>
-	<MultiplayerModule value="false"/>
+	<ModuleCategory value="Singleplayer"/>
+	<Official value="false"/>
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="e1.7.1"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="e1.7.1"/>
-		<DependedModule Id="Sandbox" DependentVersion="e1.7.1"/>
-		<DependedModule Id="CustomBattle" DependentVersion="e1.7.1"/>
-		<DependedModule Id="StoryMode" DependentVersion="e1.7.1"/>
-		<DependedModule Id="Bannerlord.Harmony"/>
+		<DependedModule Id="Native" DependentVersion="e1.8.0"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="e1.8.0"/>
+		<DependedModule Id="Sandbox" DependentVersion="e1.8.0"/>
+		<DependedModule Id="CustomBattle" DependentVersion="e1.8.0"/>
+		<DependedModule Id="StoryMode" DependentVersion="e1.8.0"/>
 		<DependedModule Id="AdonnaysTroopChanger"/>
-		<DependedModule Id="RealisticBattleCombatModule"/>
+		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
+		<DependedModule Id="OpenSourceWeaponry"/>
+		<DependedModule Id="OpenSourceSaddlery"/>
 		<DependedModule Id="BannerColorPersistence"/>
+		<DependedModule Id="ShatteredImperiumPatch"/>
 	</DependedModules>
-     <SubModules>
-         <!--SubModule>
+	<SubModules>
+		<!--SubModule>
              <Name value="ShatteredImperium"/>
              <DLLName value="ShatteredImperium.dll"/>
              <SubModuleClassType value="ShatteredImperium.Main"/>
@@ -27,10 +29,10 @@
                  <Tag key="IsNoRenderModeElement" value="false" />
              </Tags>
          </SubModule-->
-     </SubModules>
+	</SubModules>
 	<Xmls>
 		<XmlNode>
-			<XmlName id="SPCultures" path="spcultures_reforms"/>
+			<XmlName id="SPCultures" path="SI_cultures"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -39,7 +41,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="EquipmentRosters" path="sp_startingpresets_reforms_custom"/>
+			<XmlName id="EquipmentRosters" path="SI_starting_presets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -48,7 +50,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Heroes" path="heroes_reforms"/>
+			<XmlName id="Heroes" path="SI_heroes"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -57,7 +59,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="WorkshopTypes" path="spworkshops_reforms"/>
+			<XmlName id="WorkshopTypes" path="SI_workshops"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -66,7 +68,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="BodyProperties" path="bodyproperties_reforms"/>
+			<XmlName id="BodyProperties" path="SI_body_properties"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -75,7 +77,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Factions" path="spclans_reforms"/>
+			<XmlName id="Factions" path="SI_clans"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -84,7 +86,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Kingdoms" path="spkingdoms_reforms"/>
+			<XmlName id="Kingdoms" path="SI_kingdoms"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -93,7 +95,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Settlements" path="settlements_reforms"/>
+			<XmlName id="Settlements" path="SI_settlements"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -102,7 +104,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="CraftingPieces" path="crafting_pieces_reforms"/>
+			<XmlName id="CraftingPieces" path="SI_crafting_pieces"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -111,7 +113,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Items" path="spitems_reforms"/>
+			<XmlName id="Items" path="SI_items"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -120,7 +122,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="EquipmentRosters" path="lord_equipment_sets_reforms"/>
+			<XmlName id="EquipmentRosters" path="SI_lord_equipment_sets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -129,7 +131,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="lords_reforms"/>
+			<XmlName id="NPCCharacters" path="SI_lords"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -138,7 +140,13 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_reforms_custom_head"/>
+			<XmlName id="CraftingTemplates" path="SI_crafting_templates"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="SI_weapon_descriptions"/>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="GameText" path="SI_strings"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -147,7 +155,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_reforms_custom_shoulder"/>
+			<XmlName id="EquipmentRosters" path="SI_tournament_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -156,145 +164,13 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_reforms_custom_body"/>
+			<XmlName id="partyTemplates" path="SI_partytemplates"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 				<GameType value="CustomGame"/>
 				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_reforms_custom_weapons"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_moretroops_custom_armor"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_moretroops_custom_head"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_aparmorpack_custom_armor"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_aparmorpack_custom_head"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_extraitems_custom_armor"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_blnewequipment_custom_head"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_blnewequipment_custom_armor"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_tvassets_custom_head"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_tvassets_custom_armor"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_bip_custom_head"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_bip_custom_armor"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="CraftingPieces" path="OSA/crafting_pieces_reforms"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Items" path="OSA/spitems_slings_reforms"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="CraftingTemplates" path="OSA/crafting_templates_reforms"/>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="WeaponDescriptions" path="OSA/weapon_descriptions_reforms"/>
 		</XmlNode>
 	</Xmls>
 </Module>

@@ -1,0 +1,872 @@
+<?xml version="1.0"?>
+<scene name="main_menu_a" version="2">
+	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
+	<levels>
+		<level name="base" mask="1"/>
+		<level name="level_1" mask="2"/>
+		<level name="level_2" mask="4"/>
+		<level name="level_3" mask="8"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="0.000, -75.276"/>
+		<property name="physics_world_max_" value="148.406, 96.037"/>
+		<property name="north_angle" value="189.300"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="0.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-0.300"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity name="intro_scene_baked" old_prefab_name="" mobility="1">
+			<transform position="70.585, 68.535, 20.839" rotation_euler="0.000, 0.000, -1.547"/>
+			<components>
+				<meta_mesh_component name="intro_scene"/>
+			</components>
+			<scripts>
+				<script name="VertexAnimator">
+					<variables>
+						<variable name="Speed" value="30.000"/>
+						<variable name="BeginKey" value="0"/>
+						<variable name="EndKey" value="299"/>
+						<variable name="NavMeshPrefabName" value=""/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="a_spr_light_01" old_prefab_name="">
+			<transform position="71.530, 67.932, 22.336" rotation_euler="0.000, 0.000, 0.004"/>
+			<components>
+				<light_component flags="32" color="0.349, 0.643, 1.000" intensity="100.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="2.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="sparks" old_prefab_name="">
+			<transform position="69.907, 67.785, 20.943" rotation_euler="0.000, -0.018, -0.181"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect base_effect="{39CDECB3-046B-4A8B-8E71-533BB7F6C882}">
+						<emitter_overrides>
+							<emitter guid="{91DE7F64-8F4D-4105-A197-22047F264CE8}">
+								<flags>
+									<flag name="skew_with_respect_to_particle_velocity" value="true"/>
+									<flag name="order_by_distance" value="false"/>
+									<flag name="select_random_sprite" value="true"/>
+								</flags>
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.417"/>
+									<parameter name="emit_box_size" value="1.000, 0.100, 0.010"/>
+									<parameter name="gravity" value="4.000, 0.000, 1.000"/>
+									<parameter name="texture_sprite_frame_count" value="1"/>
+									<parameter name="texture_sprite_frame_rate" value="1.000"/>
+									<parameter name="diffuse_multiplier" value="1500.000"/>
+									<parameter name="emissive_multiplier" value="1.000"/>
+									<parameter name="billboard_type" value="turn_to_velocity_side"/>
+									<parameter name="initial_rotation" base="0.000" bias="0.000"/>
+									<parameter name="damping" base="0.688" bias="0.000"/>
+									<parameter name="turbulence_strength" base="15.000" bias="0.000"/>
+									<parameter name="angular_damping" base="0.000" bias="0.000"/>
+									<parameter name="particle_life" base="1.000" bias="0.500"/>
+									<parameter name="emission_rate" base="15.000" bias="10.000"/>
+									<parameter name="emit_velocity_x" base="3.000" bias="1.000"/>
+									<parameter name="emit_velocity_y" base="0.000" bias="1.000"/>
+									<parameter name="emit_velocity_z" base="2.000" bias="3.000"/>
+									<parameter name="wind_effect" base="1.000" bias="0.700"/>
+									<parameter name="particle_size" base="1.400" bias="0.600">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.010">
+											<keys>
+												<key time="0.000" value="0.995" tangent="0.200, 0.000"/>
+												<key time="1.000" value="0.498" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="material_guid" value="{E9D0AFB2-E3B2-4FBA-A017-D747B6C256F1}"/>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.000" value="1.000, 0.652, 0.459"/>
+												<key time="0.900" value="0.415, 0.004, 0.000"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="1.000"/>
+												<key time="0.900" value="1.000"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="main_menu_fire" old_prefab_name="">
+			<transform position="68.255, 66.855, 20.690" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect sound_code="" base_effect="{9B85114D-0599-4BB1-8A03-A1DE22EC8B4D}">
+						<emitter_overrides>
+							<emitter guid="{C9A7ED51-D6DE-4B47-94E1-D4ECED758C9F}">
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.167"/>
+									<parameter name="skew_with_particle_velocity_limit" value="0.012"/>
+									<parameter name="emit_box_size" value="0.700, 0.150, 0.000"/>
+									<parameter name="emit_sphere_radius" value="340282346638528859811704183484516925440.000"/>
+									<parameter name="gravity" value="5.000, 0.000, 6.000"/>
+									<parameter name="diffuse_multiplier" value="3.000"/>
+									<parameter name="emission_rate" base="60.000" bias="0.000"/>
+									<parameter name="wind_effect" base="0.500" bias="0.300">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="1.000">
+											<keys>
+												<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+												<key time="1.000" value="1.000" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_size" base="1.000" bias="0.500">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.300">
+											<keys>
+												<key time="0.000" value="0.980" tangent="0.014, 0.000"/>
+												<key time="0.138" value="0.886" tangent="-0.062, 0.000"/>
+												<key time="0.138" value="0.886" tangent="0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="-0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="0.062, 0.000"/>
+												<key time="1.000" value="0.013" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.200" value="0.984, 0.800, 0.498"/>
+												<key time="0.800" value="0.908, 0.085, 0.003"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="0.000"/>
+												<key time="0.200" value="1.000"/>
+												<key time="0.800" value="1.000"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="">
+			<transform position="56.481, 50.622, 19.949" rotation_euler="0.000, -0.006, 0.000"/>
+			<components>
+				<light_component flags="96" color="1.000, 0.486, 0.039" intensity="150.000" radius="25.000" flicker_interval="1.000" flicker_magnitude="2.000" local_frame_rot="25.000000, 0.000000, 0.000000, 0.000000, 25.000000, 0.000000, 0.000000, 0.000000, 25.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="20.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="">
+			<transform position="75.089, 68.094, 22.737" rotation_euler="0.000, 0.000, 0.126"/>
+			<components>
+				<light_component flags="96" color="0.152, 0.521, 1.000" intensity="500.000" radius="25.000" local_frame_rot="25.000000, 0.000000, 0.000000, 0.000000, 25.000000, 0.000000, 0.000000, 0.000000, 25.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="20.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="__empty_object" mobility="1">
+			<transform position="6.914, 4.149, -42.279" rotation_euler="0.000, -2.884, 0.000" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="WindMill">
+					<variables>
+						<variable name="rotationSpeed" value="500.000"/>
+						<variable name="waterSplashPhaseOffset" value="0.000"/>
+						<variable name="waterSplashIntervalMultiplier" value="1.000"/>
+						<variable name="isWaterMill" value="false"/>
+					</variables>
+				</script>
+			</scripts>
+			<children>
+				<game_entity name="__empty_object" old_prefab_name="" mobility="1">
+					<transform position="-88.135, 0.000, 9.853" rotation_euler="0.000, 2.012, 0.000"/>
+					<components>
+						<particle_system_instanced_component>
+							<effect base_effect="{27C08E90-79CD-4C55-AAA8-CD85C4223C6F}">
+								<emitter_overrides>
+									<emitter guid="{55A342B6-75D1-4532-84D2-EDF3D321DD82}">
+										<flags>
+											<flag name="order_by_distance" value="true"/>
+										</flags>
+										<parameters>
+											<parameter name="skew_with_particle_velocity_coef" value="0.000"/>
+											<parameter name="diffuse_multiplier" value="1000.000"/>
+											<parameter name="emission_rate" base="15.000" bias="0.000"/>
+											<parameter name="particle_size" base="0.350" bias="0.050">
+												<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.500">
+													<keys>
+														<key time="0.000" value="1.000" tangent="0.062, 0.000"/>
+														<key time="0.690" value="0.050" tangent="-0.062, 0.000"/>
+														<key time="0.690" value="0.050" tangent="0.062, 0.000"/>
+														<key time="1.000" value="0.050" tangent="0.000, 0.000"/>
+													</keys>
+												</curve>
+											</parameter>
+											<parameter name="particle_color">
+												<color>
+													<keys>
+														<key time="0.061" value="0.737, 0.592, 0.453"/>
+														<key time="0.800" value="0.548, 0.114, 0.078"/>
+													</keys>
+												</color>
+												<alpha>
+													<keys>
+														<key time="0.000" value="0.000"/>
+														<key time="0.200" value="1.000"/>
+														<key time="1.000" value="1.000"/>
+													</keys>
+												</alpha>
+											</parameter>
+										</parameters>
+									</emitter>
+									<emitter guid="{F061B51B-E75F-4F6F-929D-018DB56A30F5}">
+										<parameters>
+											<parameter name="skew_with_particle_velocity_coef" value="0.083"/>
+											<parameter name="skew_with_particle_velocity_limit" value="0.017"/>
+											<parameter name="backlight_multiplier" value="0.250"/>
+											<parameter name="diffuse_multiplier" value="500.000"/>
+											<parameter name="emissive_multiplier" value="5.000"/>
+											<parameter name="particle_size_curve_op" value="multiply"/>
+											<parameter name="damping" base="0.470" bias="0.000"/>
+											<parameter name="turbulence_strength" base="80.000" bias="0.000"/>
+											<parameter name="particle_life" base="0.500" bias="0.200"/>
+											<parameter name="emission_rate" base="5.000" bias="0.000"/>
+											<parameter name="emit_velocity_x" base="0.000" bias="15.000"/>
+											<parameter name="emit_velocity_y" base="0.000" bias="15.000"/>
+											<parameter name="emit_velocity_z" base="1.000" bias="15.000"/>
+											<parameter name="particle_size" base="3.000" bias="1.000">
+												<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.025">
+													<keys>
+														<key time="0.000" value="0.998" tangent="0.200, 0.000"/>
+														<key time="1.000" value="0.000" tangent="-0.200, 0.000"/>
+													</keys>
+												</curve>
+											</parameter>
+											<parameter name="particle_color">
+												<color>
+													<keys>
+														<key time="0.000" value="1.000, 0.774, 0.632"/>
+														<key time="0.900" value="1.000, 0.223, 0.094"/>
+													</keys>
+												</color>
+												<alpha>
+													<keys>
+														<key time="0.000" value="0.000"/>
+														<key time="0.115" value="1.000"/>
+														<key time="0.900" value="1.000"/>
+														<key time="1.000" value="0.000"/>
+													</keys>
+												</alpha>
+											</parameter>
+										</parameters>
+									</emitter>
+									<emitter guid="{244E5176-9373-472E-A17F-AB602D8E95E8}">
+										<flags>
+											<flag name="select_random_sprite" value="true"/>
+										</flags>
+										<parameters>
+											<parameter name="skew_with_particle_velocity_coef" value="0.000"/>
+											<parameter name="texture_sprite_count" value="2, 2"/>
+											<parameter name="texture_sprite_frame_count" value="4"/>
+											<parameter name="texture_sprite_frame_rate" value="0.000"/>
+											<parameter name="diffuse_multiplier" value="1.000"/>
+											<parameter name="particle_size_curve_op" value="multiply"/>
+											<parameter name="particle_life" base="2.300" bias="1.500"/>
+											<parameter name="emission_rate" base="3.000" bias="2.000"/>
+											<parameter name="particle_size" base="2.000" bias="1.000">
+												<curve name="particle_life" version="1" default="1.000" curve_multiplier="1.370">
+													<keys>
+														<key time="0.000" value="0.615" tangent="0.200, 0.000"/>
+														<key time="1.000" value="1.000" tangent="-0.200, 0.000"/>
+													</keys>
+												</curve>
+											</parameter>
+											<parameter name="material_guid" value="{489D29D2-AD3E-4070-A274-7DEE7235EC77}"/>
+											<parameter name="particle_color">
+												<color>
+													<keys>
+														<key time="0.000" value="1.000, 1.000, 1.000"/>
+														<key time="0.781" value="0.122, 0.122, 0.122"/>
+													</keys>
+												</color>
+												<alpha>
+													<keys>
+														<key time="0.000" value="0.000"/>
+														<key time="0.262" value="1.000"/>
+														<key time="1.000" value="0.000"/>
+													</keys>
+												</alpha>
+											</parameter>
+										</parameters>
+									</emitter>
+								</emitter_overrides>
+							</effect>
+						</particle_system_instanced_component>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="sparks" old_prefab_name="">
+			<transform position="70.401, 69.911, 19.975" rotation_euler="0.000, -0.018, -0.181"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect base_effect="{39CDECB3-046B-4A8B-8E71-533BB7F6C882}">
+						<emitter_overrides>
+							<emitter guid="{91DE7F64-8F4D-4105-A197-22047F264CE8}">
+								<flags>
+									<flag name="skew_with_respect_to_particle_velocity" value="true"/>
+									<flag name="order_by_distance" value="false"/>
+									<flag name="select_random_sprite" value="true"/>
+								</flags>
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.417"/>
+									<parameter name="emit_box_size" value="1.000, 0.100, 0.010"/>
+									<parameter name="gravity" value="4.000, 0.000, 1.000"/>
+									<parameter name="texture_sprite_frame_count" value="1"/>
+									<parameter name="texture_sprite_frame_rate" value="1.000"/>
+									<parameter name="diffuse_multiplier" value="1500.000"/>
+									<parameter name="emissive_multiplier" value="1.000"/>
+									<parameter name="billboard_type" value="turn_to_velocity_side"/>
+									<parameter name="initial_rotation" base="0.000" bias="0.000"/>
+									<parameter name="damping" base="0.688" bias="0.000"/>
+									<parameter name="turbulence_strength" base="15.000" bias="0.000"/>
+									<parameter name="angular_damping" base="0.000" bias="0.000"/>
+									<parameter name="particle_life" base="1.000" bias="0.500"/>
+									<parameter name="emission_rate" base="15.000" bias="10.000"/>
+									<parameter name="emit_velocity_x" base="3.000" bias="1.000"/>
+									<parameter name="emit_velocity_y" base="0.000" bias="1.000"/>
+									<parameter name="emit_velocity_z" base="2.000" bias="3.000"/>
+									<parameter name="wind_effect" base="1.000" bias="0.700"/>
+									<parameter name="particle_size" base="1.400" bias="0.600">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.010">
+											<keys>
+												<key time="0.000" value="0.995" tangent="0.200, 0.000"/>
+												<key time="1.000" value="0.498" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="material_guid" value="{E9D0AFB2-E3B2-4FBA-A017-D747B6C256F1}"/>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.000" value="1.000, 0.652, 0.459"/>
+												<key time="0.900" value="0.415, 0.004, 0.000"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="1.000"/>
+												<key time="0.900" value="1.000"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="spr_invalid_object_01" prefab="spr_invalid_object">
+			<transform position="124.069, 90.377, 0.000" rotation_euler="0.000, 0.000, -1.245"/>
+		</game_entity>
+		<game_entity name="sound" old_prefab_name="__empty_object">
+			<transform position="73.900, 74.193, 20.469" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Event Path" value="event:/mission/ambient/menu_bg"/>
+						<variable name="Play On Startup" value="true"/>
+						<variable name="Is Static" value="false"/>
+						<variable name="Override Sound" value="false"/>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+						<variable name="Is Master Sound" value="true"/>
+						<variable name="Is Master Supressor" value="false"/>
+						<variable name="Is Triggered" value="false"/>
+						<variable name="Trigger Shape" value="Sphere"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="main_menu_fire" old_prefab_name="">
+			<transform position="69.818, 66.855, 20.704" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect sound_code="" base_effect="{9B85114D-0599-4BB1-8A03-A1DE22EC8B4D}">
+						<emitter_overrides>
+							<emitter guid="{C9A7ED51-D6DE-4B47-94E1-D4ECED758C9F}">
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.167"/>
+									<parameter name="skew_with_particle_velocity_limit" value="0.012"/>
+									<parameter name="emit_box_size" value="0.700, 0.150, 0.000"/>
+									<parameter name="emit_sphere_radius" value="340282346638528859811704183484516925440.000"/>
+									<parameter name="gravity" value="5.000, 0.000, 6.000"/>
+									<parameter name="diffuse_multiplier" value="3.000"/>
+									<parameter name="emission_rate" base="60.000" bias="0.000"/>
+									<parameter name="wind_effect" base="0.500" bias="0.300">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="1.000">
+											<keys>
+												<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+												<key time="1.000" value="1.000" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_size" base="1.000" bias="0.500">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.300">
+											<keys>
+												<key time="0.000" value="0.980" tangent="0.014, 0.000"/>
+												<key time="0.138" value="0.886" tangent="-0.062, 0.000"/>
+												<key time="0.138" value="0.886" tangent="0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="-0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="0.062, 0.000"/>
+												<key time="1.000" value="0.013" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.200" value="0.820, 0.899, 0.991"/>
+												<key time="0.800" value="0.908, 0.085, 0.003"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="0.000"/>
+												<key time="0.200" value="1.000"/>
+												<key time="0.800" value="1.000"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="">
+			<transform position="71.181, 70.539, 22.039" rotation_euler="-1.537, 3.042, 3.141"/>
+			<components>
+				<light_component flags="224" color="1.000, 0.596, 0.365" intensity="7500.000" radius="2.100" flicker_interval="0.700" flicker_magnitude="1.000" local_frame_rot="2.100000, 0.000000, 0.000000, 0.000000, 2.100000, 0.000000, 0.000000, 0.000000, 2.100000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="1.600"/>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="">
+			<transform position="73.945, 70.002, 19.440" rotation_euler="-0.304, 0.000, 0.000"/>
+			<components>
+				<light_component flags="96" color="1.000, 0.396, 0.047" intensity="5000.000" radius="2.000" flicker_interval="0.400" flicker_magnitude="1.500" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="2.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="light" old_prefab_name="">
+			<transform position="74.274, 71.500, 22.186" rotation_euler="0.000, 1.493, 0.941"/>
+			<components>
+				<light_component flags="224" color="0.663, 0.839, 1.000" intensity="3000.000" radius="11.000" flicker_interval="0.650" flicker_magnitude="0.300" local_frame_rot="15.886017, 0.000000, 0.000000, 0.000000, 15.886017, 0.000000, 0.000000, 0.000000, 11.000000" hotspot_angle="30.000" falloff_angle="55.300" shadow_size_multiplier="1" shadow_radius="4.000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="envmap_prop">
+			<transform position="72.031, 73.342, 22.374" rotation_euler="0.000, 0.000, 2.563"/>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="">
+			<transform position="70.065, 69.869, 19.481" rotation_euler="-0.304, 0.000, 0.000"/>
+			<components>
+				<light_component flags="96" color="1.000, 0.396, 0.047" intensity="5000.000" radius="3.000" flicker_interval="0.400" flicker_magnitude="1.500" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="3.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="fire_smoke" old_prefab_name="fire_smoke">
+			<transform position="71.951, 69.171, 19.912" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect_ref base_effect="{9C6C6F8C-6202-4BBA-A9E4-54BD575CAB7A}"/>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="">
+			<transform position="67.995, 66.574, 20.752" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect base_effect="{36323805-A8B9-4EB9-902D-78786505705A}">
+						<emitter_overrides>
+							<emitter guid="{06AA103C-7576-44B3-94A3-EC4CD2F13746}">
+								<flags>
+									<flag name="emit_at_once" value="false"/>
+									<flag name="uses_sprite_animation" value="false"/>
+									<flag name="select_random_sprite" value="true"/>
+								</flags>
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.000"/>
+									<parameter name="gravity" value="4.500, 0.000, 3.000"/>
+									<parameter name="texture_sprite_count" value="2, 2"/>
+									<parameter name="texture_sprite_frame_count" value="1"/>
+									<parameter name="texture_sprite_frame_rate" value="1.000"/>
+									<parameter name="backlight_multiplier" value="0.000"/>
+									<parameter name="diffuse_multiplier" value="1.000"/>
+									<parameter name="damping" base="0.713" bias="0.000"/>
+									<parameter name="angular_damping" base="0.550" bias="0.000"/>
+									<parameter name="particle_life" base="5.000" bias="2.000"/>
+									<parameter name="emission_rate" base="5.000" bias="0.000"/>
+									<parameter name="emit_velocity_x" base="3.000" bias="3.000"/>
+									<parameter name="emit_velocity_y" base="0.000" bias="0.000"/>
+									<parameter name="emit_velocity_z" base="1.000" bias="1.000"/>
+									<parameter name="emit_rotation_speed" base="0.000" bias="57.296"/>
+									<parameter name="wind_effect" base="1.000" bias="0.000"/>
+									<parameter name="particle_size" base="0.250" bias="0.250">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="2.632">
+											<keys>
+												<key time="0.000" value="0.190" tangent="0.014, 0.000"/>
+												<key time="0.069" value="0.190" tangent="-0.186, 0.000"/>
+												<key time="0.069" value="0.190" tangent="0.186, 0.000"/>
+												<key time="1.000" value="1.000" tangent="-0.186, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="material_guid" value="{489D29D2-AD3E-4070-A274-7DEE7235EC77}"/>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.100" value="0.010, 0.011, 0.013"/>
+												<key time="0.900" value="0.180, 0.170, 0.170"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="0.000"/>
+												<key time="0.100" value="0.784"/>
+												<key time="0.900" value="0.588"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="main_menu_fire" old_prefab_name="">
+			<transform position="70.904, 66.855, 20.858" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect sound_code="" base_effect="{9B85114D-0599-4BB1-8A03-A1DE22EC8B4D}">
+						<emitter_overrides>
+							<emitter guid="{C9A7ED51-D6DE-4B47-94E1-D4ECED758C9F}">
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.167"/>
+									<parameter name="skew_with_particle_velocity_limit" value="0.012"/>
+									<parameter name="emit_box_size" value="0.700, 0.150, 0.000"/>
+									<parameter name="emit_sphere_radius" value="340282346638528859811704183484516925440.000"/>
+									<parameter name="gravity" value="5.000, 0.000, 6.000"/>
+									<parameter name="diffuse_multiplier" value="3.000"/>
+									<parameter name="emission_rate" base="60.000" bias="0.000"/>
+									<parameter name="wind_effect" base="0.500" bias="0.300">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="1.000">
+											<keys>
+												<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+												<key time="1.000" value="1.000" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_size" base="1.000" bias="0.500">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.300">
+											<keys>
+												<key time="0.000" value="0.980" tangent="0.014, 0.000"/>
+												<key time="0.138" value="0.886" tangent="-0.062, 0.000"/>
+												<key time="0.138" value="0.886" tangent="0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="-0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="0.062, 0.000"/>
+												<key time="1.000" value="0.013" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.200" value="0.984, 0.800, 0.498"/>
+												<key time="0.800" value="0.908, 0.085, 0.003"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="0.000"/>
+												<key time="0.200" value="1.000"/>
+												<key time="0.800" value="1.000"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="main_menu_fire" old_prefab_name="">
+			<transform position="67.623, 66.855, 20.642" rotation_euler="0.000, 0.641, 0.000"/>
+			<components>
+				<particle_system_instanced_component>
+					<effect sound_code="" base_effect="{9B85114D-0599-4BB1-8A03-A1DE22EC8B4D}">
+						<emitter_overrides>
+							<emitter guid="{C9A7ED51-D6DE-4B47-94E1-D4ECED758C9F}">
+								<parameters>
+									<parameter name="skew_with_particle_velocity_coef" value="0.167"/>
+									<parameter name="skew_with_particle_velocity_limit" value="0.012"/>
+									<parameter name="emit_box_size" value="0.700, 0.150, 0.000"/>
+									<parameter name="emit_sphere_radius" value="340282346638528859811704183484516925440.000"/>
+									<parameter name="gravity" value="5.000, 0.000, 6.000"/>
+									<parameter name="diffuse_multiplier" value="3.000"/>
+									<parameter name="emission_rate" base="60.000" bias="0.000"/>
+									<parameter name="wind_effect" base="0.500" bias="0.300">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="1.000">
+											<keys>
+												<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+												<key time="1.000" value="1.000" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_size" base="1.000" bias="0.500">
+										<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.300">
+											<keys>
+												<key time="0.000" value="0.980" tangent="0.014, 0.000"/>
+												<key time="0.138" value="0.886" tangent="-0.062, 0.000"/>
+												<key time="0.138" value="0.886" tangent="0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="-0.062, 0.000"/>
+												<key time="0.414" value="0.154" tangent="0.062, 0.000"/>
+												<key time="1.000" value="0.013" tangent="-0.200, 0.000"/>
+											</keys>
+										</curve>
+									</parameter>
+									<parameter name="particle_color">
+										<color>
+											<keys>
+												<key time="0.000" value="0.983, 0.983, 0.983"/>
+												<key time="0.564" value="0.908, 0.085, 0.003"/>
+											</keys>
+										</color>
+										<alpha>
+											<keys>
+												<key time="0.000" value="0.000"/>
+												<key time="0.200" value="1.000"/>
+												<key time="0.800" value="1.000"/>
+												<key time="1.000" value="0.000"/>
+											</keys>
+										</alpha>
+									</parameter>
+								</parameters>
+							</emitter>
+						</emitter_overrides>
+					</effect>
+				</particle_system_instanced_component>
+			</components>
+		</game_entity>
+		<game_entity name="a_spr_light_02" old_prefab_name="">
+			<transform position="72.198, 68.318, 21.276" rotation_euler="-0.006, -1.556, -0.110"/>
+			<components>
+				<light_component flags="64" color="1.000, 0.431, 0.027" intensity="1000.000" radius="10.000" flicker_interval="0.200" flicker_magnitude="0.900" local_frame_rot="10.000000, 0.000000, 0.000000, 0.000000, 10.000000, 0.000000, 0.000000, 0.000000, 10.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="10.000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="camera_instance">
+			<transform position="72.190, 72.647, 20.700" rotation_euler="1.270, -3.141, 0.000"/>
+			<scripts>
+				<script name="camera_instance">
+					<variables>
+						<variable name="FOV(Degrees)" value="35.000000"/>
+						<variable name="Width" value="1280"/>
+						<variable name="Height" value="720"/>
+						<variable name="Downscale Width" value="720"/>
+						<variable name="Far" value="1500.000000"/>
+						<variable name="Background Color" value="0.776, 0.886, 1.000, 1.000"/>
+						<variable name="Render Skybox" value="true"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="a_spr_light_02" old_prefab_name="">
+			<transform position="68.896, 68.698, 21.448" rotation_euler="-0.005, -1.556, -0.036"/>
+			<components>
+				<light_component flags="192" color="1.000, 0.514, 0.118" intensity="10000.000" radius="10.000" flicker_interval="1.000" flicker_magnitude="1.000" local_frame_rot="10.000000, 0.000000, 0.000000, 0.000000, 10.000000, 0.000000, 0.000000, 0.000000, 10.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="10.000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="empire_arena_master_stand_a">
+			<transform position="70.161, 65.831, 16.187" rotation_euler="0.000, 0.000, -0.192"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_b">
+			<transform position="112.626, -26.739, 8.130" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="19">
+					<children>
+						<game_entity _index_="0">
+							<components>
+								<meta_mesh_component>
+									<mesh name="empire_keep_b_merlon_a.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod5.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod5.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod6.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod6.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+								</meta_mesh_component>
+							</components>
+						</game_entity>
+						<game_entity _index_="1">
+							<components>
+								<meta_mesh_component>
+									<mesh name="empire_keep_b_merlon_a.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod5.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod5.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod6.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod6.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+								</meta_mesh_component>
+							</components>
+						</game_entity>
+						<game_entity _index_="2">
+							<components>
+								<meta_mesh_component>
+									<mesh name="empire_keep_b_merlon_a.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod1.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod2.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod4.2" material="wall_bottom_dirt" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod5.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod5.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod6.0" material="roman_hippodrome_wall_brick" argument2="-1.331, 1.279, -0.026, 0.001"/>
+									<mesh name="empire_keep_b_merlon_a.lod6.1" material="empire_wall_b" argument2="-1.331, 1.279, -0.026, 0.001"/>
+								</meta_mesh_component>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="battleground_fire_smoke">
+			<transform position="76.461, 62.310, 20.824" rotation_euler="0.000, 0.000, 0.000"/>
+			<levels>
+				<level name="level_1"/>
+				<level name="level_2"/>
+				<level name="level_3"/>
+			</levels>
+		</game_entity>
+		<game_entity prefab="battleground_fire_smoke">
+			<transform position="76.375, 66.165, 21.461" rotation_euler="0.000, 0.000, 0.000"/>
+			<levels>
+				<level name="level_1"/>
+				<level name="level_2"/>
+				<level name="level_3"/>
+			</levels>
+		</game_entity>
+		<game_entity prefab="battleground_fire_smoke">
+			<transform position="76.362, 64.445, 19.965" rotation_euler="0.000, 0.000, 0.000"/>
+			<levels>
+				<level name="level_1"/>
+				<level name="level_2"/>
+				<level name="level_3"/>
+			</levels>
+		</game_entity>
+		<game_entity prefab="battleground_fire_smoke">
+			<transform position="76.803, 61.646, 22.425" rotation_euler="0.000, 0.000, 0.000"/>
+			<levels>
+				<level name="level_1"/>
+				<level name="level_2"/>
+				<level name="level_3"/>
+			</levels>
+		</game_entity>
+		<game_entity prefab="empire_castle_keep_a_l3_interior_wall_art_d">
+			<transform position="69.694, 62.809, 20.696" rotation_euler="0.000, 0.000, 2.943" scale="0.578, 0.462, 0.616"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_door_a_interior">
+			<transform position="66.770, 62.946, 20.642" rotation_euler="0.000, 0.000, 2.947" scale="0.837, 1.000, 0.770"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_door_a_interior">
+			<transform position="72.451, 61.828, 20.642" rotation_euler="0.000, 0.000, 2.947" scale="0.837, 1.000, 0.770"/>
+		</game_entity>
+		<game_entity prefab="empire_statue_bust_a">
+			<transform position="69.752, 63.060, 20.696" rotation_euler="0.000, 0.000, 2.952"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="72.553, 66.884, 20.696" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_c">
+			<transform position="72.000, 67.838, 20.696" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_b">
+			<transform position="71.675, 66.175, 20.696" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_d">
+			<transform position="73.745, 66.937, 20.696" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="71.079, 62.533, 24.966" rotation_euler="0.000, 0.000, 2.924" scale="0.724, 1.000, 0.373"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="68.292, 63.147, 24.966" rotation_euler="0.000, 0.000, 2.924" scale="0.724, 1.000, 0.373"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="false"/>
+	<editor_data editor_camera_position="72.634, 79.494, 22.836" editor_camera_elevation="-0.095" editor_camera_bearing="-1.252" editor_camera_forward="-0.234, -0.971, 0.058" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="5000.000"/>
+	<Paths/>
+</scene>
+

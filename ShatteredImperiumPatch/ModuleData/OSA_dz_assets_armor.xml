@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- RBM Balance -->
+	<!-- Arm Armors -->
+	<!-- Leg Armors -->
+	<Item id="DZ_battania_boots_a" name="{=osa_dz_battania_boots_a}Highland Mail Boots" mesh="DZ_battania_boots_a" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="43" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_vlandia_boots_a" name="{=osa_dz_vlandia_boots_a}Western Mail Boots" mesh="DZ_vlandia_boots_a" culture="Culture.vlandia" weight="1.8" appearance="1" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="43" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- Shoulder Armors -->
+	<Item id="DZ_khuzait_shoulder_a" name="{=osa_dz_khuzait_shoulder_a}Eastern Heavy Leather Pauldrons" mesh="DZ_khuzait_shoulder_a" culture="Culture.khuzait" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_sturgia_shoulder_a" name="{=osa_dz_sturgia_shoulder_a}Eastern Lamellar Pauldrons" mesh="DZ_sturgia_shoulder_a" culture="Culture.khuzait" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_sturgia_shoulder_b" name="{=osa_dz_sturgia_shoulder_b}Northern Brass Lamellar Pauldrons" mesh="DZ_sturgia_shoulder_b" culture="Culture.sturgia" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_sturgia_shoulder_c" name="{=osa_dz_sturgia_shoulder_c}Northern Iron Lamellar Pauldrons" mesh="DZ_sturgia_shoulder_c" culture="Culture.sturgia" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_vlandia_shoulders_a" name="{=osa_dz_vlandia_shoulders_a}Western Rough Chainmail Shoulders" mesh="DZ_vlandia_shoulders_a" culture="Culture.vlandia" subtype="body_armor" weight="2.8" difficulty="0" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_vlandia_shoulders_b" name="{=osa_dz_vlandia_shoulders_b}Western Rough Mail Shoulders" mesh="DZ_vlandia_shoulders_b" culture="Culture.vlandia" subtype="body_armor" weight="2.8" difficulty="0" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- Body Armors -->
+</Items>

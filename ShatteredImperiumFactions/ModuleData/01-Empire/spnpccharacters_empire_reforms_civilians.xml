@@ -1,371 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<NPCCharacter id="villager_s_empire" default_group="Infantry" level="1" name="{=KtqB640w}Imperial Citizen" occupation="Villager" culture="Culture.empire" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_s_emp_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_s_emp_militia_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="village_woman_s_empire" default_group="Infantry" is_female="true" level="1" name="{=KtqB640w}Imperial Citizen" occupation="Villager" culture="Culture.empire" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bobbed"/>
-				<hair_tag name="RestingOnShoulders"/>
-				<hair_tag name="ShoulderLengthTied"/>
-				<hair_tag name="AboveShoulderLength"/>
-			</hair_tags>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_s_empire"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="townsman_s_empire" default_group="Infantry" name="{=muu5cofb}Imperial Citizen Townsman" occupation="Townsfolk" culture="Culture.empire" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_b"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="townswoman_s_empire" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}Imperial Citizen Townswoman" occupation="Townsfolk" culture="Culture.empire" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.townswoman_empire"/>
-			<hair_tags>
-				<hair_tag name="Bobbed"/>
-				<hair_tag name="RestingOnShoulders"/>
-				<hair_tag name="ShoulderLengthTied"/>
-				<hair_tag name="AboveShoulderLength"/>
-			</hair_tags>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
 	<!-- WANDERERS OF EMPIRE -->
 	<!-- Engineer who refused to comply with guild backscratching -->
 	<NPCCharacter id="spc_wanderer_empire_w_0" name="{=bvjFhiDr}{HERO.FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
@@ -591,163 +225,6 @@
 			<EquipmentSet id="npc_companion_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_one_participant_set_v1" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_two_participant_set_v1" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_two_participant_set_v2" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_two_participant_set_v3" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_four_participant_set_v1" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_four_participant_set_v2" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_w_empire_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_w_empire_four_participant_set_v3" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<NPCCharacter id="w_empire_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.empire_w" name="{=cte0zSCz}W. Imperial Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<BodyProperties version="4" age="37.08" weight="0.008" build="0.4325" key="000B000B40000000700000000006080003000000000000080000000008070000000667A406000000000000000000000000000000000000000000000000F00000"/>
@@ -780,103 +257,6 @@
 				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
 			</EquipmentRoster>
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="prison_guard_w_empire" default_group="Infantry" level="21" culture="Culture.empire_w" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="50"/>
-			<skill id="TwoHanded" value="50"/>
-			<skill id="Polearm" value="50"/>
-			<skill id="Crossbow" value="50"/>
-			<skill id="Bow" value="50"/>
-			<skill id="Throwing" value="50"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.tall_helmet"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.helmet_with_faceguard"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.tall_helmet"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.helmet_with_faceguard"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="guard_w_empire" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_w" name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills" is_hidden_encyclopedia="true">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="50"/>
-			<skill id="TwoHanded" value="50"/>
-			<skill id="Polearm" value="50"/>
-			<skill id="Crossbow" value="50"/>
-			<skill id="Bow" value="50"/>
-			<skill id="Throwing" value="50"/>
-		</skills>
-		<Traits/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.ironlame_spiked_kettle_over_mail"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
-				<equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.leatherlame_roundkettle"/>
-				<equipment slot="Body" id="Item.padded_cloth_with_strips"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-				<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
-				<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="blacksmith_w_empire" default_group="Infantry" is_hero="false" occupation="Blacksmith" culture="Culture.empire_w" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -1365,81 +745,6 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townsman_w_empire" default_group="Infantry" name="{=muu5cofb}W. Imperial Citizen Townsman" occupation="Townsfolk" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_b"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
 	<NPCCharacter id="shop_worker_w_empire" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
@@ -1832,85 +1137,6 @@
 			<EquipmentSet id="npc_armed_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="village_woman_w_empire" default_group="Infantry" is_female="true" level="1" name="{=KtqB640w}W. Imperial Citizen" occupation="Villager" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bobbed"/>
-				<hair_tag name="RestingOnShoulders"/>
-				<hair_tag name="ShoulderLengthTied"/>
-				<hair_tag name="AboveShoulderLength"/>
-			</hair_tags>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_w_empire"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Cape" id="Item.battania_civil_cloak"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Cape" id="Item.battania_cloak"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Cape" id="Item.battania_cloak"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
 	<NPCCharacter id="gear_practice_dummy_w_empire" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.empire_w" name="{=!}W. Imperial Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.guard"/>
@@ -2109,218 +1335,6 @@
 				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			</EquipmentRoster>
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="villager_w_empire" default_group="Infantry" level="1" name="{=KtqB640w}W. Imperial Citizen" occupation="Villager" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_w_emp_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_w_emp_militia_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.battania_cloak"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Cape" id="Item.battania_civil_cloak"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.battania_cloak"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.battania_cloak"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.battania_cloak"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="townswoman_w_empire" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}W. Imperial Citizen Townswoman" occupation="Townsfolk" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.townswoman_empire"/>
-			<hair_tags>
-				<hair_tag name="Bobbed"/>
-				<hair_tag name="RestingOnShoulders"/>
-				<hair_tag name="ShoulderLengthTied"/>
-				<hair_tag name="AboveShoulderLength"/>
-			</hair_tags>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="fighter_w_empire" default_group="Infantry" level="1" name="{=!}W. Imperial Fighter" occupation="Villager" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
@@ -3100,146 +2114,6 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- VILLAGER MALE -->
-	<NPCCharacter id="villager_n_empire" default_group="Infantry" level="1" name="{=KtqB640w}E. Imperial Citizen" occupation="Villager" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_n_emp_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_n_emp_militia_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
 	<!-- DUEL PRESET -->
 	<NPCCharacter id="n_empire_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.empire_n" name="{=cte0zSCz}E. Imperial Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
@@ -3273,105 +2147,6 @@
 				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
 			</EquipmentRoster>
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- PRISON GUARD -->
-	<NPCCharacter id="prison_guard_n_empire" default_group="Infantry" level="21" culture="Culture.empire_n" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="50"/>
-			<skill id="TwoHanded" value="50"/>
-			<skill id="Polearm" value="50"/>
-			<skill id="Crossbow" value="50"/>
-			<skill id="Bow" value="50"/>
-			<skill id="Throwing" value="50"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.tall_helmet"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.helmet_with_faceguard"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.tall_helmet"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.helmet_with_faceguard"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<!-- GUARD -->
-	<NPCCharacter id="guard_n_empire" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_n" name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills" is_hidden_encyclopedia="true">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="50"/>
-			<skill id="TwoHanded" value="50"/>
-			<skill id="Polearm" value="50"/>
-			<skill id="Crossbow" value="50"/>
-			<skill id="Bow" value="50"/>
-			<skill id="Throwing" value="50"/>
-		</skills>
-		<Traits/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.ironlame_spiked_kettle_over_mail"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
-				<equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.leatherlame_roundkettle"/>
-				<equipment slot="Body" id="Item.padded_cloth_with_strips"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-				<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
-				<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
-				<equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- BLACKSMITH -->
@@ -3430,79 +2205,6 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- TOWNSWOMAN -->
-	<NPCCharacter id="townswoman_n_empire" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}E. Imperial Citizen Townswoman" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.townswoman_empire"/>
-			<hair_tags>
-				<hair_tag name="Bobbed"/>
-				<hair_tag name="RestingOnShoulders"/>
-				<hair_tag name="ShoulderLengthTied"/>
-				<hair_tag name="AboveShoulderLength"/>
-			</hair_tags>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
 	<!-- TOWNSWOMAN INFANT -->
 	<NPCCharacter id="townswoman_infant_n_empire" name="{=9Di0NfG2}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
@@ -3554,82 +2256,6 @@
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
 			<EquipmentSet id="emp_bat_template_medium"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOWNSMAN -->
-	<NPCCharacter id="townsman_n_empire" default_group="Infantry" name="{=muu5cofb}E. Imperial Citizen Townsman" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_b"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 	<!-- TOWNSMAN INFANT -->
@@ -3696,86 +2322,6 @@
 				<equipment slot="Leg" id="Item.fine_town_boots"/>
 			</EquipmentRoster>
 			<EquipmentSet id="emp_bat_template_medium"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- VILLAGE WOMAN -->
-	<NPCCharacter id="village_woman_n_empire" default_group="Infantry" is_female="true" level="1" name="{=KtqB640w}E. Imperial Citizen" occupation="Villager" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-			<hair_tags>
-				<hair_tag name="Bobbed"/>
-				<hair_tag name="RestingOnShoulders"/>
-				<hair_tag name="ShoulderLengthTied"/>
-				<hair_tag name="AboveShoulderLength"/>
-			</hair_tags>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_n_empire"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.vlandian_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.empire_dress_b"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.plain_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.dress_with_overall"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.laced_dress"/>
-				<equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 	<!-- VILLAGER CHILD -->
@@ -4676,170 +3222,6 @@
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
 			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_one_participant_set_v1" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_two_participant_set_v1" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_two_participant_set_v2" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_two_participant_set_v3" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_four_participant_set_v1" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_four_participant_set_v2" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- TOURNAMENT TEMPLATE -->
-	<NPCCharacter id="tournament_template_n_empire_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_n_empire_four_participant_set_v3" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- NOTABLES -->
@@ -5877,164 +4259,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- PARAOIANS -->
-	<NPCCharacter id="tournament_template_paraoi_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_one_participant_set_v1" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_paraoi_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_two_participant_set_v1" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_paraoi_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_two_participant_set_v2" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_paraoi_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_two_participant_set_v3" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_paraoi_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_four_participant_set_v1" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_paraoi_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_four_participant_set_v2" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="tournament_template_paraoi_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_paraoi_four_participant_set_v3" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_javelin_1_t2_blunt"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
-				<equipment slot="Item2" id="Item.western_javelin_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.tournament_arrows"/>
-				<equipment slot="Item2" id="Item.empire_sword_1_t2_blunt"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_lance_1_t3_blunt"/>
-				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire_civilian" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="paraoi_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.aserai" name="{=cte0zSCz}Paraoian Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="kannic_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.aserai" name="{=cte0zSCz}Quyazic Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<!--face_key value="000b025b40000000700000000000080003000000000000080000000008070000000007a9f0000000000000000000000000000000000000000000000000f00000" max_value="0011f37fc00033cffff88efffff88ffffffffffffff7ffffffffffffffffffff000787adf7ffffff000000000000000000000000000000000000000001988140" /-->
 			<BodyProperties version="4" age="37.08" weight="0.008" build="0.4325" key="000B000B40000000700000000006080003000000000000080000000008070000000667A406000000000000000000000000000000000000000000000000F00000"/>
@@ -6070,9 +4295,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="prison_guard_paraoi" default_group="Infantry" level="21" culture="Culture.paraoi" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
+	<NPCCharacter id="AR_kan_prison_guard" default_group="Infantry" level="21" culture="Culture.kannic" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<skills>
 			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
@@ -6127,9 +4352,9 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="guard_paraoi" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.paraoi" name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills" is_hidden_encyclopedia="true">
+	<NPCCharacter id="guard_kannic" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.kannic" name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills" is_hidden_encyclopedia="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<skills>
 			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
@@ -6169,9 +4394,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="blacksmith_paraoi" default_group="Infantry" is_hero="false" occupation="Blacksmith" culture="Culture.paraoi" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="blacksmith_kannic" default_group="Infantry" is_hero="false" occupation="Blacksmith" culture="Culture.kannic" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6196,9 +4421,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="weaponsmith_paraoi" default_group="Infantry" is_hero="false" occupation="Weaponsmith" culture="Culture.paraoi" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="weaponsmith_kannic" default_group="Infantry" is_hero="false" occupation="Weaponsmith" culture="Culture.kannic" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6223,9 +4448,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="barber_paraoi" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="barber_kannic" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6247,9 +4472,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townswoman_infant_paraoi" name="{=9Di0NfG2}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townswoman_infant_kannic" name="{=9Di0NfG2}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -6259,9 +4484,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townswoman_child_paraoi" name="{=pOCOS8um}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townswoman_child_kannic" name="{=pOCOS8um}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -6275,9 +4500,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townswoman_teenager_paraoi" name="{=o077j2j5}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townswoman_teenager_kannic" name="{=o077j2j5}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -6297,9 +4522,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="ransom_broker_paraoi" default_group="Infantry" is_hero="false" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="ransom_broker_kannic" default_group="Infantry" is_hero="false" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6322,9 +4547,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="gangleader_bodyguard_paraoi" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" level="16">
+	<NPCCharacter id="gangleader_bodyguard_kannic" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" level="16">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6372,9 +4597,9 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="merchant_notary_paraoi" default_group="Infantry" name="{=reoVAtrE}Merchant" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="merchant_notary_kannic" default_group="Infantry" name="{=reoVAtrE}Merchant" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6427,9 +4652,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="artisan_notary_paraoi" default_group="Infantry" name="{=ECxiXTbF}Artisan" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="artisan_notary_kannic" default_group="Infantry" name="{=ECxiXTbF}Artisan" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6482,9 +4707,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="preacher_notary_paraoi" default_group="Infantry" name="{=bLMGbLF8}Preacher" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="preacher_notary_kannic" default_group="Infantry" name="{=bLMGbLF8}Preacher" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6537,9 +4762,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rural_notable_notary_paraoi" default_group="Infantry" name="{=AlmaRAib}Rural Nobleman" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="rural_notable_notary_kannic" default_group="Infantry" name="{=AlmaRAib}Rural Nobleman" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6592,9 +4817,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townsman_infant_paraoi" name="{=9Di0NfG2}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townsman_infant_kannic" name="{=9Di0NfG2}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -6604,9 +4829,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townsman_child_paraoi" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townsman_child_kannic" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -6630,9 +4855,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townsman_teenager_paraoi" name="{=o077j2j5}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townsman_teenager_kannic" name="{=o077j2j5}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -6655,9 +4880,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="townsman_paraoi" default_group="Infantry" name="{=muu5cofb}Paraoian Townsman" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="townsman_kannic" default_group="Infantry" name="{=muu5cofb}Quyazic Townsman" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townsman_paraoi"/>
+			<face_key_template value="BodyProperty.townsman_kannic"/>
 			<hair_tags>
 				<hair_tag name="Bald"/>
 				<hair_tag name="ShortAndThin"/>
@@ -6786,9 +5011,9 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="shop_worker_paraoi" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="shop_worker_kannic" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6806,9 +5031,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="tavernkeeper_paraoi" default_group="Infantry" is_hero="false" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="tavernkeeper_kannic" default_group="Infantry" is_hero="false" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6827,9 +5052,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="taverngamehost_paraoi" default_group="Infantry" is_hero="false" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="taverngamehost_kannic" default_group="Infantry" is_hero="false" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6852,10 +5077,10 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="musician_paraoi" default_group="Infantry" is_hero="false" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="musician_kannic" default_group="Infantry" is_hero="false" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<!--<face_key value="00059d38807c20cf78ba8459c846834d6d64fb7da990a87bc7a77e9868ab45c4000e68a5059e8885000000000000000000000000000000000000000000f80041" />-->
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6871,10 +5096,10 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="tavern_wench_paraoi" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" is_hero="false" occupation="TavernWench" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="tavern_wench_kannic" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" is_hero="false" occupation="TavernWench" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<!--<face_key value="00160512c08410019e59c3c61b67a4a95aedc746c7ba8735428988f85749aa9700000854078a69860000000000000000000000000000000000000000017c0140" />-->
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6889,7 +5114,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="gear_dummy_paraoi" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.paraoi" name="{=!}Paraoian Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="gear_dummy_kannic" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=!}Quyazic Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.guard"/>
 		</face>
@@ -6904,9 +5129,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="armorer_paraoi" default_group="Infantry" is_hero="false" occupation="Armorer" culture="Culture.paraoi" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="armorer_kannic" default_group="Infantry" is_hero="false" occupation="Armorer" culture="Culture.kannic" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6933,9 +5158,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="horseMerchant_paraoi" default_group="Infantry" is_hero="false" occupation="HorseTrader" culture="Culture.paraoi" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="horseMerchant_kannic" default_group="Infantry" is_hero="false" occupation="HorseTrader" culture="Culture.kannic" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6960,9 +5185,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="merchant_paraoi" default_group="Infantry" is_hero="true" occupation="GoodsTrader" culture="Culture.paraoi" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="merchant_kannic" default_group="Infantry" is_hero="true" occupation="GoodsTrader" culture="Culture.kannic" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -6986,7 +5211,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="beggar_paraoi" default_group="Infantry" name="{=HZRKBDyB}Beggar" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="beggar_kannic" default_group="Infantry" name="{=HZRKBDyB}Beggar" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<!--face_key value="000507400600141300000000000000100000000000000000000000000000000000010bacf10000000000000000000000000000000000000000000000000000c1" max_value="001cffffd50034d4fffffffffff0fffffffffffffffffffffffffeffffffffff00010baff1ffffff000000000000000000000000000000000000000000008101" /-->
 			<BodyProperties version="4" age="49.19" weight="0.1661" build="0.0462" key="000504000600141300000000000200100000000000000000000000000000000000012BA6010000000000000000000000000000000000000000000000000000C1"/>
@@ -7012,9 +5237,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="female_beggar_paraoi" default_group="Infantry" is_female="true" level="1" name="{=HZRKBDyB}Beggar" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="female_beggar_kannic" default_group="Infantry" is_female="true" level="1" name="{=HZRKBDyB}Beggar" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<skills/>
 		<!-- Uses village hair -->
@@ -7032,9 +5257,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="female_dancer_paraoi" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="female_dancer_kannic" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" is_hero="false" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -7050,9 +5275,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="tournament_master_paraoi" default_group="Infantry" is_hero="false" occupation="ArenaMaster" culture="Culture.paraoi" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="tournament_master_kannic" default_group="Infantry" is_hero="false" occupation="ArenaMaster" culture="Culture.kannic" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -7064,9 +5289,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="villager_infant_paraoi" name="{=9Di0NfG2}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="villager_infant_kannic" name="{=9Di0NfG2}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7076,9 +5301,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="villager_child_paraoi" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="villager_child_kannic" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7096,9 +5321,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="villager_teenager_paraoi" name="{=o077j2j5}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="villager_teenager_kannic" name="{=o077j2j5}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7121,9 +5346,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="village_woman_infant_paraoi" name="{=9Di0NfG2}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="village_woman_infant_kannic" name="{=9Di0NfG2}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7133,9 +5358,9 @@
 			<EquipmentSet id="npc_armed_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="village_woman_child_paraoi" name="{=pOCOS8um}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="village_woman_child_kannic" name="{=pOCOS8um}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7153,9 +5378,9 @@
 			<EquipmentSet id="npc_armed_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="village_woman_teenager_paraoi" name="{=o077j2j5}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="village_woman_teenager_kannic" name="{=o077j2j5}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7178,9 +5403,9 @@
 			<EquipmentSet id="npc_armed_wanderer_equipment_template_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="village_woman_paraoi" default_group="Infantry" is_female="true" level="1" name="{=KtqB640w}Paraoian Peasant" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_kan_village_woman" default_group="Infantry" is_female="true" level="1" name="{=KtqB640w}Quyazic Peasant" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 			<hair_tags>
 				<hair_tag name="Bobbed"/>
 				<hair_tag name="RestingOnShoulders"/>
@@ -7190,7 +5415,7 @@
 		</face>
 		<skills/>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_paraoi"/>
+			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -7328,7 +5553,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="gear_practice_dummy_paraoi" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.paraoi" name="{=!}Paraoian Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="gear_practice_dummy_kannic" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=!}Quyazic Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.guard"/>
 		</face>
@@ -7364,7 +5589,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="weapon_practice_stage_1_paraoi" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.paraoi" name="{=!}Paraoian Weapon Dummy">
+	<NPCCharacter id="weapon_practice_stage_1_kannic" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=!}Quyazic Weapon Dummy">
 		<face>
 			<face_key_template value="BodyProperty.guard"/>
 		</face>
@@ -7419,7 +5644,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="weapon_practice_stage_2_paraoi" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.paraoi" name="{=!}Paraoian Weapon Dummy">
+	<NPCCharacter id="weapon_practice_stage_2_kannic" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=!}Quyazic Weapon Dummy">
 		<face>
 			<face_key_template value="BodyProperty.guard"/>
 		</face>
@@ -7475,7 +5700,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="weapon_practice_stage_3_paraoi" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.paraoi" name="{=!}Paraoian Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="weapon_practice_stage_3_kannic" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=!}Quyazic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.guard"/>
 		</face>
@@ -7528,251 +5753,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="villager_paraoi" default_group="Infantry" level="1" name="{=KtqB640w}Paraoian Peasant" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
+	<NPCCharacter id="townswoman_kannic" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}Quyazic Townswoman" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_par_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_par_militia_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
-				<equipment slot="Head" id="Item.AR_roman_hat_a"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-				<equipment slot="Leg" id="Item.strapped_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_f"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.fine_town_tunic"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Item1" id="Item.AR_throwing_pot"/>
-				<equipment slot="Body" id="Item.burlap_waistcoat"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Item1" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.AR_empire_armor_g"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
-				<equipment slot="Body" id="Item.aserai_civil_d"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
-				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.aserai_civil_c"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_civil_b"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_civil_a"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_civil_f"/>
-				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_civil_e"/>
-				<equipment slot="Head" id="Item.desert_cap"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
-				<equipment slot="Body" id="Item.layered_robe"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.layered_robe"/>
-				<equipment slot="Head" id="Item.tied_head_wrapping"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Head" id="Item.turban"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.tassled_southern_robes"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.throwing_stone"/>
-				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
-				<equipment slot="Body" id="Item.aserai_civil_d"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.aserai_civil_c"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Body" id="Item.aserai_civil_b"/>
-				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.throwing_stone"/>
-				<equipment slot="Item1" id="Item.peasant_pitchfork_2_t1"/>
-				<equipment slot="Body" id="Item.aserai_civil_a"/>
-				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item1" id="Item.peasant_pitchfork_2_t1"/>
-				<equipment slot="Body" id="Item.aserai_civil_f"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.throwing_stone"/>
-				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Body" id="Item.aserai_civil_e"/>
-				<equipment slot="Head" id="Item.desert_cap"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
-				<equipment slot="Body" id="Item.tassled_southern_robes"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.throwing_stone"/>
-				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Body" id="Item.layered_robe"/>
-				<equipment slot="Head" id="Item.tied_head_wrapping"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_throwing_pot"/>
-				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
-				<equipment slot="Head" id="Item.turban"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.tassled_southern_robes"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="townswoman_paraoi" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}Paraoian Townswoman" occupation="Townsfolk" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 			<hair_tags>
 				<hair_tag name="Bobbed"/>
 				<hair_tag name="RestingOnShoulders"/>
@@ -7913,9 +5896,9 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="fighter_paraoi" default_group="Infantry" level="1" name="{=!}Paraoian Fighter" occupation="Villager" culture="Culture.paraoi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+	<NPCCharacter id="fighter_kannic" default_group="Infantry" level="1" name="{=!}Quyazic Fighter" occupation="Villager" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<skills/>
 		<upgrade_targets/>
@@ -7923,7 +5906,7 @@
 			<EquipmentSet id="fighter_empire"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="caravan_leader_paraoi" default_group="Infantry" is_hero="false" is_mercenary="true" culture="Culture.paraoi" occupation="Merchant" name="{=jHVTqyI4}Paraoian Mercenaries Leader">
+	<NPCCharacter id="caravan_leader_kannic" default_group="Infantry" is_hero="false" is_mercenary="true" culture="Culture.kannic" occupation="Merchant" name="{=jHVTqyI4}Quyazic Mercenaries Leader">
 		<face>
 			<!--face_key value="00199006407c0042d997495b98562c359578cc9a48c3b5735db5ac617aacdd7e000a6960b3489eb5000000000000000000000000000000000000000000009000"/-->
 			<BodyProperties version="4" age="45.96" weight="0.4991" build="0.4813" key="00169005807C0042D997495B98572C359578CC9A48C3B5735DB5AC617AACDD7E0007796507489EB5000000000000000000000000000000000000000000A09000"/>
@@ -7939,9 +5922,9 @@
 			<equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_0" name="{=!}Cautious imperial merchant" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_0" name="{=!}Cautious imperial merchant" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_0" faction="Kingdom.empire" />-->
 		<skills/>
@@ -7956,9 +5939,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_0b" name="{=!}{FIRSTNAME} the Vintner" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_0b" name="{=!}{FIRSTNAME} the Vintner" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_0b" faction="Kingdom.empire" />-->
 		<skills/>
@@ -7974,9 +5957,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_1" name="{=!}Empire merchant 3, ruthless" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_1" name="{=!}Empire merchant 3, ruthless" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -7989,9 +5972,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_1b" name="{=!}Cold imperial merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_1b" name="{=!}Cold imperial merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8005,9 +5988,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_2" name="{=!}{FIRSTNAME} the Saltpanner" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_2" name="{=!}{FIRSTNAME} the Saltpanner" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8020,9 +6003,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_2b" name="{=!}Empire merchant 6, cautious" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_2b" name="{=!}Empire merchant 6, cautious" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8037,9 +6020,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Can be acater -->
-	<NPCCharacter id="spc_notable_paraoi_3" name="{=!}Empire merchant 7, selfmade" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_3" name="{=!}Empire merchant 7, selfmade" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="GentryEquipment" value="1"/>
@@ -8051,9 +6034,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_3b" name="{=!}Empire merchant 8, jocular" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_3b" name="{=!}Empire merchant 8, jocular" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8066,9 +6049,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_4" name="{=!}Empire merchant 9, heiress" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_4" name="{=!}Empire merchant 9, heiress" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8081,9 +6064,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_4b" name="{=!}Empire merchant 10, devious" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Merchant">
+	<NPCCharacter id="spc_notable_kannic_4b" name="{=!}Empire merchant 10, devious" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8098,9 +6081,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_5" name="{=!}Messianic imperial preacher" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Preacher">
+	<NPCCharacter id="spc_notable_kannic_5" name="{=!}Messianic imperial preacher" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Preacher">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_5" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8114,9 +6097,9 @@
 			<EquipmentSet id="spc_notable_empire_5"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_6" name="{=!}Puritan imperial preacher" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Preacher">
+	<NPCCharacter id="spc_notable_kannic_6" name="{=!}Puritan imperial preacher" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Preacher">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_6" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8131,9 +6114,9 @@
 			<EquipmentSet id="spc_notable_empire_6"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_7" name="{=!}Female imperial mystic" voice="earnest" is_template="true" default_group="Infantry" is_female="true" culture="Culture.paraoi" occupation="Preacher">
+	<NPCCharacter id="spc_notable_kannic_7" name="{=!}Female imperial mystic" voice="earnest" is_template="true" default_group="Infantry" is_female="true" culture="Culture.kannic" occupation="Preacher">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8146,9 +6129,9 @@
 			<EquipmentSet id="spc_notable_empire_7"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_8" name="{=!}Imperial gruff labor leader" voice="curt" is_template="true" default_group="Infantry" is_female="false" culture="Culture.paraoi" occupation="Artisan">
+	<NPCCharacter id="spc_notable_kannic_8" name="{=!}Imperial gruff labor leader" voice="curt" is_template="true" default_group="Infantry" is_female="false" culture="Culture.kannic" occupation="Artisan">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Traits>
 			<Trait id="RomanHair" value="1"/>
@@ -8160,9 +6143,9 @@
 			<EquipmentSet id="spc_notable_empire_8"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_9" name="{=!}Imperial outgoing labor leader" voice="earnest" is_template="true" default_group="Infantry" is_female="false" culture="Culture.paraoi" occupation="Artisan">
+	<NPCCharacter id="spc_notable_kannic_9" name="{=!}Imperial outgoing labor leader" voice="earnest" is_template="true" default_group="Infantry" is_female="false" culture="Culture.kannic" occupation="Artisan">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_9" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8176,9 +6159,9 @@
 			<EquipmentSet id="spc_notable_empire_9"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_gl1" name="{=!}Protective imperial male gang leader" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="GangLeader">
+	<NPCCharacter id="spc_notable_kannic_gl1" name="{=!}Protective imperial male gang leader" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="GangLeader">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_10" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8194,9 +6177,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_10" name="{=!}Ironic imperial gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="GangLeader">
+	<NPCCharacter id="spc_notable_kannic_10" name="{=!}Ironic imperial gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="GangLeader">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_10" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8212,9 +6195,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_11" name="{=!}Intimidating male imperial gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="GangLeader">
+	<NPCCharacter id="spc_notable_kannic_11" name="{=!}Intimidating male imperial gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="GangLeader">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_11" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8230,9 +6213,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_gl4" name="{=!}Bestial male imperial gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="GangLeader">
+	<NPCCharacter id="spc_notable_kannic_gl4" name="{=!}Bestial male imperial gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="GangLeader">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_11" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8248,9 +6231,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_12" name="{=!}Female imperial gang leader" voice="ironic" is_template="true" is_female="true" culture="Culture.paraoi" occupation="GangLeader" default_group="Infantry">
+	<NPCCharacter id="spc_notable_kannic_12" name="{=!}Female imperial gang leader" voice="ironic" is_template="true" is_female="true" culture="Culture.kannic" occupation="GangLeader" default_group="Infantry">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_12" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8264,9 +6247,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_13" name="{=!}Menacing female imperial gang leader" voice="softspoken" is_template="true" is_female="true" culture="Culture.paraoi" occupation="GangLeader" default_group="Infantry">
+	<NPCCharacter id="spc_notable_kannic_13" name="{=!}Menacing female imperial gang leader" voice="softspoken" is_template="true" is_female="true" culture="Culture.kannic" occupation="GangLeader" default_group="Infantry">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_13" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8281,9 +6264,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_21" name="{=!}Empire gruff rural notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.paraoi" occupation="RuralNotable">
+	<NPCCharacter id="spc_notable_kannic_21" name="{=!}Empire gruff rural notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.kannic" occupation="RuralNotable">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 			<!--<hair_tags>
         <hair_tag name ="Tousled"/>
       </hair_tags>
@@ -8304,9 +6287,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_notable_paraoi_22" name="{=!}Empire rural notable agreeable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.paraoi" occupation="RuralNotable">
+	<NPCCharacter id="spc_notable_kannic_22" name="{=!}Empire rural notable agreeable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.kannic" occupation="RuralNotable">
 		<face>
-			<face_key_template value="BodyProperty.townsman_paraoi"/>
+			<face_key_template value="BodyProperty.townsman_kannic"/>
 			<!--<hair_tags>
         <hair_tag name ="Tousled"/>
       </hair_tags>
@@ -8326,9 +6309,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_paraoi_headman_1" name="{=!}empire rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Headman">
+	<NPCCharacter id="spc_kannic_headman_1" name="{=!}empire rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Headman">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_4" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8342,9 +6325,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_paraoi_headman_2" name="{=!}empire conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Headman">
+	<NPCCharacter id="spc_kannic_headman_2" name="{=!}empire conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Headman">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_4" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8358,9 +6341,9 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_paraoi_headman_3" name="{=!}empire devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Headman">
+	<NPCCharacter id="spc_kannic_headman_3" name="{=!}empire devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Headman">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<!--<Hero id="spc_notable_empire_4" faction="Kingdom.empire" />-->
 		<skills/>
@@ -8376,9 +6359,9 @@
 	</NPCCharacter>
 	<!-- WANDERERS OF EMPIRE -->
 	<!-- Engineer who refused to comply with guild backscratching -->
-	<NPCCharacter id="spc_wanderer_paraoi_0" name="{=bvjFhiDr}{HERO.FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_0" name="{=bvjFhiDr}{HERO.FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_0" faction="Kingdom.empire"  is_template="true" /> -->
 		<Traits>
@@ -8394,9 +6377,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Very boastful -->
-	<NPCCharacter id="spc_wanderer_paraoi_1" name="{=xTQPfmS9}{HERO.FIRSTNAME} the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_1" name="{=xTQPfmS9}{HERO.FIRSTNAME} the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_1" faction="Kingdom.empire"  is_template="true" />-->
 		<Traits>
@@ -8413,9 +6396,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Family lost military land grant, must work for merchants -->
-	<NPCCharacter id="spc_wanderer_paraoi_2" name="{=Ivx4uJVp}{HERO.FIRSTNAME} the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_2" name="{=Ivx4uJVp}{HERO.FIRSTNAME} the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_2" faction="Kingdom.empire"  is_template="true" />-->
 		<Traits>
@@ -8432,9 +6415,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--  Die-hard legionary -->
-	<NPCCharacter id="spc_wanderer_paraoi_3" name="{=1OZBZZCi}{HERO.FIRSTNAME} the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_3" name="{=1OZBZZCi}{HERO.FIRSTNAME} the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_3" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8451,9 +6434,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Bandit who found bandits too sociopathic -->
-	<NPCCharacter id="spc_wanderer_paraoi_4" name="{=t9e34kgH}{HERO.FIRSTNAME} the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_4" name="{=t9e34kgH}{HERO.FIRSTNAME} the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_4" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8470,9 +6453,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- the butcher, doesn't give much away about himself -->
-	<NPCCharacter id="spc_wanderer_paraoi_5" name="{=pZSAdyC0}{HERO.FIRSTNAME} the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_5" name="{=pZSAdyC0}{HERO.FIRSTNAME} the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_5" faction="Kingdom.empire" is_template="true" />-->
 		<Traits>
@@ -8489,9 +6472,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- maquisard, ex-messianic rebel turned mafiosi -->
-	<NPCCharacter id="spc_wanderer_paraoi_6" name="{=OArAImbM}{HERO.FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_6" name="{=OArAImbM}{HERO.FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_6" faction="Kingdom.empire" is_template="true" />-->
 		<Traits>
@@ -8509,9 +6492,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- posed as man to join army. needed the money -->
-	<NPCCharacter id="spc_wanderer_paraoi_7" name="{=28tWEFNi}{HERO.FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_7" name="{=28tWEFNi}{HERO.FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_7" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8526,9 +6509,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- upper-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
-	<NPCCharacter id="spc_wanderer_paraoi_8" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_8" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_8" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8544,9 +6527,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
-	<NPCCharacter id="spc_wanderer_paraoi_9" name="{=7apnGFz7}{HERO.FIRSTNAME} the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_9" name="{=7apnGFz7}{HERO.FIRSTNAME} the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_9" faction="Kingdom.empire" />-->
 		<Traits>
@@ -8564,9 +6547,9 @@
 	</NPCCharacter>
 	<!-- extra imperials -->
 	<!--  Doctor, forced to torture -->
-	<NPCCharacter id="spc_wanderer_paraoi_10" name="{=cud22JY1}{HERO.FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_10" name="{=cud22JY1}{HERO.FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<!--<Hero id="spc_wanderer_empire_10" faction="Kingdom.empire" is_template="true" />-->
 		<Traits>
@@ -8584,9 +6567,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--upper-class dispossessed, refused a bad marriage -->
-	<NPCCharacter id="spc_wanderer_paraoi_11" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.paraoi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_kannic_11" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.kannic" occupation="Wanderer">
 		<face>
-			<face_key_template value="BodyProperty.fighter_paraoi"/>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<Traits>
 			<!--<Trait id="LordIsNemesis" value="1" />-->
@@ -8601,9 +6584,9 @@
 	</NPCCharacter>
 	<!--Culture:Empire -->
 	<!--Townsman -->
-	<NPCCharacter id="child_template_paraoi_townsman_male" name="{=!}Imperial Child Townsman Male" age="6" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi">
+	<NPCCharacter id="child_template_kannic_townsman_male" name="{=!}Imperial Child Townsman Male" age="6" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8617,9 +6600,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="child_template_paraoi_townsman_female" name="{=!}Imperial Child Townsman Female" age="6" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi">
+	<NPCCharacter id="child_template_kannic_townsman_female" name="{=!}Imperial Child Townsman Female" age="6" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8633,9 +6616,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="teenager_template_paraoi_townsman_female" name="{=!}Imperial Teenager Townsman Female" age="14" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi">
+	<NPCCharacter id="teenager_template_kannic_townsman_female" name="{=!}Imperial Teenager Townsman Female" age="14" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8659,9 +6642,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="teenager_template_paraoi_townsman_male" name="{=!}Imperial Teenager Townsman Male" age="14" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.paraoi">
+	<NPCCharacter id="teenager_template_kannic_townsman_male" name="{=!}Imperial Teenager Townsman Male" age="14" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8684,9 +6667,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--Villager -->
-	<NPCCharacter id="child_template_paraoi_villager_male" name="{=!}Imperial Child Villager Male" age="6" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi">
+	<NPCCharacter id="child_template_kannic_villager_male" name="{=!}Imperial Child Villager Male" age="6" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8704,9 +6687,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="child_template_paraoi_villager_female" name="{=!}Imperial Child Villager Female" age="6" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi">
+	<NPCCharacter id="child_template_kannic_villager_female" name="{=!}Imperial Child Villager Female" age="6" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8724,9 +6707,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="teenager_template_paraoi_villager_male" name="{=!}Imperial Teenager Villager Male" age="14" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi">
+	<NPCCharacter id="teenager_template_kannic_villager_male" name="{=!}Imperial Teenager Villager Male" age="14" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8748,9 +6731,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="teenager_template_paraoi_villager_female" name="{=!}Imperial Teenager Villager Female" age="14" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.paraoi">
+	<NPCCharacter id="teenager_template_kannic_villager_female" name="{=!}Imperial Teenager Villager Female" age="14" is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8771,9 +6754,9 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--Noble -->
-	<NPCCharacter id="child_template_paraoi_noble_male" name="{=!}Imperial Child Noble Male" age="6" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.paraoi">
+	<NPCCharacter id="child_template_kannic_noble_male" name="{=!}Imperial Child Noble Male" age="6" is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8791,9 +6774,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="child_template_paraoi_noble_female" name="{=!}Imperial Child Noble Female" is_child_template="true" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.paraoi">
+	<NPCCharacter id="child_template_kannic_noble_female" name="{=!}Imperial Child Noble Female" is_child_template="true" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8811,9 +6794,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="teenager_template_paraoi_noble_male" name="{=!}Imperial Teenager Noble Male" is_child_template="true" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.paraoi">
+	<NPCCharacter id="teenager_template_kannic_noble_male" name="{=!}Imperial Teenager Noble Male" is_child_template="true" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.villager_paraoi"/>
+			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">
@@ -8837,9 +6820,9 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="teenager_template_paraoi_noble_female" name="{=!}Imperial Teenager Noble Female" is_child_template="true" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.paraoi">
+	<NPCCharacter id="teenager_template_kannic_noble_female" name="{=!}Imperial Teenager Noble Female" is_child_template="true" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.kannic">
 		<face>
-			<face_key_template value="BodyProperty.townswoman_paraoi"/>
+			<face_key_template value="BodyProperty.townswoman_kannic"/>
 		</face>
 		<Equipments>
 			<EquipmentRoster civilian="true">

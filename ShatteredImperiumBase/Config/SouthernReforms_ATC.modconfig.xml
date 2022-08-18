@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ATCConfig>
+	<MapFaction id="aserai">
+		<!-- Standard Aserai configuration -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="70"/>
+				<volunteer id="AR_ase_aux_recruit" percent="20"/>
+				<volunteer id="AR_ase_naphtha_thrower" percent="5"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="darshi">
+			<!-- Aserai for captured Darshi settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_ase_aux_recruit" percent="40"/>
+				<volunteer id="AR_ase_naphtha_thrower" percent="5"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<!-- Aserai for captured Khuzait settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_khu_aux_hawlan_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="cizygian">
+			<!-- Aserai for captured Cizygian settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_khu_aux_hawlan_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_n">
+			<!-- Aserai for captured Northern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire">
+			<!-- Aserai for captured Southern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="40"/>
+				<volunteer id="AR_ase_naphtha_thrower" percent="5"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_w">
+			<!-- Aserai for captured Western Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="kannic">
+			<!-- Aserai for captured Paraoian settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_ase_aux_recruit" percent="40"/>
+				<volunteer id="AR_ase_naphtha_thrower" percent="5"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Aserai for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_stu_aux_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Aserai for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_stu_aux_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Aserai for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_vla_outrider_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="massa">
+			<!-- Aserai for captured Massan settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_vla_outrider_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Aserai for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_bat_aux_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="gotarni">
+			<!-- Aserai for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="50"/>
+				<volunteer id="AR_got_aux_recruit" percent="45"/>
+				<volunteer id="AR_ase_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="spahad">
+		<!-- Standard Spahad configuration -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="60"/>
+				<volunteer id="AR_ase_aux_recruit" percent="20"/>
+				<volunteer id="AR_got_aux_recruit" percent="15"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<!-- Spahad for captured Aserai settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_ase_aux_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<!-- Spahad for captured Khuzait settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_khu_aux_hawlan_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="cizygian">
+			<!-- Spahad for captured Cizygian settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_khu_aux_hawlan_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire">
+			<!-- Spahad for captured Northern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_s">
+			<!-- Spahad for captured Southern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_w">
+			<!-- Spahad for captured Western Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="kannic">
+			<!-- Spahad for captured Paraoian settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_ase_aux_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Spahad for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_stu_aux_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Spahad for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_stu_aux_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Spahad for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_vla_outrider_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="massa">
+			<!-- Spahad for captured Massan settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_vla_outrider_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Spahad for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_bat_aux_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="gotarni">
+			<!-- Spahad for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="AR_spahad_recruit" percent="50"/>
+				<volunteer id="AR_got_aux_recruit" percent="45"/>
+				<volunteer id="AR_spa_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_spa_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!-- MINOR FACTIONS -->
+	<Clan id="ethawians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_ethawian_t3" percent="50"/>
+				<volunteer id="AR_min_ethawian_t4_infantry" percent="25"/>
+				<volunteer id="AR_min_ethawian_t4_skirmisher" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_ethawian_t5_infantry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="jawwal">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_jawwal_t3" percent="50"/>
+				<volunteer id="AR_min_jawwal_t4_lancer" percent="25"/>
+				<volunteer id="AR_min_jawwal_t4_cav_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_jawwal_t5_cav_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="beni_zilal">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_benizilal_t3" percent="50"/>
+				<volunteer id="AR_min_benizilal_t4_slinger" percent="25"/>
+				<volunteer id="AR_min_benizilal_t4_cav_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_benizilal_t5_cav_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="ghilman">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_ghilman_t3" percent="50"/>
+				<volunteer id="AR_min_ghilman_t4_lancer" percent="25"/>
+				<volunteer id="AR_min_ghilman_t5_lancer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_ghilman_t5_lancer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+</ATCConfig> 

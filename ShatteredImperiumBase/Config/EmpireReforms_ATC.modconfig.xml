@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ATCConfig>
+	<!-- EMPIRE SUBFACTIONS -->
+	<!-- NORTHERN EMPIRE FACTION -->
+	<MapFaction id="empire">
+		<!-- Eastern Empire configuration with subcultures -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_n_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_s">
+			<!-- Eastern Empire for captured Southern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_n_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_w">
+			<!-- Eastern Empire for captured Western Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_n_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="kannic">
+			<!-- Eastern Empire for captured Quyazic settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_n_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<!-- Eastern Empire for captured Aserai settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="55"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="darshi">
+			<!-- Eastern Empire for captured Darshi settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="55"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<!-- Eastern Empire for captured Khuzait settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="cizygian">
+			<!-- Eastern Empire for captured Cizygian settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Eastern Empire for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Eastern Empire for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="55"/>
+				<volunteer id="AR_n_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Eastern Empire for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="massa">
+			<!-- Eastern Empire for captured Massan settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Eastern Empire for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="gotarni">
+			<!-- Eastern Empire for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!-- SOUTHERN EMPIRE FACTION -->
+	<MapFaction id="empire_s">
+		<!-- Standard Southern Empire configuration -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_s_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_n">
+			<!-- Southern Empire for captured Eastern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_s_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_w">
+			<!-- Southern Empire for captured Western Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_s_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="kannic">
+			<!-- Southern Empire for captured Quyazic settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_s_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<!-- Southern Empire for captured Aserai settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="55"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="darshi">
+			<!-- Southern Empire for captured Darshi settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="55"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<!-- Southern Empire for captured Khuzait settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="cizygian">
+			<!-- Southern Empire for captured Cizygian settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Southern Empire for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Southern Empire for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="55"/>
+				<volunteer id="AR_s_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Southern Empire for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="massa">
+			<!-- Southern Empire for captured Massan settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Southern Empire for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="gotarni">
+			<!-- Southern Empire for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!-- WESTERN EMPIRE FACTION -->
+	<MapFaction id="empire_w">
+		<!-- Standard Western Empire configuration -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_w_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_s">
+			<!-- Western Empire for captured Eastern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_w_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_n">
+			<!-- Western Empire for captured Eastern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_w_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="kannic">
+			<!-- Western Empire for captured Quyazic settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_w_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<!-- Western Empire for captured Aserai settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="55"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="darshi">
+			<!-- Western Empire for captured Darshi settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="55"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<!-- Western Empire for captured Khuzait settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="cizygian">
+			<!-- Western Empire for captured Cizygian settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Western Empire for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Western Empire for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="55"/>
+				<volunteer id="AR_w_emp_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Western Empire for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="massa">
+			<!-- Western Empire for captured Massan settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Western Empire for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="gotarni">
+			<!-- Western Empire for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="60"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="100" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!-- QuyazicN EMPIRE FACTION -->
+	<MapFaction id="quyaz">
+		<!-- Standard Quyazic configuration -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="70"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="15"/>
+				<volunteer id="AR_kan_t3_veteran" percent="5"/>
+				<volunteer id="AR_kan_naptha_thrower" percent="10"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire">
+			<!-- Quyazic for captured Northern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="25"/>
+				<volunteer id="AR_kan_t3_veteran" percent="5"/>
+				<volunteer id="AR_kan_naptha_thrower" percent="10"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_s">
+			<!-- Quyazic for captured Southern Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="25"/>
+				<volunteer id="AR_kan_t3_veteran" percent="5"/>
+				<volunteer id="AR_kan_naptha_thrower" percent="10"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_w">
+			<!-- Quyazic for captured Western Empire settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="25"/>
+				<volunteer id="AR_kan_t3_veteran" percent="5"/>
+				<volunteer id="AR_kan_naptha_thrower" percent="10"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<!-- Quyazic for captured Aserai settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="30"/>
+				<volunteer id="AR_kan_naptha_thrower" percent="10"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="darshi">
+			<!-- Quyazic for captured Darshi settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="30"/>
+				<volunteer id="AR_kan_naptha_thrower" percent="10"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<!-- Quyazic for captured Khuzait settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="cizygian">
+			<!-- Quyazic for captured Cizygian settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_southern_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Quyazic for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_lowland_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="massa">
+			<!-- Quyazic for captured Massan settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Quyazic for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_western_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="gotarni">
+			<!-- Quyazic for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_alpine_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Quyazic for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Quyazic for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="AR_kan_recruit" percent="60"/>
+				<volunteer id="AR_emp_aux_northern_recruit" percent="20"/>
+				<volunteer id="AR_emp_aux_eastern_recruit" percent="15"/>
+				<volunteer id="AR_kan_t3_veteran" percent="5"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_kan_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!-- MINOR FACTIONS -->
+	<Clan id="legion_of_the_betrayed">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_legion_t3" percent="50"/>
+				<volunteer id="AR_min_legion_t4_inf" percent="25"/>
+				<volunteer id="AR_min_legion_t4_skirm" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_legion_t5_cav" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="embers_of_flame">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_embers_t3" percent="50"/>
+				<volunteer id="AR_min_embers_t4_inf" percent="25"/>
+				<volunteer id="AR_min_embers_t4_shock" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_embers_t5_shock" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="hidden_hand">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_hand_t3" percent="50"/>
+				<volunteer id="AR_min_hand_t4_inf" percent="25"/>
+				<volunteer id="AR_min_hand_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_hand_t5_inf" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="eleftheroi">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_eleftheroi_t3" percent="50"/>
+				<volunteer id="AR_min_eleftheroi_t4_cav_archer" percent="25"/>
+				<volunteer id="AR_min_eleftheroi_t4_cav" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_eleftheroi_t5_cav" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="guardians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_guardians_t3" percent="50"/>
+				<volunteer id="AR_min_guardians_t4_cavalry" percent="25"/>
+				<volunteer id="AR_min_guardians_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_guardians_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="exploratores_nahasae">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_exploratores_t3" percent="50"/>
+				<volunteer id="AR_min_exploratores_t4_camel" percent="25"/>
+				<volunteer id="AR_min_exploratores_t4_cav" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_exploratores_t5_cav" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="saleas_sisters">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_sisters_t3" percent="50"/>
+				<volunteer id="AR_min_sisters_t4_inf" percent="25"/>
+				<volunteer id="AR_min_sisters_t4_shock_inf" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_sisters_t5_shock_inf" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+</ATCConfig> 
