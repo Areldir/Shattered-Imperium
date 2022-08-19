@@ -129,7 +129,7 @@
 		<Pieces>
 			<Piece id="spear_blade_3" Type="Blade" scale_factor="101"/>
 			<Piece id="spear_guard_11" Type="Guard"/>
-			<Piece id="spear_handle_15" Type="Handle"/>
+			<Piece id="spear_handle_15" Type="Handle" scale_factor="120"/>
 			<Piece id="spear_pommel_10" Type="Pommel"/>
 		</Pieces>
 		<!-- Length: 162 Weight: 0.66 -->
@@ -851,6 +851,30 @@
 	<Item id="AR_arrow_emp_t3" name="Needle Bodkin Arrows 70 grams" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.07" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_back_top_2" holster_position_shift="0.0,0.0,0.1" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="quiver_roman_a" holster_mesh_with_weapon="quiver_roman_a" flying_mesh="arrow_bl_flying">
 		<ItemComponent>
 			<Weapon weapon_class="Arrow" thrust_speed="0" speed_rating="0" missile_speed="70" weapon_length="97" thrust_damage="100" thrust_damage_type="Pierce" item_usage="arrow_top" physics_material="missile" center_of_mass="0,0,0" stack_amount="30" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="AR_arrow_emp_t2_half" name="Needle Bodkin Arrows 50 grams Half Quiver" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.05" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_back_top_2" holster_position_shift="0.0,0.0,0.1" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="quiver_roman_a" holster_mesh_with_weapon="quiver_roman_a" flying_mesh="arrow_bl_flying">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" thrust_speed="0" speed_rating="0" missile_speed="50" weapon_length="97" thrust_damage="100" thrust_damage_type="Pierce" item_usage="arrow_top" physics_material="missile" center_of_mass="0,0,0" stack_amount="15" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="AR_arrow_emp_t3_half" name="Needle Bodkin Arrows 70 grams Half Quiver" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.07" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_back_top_2" holster_position_shift="0.0,0.0,0.1" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="quiver_roman_a" holster_mesh_with_weapon="quiver_roman_a" flying_mesh="arrow_bl_flying">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" thrust_speed="0" speed_rating="0" missile_speed="70" weapon_length="97" thrust_damage="100" thrust_damage_type="Pierce" item_usage="arrow_top" physics_material="missile" center_of_mass="0,0,0" stack_amount="15" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="arrow_emp_1_a_half" name="Needle Bodkin Arrows 100 grams Half Quiver" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.1"  appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_back_top_2" holster_position_shift="0.0,0.0,0.1" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="quiver_roman_a" holster_mesh_with_weapon="quiver_roman_a" flying_mesh="arrow_bl_flying">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" thrust_speed="0" speed_rating="0" missile_speed="100" weapon_length="97" thrust_damage="100" thrust_damage_type="Pierce" item_usage="arrow_top" physics_material="missile" center_of_mass="0,0,0" stack_amount="15" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby">
 				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>

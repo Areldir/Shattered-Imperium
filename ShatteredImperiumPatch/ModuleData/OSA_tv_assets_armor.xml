@@ -636,13 +636,13 @@
 	</Item>
 	<Item id="TV_battania_warlord_bracers_b" name="{=osa_tv_battania_warlord_bracers_b}Highland Brass Warlord Bracers" mesh="TV_battania_warlord_bracers_b" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
 		<ItemComponent>
-			<Armor arm_armor="44" modifier_group="false" material_type="Plate" covers_hands="true"/>
+			<Armor arm_armor="44" modifier_group="false" material_type="Plate" covers_hands="false"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
 	<Item id="TV_battania_warlord_bracers_c" name="{=osa_tv_battania_warlord_bracers_c}Highland Steel Warlord Bracers" mesh="TV_battania_warlord_bracers_c" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
 		<ItemComponent>
-			<Armor arm_armor="44" modifier_group="false" material_type="Plate" covers_hands="true"/>
+			<Armor arm_armor="44" modifier_group="false" material_type="Plate" covers_hands="false"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
@@ -666,7 +666,7 @@
 	</Item>
 	<Item id="TV_battania_gloves_d" name="{=osa_tv_battania_gloves_d}Highland Noble Vambraces" mesh="TV_battania_gloves_d" culture="Culture.battania" weight="0.6" appearance="3" Type="HandArmor">
 		<ItemComponent>
-			<Armor arm_armor="34" modifier_group="leather" material_type="Leather" covers_hands="true"/>
+			<Armor arm_armor="34" modifier_group="leather" material_type="Leather" covers_hands="false"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
@@ -763,7 +763,7 @@
 	</Item>
 	<Item id="tv_battania_armor_d" name="{=osa_tv_battania_armor_d}Highland Sleeveless Noble Armor" mesh="tv_battania_armor_d" culture="Culture.battania" weight="13.6" Type="BodyArmor" appearance="3" subtype="body_armor">
 		<ItemComponent>
-			<Armor body_armor="60" leg_armor="25" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+			<Armor body_armor="60" leg_armor="25" covers_body="false" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
