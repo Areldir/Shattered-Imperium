@@ -3957,7 +3957,7 @@
     </CommonAreas>
   </Settlement>
   <!-- -->
-  <Settlement id="town_V7" name="{=Settlements.Settlement.name.town_V7}Charas" owner="Faction.clan_vlandia_4" posX="176.659" posY="334.402" culture="Culture.vlandia" prosperity="3000" gate_posX="177.5801" gate_posY="338.7297" text="{=0cZmKO76}The city known today as Charas is traditionally reckoned to be the first Calradian colony on the shores of their new continent. At the Empire's height, when the capital moved north to Paravenos,  Charasea remained a key hub of sea-faring and trade, while imperial aristocrats built their summer homes on the warm shores of the nearby gulf and cruised their pleasure-boats around its islands. When the Vlandians came, Charas fell into the hands of the ruthless House of dey Cortain, and its wealth funds their ambitions.">
+  <Settlement id="town_V7" name="{=si_ar_town_V7}Charasea" owner="Faction.clan_vlandia_4" posX="176.659" posY="334.402" culture="Culture.vlandia" prosperity="3000" gate_posX="177.5801" gate_posY="338.7297" text="{=si_ar_town_V7_desc}The city of Charasea is traditionally reckoned to be the first Calradian colony on the shores of their new continent, marking the exact spot where Calradios the Great came ashore in times of old. At the Empire's height, when the capital moved north to Paravenos,  Charasea remained a key hub of sea-faring and trade, growing increasingly wealthy on trade with the Nahasa, and across the Western Sea. Despite the loss of much of the western provinces, life in Charasea goes on much as it always has. Trade continues to flow, and imperial aristocrats still maintain their summer homes on the warm shores of the nearby gulf and cruise their pleasure-boats around its islands.">
     <Components>
       <Town id="town_comp_V7" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" />
     </Components>
@@ -3977,7 +3977,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_V7_1" name="{=Settlements.Settlement.name.village_V7_1}Savinth" posX="195.25" posY="350.788" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V7_1}Savinth sits on warm, grassy plains north of the Bay of Charas. The land is fine pasture for the renowned horses of the Vlandians.">
+  <Settlement id="village_V7_1" name="{=si_ar_village_V7_1}Savinta" posX="195.25" posY="350.788" culture="Culture.vlandia" text="{=si_ar_village_V7_1_desc}Savinta sits on warm, grassy plains north of the Bay of Charasea. The land is fine pasture for the raising of horses.">
     <Components>
       <Village id="village_comp_V7_1" village_type="VillageType.vlandian_horse_ranch" hearth="680" gate_rotation="0.008" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
@@ -3990,7 +3990,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_V7_2" name="{=Settlements.Settlement.name.village_V7_2}Vesin" posX="165.403" posY="345.646" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V7_2}The village of Vesin lies by a creek running down from the Epiric Hills to the Bay of Charas. This warm land is well-suited to the growing of olive trees.">
+  <Settlement id="village_V7_2" name="{=si_ar_village_V7_2}Vesinos" posX="165.403" posY="345.646" culture="Culture.vlandia" text="{=si_ar_village_V7_2_desc}The village of Vesinos lies by a creek running down from the Epiric Hills to the Bay of Charasea. This warm land is well-suited to the growing of olive trees.">
     <Components>
       <Village id="village_comp_V7_2" village_type="VillageType.olive_trees" hearth="169" gate_rotation="0.008" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
