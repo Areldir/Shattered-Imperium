@@ -606,7 +606,7 @@
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
-			<skill id="Bow" value="100"/>
+			<skill id="Bow" value="130"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</skills>
@@ -629,7 +629,7 @@
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="180"/>
-			<skill id="Bow" value="100"/>
+			<skill id="Bow" value="180"/>
 			<skill id="Crossbow" value="80"/>
 			<skill id="Throwing" value="80"/>
 		</skills>
@@ -640,7 +640,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Cavalry Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_kan_t4_heavy_cavalry" default_group="Cavalry" level="21" name="{=si_ar_kan_t4_heavy_cavalry}Quyazic Eques Alarum" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kannic">
+	<NPCCharacter id="AR_kan_t4_heavy_cavalry" default_group="HorseArcher" level="21" name="{=si_ar_kan_t4_heavy_cavalry}Quyazic Eques Alarum" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kannic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
@@ -660,19 +660,17 @@
 		<Equipments>
 			<EquipmentSet id="AR_kan_t4_heavy_cavalry_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.t2_empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zc"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_kan_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=si_ar_kan_t5_heavy_cavalry}Quyazic Eques Scholarum" occupation="Soldier" culture="Culture.kannic">
+	<NPCCharacter id="AR_kan_t5_heavy_cavalry" default_group="HorseArcher" level="26" name="{=si_ar_kan_t5_heavy_cavalry}Quyazic Eques Scholarum" occupation="Soldier" culture="Culture.kannic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
-			<skill id="OneHanded" value="100"/>
+			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="130"/>
@@ -690,14 +688,14 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_kan_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_kan_t6_heavy_cavalry}Quyazic Eques Excubitorum" occupation="Soldier" culture="Culture.kannic">
+	<NPCCharacter id="AR_kan_t6_heavy_cavalry" default_group="HorseArcher" level="31" name="{=si_ar_kan_t6_heavy_cavalry}Quyazic Eques Excubitorum" occupation="Soldier" culture="Culture.kannic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
-			<skill id="OneHanded" value="100"/>
+			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="80"/>
 			<skill id="Bow" value="180"/>
