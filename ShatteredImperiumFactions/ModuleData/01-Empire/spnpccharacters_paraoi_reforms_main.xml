@@ -710,6 +710,142 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_a"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- QUYAZIC EMPIRE: Officers and Standard Bearers -->
+	<!-- T3 Veteran Medium Skill 40-70 -->
+	<NPCCharacter id="AR_kan_t3_veteran" default_group="Infantry" level="16" name="{=si_ar_kan_t3_veteran}Quyazic Evocatus" occupation="Soldier" is_basic_troop="true" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_kan_t5_banner_carrier"/>
+			<upgrade_target id="NPCCharacter.AR_kan_t5_officer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t3_veteran_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Officer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_kan_t5_officer" default_group="Infantry" level="26" name="{=si_ar_kan_t5_officer}Quyazic Optio" occupation="Soldier" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_kan_t7_officer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t5_officer_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T7 Officer Very Heavy Skill 100-230 -->
+	<NPCCharacter id="AR_kan_t7_officer" default_group="Infantry" level="36" name="{=si_ar_kan_t7_officer}Quyazic Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="230"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t7_officer_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_kan_t5_banner_carrier" default_group="Infantry" level="26" name="{=si_ar_kan_t5_banner_carrier}Quyazic Signifier" occupation="Soldier" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_kan_t7_banner_carrier"/>
+			<upgrade_target id="NPCCharacter.AR_kan_t7_banner_carrier_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t5_banner_carrier_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T7 Standard Bearer Very Heavy Skill 100-230 -->
+	<NPCCharacter id="AR_kan_t7_banner_carrier" default_group="Infantry" level="36" name="{=si_ar_kan_t7_banner_carrier}Quyazic Draconarius" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t7_banner_carrier_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
+	<NPCCharacter id="AR_kan_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=si_ar_kan_t7_banner_carrier_cav}Quyazic Draconarius Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="230"/>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t7_banner_carrier_cav_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
 	<!-- QUYAZIC EMPIRE: Caravans -->
 	<!-- T5 Quyazic Caravan Master Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_kan_caravan_master" default_group="Infantry" level="26" name="{=TpECDErA}Quyazic Caravan Master" occupation="CaravanGuard" culture="Culture.kannic">
