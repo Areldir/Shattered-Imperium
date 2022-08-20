@@ -5,7 +5,7 @@
 	<!-- Short sling will throw 80 gram bullet at 45 m/s and scale other weight accordingly, lighter bullets being less efficient than the heavy ones -->
 	<Item id="AR_sling_a" name="{=osa_ar_sling_a}Sling" body_name="bo_mace_a" mesh="AR_sling_a" weight="0.1" difficulty="0" appearance="1" is_merchandise="true" culture="Culture.empire" Type="Crossbow" AmmoOffset="0.0, 0.0, 0.0" item_holsters="sword_left_hip" holster_position_shift="0.0,0.0,0.0">
 		<ItemComponent>
-			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="180" speed_rating="94" missile_speed="45" weapon_length="86" accuracy="76" thrust_damage="100" thrust_damage_type="Pierce" item_usage="osa_sling" physics_material="wood_weapon" center_of_mass="0.0,0,0" item_modifier_group="crossbow">
+			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="180" speed_rating="94" missile_speed="45" weapon_length="86" accuracy="86" thrust_damage="100" thrust_damage_type="Pierce" item_usage="osa_sling" physics_material="wood_weapon" center_of_mass="0.0,0,0" item_modifier_group="crossbow">
 				<WeaponFlags RangedWeapon="true" HasString="true" UnloadWhenSheathed="true" UseHandAsThrowBase="true" CantReloadOnHorseback="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -14,7 +14,7 @@
 	<!-- Longer sling will throw 80 gram bullet at 60 m/s and scale other weight accordingly, lighter bullets being less efficient than the heavy ones -->
 	<Item id="AR_sling_b" name="{=osa_ar_sling_b}Long Sling" body_name="bo_mace_a" mesh="AR_sling_b" weight="0.12" difficulty="50" appearance="1" is_merchandise="true" culture="Culture.empire" Type="Crossbow" AmmoOffset="0.0, 0.0, 0.0" item_holsters="sword_left_hip" holster_position_shift="0.0,0.0,0.0">
 		<ItemComponent>
-			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="180" speed_rating="94" missile_speed="60" weapon_length="106" accuracy="80" thrust_damage="100" thrust_damage_type="Pierce" item_usage="osa_sling" physics_material="wood_weapon" center_of_mass="0.0,0,0" item_modifier_group="crossbow">
+			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="180" speed_rating="94" missile_speed="60" weapon_length="106" accuracy="90" thrust_damage="100" thrust_damage_type="Pierce" item_usage="osa_sling" physics_material="wood_weapon" center_of_mass="0.0,0,0" item_modifier_group="crossbow">
 				<WeaponFlags RangedWeapon="true" HasString="true" UnloadWhenSheathed="true" UseHandAsThrowBase="true" CantReloadOnHorseback="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" AutoReload="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -24,7 +24,7 @@
 	<!-- Blunt "arrows and darts" in RBM will deal momentum (weight * speed) instead of kinetic energy (weight * speed * speed * 0.5), so 0.080 kilogram projectile at 60 m/s = 4.8 base damage, so I recommend thrust damage of 500+ on the ammo, which will result in 500% damage -->
 	<Item id="AR_sling_bullets_a" name="{=osa_ar_sling_bullets_a}Clay Sling Bullets 35 grams" value="1200" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_a" holster_mesh_with_weapon="stone_holster" weight="0.035" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="800" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="180" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -32,7 +32,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_a1" name="{=osa_ar_sling_bullets_a1}Clay Sling Bullets 50 grams" value="1500" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_a" holster_mesh_with_weapon="stone_holster" weight="0.050" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1000" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="200" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -40,7 +40,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_a2" name="{=osa_ar_sling_bullets_a2}Clay Sling Bullets 80 grams" value="1700" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_a" holster_mesh_with_weapon="stone_holster" weight="0.080" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1100" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="210" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -48,7 +48,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_b" name="{=osa_ar_sling_bullets_b}Stone Sling Bullets 35 grams" value="1800" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_b" holster_mesh_with_weapon="stone_holster" weight="0.035" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1200" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="220" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -56,7 +56,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_b1" name="{=osa_ar_sling_bullets_b1}Stone Sling Bullets 50 grams" value="2100" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_b" holster_mesh_with_weapon="stone_holster" weight="0.050" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1300" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="230" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -64,7 +64,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_b2" name="{=osa_ar_sling_bullets_b2}Stone Sling Bullets 80 grams" value="2400" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_b" holster_mesh_with_weapon="stone_holster" weight="0.080" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1400" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="240" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -73,7 +73,7 @@
 	<!-- Short range high weight "bullets" famously used by balearic slingers -->
 	<Item id="AR_sling_bullets_b3" name="{=osa_ar_sling_bullets_b3}Stone Sling Bullets 150 grams" value="2900" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_b" holster_mesh_with_weapon="stone_holster" weight="0.15" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1200" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="220" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -81,7 +81,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_b4" name="{=osa_ar_sling_bullets_b4}Stone Sling Bullets 250 grams" value="3200" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_b" holster_mesh_with_weapon="stone_holster" weight="0.25" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1300" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="230" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -89,7 +89,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_b5" name="{=osa_ar_sling_bullets_b5}Stone Sling Bullets 400 grams" value="3600" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_b" holster_mesh_with_weapon="stone_holster" weight="0.40" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1400" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="40" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="240" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -98,7 +98,7 @@
 	<!-- Lead bullets, expensive hence only in range of 35-50 grams -->
 	<Item id="AR_sling_bullets_c" name="{=osa_ar_sling_bullets_c}Lead Sling Bullets 35 grams" value="3600" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_c" holster_mesh_with_weapon="stone_holster" weight="0.035" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="32" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1500" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="32" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="250" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -106,7 +106,7 @@
 	</Item>
 	<Item id="AR_sling_bullets_c1" name="{=osa_ar_sling_bullets_c1}Lead Sling Bullets 50 grams" value="3800" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" mesh="torch_flame_base" holster_mesh="stone_holster" flying_mesh="AR_sling_bullets_c" holster_mesh_with_weapon="stone_holster" weight="0.050" difficulty="0" appearance="1" Type="Bolts" is_merchandise="true" item_holsters="throwing_stone:throwing_stone_2">
 		<ItemComponent>
-			<Weapon weapon_class="Bolt" stack_amount="32" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="1500" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
+			<Weapon weapon_class="Bolt" stack_amount="32" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="67" thrust_damage="250" thrust_damage_type="Blunt" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0.0,0.0" item_modifier_group="bolt">
 				<WeaponFlags Consumable="true" CanKnockDown="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
