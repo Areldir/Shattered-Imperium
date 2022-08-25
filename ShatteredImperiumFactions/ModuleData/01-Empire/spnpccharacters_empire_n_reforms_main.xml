@@ -786,7 +786,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_n_emp_t5_banner_carrier" default_group="Infantry" level="26" name="{=si_ar_n_emp_t5_banner_carrier}E. Calradian Signifier" occupation="Soldier" culture="Culture.empire_n">
+	<NPCCharacter id="AR_n_emp_t5_banner_carrier" default_group="Infantry" level="26" name="{=si_ar_n_emp_t5_banner_carrier}E. Calradian Signifer" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
 		</face>
@@ -963,7 +963,7 @@
 			<EquipmentSet id="AR_n_emp_prison_guard_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_w" name="{=guardnoun}Guard" is_hidden_encyclopedia="true">
+	<NPCCharacter id="AR_n_emp_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_n" name="{=si_ar_n_emp_guard}Guard" is_hidden_encyclopedia="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -1007,7 +1007,7 @@
 			<EquipmentSet id="AR_n_emp_village_woman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_n_emp_townsman}E. Calradian Civis Urbani" occupation="Townsfolk" culture="Culture.empire">
+	<NPCCharacter id="AR_n_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_n_emp_townsman}E. Calradian Civis Urbani" occupation="Townsfolk" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1026,7 +1026,7 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_n_emp_townswoman}E. Calradian Femina Urbani" occupation="Townsfolk" culture="Culture.empire">
+	<NPCCharacter id="AR_n_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_n_emp_townswoman}E. Calradian Femina Urbani" occupation="Townsfolk" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -1043,6 +1043,97 @@
 		<Equipments>
 			<EquipmentSet id="AR_n_emp_village_woman_battletemplate"/>
 			<EquipmentSet id="AR_s_emp_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.empire_n" name="{=cte0zSCz}Empire Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.empire_n" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.empire_n" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_weaponsmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.empire_n" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_armorer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_horsemerchant_empire" default_group="Infantry" occupation="HorseTrader" culture="Culture.empire_n" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.empire_n" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.empire_n" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_barber_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

@@ -3080,7 +3080,7 @@
 				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<Equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
 				<Equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth"/>
+				<Equipment slot="Head" id="Item.merchants_hat"/>
 				<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
@@ -3102,7 +3102,7 @@
 				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<Equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
 				<Equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth"/>
+				<Equipment slot="Head" id="Item.merchants_hat"/>
 				<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
@@ -3125,16 +3125,14 @@
 				<Equipment slot="Item0" id="Item.crossbow_a"/>
 				<Equipment slot="Item1" id="Item.bolt_e"/>
 				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-				<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
+				<Equipment slot="Body" id="Item.footmans_tunic"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Cape" id="Item.ao_focale"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Body" id="Item.footmans_tunic"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 			</EquipmentSet>
 		</xsl:copy>
@@ -3146,17 +3144,15 @@
 				<Equipment slot="Item0" id="Item.crossbow_a"/>
 				<Equipment slot="Item1" id="Item.bolt_e"/>
 				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
-				<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
+				<Equipment slot="Body" id="Item.footmans_tunic"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Cape" id="Item.ao_focale"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
-				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>

@@ -780,7 +780,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Standard Bearer Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_kan_t5_banner_carrier" default_group="Infantry" level="26" name="{=si_ar_kan_t5_banner_carrier}Quyazic Signifier" occupation="Soldier" culture="Culture.kannic">
+	<NPCCharacter id="AR_kan_t5_banner_carrier" default_group="Infantry" level="26" name="{=si_ar_kan_t5_banner_carrier}Quyazic Signifer" occupation="Soldier" culture="Culture.kannic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran_kannic"/>
 		</face>
@@ -845,59 +845,9 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-
 	<!-- QUYAZIC EMPIRE: Caravans -->
-	<!-- T5 Quyazic Caravan Master Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_kan_caravan_master" default_group="Infantry" level="26" name="{=TpECDErA}Quyazic Caravan Master" occupation="CaravanGuard" culture="Culture.kannic">
-		<face>
-			<face_key_template value="BodyProperty.fighter_kannic"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="130"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="60"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.empire_horseman_armor"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
-				<equipment slot="Body" id="Item.empire_horseman_armor"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<!-- T3 Quyazic Armed Trader Light Skill 40-70 -->
-	<NPCCharacter id="AR_kan_armed_trader" default_group="Ranged" level="16" name="{=LEJukldW}Quyazic Armed Trader" occupation="CaravanGuard" culture="Culture.kannic" is_basic_troop="true">
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_kan_armed_trader" default_group="Ranged" level="16" name="{=si_ar_kan_armed_trader}Quyazic Mercator Armatus" occupation="CaravanGuard" culture="Culture.kannic" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
@@ -906,64 +856,19 @@
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="70"/>
-			<skill id="Crossbow" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
 			<skill id="Throwing" value="40"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
-				<equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
-				<equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
-				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Head" id="Item.imperial_leather_coif"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.range_arrows"/>
-				<equipment slot="Item2" id="Item.battania_mace_1_t2"/>
-				<equipment slot="Body" id="Item.footmans_tunic"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-				<equipment slot="Head" id="Item.AR_hat_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.range_arrows"/>
-				<equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
-				<equipment slot="Body" id="Item.footmans_tunic"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.range_arrows"/>
-				<equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
-				<equipment slot="Body" id="Item.footmans_tunic"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-				<equipment slot="Head" id="Item.imperial_leather_coif"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
-				<equipment slot="Item1" id="Item.range_arrows"/>
-				<equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
-				<equipment slot="Body" id="Item.footmans_tunic"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-			</EquipmentRoster>
+			<EquipmentSet id="AR_kan_armed_trader_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Quyazic Caravan Cavalry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_kan_caravan_guard" default_group="Cavalry" level="21" name="{=TbBnWiao}Quyazic Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.kannic">
+	<!-- T4 Caravan Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_kan_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_kan_caravan_guard}Quyazic Protector Commeatuum" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.kannic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
@@ -979,57 +884,14 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Item2" id="Item.empire_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_padded_coif"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Item2" id="Item.empire_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Item2" id="Item.empire_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_mail_coif"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_leather"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Item2" id="Item.empire_oval_shield"/>
-				<equipment slot="Head" id="Item.AR_hat_b"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_leather"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
-				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
-				<equipment slot="Item2" id="Item.empire_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<equipment slot="Body" id="Item.legionary_mail"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.padded_mitten"/>
-			</EquipmentRoster>
-			<equipment slot="Horse" id="Item.empire_horse"/>
+			<EquipmentSet id="AR_kan_caravan_guard_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_empire_horse"/>
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Quyazic Caravan Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_kan_vet_caravan_guard" default_group="Cavalry" level="26" name="{=bLq2HXMo}Quyazic Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.kannic">
+	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_kan_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_kan_vet_caravan_guard}Quyazic Protector Armatus Commeatuum" occupation="CaravanGuard" culture="Culture.kannic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
@@ -1045,53 +907,212 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
-				<equipment slot="Item1" id="Item.empire_sword_5_t4"/>
-				<equipment slot="Item2" id="Item.empire_reinforced_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_mail_coif"/>
-				<equipment slot="Body" id="Item.empire_horseman_armor"/>
-				<equipment slot="Leg" id="Item.leather_shoes"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
-				<equipment slot="Item1" id="Item.empire_sword_5_t4"/>
-				<equipment slot="Item2" id="Item.empire_reinforced_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<equipment slot="Body" id="Item.imperial_lamellar_over_leather"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
-				<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
-				<equipment slot="Item2" id="Item.empire_reinforced_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_padded_coif"/>
-				<equipment slot="Body" id="Item.AR_empire_horseman_armor"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
-				<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
-				<equipment slot="Item2" id="Item.empire_reinforced_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_padded_coif"/>
-				<equipment slot="Body" id="Item.imperial_lamellar_over_leather"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
-				<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
-				<equipment slot="Item2" id="Item.empire_reinforced_oval_shield"/>
-				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<equipment slot="Body" id="Item.imperial_lamellar_over_leather"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
+			<EquipmentSet id="AR_kan_vet_caravan_guard_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Master Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_kan_caravan_master" default_group="Cavalry" level="26" name="{=si_ar_kan_caravan_master}Quyazic Dominus Commeatuum" occupation="CaravanGuard" culture="Culture.kannic" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_kan_caravan_master_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 			<equipment slot="Horse" id="Item.empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- QUYAZIC EMPIRE: Guards -->
+	<NPCCharacter id="AR_kan_prison_guard" default_group="Infantry" level="21" culture="Culture.kannic" occupation="PrisonGuard" name="{=si_ar_kan_prison_guard}Quyazic Protector Carceris">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_kan_t4_spearman_battletemplate"/>
+			<EquipmentSet id="AR_kan_prison_guard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.kannic" name="{=si_ar_kan_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_w_emp_t4_spearman_battletemplate"/>
+			<EquipmentSet id="AR_w_emp_prison_guard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- QUYAZIC EMPIRE: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_kan_village_woman" default_group="Infantry" level="6" name="{=si_ar_kan_village_woman}Quyazic Femina" occupation="Villager" culture="Culture.kannic" is_basic_troop="true" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_kan_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_kan_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_townsman" default_group="Infantry" level="1" name="{=si_ar_kan_townsman}Quyazic Civis Urbani" occupation="Townsfolk" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_kan_villager_battletemplate"/>
+			<EquipmentSet id="AR_kan_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	
+	
+	<NPCCharacter id="AR_kan_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.kannic" name="{=cte0zSCz}Empire Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.kannic" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.kannic" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_weaponsmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.kannic" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_armorer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_horsemerchant_empire" default_group="Infantry" occupation="HorseTrader" culture="Culture.kannic" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.kannic" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.kannic" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_barber_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>  
