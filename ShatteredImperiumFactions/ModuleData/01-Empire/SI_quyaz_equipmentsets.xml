@@ -3417,6 +3417,7 @@
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 			<Equipment slot="Cape" id="Item.female_scarf"/>
+			<Equipment slot="Head" id="Item.headscarf_c"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
@@ -3436,6 +3437,7 @@
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.head_wrapped"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
@@ -3450,6 +3452,7 @@
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Cape" id="Item.female_scarf"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
@@ -3472,14 +3475,17 @@
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.headscarf_c"/>
 		</EquipmentSet>
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.vlandian_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.head_wrapped"/>
 		</EquipmentSet>
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.empire_dress_b"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.head_scarf"/>
 		</EquipmentSet>
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.plain_dress"/>
@@ -3500,12 +3506,13 @@
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Cape" id="Item.female_scarf"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			<Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+			<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 		</EquipmentSet>
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.vlandian_dress"/>
 			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
 		</EquipmentSet>
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.empire_dress_b"/>
@@ -3590,6 +3597,53 @@
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
 			<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_kan_townswoman_civiliantemplate" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.dress_with_overall"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.laced_dress"/>
+			<Equipment slot="Cape" id="Item.southern_shawl"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.head_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_dress"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.empire_dress_b"/>
+			<Equipment slot="Cape" id="Item.female_scarf"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.plain_dress"/>
+			<Equipment slot="Cape" id="Item.AR_aserai_scarf_a"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.dress_with_overall"/>
+			<Equipment slot="Cape" id="Item.female_scarf"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.laced_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 </EquipmentRosters>
