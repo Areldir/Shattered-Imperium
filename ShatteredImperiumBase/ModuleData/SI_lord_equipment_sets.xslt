@@ -3122,9 +3122,9 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.crossbow_a"/>
-				<Equipment slot="Item1" id="Item.bolt_e"/>
-				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Item0" id="Item.AR_sling_a"/>
+				<Equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<Equipment slot="Item3" id="Item.AR_imperial_axe_t2"/>
 				<Equipment slot="Body" id="Item.footmans_tunic"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
@@ -3141,9 +3141,9 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.crossbow_a"/>
-				<Equipment slot="Item1" id="Item.bolt_e"/>
-				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Item0" id="Item.AR_sling_a"/>
+				<Equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<Equipment slot="Item3" id="Item.AR_imperial_axe_t2"/>
 				<Equipment slot="Body" id="Item.footmans_tunic"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
@@ -3173,7 +3173,6 @@
 				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -3197,11 +3196,10 @@
 				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
-				<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
