@@ -2,7 +2,7 @@
 <NPCCharacters>
 	<!-- WESTERN CALRADIAN EMPIRE: Levy Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_w_emp_villager" default_group="Infantry" level="6" name="{=si_ar_w_emp_villager}W. Calradian Civis" occupation="Villager" culture="Culture.empire_w" is_basic_troop="true">
+	<NPCCharacter id="AR_w_emp_villager" default_group="Infantry" level="6" name="{=si_ar_w_emp_villager}W. Calradian Citizen" occupation="Villager" culture="Culture.empire_w" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -26,7 +26,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Spear Infantry Light Skill 20-40 -->
-	<NPCCharacter id="AR_w_emp_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_w_emp_t2_spearman}W. Calradian Pedes Limitis" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_w_emp_t2_spearman}W. Calradian Border Footman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -49,7 +49,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Spear Infantry Skill Medium 40-70 -->
-	<NPCCharacter id="AR_w_emp_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_w_emp_t3_spearman}W. Calradian Contarius Limitaneorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_w_emp_t3_spearman}W. Calradian Borderguard" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -72,7 +72,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Spear Infantry Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_w_emp_t4_spearman}W. Calradian Contarius Armatus Limitaneorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_w_emp_t4_spearman}W. Calradian Veteran Borderguard" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -95,7 +95,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Spear Infantry Very Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_w_emp_t5_spearman}W. Calradian Protector Domestici" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_w_emp_t5_spearman}W. Calradian City Guardsman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -116,7 +116,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Archer Medium Skill 20-40 -->
-	<NPCCharacter id="AR_w_emp_t2_archer" default_group="Ranged" level="11" name="{=si_ar_w_emp_t2_archer}W. Calradian Expeditus Limitis" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t2_archer" default_group="Ranged" level="11" name="{=si_ar_w_emp_t2_archer}W. Calradian Border Hunter" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -139,7 +139,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Archer Medium Skill 40-70 -->
-	<NPCCharacter id="AR_w_emp_t3_archer" default_group="Ranged" level="16" name="{=si_ar_w_emp_t3_archer}W. Calradian Sagittarius Levis" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t3_archer" default_group="Ranged" level="16" name="{=si_ar_w_emp_t3_archer}W. Calradian Archer" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -162,7 +162,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Archer Medium Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_archer" default_group="Ranged" level="21" name="{=si_ar_w_emp_t4_archer}W. Calradian Sagittarius Armatus" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_archer" default_group="Ranged" level="21" name="{=si_ar_w_emp_t4_archer}W. Calradian Veteran Archer" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -185,7 +185,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Archer Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_archer" default_group="Ranged" level="26" name="{=si_ar_w_emp_t5_archer}W. Calradian Sagittarius Domestici" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_archer" default_group="Ranged" level="26" name="{=si_ar_w_emp_t5_archer}W. Calradian City Guardsman Archer" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -207,7 +207,7 @@
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Field Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_w_emp_recruit" default_group="Infantry" level="6" name="{=si_ar_w_emp_recruit}W. Calradian Tiro" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_recruit" default_group="Infantry" level="6" name="{=si_ar_w_emp_recruit}W. Calradian Recruit" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -231,7 +231,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Sword Infantry Light Skill 20-40 -->
-	<NPCCharacter id="AR_w_emp_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_s_t2_swordsman}W. Calradian Pedes Militum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_s_t2_swordsman}W. Calradian Footman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -254,7 +254,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Sword Infantry Medium Skill 40-70 -->
-	<NPCCharacter id="AR_w_emp_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_s_t3_swordsman}W. Calradian Miles Legionum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_s_t3_swordsman}W. Calradian Legionary Swordsman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -277,7 +277,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_s_t4_swordsman}W. Calradian Comitatensis Juniorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_s_t4_swordsman}W. Calradian Junior Comitatensis" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -300,7 +300,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_s_t5_swordsman}W. Calradian Comitatensis Seniorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_s_t5_swordsman}W. Calradian Senior Comitatensis" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -323,7 +323,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Sword Infantry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_w_emp_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_s_t6_swordsman}W. Calradian Antesignanus Palatini" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_s_t6_swordsman}W. Calradian Palatine Legionary" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -344,7 +344,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Skirmisher Light Skill 20-40 -->
-	<NPCCharacter id="AR_w_emp_t2_skirmisher" default_group="Ranged" level="11" name="{=si_ar_s_t2_skirmisher}W. Calradian Levis Armatura" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t2_skirmisher" default_group="Ranged" level="11" name="{=si_ar_s_t2_skirmisher}W. Calradian Scout" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -367,7 +367,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Skirmisher Light Skill 40-70 -->
-	<NPCCharacter id="AR_w_emp_t3_skirmisher" default_group="Ranged" level="16" name="{=si_ar_s_t3_skirmisher}W. Calradian Explorator" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t3_skirmisher" default_group="Ranged" level="16" name="{=si_ar_s_t3_skirmisher}W. Calradian Javelinman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -391,7 +391,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Skirmisher Medium Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_skirmisher" default_group="Ranged" level="21" name="{=si_ar_s_t4_skirmisher}W. Calradian Lanciarius Juniorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_skirmisher" default_group="Ranged" level="21" name="{=si_ar_s_t4_skirmisher}W. Calradian Junior Skirmisher" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -414,7 +414,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Skirmisher Medium Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_skirmisher" default_group="Ranged" level="26" name="{=si_ar_s_t5_skirmisher}W. Calradian Lanciarius Seniorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_skirmisher" default_group="Ranged" level="26" name="{=si_ar_s_t5_skirmisher}W. Calradian Senior Skirmisher" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -437,7 +437,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Skirmisher Medium Skill 80-180 -->
-	<NPCCharacter id="AR_w_emp_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_s_t6_skirmisher}W. Calradian Matiarius Palatini" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_s_t6_skirmisher}W. Calradian Palatine Skirmisher" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -458,7 +458,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Crossbowman Medium Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_crossbowman" default_group="Ranged" level="21" name="{=si_ar_w_emp_t4_crossbowman}W. Calradian Ballistarius" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_crossbowman" default_group="Ranged" level="21" name="{=si_ar_w_emp_t4_crossbowman}W. Calradian Crossbowman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -481,7 +481,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Crossbowman Medium Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_crossbowman" default_group="Ranged" level="26" name="{=si_ar_w_emp_t5_crossbowman}W. Calradian Ballistarius Armatus" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_crossbowman" default_group="Ranged" level="26" name="{=si_ar_w_emp_t5_crossbowman}W. Calradian Veteran Crossbowman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -504,7 +504,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Crossbowman Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_w_emp_t6_crossbowman" default_group="Ranged" level="31" name="{=si_ar_w_emp_t6_crossbowman}W. Calradian Ballistarius Palatini" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t6_crossbowman" default_group="Ranged" level="31" name="{=si_ar_w_emp_t6_crossbowman}W. Calradian Palatine Crossbowman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -526,7 +526,7 @@
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Noble Troops -->
 	<!-- Recruit Cavalry Medium Skill 20-40 -->
-	<NPCCharacter id="AR_w_emp_cavalry_recruit" default_group="Cavalry" level="11" name="{=si_ar_w_emp_cavalry_recruit}W. Calradian Explorator Equester" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_cavalry_recruit" default_group="Cavalry" level="11" name="{=si_ar_w_emp_cavalry_recruit}W. Calradian Scout Equite" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -551,7 +551,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Cavalry Medium Skill 40-70 -->
-	<NPCCharacter id="AR_w_emp_t3_cavalry" default_group="Cavalry" level="16" name="{=si_ar_w_emp_t3_cavalry}W. Calradian Eques" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t3_cavalry" default_group="Cavalry" level="16" name="{=si_ar_w_emp_t3_cavalry}W. Calradian Equite Horseman" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -577,7 +577,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Cavalry Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_lance_cavalry" default_group="Cavalry" level="21" name="{=si_ar_w_emp_t4_lance_cavalry}W. Calradian Eques Contariorum" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_lance_cavalry" default_group="Cavalry" level="21" name="{=si_ar_w_emp_t4_lance_cavalry}W. Calradian Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -600,7 +600,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Cavalry Skill Very Heavy 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_lance_cavalry" default_group="Cavalry" level="26" name="{=si_ar_w_emp_t5_lance_cavalry}W. Calradian Eques Cataphractariorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_lance_cavalry" default_group="Cavalry" level="26" name="{=si_ar_w_emp_t5_lance_cavalry}W. Calradian Cataphract" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -623,7 +623,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_w_emp_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=si_ar_w_emp_t6_lance_cavalry}W. Calradian Eques Clibanariorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=si_ar_w_emp_t6_lance_cavalry}W. Calradian Elite Cataphract" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -644,7 +644,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Cavalry Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_t4_heavy_cavalry" default_group="Cavalry" level="21" name="{=si_ar_w_emp_t4_heavy_cavalry}W. Calradian Eques Alarum" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t4_heavy_cavalry" default_group="Cavalry" level="21" name="{=si_ar_w_emp_t4_heavy_cavalry}W. Calradian Flanker" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -669,7 +669,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=si_ar_w_emp_t5_heavy_cavalry}W. Calradian Eques Scholarum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=si_ar_w_emp_t5_heavy_cavalry}W. Calradian Veteran Flanker" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -694,7 +694,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_w_emp_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_w_emp_t6_heavy_cavalry}W. Calradian Eques Excubitorum" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_w_emp_t6_heavy_cavalry}W. Calradian Horseguard" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -718,7 +718,7 @@
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Officers and Standard Bearers -->
 	<!-- T3 Veteran Medium Skill 40-70 -->
-	<NPCCharacter id="AR_w_emp_t3_veteran" default_group="Infantry" level="16" name="{=si_ar_w_emp_t3_veteran}W. Calradian Evocatus" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t3_veteran" default_group="Infantry" level="16" name="{=si_ar_w_emp_t3_veteran}W. Calradian Veteran" occupation="Soldier" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
 		</face>
@@ -765,7 +765,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T7 Officer Very Heavy Skill 100-230 -->
-	<NPCCharacter id="AR_w_emp_t7_officer" default_group="Infantry" level="36" name="{=si_ar_w_emp_t7_officer}W. Calradian Centurio" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t7_officer" default_group="Infantry" level="36" name="{=si_ar_w_emp_t7_officer}W. Calradian Centurion" upgrade_requires="ItemCategory.linen" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
 		</face>
@@ -831,7 +831,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T7 Cavalry Standard Bearer Very Heavy Skill 100-230 -->
-	<NPCCharacter id="AR_w_emp_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=si_ar_w_emp_t7_banner_carrier_cav}W. Calradian Aquilifer Equester" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_t7_banner_carrier_cav" default_group="Cavalry" level="36" name="{=si_ar_w_emp_t7_banner_carrier_cav}W. Calradian Mounted Aquilifer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_veteran"/>
 		</face>
@@ -853,7 +853,7 @@
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Caravans -->
 	<!-- T3 Armed Trader Light Skill 40-70 -->
-	<NPCCharacter id="AR_w_emp_armed_trader" default_group="Ranged" level="16" name="{=si_ar_w_emp_armed_trader}W. Calradian Mercator Armatus" occupation="CaravanGuard" culture="Culture.empire_w" is_basic_troop="true">
+	<NPCCharacter id="AR_w_emp_armed_trader" default_group="Ranged" level="16" name="{=si_ar_w_emp_armed_trader}W. Calradian Armed Trader" occupation="CaravanGuard" culture="Culture.empire_w" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -874,7 +874,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Caravan Cavalry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_w_emp_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_w_emp_caravan_guard}W. Calradian Protector Commeatuum" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_w_emp_caravan_guard}W. Calradian Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -897,7 +897,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_w_emp_vet_caravan_guard}W. Calradian Protector Armatus Commeatuum" occupation="CaravanGuard" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_w_emp_vet_caravan_guard}W. Calradian Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -920,7 +920,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Caravan Master Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_w_emp_caravan_master" default_group="Cavalry" level="26" name="{=si_ar_w_emp_caravan_master}W. Calradian Dominus Commeatuum" occupation="CaravanGuard" culture="Culture.empire_w" is_basic_troop="true">
+	<NPCCharacter id="AR_w_emp_caravan_master" default_group="Cavalry" level="26" name="{=si_ar_w_emp_caravan_master}W. Calradian Caravan Master" occupation="CaravanGuard" culture="Culture.empire_w" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -943,7 +943,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Guards -->
-	<NPCCharacter id="AR_w_emp_prison_guard" default_group="Infantry" level="21" culture="Culture.empire_w" occupation="PrisonGuard" name="{=si_ar_w_emp_prison_guard}W. Calradian Protector Carceris">
+	<NPCCharacter id="AR_w_emp_prison_guard" default_group="Infantry" level="21" culture="Culture.empire_w" occupation="PrisonGuard" name="{=si_ar_w_emp_prison_guard}W. Calradian Prison Guard">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -985,7 +985,7 @@
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Civilians -->
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_w_emp_village_woman" default_group="Infantry" level="6" name="{=si_ar_w_emp_village_woman}W. Calradian Femina" occupation="Villager" culture="Culture.empire_w" is_basic_troop="true" is_female="true">
+	<NPCCharacter id="AR_w_emp_village_woman" default_group="Infantry" level="6" name="{=si_ar_w_emp_village_woman}Calradian Citizen" occupation="Villager" culture="Culture.empire_w" is_basic_troop="true" is_female="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1061,7 +1061,7 @@
 			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_w_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_w_emp_townsman}W. Calradian Civis Urbani" occupation="Townsfolk" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_w_emp_townsman}Calradian Citizen" occupation="Townsfolk" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1080,7 +1080,7 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_w_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_w_emp_townswoman}W. Calradian Femina Urbani" occupation="Townsfolk" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_w_emp_townswoman}Calradian Citizen" occupation="Townsfolk" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
