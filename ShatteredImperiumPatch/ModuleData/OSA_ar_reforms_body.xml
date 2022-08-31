@@ -74,6 +74,18 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="AR_aserai_armor_k" name="{=osa_ar_aserai_armor_k}Southern Leather Vest Over Kaftan" mesh="AR_aserai_armor_k" culture="Culture.aserai" weight="3.1" Type="BodyArmor" appearance="1.3">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="11" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="5"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_l" name="{=osa_ar_aserai_armor_l}Southern Heavy Leather Vest Over Kaftan" mesh="AR_aserai_armor_l" culture="Culture.aserai" weight="3.1" Type="BodyArmor" appearance="1.3">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="20" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="18"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
 	<Item id="AR_aserai_lamellar_a" name="{=osa_ar_aserai_lamellar_a}Southern Lamellar Armor Over Padded Mail" mesh="AR_aserai_lamellar_a" culture="Culture.aserai" weight="16.5" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
 		<ItemComponent>
 			<Armor body_armor="72" leg_armor="34" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="50"/>

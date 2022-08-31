@@ -188,6 +188,18 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="AR_aserai_shoulder_v" name="{=osa_ar_aserai_shoulder_v}Southern Patterned Cloth Pauldrons" mesh="AR_aserai_shoulder_v" culture="Culture.aserai" weight="2" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_shoulder_v2" name="{=osa_ar_aserai_shoulder_v2}Southern Cloth Pauldrons" mesh="AR_aserai_shoulder_v2" culture="Culture.aserai" weight="2" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
 	<Item id="AR_battanian_shoulder_a" name="{=osa_ar_battanian_shoulder_a}Highland Scale Shoulders" mesh="AR_battanian_shoulder_a" culture="Culture.battania" weight="4.5" appearance="1.8" Type="Cape" subtype="body_armor">
 		<ItemComponent>
 			<Armor body_armor="34" modifier_group="plate" material_type="Plate"/>
@@ -350,7 +362,25 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
+	<Item id="AR_imperial_shoulders_e3" name="{=osa_ar_imperial_shoulders_e3}Imperial Lamellar Shoulders With Snow Leopard Pelt" mesh="AR_imperial_shoulders_e3" culture="Culture.empire" weight="4.8" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="AR_imperial_shoulders_e4" name="{=osa_ar_imperial_shoulders_e4}Imperial Gilded Lamellar Shoulders With Snow Leopard Pelt" mesh="AR_imperial_shoulders_e4" culture="Culture.empire" weight="4.8" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
 	<Item id="AR_imperial_shoulders_f" name="{=osa_ar_imperial_shoulders_f}Imperial Lamellar Pauldrons With Leopard Pelt" mesh="AR_imperial_shoulders_f" culture="Culture.empire" weight="4.6" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="36" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="AR_imperial_shoulders_f2" name="{=osa_ar_imperial_shoulders_f2}Imperial Lamellar Pauldrons With Snow Leopard Pelt" mesh="AR_imperial_shoulders_f2" culture="Culture.empire" weight="4.6" appearance="1" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="36" modifier_group="plate" material_type="Plate" arm_armor="0"/>
 		</ItemComponent>
@@ -381,6 +411,18 @@
 		<Flags/>
 	</Item>
 	<Item id="AR_imperial_shoulders_k" name="{=osa_ar_imperial_shoulders_k}Studded Iron Imperial Neckguard With Leopard Pelt" mesh="AR_imperial_shoulders_k" culture="Culture.empire" weight="3.8" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="31" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="AR_imperial_shoulders_j2" name="{=osa_ar_imperial_shoulders_j2}Studded Brass Imperial Neckguard With Snow Leopard Pelt" mesh="AR_imperial_shoulders_j2" culture="Culture.empire" weight="3.8" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="31" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="AR_imperial_shoulders_k2" name="{=osa_ar_imperial_shoulders_k2}Studded Iron Imperial Neckguard With Snow Leopard Pelt" mesh="AR_imperial_shoulders_k2" culture="Culture.empire" weight="3.8" appearance="2" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="31" modifier_group="plate" material_type="Plate" arm_armor="0"/>
 		</ItemComponent>
@@ -541,6 +583,12 @@
 			<Armor body_armor="26" modifier_group="leather" material_type="Leather" arm_armor="0"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_leopard_pelt_a" name="{=osa_ar_leopard_pelt_a}Snow Leopard Pelt" mesh="AR_leopard_pelt_a" culture="Culture.empire" weight="2" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="13" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
 	</Item>
 	<Item id="AR_lion_head_a" name="{=osa_ar_lion_head_a}Lion Head Cloak" mesh="AR_lion_head_a" culture="Culture.empire" weight="6.0" appearance="3" Type="Cape">
 		<ItemComponent>
