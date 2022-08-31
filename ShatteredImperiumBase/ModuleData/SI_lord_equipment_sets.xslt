@@ -2413,21 +2413,20 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-				<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<Equipment slot="Item2" id="Item.aserai_lance_1_t3"/>
 				<Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<Equipment slot="Head" id="Item.emirs_helmet"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
 				<Equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
 				<Equipment slot="Body" id="Item.short_padded_robe"/>
 				<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -2436,21 +2435,20 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-				<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+				<Equipment slot="Item2" id="Item.aserai_lance_1_t3"/>
 				<Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<Equipment slot="Head" id="Item.emirs_helmet"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
 				<Equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
 				<Equipment slot="Body" id="Item.short_padded_robe"/>
 				<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
