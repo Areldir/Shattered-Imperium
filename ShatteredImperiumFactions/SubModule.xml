@@ -12,12 +12,12 @@
 		<DependedModule Id="CustomBattle" DependentVersion="e1.8.0"/>
 		<DependedModule Id="StoryMode" DependentVersion="e1.8.0"/>
 		<DependedModule Id="AdonnaysTroopChanger"/>
-		<DependedModule Id="RBM"/>
+		<!--DependedModule Id="RBM"/-->
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
 		<DependedModule Id="OpenSourceSaddlery"/>
 		<DependedModule Id="BannerColorPersistence"/>
-		<DependedModule Id="ShatteredImperiumPatch"/>
+		<!--DependedModule Id="ShatteredImperiumPatch"/-->
 		<DependedModule Id="ShatteredImperiumBase"/>
 	</DependedModules>
 	<SubModules>
@@ -367,6 +367,15 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="01-Empire/SI_quyaz_equipmentsets"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="05-Southern/SI_aserai_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>

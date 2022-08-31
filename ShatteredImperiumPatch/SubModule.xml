@@ -11,7 +11,7 @@
 		<DependedModule Id="Sandbox" DependentVersion="e1.8.0"/>
 		<DependedModule Id="CustomBattle" DependentVersion="e1.8.0"/>
 		<DependedModule Id="StoryMode" DependentVersion="e1.8.0"/>
-		<DependedModule Id="RBM"/>
+		<!--DependedModule Id="RBM"/-->
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
 		<DependedModule Id="OpenSourceSaddlery"/>
@@ -173,6 +173,15 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="CraftingPieces" path="OSA_crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="SI_items"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>

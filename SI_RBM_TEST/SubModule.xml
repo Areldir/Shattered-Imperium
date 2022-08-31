@@ -1,0 +1,33 @@
+﻿<Module>
+	<Name value="Shattered Imperium RBM Remover"/>
+	<Id value="SI_RBM_TEST"/>
+	<Version value="v3.0.1"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.0" Optional="false"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="e1.8.0" Optional="false"/>
+		<DependedModule Id="Sandbox" DependentVersion="e1.8.0" Optional="false"/>
+		<DependedModule Id="StoryMode" DependentVersion="e1.8.0" Optional="false"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="CraftingTemplates" path="RBMCombat_no_bastard_axes"/>
+			<IncludedGameTypes>
+				<Gametype value="Campaign"/>
+				<Gametype value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="RBMCombat_weapon_descriptions"/>
+			<IncludedGameTypes>
+				<Gametype value="Campaign"/>
+				<Gametype value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>
