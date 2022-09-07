@@ -2,7 +2,7 @@
 <Module>
 	<Name value="Shattered Imperium: Factions"/>
 	<Id value="ShatteredImperiumFactions"/>
-	<Version value="v1.0.0"/>
+	<Version value="v0.1.1"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
@@ -12,12 +12,14 @@
 		<DependedModule Id="CustomBattle" DependentVersion="e1.8.0"/>
 		<DependedModule Id="StoryMode" DependentVersion="e1.8.0"/>
 		<DependedModule Id="AdonnaysTroopChanger"/>
-		<!--DependedModule Id="RBM"/-->
+		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
 		<DependedModule Id="OpenSourceSaddlery"/>
+		<DependedModule Id="OpenSourceArmoryRBM"/>
+		<DependedModule Id="OpenSourceWeaponryRBM"/>
+		<DependedModule Id="OpenSourceSaddleryRBM"/>
 		<DependedModule Id="BannerColorPersistence"/>
-		<!--DependedModule Id="ShatteredImperiumPatch"/-->
 		<DependedModule Id="ShatteredImperiumBase"/>
 	</DependedModules>
 	<SubModules>
