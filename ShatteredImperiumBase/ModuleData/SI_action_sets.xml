@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action_sets>
+	<action_set id="as_human_warrior" skeleton="human_skeleton" movement_system="bipedal">
+		<!-- STAFF RUN ANIMATIONS - BEGIN /-->
+		<action type="act_run_idle_polearm" animation="guard_idle_1"/>
+		<action type="act_run_forward_polearm" animation="run_forward_torch"/>
+		<action type="act_run_right_polearm" animation="run_right_torch"/>
+		<action type="act_run_left_polearm" animation="run_left_torch"/>
+		<action type="act_run_backward_polearm" animation="run_backward_torch"/>
+		<action type="act_run_right_back_polearm" animation="run_right_back_torch"/>
+		<action type="act_run_left_back_polearm" animation="run_left_back_torch"/>
+		<action type="act_run_right_to_left_polearm" animation="run_right_to_left_torch"/>
+		<action type="act_run_left_to_right_polearm" animation="run_left_to_right_torch"/>
+		<!-- TURN ANIMATIONS /-->
+		<action type="act_turn_polearm" animation="turn_unarmed"/>
+		<!-- LEFT STANCE /-->
+		<action type="act_run_idle_polearm_left_stance" animation="guard_idle_1"/>
+		<action type="act_run_forward_polearm_left_stance" animation="run_forward_torch"/>
+		<action type="act_run_right_polearm_left_stance" animation="run_right_torch"/>
+		<action type="act_run_left_polearm_left_stance" animation="run_left_torch"/>
+		<action type="act_run_backward_polearm_left_stance" animation="run_backward_torch"/>
+		<action type="act_run_right_back_polearm_left_stance" animation="run_right_back_torch"/>
+		<action type="act_run_left_back_polearm_left_stance" animation="run_left_back_torch"/>
+		<action type="act_run_right_to_left_polearm_left_stance" animation="run_right_to_left_torch"/>
+		<action type="act_run_left_to_right_polearm_left_stance" animation="run_left_to_right_torch"/>
+		<!-- STAFF WALK ANIMATIONS - BEGIN /-->
+		<action type="act_walk_idle_polearm" animation="guard_idle_1"/>
+		<action type="act_walk_forward_polearm" animation="walk_forward_torch"/>
+		<action type="act_walk_right_polearm" animation="walk_right_torch"/>
+		<action type="act_walk_left_polearm" animation="walk_left_torch"/>
+		<action type="act_walk_backward_polearm" animation="walk_backward_torch"/>
+		<action type="act_walk_right_back_polearm" animation="walk_right_back_torch"/>
+		<action type="act_walk_left_back_polearm" animation="walk_left_back_torch"/>
+		<action type="act_walk_right_to_left_polearm" animation="walk_right_to_left_torch"/>
+		<action type="act_walk_left_to_right_polearm" animation="walk_left_to_right_torch"/>
+		<!-- LEFT STANCE /-->
+		<action type="act_walk_idle_polearm_left_stance" animation="guard_idle_1"/>
+		<action type="act_walk_forward_polearm_left_stance" animation="walk_forward_torch"/>
+		<action type="act_walk_right_polearm_left_stance" animation="walk_right_torch"/>
+		<action type="act_walk_left_polearm_left_stance" animation="walk_left_torch"/>
+		<action type="act_walk_backward_polearm_left_stance" animation="walk_backward_torch"/>
+		<action type="act_walk_right_back_polearm_left_stance" animation="walk_right_back_torch"/>
+		<action type="act_walk_left_back_polearm_left_stance" animation="walk_left_back_torch"/>
+		<action type="act_walk_right_to_left_polearm_left_stance" animation="walk_right_to_left_torch"/>
+		<action type="act_walk_left_to_right_polearm_left_stance" animation="walk_left_to_right_torch"/>
+	</action_set>
+</action_sets>
