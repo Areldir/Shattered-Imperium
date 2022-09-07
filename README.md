@@ -3,17 +3,21 @@ Beta Version - For Mount and Blade Bannerlord
 
 Name: Shattered Imperium (Calradian Reforms - Definitive Edition)
 
-Version: Beta 0.1.0
+Version: Beta 0.1.1
 
 ----------------------------------------------------------------------------------------------------------
 Required files: 
 				AdonnaysTroopChanger
-				RealisticBattleCombatModule
+				RBM
 				OpenSourceArmory
+				OpenSourceWeaponry
+				OpenSourceSaddlery
+				OpenSourceArmoryRBM
+				OpenSourceWeaponryRBM
+				OpenSourceSaddleryRBM
 				BannerColorPersistence
 	
 Recommended files:
-				RealisticBattleAiModule
 				EnhancedBattleTest
 
 ----------------------------------------------------------------------------------------------------------
@@ -23,7 +27,23 @@ Installation:
 				3. Unzip "Shattered_Imperium.zip" file to your /modules folder, overwriting as necessary. 
 				4. Ensure both modules are loaded after the base-game modules, as well as all required mods*.
 				5. Profit.
-		
+
+----------------------------------------------------------------------------------------------------------		
+Configuration. When in game, make sure you set the following in the RBM Configuration menu (accessible from the Main Menu):
+
+				RBM Combat: 
+				- Module Status - Enabled (Default)
+				- Troop Overhaul - Disabled
+				- Ranged Reload Speed - Semi-Realistic (Default)
+				- Passive Shoulder Shields - Disabled (Default)
+				- Better Arrow Visuals - Enabled
+
+				RBM AI:
+				- Set all options as you wish
+
+				RBM Tournament
+				- Module Status - Disabled
+
 ----------------------------------------------------------------------------------------------------------
 Load Order:
 				1. Sandbox, SandboxCore, StoryMode, CustomBattle
@@ -32,4 +52,3 @@ Load Order:
 				4. Shattered Imperium: Factions
 
 ----------------------------------------------------------------------------------------------------------
-NOTE: Shattered Imperium contains files which will overwrite your vanilla Bannerlord installation. If you uninstall or update the mod, you will need to remove both Shattered Imperium folders, then verify the integrity of your game files on Steam.
