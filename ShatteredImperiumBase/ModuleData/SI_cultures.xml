@@ -31,7 +31,6 @@
 	         armed_trader="NPCCharacter.AR_s_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_s_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_s_emp_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.AR_s_emp_duel_preset"
 	         prison_guard="NPCCharacter.AR_s_emp_prison_guard"
 	         guard="NPCCharacter.AR_s_emp_guard"
@@ -77,6 +76,12 @@
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_senate"/>
 		</default_policies>
@@ -473,6 +478,11 @@
 			<template name="NPCCharacter.AR_tournament_template_s_empire_four_participant_set_v2"/>
 			<template name="NPCCharacter.AR_tournament_template_s_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="aserai"
 	         name="{=aseraifaction}Aserai"
@@ -504,7 +514,6 @@
 	         armed_trader="NPCCharacter.AR_ase_armed_trader"
 	         caravan_guard="NPCCharacter.AR_ase_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_ase_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.aserai_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_aserai"
 	         guard="NPCCharacter.guard_aserai"
@@ -550,6 +559,12 @@
 		<vassal_reward_items>
 			<item id="Item.noble_horse_khamseen"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_3_t3"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_5_t4"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_council_of_the_commons"/>
 			<policy id="policy_senate"/>
@@ -778,6 +793,11 @@
 			<template name="NPCCharacter.tournament_template_aserai_four_participant_set_v3"/>
 			<template name="NPCCharacter.tournament_template_aserai_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="sturgia"
 	         name="{=PjO7oY16}Sturgian"
@@ -809,7 +829,6 @@
 	         armed_trader="NPCCharacter.AR_stu_armed_trader"
 	         caravan_guard="NPCCharacter.AR_stu_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_stu_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.sturgia_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_sturgia"
 	         guard="NPCCharacter.guard_sturgia"
@@ -855,6 +874,12 @@
 		<vassal_reward_items>
 			<item id="Item.avalanche_2haxe"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_lawspeakers"/>
 			<policy id="policy_precarial_land_tenure"/>
@@ -1101,6 +1126,11 @@
 			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2"/>
 			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vlandia"
 	         name="{=FjwRsf1C}Vlandian"
@@ -1132,7 +1162,6 @@
 	         armed_trader="NPCCharacter.AR_vla_armed_trader"
 	         caravan_guard="NPCCharacter.AR_vla_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_vla_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.vlandia_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_vlandia"
 	         guard="NPCCharacter.guard_vlandia"
@@ -1178,6 +1207,12 @@
 		<vassal_reward_items>
 			<item id="Item.sentinel_2hsword"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_feudal_inheritance"/>
 			<policy id="policy_castle_charters"/>
@@ -1452,6 +1487,11 @@
 			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3"/>
 			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="battania"
 	         name="{=0B27RrYJ}Battanian"
@@ -1484,7 +1524,6 @@
 	         armed_trader="NPCCharacter.AR_bat_armed_trader"
 	         caravan_guard="NPCCharacter.AR_bat_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_bat_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.battania_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_battania"
 	         guard="NPCCharacter.guard_battania"
@@ -1530,6 +1569,12 @@
 		<vassal_reward_items>
 			<item id="Item.reaper_falx"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.battania_sword_1_t2"/>
+			<item id="Item.battania_sword_2_t3"/>
+			<item id="Item.battania_sword_4_t4"/>
+			<item id="Item.battania_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_cantons"/>
 			<policy id="policy_lawspeakers"/>
@@ -1716,6 +1761,11 @@
 			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v2"/>
 			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="khuzait"
 	         name="{=AR_iltanlar_culture_name}Iltanlar"
@@ -1747,7 +1797,6 @@
 	         armed_trader="NPCCharacter.AR_khu_armed_trader"
 	         caravan_guard="NPCCharacter.AR_khu_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_khu_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.khuzait_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_khuzait"
 	         guard="NPCCharacter.guard_khuzait"
@@ -1793,6 +1842,12 @@
 		<vassal_reward_items>
 			<item id="Item.steppe_war_bow"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.khuzait_sword_1_t2"/>
+			<item id="Item.khuzait_sword_2_t3"/>
+			<item id="Item.khuzait_sword_3_t3"/>
+			<item id="Item.khuzait_sword_4_t4"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_grazing_rights"/>
 			<policy id="policy_sacred_majesty"/>
@@ -2013,6 +2068,11 @@
 			<template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2"/>
 			<template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_w"
 	         name="{=AR_empirefaction_w_culture_name}Western Calradian"
@@ -2045,7 +2105,6 @@
 	         armed_trader="NPCCharacter.AR_w_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_w_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_w_emp_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.AR_w_emp_duel_preset"
 	         prison_guard="NPCCharacter.AR_w_emp_prison_guard"
 	         guard="NPCCharacter.AR_w_emp_guard"
@@ -2091,6 +2150,12 @@
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_senate"/>
 		</default_policies>
@@ -2471,6 +2536,11 @@
 			<template name="NPCCharacter.AR_tournament_template_w_empire_four_participant_set_v2"/>
 			<template name="NPCCharacter.AR_tournament_template_w_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_n"
 	         name="{=AR_empirefaction_n_culture_name}Eastern Calradian"
@@ -2503,7 +2573,6 @@
 	         armed_trader="NPCCharacter.AR_n_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_n_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_n_emp_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.AR_n_emp_duel_preset"
 	         prison_guard="NPCCharacter.AR_n_emp_prison_guard"
 	         guard="NPCCharacter.AR_n_emp_guard"
@@ -2549,6 +2618,12 @@
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_senate"/>
 		</default_policies>
@@ -2929,6 +3004,11 @@
 			<template name="NPCCharacter.AR_tournament_template_n_empire_four_participant_set_v2"/>
 			<template name="NPCCharacter.AR_tournament_template_n_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="kannic"
 	         name="{=AR_kannic_culture_name}Kannic"
@@ -2961,7 +3041,6 @@
 	         armed_trader="NPCCharacter.AR_kan_armed_trader"
 	         caravan_guard="NPCCharacter.AR_kan_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_kan_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.AR_kan_duel_preset"
 	         prison_guard="NPCCharacter.AR_kan_prison_guard"
 	         guard="NPCCharacter.AR_kan_guard"
@@ -3007,6 +3086,12 @@
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_senate"/>
 		</default_policies>
@@ -3379,6 +3464,11 @@
 			<template name="NPCCharacter.AR_tournament_template_kannic_four_participant_set_v2"/>
 			<template name="NPCCharacter.AR_tournament_template_kannic_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vakken"
 	         name="{=AR_vaegiri_culture_name}Vakken"
@@ -3410,7 +3500,6 @@
 	         armed_trader="NPCCharacter.AR_vae_armed_trader"
 	         caravan_guard="NPCCharacter.AR_vae_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_vae_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.vaegiria_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_vaegiria"
 	         guard="NPCCharacter.guard_vaegiria"
@@ -3456,6 +3545,12 @@
 		<vassal_reward_items>
 			<item id="Item.avalanche_2haxe"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_lawspeakers"/>
 			<policy id="policy_precarial_land_tenure"/>
@@ -3705,6 +3800,11 @@
 			<template name="NPCCharacter.tournament_template_vaegiria_four_participant_set_v2"/>
 			<template name="NPCCharacter.tournament_template_vaegiria_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="cizygian"
 	         name="{=AR_cizygian_culture_name}Cizygian"
@@ -3736,7 +3836,6 @@
 	         armed_trader="NPCCharacter.AR_ciz_armed_trader"
 	         caravan_guard="NPCCharacter.AR_ciz_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_ciz_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.cizygian_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_cizygian"
 	         guard="NPCCharacter.guard_cizygian"
@@ -3782,6 +3881,12 @@
 		<vassal_reward_items>
 			<item id="Item.steppe_war_bow"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.khuzait_sword_1_t2"/>
+			<item id="Item.khuzait_sword_2_t3"/>
+			<item id="Item.khuzait_sword_3_t3"/>
+			<item id="Item.khuzait_sword_4_t4"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_grazing_rights"/>
 			<policy id="policy_sacred_majesty"/>
@@ -3994,6 +4099,11 @@
 			<template name="NPCCharacter.tournament_template_cizygian_four_participant_set_v2"/>
 			<template name="NPCCharacter.tournament_template_cizygian_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="massa"
 	         name="{=AR_massa_culture_name}Swadic"
@@ -4025,7 +4135,6 @@
 	         armed_trader="NPCCharacter.AR_mas_armed_trader"
 	         caravan_guard="NPCCharacter.AR_mas_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_mas_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.massa_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_massa"
 	         guard="NPCCharacter.guard_massa"
@@ -4071,6 +4180,12 @@
 		<vassal_reward_items>
 			<item id="Item.sentinel_2hsword"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_feudal_inheritance"/>
 			<policy id="policy_castle_charters"/>
@@ -4337,12 +4452,17 @@
 			<template name="NPCCharacter.tournament_template_massa_four_participant_set_v3"/>
 			<template name="NPCCharacter.tournament_template_massa_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="darshi"
 	         name="{=AR_spahad_culture_name}Darshi"
 	         is_main_culture="false"
-	         color="0xff8d5c44"
-	         color2="FF58888B"
+	         color="FFAC5F2E"
+	         color2="FF7CAFC7"
 	         elite_basic_troop="NPCCharacter.AR_spa_elite_recruit"
 	         basic_troop="NPCCharacter.AR_spahad_recruit"
 	         melee_militia_troop="NPCCharacter.AR_spa_militia_spearman"
@@ -4368,7 +4488,6 @@
 	         armed_trader="NPCCharacter.AR_spa_armed_trader"
 	         caravan_guard="NPCCharacter.AR_spa_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_spa_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.spahad_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_spahad"
 	         guard="NPCCharacter.guard_spahad"
@@ -4414,76 +4533,25 @@
 		<vassal_reward_items>
 			<item id="Item.noble_horse_khamseen"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_3_t3"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_5_t4"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_council_of_the_commons"/>
 			<policy id="policy_senate"/>
 		</default_policies>
 		<male_names>
-			<name name="{=n2FdWOtE}Adram"/>
-			<name name="{=HEGo3ArK}Atis"/>
-			<name name="{=kErcuRlk}Ayyam"/>
-			<name name="{=YRzakgRB}Bidal"/>
-			<name name="{=6p3qkhil}Biliya"/>
-			<name name="{=jgr2xo9r}Darim"/>
-			<name name="{=Emsd1xmS}Dhashwal"/>
-			<name name="{=xC3kCGte}Dhiyul"/>
-			<name name="{=hF3F3u8u}Duwain"/>
-			<name name="{=evXLa2XX}Farim"/>
-			<name name="{=bVtVsEUr}Ghulassen"/>
-			<name name="{=NOchnEwX}Ghuzid"/>
-			<name name="{=gDMdWisO}Haqr"/>
-			<name name="{=cdQO1eLv}Hasseidh"/>
-			<name name="{=GK18UxoX}Hur"/>
-			<name name="{=sWRKG0e1}Iltas"/>
-			<name name="{=2mhCIkuB}Jaim"/>
-			<name name="{=nyCtbjg6}Jamair"/>
-			<name name="{=3oeb8Bav}Jassid"/>
-			<name name="{=egOzKsKS}Kannar"/>
-			<name name="{=YIpKt79X}Kusr"/>
-			<name name="{=r0dXXtoU}Kharid"/>
-			<name name="{=MRTWZuF4}Khilam"/>
-			<name name="{=ZSraCpCs}Lakhem"/>
-			<name name="{=b7PVGEFM}Lath"/>
-			<name name="{=0ZTMVxzw}Lazif"/>
-			<name name="{=PknomRIt}Madwan"/>
-			<name name="{=la6HgVXN}Mitunis"/>
-			<name name="{=KSsRA8xm}Munim"/>
-			<name name="{=8UGqSVH5}Nathun"/>
-			<name name="{=UlPJ9OYH}Nidr"/>
-			<name name="{=rmpKsJwg}Nuldan"/>
-			<name name="{=3pgwKPsf}Qarais"/>
-			<name name="{=Qx7ZfdbV}Quth"/>
-			<name name="{=M9gqEb6D}Radan"/>
-			<name name="{=f7u2p3x3}Rutwar"/>
-			<name name="{=xyIDKleR}Saidh"/>
-			<name name="{=3rXHA6fI}Samar"/>
-			<name name="{=5QHosdnk}Sudais"/>
-			<name name="{=eAro6IVf}Shalar"/>
-			<name name="{=yToKqfa3}Shumsan"/>
-			<name name="{=5O81vNIS}Tahya"/>
-			<name name="{=fWKnmnXb}Taq"/>
-			<name name="{=Q2qLCrn2}Thais"/>
-			<name name="{=SOkQ7b7r}Thaqir"/>
-			<name name="{=zCaeJ7GC}Thul"/>
-			<name name="{=0atYAnDF}Tulul"/>
-			<name name="{=xUSeJEd6}Wahan"/>
-			<name name="{=EKUSZBBj}Wusur"/>
-			<name name="{=5LY1iQWh}Yaqus"/>
-			<name name="{=aU9Cbb7j}Athrar"/>
-			<name name="{=at4MdVBJ}Fathid"/>
-			<name name="{=NJvui1La}Iskar"/>
-			<name name="{=FyVS24JZ}Khundal"/>
-			<name name="{=7Gt27Agy}Malub"/>
-			<name name="{=t63KuB1X}Suthain"/>
-			<name name="{=u3ZpGN5e}Yuha"/>
-			<name name="{=!*}Aryush"/>
-			<name name="{=!*}Azadun"/>
-			<name name="{=!*}Baheshtur"/>
-			<name name="{=!*}Bunduk"/>
-			<name name="{=!*}Hamezan"/>
-			<name name="{=!*}Hivan"/>
-			<name name="{=!*}Imirza"/>
-			<name name="{=!*}Sanjar"/>
+			<name name="{=JJtww9pt}Aryush"/>
+			<name name="{=Zm0Ee6sp}Azadun"/>
+			<name name="{=nisA6W98}Baheshtur"/>
+			<name name="{=pEvpjIa9}Bunduk"/>
+			<name name="{=Z261F0mj}Hamezan"/>
+			<name name="{=KmzQabkH}Hivan"/>
+			<name name="{=QR3aNalC}Imirza"/>
+			<name name="{=mDZqpa9Z}Sanjar"/>
 			<name name="{=!*}Gavarah"/>
 			<name name="{=!*}Seyab"/>
 			<name name="{=!*}Vizra"/>
@@ -4497,59 +4565,16 @@
 			<name name="{=!*}Hoshtar"/>
 		</male_names>
 		<female_names>
-			<name name="{=vAKB54zO}Arwa"/>
-			<name name="{=3LHG5Efi}Ayasa"/>
-			<name name="{=krMVSoId}Bawthan"/>
-			<name name="{=YwwaCRSr}Barisha"/>
-			<name name="{=Y9030sOS}Darya"/>
-			<name name="{=qwab4ICX}Dima"/>
-			<name name="{=PukaQLbR}Dula"/>
-			<name name="{=nhwnbFJ0}Ghalaza"/>
-			<name name="{=b0rI89ob}Hara"/>
-			<name name="{=qDLWQjuC}Hasawa"/>
-			<name name="{=Q26RhEj6}Ifar"/>
-			<name name="{=H1OFdfEe}Isna"/>
-			<name name="{=aqd6QHES}Janab"/>
-			<name name="{=JhLPgr5x}Jinda"/>
-			<name name="{=BfbZAB2K}Kanizat"/>
-			<name name="{=JR1LKjIc}Khalisa"/>
-			<name name="{=q8awVLdN}Laitha"/>
-			<name name="{=ljYVVV1s}Luqa"/>
-			<name name="{=YwQbvO9O}Lulya"/>
-			<name name="{=UAHJ2jTp}Mahayl"/>
-			<name name="{=QtyF13kv}Mata"/>
-			<name name="{=SNjqoBfZ}Nawa"/>
-			<name name="{=t4OvAlBq}Nus"/>
-			<name name="{=Cj8vDOqR}Rahan"/>
-			<name name="{=bdhXiiWK}Rayma"/>
-			<name name="{=yJz9AxjY}Rinana"/>
-			<name name="{=TN5MjMJU}Risa"/>
-			<name name="{=yd39Cman}Ruwa"/>
-			<name name="{=QCiqeUHm}Sabila"/>
-			<name name="{=N0cNsII3}Safiya"/>
-			<name name="{=nTYJWGAa}Shatha"/>
-			<name name="{=vYQ2SMEv}Siban"/>
-			<name name="{=v7tfA4y6}Siyafan"/>
-			<name name="{=6d09RcZT}Sulatha"/>
-			<name name="{=LfP4vsfD}Sur"/>
-			<name name="{=imBaF78b}Thuneikha"/>
-			<name name="{=9aPxu1EB}Tinab"/>
-			<name name="{=mWCY0aSL}Wara"/>
-			<name name="{=CYXRzc1D}Wisan"/>
-			<name name="{=528J5D3b}Yasmila"/>
-			<name name="{=ieube15m}Zahara"/>
-			<name name="{=wYPWlhme}Zandina"/>
-			<name name="{=8RolYmff}Zuwaira"/>
-			<name name="{=!*}Anahita"/>
-			<name name="{=!*}Azareh"/>
-			<name name="{=!*}Daria"/>
-			<name name="{=!*}Ilzar"/>
-			<name name="{=!*}Nasmeen"/>
-			<name name="{=!*}Raksana"/>
-			<name name="{=!*}Roshaneh"/>
-			<name name="{=!*}Sulnaz"/>
-			<name name="{=!*}Shima"/>
-			<name name="{=!*}Tilzad"/>
+			<name name="{=lGRde77R}Anahita"/>
+			<name name="{=sa0YrXiv}Azareh"/>
+			<name name="{=epxmhQav}Daria"/>
+			<name name="{=zSL3MgNQ}Ilzar"/>
+			<name name="{=R7avnODK}Nasmeen"/>
+			<name name="{=ZPHdPglH}Raksana"/>
+			<name name="{=SHXt3kC5}Roshaneh"/>
+			<name name="{=wERVdmjj}Sulnaz"/>
+			<name name="{=Btb7NzFM}Shima"/>
+			<name name="{=GqEEIYay}Tilzad"/>
 			<name name="{=*!}Jaereh"/>
 			<name name="{=*!}Belana"/>
 			<name name="{=*!}Misha"/>
@@ -4662,6 +4687,11 @@
 			<template name="NPCCharacter.tournament_template_spahad_four_participant_set_v3"/>
 			<template name="NPCCharacter.tournament_template_spahad_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="gotarni"
 	         name="{=AR_gotarni_culture_name}Myzean"
@@ -4694,7 +4724,6 @@
 	         armed_trader="NPCCharacter.AR_got_armed_trader"
 	         caravan_guard="NPCCharacter.AR_got_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_got_vet_caravan_guard"
-	         basic_mercenary_troop="NPCCharacter.mercenary_1"
 	         duel_preset="NPCCharacter.gotarnia_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_gotarnia"
 	         guard="NPCCharacter.guard_gotarnia"
@@ -4740,6 +4769,12 @@
 		<vassal_reward_items>
 			<item id="Item.reaper_falx"/>
 		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.battania_sword_1_t2"/>
+			<item id="Item.battania_sword_2_t3"/>
+			<item id="Item.battania_sword_4_t4"/>
+			<item id="Item.battania_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_cantons"/>
 			<policy id="policy_lawspeakers"/>
@@ -4906,6 +4941,11 @@
 			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v2"/>
 			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="palaic"
 	         name="{=AR_palaic_culture_name}Palaic"
