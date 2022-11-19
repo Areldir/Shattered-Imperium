@@ -2415,7 +2415,7 @@
 				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
 				<Equipment slot="Item2" id="Item.aserai_lance_1_t3"/>
 				<Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
+				<Equipment slot="Head" id="Item.turban"/>
 				<Equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
@@ -2437,7 +2437,7 @@
 				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
 				<Equipment slot="Item2" id="Item.aserai_lance_1_t3"/>
 				<Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
+				<Equipment slot="Head" id="Item.turban"/>
 				<Equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
