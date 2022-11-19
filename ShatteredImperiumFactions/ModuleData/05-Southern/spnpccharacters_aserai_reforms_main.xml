@@ -33,12 +33,12 @@
 		<skills>
 			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="20"/>
-			<skill id="OneHanded" value="40"/>
+			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
 			<skill id="Polearm" value="20"/>
 			<skill id="Bow" value="20"/>
 			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
+			<skill id="Throwing" value="40"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ase_t3_swordsman"/>
@@ -49,19 +49,19 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Sword Infantry Medium Skill 40-70 -->
-	<NPCCharacter id="AR_ase_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_ase_t3_swordsman}Aserai Desert Guard Axeman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_ase_t3_swordsman}Aserai Tribal Guard Axeman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="40"/>
-			<skill id="OneHanded" value="70"/>
+			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
 			<skill id="Bow" value="40"/>
 			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="40"/>
+			<skill id="Throwing" value="70"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ase_t4_swordsman"/>
@@ -72,19 +72,19 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Sword Infantry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_ase_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_ase_t4_swordsman}Aserai Veteran Desert Guard Axeman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_ase_t4_swordsman}Aserai Seasoned Tribal Guard Axeman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="100"/>
+			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ase_t5_swordsman"/>
@@ -102,12 +102,12 @@
 		<skills>
 			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="130"/>
+			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
+			<skill id="Throwing" value="130"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
@@ -116,7 +116,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Slinger Light Skill 20-40 -->
-	<NPCCharacter id="AR_ase_t2_slinger" default_group="Ranged" level="11" name="{=si_ar_ase_t2_slinger}Aserai Tribal Hunter" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t2_slinger" default_group="Ranged" level="11" name="{=si_ar_ase_t2_slinger}Aserai Tribal Hurler" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -139,7 +139,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Slinger Light Skill 40-70 -->
-	<NPCCharacter id="AR_ase_t3_slinger" default_group="Ranged" level="16" name="{=si_ar_ase_t3_slinger}Aserai Desert Guard Hurler" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t3_slinger" default_group="Ranged" level="16" name="{=si_ar_ase_t3_slinger}Aserai Tribal Guard Slinger" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -162,7 +162,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Slinger Light Skill 60-100 -->
-	<NPCCharacter id="AR_ase_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_ase_t4_slinger}Aserai Veteran Desert Guard Slinger" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_ase_t4_slinger}Aserai Seasoned Tribal Guard Slinger" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -205,7 +205,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- ASERAI -->
+	<!-- ASERAI: Field Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_ase_recruit" default_group="Infantry" level="6" name="{=si_ar_ase_recruit}Aserai Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
@@ -300,7 +300,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_ase_t5_spearman}Aserai Veteran Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_ase_t5_spearman}Aserai Seasoned Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -343,7 +343,6 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- SKIRMISHERS -->
 	<!-- T2 Skirmisher Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_t2_archer" default_group="Ranged" level="11" name="{=si_ar_ase_t2_archer}Aserai Scout" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
@@ -355,9 +354,9 @@
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
 			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="20"/>
+			<skill id="Bow" value="40"/>
 			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="40"/>
+			<skill id="Throwing" value="20"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ase_t3_archer"/>
@@ -415,7 +414,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Archer Medium Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_archer" default_group="Ranged" level="26" name="{=si_ar_ase_t5_archer}Aserai Veteran Archer" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_archer" default_group="Ranged" level="26" name="{=si_ar_ase_t5_archer}Aserai Seasoned Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -437,13 +436,13 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Archer Heavy Skill 80-180 -->
+	<!-- T6 Archer Medium Skill 80-180 -->
 	<NPCCharacter id="AR_ase_t6_archer" default_group="Ranged" level="31" name="{=si_ar_ase_t6_archer}Aserai Immortal Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
@@ -484,7 +483,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_camel" default_group="HorseArcher" level="26" name="{=si_ar_ase_t5_camel}Aserai Veteran Camel Rider" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_camel" default_group="HorseArcher" level="26" name="{=si_ar_ase_t5_camel}Aserai Seasoned Camel Rider" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -531,7 +530,7 @@
 			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- ELITE CAVALRY -->
+	<!-- ASERAI: Noble Troops -->
 	<!-- Recruit Elite Cavalry Light Skill 20-40 -->
 	<NPCCharacter id="AR_ase_cavalry_recruit" default_group="Cavalry" level="11" name="{=si_ar_ase_cavalry_recruit}Aserai Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
 		<face>
@@ -600,10 +599,12 @@
 		<Equipments>
 			<EquipmentSet id="AR_ase_t4_heavy_cavalry_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_ze"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Elite Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=si_ar_ase_t5_heavy_cavalry}Aserai Veteran Mounted Swordsman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_heavy_cavalry" default_group="Cavalry" level="26" name="{=si_ar_ase_t5_heavy_cavalry}Aserai Seasoned Mounted Swordsman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -626,7 +627,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Elite Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_heavy_cavalry}Aserai Horseguard" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_heavy_cavalry}Aserai Immortal Horseguard" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -646,7 +647,7 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Sword Cavalry Medium Skill 60-100 -->
+	<!-- T4 Elite Lancer Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_ase_t4_lance_cavalry" default_group="Cavalry" level="21" name="{=si_ar_ase_t4_lance_cavalry}Aserai Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -654,9 +655,9 @@
 		<skills>
 			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="100"/>
-			<skill id="OneHanded" value="100"/>
+			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="130"/>
+			<skill id="Polearm" value="100"/>
 			<skill id="Bow" value="100"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
@@ -665,49 +666,11 @@
 			<upgrade_target id="NPCCharacter.AR_ase_t5_lance_cavalry"/>
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_bow"/>
-				<equipment slot="Item1" id="Item.barbed_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.leather_strips_over_padded_robe"/>
-				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
-				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a"/>
-				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q2"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_bow"/>
-				<equipment slot="Item1" id="Item.barbed_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.aserai_mace_4_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
-				<equipment slot="Leg" id="Item.plated_strip_boots"/>
-				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a"/>
-				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_bow"/>
-				<equipment slot="Item1" id="Item.barbed_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.imperial_axe_t3"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.aserai_armor_02"/>
-				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
-				<equipment slot="Gloves" id="Item.AO_durkhan_gauntlets_a"/>
-				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_q2"/>
-			</EquipmentRoster>
+			<EquipmentSet id="AR_ase_t4_lance_cavalry_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Sword Cavalry Heavy Skill 60-130 -->
+	<!-- T5 Elite Lancer Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_ase_t5_lance_cavalry" default_group="Cavalry" level="26" name="{=si_ar_ase_t5_lance_cavalry}Aserai Cataphract" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
@@ -715,9 +678,9 @@
 		<skills>
 			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="130"/>
-			<skill id="OneHanded" value="130"/>
+			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="180"/>
+			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="130"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
@@ -726,208 +689,28 @@
 			<upgrade_target id="NPCCharacter.AR_ase_t6_lance_cavalry"/>
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
-				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_b"/>
-				<equipment slot="Body" id="Item.desert_lamellar"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_a"/>
-				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_b"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.shishpar_mace_t4"/>
-				<equipment slot="Head" id="Item.closed_desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_b"/>
-				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.AR_imperial_axe_t4"/>
-				<equipment slot="Head" id="Item.aserai_mubarizun_helmet"/>
-				<equipment slot="Body" id="Item.desert_lamellar"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_a"/>
-				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_b"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.shishpar_mace_t4"/>
-				<equipment slot="Head" id="Item.aserai_nasalhelm_mail_veil"/>
-				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_b"/>
-				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.aserai_sword_6_t4"/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_c"/>
-				<equipment slot="Body" id="Item.desert_lamellar"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_a"/>
-				<equipment slot="Cape" id="Item.brass_lamellar_shoulder"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_b"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_r"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
-				<equipment slot="Item3" id="Item.AR_imperial_axe_t4"/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_d"/>
-				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_b"/>
-				<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_r"/>
-			</EquipmentRoster>
+			<EquipmentSet id="AR_ase_t5_lance_cavalry_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Sword Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_lance_cavalry}Aserai Elite Cataphract" occupation="Soldier" culture="Culture.aserai">
+	<!-- T6 Elite Lancer Cavalry Very Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_ase_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_lance_cavalry}Aserai Immortal Cataphract" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="180"/>
-			<skill id="OneHanded" value="180"/>
+			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
-			<skill id="Polearm" value="230"/>
+			<skill id="Polearm" value="180"/>
 			<skill id="Bow" value="180"/>
 			<skill id="Crossbow" value="80"/>
 			<skill id="Throwing" value="80"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
-				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_a"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.eastern_heavy_lamellar_armor"/>
-				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-				<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
-				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_c"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.eastern_heavy_lamellar_armor"/>
-				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-				<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.AR_imperial_axe_t5"/>
-				<equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_d"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
-				<equipment slot="Head" id="Item.ao_imperial_cataphracts_closed_mail_helmet"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.eastern_heavy_lamellar_armor"/>
-				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-				<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.aserai_sword_7_t5"/>
-				<equipment slot="Head" id="Item.ao_imperial_cataphracts_plumed_closed_mail_helmet"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
-				<equipment slot="Head" id="Item.southern_vendel_helmet"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.eastern_heavy_lamellar_armor"/>
-				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-				<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
-				<equipment slot="Item1" id="Item.piercing_arrows"/>
-				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
-				<equipment slot="Item3" id="Item.AR_imperial_axe_t5"/>
-				<equipment slot="Head" id="Item.eastern_vendel_helmet"/>
-				<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_g"/>
-				<equipment slot="Leg" id="Item.AR_empire_boots_c"/>
-				<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
-			</EquipmentRoster>
+			<EquipmentSet id="AR_ase_t6_lance_cavalry_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
