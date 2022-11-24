@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<!-- WEAPONS -->
+	<!-- FOR OSW -->
+	<CraftedItem id="AR_darshi_2h_mace_t4" name="{=osa_ar_darshi_2h_mace_t4}Darshi Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.aserai">
+		<Pieces>
+			<Piece id="mace_head_34" Type="Blade" scale_factor="106"/>
+			<Piece id="mace_handle_18" Type="Handle" scale_factor="110"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 100 Weight: 1.45 -->
+	</CraftedItem>
+	<CraftedItem id="AR_darshi_2h_mace_t5" name="{=osa_ar_darshi_2h_mace_t4}Darshi Noble Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.aserai">
+		<Pieces>
+			<Piece id="mace_head_38" Type="Blade" scale_factor="110"/>
+			<Piece id="axe_craft_1_handle" Type="Handle" scale_factor="90"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 120 Weight: 2.13 -->
+	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
