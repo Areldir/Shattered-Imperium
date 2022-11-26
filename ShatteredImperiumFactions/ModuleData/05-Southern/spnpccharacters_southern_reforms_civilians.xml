@@ -6,7 +6,96 @@
 			<face_key_template value="BodyProperty.townswoman_aserai"/>
 		</face>
 		<skills/>
-		<upgrade_targets></upgrade_targets>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_southern_dress"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_southern_dress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<equipment slot="Head" id="Item.desert_headdress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_southern_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_village_woman" default_group="Infantry" is_female="true" level="1" name="{=d6vsgKnp}Spahadi Tribeswoman" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
+			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
+		</face>
+		<skills/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.fine_southern_dress"/>
@@ -1637,93 +1726,6 @@
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 			</EquipmentRoster>
 			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="village_woman_spahad" default_group="Infantry" is_female="true" level="1" name="{=d6vsgKnp}Spahadi Tribeswoman" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
-			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
-		</face>
-		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_spahad"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_southern_dress"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_southern_dress"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
-				<equipment slot="Head" id="Item.desert_headdress"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
-				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
-				<equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.fine_southern_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
-				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-				<equipment slot="Cape" id="Item.female_scarf"/>
-				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gear_practice_dummy_spahad" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.darshi" name="{=!}Spahadi Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
