@@ -828,75 +828,67 @@
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_mas_t4_cavalry"/>
 		</stacks>
 	</MBPartyTemplate>
-	<!-- party templates for Spahad minor faction (1) -->
-	<MBPartyTemplate id="kingdom_hero_party_spahad_template">
+	<!-- party templates for Darshi factions (1) -->
+	<MBPartyTemplate id="kingdom_hero_party_darshi_template">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_spa_t2_spearman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_spa_t3_spearman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_spa_t3_swordsman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_spa_t3_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_t4_swordsman"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_spa_t5_swordsman"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_spa_t4_spearman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_t5_spearman"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_spa_t4_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_spa_t5_archer"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_ase_aux_t4_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_ase_aux_t5_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ase_aux_t6_archer"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_spa_t4_cavalry"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_spa_t5_cavalry"/>
-			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.AR_spa_t3_shock_inf"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_spa_t5_shock_inf"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_recruit"/>
+			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.AR_dar_t2_swordsman"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_dar_t3_swordsman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_dar_t4_swordsman"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_t5_swordsman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_t2_archer"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_t3_archer"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_t4_archer"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_t4_horse_archer"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_t5_horse_archer"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_dar_t3_cavalry"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_t4_lance_cavalry"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_t5_lance_cavalry"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_t5_heavy_cavalry"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="militia_spahad_template">
+	<MBPartyTemplate id="militia_darshi_template">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_spa_militia_spearman"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_spa_militia_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_militia_veteran_spearman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_militia_veteran_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_spa_madina_guard"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_spa_madina_archer"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_dar_t3_spearman"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_dar_t3_slinger"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="rebels_spahad_template">
+	<MBPartyTemplate id="rebels_darshi_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_spahad_recruit"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_dar_recruit"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="caravan_template_spahad">
+	<MBPartyTemplate id="caravan_template_darshi">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_spa_armed_trader"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_spa_caravan_guard"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_vet_caravan_guard"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_spa_t3_spearman"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.villager_spahad"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_spahad"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_dar_armed_trader"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_dar_caravan_guard"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_vet_caravan_guard"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_t3_spearman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="elite_caravan_template_spahad">
+	<MBPartyTemplate id="elite_caravan_template_darshi">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_spa_armed_trader"/>
-			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.AR_spa_caravan_guard"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_spa_vet_caravan_guard"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_caravan_master"/>
-			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AR_spa_t3_spearman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_spa_t3_swordsman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.villager_spahad"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_spahad"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_dar_armed_trader"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_dar_caravan_guard"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_dar_vet_caravan_guard"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_dar_caravan_master"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_dar_t3_spearman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_dar_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_dar_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="villager_spahad_template">
+	<MBPartyTemplate id="villager_darshi_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_spahad"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.village_woman_spahad"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_dar_villager"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_dar_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="vassal_reward_troops_spahad">
+	<MBPartyTemplate id="vassal_reward_troops_darshi">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_spa_t5_shock_inf"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_spa_t4_shock_inf"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_dar_t5_lance_cavalry"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_dar_t4_lance_cavalry"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Gotarnian minor faction (1) -->
