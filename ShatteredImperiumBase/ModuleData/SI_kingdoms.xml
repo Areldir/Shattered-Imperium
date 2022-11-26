@@ -114,7 +114,7 @@
 	</Kingdom>
 	<Kingdom id="aserai"
 	         owner="Hero.lord_3_18"
-	         banner_key="11.101.0.4345.4345.776.777.1.0.0.222.1.0.507.507.767.764.0.0.359.411.1.0.256.256.767.764.0.0.0.500.1.0.315.315.767.766.0.0.0"
+	         banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
 	         primary_banner_color="0xffB57A1E"
 	         secondary_banner_color="0xff4E1A13"
 	         label_color="FFebce5e"
@@ -343,7 +343,7 @@
 	</Kingdom>
 	<Kingdom id="spahad"
 	         owner="Hero.AR_lord_12_1"
-	         banner_key="11.61.154.4345.4345.776.777.1.0.0.216.137.0.450.450.764.774.0.0.180.427.137.0.200.100.759.994.0.0.0.342.137.0.100.100.764.504.0.0.0"
+	         banner_key="11.38.0.4345.4345.776.777.1.0.0.144.1.0.450.450.759.764.0.0.0.119.1.0.200.201.744.668.0.0.-130.500.1.0.500.500.764.764.0.0.0.500.1.0.560.580.764.764.0.0.0"
 	         primary_banner_color="0xFFAC5F2E"
 	         secondary_banner_color="0xFF7CAFC7"
 	         label_color="FFebce5e"
@@ -354,11 +354,11 @@
 	         culture="Culture.darshi"
 	         settlement_banner_mesh="encounter_flag_c"
 	         flag_mesh="info_screen_flags_a"
-	         name="{=AR_kingdom_spahad_name}Spahad Satrapy"
-	         short_name="{=AR_kingdom_spahad_short_name}Spahadi"
-	         title="{=AR_kingdom_spahad_title}Spahad Satrapy"
-	         ruler_title="{=AR_kingdom_spahad_ruler_title}Shahanshah"
-	         text="{=AR_kingdom_spahad_text}The Spahad Kingdom is the westernmost satrapy of the vast empire of the eastern Darshi Padishahs. Centuries ago, their armies crossed the southern tip of the Jabal Ashabi Mountains, shattering the Calradian Empire's rule over the Nahasa and allowing the Aserai to break free from the imperial yoke, only to fall under the rule of the Padishah. In return, the Padishah granted the Spahadi shahs rule over the eastern Nahasa, founding great cities sheltered from the shifting sands by high walls. Now, with the Aserai growing increasingly assertive and seeking to create a realm of their own, the Spahadi shahs find themselves on the defensive, fighting to maintain their hold over the great bronze desert.">
+	         name="{=AR_kingdom_spahad_name}Spahanfar Satrapy"
+	         short_name="{=AR_kingdom_spahad_short_name}Spahanfari"
+	         title="{=AR_kingdom_spahad_title}Spahanfar Satrapy"
+	         ruler_title="{=AR_kingdom_spahad_ruler_title}Shah"
+	         text="{=AR_kingdom_spahad_text}The Spahanfar Satrapy is the westernmost district of the vast empire of the eastern Darshi Padishahs. Two centuries ago, their armies crossed the northern tip of the Jabal Ashabi Mountains, shattering the Calradian Empire's rule over the Nahasa and allowing the Aserai to break free from the imperial yoke, only to fall under the rule of the Padishah. In return, the Padishah granted the shahs of the Spahanfar rulership over the eastern Nahasa, founding great cities sheltered from the shifting sands by high walls. Now, with the Aserai growing increasingly assertive and seeking to create a realm of their own, the Spahanfar shah and their warlords find themselves on the defensive, fighting to maintain their hold over the great bronze desert.">
 		<relationships>
 			<relationship kingdom="Kingdom.aserai"
 			              value="-1"
@@ -366,6 +366,33 @@
 		</relationships>
 		<policies>
 			<policy id="policy_sacred_majesty"/>
+			<policy id="policy_council_of_elders"/>
+		</policies>
+	</Kingdom>
+	<Kingdom id="tanash"
+	         owner="Hero.AR_lord_14_1"
+	         banner_key="11.61.154.4345.4345.776.777.1.0.0.404.38.0.500.500.764.764.0.0.0.117.38.0.250.250.764.764.0.0.0.500.38.0.550.550.764.764.0.0.0.521.38.0.150.150.764.534.0.0.0"
+	         primary_banner_color="0xff8d5c44"
+	         secondary_banner_color="0xffF7BF46"
+	         label_color="FFebce5e"
+	         color="0xff8d5c44"
+	         color2="0xffF7BF46"
+	         alternative_color="0xff8d5c44"
+	         alternative_color2="0xffF7BF46"
+	         culture="Culture.darshi"
+	         settlement_banner_mesh="encounter_flag_c"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=AR_kingdom_tanash_name}Tanash City States"
+	         short_name="{=AR_kingdom_tanash_short_name}Tanashi"
+	         title="{=AR_kingdom_tanash_title}Tanash City States"
+	         ruler_title="{=AR_kingdom_tanash_ruler_title}Shah"
+	         text="{=AR_kingdom_tanash_text}The lands to the east of the great lake Tanaesis, known as Tanash in Darshi, have long been the home of a number of great city states; their Darshi-speaking inhabitants growing monstrously rich on the trade of silk and spices from the far eastern lands into Calradia. Traditionally a militarily poor people, over the centuries, emperors and padishahs have exacted tribute from the Tanashi in return for assuring their sovereignty, though all that has changed in recent years. Six decades ago, a Calradian general marched his army across the Iltan Portages and subjugated the Tanash city states in a swift campaign, forming the imperial protectorate of Transtanaesia. Though they have resisted all attempts at calradicization, they now see the impending Calradian civil war as an opportunity to regain their total independence.">
+		<relationships>
+			<relationship kingdom="Kingdom.spahad"
+			              value="1"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
 			<policy id="policy_council_of_elders"/>
 		</policies>
 	</Kingdom>
