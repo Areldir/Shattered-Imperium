@@ -427,7 +427,6 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>	
 	
-
 	<xsl:template match="Settlement[@id='castle_K8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_spahad_4</xsl:attribute>
 	</xsl:template>
