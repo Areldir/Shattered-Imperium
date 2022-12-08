@@ -714,4 +714,516 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- ASERAI: Caravans -->
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_ase_armed_trader" default_group="Ranged" level="16" name="{=si_ar_ase_armed_trader}Aserai Armed Trader" occupation="CaravanGuard" culture="Culture.aserai" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_armed_trader_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Caravan Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ase_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_ase_caravan_guard}Aserai Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_caravan_guard_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+			<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ase_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_ase_vet_caravan_guard}Aserai Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_vet_caravan_guard_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Master Heavy Skill 60-130 -->
+	<!--NPCCharacter id="caravan_master_aserai" default_group="Cavalry" level="26" name="{=si_ar_ase_caravan_master}Aserai Caravan Master" occupation="CaravanGuard" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_caravan_master_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter-->
+	<!-- ASERAI: Guards -->
+	<NPCCharacter id="AR_ase_prison_guard" default_group="Infantry" level="21" culture="Culture.aserai" occupation="PrisonGuard" name="{=si_ar_ase_prison_guard}Aserai Prison Guard">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.aserai" name="{=si_ar_ase_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ASERAI: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_ase_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_ase_village_woman}Aserai Tribeswoman" occupation="Villager" is_basic_troop="true" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ase_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ase_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_villager_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_villager_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_villager_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townsman" default_group="Infantry" level="1" name="{=si_ar_ase_townsman}Aserai Townsman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_villager_battletemplate"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_ase_townswoman}Aserai Townswoman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ase_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townsman_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townsman_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townsman_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.aserai" name="{=cte0zSCz}Aserai Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.aserai" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.aserai" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_weaponsmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.aserai" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_armorer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_horsemerchant" default_group="Infantry" occupation="HorseTrader" culture="Culture.aserai" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.aserai" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.aserai" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_barber_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_gangleader_bodyguard" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.aserai" level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_ase_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_ase_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_tournament_master" default_group="Infantry" occupation="ArenaMaster" culture="Culture.aserai" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_ransom_broker_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_merchant_notary" default_group="Infantry" name="{=si_ar_ase_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_artisan_notary" default_group="Infantry" name="{=si_ar_ase_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_preacher_notary" default_group="Infantry" name="{=si_ar_ase_preacher_notary}Priest" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_rural_notable_notary" default_group="Infantry" name="{=si_ar_ase_rural_notable_notary}Aserai Nobleman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_tavernkeeper" default_group="Infantry" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_taverngamehost" default_group="Infantry" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_musician" default_group="Infantry" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_tavern_wench" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" occupation="TavernWench" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ase_female_dancer" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>		  

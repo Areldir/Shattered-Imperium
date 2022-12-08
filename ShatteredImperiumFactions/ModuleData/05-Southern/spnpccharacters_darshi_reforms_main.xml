@@ -708,4 +708,512 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- DARSHI: Caravans -->
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_dar_armed_trader" default_group="Ranged" level="16" name="{=si_ar_dar_armed_trader}Darshi Armed Trader" occupation="CaravanGuard" culture="Culture.darshi" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_armed_trader_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Caravan Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_dar_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_dar_caravan_guard}Darshi Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_caravan_guard_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_dar_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_dar_vet_caravan_guard}Darshi Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_vet_caravan_guard_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Master Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_dar_caravan_master" default_group="Infantry" level="26" name="{=si_ar_dar_caravan_master}Darshi Caravan Master" occupation="CaravanGuard" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_caravan_master_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- DARSHI: Guards -->
+	<NPCCharacter id="AR_dar_prison_guard" default_group="Infantry" level="21" culture="Culture.darshi" occupation="PrisonGuard" name="{=si_ar_dar_prison_guard}Darshi Prison Guard">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.darshi" name="{=si_ar_dar_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- DARSHI: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_dar_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_dar_village_woman}Darshi Citizen" occupation="Villager" is_basic_troop="true" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_dar_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_villager_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_villager_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_villager_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townsman" default_group="Infantry" level="1" name="{=si_ar_dar_townsman}Darshi Citizen" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentSet id="AR_dar_villager_battletemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_dar_townswoman}Darshi Citizen" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentSet id="AR_dar_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townsman_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townsman_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townsman_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.darshi" name="{=cte0zSCz}Darshi Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.darshi" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.darshi" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_weaponsmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.darshi" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_armorer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_horsemerchant" default_group="Infantry" occupation="HorseTrader" culture="Culture.darshi" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.darshi" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.darshi" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_barber_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_gangleader_bodyguard" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.darshi" level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_ase_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_ase_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_tournament_master" default_group="Infantry" occupation="ArenaMaster" culture="Culture.darshi" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_ransom_broker_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_merchant_notary" default_group="Infantry" name="{=si_ar_dar_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_artisan_notary" default_group="Infantry" name="{=si_ar_dar_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_dar_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_preacher_notary" default_group="Infantry" name="{=si_ar_dar_preacher_notary}Priestess" is_female="true" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_rural_notable_notary" default_group="Infantry" name="{=si_ar_dar_rural_notable_notary}Darshi Nobleman" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_dar_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_tavernkeeper" default_group="Infantry" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_taverngamehost" default_group="Infantry" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_musician" default_group="Infantry" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_tavern_wench" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" occupation="TavernWench" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_female_dancer" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" occupation="Townsfolk" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
+			<EquipmentSet id="AR_ase_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
