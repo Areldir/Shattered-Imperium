@@ -5,19 +5,52 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<!--xsl:template match='NPCCharacter[@id="mercenary_1"]/skills'>
+	<xsl:template match="NPCCharacter[@id='caravan_master_aserai']/@name">
+		<xsl:attribute name="name">{=si_ar_ase_caravan_master}Aserai Caravan Master</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_aserai"]/skills'>
+		<xsl:copy>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_aserai"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="20"/>
-			<skill id="OneHanded" value="40"/>
-			<skill id="TwoHanded" value="20"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
+			<EquipmentSet id="AR_ase_caravan_master_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
-	</xsl:template-->
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='caravan_master_empire']/@name">
+		<xsl:attribute name="name">{=si_ar_s_emp_caravan_master}Calradian Caravan Master</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_empire"]/skills'>
+		<xsl:copy>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_empire"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_caravan_master_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="mercenary_1"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1351,12 +1384,6 @@
 			<xsl:apply-templates select="@* | node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="caravan_master_empire"]'>
-		<xsl:copy>
-			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
-			<xsl:apply-templates select="@* | node()"/>
-		</xsl:copy>
-	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="armed_trader_empire"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
@@ -1370,12 +1397,6 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="veteran_caravan_guard_empire"]'>
-		<xsl:copy>
-			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
-			<xsl:apply-templates select="@* | node()"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="caravan_master_aserai"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
 			<xsl:apply-templates select="@* | node()"/>
