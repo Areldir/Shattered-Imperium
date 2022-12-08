@@ -27,7 +27,7 @@
 	         text="{=X0kKBzsW}The Calradians are the people of the Empire, though by now they have given their name to the entire continent which they dominate. A thousand years ago, they were an undistinguished tribe living in the hill country between the southern sea and the Battanian woods. One tradition set them apart from their neighbors - the Calradoi had no kings. Their citizenry has always taken an intense interest in the art of self-government, the balance between protecting the liberty of individuals and the needs of the state. Perhaps this is why they had a slight edge in the endless wars between one town and another, keeping armies in the field just a little longer, bouncing back just a little more quickly from a defeat. Some of their neighbors federated with them; others were overrun. Eventually the Calradians formed an empire, which evolved into a monarchy in all but name. Their leaders are no longer distinguished civic elders but great landholders scattered across the continent; the striking force of their armies is no longer citizen-infantry but heavily armored cataphracts in the retinues of the wealthy. But they still take their civic traditions very seriously, believing that the Calradian ideal can unite a continent in peace, if only the ”barbarians” beyond their borders would agree to submit to it."
 	         tournament_master="NPCCharacter.AR_s_emp_tournament_master"
 	         villager="NPCCharacter.AR_s_emp_villager"
-	         caravan_master="NPCCharacter.AR_s_emp_caravan_master"
+	         caravan_master="NPCCharacter.caravan_master_empire"
 	         armed_trader="NPCCharacter.AR_s_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_s_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_s_emp_vet_caravan_guard"
@@ -508,48 +508,48 @@
 	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="{=a2AjI8nc}The Aserai are the principal inhabitants of the Nahasa, the Bronze Desert, in the south of Calradia. To the outsider it would appear a desolate place, fields of dunes broken by gravel plains and volcanic outcrops. But there is water underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by, and in these oases people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera, the sons of Asera. Their sense of nationhood, such as it is, comes from tracing their lineage to this legendary patriarch. Their wealth and power, which is considerable, comes from controlling the isolated water-sources that allow caravans from distant lands to cross the desert."
-	         tournament_master="NPCCharacter.tournament_master_aserai"
+	         tournament_master="NPCCharacter.AR_ase_tournament_master"
 	         villager="NPCCharacter.AR_ase_villager"
-	         caravan_master="NPCCharacter.AR_ase_caravan_master"
+	         caravan_master="NPCCharacter.caravan_master_aserai"
 	         armed_trader="NPCCharacter.AR_ase_armed_trader"
 	         caravan_guard="NPCCharacter.AR_ase_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_ase_vet_caravan_guard"
-	         duel_preset="NPCCharacter.aserai_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_aserai"
-	         guard="NPCCharacter.guard_aserai"
-	         blacksmith="NPCCharacter.blacksmith_aserai"
-	         weaponsmith="NPCCharacter.weaponsmith_aserai"
-	         townswoman="NPCCharacter.AR_townswoman_aserai"
-	         townswoman_infant="NPCCharacter.townswoman_infant_aserai"
-	         townswoman_child="NPCCharacter.townswoman_child_aserai"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_aserai"
-	         townsman="NPCCharacter.AR_townsman_aserai"
-	         townsman_infant="NPCCharacter.townsman_infant_aserai"
-	         townsman_child="NPCCharacter.townsman_child_aserai"
-	         townsman_teenager="NPCCharacter.townsman_teenager_aserai"
+	         duel_preset="NPCCharacter.AR_ase_duel_preset"
+	         prison_guard="NPCCharacter.AR_ase_prison_guard"
+	         guard="NPCCharacter.AR_ase_guard"
+	         blacksmith="NPCCharacter.AR_ase_blacksmith"
+	         weaponsmith="NPCCharacter.AR_ase_weaponsmith"
+	         townswoman="NPCCharacter.AR_ase_townswoman"
+	         townswoman_infant="NPCCharacter.AR_ase_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_ase_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_ase_townswoman_teenager"
+	         townsman="NPCCharacter.AR_ase_townsman"
+	         townsman_infant="NPCCharacter.AR_ase_townsman_infant"
+	         townsman_child="NPCCharacter.AR_ase_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_ase_townsman_teenager"
 	         village_woman="NPCCharacter.AR_ase_village_woman"
-	         villager_male_child="NPCCharacter.villager_child_aserai"
-	         villager_male_teenager="NPCCharacter.villager_teenager_aserai"
-	         villager_female_child="NPCCharacter.village_woman_child_aserai"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_aserai"
-	         ransom_broker="NPCCharacter.ransom_broker_aserai"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai"
-	         merchant_notary="NPCCharacter.merchant_notary_aserai"
-	         artisan_notary="NPCCharacter.artisan_notary_aserai"
-	         preacher_notary="NPCCharacter.preacher_notary_aserai"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_aserai"
-	         shop_worker="NPCCharacter.shop_worker_aserai"
-	         tavernkeeper="NPCCharacter.tavernkeeper_aserai"
-	         taverngamehost="NPCCharacter.taverngamehost_aserai"
-	         musician="NPCCharacter.musician_aserai"
-	         tavern_wench="NPCCharacter.tavern_wench_aserai"
-	         armorer="NPCCharacter.armorer_aserai"
-	         horseMerchant="NPCCharacter.horseMerchant_aserai"
-	         barber="NPCCharacter.barber_aserai"
-	         merchant="NPCCharacter.merchant_aserai"
-	         beggar="NPCCharacter.beggar_aserai"
-	         female_beggar="NPCCharacter.female_beggar_aserai"
-	         female_dancer="NPCCharacter.female_dancer_aserai"
+	         villager_male_child="NPCCharacter.AR_ase_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_ase_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_ase_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_ase_village_woman_teenager"
+	         ransom_broker="NPCCharacter.AR_ase_ransom_broker"
+	         gangleader_bodyguard="NPCCharacter.AR_ase_gangleader_bodyguard"
+	         merchant_notary="NPCCharacter.AR_ase_merchant_notary"
+	         artisan_notary="NPCCharacter.AR_ase_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_ase_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_ase_rural_notable_notary"
+	         shop_worker="NPCCharacter.AR_ase_shop_worker"
+	         tavernkeeper="NPCCharacter.AR_ase_tavernkeeper"
+	         taverngamehost="NPCCharacter.AR_ase_taverngamehost"
+	         musician="NPCCharacter.AR_ase_musician"
+	         tavern_wench="NPCCharacter.AR_ase_tavern_wench"
+	         armorer="NPCCharacter.AR_ase_armorer"
+	         horseMerchant="NPCCharacter.AR_ase_horsemerchant"
+	         barber="NPCCharacter.AR_ase_barber"
+	         merchant="NPCCharacter.AR_ase_merchant"
+	         beggar="NPCCharacter.AR_ase_beggar"
+	         female_beggar="NPCCharacter.AR_ase_female_beggar"
+	         female_dancer="NPCCharacter.AR_ase_female_dancer"
 	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_aserai"
 	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_aserai"
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_aserai"
@@ -780,18 +780,18 @@
 			<template name="NPCCharacter.AR_spc_jawwal_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_one_participant_set_v1"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_aserai_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_aserai_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_aserai_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_aserai_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_aserai_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_aserai_four_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_aserai_four_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_aserai_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.eastern_mercenary"/>
@@ -4482,48 +4482,48 @@
 	         faction_banner_key="11.45.122.4345.4345.764.764.1.0.0.463.0.1.512.512.764.764.1.0.0"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="The term 'Darshi' refers to a vast number of peoples who inhabit a vast empire to the east of Calradia. Whilst often vastly different in appearance and origin, Darshi peoples share a common language and culture. Their empire is arranged into various satrapies, each paying tribute to the padishah, who rules from a magnificent capital far to the east. Known as savvy merchants and powerful warriors, people of the Darshi Empire are not an uncommon sight in even the westernmost reaches of Calradia."
-	         tournament_master="NPCCharacter.tournament_master_spahad"
+	         tournament_master="NPCCharacter.AR_dar_tournament_master"
 	         villager="NPCCharacter.AR_dar_villager"
 	         caravan_master="NPCCharacter.AR_dar_caravan_master"
 	         armed_trader="NPCCharacter.AR_dar_armed_trader"
 	         caravan_guard="NPCCharacter.AR_dar_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_dar_vet_caravan_guard"
-	         duel_preset="NPCCharacter.spahad_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_spahad"
-	         guard="NPCCharacter.guard_spahad"
-	         blacksmith="NPCCharacter.blacksmith_spahad"
-	         weaponsmith="NPCCharacter.weaponsmith_spahad"
-	         townswoman="NPCCharacter.townswoman_spahad"
-	         townswoman_infant="NPCCharacter.townswoman_infant_spahad"
-	         townswoman_child="NPCCharacter.townswoman_child_spahad"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_spahad"
-	         townsman="NPCCharacter.townsman_spahad"
-	         townsman_infant="NPCCharacter.townsman_infant_spahad"
-	         townsman_child="NPCCharacter.townsman_child_spahad"
-	         townsman_teenager="NPCCharacter.townsman_teenager_spahad"
+	         duel_preset="NPCCharacter.AR_dar_duel_preset"
+	         prison_guard="NPCCharacter.AR_dar_prison_guard"
+	         guard="NPCCharacter.AR_dar_guard"
+	         blacksmith="NPCCharacter.AR_dar_blacksmith"
+	         weaponsmith="NPCCharacter.AR_dar_weaponsmith"
+	         townswoman="NPCCharacter.AR_dar_townswoman"
+	         townswoman_infant="NPCCharacter.AR_dar_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_dar_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_dar_townswoman_teenager"
+	         townsman="NPCCharacter.AR_dar_townsman"
+	         townsman_infant="NPCCharacter.AR_dar_townsman_infant"
+	         townsman_child="NPCCharacter.AR_dar_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_dar_townsman_teenager"
 	         village_woman="NPCCharacter.AR_dar_village_woman"
-	         villager_male_child="NPCCharacter.villager_child_spahad"
-	         villager_male_teenager="NPCCharacter.villager_teenager_spahad"
-	         villager_female_child="NPCCharacter.village_woman_child_spahad"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_spahad"
-	         ransom_broker="NPCCharacter.ransom_broker_spahad"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_spahad"
-	         merchant_notary="NPCCharacter.merchant_notary_spahad"
-	         artisan_notary="NPCCharacter.artisan_notary_spahad"
-	         preacher_notary="NPCCharacter.preacher_notary_spahad"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_spahad"
-	         shop_worker="NPCCharacter.shop_worker_spahad"
-	         tavernkeeper="NPCCharacter.tavernkeeper_spahad"
-	         taverngamehost="NPCCharacter.taverngamehost_spahad"
-	         musician="NPCCharacter.musician_spahad"
-	         tavern_wench="NPCCharacter.tavern_wench_spahad"
-	         armorer="NPCCharacter.armorer_spahad"
-	         horseMerchant="NPCCharacter.horseMerchant_spahad"
-	         barber="NPCCharacter.barber_spahad"
-	         merchant="NPCCharacter.merchant_spahad"
-	         beggar="NPCCharacter.beggar_spahad"
-	         female_beggar="NPCCharacter.female_beggar_spahad"
-	         female_dancer="NPCCharacter.female_dancer_spahad"
+	         villager_male_child="NPCCharacter.AR_dar_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_dar_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_dar_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_dar_village_woman_teenager"
+	         ransom_broker="NPCCharacter.AR_dar_ransom_broker"
+	         gangleader_bodyguard="NPCCharacter.AR_dar_gangleader_bodyguard"
+	         merchant_notary="NPCCharacter.AR_dar_merchant_notary"
+	         artisan_notary="NPCCharacter.AR_dar_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_dar_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_dar_rural_notable_notary"
+	         shop_worker="NPCCharacter.AR_dar_shop_worker"
+	         tavernkeeper="NPCCharacter.AR_dar_tavernkeeper"
+	         taverngamehost="NPCCharacter.AR_dar_taverngamehost"
+	         musician="NPCCharacter.AR_dar_musician"
+	         tavern_wench="NPCCharacter.AR_dar_tavern_wench"
+	         armorer="NPCCharacter.AR_dar_armorer"
+	         horseMerchant="NPCCharacter.AR_dar_horsemerchant"
+	         barber="NPCCharacter.AR_dar_barber"
+	         merchant="NPCCharacter.AR_dar_merchant"
+	         beggar="NPCCharacter.AR_dar_beggar"
+	         female_beggar="NPCCharacter.AR_dar_female_beggar"
+	         female_dancer="NPCCharacter.AR_dar_female_dancer"
 	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_spahad"
 	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_spahad"
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_spahad"
@@ -4614,17 +4614,17 @@
 			<name name="{=!*}Jaleh"/>
 		</female_names>
 		<clan_names>
-			<name name="{=By82n3gR}Aska"/>
-			<name name="{=uwalgjVy}Dhamin"/>
-			<name name="{=86LT9H6v}Fasus"/>
-			<name name="{=c39lybQJ}Julul"/>
-			<name name="{=Iwe7Xpke}Kinyan"/>
-			<name name="{=irccq0qs}Laikh"/>
-			<name name="{=DygS1Bef}Mushala"/>
-			<name name="{=bgNQtbS7}Nir"/>
-			<name name="{=sAa3o3vw}Tharuq"/>
-			<name name="{=L4XUK5n4}Yatash"/>
-			<name name="{=WFfbxYu5}Zus"/>
+			<name name="{=By82n3gR}Kobla"/>
+			<name name="{=uwalgjVy}Parsaai"/>
+			<name name="{=86LT9H6v}Jhabuli"/>
+			<name name="{=c39lybQJ}Maneshi"/>
+			<name name="{=Iwe7Xpke}Gabla"/>
+			<name name="{=irccq0qs}Lashkari"/>
+			<name name="{=DygS1Bef}Javedani"/>
+			<name name="{=bgNQtbS7}Langrana"/>
+			<name name="{=sAa3o3vw}Kutar"/>
+			<name name="{=L4XUK5n4}Vania"/>
+			<name name="{=WFfbxYu5}Bhansali"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="aserai_cheaper_caravans"/>
@@ -4704,18 +4704,18 @@
 			<template name="NPCCharacter.AR_spc_ethawians_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_spahad_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_one_participant_set_v1"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_spahad_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_spahad_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_spahad_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_spahad_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_spahad_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_spahad_four_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_spahad_four_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_darshi_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.eastern_mercenary"/>
