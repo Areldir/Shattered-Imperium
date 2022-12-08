@@ -130,7 +130,7 @@
 	         name="{=ghilmanClanName}Kolemen"
 	         short_name="Kolemen"
 	         tier="4"
-	         text="{=4TiYXBqK}The Kolemen are a band of mercenaries who recruit from the Darshi tribes of the lands to the east of Calradia. In an obscure eastern tradition, they are legally their own slaves and masters: each “sells“ himself to the order and, in the process, becomes a part-owner. They are known for their fine horses and fine clothes. But no one should assume from their oiled locks, perfumes and peacock feathers that they spend more time preening then training. Their skills as mounted archers are second to none, and as lancers are close behind the Vlandians and Imperial cataphracts.">
+	         text="{=4TiYXBqK}The Kolemen are a band of mercenaries who recruit from the Darshi lands to the east of Calradia. In an obscure eastern tradition, they are legally their own slaves and masters: each “sells“ himself to the order and, in the process, becomes a part-owner. They are known for their fine horses and fine clothes. However, no one should assume from their oiled locks, perfumes and peacock feathers that they spend more time preening then training. Their skills as mounted archers are second to none, and as lancers they are second only to the Vlandians and Imperial cataphracts.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_ghilman_leader_0"/>
 			<template id="NPCCharacter.AR_spc_ghilman_leader_1"/>
@@ -850,12 +850,13 @@
 	         is_noble="true"
 	         banner_key="11.61.154.4345.4345.776.777.1.0.0.428.137.0.450.450.764.804.0.0.0.521.137.0.100.100.764.534.0.0.0.144.137.0.300.300.759.734.0.0.0"/>
 	<Faction id="clan_aserai_7"
-	         name="{=Aft8nsgn}Sarmalzadeh"
+	         name="{=Aft8nsgn}Zamalzadeh"
 	         tier="4"
 	         owner="Hero.lord_3_19"
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.spahad"
 	         is_noble="true"
+			 text="The rise of the Zamalzadeh clan to prominence is undoubtedly one of the more unsavory results of the Spahanfari incursion into Calradia. A harsh warrior clan from the Darshi heartland, they exploited the foundation of the Spahanfar Satrapy to enrich themselves, attacking the neutral Tanashi city state of Akkalat and driving the Darshi Sowdafar clan into exile. Growing rich and powerful off spoils of this conquest, the Zamalzadeh rule Akkalat with an iron fist. Though they are loyal to the Shah for now, many fear that they wish to install themselves as leaders of the Satrapy, and may just have the connections in the Padishah's court to do it."
 	         banner_key="11.101.0.4345.4345.776.777.1.0.0.500.1.0.186.186.764.747.0.0.-89.222.1.0.559.583.764.785.0.0.-180.428.1.0.284.284.764.786.0.0.0.500.1.0.180.180.764.747.0.0.-89.500.1.0.173.173.764.747.0.0.-89.503.1.0.140.140.764.744.0.0.-1.500.1.0.359.359.764.780.0.0.-89"/>
 	<Faction id="clan_aserai_8"
 	         name="{=o4wKMT9x}Banu Habbab"
@@ -1714,7 +1715,8 @@
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.spahad"
 	         is_noble="true"
-	         banner_key="11.61.154.4345.4345.776.777.1.0.0.216.137.0.450.450.764.774.0.0.180.427.137.0.200.100.759.994.0.0.0.342.137.0.100.100.764.504.0.0.0"/>
+	         text="The Spahanfar hail from the western borderlands of the Padishah, having been counted among the most staunch defenders of the Darshi Empire for centuries. During the campaign of the Padishah Hoshtar into the Devseg over three hundred years ago, the Spahanfar first gained an introduction to the lands of Calradia, seeing its vast wealth and potential. Less than a century later, led by the ambitious general Kourosh, the Spahanfar returned to Calradia, marching from the Devseg down into the eastern Nahasa. Given rulership over their own satrapy in eastern Calradia, the Spahanfari shahs have since found themselves constantly looking to both preserve their own borders, and expand them."
+			 banner_key="11.61.154.4345.4345.776.777.1.0.0.216.137.0.450.450.764.774.0.0.180.427.137.0.200.100.759.994.0.0.0.342.137.0.100.100.764.504.0.0.0"/>
 	<Faction id="clan_spahad_2"
 	         name="{=Aft8nsgn}Dhami"
 	         tier="5"
@@ -1722,7 +1724,8 @@
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.spahad"
 	         is_noble="true"
-	         banner_key="11.101.0.4345.4345.776.777.1.0.0.401.1.0.507.507.764.764.0.0.359.411.1.0.256.256.764.764.0.0.0.500.1.0.315.315.764.764.0.0.0"/>
+	         text="In the days before the Darshi expansion into Calradia, the Dhami clan were simple goatherds dwelling in the Tiagys River basin. Their progenitor was drafted into the service of the Padishah Arshak in his war against the people of the Devseg, winning acclaim for the clan by single-handedly defeating seven steppe lancers in a single battle with just his sling and spear. Awarded a title of minor nobility by the Padishah, the Dhami have since accompanied many of the Darshi incursions into Calradia, and now form one of the key landholders in the Spahanfar Satrapy, protecting the lands of the Shah against all comers."
+			 banner_key="11.101.0.4345.4345.776.777.1.0.0.401.1.0.507.507.764.764.0.0.359.411.1.0.256.256.764.764.0.0.0.500.1.0.315.315.764.764.0.0.0"/>
 	<Faction id="clan_spahad_3"
 	         name="{=Aft8nsgn}Musalan"
 	         tier="4"
@@ -1730,7 +1733,8 @@
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.spahad"
 	         is_noble="true"
-	         banner_key="11.61.154.4345.4345.776.777.1.0.0.306.137.0.450.550.764.764.0.0.45.426.137.0.200.200.764.564.0.0.90.306.137.0.450.550.764.764.0.1.315.325.137.0.200.200.764.924.0.0.0"/>
+	         text="The Musalan are a clan of mercenaries from the far southern protectorates of the Darshi Padishah. Seventy years ago, at the request of the Spahanfari Shah, the Musalan were dispatched by the Padishah to aid in the fighting in the Nahasa, decisively turning the tide against the Aserai in a battle before the walls of Razih. Awarded for their bravery by the Spahanfari with rulership over the lands around Tamnuh Castle, they now form the cornerstone of the Darshi incursion into the Nahasa."
+			 banner_key="11.61.154.4345.4345.776.777.1.0.0.306.137.0.450.550.764.764.0.0.45.426.137.0.200.200.764.564.0.0.90.306.137.0.450.550.764.764.0.1.315.325.137.0.200.200.764.924.0.0.0"/>
 	<Faction id="clan_spahad_4"
 	         name="{=Aft8nsgn}Askapour"
 	         tier="4"
@@ -1738,7 +1742,8 @@
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.spahad"
 	         is_noble="true"
-	         banner_key="11.101.0.2000.2000.764.764.1.0.0.321.1.0.200.200.759.824.0.0.0.110.1.0.350.350.764.714.0.0.0.500.1.0.500.500.764.764.0.0.0.521.1.0.174.174.764.538.0.0.0"/>
+	         text="The Askapour are an old and esteemed Darshi family, ruling a small shahdom in the lands around Erzenur Castle since the time before the coming of the Padishah's Empire to the east of Calradia. Unlike many of their fellows, the Askapour willingly joined the Darshi Empire following Hoshtar's invasion into the region, becoming prominent warlords in the Padishah's westernmost borderlands. Though now subservient to the Spahanfar Satrapy, their wealth, accumulated over countless generations, gives them substantial leverage within the court of the Shah, and their ambitions can readily be seen."
+			 banner_key="11.101.0.2000.2000.764.764.1.0.0.321.1.0.200.200.759.824.0.0.0.110.1.0.350.350.764.714.0.0.0.500.1.0.500.500.764.764.0.0.0.521.1.0.174.174.764.538.0.0.0"/>
 	<!--
 	GOTARNIA
 	Gothic Migrators
@@ -1815,13 +1820,13 @@
 	         text="The Esbarafar hail from the Tanash city state of Chaikand, having migrated there only two generations ago from the Empire of the Padishah to seek their fortune in the spice trade. Demonstrating a particularly cut-throat approach to commerce, they have rapidly established themselves as one of the most prominent families in Chaikand, speaking on behalf of the city in councils with representatives from other Tanashi cities. They have been a vocal proponent of Tanashi independence, wishing to throw off Calradian rule for closer ties with their Darshi homeland."
 			 banner_key="11.61.154.4345.4345.776.777.1.0.0.337.137.0.400.400.764.769.0.0.0.411.137.0.200.200.764.654.0.0.0.500.137.0.550.550.764.764.0.0.0"/>
 	<Faction id="clan_tanash_4"
-	         name="{=Aft8nsgn}Uriksana"
+	         name="{=Aft8nsgn}Uzitsana"
 	         tier="4"
 	         owner="Hero.AR_lord_14_18"
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.tanash"
 	         is_noble="true"
-	         text="The Uriksana dwell in the mountain fortress of Usek, set high on the slopes of the Akkan Hills in a key pass between the Tanash city states and the Devseg Plateau. The descendants of northern mercenaries who fought for the Tanashi in one of their many wars against the nomads of the Devseg, the Uriksana were rewarded for their service with lordship over the eastern borderlands. They follow the proud warrior tradition of their forebears and will defend their lands to the last."
+	         text="The Uzitsana dwell in the mountain fortress of Usek, set high on the slopes of the Akkan Hills in a key pass between the Tanash city states and the Devseg Plateau. The descendants of mercenaries from the steppe, who fought for the Tanashi in one of their many wars against the nomads of the Devseg, the Uzitsana were rewarded for their service with lordship over the eastern borderlands. They follow the proud warrior tradition of their forebears and will defend their lands to the last."
 			 banner_key="11.1.0.4345.4345.776.777.1.0.0.137.1.0.400.400.744.784.0.0.0.137.1.0.400.400.784.784.0.1.0.521.1.0.180.180.764.614.0.1.0"/>
 	<Faction id="clan_tanash_5"
 	         name="{=Aft8nsgn}Sowdafar"
