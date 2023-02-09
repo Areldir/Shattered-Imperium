@@ -3330,23 +3330,19 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
-				<Equipment slot="Item1" id="Item.tribal_steppe_shield"/>
+				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<Equipment slot="Head" id="Item.decorated_nomad_cap"/>
 				<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-				<Equipment slot="Head" id="Item.plumed_nomad_helmet"/>
-				<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<Equipment slot="Cape" id="Item.battania_civil_cape"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
+				<Equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+				<Equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 				<Equipment slot="Head" id="Item.decorated_nomad_cap"/>
-				<Equipment slot="Body" id="Item.studded_leather_waistcoat"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.highland_gloves"/>
-				<Equipment slot="Leg" id="Item.leather_boots"/>
+				<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+				<Equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+				<Equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3354,23 +3350,19 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
-				<Equipment slot="Item1" id="Item.tribal_steppe_shield"/>
+				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<Equipment slot="Head" id="Item.decorated_nomad_cap"/>
 				<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
-				<Equipment slot="Head" id="Item.plumed_nomad_helmet"/>
-				<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<Equipment slot="Cape" id="Item.battania_civil_cape"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
+				<Equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+				<Equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 				<Equipment slot="Head" id="Item.decorated_nomad_cap"/>
-				<Equipment slot="Body" id="Item.studded_leather_waistcoat"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.highland_gloves"/>
-				<Equipment slot="Leg" id="Item.leather_boots"/>
+				<Equipment slot="Body" id="Item.steppe_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3379,24 +3371,21 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-				<Equipment slot="Item1" id="Item.decorated_steppe_shield"/>
 				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<Equipment slot="Item1" id="Item.AR_shield_infantry_zy"/>
+				<Equipment slot="Item2" id="Item.khuzait_lance_1_t3"/>
+				<Equipment slot="Head" id="Item.eastern_cap"/>
 				<Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
-				<Equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
-				<Equipment slot="Gloves" id="Item.studded_vambraces"/>
 				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.steppe_harness"/>
+				<Equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
+				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.nomad_cap"/>
-				<Equipment slot="Body" id="Item.steppe_armor"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.highland_gloves"/>
+				<Equipment slot="Head" id="Item.eastern_cap"/>
+				<Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3404,24 +3393,21 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-				<Equipment slot="Item1" id="Item.decorated_steppe_shield"/>
 				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<Equipment slot="Item1" id="Item.AR_shield_infantry_zy"/>
+				<Equipment slot="Item2" id="Item.khuzait_lance_1_t3"/>
+				<Equipment slot="Head" id="Item.eastern_cap"/>
 				<Equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
-				<Equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
-				<Equipment slot="Gloves" id="Item.studded_vambraces"/>
 				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.steppe_harness"/>
+				<Equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
+				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.nomad_cap"/>
-				<Equipment slot="Body" id="Item.steppe_armor"/>
+				<Equipment slot="Head" id="Item.eastern_cap"/>
+				<Equipment slot="Body" id="Item.khuzait_dress_b"/>
+				<Equipment slot="Leg" id="Item.southern_moccasins"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.highland_gloves"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3439,7 +3425,6 @@
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 				<Equipment slot="Head" id="Item.fur_hat"/>
 				<Equipment slot="Body" id="Item.steppe_armor"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
@@ -3461,7 +3446,6 @@
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 				<Equipment slot="Head" id="Item.fur_hat"/>
 				<Equipment slot="Body" id="Item.steppe_armor"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
@@ -3482,11 +3466,10 @@
 				<Equipment slot="Head" id="Item.peaked_fur_hood"/>
 				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
+				<Equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 				<Equipment slot="Body" id="Item.khuzait_belt_leather"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -3505,11 +3488,10 @@
 				<Equipment slot="Head" id="Item.peaked_fur_hood"/>
 				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
+				<Equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 				<Equipment slot="Body" id="Item.khuzait_belt_leather"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -3531,7 +3513,6 @@
 				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_mace_1_t2"/>
 				<Equipment slot="Body" id="Item.khuzait_belt_leather"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -3552,7 +3533,6 @@
 				<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_mace_1_t2"/>
 				<Equipment slot="Body" id="Item.khuzait_belt_leather"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -3571,11 +3551,10 @@
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
 				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
+				<Equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 				<Equipment slot="Body" id="Item.khuzait_belt_leather"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -3593,11 +3572,10 @@
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
 				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-				<Equipment slot="Horse" id="Item.sumpter_horse"/>
-				<Equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+				<Equipment slot="Horse" id="Item.AR_khuzait_sumpter_horse"/>
+				<Equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 				<Equipment slot="Body" id="Item.khuzait_belt_leather"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -3616,7 +3594,6 @@
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Body" id="Item.steppe_robe"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentSet>
@@ -3632,7 +3609,6 @@
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Body" id="Item.steppe_robe"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentSet>
