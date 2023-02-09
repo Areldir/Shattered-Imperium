@@ -2328,7 +2328,7 @@
   <!-- Akon's place -->
   <!-- Olek's Faction -->
   <!-- Ravenfield -->
-  <Settlement id="town_S4" name="{=si_ar_town_S4}Varnapolys" owner="Faction.clan_vaegiria_2" posX="540.416" posY="548.273" culture="Culture.vakken" prosperity="3300" gate_posX="537.884" gate_posY="549.716" text="{=si_ar_town_S4_desc}Varnapolys, which sits beneath the Chertyg mountains on the crystal waters of Lake Laconis, has the dubious honor of being perhaps the most-often conquered city in Calradia. Originally it was a colony of the Empire, infamous as a place of exile for dissident senators, before it was seized by Nords as a base to expand their influence into the Sturgian fur trade. It was taken by the Alkit tribe from the eastern steppe and was briefly restored to Imperial authority. With the ongoing civil strife in the Empire, it now serves as the capital of the Alkit clan's small khanate, notionally aligned with the Vaegirian Confederation.">
+  <Settlement id="town_S4" name="{=si_ar_town_S4}Varnapolys" owner="Faction.clan_vaegiria_2" posX="540.416" posY="548.273" culture="Culture.vakken" prosperity="3300" gate_posX="537.884" gate_posY="549.716" text="{=si_ar_town_S4_desc}">
     <Components>
       <Town id="town_comp_S4" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.808" />
     </Components>
@@ -3583,7 +3583,7 @@
     </CommonAreas>
   </Settlement>
   <!-- Sargot, from Calradic Sargythea, Right Whale bay-->
-  <Settlement id="town_V1" name="{=si_ar_town_V1}Velucana" owner="Faction.clan_empire_west_3" posX="210.378" posY="383.893" culture="Culture.empire" prosperity="4500" gate_posX="207.0884" gate_posY="386.9565" text="{=si_ar_town_V1_desc}The town of Velucana was founded by Vlandian settlers on the ruins of an abandoned imperial town. Whilst few edifices of the older Calradian settlement survive, it has remained firmly under imperial control. However, since Osric Iron-Arm founded an independent Vlandian Kingdom, there have been stirrings from the common people of Velucana, many of whom wish to join their brothers and sisters in throwing off the imperial yoke. To prevent the town sliding into rebellion, the Dionicos family has taken direct control, hoping a firm hand can prevent the further collapse of the eastern provinces.">
+  <Settlement id="town_V1" name="{=si_ar_town_V1}Velucana" owner="Faction.clan_empire_west_3" posX="210.378" posY="383.893" culture="Culture.empire" prosperity="4500" gate_posX="207.0884" gate_posY="386.9565" text="{=si_ar_town_V1_desc}">
     <Components>
       <Town id="town_comp_V1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" />
     </Components>
@@ -3604,7 +3604,7 @@
     </CommonAreas>
   </Settlement>
   <!-- From the Battanian Caliog, place of Cal -->
-  <Settlement id="village_V1_1" name="{=si_ar_village_V1_1}Calion" posX="186.614" posY="391.233" culture="Culture.empire" text="{=si_ar_village_V1_1_desc}Calion on a flat plain between the Epiric and Biscan hills, in the contested western provinces of the Calradian Empire. The people of this district grow flax on the marshy lands.">
+  <Settlement id="village_V1_1" name="{=si_ar_village_V1_1}Calion" posX="186.614" posY="391.233" culture="Culture.empire" text="{=si_ar_village_V1_1_desc}Calion sits on a flat plain between the Epiric and Biscan hills, in the contested western provinces of the Calradian Empire. The people of this district grow flax on the marshy lands.">
     <Components>
       <Village id="village_comp_V1_1" village_type="VillageType.flax_plant" hearth="132" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
@@ -3957,7 +3957,7 @@
     </CommonAreas>
   </Settlement>
   <!-- -->
-  <Settlement id="town_V7" name="{=si_ar_town_V7}Charasea" owner="Faction.clan_vlandia_4" posX="176.659" posY="334.402" culture="Culture.vlandia" prosperity="3000" gate_posX="177.5801" gate_posY="338.7297" text="{=si_ar_town_V7_desc}The city of Charasea is traditionally reckoned to be the first Calradian colony on the shores of their new continent, marking the exact spot where Calradios the Great came ashore in times of old. At the Empire's height, when the capital moved north to Paravenos,  Charasea remained a key hub of sea-faring and trade, growing increasingly wealthy on trade with the Nahasa, and across the Western Sea. Despite the loss of much of the western provinces, life in Charasea goes on much as it always has. Trade continues to flow, and imperial aristocrats still maintain their summer homes on the warm shores of the nearby gulf and cruise their pleasure-boats around its islands.">
+  <Settlement id="town_V7" name="{=si_ar_town_V7}Charasea" owner="Faction.clan_vlandia_4" posX="176.659" posY="334.402" culture="Culture.vlandia" prosperity="3000" gate_posX="177.5801" gate_posY="338.7297" text="">
     <Components>
       <Town id="town_comp_V7" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" />
     </Components>
