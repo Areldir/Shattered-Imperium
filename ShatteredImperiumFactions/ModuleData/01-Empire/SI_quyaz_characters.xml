@@ -683,8 +683,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_kan_t5_heavy_cavalry_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.t2_empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_b"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Cavalry Very Heavy Skill 80-180 -->
@@ -706,8 +704,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_kan_t6_heavy_cavalry_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.t2_empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_a"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- QUYAZIC EMPIRE: Caravans -->
@@ -751,8 +747,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_kan_caravan_guard_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
-			<equipment slot="Horse" id="Item.t2_empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
@@ -774,12 +768,10 @@
 		<Equipments>
 			<EquipmentSet id="AR_kan_vet_caravan_guard_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.t2_empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Caravan Master Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_kan_caravan_master" default_group="Cavalry" level="26" name="{=si_ar_kan_caravan_master}Quyazic Caravan Master" occupation="CaravanGuard" culture="Culture.kannic" is_basic_troop="true">
+	<NPCCharacter id="AR_kan_caravan_master" default_group="Infantry" level="26" name="{=si_ar_kan_caravan_master}Quyazic Caravan Master" occupation="CaravanGuard" culture="Culture.kannic" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_kannic"/>
 		</face>
@@ -797,8 +789,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_kan_caravan_master_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- QUYAZIC EMPIRE: Guards -->
