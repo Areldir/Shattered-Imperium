@@ -2,15 +2,15 @@
 <Module>
 	<Name value="Shattered Imperium: Base Files"/>
 	<Id value="ShatteredImperiumBase"/>
-	<Version value="v0.1.1"/>
+	<Version value="v0.2.0"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.0.1"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.0.1"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.0.1"/>
-		<DependedModule Id="CustomBattle" DependentVersion="v1.0.1"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.0.1"/>
+		<DependedModule Id="Native" DependentVersion="v1.0.3"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.0.3"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.0.3"/>
+		<DependedModule Id="CustomBattle" DependentVersion="v1.0.3"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.0.3"/>
 		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
@@ -32,7 +32,7 @@
 	</SubModules>
 	<Xmls>
 		<XmlNode>
-			<XmlName id="SPCultures" path="SI_cultures"/>
+			<XmlName id="NPCCharacters" path="Characters"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -41,7 +41,16 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="EquipmentRosters" path="SI_starting_presets"/>
+			<XmlName id="EquipmentRosters" path="Equipmentsets"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="SPCultures" path="SI_cultures"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -122,15 +131,6 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="EquipmentRosters" path="SI_lord_equipment_sets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
 			<XmlName id="NPCCharacters" path="SI_lords"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
@@ -141,15 +141,6 @@
 		</XmlNode>
 		<XmlNode>                
 			<XmlName id="GameText" path="SI_strings"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="SI_tournament_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>

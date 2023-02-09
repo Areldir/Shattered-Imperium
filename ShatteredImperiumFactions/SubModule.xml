@@ -2,15 +2,15 @@
 <Module>
 	<Name value="Shattered Imperium: Factions"/>
 	<Id value="ShatteredImperiumFactions"/>
-	<Version value="v0.1.1"/>
+	<Version value="v0.2.0"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.0.1"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.0.1"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.0.1"/>
-		<DependedModule Id="CustomBattle" DependentVersion="v1.0.1"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.0.1"/>
+		<DependedModule Id="Native" DependentVersion="v1.0.3"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.0.3"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.0.3"/>
+		<DependedModule Id="CustomBattle" DependentVersion="v1.0.3"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.0.3"/>
 		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
@@ -60,7 +60,34 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="01-Empire/spnpccharacters_empire_s_reforms_main"/>
+			<XmlName id="NPCCharacters" path="01-Empire/SI_s_empire_characters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="01-Empire/SI_n_empire_characters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="01-Empire/SI_w_empire_characters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="01-Empire/SI_quyaz_characters"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -87,7 +114,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="01-Empire/spnpccharacters_empire_w_reforms_main"/>
+			<XmlName id="EquipmentRosters" path="01-Empire/SI_s_empire_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -96,7 +123,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="01-Empire/spnpccharacters_empire_n_reforms_main"/>
+			<XmlName id="EquipmentRosters" path="01-Empire/SI_w_empire_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -105,7 +132,16 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="01-Empire/spnpccharacters_quyaz_reforms_main"/>
+			<XmlName id="EquipmentRosters" path="01-Empire/SI_n_empire_equipmentsets"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="01-Empire/SI_quyaz_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -159,51 +195,6 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="03-Eastern/spnpccharacters_iltanlar_reforms_main"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="03-Eastern/spnpccharacters_cizygi_reforms_main"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="03-Eastern/spnpccharacters_eastern_reforms_auxiliaries"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="03-Eastern/spnpccharacters_eastern_reforms_militias"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="03-Eastern/spnpccharacters_eastern_reforms_civilians"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
 			<XmlName id="NPCCharacters" path="04-Northern/spnpccharacters_sturgia_reforms_main"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
@@ -249,7 +240,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="05-Southern/spnpccharacters_aserai_reforms_main"/>
+			<XmlName id="NPCCharacters" path="05-Southern/SI_aserai_characters"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -258,7 +249,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="05-Southern/spnpccharacters_darshi_reforms_main"/>
+			<XmlName id="NPCCharacters" path="05-Southern/SI_darshi_characters"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -277,6 +268,24 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="05-Southern/spnpccharacters_southern_reforms_civilians"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="05-Southern/SI_aserai_equipmentsets"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="05-Southern/SI_darshi_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -322,60 +331,6 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="06-Western/spnpccharacters_western_reforms_civilians"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="01-Empire/SI_s_empire_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="01-Empire/SI_w_empire_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="01-Empire/SI_n_empire_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="01-Empire/SI_quyaz_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="05-Southern/SI_aserai_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="05-Southern/SI_darshi_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
