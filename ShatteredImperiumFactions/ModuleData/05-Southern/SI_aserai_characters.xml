@@ -464,7 +464,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -503,8 +503,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_ase_t5_camel_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.war_camel"/>
-			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Cavalry Archer Very Heavy Skill 80-180 -->
@@ -514,7 +512,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
-			<skill id="Riding" value="180"/>
+			<skill id="Riding" value="130"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="180"/>
@@ -526,8 +524,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_ase_t6_camel_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.war_camel"/>
-			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- ASERAI: Noble Troops -->
@@ -538,7 +534,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="40"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
 			<skill id="Polearm" value="40"/>
@@ -561,7 +557,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="70"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="70"/>
@@ -610,7 +606,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -633,7 +629,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
-			<skill id="Riding" value="180"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="80"/>
@@ -677,7 +673,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -700,7 +696,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
-			<skill id="Riding" value="180"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="180"/>
@@ -766,7 +762,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
 			<skill id="Polearm" value="60"/>
@@ -778,8 +774,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_ase_vet_caravan_guard_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.war_camel"/>
-			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Caravan Master Heavy Skill 60-130 -->
@@ -1133,7 +1127,7 @@
 		<skills/>
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
-			<EquipmentSet id="AR_ase_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_ase_horsemerchant_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_ase_artisan_notary" default_group="Infantry" name="{=si_ar_ase_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -1224,6 +1218,614 @@
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai"/>
 			<EquipmentSet id="AR_ase_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ASERAI: Auxiliary And Mercenary Characters -->
+	<!-- T3 Jawwal Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_jawwal_t3" default_group="Cavalry" level="16" name="{=si_ar_min_jawwal_t3}Jawwal Bedouin Tribesman" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nahasar"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t4_camel_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t4_camel_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.baggy_trunks"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item2" id="Item.aserai_axe_2_t2"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.closed_head_scarf"/>
+				<equipment slot="Body" id="Item.ao_durkhan_trousers"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.baggy_trunks"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item2" id="Item.aserai_axe_2_t2"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.ao_durkhan_trousers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.aserai_civil_e"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Head" id="Item.woven_turban"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Jawwal Light Skill 60-100 -->
+	<NPCCharacter id="AR_min_jawwal_t4_camel_melee" default_group="Infantry" level="21" name="{=si_ar_min_jawwal_t4_camel_melee}Jawwal Bedouin Warrior" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nahasar"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t5_camel_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.desert_long_sword_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Head" id="Item.southern_heavy_tuareg"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.guarded_armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.bamboo_axe_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Head" id="Item.open_desert_helmet"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.desert_long_sword_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Body" id="Item.aserai_civil_e"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Head" id="Item.southern_helmet_IIII"/>
+				<equipment slot="Gloves" id="Item.guarded_armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.bamboo_axe_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.southern_heavy_tuareg"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+				<equipment slot="Body" id="Item.aserai_civil_b"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Jawwal Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_jawwal_t5_camel_melee" default_group="Cavalry" level="26" name="{=si_ar_min_jawwal_t5_camel_melee}Jawwal Bedouin Veteran" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nahasar"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.bound_adarga"/>
+				<equipment slot="Item2" id="Item.desert_long_sword_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.southern_light_helmet_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.adarga"/>
+				<equipment slot="Item2" id="Item.battle_axe_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.closed_desert_helmet"/>
+				<equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_j"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.bound_adarga"/>
+				<equipment slot="Item2" id="Item.desert_long_sword_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Head" id="Item.southern_cone_helmet"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Jawwal Archer Light Skill 60-100 -->
+	<NPCCharacter id="AR_min_jawwal_t4_camel_archer" default_group="HorseArcher" level="21" name="{=si_ar_min_jawwal_t4_camel_archer}Jawwal Bedouin Hunter" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nahasar"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t5_camel_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.large_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Body" id="Item.tassled_southern_robes"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.large_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.woven_turban"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.large_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+				<equipment slot="Body" id="Item.aserai_civil_b"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.large_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_e"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Jawwal Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_jawwal_t5_camel_archer" default_group="HorseArcher" level="26" name="{=si_ar_min_jawwal_t5_camel_archer}Jawwal Bedouin Raider" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nahasar"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.ornate_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.closed_desert_helmet"/>
+				<equipment slot="Body" id="Item.aserai_archer_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_j"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.ornate_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.open_desert_helmet"/>
+				<equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.ornate_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.southern_cone_helmet"/>
+				<equipment slot="Body" id="Item.aserai_archer_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.ornate_adarga"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.southern_light_helmet_a"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- BENI ZILAL -->
+	<!-- T3 Beni Zilal Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_benizilal_t3" default_group="Ranged" level="16" name="{=uca778lM}Beni Zilal Initiate" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_benizilal_t4_slinger"/>
+			<upgrade_target id="NPCCharacter.AR_min_benizilal_t4_cav_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_1_t2"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Body" id="Item.aserai_civil_a"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_1_t2"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Body" id="Item.aserai_civil_e"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_1_t2"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Body" id="Item.aserai_civil_c"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Beni Zilal Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_benizilal_t4_slinger" default_group="Ranged" level="21" name="{=9zXXes9i}Beni Zilal Hurler" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_benizilal_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Beni Zilal Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_benizilal_t5_slinger" default_group="Ranged" level="26" name="{=8Gh8q1PX}Beni Zilal Chosen Slinger" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item2" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+				<equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_r"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item2" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+				<equipment slot="Body" id="Item.aserai_archer_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+				<equipment slot="Item2" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+				<equipment slot="Body" id="Item.TV_aserai_robe_a"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_j"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Beni Zilal Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_benizilal_t4_cav_archer" default_group="Cavalry" level="21" name="{=9zXXes9i}Beni Zilal Rider" occupation="Soldier" culture="Culture.aserai" upgrade_requires="ItemCategory.war_horse">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_benizilal_t5_cav_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.eastern_studded_leather"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.aserai_lance_2_t4"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_a"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Beni Zilal Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_benizilal_t5_cav_archer" default_group="Cavalry" level="26" name="{=8Gh8q1PX}Beni Zilal Chosen Horseman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+				<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_s"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+				<equipment slot="Body" id="Item.aserai_armor_02_b"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_j"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.aserai_lance_5_t5"/>
+				<equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+				<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_k"/>
+			</EquipmentRoster>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>		  
