@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<!-- WEAPONS -->
-	<!-- FOR OSW -->
-	<CraftedItem id="AR_darshi_2h_mace_t4" name="{=osa_ar_darshi_2h_mace_t4}Darshi Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.aserai">
-		<Pieces>
-			<Piece id="mace_head_34" Type="Blade" scale_factor="106"/>
-			<Piece id="mace_handle_18" Type="Handle" scale_factor="110"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 100 Weight: 1.45 -->
-	</CraftedItem>
-	<CraftedItem id="AR_darshi_2h_mace_t5" name="{=osa_ar_darshi_2h_mace_t4}Darshi Noble Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.aserai">
-		<Pieces>
-			<Piece id="mace_head_38" Type="Blade" scale_factor="110"/>
-			<Piece id="axe_craft_1_handle" Type="Handle" scale_factor="90"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 120 Weight: 2.13 -->
-	</CraftedItem>
-	<CraftedItem id="AR_darshi_mace_4_t4" name="{=osa_ar_darshi_mace_4_t4}Darshi Spiralled Mace" crafting_template="Mace" culture="Culture.aserai">
-		<Pieces>
-			<Piece id="mace_head_21" Type="Blade" scale_factor="120"/>
-			<Piece id="mace_handle_8" Type="Handle" scale_factor="162"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 90 Weight: 1.09 -->
-	</CraftedItem>
-	<CraftedItem id="AR_darshi_mace_5_t4" name="{=osa_ar_darshi_mace_5_t4}Darshi Heavy Spiralled Mace" crafting_template="Mace" culture="Culture.aserai">
-		<Pieces>
-			<Piece id="mace_head_15" Type="Blade" scale_factor="105"/>
-			<Piece id="mace_handle_16" Type="Handle" scale_factor="150"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 95 Weight: 1.26 -->
-	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
@@ -89,9 +56,17 @@
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<Item id="arrow_emp_1_a_half" name="Needle Bodkin Arrows 100 grams Half Quiver" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.1" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_back_top_2" holster_position_shift="0.0,0.0,0.1" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="quiver_roman_a" holster_mesh_with_weapon="quiver_roman_a" flying_mesh="arrow_bl_flying">
+	<Item id="AR_arrow_emp_1_a_half" name="Needle Bodkin Arrows 100 grams Half Quiver" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.1" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_back_top_2" holster_position_shift="0.0,0.0,0.1" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="quiver_roman_a" holster_mesh_with_weapon="quiver_roman_a" flying_mesh="arrow_bl_flying">
 		<ItemComponent>
 			<Weapon weapon_class="Arrow" thrust_speed="0" speed_rating="0" missile_speed="100" weapon_length="97" thrust_damage="100" thrust_damage_type="Pierce" item_usage="arrow_top" physics_material="missile" center_of_mass="0,0,0" stack_amount="15" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="AR_piercing_arrows_double" name="Heavy Needle Bodkin Arrows 110 grams" body_name="bo_capsule_arrow" mesh="arrow_bl_b" weight="0.11" appearance="1" Type="Arrows" item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts" holster_position_shift="0.0,0.0,0.15" is_merchandise="true" holster_body_name="bo_axe_short" holster_mesh="arrow_bl_a_quiver" holster_mesh_with_weapon="arrow_bl_a_quiver" flying_mesh="arrow_bl_flying">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" modifier_group="arrow" thrust_speed="0" speed_rating="0" missile_speed="110" weapon_length="97" thrust_damage="100" thrust_damage_type="Pierce" item_usage="arrow_right" physics_material="missile" center_of_mass="0,0,0" stack_amount="60" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" rotation="0, -80, 25" passby_sound_code="event:/mission/combat/missile/passby">
 				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -106,6 +81,15 @@
 		</Pieces>
 		<!-- Length: 101 Weight: 0.76 -->
 	</CraftedItem>
+	<CraftedItem id="eastern_throwing_spear_1_t3" name="{=kJzIZMBR}Light Triangular Throwing Spears" crafting_template="Javelin" culture="Culture.khuzait">
+		<Pieces>
+			<Piece id="spear_blade_1" Type="Blade"/>
+			<Piece id="default_polearm_guard" Type="Guard"/>
+			<Piece id="spear_handle_10" Type="Handle" scale_factor="108"/>
+			<Piece id="spear_pommel_5" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 95 Weight: 0.44 -->
+	</CraftedItem>
 	<CraftedItem id="eastern_throwing_spear_2_t4" name="{=kJzIZMBR}Triangular Throwing Spears" crafting_template="Javelin" culture="Culture.khuzait">
 		<Pieces>
 			<Piece id="spear_blade_13" Type="Blade" scale_factor="90"/>
@@ -116,6 +100,24 @@
 		<!-- Length: 132 Weight: 1.1 -->
 	</CraftedItem>
 	<!-- Polearm Weapons -->
+	<CraftedItem id="khuzait_polearm_1_t4" name="{=6hwZwODh}Glaive" crafting_template="TwoHandedPolearm" culture="Culture.khuzait" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_19" Type="Blade" scale_factor="110"/>
+			<Piece id="spear_banner_16" Type="Guard"/>
+			<Piece id="spear_handle_5" Type="Handle" scale_factor="101"/>
+			<Piece id="spear_pommel_6" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 150 Weight: 0.91 -->
+	</CraftedItem>
+	<CraftedItem id="khuzait_polearm_2_t5" name="{=JxV66l02}Long Glaive" crafting_template="TwoHandedPolearm" culture="Culture.khuzait" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_24" Type="Blade"/>
+			<Piece id="spear_banner_16" Type="Guard"/>
+			<Piece id="spear_handle_16" Type="Handle" scale_factor="109"/>
+			<Piece id="spear_pommel_11" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 160 Weight: 0.81 -->
+	</CraftedItem>
 	<CraftedItem id="fine_pike_t4" name="{=dkuzrKJF}Fine Pike" crafting_template="Pike">
 		<Pieces>
 			<Piece id="spear_blade_42" Type="Blade" scale_factor="108"/>
@@ -172,30 +174,30 @@
 	</CraftedItem>
 	<CraftedItem id="khuzait_lance_1_t3" name="{=UWvOndG0}Eastern Light Lance" crafting_template="TwoHandedPolearm" culture="Culture.khuzait">
 		<Pieces>
-			<Piece id="spear_blade_35" Type="Blade"/>
+			<Piece id="spear_blade_15" Type="Blade" scale_factor="255"/>
 			<Piece id="spear_guard_13" Type="Guard"/>
-			<Piece id="spear_handle_5" Type="Handle" scale_factor="90"/>
-			<Piece id="spear_pommel_9" Type="Pommel"/>
+			<Piece id="spear_handle_13" Type="Handle" scale_factor="148"/>
+			<Piece id="spear_pommel_10" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 173 Weight: 1.09 -->
+		<!-- Length: 298 Weight: 3.35 -->
 	</CraftedItem>
 	<CraftedItem id="khuzait_lance_2_t4" name="{=inr9Mt1i}Eastern Lance" crafting_template="TwoHandedPolearm" culture="Culture.khuzait">
 		<Pieces>
-			<Piece id="spear_blade_35" Type="Blade" scale_factor="101"/>
-			<Piece id="spear_guard_13" Type="Guard" scale_factor="90"/>
-			<Piece id="spear_handle_17" Type="Handle"/>
+			<Piece id="spear_blade_9" Type="Blade" scale_factor="198"/>
+			<Piece id="spear_guard_12" Type="Guard"/>
+			<Piece id="spear_handle_19" Type="Handle" scale_factor="153"/>
 			<Piece id="spear_pommel_12" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 192 Weight: 1.52 -->
+		<!-- Length: 298 Weight: 3.64 -->
 	</CraftedItem>
 	<CraftedItem id="khuzait_lance_3_t5" name="{=t7IgyUea}Eastern Noble Lance" crafting_template="TwoHandedPolearm" culture="Culture.khuzait">
 		<Pieces>
-			<Piece id="spear_blade_36" Type="Blade" scale_factor="106"/>
-			<Piece id="spear_guard_12" Type="Guard" scale_factor="97"/>
-			<Piece id="spear_handle_24" Type="Handle" scale_factor="110"/>
+			<Piece id="spear_blade_42" Type="Blade" scale_factor="132"/>
+			<Piece id="spear_banner_16" Type="Guard" scale_factor="140"/>
+			<Piece id="spear_handle_19" Type="Handle" scale_factor="153"/>
 			<Piece id="spear_pommel_12" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 213 Weight: 1.59 -->
+		<!-- Length: 298 Weight: 3.69 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_lance_1_t3" name="{=QXHqOFYf}Western Light Lance" crafting_template="TwoHandedPolearm" culture="Culture.vlandia">
 		<Pieces>
@@ -250,6 +252,14 @@
 			<Piece id="mace_handle_5" Type="Handle" scale_factor="110"/>
 		</Pieces>
 		<!-- Length: 83 Weight: 1.35 -->
+	</CraftedItem>
+	<CraftedItem id="khuzait_mace_1_t2" name="{=N8VJWdVY}Steppe Light Mace" crafting_template="Mace" culture="Culture.khuzait" modifier_group="mace">
+		<Pieces>
+			<Piece id="AR_khuzait_mace_head_a" Type="Blade" scale_factor="104"/>
+			<Piece id="mace_handle_3" Type="Handle"/>
+			<Piece id="empire_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 65 Weight: 0.99 -->
 	</CraftedItem>
 	<CraftedItem id="gladius_b" name="Gladius" crafting_template="Dagger" culture="Culture.empire">
 		<Pieces>
@@ -581,6 +591,12 @@
 		</Pieces>
 		<!-- Length: 190 Weight: 0.93 -->
 	</CraftedItem>
+	<CraftedItem id="khuzait_spear_1_t2_blunt" name="{=BACi0kaM}Eastern Sparring Spear" crafting_template="TwoHandedPolearm" is_merchandise="false" culture="Culture.khuzait" has_modifier="false">
+		<Pieces>
+			<Piece id="spear_blade_35_blunt" Type="Blade" scale_factor="95"/>
+			<Piece id="spear_handle_3" Type="Handle" scale_factor="95"/>
+		</Pieces>
+	</CraftedItem>
 	<CraftedItem id="wooden_sword_t1" name="{=1HWRwbwT}Wooden Sword" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false">
 		<Pieces>
 			<Piece id="wood_blade_1" Type="Blade" scale_factor="110"/>
@@ -615,6 +631,25 @@
 			</Weapon>
 		</ItemComponent>
 		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<!-- HORSES -->
+	<Item id="AR_khuzait_sumpter_horse" name="{=si_ar_khuzait_sumpter_horse}Steppe Sumpter Horse" mesh="horse_brown" item_category="sumpter_horse" difficulty="0" weight="450" Type="Horse">
+		<ItemComponent>
+			<Horse monster="Monster.horse" maneuver="41" speed="34" charge_damage="4" body_length="102" is_mountable="true" is_pack_animal="true" extra_health="60" modifier_group="horse">
+				<AdditionalMeshes>
+					<Mesh name="horse_mane" affected_by_cover="true"/>
+				</AdditionalMeshes>
+				<Materials>
+					<Material name="steppe_horse">
+						<MeshMultipliers>
+							<MeshMultiplier mesh_multiplier="FF08080B" percentage="1.0"/>
+							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
+						</MeshMultipliers>
+					</Material>
+				</Materials>
+			</Horse>
+		</ItemComponent>
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- ARMOURS -->
 	<!-- Overrides -->
@@ -716,6 +751,12 @@
 			<Armor body_armor="86" leg_armor="50" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="aserai_robe_c_chain" name="{=gSWtpl8a}Robe over Mail Shirt" mesh="aserai_robe_c_chain" culture="Culture.aserai" weight="8.2" Type="BodyArmor" appearance="1" lod_atlas_index="5">
+		<ItemComponent>
+			<Armor body_armor="41" leg_armor="35" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<!-- ITEMS -->
 	<!-- #region Trade -->

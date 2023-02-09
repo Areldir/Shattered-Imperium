@@ -1085,10 +1085,10 @@
 			<template name="NPCCharacter.spc_sturgia_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_0"/>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_1"/>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_2"/>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_3"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_0"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_1"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_2"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_3"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_0"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_1"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_2"/>
@@ -1099,10 +1099,10 @@
 			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_0"/>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_1"/>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_2"/>
-			<template name="NPCCharacter.spc_skolderbrotva_leader_3"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_0"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_1"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_2"/>
+			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_3"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_0"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_1"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_2"/>
@@ -1772,12 +1772,12 @@
 	         is_main_culture="true"
 	         color="0xff1a1a1a"
 	         color2="FFCCBB89"
-	         elite_basic_troop="NPCCharacter.AR_khu_elite_recruit"
-	         basic_troop="NPCCharacter.AR_khu_recruit"
-	         melee_militia_troop="NPCCharacter.AR_khu_militia_spearman"
-	         ranged_militia_troop="NPCCharacter.AR_khu_militia_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_khu_militia_veteran_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_khu_militia_veteran_archer"
+	         elite_basic_troop="NPCCharacter.AR_ilt_elite_recruit"
+	         basic_troop="NPCCharacter.AR_ilt_recruit"
+	         melee_militia_troop="NPCCharacter.AR_ilt_t3_spearman"
+	         ranged_militia_troop="NPCCharacter.AR_ilt_t3_archer"
+	         melee_elite_militia_troop="NPCCharacter.AR_ilt_t4_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_ilt_t4_archer"
 	         can_have_settlement="true"
 	         town_edge_number="4"
 	         villager_party_template="PartyTemplate.villager_khuzait_template"
@@ -1791,48 +1791,48 @@
 	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_khuzait"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="{=v5bWtXj1}The tribes that live in the great sea of grass east of the Sulan Dag mountains have many names: Ingchits, Charaits, Tanizts, Yujits. Rarely seen in imperial territory, except in special envoys to the emperor, the common folk of the empire refer to these peoples as the 'Iltanlar'; a name which refers to the lakes on the western edge of their territory. A nomadic people, tempered by the saddle, the tribes of the Iltanlar may occasionally band together to raid their neighbours, though most tribes prefer to fight amongst themselves."
-	         tournament_master="NPCCharacter.tournament_master_khuzait"
-	         villager="NPCCharacter.AR_villager_khuzait"
-	         caravan_master="NPCCharacter.AR_khu_caravan_master"
-	         armed_trader="NPCCharacter.AR_khu_armed_trader"
-	         caravan_guard="NPCCharacter.AR_khu_caravan_guard"
-	         veteran_caravan_guard="NPCCharacter.AR_khu_vet_caravan_guard"
-	         duel_preset="NPCCharacter.khuzait_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_khuzait"
-	         guard="NPCCharacter.guard_khuzait"
-	         blacksmith="NPCCharacter.blacksmith_khuzait"
-	         weaponsmith="NPCCharacter.weaponsmith_khuzait"
-	         townswoman="NPCCharacter.AR_townswoman_khuzait"
-	         townswoman_infant="NPCCharacter.townswoman_infant_khuzait"
-	         townswoman_child="NPCCharacter.townswoman_child_khuzait"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_khuzait"
-	         townsman="NPCCharacter.AR_townsman_khuzait"
-	         townsman_infant="NPCCharacter.townsman_infant_khuzait"
-	         townsman_child="NPCCharacter.townsman_child_khuzait"
-	         townsman_teenager="NPCCharacter.townsman_teenager_khuzait"
-	         village_woman="NPCCharacter.AR_village_woman_khuzait"
-	         villager_male_child="NPCCharacter.villager_child_khuzait"
-	         villager_male_teenager="NPCCharacter.villager_teenager_khuzait"
-	         villager_female_child="NPCCharacter.village_woman_child_khuzait"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_khuzait"
-	         ransom_broker="NPCCharacter.ransom_broker_khuzait"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_khuzait"
-	         merchant_notary="NPCCharacter.merchant_notary_khuzait"
-	         artisan_notary="NPCCharacter.artisan_notary_khuzait"
-	         preacher_notary="NPCCharacter.preacher_notary_khuzait"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_khuzait"
-	         shop_worker="NPCCharacter.shop_worker_khuzait"
-	         tavernkeeper="NPCCharacter.tavernkeeper_khuzait"
-	         taverngamehost="NPCCharacter.taverngamehost_khuzait"
-	         musician="NPCCharacter.musician_khuzait"
-	         tavern_wench="NPCCharacter.tavern_wench_khuzait"
-	         armorer="NPCCharacter.armorer_khuzait"
-	         horseMerchant="NPCCharacter.horseMerchant_khuzait"
-	         barber="NPCCharacter.barber_khuzait"
-	         merchant="NPCCharacter.merchant_khuzait"
-	         beggar="NPCCharacter.beggar_khuzait"
-	         female_beggar="NPCCharacter.female_beggar_khuzait"
-	         female_dancer="NPCCharacter.female_dancer_khuzait"
+	         tournament_master="NPCCharacter.AR_ilt_tournament_master"
+	         villager="NPCCharacter.AR_ilt_villager"
+	         caravan_master="NPCCharacter.caravan_master_khuzait"
+	         armed_trader="NPCCharacter.AR_ilt_armed_trader"
+	         caravan_guard="NPCCharacter.AR_ilt_caravan_guard"
+	         veteran_caravan_guard="NPCCharacter.AR_ilt_vet_caravan_guard"
+	         duel_preset="NPCCharacter.AR_ilt_duel_preset"
+	         prison_guard="NPCCharacter.AR_ilt_prison_guard"
+	         guard="NPCCharacter.AR_ilt_guard"
+	         blacksmith="NPCCharacter.AR_ilt_blacksmith"
+	         weaponsmith="NPCCharacter.AR_ilt_weaponsmith"
+	         townswoman="NPCCharacter.AR_ilt_townswoman"
+	         townswoman_infant="NPCCharacter.AR_ilt_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_ilt_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_ilt_townswoman_teenager"
+	         townsman="NPCCharacter.AR_ilt_townsman"
+	         townsman_infant="NPCCharacter.AR_ilt_townsman_infant"
+	         townsman_child="NPCCharacter.AR_ilt_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_ilt_townsman_teenager"
+	         village_woman="NPCCharacter.AR_ilt_village_woman"
+	         villager_male_child="NPCCharacter.AR_ilt_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_ilt_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_ilt_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_ilt_village_woman_teenager"
+	         ransom_broker="NPCCharacter.AR_ilt_ransom_broker"
+	         gangleader_bodyguard="NPCCharacter.AR_ilt_gangleader_bodyguard"
+	         merchant_notary="NPCCharacter.AR_ilt_merchant_notary"
+	         artisan_notary="NPCCharacter.AR_ilt_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_ilt_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_ilt_rural_notable_notary"
+	         shop_worker="NPCCharacter.AR_ilt_shop_worker"
+	         tavernkeeper="NPCCharacter.AR_ilt_tavernkeeper"
+	         taverngamehost="NPCCharacter.AR_ilt_taverngamehost"
+	         musician="NPCCharacter.AR_ilt_musician"
+	         tavern_wench="NPCCharacter.AR_ilt_tavern_wench"
+	         armorer="NPCCharacter.AR_ilt_armorer"
+	         horseMerchant="NPCCharacter.AR_ilt_horsemerchant"
+	         barber="NPCCharacter.AR_ilt_barber"
+	         merchant="NPCCharacter.AR_ilt_merchant"
+	         beggar="NPCCharacter.AR_ilt_beggar"
+	         female_beggar="NPCCharacter.AR_ilt_female_beggar"
+	         female_dancer="NPCCharacter.AR_ilt_female_dancer"
 	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_khuzait"
 	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_khuzait"
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait"
@@ -2043,6 +2043,10 @@
 			<template name="NPCCharacter.AR_spc_hawlans_leader_1"/>
 			<template name="NPCCharacter.AR_spc_hawlans_leader_2"/>
 			<template name="NPCCharacter.AR_spc_hawlans_leader_3"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_0"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_1"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_2"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_0"/>
@@ -2053,25 +2057,29 @@
 			<template name="NPCCharacter.AR_spc_hawlans_leader_1"/>
 			<template name="NPCCharacter.AR_spc_hawlans_leader_2"/>
 			<template name="NPCCharacter.AR_spc_hawlans_leader_3"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_0"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_1"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_2"/>
+			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_one_participant_set_v2"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_khuzait_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_min_chosensky_t3"/>
+			<template name="NPCCharacter.AR_ilt_aux_fem_recruit"/>
+			<template name="NPCCharacter.AR_ilt_aux_hawlan_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_w"
@@ -3806,305 +3814,6 @@
 			<template name="NPCCharacter.sword_sisters_sister_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
-	<Culture id="cizygian"
-	         name="{=AR_cizygian_culture_name}Cizygian"
-	         is_main_culture="false"
-	         color="0xff7a7a7a"
-	         color2="0xffFFAD54"
-	         elite_basic_troop="NPCCharacter.AR_ciz_elite_recruit"
-	         basic_troop="NPCCharacter.AR_ciz_recruit"
-	         melee_militia_troop="NPCCharacter.AR_ciz_militia_spearman"
-	         ranged_militia_troop="NPCCharacter.AR_ciz_militia_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_ciz_militia_veteran_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_ciz_militia_veteran_archer"
-	         can_have_settlement="true"
-	         town_edge_number="16"
-	         villager_party_template="PartyTemplate.villager_cizygian_template"
-	         default_party_template="PartyTemplate.kingdom_hero_party_cizygian_template"
-	         encounter_background_mesh="encounter_khuzait"
-	         elite_caravan_party_template="PartyTemplate.elite_caravan_template_cizygian"
-	         caravan_party_template="PartyTemplate.caravan_template_cizygian"
-	         militia_party_template="PartyTemplate.militia_cizygian_template"
-	         rebels_party_template="PartyTemplate.rebels_cizygian_template"
-	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_cizygian"
-	         faction_banner_key="11.45.125.1536.1536.764.764.1.0.0.461.11.11.512.512.764.764.1.0.0"
-	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
-	         text="The Cizygian tribes hail from the eastern Calradic Steppe, claiming descent from one of the twelve sons of steppe mythology. Pushing deep into the south-western lands of the Padishah, the Cizygians carved themselves a substantial realm, forcing the Darshi peoples from Calradia almost entirely. Now, with the Calradian Empire in crisis, the Cizygians once again seek to expand their territory, and make ready for war."
-	         tournament_master="NPCCharacter.tournament_master_cizygian"
-	         villager="NPCCharacter.villager_cizygian"
-	         caravan_master="NPCCharacter.AR_ciz_caravan_master"
-	         armed_trader="NPCCharacter.AR_ciz_armed_trader"
-	         caravan_guard="NPCCharacter.AR_ciz_caravan_guard"
-	         veteran_caravan_guard="NPCCharacter.AR_ciz_vet_caravan_guard"
-	         duel_preset="NPCCharacter.cizygian_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_cizygian"
-	         guard="NPCCharacter.guard_cizygian"
-	         blacksmith="NPCCharacter.blacksmith_cizygian"
-	         weaponsmith="NPCCharacter.weaponsmith_cizygian"
-	         townswoman="NPCCharacter.townswoman_cizygian"
-	         townswoman_infant="NPCCharacter.townswoman_infant_cizygian"
-	         townswoman_child="NPCCharacter.townswoman_child_cizygian"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_cizygian"
-	         townsman="NPCCharacter.townsman_cizygian"
-	         townsman_infant="NPCCharacter.townsman_infant_cizygian"
-	         townsman_child="NPCCharacter.townsman_child_cizygian"
-	         townsman_teenager="NPCCharacter.townsman_teenager_cizygian"
-	         village_woman="NPCCharacter.village_woman_cizygian"
-	         villager_male_child="NPCCharacter.villager_child_cizygian"
-	         villager_male_teenager="NPCCharacter.villager_teenager_cizygian"
-	         villager_female_child="NPCCharacter.village_woman_child_cizygian"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_cizygian"
-	         ransom_broker="NPCCharacter.ransom_broker_cizygian"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_cizygian"
-	         merchant_notary="NPCCharacter.merchant_notary_cizygian"
-	         artisan_notary="NPCCharacter.artisan_notary_cizygian"
-	         preacher_notary="NPCCharacter.preacher_notary_cizygian"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_cizygian"
-	         shop_worker="NPCCharacter.shop_worker_cizygian"
-	         tavernkeeper="NPCCharacter.tavernkeeper_cizygian"
-	         taverngamehost="NPCCharacter.taverngamehost_cizygian"
-	         musician="NPCCharacter.musician_cizygian"
-	         tavern_wench="NPCCharacter.tavern_wench_cizygian"
-	         armorer="NPCCharacter.armorer_cizygian"
-	         horseMerchant="NPCCharacter.horseMerchant_cizygian"
-	         barber="NPCCharacter.barber_cizygian"
-	         merchant="NPCCharacter.merchant_cizygian"
-	         beggar="NPCCharacter.beggar_cizygian"
-	         female_beggar="NPCCharacter.female_beggar_cizygian"
-	         female_dancer="NPCCharacter.female_dancer_cizygian"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_cizygian"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_cizygian"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_cizygian"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_cizygian"
-	         gear_dummy="NPCCharacter.gear_dummy_cizygian"
-	         board_game_type="Puluc">
-		<vassal_reward_items>
-			<item id="Item.steppe_war_bow"/>
-		</vassal_reward_items>
-		<banner_bearer_replacement_weapons>
-			<item id="Item.khuzait_sword_1_t2"/>
-			<item id="Item.khuzait_sword_2_t3"/>
-			<item id="Item.khuzait_sword_3_t3"/>
-			<item id="Item.khuzait_sword_4_t4"/>
-		</banner_bearer_replacement_weapons>
-		<default_policies>
-			<policy id="policy_grazing_rights"/>
-			<policy id="policy_sacred_majesty"/>
-		</default_policies>
-		<male_names>
-			<name name="{=AWM3jbaZ}Ajin"/>
-			<name name="{=RMoQ7blK}Akadan"/>
-			<name name="{=xg8habbc}Alagur"/>
-			<name name="{=pDNlFlc0}Alcha"/>
-			<name name="{=75Wlqr3W}Alpan"/>
-			<name name="{=ESKeInbq}Aran"/>
-			<name name="{=4ZhqF8EB}Arshul"/>
-			<name name="{=RohgLdMp}Asugan"/>
-			<name name="{=FIIZNV4F}Atzorig"/>
-			<name name="{=4JfwP1T6}Badur"/>
-			<name name="{=pKf56MdS}Bagai"/>
-			<name name="{=jhQkgQci}Baichar"/>
-			<name name="{=AAqB4QxB}Bortu"/>
-			<name name="{=E1NWbOR8}Buchul"/>
-			<name name="{=uducgNbf}Chaghan"/>
-			<name name="{=gsY9oKND}Chusuntai"/>
-			<name name="{=TjvbLQRT}Dachan"/>
-			<name name="{=ynsUwp1h}Denek"/>
-			<name name="{=0DgWpr8b}Dengul"/>
-			<name name="{=ZP7ONkec}Egen"/>
-			<name name="{=OqOnfdYv}Erigai"/>
-			<name name="{=au6vdzxN}Gan"/>
-			<name name="{=oT8cTkjz}Gavan"/>
-			<name name="{=PhdzZKu0}Ger"/>
-			<name name="{=8IcnIQdq}Gusur"/>
-			<name name="{=7MpWM3y3}Himil"/>
-			<name name="{=cdmrCQfC}Hurunag"/>
-			<name name="{=I0ZfrCml}Huskur"/>
-			<name name="{=ed3sErKY}Ilgai"/>
-			<name name="{=4xnag9e8}Itsul"/>
-			<name name="{=PisfwOUb}Jagutai"/>
-			<name name="{=5ntTjanU}Junjad"/>
-			<name name="{=8jwqNls9}Khomar"/>
-			<name name="{=A0Qwy1ag}Khakhun"/>
-			<name name="{=mQStUNPe}Kazam"/>
-			<name name="{=AcUEb8zX}Korot"/>
-			<name name="{=SDSbjMSj}Kuruntai"/>
-			<name name="{=YeQlI2Yj}Mizam"/>
-			<name name="{=sn3JPGJA}Natu"/>
-			<name name="{=z5llJ2C0}Norogur"/>
-			<name name="{=0VZ5sROI}Okhon"/>
-			<name name="{=CiJB8ISH}Olorun"/>
-			<name name="{=2OqAomZy}Oragur"/>
-			<name name="{=OgY3fQKL}Sasal"/>
-			<name name="{=yhLbBk1D}Soroch"/>
-			<name name="{=vN0cSBD3}Shakhor"/>
-			<name name="{=D4Ea4QaV}Shulun"/>
-			<name name="{=zTEnQULc}Targai"/>
-			<name name="{=aSNUtnbH}Temun"/>
-			<name name="{=8CZvFqH7}Tochi"/>
-			<name name="{=XjMsnpgS}Tulag"/>
-			<name name="{=NqhPOiMQ}Ulusumai"/>
-			<name name="{=vl2tgsKa}Urkhun"/>
-			<name name="{=4zoraJq7}Yanagur"/>
-			<name name="{=QEw6q3OR}Yildrim"/>
-			<name name="{=yCfxqfdA}Bakhar"/>
-			<name name="{=MwPMFIz0}Baghbayar"/>
-			<name name="{=JUPUxuoe}Chanbadar"/>
-			<name name="{=aRiVb65B}Daju"/>
-			<name name="{=KmAOMxqy}Davalan"/>
-			<name name="{=Bo5Xkd3e}Erban"/>
-			<name name="{=BUbf73N2}Gongke"/>
-			<name name="{=FVDbGQXF}Hamindar"/>
-			<name name="{=AKhO9Y9c}Jolugkhu"/>
-			<name name="{=LbCcOORX}Ongker"/>
-			<name name="{=HXEoaiFU}Sorji"/>
-			<name name="{=UgA0uoFA}Tabur"/>
-			<name name="{=N7CGgRs5}Tsuban"/>
-			<name name="{=aqx7Txyy}Tuvul"/>
-			<name name="{=mqkSkCBX}Uluvi"/>
-			<name name="{=NIcee06W}Vangvayag"/>
-		</male_names>
-		<female_names>
-			<name name="{=m9ZgghCo}Abagai"/>
-			<name name="{=26v27bu7}Aika"/>
-			<name name="{=5vo7WX5W}Amul"/>
-			<name name="{=FLrdHzSf}Anat"/>
-			<name name="{=7uBgKkLK}Anjikhin"/>
-			<name name="{=UcteBSP6}Asi"/>
-			<name name="{=SIJpKiGq}Ayla"/>
-			<name name="{=RwMtFwWt}Bilik"/>
-			<name name="{=RoKwj5XN}Chagun"/>
-			<name name="{=ulBMajMY}Chechek"/>
-			<name name="{=7UU9TwUC}Dalai"/>
-			<name name="{=HwCJfTC2}Deni"/>
-			<name name="{=lB7b7N1b}Deven"/>
-			<name name="{=1mhbWay3}Dinin"/>
-			<name name="{=kFYtFka8}Echa"/>
-			<name name="{=UJTCzvOt}Elin"/>
-			<name name="{=MEtblzaV}Gunefer"/>
-			<name name="{=tCy0qwXp}Hikhara"/>
-			<name name="{=SFDdq8GH}Holujin"/>
-			<name name="{=bwabyQPy}Ikren"/>
-			<name name="{=W1yur1cf}Khachin"/>
-			<name name="{=QJq4VAU7}Mesui"/>
-			<name name="{=7No7syyO}Penek"/>
-			<name name="{=2mWC6b8D}Sacha"/>
-			<name name="{=hdwBL8kp}Soregun"/>
-			<name name="{=DO1lhJIo}Tala"/>
-			<name name="{=zDhuJw7r}Taralun"/>
-			<name name="{=Ml5KBonI}Tosui"/>
-			<name name="{=Se7U6BSK}Uluen"/>
-			<name name="{=YUoydtNS}Yana"/>
-			<name name="{=3NRUkzaV}Yasugan"/>
-			<name name="{=xft6bgja}Asha"/>
-			<name name="{=yckGOfLB}Islena"/>
-			<name name="{=J5i4h7JC}Kela"/>
-			<name name="{=k37KKJkw}Kun"/>
-			<name name="{=NeFDHnOS}Mirim"/>
-			<name name="{=29Ti1C0R}Selun"/>
-			<name name="{=6fENuhfZ}Sibuga"/>
-			<name name="{=bdH1JEma}Yachim"/>
-			<name name="{=PdK2pGIb}Yesha"/>
-		</female_names>
-		<clan_names>
-			<name name="{=qJprzW1N}Airit"/>
-			<name name="{=4833ZS9c}Aldusunit"/>
-			<name name="{=tPG5uf4C}Bochit"/>
-			<name name="{=J1s05Ovk}Charait"/>
-			<name name="{=3apHdqU7}Ingchit"/>
-			<name name="{=5zxaCgd6}Maranjit"/>
-			<name name="{=tDaWbJlY}Oranarit"/>
-			<name name="{=lhiAWoFw}Sunit"/>
-			<name name="{=MjZumz0j}Tokhit"/>
-			<name name="{=LipFTLvz}Ubchit"/>
-			<name name="{=ZwOT9J49}Yujit"/>
-		</clan_names>
-		<cultural_feats>
-			<feat id="khuzait_cheaper_recruits_mounted"/>
-			<feat id="khuzait_increased_animal_production"/>
-			<feat id="khuzait_decreased_town_tax"/>
-		</cultural_feats>
-		<possible_clan_banner_icon_ids>
-			<icon id="121"/>
-			<icon id="122"/>
-			<icon id="123"/>
-			<icon id="124"/>
-			<icon id="125"/>
-			<icon id="126"/>
-			<icon id="127"/>
-			<icon id="128"/>
-			<icon id="129"/>
-			<icon id="130"/>
-			<icon id="311"/>
-			<icon id="312"/>
-			<icon id="313"/>
-			<icon id="314"/>
-		</possible_clan_banner_icon_ids>
-		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_cizygian_0"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_1"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_2"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_3"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_4"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_5"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_6"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_7"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_8"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_9"/>
-			<template name="NPCCharacter.spc_wanderer_cizygian_10"/>
-			<template name="NPCCharacter.spc_notable_cizygian_merchant_1"/>
-			<template name="NPCCharacter.spc_notable_cizygian_0b"/>
-			<template name="NPCCharacter.spc_notable_cizygian_1"/>
-			<template name="NPCCharacter.spc_notable_cizygian_1b"/>
-			<template name="NPCCharacter.spc_notable_cizygian_1c"/>
-			<template name="NPCCharacter.spc_notable_cizygian_2"/>
-			<template name="NPCCharacter.spc_notable_cizygian_2b"/>
-			<template name="NPCCharacter.spc_notable_cizygian_3"/>
-			<template name="NPCCharacter.spc_notable_cizygian_4"/>
-			<template name="NPCCharacter.spc_cizygian_gangleader_1"/>
-			<template name="NPCCharacter.spc_cizygian_gangleader_2"/>
-			<template name="NPCCharacter.spc_cizygian_gangleader_3"/>
-			<template name="NPCCharacter.spc_cizygian_artisan_1"/>
-			<template name="NPCCharacter.spc_cizygian_artisan_2"/>
-			<template name="NPCCharacter.spc_cizygian_artisan_3"/>
-			<template name="NPCCharacter.spc_cizygian_rural_notable_1"/>
-			<template name="NPCCharacter.spc_cizygian_rural_notable_2"/>
-			<template name="NPCCharacter.spc_cizygian_headman_1"/>
-			<template name="NPCCharacter.spc_cizygian_headman_2"/>
-			<template name="NPCCharacter.spc_cizygian_headman_3"/>
-		</notable_and_wanderer_templates>
-		<lord_templates>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_0"/>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_1"/>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_2"/>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_3"/>
-		</lord_templates>
-		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_0"/>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_1"/>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_2"/>
-			<template name="NPCCharacter.AR_spc_chosen_of_the_sky_leader_3"/>
-		</rebellion_hero_templates>
-		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_cizygian_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_cizygian_one_participant_set_v2"/>
-		</tournament_team_templates_one_participant>
-		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_cizygian_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_cizygian_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_cizygian_two_participant_set_v3"/>
-		</tournament_team_templates_two_participant>
-		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_cizygian_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_cizygian_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_cizygian_four_participant_set_v3"/>
-		</tournament_team_templates_four_participant>
-		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
-		</basic_mercenary_troops>
-	</Culture>
 	<Culture id="massa"
 	         name="{=AR_massa_culture_name}Swadic"
 	         is_main_culture="false"
@@ -4724,7 +4433,7 @@
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="gotarni"
-	         name="{=AR_gotarni_culture_name}Myzean"
+	         name="{=AR_byalics_culture_name}Byalic"
 	         is_main_culture="false"
 	         color="0xffF7BF46"
 	         color2="FF2D3F1D"
@@ -4747,7 +4456,7 @@
 	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_gotarni"
 	         faction_banner_key="11.45.123.6296.6296.764.764.1.0.0.460.0.3.509.509.764.764.1.0.0"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
-	         text="The myriad tribes of the Myzeans once inhabited the rich grasslands of north-eastern Calradia. Originally just comprising a single ethnic people, this land soon became a melding pot for migrating peoples from both east and west. Descended from Laconian adventurers who intermarried with the local Myzean peoples, the Gotarnians became the primary tribal group in the region after the empire's many eastern wars drove most of the Myzean population to the point of extinction. Now the sole Myzean cultural group, the Gotarnians fight to preserve their way of life."
+	         text="To the north of the Calradian steppe dwell a myriad of tribes, referred to by the nomads as the 'Jokbyalics', simply 'those Byalics who live above us'. A hardy, warlike people, they have for centuries lived in small isolated villages, carving out a meagre existence raising sheep and cattle in the thin expanses of grassland between river and forest. However, in the year 946, the Nachaghan tribe from the east thundered into the Jokbyalic territory, pillaging the land and enslaving its people. Threatened with annihilation, the Jokbyalics were forced to migrate west, carving a bloody swathe across the Iltan Portages into the Calradian Empire. After routing the legions and killing the Calradian Emperor Themestios, they now find themselves with a small kingdom in the Calradian borderlands, far from their home, with threats on all sides."
 	         tournament_master="NPCCharacter.tournament_master_gotarnia"
 	         villager="NPCCharacter.villager_gotarnia"
 	         caravan_master="NPCCharacter.AR_got_caravan_master"
@@ -4977,8 +4686,51 @@
 			<template name="NPCCharacter.sword_sisters_sister_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
+	<Culture id="nord"
+	         name="{=si_ar_nord_culture_name}Nordic"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.AR_stu_recruit"
+	         basic_troop="NPCCharacter.AR_stu_elite_recruit"
+	         can_have_settlement="true"
+	         town_edge_number="16"
+	         villager_party_template="PartyTemplate.villager_sturgia_template"
+	         encounter_background_mesh="encounter_sturgia"
+	         caravan_party_template="PartyTemplate.caravan_template_sturgia"
+	         militia_party_template="PartyTemplate.militia_sturgia_template"
+	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=ig8zAo8f}Ori"/>
+			<name name="{=!*}Aedin"/>
+			<name name="{=!*}Aeric"/>
+			<name name="{=!*}Bulba"/>
+			<name name="{=!*}Dirigun"/>
+			<name name="{=!*}Faarn"/>
+			<name name="{=!*}Ragnar"/>
+			<name name="{=!*}Gundur"/>
+			<name name="{=!*}Knudarr"/>
+			<name name="{=!*}Olaf"/>
+		</male_names>
+		<female_names>
+			<name name="{=L0fuYckc}Friga"/>
+			<name name="{=!*}Matheld"/>
+			<name name="{=!*}Afrid"/>
+			<name name="{=!*}Dria"/>
+			<name name="{=!*}Bryn"/>
+			<name name="{=!*}Eilif"/>
+			<name name="{=!*}Endegrid"/>
+			<name name="{=!*}Herjasa"/>
+			<name name="{=!*}Jadeth"/>
+			<name name="{=!*}Kaeteli"/>
+		</female_names>
+	</Culture>
 	<Culture id="palaic"
-	         name="{=AR_palaic_culture_name}Palaic"
+	         name="{=si_ar_palaic_culture_name}Palaic"
 	         is_main_culture="false"
 	         color="FF2D3F1D"
 	         color2="FFBFCBB0"
@@ -5229,13 +4981,13 @@
 			<name name="{=!*}Tulia"/>
 		</female_names>
 	</Culture>
-	<Culture id="kankharit"
-	         name="{=AR_kankharit_culture_name}Khuzait"
+	<Culture id="karakhuzait"
+	         name="{=AR_karakhuzait_culture_name}Karakhuzait"
 	         is_main_culture="false"
 	         color="FF58888B"
 	         color2="FFCCBB89"
-	         elite_basic_troop="NPCCharacter.AR_khu_elite_recruit"
-	         basic_troop="NPCCharacter.AR_khu_recruit"
+	         elite_basic_troop="NPCCharacter.AR_ilt_elite_recruit"
+	         basic_troop="NPCCharacter.AR_ilt_recruit"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_khuzait_template"
@@ -5456,6 +5208,45 @@
 			<name name="{=UtfVuNN0}Vivein"/>
 			<name name="{=vb2rv3OK}Una"/>
 			<name name="{=PlGiSfwr}Ylen"/>
+		</female_names>
+	</Culture>
+	<Culture id="rensichou"
+	         name="{=AR_rensichou_culture_name}Rensichou"
+	         is_main_culture="false"
+	         color="0xff6b2929"
+	         color2="0xff7a7a7a"
+	         elite_basic_troop="NPCCharacter.AR_ilt_elite_recruit"
+	         basic_troop="NPCCharacter.AR_ilt_recruit"
+	         can_have_settlement="true"
+	         town_edge_number="16"
+	         villager_party_template="PartyTemplate.villager_khuzait_template"
+	         encounter_background_mesh="encounter_khuzait"
+	         caravan_party_template="PartyTemplate.caravan_template_khuzait"
+	         militia_party_template="PartyTemplate.militia_khuzait_template"
+	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
+		<male_names>
+			<name name="{=!*}Cheng"/>
+			<name name="{=!*}Zhou"/>
+			<name name="{=!*}Guo"/>
+			<name name="{=!*}Shi"/>
+			<name name="{=!*}Han"/>
+			<name name="{=!*}Tao"/>
+			<name name="{=!*}Liu"/>
+			<name name="{=!*}Wan"/>
+			<name name="{=!*}Huang"/>
+			<name name="{=!*}Yuan"/>
+		</male_names>
+		<female_names>
+			<name name="{=!*}Kang"/>
+			<name name="{=!*}Wen"/>
+			<name name="{=!*}Bai"/>
+			<name name="{=!*}Lang"/>
+			<name name="{=!*}Yu"/>
+			<name name="{=!*}Geng"/>
+			<name name="{=!*}Xing"/>
+			<name name="{=!*}Qiao"/>
+			<name name="{=!*}Hao"/>
+			<name name="{=!*}Yan"/>
 		</female_names>
 	</Culture>
 	<Culture id="looters"
