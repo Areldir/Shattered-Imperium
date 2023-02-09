@@ -1,0 +1,2042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- ILTANLAR: Levy Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_ilt_villager" default_group="Infantry" level="6" name="{=si_ar_ilt_villager}Iltanlar Tribesman" occupation="Villager" culture="Culture.khuzait" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t2_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_t2_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_villager_battletemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_ilt_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_ilt_t2_spearman}Iltanlar Tribal Warrior" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t3_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t2_spearman_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_ilt_t3_spearman}Iltanlar Tribal Guard Spearman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_spearman_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_ilt_t4_spearman}Iltanlar Seasoned Tribal Guard Spearman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_spearman_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_ilt_t5_spearman}Iltanlar Yurt Guard Spearman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_spearman_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Archer Medium Skill 20-40 -->
+	<NPCCharacter id="AR_ilt_t2_archer" default_group="Ranged" level="11" name="{=si_ar_ilt_t2_archer}Iltanlar Tribal Hunter" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t3_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t2_archer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Archer Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_t3_archer" default_group="Ranged" level="16" name="{=si_ar_ilt_t3_archer}Iltanlar Tribal Guard Archer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_archer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_archer" default_group="Ranged" level="21" name="{=si_ar_ilt_t4_archer}Iltanlar Seasoned Tribal Guard Archer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_archer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_archer" default_group="Ranged" level="26" name="{=si_ar_ilt_t5_archer}Iltanlar Yurt Guard Archer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_archer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ILTANLAR: Field Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_ilt_recruit" default_group="Cavalry" level="6" name="{=si_ar_ilt_recruit}Iltanlar Nomad" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t2_spear_cav"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_t2_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_recruit_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Cavalry Archer Light Skill 20-40 -->
+	<NPCCharacter id="AR_ilt_t2_horsearcher" default_group="HorseArcher" level="11" name="{=si_ar_ilt_t2_horsearcher}Iltanlar Scout" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t3_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t2_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Cavalry Archer Light Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_t3_horsearcher" default_group="HorseArcher" level="16" name="{=si_ar_ilt_t3_horsearcher}Iltanlar Horse Bowman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Cavalry Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_horsearcher" default_group="HorseArcher" level="21" name="{=si_ar_ilt_t4_horsearcher}Iltanlar Horse Archer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Cavalry Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_horsearcher" default_group="HorseArcher" level="26" name="{=si_ar_ilt_t5_horsearcher}Iltanlar Seasoned Horse Archer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t6_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Cavalry Archer Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_ilt_t6_horsearcher" default_group="HorseArcher" level="31" name="{=si_ar_ilt_t6_horsearcher}Iltanlar Chosen Horseguard Archer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Spear Cavalry Light Skill 20-40 -->
+	<NPCCharacter id="AR_ilt_t2_spear_cav" default_group="Cavalry" level="11" name="{=si_ar_ilt_t2_spear_cav}Iltanlar Rider" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t3_spear_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t2_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Spear Cavalry Light Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_t3_spear_cav" default_group="Cavalry" level="16" name="{=si_ar_ilt_t3_spear_cav}Iltanlar Horseman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_spear_cav"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_axe_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_spear_cav" default_group="Cavalry" level="21" name="{=si_ar_ilt_t4_spear_cav}Iltanlar Mounted Spearman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_spear_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_spear_cav" default_group="Cavalry" level="26" name="{=si_ar_ilt_t5_spear_cav}Iltanlar Seasoned Mounted Spearman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t6_spear_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Spear Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t6_spear_cav" default_group="Cavalry" level="31" name="{=si_ar_ilt_t6_spear_cav}Iltanlar Chosen Horseguard Spearman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_axe_cav" default_group="Cavalry" level="21" name="{=si_ar_ilt_t4_spear_cav}Iltanlar Mounted Axeman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="6100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_axe_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_axe_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_axe_cav" default_group="Cavalry" level="26" name="{=si_ar_ilt_t5_spear_cav}Iltanlar Seasoned Mounted Axeman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t6_axe_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_axe_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t6_axe_cav" default_group="Cavalry" level="31" name="{=si_ar_ilt_t6_spear_cav}Iltanlar Chosen Horseguard Axeman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_axe_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ILTANLAR: Noble Troops -->
+	<!-- Recruit Elite Cavalry Light Skill 20-40 -->
+	<NPCCharacter id="AR_ilt_elite_recruit" default_group="Cavalry" level="11" name="{=si_ar_ilt_elite_recruit}Iltanlar Noble Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t3_elite_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_elite_recruit_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Elite Cavalry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_t3_elite_cav" default_group="Cavalry" level="16" name="{=si_ar_ilt_t3_elite_cav}Iltanlar Noble Horseman" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_elite_horsearcher"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_t4_elite_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_elite_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Cavalry Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_elite_horsearcher" default_group="HorseArcher" level="21" name="{=si_ar_ilt_t4_elite_horsearcher}Iltanlar Wolf-Sworn Warrior" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_elite_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_elite_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_elite_horsearcher" default_group="HorseArcher" level="26" name="{=si_ar_ilt_t5_elite_horsearcher}Iltanlar Seasoned Wolf-Sworn Warrior" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t6_elite_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_elite_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Elite Cavalry Archer Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_ilt_t6_elite_horsearcher" default_group="HorseArcher" level="31" name="{=si_ar_ilt_t6_elite_horsearcher}Iltanlar Chosen Wolf-Sworn Champion" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_elite_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lance Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_t4_elite_lancer" default_group="Cavalry" level="21" name="{=si_ar_ilt_t4_elite_lancer}Iltanlar Lancer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t5_elite_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_elite_lancer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lance Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t5_elite_lancer" default_group="Cavalry" level="26" name="{=si_ar_ilt_t5_elite_lancer}Iltanlar Seasoned Lancer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_t6_elite_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_elite_lancer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Lance Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_t6_elite_lancer" default_group="Cavalry" level="31" name="{=si_ar_ilt_t6_elite_lancer}Iltanlar Chosen Khan's Guard Lancer" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_elite_lancer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ILTANLAR: Caravans -->
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_armed_trader" default_group="Infantry" level="16" name="{=si_ar_ilt_armed_trader}Iltanlar Armed Trader" occupation="CaravanGuard" culture="Culture.khuzait" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Caravan Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_ilt_caravan_guard}Iltanlar Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_ilt_vet_caravan_guard}Iltanlar Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ILTANLAR: Guards -->
+	<NPCCharacter id="AR_ilt_prison_guard" default_group="Infantry" level="21" culture="Culture.khuzait" occupation="PrisonGuard" name="{=si_ar_ilt_prison_guard}Iltanlar Prison Guard">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.khuzait" name="{=si_ar_ilt_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ILTANLAR: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_ilt_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_ilt_village_woman}Iltanlar Tribeswoman" occupation="Villager" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_villager_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_villager_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_villager_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townsman" default_group="Infantry" level="1" name="{=si_ar_ilt_townsman}Iltanlar Townsman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_villager_battletemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_ilt_townswoman}Iltanlar Townswoman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townsman_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townsman_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townsman_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="AR_ilt_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.khuzait" name="{=cte0zSCz}Iltanlar Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.khuzait" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.khuzait" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.khuzait" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_horsemerchant" default_group="Infantry" occupation="HorseTrader" culture="Culture.khuzait" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.khuzait" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.khuzait" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_barber_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_gangleader_bodyguard" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.khuzait" level="16">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_ilt_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_tournament_master" default_group="Infantry" occupation="ArenaMaster" culture="Culture.khuzait" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_ilt_tournament_master_civiliantemplate"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_ransom_broker_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_merchant_notary" default_group="Infantry" name="{=si_ar_ilt_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_artisan_notary" default_group="Infantry" name="{=si_ar_ilt_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_preacher_notary" default_group="Infantry" name="{=si_ar_ilt_preacher_notary}Shaman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_rural_notable_notary" default_group="Infantry" name="{=si_ar_ilt_rural_notable_notary}Iltanlar Nobleman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_tavernkeeper" default_group="Infantry" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_taverngamehost" default_group="Infantry" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_musician" default_group="Infantry" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_tavern_wench" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" occupation="TavernWench" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_ilt_female_dancer" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_ilt_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ILTANLAR: Auxiliary And Mercenary Characters -->
+	<!-- T3 Lance Cavalry Light Skill 40-70 -->
+	<NPCCharacter id="AR_ilt_aux_fem_recruit" default_group="Cavalry" is_female="true" level="16" name="{=si_ar_ilt_aux_fem_recruit}Iltalnar Camp Follower" occupation="Mercenary" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t4_fem_melee"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t4_fem_ranged"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_fem_recruit_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lance Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_aux_t4_fem_melee" default_group="Cavalry" is_female="true" level="21" name="{=si_ar_ilt_aux_t4_fem_melee}Iltanlar Mounted Spearwoman" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t5_fem_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lance Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_aux_t5_fem_melee" default_group="Cavalry" is_female="true" level="26" name="{=si_ar_ilt_aux_t5_fem_melee}Iltanlar Amazon Spearwoman" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Horse Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_aux_t4_fem_ranged" default_group="HorseArcher" is_female="true" level="21" name="{=si_ar_ilt_aux_t4_fem_ranged}Iltanlar Mounted Huntress" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t5_fem_ranged"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_t4_fem_ranged_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_aux_t5_fem_ranged" default_group="HorseArcher" is_female="true" level="26" name="{=si_ar_ilt_aux_t5_fem_ranged}Iltanlar Amazon Huntress" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- HAWLANS -->
+	<NPCCharacter id="AR_spc_hawlans_leader_0" name="{=si_ar_spc_hawlans_leader_0}of the Hawlans" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_hawlans_leaders"/>
+			<EquipmentSet id="khu_civ_template_nomad" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_hawlans_leader_1" name="{=si_ar_spc_hawlans_leader_1}of the Hawlans" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_hawlans_leaders"/>
+			<EquipmentSet id="khu_civ_template_nomad" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_hawlans_leader_2" name="{=si_ar_spc_hawlans_leader_2}of the Hawlans" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_hawlans_leaders"/>
+			<EquipmentSet id="khu_civ_template_nomad" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_hawlans_leader_3" name="{=si_ar_spc_hawlans_leader_3}of the Hawlans" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_hawlans_leaders"/>
+			<EquipmentSet id="khu_civ_template_nomad" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Spear Infantry Light Skill 5-20 -->
+	<NPCCharacter id="AR_ilt_aux_hawlan_recruit" default_group="Infantry" level="16" name="{=si_ar_ilt_aux_hawlan_recruit}Hawlan Slave Levy" occupation="Mercenary" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t4_hawlan_melee"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t4_hawlan_ranged"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_hawlan_recruit_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_aux_t4_hawlan_melee" default_group="Infantry" level="21" name="{=si_ar_ilt_aux_t4_hawlan_melee}Hawlan Slave Footman" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t5_hawlan_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_t4_hawlan_melee_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_aux_t5_hawlan_melee" default_group="Infantry" level="26" name="{=si_ar_ilt_aux_t5_hawlan_melee}Hawlan Slave Warrior" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_t5_hawlan_melee_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Light Skill 60-100 -->
+	<NPCCharacter id="AR_ilt_aux_t4_hawlan_ranged" default_group="Ranged" level="21" name="{=si_ar_ilt_aux_t4_hawlan_ranged}Hawlan Slave Hurler" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_t5_hawlan_ranged"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_t4_hawlan_ranged_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_ilt_aux_t5_hawlan_ranged" default_group="Ranged" level="26" name="{=si_ar_ilt_aux_t5_hawlan_ranged}Hawlan Slave Slinger" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hawlan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_aux_t5_hawlan_ranged_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- KARAKHUZAITS -->
+	<NPCCharacter id="AR_spc_karakhuzaits_leader_0" name="{=si_ar_spc_karakhuzaits_leader_0}the Karakhuzait" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.karakhuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="HorseArcherFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_spear_cav_battletemplate"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_karakhuzaits_leader_1" name="{=si_ar_spc_karakhuzaits_leader_1}the Karakhuzait" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.karakhuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_spear_cav_battletemplate"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_karakhuzaits_leader_2" name="{=si_ar_spc_karakhuzaits_leader_2}the Karakhuzait" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.karakhuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_spear_cav_battletemplate"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_karakhuzaits_leader_3" name="{=si_ar_spc_karakhuzaits_leader_3}the Karakhuzait" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.karakhuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t6_spear_cav_battletemplate"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Karakhuzait Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_karakhuzaits_t3" default_group="HorseArcher" level="16" name="{=si_ar_min_karakhuzaits_t3}Karakhuzait Nomad" occupation="Mercenary" is_basic_troop="true" culture="Culture.karakhuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t4_cav_archer"/>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t4_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Karakhuzait Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_karakhuzaits_t4_cav_archer" default_group="HorseArcher" level="21" name="{=si_ar_min_karakhuzaits_t4_cav_archer}Karakhuzait Horse Bowman" occupation="Mercenary" culture="Culture.karakhuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t5_cav_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_elite_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Karakhuzait Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_karakhuzaits_t5_cav_archer" default_group="HorseArcher" level="26" name="{=si_ar_min_karakhuzaits_t5_cav_archer}Karakhuzait Horse Archer" occupation="Mercenary" culture="Culture.karakhuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_elite_horsearcher_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Karakhuzait Lancer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_karakhuzaits_t4_lancer" default_group="Cavalry" level="21" name="{=si_ar_min_karakhuzaits_t4_lancer}Karakhuzait Lancer" occupation="Mercenary" culture="Culture.karakhuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t5_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t4_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Karakhuzait Lancer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_karakhuzaits_t5_lancer" default_group="Cavalry" level="26" name="{=si_ar_min_karakhuzaits_t5_lancer}Karakhuzait Guard Lancer" occupation="Mercenary" culture="Culture.karakhuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t5_spear_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- CHOSEN OF THE SKY -->
+	<NPCCharacter id="AR_spc_chosen_of_the_sky_leader_0" name="the Sky-Chosen" voice="ironic" is_template="true" age="42" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_chosen_of_the_sky_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_chosen_of_the_sky_leader_1" name="the Sky-Chosen" voice="softspoken" is_template="true" age="22" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_chosen_of_the_sky_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_chosen_of_the_sky_leader_2" name="the Sky-Chosen" voice="softspoken" is_template="true" age="28" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_chosen_of_the_sky_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_chosen_of_the_sky_leader_3" name="the Sky-Chosen" voice="softspoken" is_template="true" age="35" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_chosen_of_the_sky_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Chosen of the Sky Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_chosensky_t3" default_group="Cavalry" level="16" name="Sky-Chosen Initiate" occupation="Mercenary" is_basic_troop="true" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_chosensky_t4_cav_archer"/>
+			<upgrade_target id="NPCCharacter.AR_min_chosensky_t4_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ilt_t3_elite_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Chosen of the Sky Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_chosensky_t4_cav_archer" default_group="HorseArcher" level="21" name="Sky-Chosen Disciple" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_chosensky_t5_cav_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_chosensky_t4_cav_archer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Chosen of the Sky Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_chosensky_t5_cav_archer" default_group="HorseArcher" level="26" name="Sky-Chosen Zealot" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_chosensky_t5_cav_archer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Cavalry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_min_chosensky_t4_lancer" default_group="Cavalry" level="21" name="Sky-Chosen Journeyman" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_chosensky_t5_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_chosensky_t4_lancer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Cavalry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_chosensky_t5_lancer" default_group="Cavalry" level="26" name="Sky-Chosen Enforcer" occupation="Mercenary" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_chosensky_t5_lancer_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- COMPANY OF THE SILVER DRAGON -->
+	<NPCCharacter id="AR_spc_silver_dragon_company_leader_0" name="the Silver Dragon" voice="ironic" is_template="true" age="42" default_group="Cavalry" is_hero="false" culture="Culture.rensichou" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_silver_dragon_company_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_silver_dragon_company_leader_1" name="the Silver Dragon" voice="softspoken" is_template="true" age="22" default_group="Cavalry" is_hero="false" culture="Culture.rensichou" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_silver_dragon_company_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_silver_dragon_company_leader_2" name="the Silver Dragon" voice="softspoken" is_template="true" age="28" default_group="Cavalry" is_hero="false" culture="Culture.rensichou" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_silver_dragon_company_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_silver_dragon_company_leader_3" name="the Silver Dragon" voice="softspoken" is_template="true" age="35" default_group="Cavalry" is_hero="false" culture="Culture.rensichou" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_chosensky"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_silver_dragon_company_leaders"/>
+			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_silverdragon_t3" default_group="Infantry" level="16" name="Rensichou Footman" occupation="Mercenary" is_basic_troop="true" culture="Culture.rensichou">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_silverdragon_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_silverdragon_t4_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_silverdragon_t3_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Glaive Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_silverdragon_t4_melee" default_group="Infantry" level="21" name="Rensichou Glaiveman" occupation="Mercenary" culture="Culture.rensichou">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_silverdragon_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_silverdragon_t4_melee_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Glaive Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_silverdragon_t5_melee" default_group="Infantry" level="26" name="Rensichou Dragon Glaiveman" occupation="Mercenary" culture="Culture.rensichou">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_silverdragon_t5_melee_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Cavalry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_min_silverdragon_t4_cav" default_group="HorseArcher" level="21" name="Rensichou Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.rensichou">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_silverdragon_t5_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_silverdragon_t4_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Cavalry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_silverdragon_t5_cav" default_group="HorseArcher" level="26" name="Rensichou Dragon Horseman" occupation="Mercenary" culture="Culture.rensichou">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_silverdragon_t5_cav_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
