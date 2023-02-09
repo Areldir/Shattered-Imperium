@@ -51,6 +51,31 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</xsl:copy>
 	</xsl:template>
+	
+	
+	<xsl:template match="NPCCharacter[@id='caravan_master_khuzait']/@name">
+		<xsl:attribute name="name">{=si_ar_ilt_caravan_master}Iltanlar Caravan Master</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_khuzait"]/skills'>
+		<xsl:copy>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_khuzait"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_caravan_master_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	
 	<xsl:template match='NPCCharacter[@id="mercenary_1"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1420,12 +1445,6 @@
 			<xsl:apply-templates select="@* | node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="caravan_master_sturgia"]'>
-		<xsl:copy>
-			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
-			<xsl:apply-templates select="@* | node()"/>
-		</xsl:copy>
-	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="armed_trader_sturgia"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
@@ -1439,12 +1458,6 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="veteran_caravan_guard_sturgia"]'>
-		<xsl:copy>
-			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
-			<xsl:apply-templates select="@* | node()"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="caravan_master_vlandia"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
 			<xsl:apply-templates select="@* | node()"/>
@@ -1468,12 +1481,6 @@
 			<xsl:apply-templates select="@* | node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="caravan_master_battania"]'>
-		<xsl:copy>
-			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
-			<xsl:apply-templates select="@* | node()"/>
-		</xsl:copy>
-	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="armed_trader_battania"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
@@ -1487,12 +1494,6 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="veteran_caravan_guard_battania"]'>
-		<xsl:copy>
-			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
-			<xsl:apply-templates select="@* | node()"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="caravan_master_khuzait"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
 			<xsl:apply-templates select="@* | node()"/>
