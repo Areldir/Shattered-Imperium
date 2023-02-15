@@ -146,7 +146,7 @@
 		Lieutenant (5_15)
 	-->
 	<Faction id="clan_battania_1"
-	         name="{=a67wFbUw}fen Crusac"
+	         name="{=a67wFbUw}fen Conaill"
 	         tier="5"
 	         owner="Hero.lord_5_1"
 	         culture="Culture.battania"
@@ -541,7 +541,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text=""
+	         text="{=si_ar_clan_khuzait_8_text}The Mazalar, unlike most prominent tribes of the Iltanlar, have only recently moved into the lands of the Devseg, riding down from the highland foothills of the Sulan Dag Mountains to seize a foothold around the fortress known as Tepes Castle. A violent and cruel people, even their Iltanlar kin regard them as savage and ignoble, and their subjects and slaves are among the most miserable in Calradia. However, their use to the khans of Baltakhand is readily apparent, and so the Mazalar now form the vanguard of the nomadic hosts, riding along the borderlands with the Darshi city states and fighting any who dare to cross them."
 	         banner_key="11.116.116.4345.4345.780.802.1.0.0.126.11.0.250.250.764.764.0.0.0.510.11.0.250.200.914.644.0.0.90.510.11.0.250.200.914.884.0.0.90.510.11.0.250.200.614.884.0.0.90.510.11.0.250.200.614.644.0.0.90.521.11.0.150.150.764.554.0.0.0.503.11.0.150.150.764.974.0.0.0"/>
 	<Faction id="clan_khuzait_9"
 	         name="{=si_ar_clan_khuzait_9_name}Ixgchit"
@@ -915,7 +915,7 @@
 	         name="{=si_ar_clan_jokbyalic_1_name}Aertus"
 	         tier="6"
 	         owner="Hero.AR_lord_13_1"
-	         culture="Culture.gotarni"
+	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"/>
@@ -923,7 +923,7 @@
 	         name="{=si_ar_clan_jokbyalic_2_name}Bructarach"
 	         tier="5"
 	         owner="Hero.AR_lord_13_5"
-	         culture="Culture.gotarni"
+	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.416.2.38.509.509.764.764.1.0.0"/>
@@ -931,7 +931,7 @@
 	         name="{=si_ar_clan_jokbyalic_3_name}Jutungar"
 	         tier="5"
 	         owner="Hero.AR_lord_13_11"
-	         culture="Culture.gotarni"
+	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.417.2.38.400.400.764.764.1.0.45.500.2.38.550.550.764.764.1.0.45"/>
@@ -939,7 +939,7 @@
 	         name="{=si_ar_clan_jokbyalic_4_name}Lacringus"
 	         tier="4"
 	         owner="Hero.AR_lord_13_15"
-	         culture="Culture.gotarni"
+	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.455.2.38.509.509.764.764.1.0.0"/>
@@ -1212,10 +1212,10 @@
 	         tier="4"
 	         text="{=si_ar_beni_zilal_text}The Beni Zilal, or so-called ‘Keepers of the Secret’, are a shadowy order who developed around the taverns and bath-houses of the Aserai. Trading in secrets and lies, it is rumoured the Beni Zilal have made more than one lord of the Nahasa and have been involved in the assassination of many more. However, even the most shadowy of cabal falls in need of coin from time to time, and so a chapter of the Beni Zilal now roam the southern wastes, becoming little more than a tribe of bandits.">
 		<minor_faction_character_templates>
-			<template id="NPCCharacter.spc_beni_zilal_leader_0"/>
-			<template id="NPCCharacter.spc_beni_zilal_leader_1"/>
-			<template id="NPCCharacter.spc_beni_zilal_leader_2"/>
-			<template id="NPCCharacter.spc_beni_zilal_leader_3"/>
+			<template id="NPCCharacter.AR_spc_beni_zilal_leader_0"/>
+			<template id="NPCCharacter.AR_spc_beni_zilal_leader_1"/>
+			<template id="NPCCharacter.AR_spc_beni_zilal_leader_2"/>
+			<template id="NPCCharacter.AR_spc_beni_zilal_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<Faction id="wolfskins"
@@ -1366,7 +1366,7 @@
 	         name="{=si_ar_jawwal_name}Jawwal"
 	         short_name="{=si_ar_jawwal_short_name}Jawwal"
 	         tier="4"
-	         text="{=si_ar_jawwal_text}The Jawwal, or ‘Roamers’, are the main bedouin confederacy of the Nahasa desert. They wander from highland to lowland grazing grounds, droving great flocks of goats and herds of camels, and declaring huge swathes of the desert their ‘territory’ in which any caravan must offer protection money. They compose poems of their deeds and mock other clans of the Banu Asera for having given up the ‘freedom’ of woollen tents and the saddle for stone houses in the oases. The other clans consider them boastful nuisances, though grudgingly respecting them as protectors of the old ways of the great bronze desert.">
+	         text="{=si_ar_jawwal_text}The Jawwal, or ‘Roamers’, are the main bedouin confederacy of the Nahasa Desert. They wander from highland to lowland grazing grounds, droving great flocks of goats and herds of camels, and declaring huge swathes of the desert their ‘territory’ in which any caravan must offer protection money. They compose poems of their deeds and mock other clans of the Banu Asera for having given up the ‘freedom’ of woollen tents and the saddle for stone houses in the oases. The other clans of the Banu Asera consider them boastful nuisances, though grudgingly respecting them as protectors of the old ways of the great bronze desert.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_jawwal_leader_0"/>
 			<template id="NPCCharacter.AR_spc_jawwal_leader_1"/>
@@ -1538,7 +1538,7 @@
 	         color2="FF848B65"
 	         alternative_color="FF848B65"
 	         alternative_color2="FF848B65"
-	         culture="Culture.gotarni"
+	         culture="Culture.byalic"
 	         default_party_template="PartyTemplate.kingdom_hero_party_lochanians_template"
 	         settlement_banner_mesh="encounter_flag_f"
 	         is_minor_faction="true"

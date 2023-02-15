@@ -66,7 +66,7 @@
 	<xsl:template match="Settlement[@id='castle_B4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
 	</xsl:template>
-	<!-- fen Crusac -->
+	<!-- fen Conaill -->
 	<xsl:template match="Settlement[@id='town_B1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_1</xsl:attribute>
 	</xsl:template>
@@ -594,7 +594,7 @@
 	</xsl:template>
 	<!-- Ayangait -->
 	<xsl:template match="Settlement[@id='castle_village_K9_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_K9_1_text}{=si_ar_castle_village_K9_1_text}Kaysar sits in the north and east of the lands ruled by the Iltanlar, in the valley of the Karakaz river. This district is snowbound for much of the year, but villagers still raise herds of cattle bred to withstand the icy winds coming downriver from the north.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_K9_1_text}Kaysar sits in the north and east of the lands ruled by the Iltanlar, in the valley of the Karakaz river. This district is snowbound for much of the year, but villagers still raise herds of cattle bred to withstand the icy winds coming downriver from the north.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K9_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_K9_2_text}Payam lies alongside the Karakaz river in the cold north of the Iltanlar lands. Though the land is snowbound much of the year, the villagers sow wheat and barley as soon as the melt starts, taking in a good crop before the autumn.</xsl:attribute>
@@ -610,6 +610,12 @@
 		<xsl:attribute name='owner'>Faction.clan_khuzait_6</xsl:attribute>
 	</xsl:template>
 	<!-- Aizrit -->
+	<xsl:template match="Settlement[@id='castle_village_K1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_K1_1_text}Usek sits at the foot of the Akkan hills on the eastern shores of Lake Tanaesis, which the nomads of the Calradian steppe call the Tanaz Sea. The villagers, who until recently were nomads themselves, raise sheep known for their long, fine wool.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_K1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_K1_2_text}The village of Esme and its surrounding hamlets lie on the landward side of the Akkan hills on the Devseg plateau. The open plains here provide prime grazing lands for the flocks of the Iltanlar and their confederates.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_K1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_khuzait_7</xsl:attribute>
 	</xsl:template>
@@ -994,46 +1000,46 @@
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_1</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_EN6']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_1']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_2']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!-- Bructarach -->
 	<xsl:template match="Settlement[@id='castle_EN2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN2_1']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN2_2']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!-- Jutungar -->
 	<xsl:template match="Settlement[@id='castle_EN7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN7']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN7_1']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN7_2']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!-- Lacringus -->
 	<xsl:template match="Settlement[@id='castle_EN8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN8_1']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN8_2']/@culture">
-		<xsl:attribute name='culture'>Culture.gotarni</xsl:attribute>
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!--
 	Alkit Khanate
