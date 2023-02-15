@@ -829,7 +829,7 @@
 	</NPCCharacter>
 	<!-- GOTARNIAN MILITIAS -->
 	<!-- T3 Gotarnian Militia Archer Light Skill 40-70 -->
-	<NPCCharacter id="AR_got_militia_archer" default_group="Ranged" level="16" name="{=b4QPaEnA}Gotarnian Militia Crossbowman" occupation="Soldier" is_basic_troop="false" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_militia_archer" default_group="Ranged" level="16" name="{=b4QPaEnA}Gotarnian Militia Crossbowman" occupation="Soldier" is_basic_troop="false" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -950,7 +950,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Gotarnian Militia Archer Light Skill 60-100 -->
-	<NPCCharacter id="AR_got_militia_veteran_archer" default_group="Ranged" level="21" name="{=i5DfUz6D}Gotarnian Militia Veteran Crossbowman" occupation="Soldier" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_militia_veteran_archer" default_group="Ranged" level="21" name="{=i5DfUz6D}Gotarnian Militia Veteran Crossbowman" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1052,7 +1052,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Gotarnian Militia Archer Medium Skill 60-130 -->
-	<NPCCharacter id="AR_got_clann_archer" default_group="Ranged" level="26" name="{=ac8MZYne}Gotarnian Weihs Guard Crossbowman" occupation="Soldier" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_clann_archer" default_group="Ranged" level="26" name="{=ac8MZYne}Gotarnian Weihs Guard Crossbowman" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1112,7 +1112,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Gotarnian Militia Light Skill 40-70 -->
-	<NPCCharacter id="AR_got_militia_spearman" default_group="Infantry" level="16" name="{=L0cGAnWw}Gotarnian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_militia_spearman" default_group="Infantry" level="16" name="{=L0cGAnWw}Gotarnian Militia Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1232,7 +1232,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Gotarnian Militia Medium Skill 60-100 -->
-	<NPCCharacter id="AR_got_militia_veteran_spearman" default_group="Infantry" level="21" name="{=IxcCmtxz}Gotarnian Militia Veteran Spearman" occupation="Soldier" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_militia_veteran_spearman" default_group="Infantry" level="21" name="{=IxcCmtxz}Gotarnian Militia Veteran Spearman" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1314,7 +1314,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Gotarnian Militia Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_got_clann_guard" default_group="Infantry" level="26" name="{=tSc0mHy7}Gotarnian Weihs Guard Spearman" occupation="Soldier" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_clann_guard" default_group="Infantry" level="26" name="{=tSc0mHy7}Gotarnian Weihs Guard Spearman" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1412,7 +1412,7 @@
 	</NPCCharacter>
 	<!-- GOTARNIAN CARAVANS -->
 	<!-- T5 Gotarnian Caravan Master Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_got_caravan_master" default_group="Infantry" level="26" name="{=LKb8DXby}Gotarnian Caravan Master" occupation="CaravanGuard" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_caravan_master" default_group="Infantry" level="26" name="{=LKb8DXby}Gotarnian Caravan Master" occupation="CaravanGuard" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1458,7 +1458,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Gotarnian Armed Trader Light Skill 40-70 -->
-	<NPCCharacter id="AR_got_armed_trader" default_group="Ranged" level="16" name="{=v8hRrmY2}Gotarnian Armed Trader" occupation="CaravanGuard" culture="Culture.gotarni" is_basic_troop="true">
+	<NPCCharacter id="AR_got_armed_trader" default_group="Ranged" level="16" name="{=v8hRrmY2}Gotarnian Armed Trader" occupation="CaravanGuard" culture="Culture.byalic" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1522,7 +1522,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Gotarnian Caravan Cavalry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_got_caravan_guard" default_group="Cavalry" level="21" name="{=qfaTMEBw}Gotarnian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_caravan_guard" default_group="Cavalry" level="21" name="{=qfaTMEBw}Gotarnian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1600,7 +1600,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Gotarnian Caravan Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_got_vet_caravan_guard" default_group="Cavalry" level="26" name="{=juBPAThy}Gotarnian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.gotarni">
+	<NPCCharacter id="AR_got_vet_caravan_guard" default_group="Cavalry" level="26" name="{=juBPAThy}Gotarnian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gotarni"/>
 		</face>
@@ -1803,7 +1803,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_camp_follower_gotarnia" default_group="Infantry" is_female="true" level="11" name="Gotarnian Camp Follower" occupation="CaravanGuard" culture="Culture.gotarni">
+	<NPCCharacter id="AR_camp_follower_gotarnia" default_group="Infantry" is_female="true" level="11" name="Gotarnian Camp Follower" occupation="CaravanGuard" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_battania"/>
 		</face>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- JOKBYALICS: Levy Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_jok_villager" default_group="Infantry" level="6" name="{=si_ar_jok_villager}Jokbyalic Tribesman" occupation="Villager" culture="Culture.byalic" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_gotarni"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<!--upgrade_target id="NPCCharacter.AR_ilt_t2_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_ilt_t2_archer"/-->
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>
