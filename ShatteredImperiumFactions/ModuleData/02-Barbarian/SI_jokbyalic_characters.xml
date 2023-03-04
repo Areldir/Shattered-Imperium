@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<!-- JOKBYALICS: Levy Troops -->
+	<!-- JOKBYALS: Levy Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_jok_villager" default_group="Infantry" level="6" name="{=si_ar_jok_villager}Jokbyalic Tribesman" occupation="Villager" culture="Culture.byalic" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.villager_gotarni"/>
+			<face_key_template value="BodyProperty.villager_byalic"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -17,13 +17,334 @@
 			<skill id="Throwing" value="5"/>
 		</skills>
 		<upgrade_targets>
-			<!--upgrade_target id="NPCCharacter.AR_ilt_t2_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_ilt_t2_archer"/-->
+			<upgrade_target id="NPCCharacter.AR_jok_t2_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_jok_t2_slinger"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_jok_villager_battletemplate"/>
 			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-
+	<!-- T2 Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_jok_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_jok_t2_spearman}Jokbyalic Tribal Warrior" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t3_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t2_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_jok_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_jok_t3_spearman}Jokbyalic Tribal Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t3_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_jok_t4_spearman}Jokbyalic Seasoned Tribal Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_jok_t5_spearman}Jokbyalic Hall Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Slinger Medium Skill 20-40 -->
+	<NPCCharacter id="AR_jok_t2_slinger" default_group="Ranged" level="11" name="{=si_ar_jok_t2_slinger}Jokbyalic Tribal Hurler" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t3_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t2_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Slinger Medium Skill 40-70 -->
+	<NPCCharacter id="AR_jok_t3_slinger" default_group="Ranged" level="16" name="{=si_ar_jok_t3_slinger}Jokbyalic Tribal Guard Slinger" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t3_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Slinger Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_jok_t4_slinger}Jokbyalic Seasoned Tribal Guard Slinger" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Slinger Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_jok_t5_slinger}Jokbyalic Hall Guard Slinger" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- JOKBYALS: Field Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_jok_recruit" default_group="Infantry" level="6" name="{=si_ar_jok_recruit}Jokbyalic Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t2_swordsman"/>
+			<!--upgrade_target id="NPCCharacter.AR_ilt_t2_horsearcher"/-->
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<!-- T2 Sword Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_jok_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_jok_t2_swordsman}Jokbyalic Footman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t3_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t2_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Sword Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_jok_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_jok_t3_swordsman}Jokbyalic Warrior" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t3_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_jok_t4_swordsman}Jokbyalic Axeman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_jok_t5_swordsman}Jokbyalic Seasoned Axeman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t6_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_jok_t6_swordsman}Jokbyalic Oathsworn Axeman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t6_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
 </NPCCharacters>
