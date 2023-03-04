@@ -519,23 +519,41 @@
 		</Pieces>
 		<!-- Length: 116 Weight: 1.13 -->
 	</CraftedItem>
-	<CraftedItem id="northern_spear_1_t2" name="{=RzLZHrYT}Short Simple Raider Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia">
+	<CraftedItem id="northern_spear_1_t2" name="{=RzLZHrYT}Northern Simple Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia">
 		<Pieces>
-			<Piece id="spear_blade_15" Type="Blade"/>
+			<Piece id="spear_blade_14" Type="Blade" scale_factor="110"/>
 			<Piece id="spear_guard_16" Type="Guard"/>
-			<Piece id="AR_SI_spear_handle_c" Type="Handle" scale_factor="103"/>
+			<Piece id="AR_SI_spear_handle_d" Type="Handle" scale_factor="157"/>
 			<Piece id="spear_pommel_6" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 115 Weight: 0.62 -->
+		<!-- Length: 213 Weight: 1.51 -->
 	</CraftedItem>
-	<CraftedItem id="northern_spear_2_t3" name="{=xTyib5ms}Broad Leaf Shaped Spear" crafting_template="TwoHandedPolearm" culture="Culture.battania">
+	<CraftedItem id="northern_spear_2_t3" name="{=xTyib5ms}Northern Triangular Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia">
 		<Pieces>
-			<Piece id="spear_blade_40" Type="Blade" scale_factor="90"/>
-			<Piece id="spear_guard_17" Type="Guard"/>
-			<Piece id="spear_handle_21" Type="Handle" scale_factor="110"/>
-			<Piece id="spear_pommel_2" Type="Pommel"/>
+			<Piece id="spear_blade_2" Type="Blade" scale_factor="115"/>
+			<Piece id="sturgian_guard_6" Type="Guard" scale_factor="110"/>
+			<Piece id="AR_SI_spear_handle_d" Type="Handle" scale_factor="151"/>
+			<Piece id="spear_pommel_2" Type="Pommel" scale_factor="110"/>
 		</Pieces>
-		<!-- Length: 151 Weight: 0.92 -->
+		<!-- Length: 213 Weight: 1.66 -->
+	</CraftedItem>
+	<CraftedItem id="northern_spear_3_t4" name="{=ZLpYFYXo}Jagged Fine Steel Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_2" Type="Blade" scale_factor="125"/>
+			<Piece id="sturgian_guard_6" Type="Guard" scale_factor="110"/>
+			<Piece id="spear_handle_8" Type="Handle" scale_factor="121"/>
+			<Piece id="spear_pommel_8" Type="Pommel" scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 213 Weight: 1.6 -->
+	</CraftedItem>
+	<CraftedItem id="northern_spear_4_t5" name="{=N28bDEhh}Fine Steel Hewing Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_2" Type="Blade" scale_factor="125"/>
+			<Piece id="spear_banner_12" Type="Guard" scale_factor="110"/>
+			<Piece id="spear_handle_8" Type="Handle" scale_factor="111"/>
+			<Piece id="spear_pommel_2" Type="Pommel" scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 213 Weight: 1.34 -->
 	</CraftedItem>
 	<CraftedItem id="southern_spear_3_t3" name="{=IDfl59yt}Knob Headed Spear" crafting_template="TwoHandedPolearm" culture="Culture.aserai">
 		<Pieces>
@@ -807,7 +825,6 @@
 			<Trade morale_bonus="1"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
-		<Flags/>
 	</Item>
 	<Item id="fish" name="{=QGaIYQpg}Fish{@Plural}barrels of fish{\@}" mesh="merchandise_fish_a" item_category="fish" IsFood="true" value="23" weight="10" Type="Goods">
 		<ItemComponent>

@@ -89,8 +89,6 @@
 			<relationship kingdom="Kingdom.aserai"
 			              value="-1"
 			              isAtWar="true"/>
-			<relationship kingdom="Kingdom.vaegiria"
-			              value="1"/>
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
@@ -276,8 +274,6 @@
 			<relationship kingdom="Kingdom.sturgia"
 			              value="-1"
 			              isAtWar="true"/>
-			<relationship kingdom="Kingdom.empire_s"
-			              value="1"/>
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
@@ -415,8 +411,9 @@
 	         ruler_title="{=AR_kingdom_tanash_ruler_title}Shah"
 	         text="{=AR_kingdom_tanash_text}The lands to the east of the great lake Tanaesis, known as Tanash in Darshi, have long been the home of a number of great city states; their Darshi-speaking inhabitants growing monstrously rich on the trade of silk and spices from the far eastern lands into Calradia. Traditionally a militarily poor people, over the centuries, emperors and padishahs have exacted tribute from the Tanashi in return for assuring their sovereignty, though all that has changed in recent years. Six decades ago, a Calradian general marched his army across the Iltan Portages and subjugated the Tanash city states in a swift campaign, forming the imperial protectorate of Transtanaesia. Though they have resisted all attempts at calradicization, they now see the impending Calradian civil war as an opportunity to regain their total independence.">
 		<relationships>
-			<relationship kingdom="Kingdom.spahad"
-			              value="1"/>
+			<relationship kingdom="Kingdom.khuzait"
+			              value="-1"
+			              isAtWar="true"/>
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
@@ -437,7 +434,7 @@
 	         settlement_banner_mesh="encounter_flag_e"
 	         flag_mesh="info_screen_flags_b"
 	         name="{=gotarnianfaction}Jokbyalic Kingdom"
-	         short_name="{ARgjiFSHZ}Jokbyalics"
+	         short_name="{ARgjiFSHZ}Jokbyals"
 	         title="{ARaDIU0XC}Jokbyalic Kingdom"
 	         ruler_title="{=afvM7XpQ}King"
 	         text="To the north of the Calradian steppe dwell a myriad of tribes, referred to by the nomads as the 'Jokbyalics', simply 'those Byalics who live above us'. A hardy, warlike people, they have for centuries lived in small isolated villages, carving out a meagre existence raising sheep and cattle in the thin expanses of grassland between river and forest. However, in the year 945 the Nachaghan tribe from the east thundered into the Jokbyalic territory, pillaging the land and enslaving its people. Threatened with annihilation, the Jokbyalics were forced to migrate west, carving a bloody swathe across the Iltan Portages into the Calradian Empire. After routing the legions and killing the Calradian Emperor Themestios, they now find themselves with a small kingdom in the Calradian borderlands, far from their home, with threats on all sides.">
@@ -473,7 +470,8 @@
 	         text="{=si_ar_yachios_faction_text}PLACEHOLDER">
 		<relationships>
 			<relationship kingdom="Kingdom.aserai"
-			              value="1"/>
+			              value="-1"
+			              isAtWar="true"/>
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
@@ -501,7 +499,8 @@
 	         text="{=si_ar_paravenos_faction_ruler_text}PLACEHOLDER">
 		<relationships>
 			<relationship kingdom="Kingdom.vlandia"
-			              value="-1"/>
+			              value="-1"
+			              isAtWar="true"/>
 		</relationships>
 		<policies>
 			<policy id="policy_cantons"/>

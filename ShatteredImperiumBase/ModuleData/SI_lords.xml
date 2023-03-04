@@ -1,22 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<!--NPCCharacter id="AR_dead_lord_AA" name="{=AR100002}Apolytea" age="46" voice="softspoken" is_female="true" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
-		<face>
-			<BodyProperties version="4" age="46" weight="0.4" build="0.5" key="0015A00AC01410157A8C9A7026BD5B79B6689D99CB38C67C33619853876956DA009776030944A2830000000000000000000000000000000000000000593C2003"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Politician" value="3"/>
-			<Trait id="Manager" value="3"/>
-			<Trait id="Mercy" value="1"/>
-			<Trait id="Valor" value="1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentRoster/>
-			<EquipmentSet id="emp_bat_template_southfrontier"/>
-			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter-->
 	<NPCCharacter id="AR_lord_3_18" name="{=DuTdWRbB}Farzana" age="42" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.0335" build="0.0504" key="0028AC0E90FC30045948A3188A417665575C8897843A8925A7E38F3985789874C0080635F873752100000000000B7000000000000000380000000000011C1043"/>
@@ -217,11 +200,28 @@
 			<Trait id="Calculating" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentRoster/>
 			<EquipmentSet id="AR_emp_sunemperor_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	
+	<NPCCharacter id="AR_lord_1_6" name="{=AR100002}Apolytea" age="46" voice="softspoken" is_female="true" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="46" weight="0.4" build="0.5" key="0015A00AC01410157A8C9A7026BD5B79B6689D99CB38C67C33619853876956DA009776030944A2830000000000000000000000000000000000000000593C2003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_emp_princess_battletemplate"/>
+			<EquipmentSet id="AR_emp_princess_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
 	<NPCCharacter id="AR_lord_1_7" name="{=AR100003}Semnon" age="19" voice="curt" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="19" weight="0.3148" build="0.5077" key="001BD00AC00003056E58879AC87B8325544B4674A98B85863B4337597A867459008854030818546400001105000030A30000001F000000000000000005104046"/>
@@ -234,7 +234,6 @@
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentRoster/>
 			<EquipmentSet id="emp_bat_template_flamboyant"/>
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
@@ -451,7 +450,6 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentRoster/>
 			<EquipmentSet id="khu_bat_template_flamboyant"/>
 			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
@@ -471,6 +469,27 @@
 		<Equipments>
 			<EquipmentSet id="khu_bat_template_medium"/>
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_6_3" name="{=FLrdHzSf}Khakhun" age="29" voice="curt" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0" build="0.4769" key="0005C00CC0FC100ACF976462A77185200E018468F0EF0103B6830C71720A23D40517065601101915000000000000000000000000000000000000000000240000"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="khu_bat_template_flamboyant"/>
+			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_6_5" name="{=m9ZgghCo}Abagai" age="51" voice="ironic" is_female="true" is_hero="true" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">

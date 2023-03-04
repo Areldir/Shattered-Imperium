@@ -633,9 +633,9 @@
 	<xsl:template match="Settlement[@id='castle_K7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_khuzait_9</xsl:attribute>
 	</xsl:template>
-	
-	
-	
+	<xsl:template match="Settlement[@id='castle_village_K7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_K7_2_text}Kohi Ajik lies in a narrow, dry valley at the foot of the so-called Lover's Mountain, from which its name derives. The peoples of this land buy horses from the nomads to their east and sell them to the Iltanlar aristocracy in the towns.</xsl:attribute>
+	</xsl:template>
 	<!--
 	Sturgian Principalities
 	-->	
@@ -723,7 +723,7 @@
 		<xsl:attribute name='owner'>Faction.clan_vlandia_6</xsl:attribute>
 	</xsl:template>
 	<!-- dey Molarn -->
-	<xsl:template match="Settlement[@id='town_V9']/@text">
+	<xsl:template match="Settlement[@id='town_V8']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V8_text}Ostican was once a minor port of the Calradian Empire, known as a haven for seafarers travelling from the Ebor Peninsula to and from the oceans to the west and north of Calradia. Many were talented corsairs, employed by various factions of the Calradian Empire to harry their foes during their intermittent civil wars. Indeed, some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.</xsl:attribute>
 	</xsl:template>	
 	<xsl:template match="Settlement[@id='village_V8_3']/@text">
@@ -996,6 +996,12 @@
 	Jokbyalic Kingdom
 	-->
 	<!-- Aertus -->
+	<xsl:template match="Settlement[@id='castle_village_V8_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EN6_text}Amprela is the foremost town of the far northeast of the Calradian Empire. Atop its towers, one may see beacons from the frontier fortresses to the north, east and west that might signal the approach of raiders. In spite of the recent capture of the town by the Jokbyals, little in Amprela appears to have changed from times of old. Horse archers recruited from the rough Eleftheroi freemen still drink in the barracks, waiting for the order to ride out against horsemen from the steppe, and cataphracts can still be seen to sally through its gates to vie for control of the trade crossing the nearby network of lakes known as the Iltan portages.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN6_2_text}Boreagora lies in the cold north of the Empire, by the network of glacial lakes known as the portages of Iltan. Nearby imperial forts, looming over the waterways, keep watch for raiders from the steppe and northlands. The lowlands here are suited to the growing of flax.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_EN6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_1</xsl:attribute>
 	</xsl:template>
@@ -1009,6 +1015,9 @@
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!-- Bructarach -->
+	<xsl:template match="Settlement[@id='castle_village_EN2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN2_2_text}Nortanisa is a fishing village on the southern shores of Lake Laconis. Villagers place nets and cages in the shallow edges of the lake to catch roach, bream, perch, and crayfish.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_2</xsl:attribute>
 	</xsl:template>
@@ -1019,6 +1028,12 @@
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!-- Jutungar -->
+	<xsl:template match="Settlement[@id='castle_village_EN7_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_1_text}Epinosa lies in the far north of the Calradian Empire, just south of the glacial lakes known as the Iltan Portages where ships are hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_2_text}Pons is one of the northernmost settlements of the Calradian Empire. It is named for the 'crossing' of the Iltan Portages, a network of glacial lakes that allow ships to be hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_3</xsl:attribute>
 	</xsl:template>
@@ -1128,18 +1143,18 @@
 	Tanash City States
 	-->
 	<!-- Zarinzadeh -->
+	<xsl:template match="Settlement[@id='town_K3']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_K3_text}Makeb sits on the northern tip of Lake Tanaesis - ‘Tanash’ in the Darshi language. Here, it guards the cataract over which the Karakaz river empties into the lake. This city has long been ruled by petty khans and shahs, who collect tolls from traders forced to haul their boats around the rapids. Makeb has, by these means, become one of the wealthiest cities in Calradia, affording great power and status to those who control it. However, increasing threats to the east trouble its borders, and it remains to be seen how long the great city may retain its independence.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_K3_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_K3_3_text}The fishing village of Mazen sits on the northern end of Lake Tanaesis, which the local Darshi inhabitants call the Tanash sea. The villagers set nets in the nearby Karakaz river to catch a variety of fish migrating to and from the lake.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_tanash_1</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K3']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match='Settlement[@id="castle_village_K4_1"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="castle_village_comp_K4_1" village_type="VillageType.lumberjack" hearth="465" gate_rotation="0.508" bound="Settlement.town_K3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
-		</xsl:copy>
-	</xsl:template-->
 	<xsl:template match="Settlement[@id='village_K3_1']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
@@ -1147,6 +1162,18 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Esbarafar -->
+	<xsl:template match="Settlement[@id='town_K5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_K5_text}Chaikand sits by the reed-marshes on the edge of Lake Tanaesis. Part of the imperial protectorate known as ‘Transtanaesia’, boats laden with hides, wool and salt are shuttled from here across the placid waters of the lake, returning with Calradian silks and silver. Such trade has brought Chaikand unparalleled wealth and status on the continent, though not without cost. Jealous eyes watch from all sides, and the people of the city are used to having to defend themselves from those who would take their wealth for themselves.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_K5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_K5_2_text}Okhutan is a village at the center of a wheat-growing district on a narrow stretch of plain between the Akkan hills and Lake Tanaesis, which the local Darshi-speaking villagers call the Tanash Sea.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_K5_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_K5_3_text}Ispantar is a village on a rocky spur of the Akkan hills overlooking Lake Tanaesis, which the local Darshi people call the Tanash Sea. The villagers here make most of their income from the raising of sheep.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_K5_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_K5_4_text}Pabastan sits in the narrow plain between the Akkan hills and Lake Tanaesis, which the Darshi call the Tanash Sea. This land is fine country for the growing of wheat.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_tanash_2</xsl:attribute>
 	</xsl:template>

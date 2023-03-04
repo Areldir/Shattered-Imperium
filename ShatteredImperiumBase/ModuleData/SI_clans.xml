@@ -550,7 +550,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text=""
+	         text="{=si_ar_clan_khuzait_9_text}The Ixgchit have the dubious honor of calling the lands of the southern Devseg their home, raising vast herds of horses in the sparse, windblown grasslands in the foothills of the Kohi Ajik - the so-called ‘Lover’s Mountain’. Whilst these lands have brought great wealth to the Ixgchit, their proximity to the borderlands of the Darshi Empire has frequently brought them into conflict with the forces of the Padishah. This has hardened the Ixgchit into formidable warriors, serving as the bulwark of the Iltanlar realm against their numerous southern foes."
 	         banner_key="11.116.116.4345.4345.780.802.1.0.0.510.11.0.351.240.764.894.0.0.0.510.11.0.351.240.764.649.0.0.0.500.11.0.500.500.764.771.0.0.0.145.11.0.351.240.769.774.0.0.0"/>
 
 
@@ -912,13 +912,14 @@
 	Jokbyalic Kingdom
 	-->
 	<Faction id="clan_jokbyalic_1"
-	         name="{=si_ar_clan_jokbyalic_1_name}Aertus"
+	         name="{=si_ar_clan_jokbyalic_1_name}Aurvantus"
 	         tier="6"
 	         owner="Hero.AR_lord_13_1"
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
-	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"/>
+	         text="{=si_ar_clan_jokbyalic_1_text}The Aurvantus are a junior branch of the old Jokbyalic royal family. Once, they held a small but wealthy holding along the shoreline of the upper Karakaz River, raising livestock and profiting off the trade of amber and furs from Nordic wanderers to the Khans of the Sulan Dag Mountains. The coming of the Nachaghan hordes saw the destruction of the Aurvantus’ halls and the death of their king and his entire bloodline. Saved from destruction only by the swift actions of the king’s brother Thrasaric, who foresaw their destruction and led his family and retinue westwards, the Aurvantus now attempt to rebuild their shattered realm in the ruins of the eastern provinces of the Calradian Empire."
+			 banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"/>
 	<Faction id="clan_jokbyalic_2"
 	         name="{=si_ar_clan_jokbyalic_2_name}Bructarach"
 	         tier="5"
@@ -926,6 +927,7 @@
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
+	         text="{=si_ar_clan_jokbyalic_2_text}The Bructarach, like many among the Jokbyals, hail from the sheltered lands along the Karakaz River. The descendants of proud farmer-soldiers who loyally served the ruling Aurvantus kings for innumerable centuries, they were among the first to face the incoming Nachaghan hordes - their warriors valiantly holding the line against the rampaging nomads to buy time for their people to escape to the west. Driven nearly to extinction by the Nachaghan, the Bructarach now find themselves dwelling in the rich lands of the former eastern provinces of the Calradian Empire, hoping the high walls may shelter them against the thundering hooves of the east."
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.416.2.38.509.509.764.764.1.0.0"/>
 	<Faction id="clan_jokbyalic_3"
 	         name="{=si_ar_clan_jokbyalic_3_name}Jutungar"
@@ -934,6 +936,7 @@
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
+	         text="{=si_ar_clan_jokbyalic_3_text}The Jutungar tribe hail from the eastern coast of the Byalic Sea. In centuries past, their ancestors eked out a meager existence from fishing the frigid waters, earning enough to construct a smallholding. Their fortunes would change when, just over a century ago, Nordic traders arrived on their shores, transforming the Jutungar’s smallholding into a bustling port trading salt and dried fish with the Nords in exchange for furs and amber. However, the arrival of the Nachaghan hordes forced the Jutungar to abandon their lands, fleeing southwards with their kin across the Iltan Portages and into the eastern provinces of the Calradian Empire. Now, they must fight for survival, reluctantly turning from the fishing net to the axe and sword."
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.417.2.38.400.400.764.764.1.0.45.500.2.38.550.550.764.764.1.0.45"/>
 	<Faction id="clan_jokbyalic_4"
 	         name="{=si_ar_clan_jokbyalic_4_name}Lacringus"
@@ -942,6 +945,7 @@
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.jokbyalic"
 	         is_noble="true"
+	         text=""
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.455.2.38.509.509.764.764.1.0.0"/>
 
 
@@ -1084,7 +1088,7 @@
 	         culture="Culture.empire_w"
 	         super_faction="Kingdom.paravenos"
 	         is_noble="true"
-	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the family of the sacred city – have been the rulers of the city of Paravenos since the times of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
+	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the family of the sacred city – have been the rulers of the city of Paravenos since the days of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
 	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
 
 
