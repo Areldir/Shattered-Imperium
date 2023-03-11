@@ -9,6 +9,9 @@
 	Aserai Emirates
 	-->
 	<!-- Banu Atij -->
+	<xsl:template match="Settlement[@id='town_A8']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_A8_text}Qasira was founded by the legendary Queen Eshora, who it is said  punished the jinn who were harassing her people by imprisoning them in one of the caves above the city, carving the mystical eight-pointed star into the rock to seal them in. She sentenced them to haul water from the depths of the earth, feeding the springs that gush forth from the rocks and which for centuries have irrigated the date gardens of Qasira and its surrounding villages. This water has for centuries made Qasira a popular stop for caravans crossing the Nahasa, bringing great wealth and status to those who control it.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_aserai_6</xsl:attribute>
 	</xsl:template>
@@ -995,7 +998,7 @@
 	<!--
 	Jokbyalic Kingdom
 	-->
-	<!-- Aertus -->
+	<!-- Aurvantus -->
 	<xsl:template match="Settlement[@id='castle_village_V8_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_EN6_text}Amprela is the foremost town of the far northeast of the Calradian Empire. Atop its towers, one may see beacons from the frontier fortresses to the north, east and west that might signal the approach of raiders. In spite of the recent capture of the town by the Jokbyals, little in Amprela appears to have changed from times of old. Horse archers recruited from the rough Eleftheroi freemen still drink in the barracks, waiting for the order to ride out against horsemen from the steppe, and cataphracts can still be seen to sally through its gates to vie for control of the trade crossing the nearby network of lakes known as the Iltan portages.</xsl:attribute>
 	</xsl:template>
@@ -1070,6 +1073,15 @@
 		<xsl:attribute name='owner'>Faction.clan_alkit_1</xsl:attribute>
 	</xsl:template>
 	<!-- Yanait -->
+	<xsl:template match="Settlement[@id='town_S5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S5_text}Tyal sits in the western foothills of Mount Iltan, at the eastern edge of the Sturgian-speaking lands. This region has long stood aloof from the power struggles of the Calradia. Its people are known as wanderers, traders, horse breeders and fur-trappers. The local aristocracy has occasionally exchanged princesses with the steppe tribes to the east to firm up a truce or a trade pact, and proudly includes the names of several great khans on their list of ancestors. Such diplomacy has been rewarded in recent years. When the Alkit hordes passed through, they allowed Tyal to peacefully integrate into their new Khanate, retaining many of their traditional practices under the watchful eye of the Yanait tribe.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S5_1_text}Visibrot is a sheep-rearing village on the lower slopes of Mount Iltan, just below the network of glacial lakes known as the Iltan portages. Though this region is cold and remote, its importance as a trade juncture between lakes Laconis and Tanaesis, between the Calradian Empire and Steppe, mean that it is relatively densely populated.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S5_2_text}Bukits sits on the eastern slopes of Mount Iltan, on the frontier of the Calradian Steppe. Villagers here raise highland cattle, bred to withstand the icy gusts that tear down the mountain.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_alkit_2</xsl:attribute>
 	</xsl:template>
@@ -1078,6 +1090,9 @@
 		<xsl:attribute name='owner'>Faction.clan_alkit_3</xsl:attribute>
 	</xsl:template>
 	<!-- Adiskhar -->
+	<xsl:template match="Settlement[@id='castle_village_S7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S7_2_text}Alov sits on the edge of the glacial lakes known as the Iltan Portages. Villagers cultivate rye and barley on the high ground overlooking the lakes, and the rich black soil of the region compensates for the long winters and short growing season.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_S7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_alkit_4</xsl:attribute>
 	</xsl:template>
@@ -1147,7 +1162,7 @@
 		<xsl:attribute name='text'>{=si_ar_town_K3_text}Makeb sits on the northern tip of Lake Tanaesis - ‘Tanash’ in the Darshi language. Here, it guards the cataract over which the Karakaz river empties into the lake. This city has long been ruled by petty khans and shahs, who collect tolls from traders forced to haul their boats around the rapids. Makeb has, by these means, become one of the wealthiest cities in Calradia, affording great power and status to those who control it. However, increasing threats to the east trouble its borders, and it remains to be seen how long the great city may retain its independence.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_K3_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_K3_3_text}The fishing village of Mazen sits on the northern end of Lake Tanaesis, which the local Darshi inhabitants call the Tanash sea. The villagers set nets in the nearby Karakaz river to catch a variety of fish migrating to and from the lake.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_K3_3_text}The fishing village of Mazen sits on the northern end of Lake Tanaesis, which the local Darshi inhabitants call the Tanash Sea. The villagers set nets in the nearby Karakaz river to catch a variety of fish migrating to and from the lake.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_tanash_1</xsl:attribute>
@@ -1190,6 +1205,15 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Sowdafar -->
+	<xsl:template match="Settlement[@id='town_K2']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_K2_text}Akkalat, the ‘White Fortress’, was built by the fearsome Padishah Hoshtar on one of his periodic attempts to conquer the Devseg. For decades the sacred flame that burned from the top of the citadel symbolized his suzerainty over the tribes here. But the realm of the Padishah is as changeable as the wind, and now the fortress lies on the boundary of two worlds. To the north and west lie the independent city states of the Tanash, whilst the lands of the Padishah stretch to the south and east. Such a liminal position has both its advantages, and its dangers. Whilst Akkalat’s position affords it great wealth as a nexus in trade routes, it also places it in the ambitions of many who would claim rulership of the Devseg, much like Hoshtar in the days of old.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_K2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_K2_1_text}Karakalat lies in a basin in the flat, eastern edges of the Devseg plateau. This land has for centuries been dominated by nomads, and it is famous as a breeding ground for horses.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_K2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_K2_2_text}Tismil sits on the Ozu River, which drains the southern end of the Devseg Plateau. The people of this land are sheep-herders, whose flocks are a constant lure to nomadic raiders from further into the Calradian Steppe.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_tanash_3</xsl:attribute>
 	</xsl:template>
@@ -1203,6 +1227,9 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Uzitsana -->
+	<xsl:template match="Settlement[@id='castle_village_K2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_K2_2_text}Kamshar sits by the shores of Lake Tanaesis, which the Darshi inhabitants call the Tanash Sea. The fishing is poor in these parts, but villagers collect clay from the lakeside for sale to the potters of Chaikhand and other towns.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_K2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_tanash_4</xsl:attribute>
 	</xsl:template>

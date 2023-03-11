@@ -76,4 +76,13 @@
 			<Material id="Iron4" count="2"/>
 		</Materials>
 	</CraftingPiece>
+	<CraftingPiece id="cleaver_blade_5" name="{=2mo4gsuh}War Razor Blade" tier="4" piece_type="Blade" mesh="cleaver_blade_5" culture="Culture.vlandia" length="103.4" weight="0.79">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed">
+			<Thrust damage_type="Pierce" damage_factor="0.9"/>
+			<Swing damage_type="Cut" damage_factor="1.1"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron5" count="4"/>
+		</Materials>
+	</CraftingPiece>
 </CraftingPieces>  

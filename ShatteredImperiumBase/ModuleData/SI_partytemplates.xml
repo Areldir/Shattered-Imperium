@@ -104,7 +104,7 @@
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_vet_caravan_guard"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_bat_t3_swordsman"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_battania"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_village_woman_battania"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="elite_caravan_template_battania">
@@ -116,7 +116,7 @@
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AR_bat_t3_swordsman"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_t3_skirmisher"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_battania"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_village_woman_battania"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_battania">
@@ -784,10 +784,10 @@
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_dar_t4_lance_cavalry"/>
 		</stacks>
 	</MBPartyTemplate>
-	<!-- party templates for Gotarnian minor faction (1) -->
-	<MBPartyTemplate id="kingdom_hero_party_gotarni_template">
+	<!-- party templates for Jokbyalic minor faction (1) -->
+	<MBPartyTemplate id="kingdom_hero_party_jokbyalic_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_jok_recruit"/>
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_got_t2_pikeman"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_t3_pikeman"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_t4_pikeman"/>
@@ -804,17 +804,17 @@
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_got_t4_lance_cav"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="caravan_template_gotarni">
+	<MBPartyTemplate id="caravan_template_jokbyalic">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_armed_trader"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_caravan_guard"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_vet_caravan_guard"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_t3_pikeman"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_villager"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_gotarnia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.village_woman_gotarnia"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="elite_caravan_template_gotarni">
+	<MBPartyTemplate id="elite_caravan_template_jokbyalic">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_armed_trader"/>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.AR_got_caravan_guard"/>
@@ -823,7 +823,7 @@
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AR_got_t3_pikeman"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_t3_crossbowman"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_jok_villager"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_gotarnia"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.village_woman_gotarnia"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_jokbyalic_template">
@@ -832,18 +832,18 @@
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_jok_t3_slinger"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="rebels_gotarni_template">
+	<MBPartyTemplate id="rebels_jokbyalic_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_got_recruit"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_jok_recruit"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="villager_gotarni_template">
+	<MBPartyTemplate id="villager_jokbyalic_template">
 		<stacks>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_jok_villager"/>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.village_woman_gotarnia"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="vassal_reward_troops_gotarni">
+	<MBPartyTemplate id="vassal_reward_troops_jokbyalic">
 		<stacks>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_got_t5_cavalry"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_got_t4_cavalry"/>
