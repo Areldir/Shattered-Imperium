@@ -223,15 +223,13 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_jok_t2_swordsman"/>
-			<!--upgrade_target id="NPCCharacter.AR_ilt_t2_horsearcher"/-->
+			<upgrade_target id="NPCCharacter.AR_jok_t2_archer"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_jok_recruit_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	
-	
 	<!-- T2 Sword Infantry Light Skill 20-40 -->
 	<NPCCharacter id="AR_jok_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_jok_t2_swordsman}Jokbyalic Footman" occupation="Soldier" culture="Culture.byalic">
 		<face>
@@ -272,6 +270,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_jok_t4_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_shock_inf"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_jok_t3_swordsman_battletemplate"/>
@@ -345,6 +344,184 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	
-	
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_jok_t4_shock_inf}Jokbyalic Berserker" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_jok_t5_shock_inf}Jokbyalic Seasoned Berserker" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t6_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t6_shock_inf" default_group="Infantry" level="31" name="{=si_ar_jok_t6_shock_inf}Jokbyalic Oathsworn Berserker" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t6_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Archer Light Skill 20-40 -->
+	<NPCCharacter id="AR_jok_t2_archer" default_group="Ranged" level="11" name="{=si_ar_jok_t2_archer}Jokbyalic Scout" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t3_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t2_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Archer Light Skill 40-70 -->
+	<NPCCharacter id="AR_jok_t3_archer" default_group="Ranged" level="16" name="{=si_ar_jok_t3_archer}Jokbyalic Bowman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t3_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_archer" default_group="Ranged" level="21" name="{=si_ar_jok_t4_archer}Jokbyalic Archer" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_archer" default_group="Ranged" level="26" name="{=si_ar_jok_t5_archer}Jokbyalic Seasoned Archer" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t6_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Archer Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_jok_t6_archer" default_group="Ranged" level="31" name="{=si_ar_jok_t6_archer}Jokbyalic Oathsworn Archer" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t6_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
