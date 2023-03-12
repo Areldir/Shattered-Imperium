@@ -323,13 +323,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Sword Infantry Heavy Skill 60-130 -->
+	<!-- T6 Sword Infantry Very Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_jok_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_jok_t6_swordsman}Jokbyalic Oathsworn Axeman" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="20"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
@@ -367,13 +367,13 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
 	<NPCCharacter id="AR_jok_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_jok_t5_shock_inf}Jokbyalic Seasoned Berserker" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="70"/>
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
