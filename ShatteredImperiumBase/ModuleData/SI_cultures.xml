@@ -4433,11 +4433,11 @@
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="byalic"
-	         name="{=AR_byalics_culture_name}Byalic"
+	         name="{=si_ar_byalic_culture_name}Byalic"
 	         is_main_culture="false"
 	         color="0xffF7BF46"
 	         color2="FF2D3F1D"
-	         elite_basic_troop="NPCCharacter.AR_got_elite_recruit"
+	         elite_basic_troop="NPCCharacter.AR_jok_elite_recruit"
 	         basic_troop="NPCCharacter.AR_jok_recruit"
 	         melee_militia_troop="NPCCharacter.AR_jok_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_jok_t3_slinger"
@@ -4448,7 +4448,7 @@
 	         militia_bonus="1"
 	         villager_party_template="PartyTemplate.villager_jokbyalic_template"
 	         default_party_template="PartyTemplate.kingdom_hero_party_jokbyalic_template"
-	         encounter_background_mesh="encounter_battania"
+	         encounter_background_mesh="encounter_sturgia"
 	         elite_caravan_party_template="PartyTemplate.elite_caravan_template_jokbyalic"
 	         caravan_party_template="PartyTemplate.caravan_template_jokbyalic"
 	         militia_party_template="PartyTemplate.militia_jokbyalic_template"
@@ -4457,62 +4457,62 @@
 	         faction_banner_key="11.45.123.6296.6296.764.764.1.0.0.460.0.3.509.509.764.764.1.0.0"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="To the north of the Calradian steppe dwell a myriad of tribes, referred to by the nomads as the 'Jokbyalics', simply 'those Byalics who live above us'. A hardy, warlike people, they have for centuries lived in small isolated villages, carving out a meagre existence raising sheep and cattle in the thin expanses of grassland between river and forest. However, in the year 946, the Nachaghan tribe from the east thundered into the Jokbyalic territory, pillaging the land and enslaving its people. Threatened with annihilation, the Jokbyalics were forced to migrate west, carving a bloody swathe across the Iltan Portages into the Calradian Empire. After routing the legions and killing the Calradian Emperor Themestios, they now find themselves with a small kingdom in the Calradian borderlands, far from their home, with threats on all sides."
-	         tournament_master="NPCCharacter.tournament_master_gotarnia"
+	         tournament_master="NPCCharacter.AR_jok_tournament_master"
 	         villager="NPCCharacter.AR_jok_villager"
-	         caravan_master="NPCCharacter.AR_got_caravan_master"
-	         armed_trader="NPCCharacter.AR_got_armed_trader"
-	         caravan_guard="NPCCharacter.AR_got_caravan_guard"
-	         veteran_caravan_guard="NPCCharacter.AR_got_vet_caravan_guard"
-	         duel_preset="NPCCharacter.gotarnia_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_gotarnia"
-	         guard="NPCCharacter.guard_gotarnia"
-	         blacksmith="NPCCharacter.blacksmith_gotarnia"
-	         weaponsmith="NPCCharacter.weaponsmith_gotarnia"
-	         townswoman="NPCCharacter.townswoman_gotarnia"
-	         townswoman_infant="NPCCharacter.townswoman_infant_gotarnia"
-	         townswoman_child="NPCCharacter.townswoman_child_gotarnia"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_gotarnia"
-	         townsman="NPCCharacter.townsman_gotarnia"
-	         townsman_infant="NPCCharacter.townsman_infant_gotarnia"
-	         townsman_child="NPCCharacter.townsman_child_gotarnia"
-	         townsman_teenager="NPCCharacter.townsman_teenager_gotarnia"
-	         village_woman="NPCCharacter.village_woman_gotarnia"
-	         villager_male_child="NPCCharacter.villager_child_gotarnia"
-	         villager_male_teenager="NPCCharacter.villager_teenager_gotarnia"
-	         villager_female_child="NPCCharacter.village_woman_child_gotarnia"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_gotarnia"
-	         ransom_broker="NPCCharacter.ransom_broker_gotarnia"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_gotarnia"
-	         merchant_notary="NPCCharacter.merchant_notary_gotarnia"
-	         artisan_notary="NPCCharacter.artisan_notary_gotarnia"
-	         preacher_notary="NPCCharacter.preacher_notary_gotarnia"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_gotarnia"
-	         shop_worker="NPCCharacter.shop_worker_gotarnia"
-	         tavernkeeper="NPCCharacter.tavernkeeper_gotarnia"
-	         taverngamehost="NPCCharacter.taverngamehost_gotarnia"
-	         musician="NPCCharacter.musician_gotarnia"
-	         tavern_wench="NPCCharacter.tavern_wench_gotarnia"
-	         armorer="NPCCharacter.armorer_gotarnia"
-	         horseMerchant="NPCCharacter.horseMerchant_gotarnia"
-	         barber="NPCCharacter.barber_gotarnia"
-	         merchant="NPCCharacter.merchant_gotarnia"
-	         beggar="NPCCharacter.beggar_gotarnia"
-	         female_beggar="NPCCharacter.female_beggar_gotarnia"
-	         female_dancer="NPCCharacter.female_dancer_gotarnia"
+	         caravan_master="NPCCharacter.AR_jok_caravan_master"
+	         armed_trader="NPCCharacter.AR_jok_armed_trader"
+	         caravan_guard="NPCCharacter.AR_jok_caravan_guard"
+	         veteran_caravan_guard="NPCCharacter.AR_jok_vet_caravan_guard"
+	         duel_preset="NPCCharacter.AR_jok_duel_preset"
+	         prison_guard="NPCCharacter.AR_jok_prison_guard"
+	         guard="NPCCharacter.AR_jok_guard"
+	         blacksmith="NPCCharacter.AR_jok_blacksmith"
+	         weaponsmith="NPCCharacter.AR_jok_weaponsmith"
+	         townswoman="NPCCharacter.AR_jok_townswoman"
+	         townswoman_infant="NPCCharacter.AR_jok_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_jok_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_jok_townswoman_teenager"
+	         townsman="NPCCharacter.AR_jok_townsman"
+	         townsman_infant="NPCCharacter.AR_jok_townsman_infant"
+	         townsman_child="NPCCharacter.AR_jok_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_jok_townsman_teenager"
+	         village_woman="NPCCharacter.AR_jok_village_woman"
+	         villager_male_child="NPCCharacter.AR_jok_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_jok_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_jok_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_jok_village_woman_teenager"
+	         ransom_broker="NPCCharacter.AR_jok_ransom_broker"
+	         gangleader_bodyguard="NPCCharacter.AR_jok_gangleader_bodyguard"
+	         merchant_notary="NPCCharacter.AR_jok_merchant_notary"
+	         artisan_notary="NPCCharacter.AR_jok_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_jok_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_jok_rural_notable_notary"
+	         shop_worker="NPCCharacter.AR_jok_shop_worker"
+	         tavernkeeper="NPCCharacter.AR_jok_tavernkeeper"
+	         taverngamehost="NPCCharacter.AR_jok_taverngamehost"
+	         musician="NPCCharacter.AR_jok_musician"
+	         tavern_wench="NPCCharacter.AR_jok_tavern_wench"
+	         armorer="NPCCharacter.AR_jok_armorer"
+	         horseMerchant="NPCCharacter.AR_jok_horsemerchant"
+	         barber="NPCCharacter.AR_jok_barber"
+	         merchant="NPCCharacter.AR_jok_merchant"
+	         beggar="NPCCharacter.AR_jok_beggar"
+	         female_beggar="NPCCharacter.AR_jok_female_beggar"
+	         female_dancer="NPCCharacter.AR_jok_female_dancer"
 	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_gotarnia"
 	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_gotarnia"
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_gotarnia"
 	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_gotarnia"
 	         gear_dummy="NPCCharacter.gear_dummy_gotarnia"
-	         board_game_type="BaghChal">
+	         board_game_type="Puluc">
 		<vassal_reward_items>
 			<item id="Item.reaper_falx"/>
 		</vassal_reward_items>
 		<banner_bearer_replacement_weapons>
-			<item id="Item.battania_sword_1_t2"/>
-			<item id="Item.battania_sword_2_t3"/>
-			<item id="Item.battania_sword_4_t4"/>
-			<item id="Item.battania_sword_5_t5"/>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
 		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy id="policy_cantons"/>
@@ -4665,20 +4665,18 @@
 			<template name="NPCCharacter.AR_spc_lochanians_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_gotarnia_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_one_participant_set_v2"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v4"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v5"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_byalic_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.eastern_mercenary"/>

@@ -846,7 +846,7 @@
 	</NPCCharacter>
 	<!-- WESTERN CALRADIAN EMPIRE: Civilians -->
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_w_emp_village_woman" default_group="Infantry" level="6" name="{=si_ar_w_emp_village_woman}Calradian Citizen" occupation="Villager" culture="Culture.empire_w" is_basic_troop="true" is_female="true">
+	<NPCCharacter id="AR_w_emp_village_woman" default_group="Infantry" level="6" name="{=si_ar_w_emp_village_woman}W. Calradian Citizen" occupation="Villager" culture="Culture.empire_w" is_basic_troop="true" is_female="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -922,7 +922,7 @@
 			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_w_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_w_emp_townsman}Calradian Citizen" occupation="Townsfolk" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_w_emp_townsman}W. Calradian Citizen" occupation="Townsfolk" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -941,7 +941,7 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_w_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_w_emp_townswoman}Calradian Citizen" occupation="Townsfolk" culture="Culture.empire_w">
+	<NPCCharacter id="AR_w_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_w_emp_townswoman}W. Calradian Citizen" occupation="Townsfolk" culture="Culture.empire_w">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>

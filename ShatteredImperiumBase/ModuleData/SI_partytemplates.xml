@@ -787,43 +787,41 @@
 	<!-- party templates for Jokbyalic minor faction (1) -->
 	<MBPartyTemplate id="kingdom_hero_party_jokbyalic_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_jok_recruit"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_got_t2_pikeman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_t3_pikeman"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_t4_pikeman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_t5_pikeman"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_got_t3_shock_inf"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_t5_shock_inf"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_t3_crossbowman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_t4_crossbowman"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_got_t5_crossbowman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_t3_cavalry"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_t5_cavalry"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_got_t4_cavalry"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_t5_lance_cav"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_got_t4_lance_cav"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_recruit"/>
+			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.AR_jok_t2_swordsman"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_t3_swordsman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_jok_t4_swordsman"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_t5_swordsman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_t2_archer"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_t3_archer"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_t4_archer"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_t4_shock_inf"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_t5_shock_inf"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_jok_t3_elite_cav"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_t4_elite_skirm_cav"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_t5_elite_skirm_cav"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_t5_elite_lancer"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="caravan_template_jokbyalic">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_armed_trader"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_caravan_guard"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_vet_caravan_guard"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_got_t3_pikeman"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_villager"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.village_woman_gotarnia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_armed_trader"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_caravan_guard"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_vet_caravan_guard"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_t3_swordsman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="elite_caravan_template_jokbyalic">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_armed_trader"/>
-			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.AR_got_caravan_guard"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_got_vet_caravan_guard"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_caravan_master"/>
-			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AR_got_t3_pikeman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_got_t3_crossbowman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_jok_villager"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.village_woman_gotarnia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_armed_trader"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_jok_caravan_guard"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_jok_vet_caravan_guard"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_jok_caravan_master"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_jok_t3_swordsman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_jok_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_jok_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_jokbyalic_template">
@@ -840,13 +838,13 @@
 	<MBPartyTemplate id="villager_jokbyalic_template">
 		<stacks>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_jok_villager"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.village_woman_gotarnia"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_jok_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_jokbyalic">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_got_t5_cavalry"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_got_t4_cavalry"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_jok_t5_elite_skirm_cav"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_jok_t4_elite_skirm_cav"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- Minor Faction Parties -->

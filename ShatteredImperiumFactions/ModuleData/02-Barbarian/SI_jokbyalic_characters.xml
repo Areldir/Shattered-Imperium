@@ -324,7 +324,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Sword Infantry Very Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_jok_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_jok_t6_swordsman}Jokbyalic Oathsworn Axeman" occupation="Soldier" culture="Culture.byalic">
+	<NPCCharacter id="AR_jok_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_jok_t6_swordsman}Jokbyalic Oathsworn Champion" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -522,6 +522,1143 @@
 		<Equipments>
 			<EquipmentSet id="AR_jok_t6_archer_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- JOKBYALS: Noble Troops -->
+	<!-- Recruit Elite Cavalry Light Skill 20-40 -->
+	<NPCCharacter id="AR_jok_elite_recruit" default_group="Cavalry" level="11" name="{=si_ar_jok_elite_recruit}Jokbyalic Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t3_elite_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_elite_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Elite Cavalry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_jok_t3_elite_cav" default_group="Cavalry" level="16" name="{=si_ar_jok_t3_elite_cav}Jokbyalic Horseman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_elite_lancer"/>
+			<upgrade_target id="NPCCharacter.AR_jok_t4_elite_skirm_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t3_elite_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lance Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_elite_lancer" default_group="Cavalry" level="21" name="{=si_ar_jok_t4_elite_lancer}Jokbyalic Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_elite_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_elite_lancer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lance Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_elite_lancer" default_group="Cavalry" level="26" name="{=si_ar_jok_t5_elite_lancer}Jokbyalic Seasoned Lancer" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t6_elite_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_elite_lancer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Lance Cavalry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t6_elite_lancer" default_group="Cavalry" level="31" name="{=si_ar_jok_t6_elite_lancer}Jokbyalic Oathsworn Lancer" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t6_elite_lancer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Cavalry Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_t4_elite_skirm_cav" default_group="Cavalry" level="21" name="{=si_ar_jok_t4_elite_skirm_cav}Jokbyalic Mounted Warrior" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t5_elite_skirm_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_t5_elite_skirm_cav" default_group="Cavalry" level="26" name="{=si_ar_jok_t5_elite_skirm_cav}Jokbyalic Seasoned Mounted Warrior" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_t6_elite_skirm_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Elite Cavalry Skirmisher Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_jok_t6_elite_skirm_cav" default_group="Cavalry" level="31" name="{=si_ar_jok_t6_elite_skirm_cav}Jokbyalic Oathsworn Mounted Champion" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t6_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- JOKBYALS: Caravans -->
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_jok_armed_trader" default_group="Ranged" level="16" name="{=si_ar_jok_armed_trader}Jokbyalic Armed Trader" occupation="CaravanGuard" culture="Culture.byalic" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_armed_trader_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Caravan Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_jok_caravan_guard}Jokbyalic Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_caravan_guard_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_jok_vet_caravan_guard}Jokbyalic Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_vet_caravan_guard_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Master Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_caravan_master" default_group="Infantry" level="26" name="{=si_ar_jok_caravan_master}Jokbyalic Caravan Master" occupation="CaravanGuard" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_caravan_master_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- JOKBYALS: Guards -->
+	<NPCCharacter id="AR_jok_prison_guard" default_group="Infantry" level="21" culture="Culture.byalic" occupation="PrisonGuard" name="{=si_ar_jok_prison_guard}Jokbyalic Prison Guard">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.byalic" name="{=si_ar_jok_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- JOKBYALS: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_jok_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_jok_village_woman}Jokbyalic Tribeswoman" occupation="Villager" is_basic_troop="true" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ilt_aux_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_jok_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_villager_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Villager" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_villager_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Villager" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_villager_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Villager" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_khuzait"/>
+			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townsman" default_group="Infantry" level="1" name="{=si_ar_jok_townsman}Jokbyalic Townsman" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_jok_townswoman}Jokbyalic Townswoman" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_jok_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townsman_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townsman_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townsman_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.byalic" name="{=cte0zSCz}Jokbyalic Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.byalic" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.byalic" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.byalic" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_horsemerchant" default_group="Infantry" occupation="HorseTrader" culture="Culture.byalic" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.byalic" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.byalic" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_barber_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_gangleader_bodyguard" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.byalic" level="16">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_jok_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_jok_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_tournament_master" default_group="Infantry" occupation="ArenaMaster" culture="Culture.byalic" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_ransom_broker_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_merchant_notary" default_group="Infantry" name="{=si_ar_jok_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_artisan_notary" default_group="Infantry" name="{=si_ar_jok_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_preacher_notary" default_group="Infantry" name="{=si_ar_jok_preacher_notary}Shaman" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_rural_notable_notary" default_group="Infantry" name="{=si_ar_jok_rural_notable_notary}Jokbyalic Nobleman" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_tavernkeeper" default_group="Infantry" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_taverngamehost" default_group="Infantry" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_musician" default_group="Infantry" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_tavern_wench" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" occupation="TavernWench" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_female_dancer" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- JOKBYALS: Auxiliary And Mercenary Characters -->
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_jok_aux_fem_recruit" default_group="Infantry" is_female="true" level="16" name="{=si_ar_jok_aux_fem_recruit}Jokbyalic Camp Follower" occupation="Mercenary" is_basic_troop="true" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_aux_t4_fem_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_aux_fem_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_aux_t4_fem_melee" default_group="Infantry" is_female="true" level="21" name="{=si_ar_jok_aux_t4_fem_melee}Jokbyalic Seasoned Tribal Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_aux_t5_fem_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_jok_aux_t5_fem_melee" default_group="Infantry" is_female="true" level="26" name="{=si_ar_jok_aux_t5_fem_melee}Jokbyalic Hall Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- LOCHANIANS -->
+	<NPCCharacter id="AR_spc_lochanians_leader_0" name="of the Lochanians" voice="ironic" is_template="true" age="42" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gotarni"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lochanians_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_lochanians_leader_1" name="of the Lochanians" voice="softspoken" is_template="true" age="22" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gotarni"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lochanians_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_lochanians_leader_2" name="of the Lochanians" voice="softspoken" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gotarni"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lochanians_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_lochanians_leader_3" name="of the Lochanians" voice="softspoken" is_template="true" age="35" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gotarni"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lochanians_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Lochanian Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_lochanian_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.byalic" name="Lochanian Widousguma Hillman">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t4_archer"/>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t4_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
+				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
+				<equipment slot="Item3" id="Item.battania_sword_3_t3"/>
+				<equipment slot="Head" id="Item.leather_studdedhelm_over_thinhide"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
+				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.battania_cloak_b"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
+				<equipment slot="Item3" id="Item.battania_sword_3_t3"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Cape" id="Item.battania_scarf_a"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lochanian Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_lochanian_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.byalic" name="Lochanian Waithja Hunter">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_p"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_q"/>
+				<equipment slot="Body" id="Item.gambeson_b"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_a"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
+				<equipment slot="Head" id="Item.AR_battania_armor_r"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lochanian Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_lochanian_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.byalic" name="Lochanian Ferja Slinger">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_t"/>
+				<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_g"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_u"/>
+				<equipment slot="Body" id="Item.stitched_leather_vest"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_i"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_sling_b"/>
+				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
+				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_s"/>
+				<equipment slot="Body" id="Item.woven_leather_vest"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_g"/>
+			</EquipmentRoster>
+			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lochanian Melee Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_lochanian_t4_swordsman" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.byalic" name="Lochanian Militonds Warrior">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_common_pike"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
+				<equipment slot="Item3" id="Item.AR_battania_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ao_durkhan_iron_helmet_with_leather_spiked"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_common_pike"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
+				<equipment slot="Item3" id="Item.battania_sword_4_t4"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Cape" id="Item.wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_common_pike"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
+				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Head" id="Item.ao_durkhan_iron_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_common_pike"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
+				<equipment slot="Item3" id="Item.AR_battania_sword_4_t4"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_c"/>
+				<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_b"/>
+			</EquipmentRoster>
+			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lochanian Melee Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_lochanian_t5_swordsman" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.byalic" name="Lochanian Gaisfatha Oathsworn">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
+				<equipment slot="Item3" id="Item.battania_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ao_durkhan_iron_lamellar_helmet"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
+				<equipment slot="Cape" id="Item.wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
+				<equipment slot="Item3" id="Item.AR_battania_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ao_durkhan_guarded_bronze_helmet"/>
+				<equipment slot="Body" id="Item.ao_sturgian_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
+				<equipment slot="Item3" id="Item.battania_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ao_durkhan_iron_horsehair_helmet"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
+				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Head" id="Item.ao_durkhan_horsehair_noble_bronze_helmet"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
+				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+			</EquipmentRoster>
+			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
