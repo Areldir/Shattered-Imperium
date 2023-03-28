@@ -23,6 +23,9 @@
 		<xsl:attribute name='owner'>Faction.clan_aserai_3</xsl:attribute>
 	</xsl:template>	
 	<!-- Banu Arbas -->
+	<xsl:template match="Settlement[@id='town_A7']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_A7_text}Askar dominates the middle stretches of the Damar River, as it weaves between the bluffs of the Jarjara Escarpment. This region has been thickly populated for thousands of years, but the river is restless, and every few centuries leaps its banks and erases what comes before. This latest regional capital was founded as an imperial encampment during their furthest penetration of the Nahasa several centuries ago, though it was taken generations ago by the Aserai tribes after the legions withdrew.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_aserai_5</xsl:attribute>
 	</xsl:template>	

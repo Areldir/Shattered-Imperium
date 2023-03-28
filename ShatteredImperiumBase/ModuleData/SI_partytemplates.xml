@@ -1007,11 +1007,11 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_lochanians_template">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_lochanian_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_lochanian_t4_archer"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_lochanian_t5_shock_inf"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_lochanian_t4_shock_inf"/>
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_lochanian_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_lochanian_t5_swordsman"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_lochanian_t4_swordsman"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_lochanian_t5_melee"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_lochanian_t4_melee"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_hawlans">
@@ -1084,6 +1084,15 @@
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_silverdragon_t3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_silverdragon_t5_cav"/>
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_silverdragon_t4_cav"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="party_template_kohi_rohini">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_dar_aux_t5_swordsman"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_dar_aux_t4_swordsman"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_dar_aux_recruit"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_dar_aux_t5_cavalry"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_dar_aux_t4_cavalry"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Bandits -->

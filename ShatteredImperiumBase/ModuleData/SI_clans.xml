@@ -21,8 +21,6 @@
 	         is_noble="true"
 			 text="{=si_ar_clan_aserai_3_text}The Banu Qild are renowned across the lands of the Nahasa as a family of dour ascetics, looking down from their desert fastnesses with equal disapproval on both the wealthy and poor of the Aserai. Few who travel to their fortress home of Hubyar return with tales of their hospitality, nor of their charm. However, somehow the Banu Qild have always retained a position of primacy in the politics of the great bronze desert, with more than one ancient Aserai family being ensnared by their cunning. Indeed, there are whispers that they long for days that they might lord over the other families of the Nahasa, uniting the disparate emirates into a single realm, with a Banu Qild at its head."
 	         banner_key="11.7.75.4345.4345.764.764.1.0.0.500.1.0.550.550.764.764.0.0.0.309.1.0.300.300.764.654.0.0.-130.427.1.0.300.300.764.844.0.0.0.521.1.0.196.196.764.764.0.0.0"/>
-
-
 	<Faction id="clan_aserai_5"
 	         name="{=zY2TQC9t}Banu Arbas"
 	         tier="5"
@@ -30,14 +28,8 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_aserai_5_text}The Banu Arbas, unlike many old and prestigious families of the Nahasa, cannot claim great wealth, fame, or political clout in their line of descent. Instead, they lay claim to a lineage of the finest warriors of the great bronze desert, serving as the vanguard of many an emir’s host. In the years before the tribes of the Aserai settled in great towns along the Perassic coast and around the oases of Calradia’s south, the Banu Arbas were feared as the scourge of any caravans who dared to enter their territory, raiding from the Jabal Ashabi Mountains in the east, to the Jabal Tamar Mountains in the west. Now settled in the lush lands along the Damar River, they have lost none of their potency on the field of battle, and few would dare to face them in the desolate, sandy dunes of their homeland."
 	         banner_key="11.61.154.4345.4345.776.777.1.0.0.428.137.0.450.450.764.804.0.0.0.521.137.0.100.100.764.534.0.0.0.144.137.0.300.300.759.734.0.0.0"/>
-	<!--
-	The Banu Sarran are recently settled bedouin, who seized the Banu Hulyan's holdings in the outer oases but were eventually accepted as clients and vassals. They are thought of as upstarts by the others, a reputation which they in fact relish. They celebrate their nomadic past with carefully poems on their success in battle over the other tribes, or in seducing the other tribes' daughters. This does not endear them to other Asuris. They maintain close ties with the Jawwal, a clan of outcasts who still keep the nomadic lifestyle.
-	Jahaliya poet boaster
-	POSITIVE ties to Jawal	
-	-->
-	<!-- Ascetics -->
 	<Faction id="clan_aserai_2"
 	         name="{=fvYgmrjG}Banu Sarran"
 	         tier="4"
@@ -45,7 +37,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_aserai_2_text}The Banu Sarran are the rulers of one of the most recent emirates of the Nahasa, having only traded their nomadic lifestyle for a palace on the coast of the Perassic Sea within living memory. This transition was not without bloodshed however. In the past century, the Banu Sarran fought a series of brutal conflicts with the neighboring Banu Hulyan Emirate, attempting to seize lands off the latter to form their own realm. Ultimately unsuccessful in this, they are widely shunned by the other Aserai emirates as upstarts and violent usurpers, though this is a reputation which they in fact relish. They celebrate their nomadic past in odes and poems on their success in battle over fellow Aserai, or in seducing the other tribes' daughters. This does not endear them to the other peoples of the Nahasa, though they do maintain close ties with the Jawwal - that clan of outcasts who still live the nomadic lifestyle."
 	         banner_key="11.101.75.4345.4345.776.777.1.0.0.515.1.0.177.177.770.582.0.0.0.223.1.0.482.482.767.763.0.0.359.515.1.0.177.177.764.953.0.0.0"/>
 	<!-- 'The Outcasts': settled clan whose estates were destroyed and are returning to old nomadic ways -->
 	<Faction id="clan_aserai_7"
@@ -1762,6 +1754,31 @@
 			<template id="NPCCharacter.AR_spc_silver_dragon_company_leader_1"/>
 			<template id="NPCCharacter.AR_spc_silver_dragon_company_leader_2"/>
 			<template id="NPCCharacter.AR_spc_silver_dragon_company_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="kohi_rohini"
+	         initial_posX="445.0"
+	         initial_posY="55.0"
+	         banner_key="11.7.7.1536.1536.768.768.1.0.0.427.148.148.500.500.764.864.0.0.0.504.148.148.360.360.764.734.0.0.0.521.148.148.200.200.764.564.0.0.0"
+	         label_color="FFD0884E"
+	         color="FFD0884E"
+	         color2="FFD0884E"
+	         alternative_color="FFD0884E"
+	         alternative_color2="FFD0884E"
+	         culture="Culture.darshi"
+	         default_party_template="PartyTemplate.party_template_kohi_rohini"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_clan_type_mercenary="true"
+	         name="{=si_ar_kohi_rohini_name}Kohi Rohini Hillmen"
+	         short_name="{=si_ar_kohi_rohini_short_name}Kohi Rohini"
+	         tier="4"
+	         text="{=si_ar_kohi_rohini_text}The Kohi Rohini Hillmen are a variety of tribal peoples who take the name of their mountainous homeland, where the desolate lands of the Darshi Marches meet the grasslands of the Calradian Steppe. For centuries, they have eked out a meagre existence on the high mountain slopes, raising flocks of goats amidst rocky crags and sheltered valleys. However, it is in the matter of warfare that the Kohi Rohini are renowned throughout Calradia, having served as the cornerstone of the Padishah’s armies for centuries. Today, with the eastern lands of Calradia fractured in constant conflict, the Kohi Rohini sell their swords to the highest bidder, carving a bloody wake wherever they may be.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_kohi_rohini_leader_0"/>
+			<template id="NPCCharacter.AR_spc_kohi_rohini_leader_1"/>
+			<template id="NPCCharacter.AR_spc_kohi_rohini_leader_2"/>
+			<template id="NPCCharacter.AR_spc_kohi_rohini_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<!--

@@ -7,6 +7,7 @@ Version: Beta 0.2.0
 
 ----------------------------------------------------------------------------------------------------------
 Required files: 
+
 				AdonnaysTroopChanger
 				RBM
 				OpenSourceArmory
@@ -18,10 +19,12 @@ Required files:
 				BannerColorPersistence
 	
 Recommended files:
+
 				EnhancedBattleTest
 
 ----------------------------------------------------------------------------------------------------------
 Installation: 
+
 				1. Ensure you have deleted all previous versions of Shattered Imperium from your /modules folder, and verified your game files on Steam.
 				2. Install all required files.
 				3. Unzip "Shattered_Imperium.zip" file to your /modules folder, overwriting as necessary. 
@@ -46,6 +49,7 @@ Configuration. When in game, make sure you set the following in the RBM Configur
 
 ----------------------------------------------------------------------------------------------------------
 Load Order:
+
 				1. Sandbox, SandboxCore, StoryMode, CustomBattle
 				2. Required mods (See above)
 				3. Shattered Imperium: Base Files

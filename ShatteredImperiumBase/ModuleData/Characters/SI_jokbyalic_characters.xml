@@ -849,7 +849,7 @@
 			<skill id="Throwing" value="5"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_ilt_aux_fem_recruit"/>
+			<upgrade_target id="NPCCharacter.AR_jok_aux_fem_recruit"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
@@ -1232,6 +1232,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_jok_aux_t4_fem_melee"/>
+			<upgrade_target id="NPCCharacter.AR_jok_aux_t4_fem_cav"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_jok_aux_fem_recruit_battletemplate"/>
@@ -1239,7 +1240,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Infantry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_jok_aux_t4_fem_melee" default_group="Infantry" is_female="true" level="21" name="{=si_ar_jok_aux_t4_fem_melee}Jokbyalic Seasoned Tribal Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+	<NPCCharacter id="AR_jok_aux_t4_fem_melee" default_group="Infantry" is_female="true" level="21" name="{=si_ar_jok_aux_t4_fem_melee}Jokbyalic Spearwoman" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.villager_byalic"/>
 		</face>
@@ -1262,7 +1263,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Infantry Medium Skill 60-130 -->
-	<NPCCharacter id="AR_jok_aux_t5_fem_melee" default_group="Infantry" is_female="true" level="26" name="{=si_ar_jok_aux_t5_fem_melee}Jokbyalic Hall Guard Spearman" occupation="Soldier" culture="Culture.byalic">
+	<NPCCharacter id="AR_jok_aux_t5_fem_melee" default_group="Infantry" is_female="true" level="26" name="{=si_ar_jok_aux_t5_fem_melee}Jokbyalic Valkyrie Spearwoman" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.villager_byalic"/>
 		</face>
@@ -1282,22 +1283,54 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<!-- LOCHANIANS -->
-	<NPCCharacter id="AR_spc_lochanians_leader_0" name="of the Lochanians" voice="ironic" is_template="true" age="42" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<!-- T4 Elite Cavalry Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_jok_aux_t4_fem_cav" default_group="Cavalry" is_female="true" level="21" name="{=si_ar_jok_aux_t4_fem_cav}Jokbyalic Mounted Warmaiden" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.byalic">
 		<face>
-			<face_key_template value="BodyProperty.fighter_gotarni"/>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_aux_t5_fem_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t4_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_jok_aux_t5_fem_cav" default_group="Cavalry" is_female="true" level="26" name="{=si_ar_jok_aux_t5_fem_cav}Jokbyalic Valkyrie Warmaiden" occupation="Mercenary" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_t5_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- LOCHANIANS -->
+	<NPCCharacter id="AR_spc_lochanians_leader_0" name="{=si_ar_spc_lochanians_leader_0}of the Lochanians" voice="ironic" is_template="true" age="42" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -1310,12 +1343,12 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spc_lochanians_leaders"/>
-			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_1" name="of the Lochanians" voice="softspoken" is_template="true" age="22" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_1" name="{=si_ar_spc_lochanians_leader_1}of the Lochanians" voice="softspoken" is_template="true" age="22" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
-			<face_key_template value="BodyProperty.fighter_gotarni"/>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -1329,12 +1362,12 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spc_lochanians_leaders"/>
-			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_2" name="of the Lochanians" voice="softspoken" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_2" name="{=si_ar_spc_lochanians_leader_2}of the Lochanians" voice="softspoken" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
-			<face_key_template value="BodyProperty.fighter_gotarni"/>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -1345,12 +1378,12 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spc_lochanians_leaders"/>
-			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_3" name="of the Lochanians" voice="softspoken" is_template="true" age="35" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_3" name="{=si_ar_spc_lochanians_leader_3}of the Lochanians" voice="softspoken" is_template="true" age="35" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
-			<face_key_template value="BodyProperty.fighter_gotarni"/>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -1363,11 +1396,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spc_lochanians_leaders"/>
-			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Lochanian Light Skill 40-70 -->
-	<NPCCharacter id="AR_min_lochanian_t3" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.byalic" name="Lochanian Widousguma Hillman">
+	<!-- T3 Lochanian Melee Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_lochanian_t3" default_group="Infantry" level="16" name="{=si_ar_min_lochanian_t3}Lochanian Hillman" occupation="Mercenary" is_basic_troop="true" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1377,162 +1410,21 @@
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="100"/>
+			<skill id="Bow" value="40"/>
 			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="40"/>
+			<skill id="Throwing" value="70"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_min_lochanian_t4_archer"/>
-			<upgrade_target id="NPCCharacter.AR_min_lochanian_t4_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t4_shock_inf"/>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t4_melee"/>
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
-				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
-				<equipment slot="Head" id="Item.roughhide_cap"/>
-				<equipment slot="Body" id="Item.long_woolen_tunic"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
-				<equipment slot="Item3" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.leather_studdedhelm_over_thinhide"/>
-				<equipment slot="Body" id="Item.long_hemp_tunic"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
-				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
-				<equipment slot="Body" id="Item.hemp_tunic"/>
-				<equipment slot="Cape" id="Item.battania_cloak_b"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.armwraps"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_a2"/>
-				<equipment slot="Item3" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.merchants_hat"/>
-				<equipment slot="Body" id="Item.tundra_tunic"/>
-				<equipment slot="Cape" id="Item.battania_scarf_a"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-			</EquipmentRoster>
-			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- T4 Lochanian Medium Skill 60-100 -->
-	<NPCCharacter id="AR_min_lochanian_t4_archer" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.byalic" name="Lochanian Waithja Hunter">
-		<face>
-			<face_key_template value="BodyProperty.fighter_byalic"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="100"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="130"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_min_lochanian_t5_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
-				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
-				<equipment slot="Head" id="Item.AR_battania_helmet_p"/>
-				<equipment slot="Body" id="Item.aketon"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
-				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
-				<equipment slot="Head" id="Item.AR_battania_helmet_q"/>
-				<equipment slot="Body" id="Item.gambeson_b"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_a"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
-				<equipment slot="Item3" id="Item.woodland_axe_t3"/>
-				<equipment slot="Head" id="Item.AR_battania_armor_r"/>
-				<equipment slot="Body" id="Item.ao_battanian_gambeson"/>
-				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- T5 Lochanian Medium Skill 60-130 -->
-	<NPCCharacter id="AR_min_lochanian_t5_archer" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.byalic" name="Lochanian Ferja Slinger">
-		<face>
-			<face_key_template value="BodyProperty.fighter_byalic"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="100"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="180"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_b"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
-				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
-				<equipment slot="Head" id="Item.AR_battania_helmet_t"/>
-				<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
-				<equipment slot="Leg" id="Item.battania_fur_boots"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<equipment slot="Cape" id="Item.AR_imperial_shoulders_g"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_b"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
-				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
-				<equipment slot="Head" id="Item.AR_battania_helmet_u"/>
-				<equipment slot="Body" id="Item.stitched_leather_vest"/>
-				<equipment slot="Leg" id="Item.battania_fur_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Cape" id="Item.AR_imperial_shoulders_i"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_sling_b"/>
-				<equipment slot="Item1" id="Item.AR_sling_bullets_b2"/>
-				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
-				<equipment slot="Head" id="Item.AR_battania_helmet_s"/>
-				<equipment slot="Body" id="Item.woven_leather_vest"/>
-				<equipment slot="Leg" id="Item.battania_fur_boots"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<equipment slot="Cape" id="Item.AR_imperial_shoulders_g"/>
-			</EquipmentRoster>
-			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
+			<EquipmentSet id="AR_min_lochanian_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Lochanian Melee Medium Skill 60-100 -->
-	<NPCCharacter id="AR_min_lochanian_t4_swordsman" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.byalic" name="Lochanian Militonds Warrior">
+	<NPCCharacter id="AR_min_lochanian_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_lochanian_t4_melee}Lochanian Raider" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1541,64 +1433,21 @@
 			<skill id="Riding" value="60"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="130"/>
+			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_min_lochanian_t5_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t5_melee"/>
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_common_pike"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item3" id="Item.AR_battania_sword_4_t4"/>
-				<equipment slot="Head" id="Item.ao_durkhan_iron_helmet_with_leather_spiked"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_common_pike"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item3" id="Item.battania_sword_4_t4"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_common_pike"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
-				<equipment slot="Head" id="Item.ao_durkhan_iron_helmet_with_leather"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_common_pike"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item3" id="Item.AR_battania_sword_4_t4"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_c"/>
-				<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
-				<equipment slot="Leg" id="Item.battania_leather_boots"/>
-				<equipment slot="Gloves" id="Item.highland_gloves"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_b"/>
-			</EquipmentRoster>
-			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
+			<EquipmentSet id="AR_min_lochanian_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Lochanian Melee Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_min_lochanian_t5_swordsman" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.byalic" name="Lochanian Gaisfatha Oathsworn">
+	<NPCCharacter id="AR_min_lochanian_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_lochanian_t5_melee}Lochanian Warrior" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1614,51 +1463,52 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item3" id="Item.battania_sword_4_t4"/>
-				<equipment slot="Head" id="Item.ao_durkhan_iron_lamellar_helmet"/>
-				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item3" id="Item.AR_battania_sword_4_t4"/>
-				<equipment slot="Head" id="Item.ao_durkhan_guarded_bronze_helmet"/>
-				<equipment slot="Body" id="Item.ao_sturgian_leather_over_mail"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item3" id="Item.battania_sword_4_t4"/>
-				<equipment slot="Head" id="Item.ao_durkhan_iron_horsehair_helmet"/>
-				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_b"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
-				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
-				<equipment slot="Item2" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item3" id="Item.battania_axe_2_t4"/>
-				<equipment slot="Head" id="Item.ao_durkhan_horsehair_noble_bronze_helmet"/>
-				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
-				<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
-			</EquipmentRoster>
-			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
+			<EquipmentSet id="AR_min_lochanian_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lochanian Shock Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_lochanian_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_min_lochanian_t4_shock_inf}Lochanian Wildsman" occupation="Mercenary" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lochanian_t5_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_lochanian_t4_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lochanian Shock Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_lochanian_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_min_lochanian_t5_shock_inf}Lochanian Berserker" occupation="Mercenary" culture="Culture.byalic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_byalic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_lochanian_t5_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
