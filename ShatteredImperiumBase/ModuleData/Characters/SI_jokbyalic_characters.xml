@@ -532,7 +532,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
 			<skill id="Polearm" value="40"/>
@@ -555,7 +555,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="70"/>
@@ -579,7 +579,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -602,7 +602,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -625,7 +625,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="80"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="180"/>
@@ -646,7 +646,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -669,7 +669,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -692,7 +692,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="180"/>
 			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="80"/>
@@ -735,7 +735,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -756,7 +756,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -777,7 +777,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1214,6 +1214,58 @@
 			<EquipmentSet id="AR_jok_tavern_wench_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="AR_jok_gear_practice_dummy" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.byalic" name="{=si_ar_jok_gear_practice_dummy}Jokbyalic Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_gear_practice_dummy_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_weapon_practice_stage_1" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.byalic" name="{=si_ar_jok_weapon_practice_stage_1}Jokbyalic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_weapon_practice_stage_2" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.byalic" name="{=si_ar_jok_weapon_practice_stage_1}Jokbyalic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_weapon_practice_stage_3" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.byalic" name="{=si_ar_jok_weapon_practice_stage_1}Jokbyalic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_gear_dummy" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.byalic" name="{=si_ar_jok_gear_dummy}Jokbyalic Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_obsolete="true">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Traits>
+    </Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_gear_dummy_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<!-- JOKBYALS: Auxiliary And Mercenary Characters -->
 	<!-- T3 Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_jok_aux_fem_recruit" default_group="Infantry" is_female="true" level="16" name="{=si_ar_jok_aux_fem_recruit}Jokbyalic Camp Follower" occupation="Mercenary" is_basic_troop="true" culture="Culture.byalic">
@@ -1290,7 +1342,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1313,7 +1365,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>

@@ -550,11 +550,11 @@
 	         beggar="NPCCharacter.AR_ase_beggar"
 	         female_beggar="NPCCharacter.AR_ase_female_beggar"
 	         female_dancer="NPCCharacter.AR_ase_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_aserai"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_aserai"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_aserai"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_aserai"
-	         gear_dummy="NPCCharacter.gear_dummy_aserai"
+	         gear_practice_dummy="NPCCharacter.AR_ase_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_ase_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_ase_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_ase_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_ase_gear_dummy"
 	         board_game_type="Seega">
 		<vassal_reward_items>
 			<item id="Item.noble_horse_khamseen"/>
@@ -752,10 +752,6 @@
 			<template name="NPCCharacter.spc_aserai_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_0"/>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_1"/>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_2"/>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_3"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_0"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_1"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_2"/>
@@ -766,10 +762,6 @@
 			<template name="NPCCharacter.AR_spc_jawwal_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_0"/>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_1"/>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_2"/>
-			<template name="NPCCharacter.AR_spc_ghilman_leader_3"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_0"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_1"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_2"/>
@@ -4168,7 +4160,7 @@
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="darshi"
-	         name="{=AR_spahad_culture_name}Darshi"
+	         name="{=si_ar_darshi_culture_name}Darshi"
 	         is_main_culture="false"
 	         color="FFAC5F2E"
 	         color2="FF7CAFC7"
@@ -4233,11 +4225,11 @@
 	         beggar="NPCCharacter.AR_dar_beggar"
 	         female_beggar="NPCCharacter.AR_dar_female_beggar"
 	         female_dancer="NPCCharacter.AR_dar_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_spahad"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_spahad"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_spahad"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_spahad"
-	         gear_dummy="NPCCharacter.gear_dummy_spahad"
+	         gear_practice_dummy="NPCCharacter.AR_dar_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_dar_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_dar_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_dar_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_dar_gear_dummy"
 	         board_game_type="Seega">
 		<vassal_reward_items>
 			<item id="Item.noble_horse_khamseen"/>
@@ -4401,12 +4393,28 @@
 			<template name="NPCCharacter.spc_spahad_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_0"/>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_1"/>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_2"/>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_3"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_0"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_1"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_2"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_3"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_0"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_1"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_2"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_0"/>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_1"/>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_2"/>
+			<template name="NPCCharacter.AR_spc_kohi_rohini_leader_3"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_0"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_1"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_2"/>
+			<template name="NPCCharacter.AR_spc_ghilman_leader_3"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_0"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_1"/>
 			<template name="NPCCharacter.AR_spc_ethawians_leader_2"/>
@@ -4428,8 +4436,8 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_dar_aux_recruit"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.AR_min_silverdragon_t3"/>
+			<template name="NPCCharacter.AR_min_ethawian_t3"/>
+			<template name="NPCCharacter.AR_min_ghilman_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="byalic"
@@ -4499,11 +4507,11 @@
 	         beggar="NPCCharacter.AR_jok_beggar"
 	         female_beggar="NPCCharacter.AR_jok_female_beggar"
 	         female_dancer="NPCCharacter.AR_jok_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_gotarnia"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_gotarnia"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_gotarnia"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_gotarnia"
-	         gear_dummy="NPCCharacter.gear_dummy_gotarnia"
+	         gear_practice_dummy="NPCCharacter.AR_jok_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_jok_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_jok_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_jok_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_jok_gear_dummy"
 	         board_game_type="Puluc">
 		<vassal_reward_items>
 			<item id="Item.reaper_falx"/>

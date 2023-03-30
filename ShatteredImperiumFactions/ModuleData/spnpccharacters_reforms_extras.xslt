@@ -11,7 +11,7 @@
 	<xsl:template match='NPCCharacter[@id="caravan_master_aserai"]/skills'>
 		<xsl:copy>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -33,7 +33,7 @@
 	<xsl:template match='NPCCharacter[@id="caravan_master_empire"]/skills'>
 		<xsl:copy>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -78,18 +78,6 @@
 			<xsl:apply-templates select="@*"/>
 			<BodyProperties version="4" age="36" weight="0.5035" build="0.5657" key="0016B80CC000300D7C7664876753888A7577866254C69643C4B647398C95A03701A776140AA7497300000000000000000000000000000000000000001F647002"/>
 			<BodyPropertiesMax version="4" age="55" weight="0.4547" build="0.5657" key="001C5C044000290567BBB9B9D759989595C687286A45999568A992398C55A5760D8776DD08B5C9880000000000000000000000000000000000000000430C0082"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/Equipments'>
