@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- STURGIA: Levy Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_stu_villager" default_group="Infantry" level="6" name="{=si_ar_stu_villager}Sturgian Freeman" occupation="Villager" culture="Culture.sturgia" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t2_spearman"/>
+			<!--upgrade_target id="NPCCharacter.AR_stu_t2_slinger"/-->
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_stu_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_stu_t2_spearman}Sturgian Borderer Warrior" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t3_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t2_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_stu_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_stu_t3_spearman}Sturgian Borderer Spearman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t3_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_stu_t4_spearman}Sturgian Seasoned Borderer Spearman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_stu_t5_spearman}Sturgian Hearth Guard Spearman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
