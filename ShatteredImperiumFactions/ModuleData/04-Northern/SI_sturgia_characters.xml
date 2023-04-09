@@ -18,7 +18,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_stu_t2_spearman"/>
-			<!--upgrade_target id="NPCCharacter.AR_stu_t2_slinger"/-->
+			<upgrade_target id="NPCCharacter.AR_stu_t2_slinger"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_stu_villager_battletemplate"/>
@@ -113,6 +113,119 @@
 		<Equipments>
 			<EquipmentSet id="AR_stu_t5_spearman_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Slinger Medium Skill 20-40 -->
+	<NPCCharacter id="AR_stu_t2_slinger" default_group="Ranged" level="11" name="{=si_ar_stu_t2_slinger}Sturgian Borderer Hurler" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t3_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t2_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Slinger Medium Skill 40-70 -->
+	<NPCCharacter id="AR_stu_t3_slinger" default_group="Ranged" level="16" name="{=si_ar_stu_t3_slinger}Sturgian Borderer Slinger" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t3_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Slinger Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_stu_t4_slinger}Sturgian Seasoned Borderer Slinger" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Slinger Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_stu_t5_slinger}Sturgian Hearth Guard Slinger" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA: Field Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_stu_recruit" default_group="Infantry" level="6" name="{=si_ar_stu_recruit}Sturgian Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
