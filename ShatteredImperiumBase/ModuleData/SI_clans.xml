@@ -28,7 +28,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text="{=si_ar_clan_aserai_5_text}The Banu Arbas, unlike many old and prestigious families of the Nahasa, cannot claim great wealth, fame, or political clout in their line of descent. Instead, they lay claim to a lineage of the finest warriors of the great bronze desert, serving as the vanguard of many an emir’s host. In the years before the tribes of the Aserai settled in great towns along the Perassic coast and around the oases of Calradia’s south, the Banu Arbas were feared as the scourge of any caravans who dared to enter their territory, raiding from the Jabal Ashabi Mountains in the east, to the Jabal Tamar Mountains in the west. Now settled in the lush lands along the Damar River, they have lost none of their potency on the field of battle, and few would dare to face them in the desolate, sandy dunes of their homeland."
+			 text="{=si_ar_clan_aserai_5_text}The Banu Arbas, unlike many old and prestigious families of the Nahasa, cannot claim great wealth, fame, or political clout in their line of descent. Instead, they lay claim to a lineage of the finest warriors of the great bronze desert, serving as the vanguard of many an emir’s host. In the years before the tribes of the Aserai settled in great towns along the coast of the Bahr al-Yeshm and around the oases of Calradia’s south, the Banu Arbas were feared as the scourge of any caravans who dared to enter their territory, raiding from the Jabal Ashabi Mountains in the east, to the Jabal Tamar Mountains in the west. Now settled in the lush lands along the Damar River, they have lost none of their potency on the field of battle, and few would dare to face them in the desolate, sandy dunes of their homeland."
 	         banner_key="11.61.154.4345.4345.776.777.1.0.0.428.137.0.450.450.764.804.0.0.0.521.137.0.100.100.764.534.0.0.0.144.137.0.300.300.759.734.0.0.0"/>
 	<Faction id="clan_aserai_2"
 	         name="{=fvYgmrjG}Banu Sarran"
@@ -37,7 +37,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text="{=si_ar_clan_aserai_2_text}The Banu Sarran are the rulers of one of the most recent emirates of the Nahasa, having only traded their nomadic lifestyle for a palace on the coast of the Perassic Sea within living memory. This transition was not without bloodshed however. In the past century, the Banu Sarran fought a series of brutal conflicts with the neighboring Banu Hulyan Emirate, attempting to seize lands off the latter to form their own realm. Ultimately unsuccessful in this, they are widely shunned by the other Aserai emirates as upstarts and violent usurpers, though this is a reputation which they in fact relish. They celebrate their nomadic past in odes and poems on their success in battle over fellow Aserai, or in seducing the other tribes' daughters. This does not endear them to the other peoples of the Nahasa, though they do maintain close ties with the Jawwal - that clan of outcasts who still live the nomadic lifestyle."
+			 text="{=si_ar_clan_aserai_2_text}The Banu Sarran are the rulers of one of the most recent emirates of the Nahasa, having only traded their nomadic lifestyle for a palace on the coast of the Bahr al-Yeshm within living memory. This transition was not without bloodshed however. In the past century, the Banu Sarran fought a series of brutal conflicts with the neighboring Banu Hulyan Emirate, attempting to seize lands off the latter to form their own realm. Ultimately unsuccessful in this, they are widely shunned by the other Aserai emirates as upstarts and violent usurpers, though this is a reputation which they in fact relish. They celebrate their nomadic past in odes and poems on their success in battle over fellow Aserai, or in seducing the other tribes' daughters. This does not endear them to the other peoples of the Nahasa, though they do maintain close ties with the Jawwal - that clan of outcasts who still live the nomadic lifestyle."
 	         banner_key="11.101.75.4345.4345.776.777.1.0.0.515.1.0.177.177.770.582.0.0.0.223.1.0.482.482.767.763.0.0.359.515.1.0.177.177.764.953.0.0.0"/>
 	<Faction id="clan_aserai_7"
 	         name="{=si_ar_clan_aserai_7_name}Banu Maluf"
@@ -64,16 +64,8 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_aserai_9_text}The Banu Ruwaid are one of the more unusual ruling families among the Aserai, claiming descent from an intermarrying of Kannic merchants with Nahasan Bedouin in centuries long past. In the wars between the Kannic city states and the Calradian Empire, the Banu Ruwaid proved invaluable to their kin, leading armies through hidden pathways amid the shifting dunes to ambush the Calradian legions. However, those glories are long past, and the Banu Ruwaid now find themselves ruling a small emirate on the western borderlands of the Aserai, fighting both Calradians and Kannics alike in defense of their realm."
 	         banner_key="11.61.154.4345.4345.776.777.1.0.0.426.137.0.200.200.764.932.0.0.90.156.137.0.300.300.764.763.0.0.0.500.137.0.550.550.764.764.0.0.0.521.137.0.200.200.764.521.0.0.90"/>
-	<!--
-	Quraysh, also based on Osama Bin Munqidh, fastidious
-	Patriarch, Unqidh, cautious, generous
-	POSITIVE ties to Ghulam
-	The Asuri, three tribes who all trace their lineage to the ancient patriarch Asur, were nomads who were established as a client kingdom to guard the Empire's south, essentially being paid to protect caravans instead of raid them. As the empire contracts they have made themselves independent, and indeed have pressed claims of marriage to the imperial throne itself.
-	The leaders of the Banu Hulyan claim the title of Sultan of the Asuri. They are the richest of the clans in the south, masters of the key passes between the lake and the outer desert, and are seen by other tribes as haughty and amoral. They are close to the Ghulam, a group of warrior slaves that has converted itself to a mercenary military order.
-	-->
-	<!--Upstart clan, recently settled bedouin -->
 	<Faction id="clan_aserai_1"
 	         name="{=9Y1u2onl}Banu Hulyan"
 	         tier="2"
@@ -81,16 +73,16 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_aserai_10_text}The Banu Hulyan have the dubious honour of ruling over the western expanses of the Nahasa desert, controlling the key pass in the Jarjara Escarpment through which travellers and merchants move from the Damar River to the Kannic colonies of Quyaz, located on the coast of the Bahr al-Yeshm. This position has brought the Banu Hulyan immense wealth, though their hunger for wealth and power is never sated. In recent years, their court has become home to an assortment of shamans and prophets, through which the Banu Hulyan hope to win the hearts and minds of the superstitious Aserai. Indeed, there are rumors of a prophet, born to the Banu Hulyan, that might claim sovereignty over all the emirates of the great bronze desert - a true sultan for the Banu Asera."
 	         banner_key="11.0.0.4345.4345.776.777.1.0.0.212.1.0.484.484.762.769.0.0.0.521.1.0.150.150.664.844.0.0.0.427.1.0.150.150.864.844.0.0.-90"/>
 	<Faction id="clan_aserai_4"
-	         name="{=lUfFxWlk}Banu Karama"
+	         name="{=si_ar_clan_aserai_4_name}Banu Karama"
 	         tier="2"
 	         owner="Hero.lord_3_16"
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_aserai_4_text}The Banu Karama, like many among the noble families of the Aserai, claim humble origins in the nomadic Bedouin of the Nahasa Desert. Unlike their peers, the Banu Karama represent a bridge between two worlds. In centuries past, the expanding Darshi Empire conquered the eastern lands of the great bronze desert, coming to rule over a number of nomadic tribes in the process. The Banu Karama were one such people, swearing fealty to the Padishah in exchange for lands, titles and wealth. However, with the waning power of the Darshi throwing the eastern Nahasa into chaos, the Banu Karama now find themselves at risk of returning to the obscurity from whence they came - victims of the very shifting sands that brought about their rise."
 	         banner_key="11.101.0.2000.2000.764.764.1.0.0.446.1.0.452.452.764.764.0.0.0.518.1.0.100.100.634.864.0.0.0.446.1.0.452.452.764.763.0.0.0.446.1.0.435.435.764.763.0.0.0.411.1.0.175.175.765.767.0.0.359.518.1.0.100.100.894.654.0.0.0.518.1.0.100.100.634.654.0.0.0.518.1.0.100.100.894.874.0.0.0"/>
 
 
@@ -839,7 +831,7 @@
 	         text=""
 	         banner_key="11.33.33.4345.4345.776.778.1.0.0.309.148.148.312.479.764.949.0.0.241.220.148.148.150.150.765.599.0.1.0.145.148.148.400.300.784.774.0.0.0"/>
 	<Faction id="clan_vaegiria_3"
-	         name="{=si_ar_clan_vaegiria_3_name}Zhanoving"
+	         name="{=si_ar_clan_vaegiria_3_name}Hrafnaving"
 	         tier="5"
 	         owner="Hero.AR_lord_8_10"
 	         culture="Culture.vakken"
