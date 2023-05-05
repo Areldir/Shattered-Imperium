@@ -8,7 +8,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="5"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
 			<skill id="Polearm" value="20"/>
@@ -32,7 +32,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="20"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="20"/>
 			<skill id="Polearm" value="40"/>
@@ -55,7 +55,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="40"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="70"/>
@@ -78,7 +78,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="60"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -101,7 +101,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="60"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -122,7 +122,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="20"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="20"/>
 			<skill id="Polearm" value="20"/>
@@ -145,7 +145,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="40"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
@@ -168,7 +168,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="60"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -191,7 +191,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="60"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -213,7 +213,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="20"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
 			<skill id="Polearm" value="20"/>
@@ -222,10 +222,617 @@
 			<skill id="Throwing" value="5"/>
 		</skills>
 		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t2_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_stu_t2_skirmisher"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_stu_recruit_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Sword Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_stu_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_stu_t2_swordsman}Sturgian Footman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t3_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t2_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_stu_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_stu_t3_swordsman}Sturgian Swordsman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t3_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_stu_t4_swordsman}Sturgian Hardened Swordsman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_stu_t5_swordsman}Sturgian Seasoned Swordsman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t6_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Infantry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_stu_t6_swordsman}Sturgian Druzhinnik Champion" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t6_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Skirmisher Light Skill 20-40 -->
+	<NPCCharacter id="AR_stu_t2_skirmisher" default_group="Ranged" level="11" name="{=si_ar_stu_t2_skirmisher}Sturgian Scout" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t3_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t2_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Skirmisher Light Skill 40-70 -->
+	<NPCCharacter id="AR_stu_t3_skirmisher" default_group="Ranged" level="16" name="{=si_ar_stu_t3_skirmisher}Sturgian Javelinman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_skirmisher"/>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t3_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_skirmisher" default_group="Ranged" level="21" name="{=si_ar_stu_t4_skirmisher}Sturgian Skirmisher" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_skirmisher" default_group="Ranged" level="26" name="{=si_ar_stu_t5_skirmisher}Sturgian Seasoned Skirmisher" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t6_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_stu_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_stu_t6_skirmisher}Sturgian Druzhinnik Skirmisher" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t6_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_archer" default_group="Ranged" level="21" name="{=si_ar_stu_t4_archer}Sturgian Archer" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_archer" default_group="Ranged" level="26" name="{=si_ar_stu_t5_archer}Sturgian Seasoned Archer" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t6_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Archer Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_stu_t6_archer" default_group="Ranged" level="31" name="{=si_ar_stu_t6_archer}Sturgian Druzhinnik Archer" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t6_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA: Noble Troops -->
+	<!-- Recruit Elite Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_stu_elite_recruit" default_group="Infantry" level="11" name="{=si_ar_stu_elite_recruit}Sturgian Noble Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t3_elite_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_elite_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_stu_t3_elite_shock_inf" default_group="Infantry" level="16" name="{=si_ar_stu_t3_shock_inf}Sturgian Noble Warrior" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_elite_shock_inf"/>
+			<upgrade_target id="NPCCharacter.AR_stu_t4_elite_skirm_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t3_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_elite_shock_inf" default_group="Infantry" level="21" name="{=si_ar_stu_t4_elite_shock_inf}Sturgian Berserker" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_elite_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_elite_shock_inf" default_group="Infantry" level="26" name="{=si_ar_stu_t5_elite_shock_inf}Sturgian Seasoned Berserker" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t6_elite_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t6_elite_shock_inf" default_group="Infantry" level="31" name="{=si_ar_stu_t6_elite_shock_inf}Sturgian Druzhinnik Berserker" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t6_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Cavalry Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_t4_elite_skirm_cav" default_group="Cavalry" level="21" name="{=si_ar_stu_t4_elite_skirm_cav}Sturgian Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t5_elite_skirm_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_stu_t5_elite_skirm_cav" default_group="Cavalry" level="26" name="{=si_ar_stu_t5_elite_skirm_cav}Sturgian Seasoned Horseman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_t6_elite_skirm_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Elite Cavalry Skirmisher Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_stu_t6_elite_skirm_cav" default_group="Cavalry" level="31" name="{=si_ar_stu_t6_elite_skirm_cav}Sturgian Druzhinnik Horseguard" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t6_elite_skirm_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA: Caravans -->
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_stu_armed_trader" default_group="Ranged" level="16" name="{=si_ar_stu_armed_trader}Sturgian Armed Trader" occupation="CaravanGuard" culture="Culture.sturgia" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_armed_trader_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Caravan Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_stu_caravan_guard}Sturgian Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_caravan_guard_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_stu_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_stu_vet_caravan_guard}Sturgian Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_vet_caravan_guard_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA: Guards -->
+	<NPCCharacter id="AR_stu_prison_guard" default_group="Infantry" level="21" culture="Culture.sturgia" occupation="PrisonGuard" name="{=si_ar_stu_prison_guard}Sturgian Prison Guard">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.sturgia" name="{=si_ar_stu_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_stu_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_stu_village_woman}Sturgian Freewoman" occupation="Villager" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_jok_aux_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

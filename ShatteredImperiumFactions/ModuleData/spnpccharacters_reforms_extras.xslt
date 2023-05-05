@@ -73,6 +73,28 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='caravan_master_sturgia']/@name">
+		<xsl:attribute name="name">{=si_ar_stu_caravan_master}Sturgian Caravan Master</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_sturgia"]/skills'>
+		<xsl:copy>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_sturgia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_caravan_master_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
