@@ -37,7 +37,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text="{=si_ar_clan_aserai_2_text}The Banu Sarran are the rulers of one of the most recent emirates of the Nahasa, having only traded their nomadic lifestyle for a palace on the coast of the Bahr al-Yeshm within living memory. This transition was not without bloodshed however. In the past century, the Banu Sarran fought a series of brutal conflicts with the neighboring Banu Hulyan Emirate, attempting to seize lands off the latter to form their own realm. Ultimately unsuccessful in this, they are widely shunned by the other Aserai emirates as upstarts and violent usurpers, though this is a reputation which they in fact relish. They celebrate their nomadic past in odes and poems on their success in battle over fellow Aserai, or in seducing the other tribes' daughters. This does not endear them to the other peoples of the Nahasa, though they do maintain close ties with the Jawwal - that clan of outcasts who still live the nomadic lifestyle."
+			 text="{=si_ar_clan_aserai_2_text}The Banu Sarran are the rulers of one of the most recent emirates of the Nahasa, though also one of the oldest families of the Nahasa, claiming descent from the legendary Asera himself. In the past centuries, the Banu Sarran fought a series of brutal conflicts with the neighboring Banu Hulyan Emirate, attempting to seize lands off the latter to form their own realm. Ultimately unsuccessful in this, they are widely shunned by the other Aserai emirates as upstarts and violent usurpers, though this is a reputation which they in fact relish. They celebrate their nomadic past in odes and poems on their success in battle over fellow Aserai, or in seducing the other tribes' daughters. This does not endear them to the other peoples of the Nahasa, though they do maintain close ties with the Jawwal - that clan of outcasts who still live the nomadic lifestyle."
 	         banner_key="11.101.75.4345.4345.776.777.1.0.0.515.1.0.177.177.770.582.0.0.0.223.1.0.482.482.767.763.0.0.359.515.1.0.177.177.764.953.0.0.0"/>
 	<Faction id="clan_aserai_7"
 	         name="{=si_ar_clan_aserai_7_name}Banu Maluf"
@@ -73,7 +73,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-			 text="{=si_ar_clan_aserai_10_text}The Banu Hulyan have the dubious honour of ruling over the western expanses of the Nahasa desert, controlling the key pass in the Jarjara Escarpment through which travellers and merchants move from the Damar River to the Kannic colonies of Quyaz, located on the coast of the Bahr al-Yeshm. This position has brought the Banu Hulyan immense wealth, though their hunger for wealth and power is never sated. In recent years, their court has become home to an assortment of shamans and prophets, through which the Banu Hulyan hope to win the hearts and minds of the superstitious Aserai. Indeed, there are rumors of a prophet, born to the Banu Hulyan, that might claim sovereignty over all the emirates of the great bronze desert - a true sultan for the Banu Asera."
+			 text="{=si_ar_clan_aserai_1_text}The Banu Hulyan have the dubious honour of ruling over the western expanses of the Nahasa desert, controlling the key pass in the Jarjara Escarpment through which travellers and merchants move from the Damar River to the Kannic colonies of Quyaz, located on the coast of the Bahr al-Yeshm. This position has brought the Banu Hulyan immense wealth, though their hunger for wealth is tempered by a pragmatism uncommon among the Aserai. Indeed, where some might see an enemy, the Banu Hulyan see only a trading partner who has gone astray. In recent years, their court has become home to an assortment of shamans and prophets, through which the Banu Hulyan hope to win the hearts and minds of the superstitious Aserai. Indeed, there are rumors of a prophet, born to the Banu Hulyan, that might unite the emirates of the great bronze desert - a true sultan for the Banu Asera."
 	         banner_key="11.0.0.4345.4345.776.777.1.0.0.212.1.0.484.484.762.769.0.0.0.521.1.0.150.150.664.844.0.0.0.427.1.0.150.150.864.844.0.0.-90"/>
 	<Faction id="clan_aserai_4"
 	         name="{=si_ar_clan_aserai_4_name}Banu Karama"
@@ -545,7 +545,7 @@
 
 
 	<!--
-	Sturgian Principalities
+	Sturgian Confederation
 	-->	
 	<Faction id="clan_sturgia_1"
 	         name="{=A4wIVnM4}Gundaroving"
@@ -554,26 +554,8 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_1_text}The Gundaroving, despite being the most powerful of the Sturgian ruling families, are not in fact Sturgians. They claim descent from the Nord warrior and explorer Gundar, who in a battle near the town of Balgard managed to outwit a combined force of Sturgians and Vakken, defeating them in a battle of words and thus claiming rulership over them. Unlike many among their Nordic kin, the Gundaroving are not a particularly restless or warlike people, instead preferring to settle disputes by cunning diplomacy. However, if pushed far enough, few survive the wrath of the Gundaroving, whose huscarls have beheaded many a lord or king who was foolish enough to test the limits of their patience. Though they are not absolute rulers, there are many who fear that the scions of Gundar seek to make themselves a monarch over all Sturgians, and so their position remains a tenuous one at best."
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.333.111.0.487.487.756.750.0.0.0"/>
-	<!--		
-		Ruling clan, centralizing,
-		Patriarch: Raganvad, Ivan/Hardrada type, minimal sense of humor
-		Heir: Simir, ambitious but treated coldly by father, wants to prove self
-	-->
-	<Faction id="clan_sturgia_2"
-	         name="{=Eu932blQ}Kuloving"
-	         tier="5"
-	         owner="Hero.lord_2_3"
-	         culture="Culture.sturgia"
-	         super_faction="Kingdom.sturgia"
-	         is_noble="true"
-	         banner_key="11.12.12.4345.4345.776.778.1.0.0.533.140.140.252.254.710.889.0.0.88.533.140.140.252.254.818.889.0.0.88.503.140.140.43.45.707.897.0.0.-1.503.140.140.43.45.821.895.0.0.-1.515.140.140.43.45.927.895.0.0.-1.515.140.140.43.45.604.895.0.0.-1.415.140.140.105.106.873.943.0.0.179.415.140.140.105.106.873.943.0.0.179.415.140.140.105.106.873.943.0.0.179.415.140.140.105.106.764.949.0.0.179.415.140.140.105.106.764.949.0.0.179.415.140.140.105.106.764.949.0.0.179.415.140.140.105.106.656.949.0.0.179.415.140.140.105.106.656.949.0.0.179.415.140.140.105.106.656.949.0.0.179.332.140.140.388.314.759.709.0.0.0"/>
-	<!--		
-		Old Believers, ties to Jomsvikings
-		Patriarch - Olek old, ferocious	
-	
-		Heir - Urik, fierce but high-spirited
-	-->
 	<Faction id="clan_sturgia_5"
 	         name="{=s0AVQCbJ}Togaroving"
 	         tier="5"
@@ -581,24 +563,17 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_5_text}The Togaroving are the ruling family of the ancient Sturgian city of Revyl, having dwelled in the Kachyar Peninsula since time immemorial. They are a stoic people, driven by a desire to maintain the power and prestige of their family, as well as the prominence of Revyl in Sturgian society. This position has made them a number of enemies, though most notably the Togaroving have found a powerful rival and foe in the Gundaroving, who they view as little more than Nordic raiders and usurpers. Despite their animosity, they remain cunning politicians, hiding their distain behind wise words and wry expressions."
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.456.111.0.504.504.770.698.0.0.359.444.111.0.116.116.764.923.0.0.179.454.111.0.116.116.889.922.0.0.179.454.111.0.116.116.649.921.0.0.359"/>
-
 	<Faction id="clan_sturgia_3"
 	         name="{=si_ar_clan_sturgia_3_name}Hayekoving"
-	         tier="4"
+	         tier="5"
 	         owner="Hero.lord_2_5"
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_3_text}The Hayekoving, unlike many of their Sturgian kin, are not a family renowned for their prowess in battle. Instead, they prefer the subtler arts of trading, running a series of emporiums across the northern lands buying furs and amber from the local Vakken population and selling them on to the citizens of the Calradian Empire. Such an enterprise has brought them much acclaim from the Vakken people who inhabit the lands around their estate of Sibir, however little in the way of riches. Indeed, though few know of it, the Hayekoving are almost entirely broke, trading more on their reputation and political favors now, rather than gold or silver."
 	         banner_key="11.33.33.4345.4345.776.778.1.0.0.428.148.148.500.500.764.804.0.1.0.521.148.148.208.211.764.538.0.1.90.124.148.148.300.300.764.754.0.1.0"/>
-	<!--		
-		Based on Icelandish explorers - independent forging outward
-	
-		Patriarch: Havyn
-		Heir: Lek
-		Uncle: Rategost - Mystic
-		Heiress: Svana - heiress, leads armies
-	-->
 	<Faction id="clan_sturgia_8"
 	         name="{=si_ar_clan_sturgia_8_name}Nowyraving"
 	         tier="4"
@@ -606,7 +581,18 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_8_text}The Nowyraving family claim an ancient lineage, descending from Sturgian adventurers and settlers who founded the colony of Varcheg in centuries long past. However, whereas many among the Sturgian nobility have seen relatively constant growth in their wealth and power, the Nowyraving have instead seen constant hardship. Whilst the location of their estates at Varcheg have afforded them an enviable position at the nexus of Calradia’s northern fur trade - a position that has undoubtedly brought wealth and status – this very position has also drawn the attention of other Strugian nobles, eager to usurp the Nowyraving and claim the trade as their own. Whilst the Nowyraving have admirably defended their claim, the recent interest of the Gundaroving in Varcheg and its trade have some questioning how long the Nowyraving may endure in this hostile new world."
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.138.111.0.509.509.769.770.0.0.359"/>
+	<Faction id="clan_sturgia_2"
+	         name="{=Eu932blQ}Kuloving"
+	         tier="4"
+	         owner="Hero.lord_2_3"
+	         culture="Culture.sturgia"
+	         super_faction="Kingdom.sturgia"
+	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_2_text}The Kuloving are one of the most ancient families among the Sturgian nobility, claiming to have held mastery of the sacred woods north of the town of Omor since the dawn of time. It is they who keep the hidden paths between the trees and rivers, who know where to find the springs in which gods and spirits dwell. This reputation of godly knowledge has brought the Kuloving great respect from the other nobles of the Sturgians and Vakken, who frequently attend their woodland estates for matters of ritual or ceremony. Indeed, it is said that none may call themselves a true ruler of the Sturgians without the consent of the Kuloving and, of course, the gods they serve."
+	         banner_key="11.12.12.4345.4345.776.778.1.0.0.533.140.140.252.254.710.889.0.0.88.533.140.140.252.254.818.889.0.0.88.503.140.140.43.45.707.897.0.0.-1.503.140.140.43.45.821.895.0.0.-1.515.140.140.43.45.927.895.0.0.-1.515.140.140.43.45.604.895.0.0.-1.415.140.140.105.106.873.943.0.0.179.415.140.140.105.106.873.943.0.0.179.415.140.140.105.106.873.943.0.0.179.415.140.140.105.106.764.949.0.0.179.415.140.140.105.106.764.949.0.0.179.415.140.140.105.106.764.949.0.0.179.415.140.140.105.106.656.949.0.0.179.415.140.140.105.106.656.949.0.0.179.415.140.140.105.106.656.949.0.0.179.332.140.140.388.314.759.709.0.0.0"/>
+
 
 	<Faction id="clan_sturgia_7"
 	         name="{=xw0eTkkb}Vezhoving"
@@ -615,14 +601,17 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_7_text}The Vezhoving"
 	         banner_key="11.13.12.4000.4000.764.764.1.0.0.439.13.12.400.300.764.844.1.1.180.438.13.12.400.400.764.614.1.1.180"/>
-	<!-- Kostaroving, dominated by a matriarch allied to Olek -->
+
 	<Faction id="clan_sturgia_9"
 	         name="{=WssI6mOE}Kostoroving"
 	         tier="3"
 	         owner="Hero.lord_S9_l"
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
+	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_9_text}The Kostoroving"
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.142.29.149.397.397.767.621.0.0.0.146.29.149.374.374.767.870.0.1.0"/>
 
 
@@ -633,6 +622,7 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_4_text}The Ormidoving"
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.307.111.0.416.416.781.835.0.0.180.307.111.0.416.416.793.720.0.0.0.442.111.0.310.310.673.844.0.0.180.442.111.0.310.310.901.718.0.0.0"/>
 	<Faction id="clan_sturgia_6"
 	         name="{=si_ar_clan_sturgia_6_name}Svehlaving"
@@ -641,6 +631,7 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
+	         text="{=si_ar_clan_sturgia_6_text}The Svehlaving"
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.441.111.0.511.511.770.767.0.0.0"/>
 
 
@@ -1070,7 +1061,7 @@
 	         culture="Culture.empire_w"
 	         super_faction="Kingdom.paravenos"
 	         is_noble="true"
-	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the family of the sacred city – have been the rulers of the city of Paravenos since the days of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
+	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the ‘family of the sacred city’ – have been the rulers of the city of Paravenos since the days of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
 	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
 
 
@@ -1300,7 +1291,7 @@
 	         name="{=si_ar_lakepike_name}Lake Rats"
 	         short_name="{=si_ar_lakepike_short_name}Lake Rats"
 	         tier="4"
-	         text="{=si_ar_lakepike_text}The Lake Rats live in the marshes on the shores of Lake Laconis, often dwelling in shacks made built from the timbers, sails and cordage of wrecked ships. They live by ‘wrecking’ - a process of luring ships onto shoals with false beacons. Because they're scorned by the rest of Calradia as criminals, who ‘smell like marsh gas and mud and rotten fish’, they scorn everyone else back. Although mostly Sturgian, their ranks have been swelled by fugitives, debtors, and anyone else who would rather live by a thieves' code than by the laws of the land.">
+	         text="{=si_ar_lakepike_text}The Lake Rats live in the marshes on the shores of Lake Laconis, often dwelling in shacks made built from the timbers, sails and cordage of wrecked ships. They live by ‘wrecking’ - a process of luring ships onto shoals with false beacons. Because they are scorned by the rest of Calradia as little more than criminals who ‘smell like marsh gas and mud and rotten fish’, they scorn everyone else back. Although mostly Sturgian, their ranks have been swelled by fugitives, debtors, and anyone else who would rather live by a thieves' code than by the laws of the land.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_lakepike_leader_0"/>
 			<template id="NPCCharacter.AR_spc_lakepike_leader_1"/>
@@ -1404,7 +1395,7 @@
 	         name="{=si_ar_forest_people_name}Vanni Forest Tribes"
 	         short_name="{=si_ar_forest_people_short_name}Vanni"
 	         tier="4"
-	         text="{=si_ar_forest_people_text}The tribes known as the Vanni practice slash-and-burn farming in the deep woods, outside the grasp of the Sturgian boyars. They burn down tracts of trees, grow crops on the virgin soil fertilized by ash for a few years until the land is exhausted, and move on. It is an inefficient use of land, but a very efficient use of labor, suitable for a numerically small population in a large area. Also, because the plots are hard to measure and tax, it's a very good strategy for people who don't care to be governed. Indeed, the Vanni are the remnant of the old Vakken people. Long repressed by waves of Sturgian and Nordic migration, they still adhere to the old ways, and are hostile to any who would dare to stop them.">
+	         text="{=si_ar_forest_people_text}The tribes known as the Vanni practice slash-and-burn farming in the deep woods, outside the grasp of the Sturgian chiefs. They burn down tracts of trees, grow crops on the virgin soil fertilized by ash for a few years until the land is exhausted, and move on. It is an inefficient use of land, but a very efficient use of labor, suitable for a numerically small population in a large area. Also, because the plots are hard to measure and tax, it's a very good strategy for people who don't care to be governed. Indeed, the Vanni are the remnant of the old Vakken people. Long repressed by waves of Sturgian and Nordic migration, they still adhere to the old ways, and are hostile to any who would dare to stop them.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_forest_people_leader_0"/>
 			<template id="NPCCharacter.AR_spc_forest_people_leader_1"/>

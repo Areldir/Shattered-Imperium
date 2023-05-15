@@ -826,25 +826,25 @@
 	         guard="NPCCharacter.AR_stu_guard"
 	         blacksmith="NPCCharacter.blacksmith_sturgia"
 	         weaponsmith="NPCCharacter.weaponsmith_sturgia"
-	         townswoman="NPCCharacter.AR_townswoman_sturgia"
-	         townswoman_infant="NPCCharacter.townswoman_infant_sturgia"
-	         townswoman_child="NPCCharacter.townswoman_child_sturgia"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_sturgia"
-	         townsman="NPCCharacter.AR_townsman_sturgia"
-	         townsman_infant="NPCCharacter.townsman_infant_sturgia"
-	         townsman_child="NPCCharacter.townsman_child_sturgia"
-	         townsman_teenager="NPCCharacter.townsman_teenager_sturgia"
+	         townswoman="NPCCharacter.AR_stu_townswoman"
+	         townswoman_infant="NPCCharacter.AR_stu_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_stu_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_stu_townswoman_teenager"
+	         townsman="NPCCharacter.AR_stu_townsman"
+	         townsman_infant="NPCCharacter.AR_stu_townsman_infant"
+	         townsman_child="NPCCharacter.AR_stu_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_stu_townsman_teenager"
 	         village_woman="NPCCharacter.AR_stu_village_woman"
-	         villager_male_child="NPCCharacter.villager_child_sturgia"
-	         villager_male_teenager="NPCCharacter.villager_teenager_sturgia"
-	         villager_female_child="NPCCharacter.village_woman_child_sturgia"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_sturgia"
+	         villager_male_child="NPCCharacter.AR_stu_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_stu_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_stu_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_stu_village_woman_teenager"
 	         ransom_broker="NPCCharacter.ransom_broker_sturgia"
 	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sturgia"
-	         merchant_notary="NPCCharacter.merchant_notary_sturgia"
-	         artisan_notary="NPCCharacter.artisan_notary_sturgia"
-	         preacher_notary="NPCCharacter.preacher_notary_sturgia"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_sturgia"
+	         merchant_notary="NPCCharacter.AR_stu_merchant_notary"
+	         artisan_notary="NPCCharacter.AR_stu_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_stu_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_stu_rural_notable_notary"
 	         shop_worker="NPCCharacter.shop_worker_sturgia"
 	         tavernkeeper="NPCCharacter.tavernkeeper_sturgia"
 	         taverngamehost="NPCCharacter.taverngamehost_sturgia"
@@ -960,6 +960,7 @@
 			<name name="{=SvyDUmw3}Vyanimir"/>
 			<name name="{=oPmn1SHy}Zuvan"/>
 			<name name="{=bLY1zbNI}Zvatim"/>
+			<name name="{=!*}Obas"/>
 		</male_names>
 		<female_names>
 			<name name="{=vz038vX7}Achita"/>
@@ -1085,10 +1086,10 @@
 			<template name="NPCCharacter.AR_spc_lakepike_leader_1"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_2"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_3"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_0"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_0"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_1"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_2"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_skolderbrotva_leader_0"/>
@@ -1099,29 +1100,29 @@
 			<template name="NPCCharacter.AR_spc_lakepike_leader_1"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_2"/>
 			<template name="NPCCharacter.AR_spc_lakepike_leader_3"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_0"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
-			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_0"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_1"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_2"/>
+			<template name="NPCCharacter.AR_spc_seax_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_one_participant_set_v2"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_sturgia_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_nor_aux_recruit"/>
+			<template name="NPCCharacter.AR_min_skolder_t3"/>
+			<template name="NPCCharacter.AR_stu_aux_fem_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vlandia"
@@ -3471,7 +3472,7 @@
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vakken"
-	         name="{=AR_vaegiri_culture_name}Vakken"
+	         name="{=AR_vakken_culture_name}Vakken"
 	         is_main_culture="false"
 	         color="0xffffffff"
 	         color2="0xff4E1A13"

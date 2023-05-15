@@ -59,7 +59,7 @@
 	</NPCCharacter>
 
 
-	<NPCCharacter id="AR_lord_5_2" name="{=waQPRCaT}Fiach" age="49" voice="earnest" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_5_2" name="{=waQPRCaT}Gryff" age="49" voice="earnest" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="49" weight="0.4141" build="0.3836"  key="00026C0980883490875C7A5D9EB34742237877889384A873679C6ABDBAE1A7560096660309C23D5500000000000000000000000000000000000000003F340082"  />
 		</face>
@@ -3535,70 +3535,6 @@
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_skolderbrotva_leader_0" name="{=OzjuQYGH}of the Skolderbroda" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Valor" value="1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="-1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="7"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="spc_skolderbrotva_leader_0"/>
-			<EquipmentSet id="spc_skolderbrotva_leader_0" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_skolderbrotva_leader_1" name="{=OzjuQYGH}of the Skolderbroda" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="spc_skolderbrotva_leader_1"/>
-			<EquipmentSet id="spc_skolderbrotva_leader_1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_skolderbrotva_leader_2" name="{=OzjuQYGH}of the Skolderbroda" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="spc_skolderbrotva_leader_2"/>
-			<EquipmentSet id="spc_skolderbrotva_leader_2" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_skolderbrotva_leader_3" name="{=OzjuQYGH}of the Skolderbroda" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="spc_skolderbrotva_leader_3"/>
-			<EquipmentSet id="spc_skolderbrotva_leader_3" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<NPCCharacter id="AR_spc_company_of_the_boar_leader_0" name="{=eobXmmLg}the Boar" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -4004,78 +3940,6 @@
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- seax -->
-	<NPCCharacter id="AR_spc_seax_leader_0" name="of the Seax" voice="ironic" age="48" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_seax"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_seax_leaders"/>
-			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_seax_leader_1" name="of the Seax" voice="softspoken" age="19" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_seax"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_seax_leaders"/>
-			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_seax_leader_2" name="of the Seax" voice="softspoken" age="32" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_seax"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_seax_leaders"/>
-			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_seax_leader_3" name="of the Seax" voice="softspoken" age="39" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_seax"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_seax_leaders"/>
-			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!-- forest people/sturgia -->
 	<NPCCharacter id="AR_spc_forest_people_leader_0" name="{=jKAhAoVb}of the Vanni" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
 		<face>
@@ -4283,72 +4147,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_spc_hidden_hand_leaders"/>
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- lakepike/sturgia -->
-	<NPCCharacter id="AR_spc_lakepike_leader_0" name="{=WNyWySAH}of the lakepike" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="6"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lakepike_leaders"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lakepike_leader_1" name="{=WNyWySAH}of the lakepike" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="PeltastFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lakepike_leaders"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lakepike_leader_2" name="{=VKhh9i1l}of the Lakepike" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="PeltastFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lakepike_leaders"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lakepike_leader_3" name="{=VKhh9i1l}of the Lakepike" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="PeltastFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lakepike_leaders"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- exploratores nahasae -->

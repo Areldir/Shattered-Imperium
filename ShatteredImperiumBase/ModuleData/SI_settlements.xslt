@@ -87,6 +87,21 @@
 	<!-- fen Sithigh -->
 	<xsl:template match="Settlement[@id='castle_B6']/@owner">
 		<xsl:attribute name='owner'>Faction.AR_clan_battania_9</xsl:attribute>
+	</xsl:template>	
+	<xsl:template match='Settlement[@id="village_S1_3"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="village_comp_S1_3" village_type="VillageType.fisherman" hearth="197" bound="Settlement.castle_B6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S1_3']/@name">
+		<xsl:attribute name='name'>{=si_ar_village_S1_3_name}Car Gryff</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S1_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S1_3_text}Car Gryff - a ringfort belonging to the Battanian chief Gryff - lies alongside the Bay of Varcheg. The local fishermen take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S1_3']/@culture">
+		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
 	</xsl:template>
 	<!-- fen Caernacht -->
 	<xsl:template match="Settlement[@id='castle_B5']/@owner">
@@ -649,27 +664,42 @@
 	<xsl:template match="Settlement[@id='town_S2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_1</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='town_S1']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_sturgia_1</xsl:attribute>
-	</xsl:template>
-	<!-- Kuloving -->
-	<xsl:template match="Settlement[@id='town_S3']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_sturgia_2</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_S5']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_sturgia_2</xsl:attribute>
+	<xsl:template match="Settlement[@id='town_S2']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S2_text}Balgard, which sits on the icy waters of Mazopor bay, was founded by migrants from the Nordlands. Legend holds that the initial wave of Nords arrogantly demanded tribute from the nearby Vakken and Sturgian tribes, who formed an alliance and drove the newcomers back to their ships. But the victors fell out over the spoils, until a canny Nord, Gundar, landed and volunteered to help them fairly divvy up the weapons and armor of his dead kinsmen. The residents recognized Gundar's lordship over the region and his descendants, intermarried with the Sturgians, are today one of the most powerful Sturgian Boyars.</xsl:attribute>
 	</xsl:template>
 	<!-- Togaroving -->
 	<xsl:template match="Settlement[@id='town_S7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_5</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S7_text}Revyl - the chief town of the rocky Kachyar peninsula, has always been a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the Balgardian Gundaroving dynasty.</xsl:attribute>
+	</xsl:template>
 	<!-- Hayekoving -->
 	<xsl:template match="Settlement[@id='town_S6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_3</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S6']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S6_text}Sibir was founded in a dark valley amid the Chertyg Mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the Hayekoving family governs this region, but with the decline of their finances, it remains to be seen how long the people of Sibir may continue to enjoy their comfortable life.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S6_1_text}The villagers of Kvol raise small, sturdy cattle at the base of the Chertyg Mountains. They include the descendants of refugees and malcontents from across Calradia, seeking isolation in the cold northern forests.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S6_2_text}Radakmed sits in a basin amid the Chertyg Mountains. Villagers here grow flax in the marshy valley floor.</xsl:attribute>
+	</xsl:template>
 	<!-- Nowyraving -->
-	<xsl:template match="Settlement[@id='castle_S2']/@owner">
+	<xsl:template match="Settlement[@id='town_S1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_8</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="town_S1"]'>
+		<xsl:copy>
+			<xsl:attribute name='text'>{=si_ar_town_S1_text}Varcheg - the so-called ‘Town of the Companions’ - was founded centuries ago by Sturgian colonists on the site of an ancient ruined Vakken promontory fort, standing atop a high outcrop overlooking the Bay of Varcheg, from which it draws its name. Its position has made it a prime location for the trade of furs with the interior of northern Calradia, bringing both wealth and status to its inhabitants, who claim mixed Sturgian, Vakken and Nordic ancestries. Indeed, anyone who controls the town may use its position to effectively stifle other Sturgian chiefdoms, making it a prized objective to any looking to control the frigid lands of the north.</xsl:attribute>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Kuloving -->
+	<xsl:template match="Settlement[@id='castle_S5']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_sturgia_2</xsl:attribute>
 	</xsl:template>
 	<!-- Vezhoving -->
 	<xsl:template match="Settlement[@id='castle_S3']/@owner">

@@ -128,10 +128,13 @@
 	<!-- Dialogue Major Faction Greetings -->
 	<xsl:template match="string[@id='str_comment_noble_introduces_self_and_clan.khuzait']"/>
 	<xsl:template match="string[@id='str_comment_noble_introduces_self_and_clan.khuzait_boasting']"/>
+	<xsl:template match="string[@id='str_comment_noble_introduces_self_and_clan.sturgia_boasting_2']"/>
 	<xsl:template match="string[@id='str_comment_noble_introduces_self_and_clan.vlandia']"/>
 	<xsl:template match="string[@id='str_comment_noble_introduces_self_and_clan.vlandia_boasting']"/>
 	<!-- Dialogue Minor Faction Greetings -->
 	<xsl:template match="string[@id='str_comment_special_clan_intro_jawwal.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_beni_zilal.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_ghilman.default']"/>
+	<xsl:template match="string[@id='str_comment_special_clan_intro_lakepike.default']"/>
+	<xsl:template match="string[@id='str_comment_special_clan_intro_skolderbroda.default']"/>
 </xsl:stylesheet>

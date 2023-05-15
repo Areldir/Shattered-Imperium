@@ -2,15 +2,16 @@
 <Module>
 	<Name value="Shattered Imperium: Factions"/>
 	<Id value="ShatteredImperiumFactions"/>
-	<Version value="v0.2.0"/>
+	<Version value="v0.2.5"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.0.3"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.0.3"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.0.3"/>
-		<DependedModule Id="CustomBattle" DependentVersion="v1.0.3"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.0.3"/>
+		<DependedModule Id="Native" DependentVersion="v1.1.3"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.3"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.1.3"/>
+		<DependedModule Id="CustomBattle" DependentVersion="v1.1.3"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.1.3"/>
+		<DependedModule Id="Bannerlord.Harmony"/>
 		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
@@ -180,7 +181,7 @@
 		</XmlNode>
 		
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="04-Northern/SI_sturgia_characters"/>
+			<XmlName id="NPCCharacters" path="04-Northern/SI_vaegir_characters"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
@@ -189,7 +190,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="EquipmentRosters" path="04-Northern/SI_sturgia_equipmentsets"/>
+			<XmlName id="EquipmentRosters" path="04-Northern/SI_vaegir_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
