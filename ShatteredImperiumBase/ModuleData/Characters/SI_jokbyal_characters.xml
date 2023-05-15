@@ -1141,7 +1141,7 @@
 		<skills/>
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
-			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_stu_preacher_notary_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_jok_rural_notable_notary" default_group="Infantry" name="{=si_ar_jok_rural_notable_notary}Jokbyalic Nobleman" occupation="Townsfolk" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -1151,7 +1151,7 @@
 		<skills/>
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
-			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_jok_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -1417,7 +1417,7 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_2" name="{=si_ar_spc_lochanians_leader_2}of the Lochanians" voice="softspoken" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_2" name="{=si_ar_spc_lochanians_leader_2}of the Lochanians" voice="curt" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>

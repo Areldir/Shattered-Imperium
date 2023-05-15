@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- NORDS: Auxiliary And Mercenary Characters -->
+	<!-- T3 Infantry Medium Skill 5-20 -->
+	<NPCCharacter id="AR_nor_aux_recruit" default_group="Infantry" level="16" name="{=si_ar_nor_aux_recruit}Nord Traveller" occupation="Mercenary" is_basic_troop="true" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_nor_aux_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_nor_aux_t4_melee" default_group="Infantry" level="21" name="{=si_ar_nor_aux_t4_melee}Nord Warrior" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_nor_aux_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_nor_aux_t5_melee" default_group="Infantry" level="26" name="{=si_ar_nor_aux_t5_melee}Nord Huscarl" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_nor_aux_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_nor_aux_t4_archer" default_group="Ranged" level="21" name="{=si_ar_nor_aux_t4_archer}Nord Huntsman" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_nor_aux_t4_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_nor_aux_t5_archer" default_group="Ranged" level="26" name="{=si_ar_nor_aux_t5_archer}Nord Bowman" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_nor_aux_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- SKOLDERBRODA -->
+	<NPCCharacter id="AR_spc_skolderbrotva_leader_0" name="{=si_ar_spc_skolderbrotva_leader_0}of the Skolderbroda" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_skolderbrotva_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_skolderbrotva_leader_1" name="{=si_ar_spc_skolderbrotva_leader_1}of the Skolderbroda" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_skolderbrotva_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_skolderbrotva_leader_2" name="{=si_ar_spc_skolderbrotva_leader_2}of the Skolderbroda" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_skolderbrotva_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_skolderbrotva_leader_3" name="{=si_ar_spc_skolderbrotva_leader_3}of the Skolderbroda" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_skolderbrotva_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Skolder Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_min_skolder_t3" default_group="Infantry" level="16" name="{=si_ar_min_skolder_t3}Skolderbroda Youth" occupation="Mercenary" is_basic_troop="true" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_skolder_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_skolder_t4_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_skolder_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Skolder Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_min_skolder_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_skolder_t4_melee}Skolderbroda Warrior" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_skolder_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_skolder_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Skolder Infantry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_skolder_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_skolder_t5_melee}Skolderbroda Huscarl" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_skolder_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Skolder Shock Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_skolder_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_min_skolder_t4_shock_inf}Skolderbroda Raider" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_skolder_t5_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_skolder_t4_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Skolder Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_skolder_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_min_skolder_t5_shock_inf}Skolderbroda Berserker" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_skolder_t5_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- SEAX SHIPFOLK -->
+	<NPCCharacter id="AR_spc_seax_leader_0" name="{=si_ar_spc_seax_leader_0}of the Seax" voice="ironic" age="48" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_seax"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_seax_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_seax_leader_1" name="{=si_ar_spc_seax_leader_1}of the Seax" voice="softspoken" age="19" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_seax"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_seax_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_seax_leader_2" name="{=si_ar_spc_seax_leader_2}of the Seax" voice="softspoken" age="32" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_seax"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_seax_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_seax_leader_3" name="{=si_ar_spc_seax_leader_3}of the Seax" voice="softspoken" age="39" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_seax"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_seax_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Seax Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_min_seax_t3" default_group="Infantry" level="16" name="{=si_ar_min_seax_t3}Seax Oarsman" occupation="Mercenary" is_basic_troop="true" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_seax_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_seax_t4_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_seax_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Seax Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_seax_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_seax_t4_melee}Seax Sailor" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_seax_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_seax_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Seax Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_seax_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_seax_t5_melee}Seax Boatswain" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_seax_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Seax Berserker Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_seax_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_min_seax_t4_slinger}Seax Raider" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_seax_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_seax_t4_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Seax Berserker Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_seax_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_min_seax_t5_slinger}Seax Marauder" occupation="Mercenary" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_seax_t5_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

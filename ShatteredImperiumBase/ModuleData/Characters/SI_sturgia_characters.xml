@@ -714,7 +714,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="40"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
@@ -777,7 +777,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="60"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -797,7 +797,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="60"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -819,7 +819,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="5"/>
+			<skill id="Riding" value="70"/>
 			<skill id="OneHanded" value="20"/>
 			<skill id="TwoHanded" value="5"/>
 			<skill id="Polearm" value="20"/>
@@ -828,11 +828,475 @@
 			<skill id="Throwing" value="5"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_jok_aux_fem_recruit"/>
+			<upgrade_target id="NPCCharacter.AR_stu_aux_fem_recruit"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
 			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_villager_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_villager_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_villager_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townsman" default_group="Infantry" level="1" name="{=si_ar_stu_townsman}Sturgian Freeman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_stu_townswoman}Sturgian Freewoman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townsman_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townsman_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townsman_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_merchant_notary" default_group="Infantry" name="{=si_ar_stu_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_artisan_notary" default_group="Infantry" name="{=si_ar_stu_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_preacher_notary" default_group="Infantry" name="{=si_ar_stu_preacher_notary}Shaman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_preacher_notary_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_stu_rural_notable_notary" default_group="Infantry" name="{=si_ar_stu_rural_notable_notary}Sturgian Nobleman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA: Auxiliary And Mercenary Characters -->
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_stu_aux_fem_recruit" default_group="Infantry" is_female="true" level="16" name="{=si_ar_stu_aux_fem_recruit}Sturgian Camp Follower" occupation="Mercenary" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_aux_t4_fem_melee"/>
+			<upgrade_target id="NPCCharacter.AR_stu_aux_t4_fem_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_aux_fem_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_aux_t4_fem_melee" default_group="Infantry" is_female="true" level="21" name="{=si_ar_stu_aux_t4_fem_melee}Sturgian Spearwoman" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_aux_t5_fem_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t4_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_stu_aux_t5_fem_melee" default_group="Infantry" is_female="true" level="26" name="{=si_ar_stu_aux_t5_fem_melee}Sturgian Valkyrie Spearwoman" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_stu_aux_t4_fem_archer" default_group="Ranged" is_female="true" level="21" name="{=si_ar_stu_aux_t4_fem_archer}Sturgian Bowwoman" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_stu_aux_t5_fem_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_aux_t4_fem_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_stu_aux_t5_fem_archer" default_group="Ranged" is_female="true" level="26" name="{=si_ar_stu_aux_t5_fem_archer}Sturgian Valkyrie Bowwoman" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- LAKE RATS -->
+	<NPCCharacter id="AR_spc_lakepike_leader_0" name="{=si_ar_spc_lakepike_leader_0}the Lake Rat" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lakepike_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_lakepike_leader_1" name="{=si_ar_spc_lakepike_leader_1}the Lake Rat" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="PeltastFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lakepike_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_lakepike_leader_2" name="{=si_ar_spc_lakepike_leader_2}the Lake Rat" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="PeltastFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lakepike_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_lakepike_leader_3" name="{=si_ar_spc_lakepike_leader_3}the Lake Rat" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="PeltastFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_lakepike_leaders"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Lake Rats Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_lakepike_t3" default_group="Infantry" level="16" name="{=si_ar_min_lakepike_t3}Lake Rat Thief" occupation="Mercenary" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lakepike_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_lakepike_t4_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_lakepike_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lake Rats Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_lakepike_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_lakepike_t4_melee}Lake Rat Pillager" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lakepike_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_lakepike_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lake Rats Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_lakepike_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_lakepike_t5_melee}Lake Rat Marauder" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_lakepike_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Lake Rats Archer Light Skill 60-100 -->
+	<NPCCharacter id="AR_min_lakepike_t4_crossbowman" default_group="Ranged" level="21" name="{=si_ar_min_lakepike_t4_crossbowman}Lake Rat Breaker" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_lakepike_t5_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_lakepike_t4_crossbowman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Lake Rats Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_lakepike_t5_crossbowman" default_group="Ranged" level="26" name="{=si_ar_min_lakepike_t5_crossbowman}Lake Rat Shipwrecker" occupation="Mercenary" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_lakepike_t5_crossbowman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
