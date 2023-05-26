@@ -514,72 +514,66 @@
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Vaegir minor faction (1) -->
-	<MBPartyTemplate id="kingdom_hero_party_vaegiri_template">
+	<MBPartyTemplate id="kingdom_hero_party_vakken_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_vaegirian_recruit"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_vae_t2_swordsman"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t3_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_t4_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_t5_archer"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_vae_t4_shock_inf"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t5_swordsman"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_vae_t3_archer"/>
-			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.AR_vae_t3_swordsman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_t4_swordsman"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_t5_swordsman"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_vae_cavalry_recruit"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_vae_t4_cavalry"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t5_cavalry"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_vae_t4_cav_archer"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_recruit"/>
+			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.AR_vae_t2_swordsman"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_vae_t3_swordsman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_t4_swordsman"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t5_swordsman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t2_skirmisher"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t3_skirmisher"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t4_skirmisher"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t4_crossbowman"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t5_crossbowman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_t3_elite_shock_inf"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t4_elite_shock_inf"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t5_elite_shock_inf"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_t5_elite_lance_cav"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="rebels_vaegiri_template">
+	<MBPartyTemplate id="rebels_vakken_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vaegirian_recruit"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_recruit"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="militia_vaegiria_template">
+	<MBPartyTemplate id="militia_vakken_template">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_vae_militia_spearman"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_vae_militia_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_militia_veteran_spearman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_militia_veteran_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_hearthguard"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_hearthguard_archer"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_t3_spearman"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_t3_archer"/>
+		</stacks>
+	</MBPartyTemplate>	
+	<MBPartyTemplate id="caravan_template_vakken">
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_vae_armed_trader"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_vae_caravan_guard"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_vet_caravan_guard"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t3_spearman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.village_woman_vaegiria"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="caravan_template_vaegiri">
+	<MBPartyTemplate id="elite_caravan_template_vakken">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_vae_armed_trader"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_vae_caravan_guard"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_vet_caravan_guard"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_vae_t3_shock_inf"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.villager_vaegiria"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.village_woman_vaegiria"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_vae_armed_trader"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_vae_caravan_guard"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_vet_caravan_guard"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_caravan_master"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_t3_spearman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.village_woman_vaegiria"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="elite_caravan_template_vaegiri">
+	<MBPartyTemplate id="villager_vakken_template">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_vae_armed_trader"/>
-			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.AR_vae_caravan_guard"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_vae_vet_caravan_guard"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_caravan_master"/>
-			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AR_vae_t3_shock_inf"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_vae_t3_archer"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.villager_vaegiria"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.village_woman_vaegiria"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="villager_vaegiri_template">
-		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_vaegiria"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_vae_villager"/>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.village_woman_vaegiria"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="vassal_reward_troops_vaegiri">
+	<MBPartyTemplate id="vassal_reward_troops_vakken">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_t5_cavalry"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_vae_t4_cavalry"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_vae_t5_elite_shock_inf"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_vae_t4_elite_shock_inf"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for kannic minor faction (1) -->

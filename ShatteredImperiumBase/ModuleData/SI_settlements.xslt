@@ -129,62 +129,200 @@
 	<xsl:template match="Settlement[@id='town_EW2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EW2']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EW2_text}Zeonica, the current capital of the Calradian Empire, sits by the seaside at the base of the Iltaric Hills, in a land of wine, grain and horses. It was named for the Lady Zeona, one of the few women to rule the Calradian Empire - admittedly as regent for her son rather than Empress Regnant in her own right. The city, whilst not as grand or steeped in history as the old capitals at Charasea or Paravenos, is known for the so-called ‘Zeonic Wind’ - a gale that blows northward across the Perassic Sea every summer carrying the burning heat of the Nahasa Desert to the imperial south. In other seasons, the weather here is mild. This changeability in patterns has provided many a poet with a metaphor for the transience of passion, though nowadays perhaps this transience could equally be applied to the fortunes of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW2_2_text}Neocorys - the ‘new village’ - sits in gently sloping land in the Temea Valley that was cleared only recently of forest. The local landowners have established stud farms, supplying horses to the imperial cavalry.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW2_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW2_3_text}Alsasos sits in the west end of the Temea - a broad valley north of the Perassic Sea. Though the climate is relatively dry here, artesian wells allow farmers to grow bountiful crops of wheat.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW2_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW2_4_text}Zeocorys sits at the foot of the Ilataric Hills, the range running along the southern coast of the Empire. Though the climate is relatively dry here, artesian wells allow farmers to grow bountiful crops of wheat.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_EW3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EW3']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EW3_text}Jalmarys sits at the headwaters of the Aminys River, commanding a position in the north of the Temea Valley. Every realm has a city whose inhabitants are mocked for their provincial unsophistication, and for the Calradian Empire that city is Jalmarys. One of the first imperial colonies established inland of the Perassic Sea, it served the Calradians as a base to subdue the western Palaic tribes. Paravenos was happy to accept the plunder and slaves sent to them from its garrison, but snickered at them behind their backs. That changed when the Jalmaryan general Carsos staged a military coup. When a senator, stymied by his thick accent, nervously asked him to repeat a decree, he unsheathed his sword and said, 'Do you understand this?'</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW3_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW3_3_text}Dradios sits by the Lesser Amynis, a tributary stream of the Aminys River that rushes down from the heights above. Villagers divert the mountain streams to irrigate their rich grainfields.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_EN1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EN1_text}Epicrotea - the 'All-Conquering' - was named after the eccentric long-haired military genius Sarapios, who crushed a Battanian host and secured the lands west of Lake Laconis for the Calradian Empire. Its stout walls and high towers, overlooking the Miron River, have frequently been a northerner's first glimpse of the awesome and terrible force to their south that is the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN1_1_text}Marathea lies on a narrow shelf of land between the Miron River and Mount Aracathos - the tallest peak in the Dryatic Mountains. The villagers are skilled miners, extracting iron ores from the nearby cliffside.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN1_2_text}Stathymos lies in a narrow valley beneath a towering ridge of the Dryatic Mountains. The highland streams wash fertile soil down the hillsides, making this district one of the breadbaskets of the imperial north.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN1_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN1_3_text}Gymos is a quiet fishing village along the coast of the Diathmic Bay, on the far west of Lake Laconis. Villagers harvest pike from the deep, dark waters of the bay.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN6_1_text}Ataconia sits on a plateau in the piedmont of the Dryatic Mountains. The people of this area are skilled at finding seams of silver ore exposed by the streams rushing down from the cliffs above.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN6_2_text}Potamis sits in a valley in the lower Dryatic Mountains. The people of these parts have raised cattle since pre-Calradic times, and its milk and butter are sought out by traders and travellers passing through the region.</xsl:attribute>
 	</xsl:template>
 	<!-- Pethros -->
 	<xsl:template match="Settlement[@id='town_ES4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_ES4']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_ES4_text}The fortress of Lycaron sits on a natural spur jutting out of the great Ornian Rock. In the final years of the imperial conquest, the Palaic tribe here negotiated a peaceful federation with the Calradian Empire, only to see their home seized by the rebel leader Gethuz. The ensuing siege was only the first of many that Lycaron would undergo in the ensuing centuries, as its nearby silver mines made it a prize for every imperial pretender who ever tried to seize power in a civil war. It is said that the colony of vultures who inhabit the upper reaches of the Rock have dined on the flesh of every people of Calradia.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES4_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES4_1_text}Sagora on a low ridge in the middle of the Lycarean Plain. This district is one of the rockier and less fertile parts of the plain, but the valley scrubs still support the grazing of sheep.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES4_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES4_3_text}Canterion lies in the east of the Lycarean Plain. The slowly rising land here gets more rain than other parts of the plain, and the rich grasses have made it good horse country since even before the coming of the Calradian Empire.</xsl:attribute>
+	</xsl:template>	
 	<xsl:template match="Settlement[@id='castle_ES6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES6_1_text}Sestadaim sits on the western side of the great Ornian Rock - an outcrop in the center of the Lycarean Plain. Some say the vultures for which the rock is named once gathered here to feast on the bodies of those who died working the local silver mines.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES6_2_text}Amycon lies in a series of small but sharp ridges between the Ornian Rock and the Aris Valley. The people of this land are sheep herders, known for their dry, salty cheese flavored with cumin.</xsl:attribute>
+	</xsl:template>	
 	<xsl:template match="Settlement[@id='castle_ES8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_1</xsl:attribute>
 	</xsl:template>	
+	<xsl:template match="Settlement[@id='castle_village_ES8_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES8_1_text}Chanopsis sits near the headwaters of the Sethys River in the region known as the Myzead. Wheat grows well on the sun-baked plains here.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES8_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES8_2_text}Popsia in a narrow canyon between the Ornian Rock and the valley of the Ophthys Pool. Trees grow tall here in the cool shadows of the hills, and villagers harvest pines for sale as lumber.</xsl:attribute>
+	</xsl:template>
 	<!-- Leonipardes -->
 	<xsl:template match="Settlement[@id='town_ES3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_2</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES3_1_text}Canoros sits in the flat southern reaches of the Lycarea Plain. This land has been good horse country since even before the Calradian Empire came, furnishing the steeds of the Lycarean riders who routed several Calradian armies, before their final defeat and absorption into the imperial cavalry.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES3_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES3_2_text}Tevea sits where the Plains of Lycarea slowly ascend to meet the base of the Ornian Rock. They raise sheeps on the slopes of this massive outcrop, named for the vultures who glare down from its heights onto the hazy flatlands below.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES3_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES3_3_text}Zestea sits where the Plains of Lycarea meet the coastal Iltaric Hills. Sheep graze on the low slopes overlooking the hazy flatlands.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EW3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_2</xsl:attribute>
-	</xsl:template>		
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW3_1_text}Onica lies on the northern shores of the Perassic Sea. The hills of this district are terraced with the grapevines of the famous Leonipardes Estates, producing a fruity, full-bodied wine renowned across the continent.</xsl:attribute>
+	</xsl:template>	
+	<xsl:template match='Settlement[@id="castle_village_EW3_1"]/Locations'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Location id="village_center" scene_name="empire_village_h" />
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW3_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW3_2_text}Tarcutis sits on the shores of the Perassic Sea. The sandy soil and morning mists, channeled by offshore islands, allows the growing of grapes. This land is part of the famous Leonipardes Estates, producing a fruity, full-bodied wine renowned across Calradia.</xsl:attribute>
+	</xsl:template>	
+	<xsl:template match='Settlement[@id="castle_village_EW3_2"]/Locations'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Location id="village_center" scene_name="empire_village_s" />
+		</xsl:copy>
+	</xsl:template>
 	<!-- Elaches -->
 	<xsl:template match="Settlement[@id='town_EW5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_4</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EW5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EW5_text}The town of Amitatys has a particularly grim reputation. Once, it was ruled by a tyrannical Palaic chieftain, who slaughtered innocents to appease the gods of the underworld in the hope they would grant him immortality. Inevitably, he fell into conflict with the Calradian Empire, and during the siege an earthquake crumbled his walls and allowed imperial troops into the city. More died in the ensuing sack than the tyrant had ever killed, but it was war, and the outcome - attributed to the wrath of Heaven - was a staple of imperial propaganda as they expanded their foothold in the region.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW5_1_text}Elipa sits near the upper reaches of the Aris Valley. These sunny, well-watered highlands are one of the breadbaskets of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW5_2_text}Phasos sits amid rolling chalk hills between the Temea and Aris valleys. The rich grass of the down is some of the best horse-breeding land in the Empire.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EW2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_4</xsl:attribute>
-	</xsl:template>		
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW2_1_text}Thorios sits in the Aris Valley, in the heart of Calradia. River irrigation and the relatively warm inland climate ensure that the grain fields of this district, along with neighboring Bergum, feed much of the central Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW2_2_text}Bergum sits in the Aris Valley, in the heart of Calradia. River irrigation and the relatively warm inland climate ensure that the grain fields of this district, along with neighboring Thorios, feed much of the central Calradian Empire.</xsl:attribute>
+	</xsl:template>
 	<!-- Sonoros -->
 	<xsl:template match="Settlement[@id='town_EN2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_7</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN2']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EN2_text}Diathma, the city of the Divine Decree, was erected by an imperial general on the ruins of a Dryatic shrine overlooking Lake Laconis. It was the last stand of the Dryatics - the northernmost of the Palaic peoples - who rebelled against the Calradian Empire and were overcome. According to legend they were pushed back into the shallows of the lake and fought until they were exhausted and the bloody waters engulfed them.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN2_2_text}Jeracos sits in meadowland in the northern piedmont of the Dryatic Mountains. The climate, kept mild by the lake breezes, makes for good horse breeding.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_7</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN3_1_text}Rhesos sits in a plateau in the Dryatic Mountains. Highland cattle thrive on the grasses of the heights.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN3_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN3_2_text}Dyopalis lies in a valley in the Dryatic Mountains. Despite the cold winters, the region's fertile soils make this district one of the breadbaskets of the northern Calradian Empire.</xsl:attribute>
+	</xsl:template>
 	<!-- Vizartos -->
 	<xsl:template match="Settlement[@id='town_ES6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_6</xsl:attribute>
-	</xsl:template>		
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_ES6']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_ES6_text}Phycaon sits at the head of the Sethys Valley - one of the main grain-producing regions of the central Calradian Empire. Once the largest of the Palaic cities, its leaders once led a league of the tribes against imperial encroachment into the region. But when the Calradian's victory looked inevitable, they made their peace. The population, now thoroughly Calradicized, have a reputation for being serious, respectable and trade-minded. Dependable, if a bit humorless.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES6_2_text}Spotia lies alongside the gently flowing Sethys river. The low rolling hills of this district comprise one of the breadbaskets of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
 	<!-- Hongeros -->
 	<xsl:template match="Settlement[@id='town_ES2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_4</xsl:attribute>
 	</xsl:template>	
+	<xsl:template match="Settlement[@id='town_ES2']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_ES2_text}Vostrum was founded by the mercenary Archacos, one of a number of rogue commanders who broke away from the Calradian Empire during its expansion. Unlike some, who tried to reproduce the Calradian’s republican heritage, he chose to rule as a god-king. His dynasty lasted for generations, until imperial troops overran it and smashed every haloed statue of Archacos and his successors into rubble. Even today, imperial senators accuse families from this region of being closet monarchists.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES2_2_text}Gorcorys sits on the Gorea - the southernmost tributary of the Sethys River, in the valley of Tripotamia. The dark, well-watered soil here makes this region an imperial breadbasket.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES2_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES2_3_text}Avalyps sits near the headwaters of the River Calsa in the warm coastal hills of the southern Calradian Empire. The dark, well-watered soil here makes this region an imperial breadbasket.</xsl:attribute>
+	</xsl:template>
 	<!-- Prienicos -->
 	<xsl:template match="Settlement[@id='castle_ES5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_8</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES5_1_text}Morenia sits overlooking the Sethys River, on a low pass leading over the hills to the Valley of the Lycarea. Villagers collect clay from the riverbanks for the kilns of the imperial southlands.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES5_2_text}The village of Atphynia sits near the mouth of the Sethys River, just before it splits into three to form the valley known as Tripotamia. Villagers here have laid out salt pans near where the Sethys Estuary joins the Perassic Sea.</xsl:attribute>
 	</xsl:template>
 	<!-- Mestricaros -->
 	<xsl:template match="Settlement[@id='castle_ES4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_3</xsl:attribute>
 	</xsl:template>		
+	<xsl:template match="Settlement[@id='castle_village_ES4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES4_2_text}Ethemisa sits on the river that the Aserai call the Nahr al-Kals - the ‘Bitter River’ - and what imperial citizens call the Calsa. Here, the river has just descended from the coastal hills and has not yet reached the alkali plains of the southeast. The lands around produce a fine crop of grain.</xsl:attribute>
+	</xsl:template>
+
+
+
 	<!--
 	Eastern Calradian Despotate
 	-->	
@@ -665,21 +803,21 @@
 		<xsl:attribute name='owner'>Faction.clan_sturgia_1</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S2']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_S2_text}Balgard, which sits on the icy waters of Mazopor bay, was founded by migrants from the Nordlands. Legend holds that the initial wave of Nords arrogantly demanded tribute from the nearby Vakken and Sturgian tribes, who formed an alliance and drove the newcomers back to their ships. But the victors fell out over the spoils, until a canny Nord, Gundar, landed and volunteered to help them fairly divvy up the weapons and armor of his dead kinsmen. The residents recognized Gundar's lordship over the region and his descendants, intermarried with the Sturgians, are today one of the most powerful Sturgian Boyars.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_S2_text}Balgard, which sits on the icy waters of Mazopor bay, was founded by migrants from the Nordlands. Legend holds that the initial wave of Nords arrogantly demanded tribute from the nearby Vakken and Sturgian tribes, who formed an alliance and drove the newcomers back to their ships. But the victors fell out over the spoils, until a canny Nord, Gundar, landed and volunteered to help them fairly divvy up the weapons and armor of his dead kinsmen. The residents recognized Gundar's lordship over the region and his descendants, intermarried with the Sturgians, are today one of the most powerful Sturgian chiefdoms.</xsl:attribute>
 	</xsl:template>
 	<!-- Togaroving -->
 	<xsl:template match="Settlement[@id='town_S7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S1']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_S7_text}Revyl - the chief town of the rocky Kachyar peninsula, has always been a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the Balgardian Gundaroving dynasty.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_S7_text}Revyl - the chief town of the rocky Kachyar peninsula, has always been a traditional rival of Balgard. According to legend, the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the Balgardian Gundaroving chiefdom.</xsl:attribute>
 	</xsl:template>
 	<!-- Hayekoving -->
 	<xsl:template match="Settlement[@id='town_S6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S6']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_S6_text}Sibir was founded in a dark valley amid the Chertyg Mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the Hayekoving family governs this region, but with the decline of their finances, it remains to be seen how long the people of Sibir may continue to enjoy their comfortable life.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_S6_text}Sibir was founded generations ago in a dark valley amid the Chertyg Mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. Over the years, it has grown into a thriving boomtown, attracting settlers from across the Nordlands and the Sturgian and Vakken-speaking territories, though has always been somewhat of a hotbed for dissent among the northern peoples of Calradia. Today, the Hayekoving family governs this region, but with the decline of their finances, it remains to be seen how long the people of Sibir may continue to enjoy their comfortable life.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_S6_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_S6_1_text}The villagers of Kvol raise small, sturdy cattle at the base of the Chertyg Mountains. They include the descendants of refugees and malcontents from across Calradia, seeking isolation in the cold northern forests.</xsl:attribute>
@@ -708,14 +846,38 @@
 	<!-- Kostoroving -->
 	<xsl:template match="Settlement[@id='castle_S4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_9</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S4_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S4_1_text}Kranirog sits in a broaded forested valley looking down on the Galchas River. The villagers in these parts are expert trappers, hunting marten, fox and rabbit for the rich pelts much in demand in the south.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B8_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B8_2_text}Seordas sits in the lowlands at the border of the Battanian, Sturgian and Vakken lands, at the foot of the Uchalion Escarpment. The nearby fortress of Uthelaim was built to shield the district's exposed farms from Sturgian raiders coming from the east, though it has been many years since it fulfilled its purpose.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B8_2']/@culture">
+		<xsl:attribute name='culture'>Culture.sturgia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_B8_2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_B8_2" village_type="VillageType.wheat_farm" hearth="328" bound="Settlement.castle_S4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
+		</xsl:copy>
+	</xsl:template>
 	<!-- Ormidoving -->
 	<xsl:template match="Settlement[@id='castle_S6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_4</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S6_1_text}Takor is a cattle raising village located at the pass that the Battanians call Mynad Rhyfel - the ‘Mountain of War’ - and their Calradian and Sturgian neighbors call ‘Minador’. It is one of the main trading and raiding routes between the wild north and the more settled lands of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
 	<!-- Svehlaving -->
 	<xsl:template match="Settlement[@id='castle_S1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_6</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S1_1_text}Ustokol sits on the windswept Kachyar Peninsula, between the Bay of Varcheg and the Byalic Sea. Hardy northern cattle have been bred to eat the short grasses that grow among the rocks, supplemented by sea-kelp in hard times.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S1_2_text}Zhemyan is a fishing village at the northern shores of the Kachyar Peninsula. Villagers brave the storms that sweep through the Byalic Sea to pull up ample catches of cod, char, and sometimes even small whales.</xsl:attribute>
 	</xsl:template>
 	
 	
@@ -919,7 +1081,7 @@
 
 	
 	<!--
-	Vaegirs
+	Vaegir Kingdom
 	-->
 	<!-- Vagiraving -->
 	<xsl:template match="Settlement[@id='town_S3']/@owner">
@@ -947,7 +1109,7 @@
 	<xsl:template match="Settlement[@id='castle_village_S2_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
-	<!-- Zhanoving -->
+	<!-- Hrafnaving -->
 	<xsl:template match="Settlement[@id='castle_B8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vaegiria_3</xsl:attribute>
 	</xsl:template>
@@ -957,8 +1119,14 @@
 	<xsl:template match="Settlement[@id='castle_village_B8_1']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_B8_2']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_S4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_S4_2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_S4_2" village_type="VillageType.cattle_farm" hearth="333" gate_rotation="0.008" bound="Settlement.castle_B8" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+		</xsl:copy>
 	</xsl:template>
 	<!-- Sarapisthes -->
 	<xsl:template match="Settlement[@id='castle_EN9']/@owner">
