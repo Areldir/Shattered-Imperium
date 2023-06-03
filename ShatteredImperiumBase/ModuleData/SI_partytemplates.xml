@@ -550,7 +550,7 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_vet_caravan_guard"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_t3_spearman"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.village_woman_vaegiria"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="elite_caravan_template_vakken">
@@ -561,13 +561,13 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_vae_caravan_master"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_t3_spearman"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_vae_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.village_woman_vaegiria"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_vae_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_vakken_template">
 		<stacks>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_vae_villager"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.village_woman_vaegiria"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_vae_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_vakken">
@@ -949,11 +949,11 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_forest_people_template">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_foresters_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_foresters_t4_archer"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_foresters_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_foresters_t5_swordsman"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_foresters_t4_swordsman"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_forest_people_t5_archer"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_forest_people_t4_archer"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_forest_people_t3"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_forest_people_t5_melee"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_forest_people_t4_melee"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_eleftheroi_template">
@@ -1048,11 +1048,11 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_valkyries">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_valkyries_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_valkyries_t4_archer"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_valkyries_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_valkyries_t5_infantry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_valkyries_t4_infantry"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_vezha_t5_cavalry"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_vezha_t4_cavalry"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_vezha_t3"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_vezha_t5_melee"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_vezha_t4_melee"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_saleas_sisters">
@@ -1080,6 +1080,15 @@
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_dar_aux_recruit"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_dar_aux_t5_cavalry"/>
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_dar_aux_t4_cavalry"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="party_template_ircarans">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_ircara_t5_slinger"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_ircara_t4_slinger"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_ircara_t3"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_ircara_t5_melee"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_ircara_t4_melee"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Bandits -->

@@ -815,7 +815,7 @@
 	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sturgia"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="{=Ud1AMybr}The Sturgians come from the northern woods, just south of the icy Byalic Sea. For centuries they lived an isolated existence in the dark forests, their numbers kept in check by the deadly winters. But as the Empire expanded to fill out the Calradian continent, traders ventured into the woods in search of honey, bog iron, and most of all fur. Great towns sprung up on the network of bays and lakes that joined the Sturgian lands to the outside world, attracting fortune-seekers from the coast, the steppes, and the Nordlands. The princes and boyars of this land have now begun to turn their eyes outward, earning themselves for a reputation for their warlike approach to business and their businesslike approach to war."
-	         tournament_master="NPCCharacter.tournament_master_sturgia"
+	         tournament_master="NPCCharacter.AR_stu_tournament_master"
 	         villager="NPCCharacter.AR_stu_villager"
 	         caravan_master="NPCCharacter.caravan_master_sturgia"
 	         armed_trader="NPCCharacter.AR_stu_armed_trader"
@@ -840,7 +840,7 @@
 	         villager_female_child="NPCCharacter.AR_stu_village_woman_child"
 	         villager_female_teenager="NPCCharacter.AR_stu_village_woman_teenager"
 	         ransom_broker="NPCCharacter.ransom_broker_sturgia"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sturgia"
+	         gangleader_bodyguard="NPCCharacter.AR_stu_gangleader_bodyguard"
 	         merchant_notary="NPCCharacter.AR_stu_merchant_notary"
 	         artisan_notary="NPCCharacter.AR_stu_artisan_notary"
 	         preacher_notary="NPCCharacter.AR_stu_preacher_notary"
@@ -854,8 +854,8 @@
 	         horseMerchant="NPCCharacter.horseMerchant_sturgia"
 	         barber="NPCCharacter.barber_sturgia"
 	         merchant="NPCCharacter.merchant_sturgia"
-	         beggar="NPCCharacter.beggar_sturgia"
-	         female_beggar="NPCCharacter.female_beggar_sturgia"
+	         beggar="NPCCharacter.AR_stu_beggar"
+	         female_beggar="NPCCharacter.AR_stu_female_beggar"
 	         female_dancer="NPCCharacter.female_dancer_sturgia"
 	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_sturgia"
 	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sturgia"
@@ -3078,11 +3078,11 @@
 	         beggar="NPCCharacter.AR_kan_beggar"
 	         female_beggar="NPCCharacter.AR_kan_female_beggar"
 	         female_dancer="NPCCharacter.AR_kan_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_kannic"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_kannic"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_kannic"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_kannic"
-	         gear_dummy="NPCCharacter.gear_dummy_kannic"
+	         gear_practice_dummy="NPCCharacter.AR_kan_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_kan_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_kan_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_kan_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_kan_gear_dummy"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -3401,44 +3401,44 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_kannic_0"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_1"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_2"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_3"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_4"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_5"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_6"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_7"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_8"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_9"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_10"/>
-			<template name="NPCCharacter.spc_wanderer_kannic_11"/>
-			<template name="NPCCharacter.spc_notable_kannic_0"/>
-			<template name="NPCCharacter.spc_notable_kannic_0b"/>
-			<template name="NPCCharacter.spc_notable_kannic_1"/>
-			<template name="NPCCharacter.spc_notable_kannic_1b"/>
-			<template name="NPCCharacter.spc_notable_kannic_2"/>
-			<template name="NPCCharacter.spc_notable_kannic_2b"/>
-			<template name="NPCCharacter.spc_notable_kannic_3"/>
-			<template name="NPCCharacter.spc_notable_kannic_3b"/>
-			<template name="NPCCharacter.spc_notable_kannic_4"/>
-			<template name="NPCCharacter.spc_notable_kannic_4b"/>
-			<template name="NPCCharacter.spc_notable_kannic_5"/>
-			<template name="NPCCharacter.spc_notable_kannic_6"/>
-			<template name="NPCCharacter.spc_notable_kannic_7"/>
-			<template name="NPCCharacter.spc_notable_kannic_8"/>
-			<template name="NPCCharacter.spc_notable_kannic_9"/>
-			<template name="NPCCharacter.spc_notable_kannic_10"/>
-			<template name="NPCCharacter.spc_notable_kannic_11"/>
-			<template name="NPCCharacter.spc_notable_kannic_12"/>
-			<template name="NPCCharacter.spc_notable_kannic_13"/>
-			<template name="NPCCharacter.spc_notable_kannic_21"/>
-			<template name="NPCCharacter.spc_notable_kannic_22"/>
-			<template name="NPCCharacter.spc_notable_kannic_gl1"/>
-			<template name="NPCCharacter.spc_notable_kannic_gl4"/>
-			<template name="NPCCharacter.spc_kannic_headman_1"/>
-			<template name="NPCCharacter.spc_kannic_headman_2"/>
-			<template name="NPCCharacter.spc_kannic_headman_3"/>
+			<template name="NPCCharacter.AR_kan_wanderer_0"/>
+			<template name="NPCCharacter.AR_kan_wanderer_1"/>
+			<template name="NPCCharacter.AR_kan_wanderer_2"/>
+			<template name="NPCCharacter.AR_kan_wanderer_3"/>
+			<template name="NPCCharacter.AR_kan_wanderer_4"/>
+			<template name="NPCCharacter.AR_kan_wanderer_5"/>
+			<template name="NPCCharacter.AR_kan_wanderer_6"/>
+			<template name="NPCCharacter.AR_kan_wanderer_7"/>
+			<template name="NPCCharacter.AR_kan_wanderer_8"/>
+			<template name="NPCCharacter.AR_kan_wanderer_9"/>
+			<template name="NPCCharacter.AR_kan_wanderer_10"/>
+			<template name="NPCCharacter.AR_kan_wanderer_11"/>
+			<template name="NPCCharacter.AR_kan_notable_0"/>
+			<template name="NPCCharacter.AR_kan_notable_0b"/>
+			<template name="NPCCharacter.AR_kan_notable_1"/>
+			<template name="NPCCharacter.AR_kan_notable_1b"/>
+			<template name="NPCCharacter.AR_kan_notable_2"/>
+			<template name="NPCCharacter.AR_kan_notable_2b"/>
+			<template name="NPCCharacter.AR_kan_notable_3"/>
+			<template name="NPCCharacter.AR_kan_notable_3b"/>
+			<template name="NPCCharacter.AR_kan_notable_4"/>
+			<template name="NPCCharacter.AR_kan_notable_4b"/>
+			<template name="NPCCharacter.AR_kan_notable_5"/>
+			<template name="NPCCharacter.AR_kan_notable_6"/>
+			<template name="NPCCharacter.AR_kan_notable_7"/>
+			<template name="NPCCharacter.AR_kan_notable_8"/>
+			<template name="NPCCharacter.AR_kan_notable_9"/>
+			<template name="NPCCharacter.AR_kan_notable_10"/>
+			<template name="NPCCharacter.AR_kan_notable_11"/>
+			<template name="NPCCharacter.AR_kan_notable_12"/>
+			<template name="NPCCharacter.AR_kan_notable_13"/>
+			<template name="NPCCharacter.AR_kan_notable_21"/>
+			<template name="NPCCharacter.AR_kan_notable_22"/>
+			<template name="NPCCharacter.AR_kan_notable_gl1"/>
+			<template name="NPCCharacter.AR_kan_notable_gl4"/>
+			<template name="NPCCharacter.AR_kan_headman_1"/>
+			<template name="NPCCharacter.AR_kan_headman_2"/>
+			<template name="NPCCharacter.AR_kan_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
 			<template name="NPCCharacter.AR_spc_exploratores_nahasae_leader_0"/>
@@ -3495,53 +3495,53 @@
 	         faction_banner_key="11.45.126.4345.4345.764.764.1.0.0.462.0.13.512.512.764.764.1.0.0"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="The Vaegirians come from the lush grasslands bordering the eastern Calradian Steppe and the dark forests of the Sturgians. Growing wealthy as middlemen off the trade in honey, bog iron and furs between Sturgia and the Calradian Empire, the Vaegirians have always walked the tenuous line between the ambitions of the Empire and Sturgians. However, with the Empire thrown into turmoil, the boyars of Vaegiria have turned their eyes to warfare."
-	         tournament_master="NPCCharacter.tournament_master_vaegiria"
+	         tournament_master="NPCCharacter.AR_vae_tournament_master"
 	         villager="NPCCharacter.AR_vae_villager"
 	         caravan_master="NPCCharacter.AR_vae_caravan_master"
 	         armed_trader="NPCCharacter.AR_vae_armed_trader"
 	         caravan_guard="NPCCharacter.AR_vae_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_vae_vet_caravan_guard"
-	         duel_preset="NPCCharacter.vaegiria_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_vaegiria"
-	         guard="NPCCharacter.guard_vaegiria"
-	         blacksmith="NPCCharacter.blacksmith_vaegiria"
-	         weaponsmith="NPCCharacter.weaponsmith_vaegiria"
-	         townswoman="NPCCharacter.townswoman_vaegiria"
-	         townswoman_infant="NPCCharacter.townswoman_infant_vaegiria"
-	         townswoman_child="NPCCharacter.townswoman_child_vaegiria"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_vaegiria"
-	         townsman="NPCCharacter.townsman_vaegiria"
-	         townsman_infant="NPCCharacter.townsman_infant_vaegiria"
-	         townsman_child="NPCCharacter.townsman_child_vaegiria"
-	         townsman_teenager="NPCCharacter.townsman_teenager_vaegiria"
-	         village_woman="NPCCharacter.village_woman_vaegiria"
-	         villager_male_child="NPCCharacter.villager_child_vaegiria"
-	         villager_male_teenager="NPCCharacter.villager_teenager_vaegiria"
-	         villager_female_child="NPCCharacter.village_woman_child_vaegiria"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_vaegiria"
-	         ransom_broker="NPCCharacter.ransom_broker_vaegiria"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_vaegiria"
-	         merchant_notary="NPCCharacter.merchant_notary_vaegiria"
-	         artisan_notary="NPCCharacter.artisan_notary_vaegiria"
-	         preacher_notary="NPCCharacter.preacher_notary_vaegiria"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_vaegiria"
-	         shop_worker="NPCCharacter.shop_worker_vaegiria"
-	         tavernkeeper="NPCCharacter.tavernkeeper_vaegiria"
-	         taverngamehost="NPCCharacter.taverngamehost_vaegiria"
-	         musician="NPCCharacter.musician_vaegiria"
-	         tavern_wench="NPCCharacter.tavern_wench_vaegiria"
-	         armorer="NPCCharacter.armorer_vaegiria"
-	         horseMerchant="NPCCharacter.horseMerchant_vaegiria"
-	         barber="NPCCharacter.barber_vaegiria"
-	         merchant="NPCCharacter.merchant_vaegiria"
-	         beggar="NPCCharacter.beggar_vaegiria"
-	         female_beggar="NPCCharacter.female_beggar_vaegiria"
-	         female_dancer="NPCCharacter.female_dancer_vaegiria"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_vaegiria"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_vaegiria"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_vaegiria"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_vaegiria"
-	         gear_dummy="NPCCharacter.gear_dummy_vaegiria"
+	         duel_preset="NPCCharacter.AR_vae_duel_preset"
+	         prison_guard="NPCCharacter.AR_vae_prison_guard"
+	         guard="NPCCharacter.AR_vae_guard"
+	         blacksmith="NPCCharacter.AR_vae_blacksmith"
+	         weaponsmith="NPCCharacter.AR_vae_weaponsmith"
+	         townswoman="NPCCharacter.AR_vae_townswoman"
+	         townswoman_infant="NPCCharacter.AR_vae_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_vae_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_vae_townswoman_teenager"
+	         townsman="NPCCharacter.AR_vae_townsman"
+	         townsman_infant="NPCCharacter.AR_vae_townsman_infant"
+	         townsman_child="NPCCharacter.AR_vae_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_vae_townsman_teenager"
+	         village_woman="NPCCharacter.AR_vae_village_woman"
+	         villager_male_child="NPCCharacter.AR_vae_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_vae_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_vae_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_vae_village_woman_teenager"
+	         ransom_broker="NPCCharacter.AR_vae_ransom_broker"
+	         gangleader_bodyguard="NPCCharacter.AR_vae_gangleader_bodyguard"
+	         merchant_notary="NPCCharacter.AR_vae_merchant_notary"
+	         artisan_notary="NPCCharacter.AR_vae_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_vae_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_vae_rural_notable_notary"
+	         shop_worker="NPCCharacter.AR_vae_shop_worker"
+	         tavernkeeper="NPCCharacter.AR_vae_tavernkeeper"
+	         taverngamehost="NPCCharacter.AR_vae_taverngamehost"
+	         musician="NPCCharacter.AR_vae_musician"
+	         tavern_wench="NPCCharacter.AR_vae_tavern_wench"
+	         armorer="NPCCharacter.AR_vae_armorer"
+	         horseMerchant="NPCCharacter.AR_vae_horsemerchant"
+	         barber="NPCCharacter.AR_vae_barber"
+	         merchant="NPCCharacter.AR_vae_merchant"
+	         beggar="NPCCharacter.AR_vae_beggar"
+	         female_beggar="NPCCharacter.AR_vae_female_beggar"
+	         female_dancer="NPCCharacter.AR_vae_female_dancer"
+	         gear_practice_dummy="NPCCharacter.AR_vae_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_vae_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_vae_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_vae_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_vae_gear_dummy"
 	         board_game_type="Konane">
 		<vassal_reward_items>
 			<item id="Item.avalanche_2haxe"/>
@@ -3776,6 +3776,10 @@
 			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_0"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_1"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_2"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_0"/>
@@ -3786,25 +3790,29 @@
 			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_0"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_1"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_2"/>
+			<template name="NPCCharacter.AR_spc_ircara_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_vaegiria_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_vaegiria_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_one_participant_set_v2"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_vaegiria_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_vaegiria_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_vaegiria_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_vaegiria_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_vaegiria_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_vaegiria_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_vakken_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_nor_aux_recruit"/>
+			<template name="NPCCharacter.AR_min_ircara_t3"/>
+			<template name="NPCCharacter.AR_vae_aux_fem_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="massa"

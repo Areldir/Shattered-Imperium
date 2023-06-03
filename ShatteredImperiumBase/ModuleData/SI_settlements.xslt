@@ -1087,11 +1087,17 @@
 	<xsl:template match="Settlement[@id='town_S3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vaegiria_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S3']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S3_text}Omor sits on the eastern shores of Lake Laconis. For centuries, it has been a holy site for the Vakken forest tribes, who worship their gods and ancestors in the sacred oak trees of the nearby woods. Today, it has grown into an emporium for fur trappers and woodsmen who prowl the Ircara Wildlands to the east, and the primeval peace of the forests is drowned out by the sounds of bartering, saws, and the unloading of ships at the lake.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S3']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_S3_1']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S3_1_text}Chornobas - or ‘black wood’ - sits in lands cleared from the forests overlooking the cataract through which the Miron River empties into Lake Laconis. The villagers grow rye and barley in fields misted by the spray from the falls.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_S3_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
@@ -1139,7 +1145,7 @@
 	<xsl:template match="Settlement[@id='town_A1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_quyaz_1</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_A1']/@culture">
+	<xsl:template match="Settlement[@id='town_A1']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_1']/@culture">
@@ -1150,12 +1156,12 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_4']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Magonos -->
 	<xsl:template match="Settlement[@id='town_A6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_quyaz_2</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_A6']/@culture">
+	<xsl:template match="Settlement[@id='town_A6']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A6_1']/@culture">
@@ -1169,12 +1175,12 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A6_4']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Geranos -->
 	<xsl:template match="Settlement[@id='castle_A1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_quyaz_3</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_A1']/@culture">
+	<xsl:template match="Settlement[@id='castle_A1']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_A1_1']/@culture">
@@ -1182,12 +1188,12 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_A1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Barcoses -->
 	<xsl:template match="Settlement[@id='castle_A7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_quyaz_4</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_A7']/@culture">
+	<xsl:template match="Settlement[@id='castle_A7']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_A7_1']/@culture">
@@ -1195,7 +1201,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_A7_2']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!--
 	Jokbyalic Kingdom
 	-->
