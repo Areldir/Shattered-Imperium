@@ -1132,17 +1132,17 @@
 			<EquipmentSet id="AR_s_emp_ransom_broker_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_kan_merchant_notary" default_group="Infantry" name="{=reoVAtrE}Merchant Notary" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_kan_merchant_notary" default_group="Infantry" name="{=si_ar_kan_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
 		<skills/>
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
-			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_kan_artisan_notary" default_group="Infantry" name="{=ECxiXTbF}Artisan Notary" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_kan_artisan_notary" default_group="Infantry" name="{=si_ar_kan_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
@@ -1152,7 +1152,17 @@
 			<EquipmentSet id="AR_s_emp_villager_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_kan_preacher_notary" default_group="Infantry" name="{=bLMGbLF8}Preacher Notary" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_kan_preacher_notary" default_group="Infantry" name="{=si_ar_kan_preacher_notary}Priest" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kannic"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_rural_notable_notary" default_group="Infantry" name="{=si_ar_kan_rural_notable_notary}Quyazic Nobleman" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
@@ -1160,16 +1170,6 @@
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_kan_rural_notable_notary" default_group="Infantry" name="{=AlmaRAib}Rural Notable Notary" occupation="Townsfolk" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_kannic"/>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
-			<EquipmentSet id="AR_s_emp_villager_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_kan_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.kannic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -1230,6 +1230,467 @@
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 			<EquipmentSet id="AR_s_emp_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_gear_practice_dummy" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=si_ar_kan_gear_practice_dummy}Quyazic Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_gear_practice_dummy_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_weapon_practice_stage_1" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=si_ar_kan_weapon_practice_stage_1}Quyazic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_weapon_practice_stage_2" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=si_ar_kan_weapon_practice_stage_1}Quyazic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_weapon_practice_stage_3" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=si_ar_kan_weapon_practice_stage_1}Quyazic Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_kan_gear_dummy" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kannic" name="{=si_ar_kan_gear_dummy}Quyazic Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_obsolete="true">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_gear_dummy_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- QUYAZIC EMPIRE: Auxiliary And Mercenary Characters -->
+	<!-- LYSIAN HILLMEN -->
+	<NPCCharacter id="AR_spc_exploratores_nahasae_leader_0" name="{=si_ar_spc_exploratores_nahasae_leader_0}of Lysia" age="52" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_exploratores_nahasae_leader_1" name="{=si_ar_spc_exploratores_nahasae_leader_1}of Lysia" age="28" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_exploratores_nahasae_leader_2" name="{=si_ar_spc_exploratores_nahasae_leader_2}of Lysia" voice="softspoken" age="22" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_exploratores_nahasae_leader_3" name="{=si_ar_spc_exploratores_nahasae_leader_3}of Lysia" voice="softspoken" is_template="true" age="35" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Cavalry Archer Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_exploratores_t3" default_group="HorseArcher" level="16" name="{=LbjxH9yp}Nahasan Explorator" occupation="Mercenary" is_basic_troop="true" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_exploratores_t4_cav"/>
+			<upgrade_target id="NPCCharacter.AR_min_exploratores_t4_camel"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.empire_short_dress"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Cavalry Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_exploratores_t4_camel" default_group="HorseArcher" level="21" name="{=LbjxH9yp}Nahasan Dromedarius" occupation="Mercenary" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_exploratores_t5_camel"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.AR_empire_scout_armor_a"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_j"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.saracen_helmet_d_ii"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.southern_helmet_IIII"/>
+				<equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head" id="Item.AR_empire_desert_helmet_b"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_exploratores_t5_camel" default_group="HorseArcher" level="26" name="{=LbjxH9yp}Nahasan Dromedarius Armatus" occupation="Mercenary" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a"/>
+				<equipment slot="Body" id="Item.empire_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_j"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.southern_cone_helmet"/>
+				<equipment slot="Body" id="Item.AR_empire_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.AR_empire_desert_helmet_d"/>
+				<equipment slot="Body" id="Item.empire_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.southern_light_helmet_a"/>
+				<equipment slot="Body" id="Item.AR_empire_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Shock Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_exploratores_t4_cav" default_group="Cavalry" level="21" name="{=ARUvlu42}Nahasan Praeventor Equester" occupation="Mercenary" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_exploratores_t5_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_h"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_k"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_exploratores_t5_cav" default_group="Cavalry" level="26" name="{=ARUvlu43}Nahasan Excubitor Equester" occupation="Mercenary" culture="Culture.kannic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_r"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.eastern_studded_leather"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_l"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.ao_imperial_light_leather"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
+				<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_j"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.t2_empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>  
