@@ -1,0 +1,1953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- VAEGIRS: Levy Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_vae_villager" default_group="Infantry" level="6" name="{=si_ar_vae_villager}Vaegir Freeman" occupation="Villager" culture="Culture.vakken" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t2_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_vae_t2_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_villager_battletemplate"/>
+			<EquipmentSet id="AR_vae_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_vae_t2_spearman}Vaegir Borderer Warrior" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t3_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t2_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_vae_t3_spearman}Vaegir Borderer Spearman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t3_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_vae_t4_spearman}Vaegir Hardened Borderer Spearman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_vae_t5_spearman}Vaegir City Guard Spearman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Archer Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_t2_archer" default_group="Ranged" level="11" name="{=si_ar_vae_t2_archer}Vaegir Borderer Hunter" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t3_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t2_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Archer Medium Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_archer" default_group="Ranged" level="16" name="{=si_ar_vae_t3_archer}Vaegir Borderer Archer" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t3_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_archer" default_group="Ranged" level="21" name="{=si_ar_vae_t4_archer}Vaegir Hardened Borderer Archer" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_archer" default_group="Ranged" level="26" name="{=si_ar_vae_t5_archer}Vaegir City Guard Archer" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Field Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_vae_recruit" default_group="Infantry" level="6" name="{=si_ar_vae_recruit}Vaegir Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t2_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_vae_t2_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Sword Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_vae_t2_swordsman}Vaegir Footman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t3_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t2_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_vae_t3_swordsman}Vaegir Swordsman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t3_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_vae_t4_swordsman}Vaegir Junior Legionary" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_vae_t5_swordsman}Vaegir Senior Legionary" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t6_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Infantry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_vae_t6_swordsman}Vaegir Druzhinnik Legionary" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t6_swordsman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Skirmisher Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_t2_skirmisher" default_group="Ranged" level="11" name="{=si_ar_vae_t2_skirmisher}Vaegir Scout" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t3_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t2_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Skirmisher Light Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_skirmisher" default_group="Ranged" level="16" name="{=si_ar_vae_t3_skirmisher}Vaegir Javelinman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_skirmisher"/>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t3_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_skirmisher" default_group="Ranged" level="21" name="{=si_ar_vae_t4_skirmisher}Vaegir Junior Skirmisher" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_skirmisher" default_group="Ranged" level="26" name="{=si_ar_vae_t5_skirmisher}Vaegir Senior Skirmisher" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t6_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Skirmisher Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vae_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_vae_t6_skirmisher}Vaegir Druzhinnik Skirmisher" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t6_skirmisher_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Crossbowman Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_crossbowman" default_group="Ranged" level="21" name="{=si_ar_vae_t4_crossbowman}Vaegir Crossbowman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_crossbowman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Crossbowman Medium Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_crossbowman" default_group="Ranged" level="26" name="{=si_ar_vae_t5_crossbowman}Vaegir Seasoned Crossbowman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t6_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_crossbowman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Crossbowman Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vae_t6_crossbowman" default_group="Ranged" level="31" name="{=si_ar_vae_t6_crossbowman}Vaegir Druzhinnik Crossbowman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t6_crossbowman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Noble Troops -->
+	<!-- Recruit Elite Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_vae_elite_recruit" default_group="Infantry" level="11" name="{=si_ar_vae_elite_recruit}Vaegir Noble Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t3_elite_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_elite_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_vae_t3_elite_shock_inf" default_group="Infantry" level="16" name="{=si_ar_vae_t3_elite_shock_inf}Vaegir Noble Warrior" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_elite_shock_inf"/>
+			<upgrade_target id="NPCCharacter.AR_vae_t4_elite_lance_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t3_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Shock Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_elite_shock_inf" default_group="Infantry" level="21" name="{=si_ar_vae_t4_elite_shock_inf}Vaegir Glaiveman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_elite_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_elite_shock_inf" default_group="Infantry" level="26" name="{=si_ar_vae_t5_elite_shock_inf}Vaegir Seasoned Glaiveman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t6_elite_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Shock Infantry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t6_elite_shock_inf" default_group="Infantry" level="31" name="{=si_ar_vae_t6_elite_shock_inf}Vaegir Druzhinnik Glaiveman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t6_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Cavalry Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_t4_elite_lance_cav" default_group="Cavalry" level="21" name="{=si_ar_vae_t4_elite_lance_cav}Vaegir Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t5_elite_lance_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_elite_lance_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_t5_elite_lance_cav" default_group="Cavalry" level="26" name="{=si_ar_vae_t5_elite_lance_cav}Vaegir Seasoned Horseman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_t6_elite_lance_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_elite_lance_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Elite Cavalry Skirmisher Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vae_t6_elite_lance_cav" default_group="Cavalry" level="31" name="{=si_ar_vae_t6_elite_lance_cav}Vaegir Druzhinnik Horseguard" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t6_elite_lance_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Caravans -->
+	<!-- T3 Armed Trader Light Skill 40-70 -->
+	<NPCCharacter id="AR_vae_armed_trader" default_group="Ranged" level="16" name="{=si_ar_vae_armed_trader}Vaegir Armed Trader" occupation="CaravanGuard" culture="Culture.vakken" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_armed_trader_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Caravan Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_caravan_guard" default_group="Cavalry" level="21" name="{=si_ar_vae_caravan_guard}Vaegir Caravan Guard" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_caravan_guard_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_vae_vet_caravan_guard}Vaegir Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_vet_caravan_guard_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Caravan Master Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vae_caravan_master" default_group="Infantry" level="26" name="{=si_ar_vae_caravan_master}Vaegir Caravan Master" occupation="CaravanGuard" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_caravan_master_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Guards -->
+	<NPCCharacter id="AR_vae_prison_guard" default_group="Infantry" level="21" culture="Culture.vakken" occupation="PrisonGuard" name="{=si_ar_vae_prison_guard}Sturgian Prison Guard">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.vakken" name="{=si_ar_vae_guard}Guard" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_prison_guard_civiliantemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Civilians -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_vae_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_vae_village_woman}Vaegir Freewoman" occupation="Villager" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_aux_fem_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_n_emp_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_n_emp_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_villager_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Villager" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_villager_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Villager" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_villager_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Villager" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townsman" default_group="Infantry" level="1" name="{=si_ar_vae_townsman}Vaegir Freeman" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_vae_townswoman}Vaegir Freewoman" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townsman_infant" name="{=maleinfant}Infant" age="3" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townsman_child" name="{=malechild}Child" age="6" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townsman_teenager" name="{=maleteenager}Teenager" age="14" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+			<EquipmentSet id="AR_stu_villager_woman_child_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.vakken" name="{=!}Duellist" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_duel_preset_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.vakken" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_weaponsmith" default_group="Infantry" occupation="Weaponsmith" culture="Culture.vakken" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_weaponsmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_armorer" default_group="Infantry" occupation="Armorer" culture="Culture.vakken" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_armorer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_horsemerchant" default_group="Infantry" occupation="HorseTrader" culture="Culture.vakken" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_horsemerchant_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_merchant" default_group="Infantry" occupation="GoodsTrader" culture="Culture.vakken" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_horsemerchant_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_beggar_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_female_beggar" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_female_beggar_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_barber" default_group="Infantry" occupation="Townsfolk" culture="Culture.vakken" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_barber_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_barber_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_gangleader_bodyguard" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.vakken" level="16">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_stu_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_s_emp_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_stu_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_tournament_master" default_group="Infantry" occupation="ArenaMaster" culture="Culture.vakken" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_tournament_master_civiliantemplate"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_ransom_broker_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_ransom_broker_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_merchant_notary" default_group="Infantry" name="{=si_ar_vae_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_horsemerchant_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_horsemerchant_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_artisan_notary" default_group="Infantry" name="{=si_ar_vae_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_vae_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_preacher_notary" default_group="Infantry" name="{=si_ar_vae_preacher_notary}Shaman" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_stu_preacher_notary_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_rural_notable_notary" default_group="Infantry" name="{=si_ar_vae_rural_notable_notary}Vaegir Nobleman" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tournament_master_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_tournament_master_civiliantemplate"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_blacksmith_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_blacksmith_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_tavernkeeper" default_group="Infantry" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavernkeeper_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_taverngamehost" default_group="Infantry" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavernkeeper_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_musician" default_group="Infantry" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavernkeeper_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tavernkeeper_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_tavern_wench" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" occupation="TavernWench" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavern_wench_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_female_dancer" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" occupation="Townsfolk" culture="Culture.vakken" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+			<EquipmentSet id="AR_jok_tavern_wench_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_tavern_wench_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_gear_practice_dummy" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.vakken" name="{=si_ar_vae_gear_practice_dummy}Vaegir Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_gear_practice_dummy_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_weapon_practice_stage_1" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.vakken" name="{=si_ar_vae_weapon_practice_stage_1}Vaegir Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_weapon_practice_stage_2" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.vakken" name="{=si_ar_vae_weapon_practice_stage_1}Vaegir Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_weapon_practice_stage_3" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.vakken" name="{=si_ar_vae_weapon_practice_stage_1}Vaegir Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_gear_dummy" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.vakken" name="{=si_ar_vae_gear_dummy}Vaegir Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_obsolete="true">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="AR_stu_gear_dummy_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Auxiliary And Mercenary Characters -->
+	<!-- T3 Infantry Light Skill 40-70 -->
+	<NPCCharacter id="AR_vae_aux_fem_recruit" default_group="Infantry" is_female="true" level="16" name="{=si_ar_vae_aux_fem_recruit}Vaegir Camp Follower" occupation="Mercenary" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_aux_t4_fem_melee"/>
+			<upgrade_target id="NPCCharacter.AR_vae_aux_t4_fem_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_aux_fem_recruit_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_aux_t4_fem_melee" default_group="Infantry" is_female="true" level="21" name="{=si_ar_vae_aux_t4_fem_melee}Vaegir Spearwoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_aux_t5_fem_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_vae_aux_t5_fem_melee" default_group="Infantry" is_female="true" level="26" name="{=si_ar_vae_aux_t5_fem_melee}Vaegir Valkyrie Spearwoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_spearman_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vae_aux_t4_fem_archer" default_group="Ranged" is_female="true" level="21" name="{=si_ar_vae_aux_t4_fem_archer}Vaegir Bowwoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vae_aux_t5_fem_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_vae_aux_t5_fem_archer" default_group="Ranged" is_female="true" level="26" name="{=si_ar_vae_aux_t5_fem_archer}Vaegir Valkyrie Bowwoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VANNI -->
+	<NPCCharacter id="AR_spc_forest_people_leader_0" name="{=si_ar_spc_forest_people_leader_0}of the Vanni" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_forest_people_leaders"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_forest_people_leader_1" name="{=si_ar_spc_forest_people_leader_1}of the Vanni" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_forest_people_leaders"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_forest_people_leader_2" name="{=si_ar_spc_forest_people_leader_2}of the Vanni" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_forest_people_leaders"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_forest_people_leader_3" name="{=si_ar_spc_forest_people_leader_3}of the Vanni" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_forest_people_leaders"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Forester Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_forest_people_t3" default_group="Ranged" level="16" name="{=si_ar_min_forest_people_t3}Vanni Tribesman" occupation="Mercenary" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_forest_people_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_forest_people_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_forest_people_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Forester Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_forest_people_t4_melee" default_group="Ranged" level="21" name="{=si_ar_min_forest_people_t4_melee}Vanni Raider" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_forest_people_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_forest_people_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Forester Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_forest_people_t5_melee" default_group="Ranged" level="26" name="{=si_ar_min_forest_people_t5_melee}Vanni Warrior" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_forest_people_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Forester Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_forest_people_t4_archer" default_group="Ranged" level="21" name="{=si_ar_min_forest_people_t4_archer}Vanni Woodsman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_forest_people_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_forest_people_t4_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Forester Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_forest_people_t5_archer" default_group="Ranged" level="26" name="{=si_ar_min_forest_people_t5_archer}Vanni Huntsman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_forest_people_t5_archer_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VEZHA VALKYRIES -->
+	<NPCCharacter id="AR_spc_vezha_valkyries_leader_0" name="{=si_ar_spc_vezha_valkyries_leader_0}of Vezha" voice="ironic" age="48" is_template="true" is_female="true" default_group="HorseArcher" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_vezha_valkyries_leaders"/>
+			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_vezha_valkyries_leader_1" name="{=si_ar_spc_vezha_valkyries_leader_1}of Vezha" voice="softspoken" age="19" is_template="true" is_female="true" default_group="HorseArcher" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_vezha_valkyries_leaders"/>
+			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_vezha_valkyries_leader_2" name="{=si_ar_spc_vezha_valkyries_leader_2}of Vezha" voice="softspoken" age="32" is_template="true" is_female="true" default_group="HorseArcher" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_vezha_valkyries_leaders"/>
+			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_vezha_valkyries_leader_3" name="{=si_ar_spc_vezha_valkyries_leader_3}of Vezha" voice="softspoken" age="39" is_template="true" is_female="true" default_group="HorseArcher" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spc_vezha_valkyries_leaders"/>
+			<EquipmentSet id="stu_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_min_vezha_t3" default_group="Infantry" is_female="true" level="16" name="{=si_ar_min_vezha_t3}Vezha Initiate" occupation="Mercenary" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_vezha_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_vezha_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_vezha_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_vezha_t4_melee" default_group="Infantry" is_female="true" level="21" name="{=si_ar_min_vezha_t4_melee}Vezha Spearwoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_vezha_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_vezha_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_vezha_t5_melee" default_group="Infantry" is_female="true" level="26" name="{=si_ar_min_vezha_t5_melee}Vezha Valkyrie Spearwoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_vezha_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_vezha_t4_cavalry" default_group="HorseArcher" is_female="true" level="21" name="{=si_ar_min_vezha_t4_cavalry}Vezha Horsewoman" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_vezha_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_vezha_t4_cavalry_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_vezha_t5_cavalry" default_group="HorseArcher" is_female="true" level="26" name="{=si_ar_min_vezha_t5_cavalry}Vezha Valkyrie Horsewoman" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_vezha_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- IRCARA WOODSMEN -->
+	<NPCCharacter id="AR_spc_ircara_leader_0" name="{=si_ar_spc_ircara_leader_0}of the Ircarans" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t5_melee_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_ircara_leader_1" name="{=si_ar_spc_ircara_leader_1}of the Ircarans" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t5_melee_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_ircara_leader_2" name="{=si_ar_spc_ircara_leader_2}of the Ircarans" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t5_melee_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_ircara_leader_3" name="{=si_ar_spc_ircara_leader_3}of the Ircarans" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t5_melee_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Ircaran Medium Skill 40-70 -->
+	<NPCCharacter id="AR_min_ircara_t3" default_group="Infantry" level="16" name="{=si_ar_min_ircara_t3}Ircaran Tribesman" occupation="Mercenary" is_basic_troop="true" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_ircara_t4_melee"/>
+			<upgrade_target id="NPCCharacter.AR_min_ircara_t4_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t3_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Ircaran Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_ircara_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_ircara_t4_melee}Ircaran Warrior" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_ircara_t5_melee"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t4_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Ircaran Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_ircara_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_ircara_t5_melee}Ircaran Champion" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t5_melee_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Ircaran Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_ircara_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_min_ircara_t4_slinger}Ircaran Hurler" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_ircara_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t4_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Ircaran Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_ircara_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_min_ircara_t5_slinger}Ircaran Slinger" occupation="Mercenary" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_ircara_t5_slinger_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
