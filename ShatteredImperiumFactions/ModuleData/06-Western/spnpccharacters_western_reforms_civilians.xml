@@ -160,9 +160,7 @@
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
 		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_vlandia"/>
-		</upgrade_targets>
+		<upgrade_targets></upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
@@ -323,15 +321,6 @@
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.2731" build="0.4583" key="0000000800CC000A1060001110120111120961121030121122215410710110120057460305111102000000000000000000000000000000000000000006A40003"/>
 			<BodyPropertiesMax version="4" age="61.06" weight="0.8596" build="0.8503" key="0013D80E40CC0010EF7FFFFEDEEEEEEEFEFF7EFEFEF7FFEEEEEEFEEE8FFEEEFF06BDD6670BEEFEEE0000000000000000000000000000000000000000717440C3"/>
-			<!--hair_tags>
-        <hair_tag name="RestingOnShoulders" />
-        <hair_tag name="ShoulderLengthTied" />
-        <hair_tag name="BraidedAboveEars" />
-        <hair_tag name="Bobbed" />
-        <hair_tag name="RestingOnShoulders" />
-        <hair_tag name="ShoulderLengthTied" />
-        <hair_tag name="AboveShoulderLength" />
-      </hair_tags-->
 		</face>
 		<skills/>
 		<Equipments>
@@ -1896,7 +1885,7 @@
 		</face>
 		<skills/>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_camp_follower_massa"/>
+			<!--upgrade_target id="NPCCharacter.AR_camp_follower_massa"/-->
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">

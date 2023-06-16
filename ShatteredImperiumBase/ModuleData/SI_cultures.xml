@@ -9,8 +9,8 @@
 	         basic_troop="NPCCharacter.AR_s_emp_cavalry_recruit"
 	         melee_militia_troop="NPCCharacter.AR_s_emp_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_s_emp_t3_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_s_emp_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_s_emp_t4_archer"
+	         melee_elite_militia_troop="NPCCharacter.AR_s_emp_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_s_emp_t5_archer"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_s_empire_template"
@@ -67,11 +67,11 @@
 	         beggar="NPCCharacter.AR_s_emp_beggar"
 	         female_beggar="NPCCharacter.AR_s_emp_female_beggar"
 	         female_dancer="NPCCharacter.AR_s_emp_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_empire"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_empire"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_empire"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_empire"
-	         gear_dummy="NPCCharacter.gear_dummy_empire"
+	         gear_practice_dummy="NPCCharacter.AR_s_emp_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_s_emp_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_s_emp_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_s_emp_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_s_emp_gear_dummy"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -390,80 +390,64 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_empire_0"/>
-			<template name="NPCCharacter.spc_wanderer_empire_1"/>
-			<template name="NPCCharacter.spc_wanderer_empire_2"/>
-			<template name="NPCCharacter.spc_wanderer_empire_3"/>
-			<template name="NPCCharacter.spc_wanderer_empire_4"/>
-			<template name="NPCCharacter.spc_wanderer_empire_5"/>
-			<template name="NPCCharacter.spc_wanderer_empire_6"/>
-			<template name="NPCCharacter.spc_wanderer_empire_7"/>
-			<template name="NPCCharacter.spc_wanderer_empire_8"/>
-			<template name="NPCCharacter.spc_wanderer_empire_9"/>
-			<template name="NPCCharacter.spc_wanderer_empire_10"/>
-			<template name="NPCCharacter.spc_wanderer_empire_11"/>
-			<template name="NPCCharacter.spc_notable_empire_0"/>
-			<template name="NPCCharacter.spc_notable_empire_0b"/>
-			<template name="NPCCharacter.spc_notable_empire_1"/>
-			<template name="NPCCharacter.spc_notable_empire_1b"/>
-			<template name="NPCCharacter.spc_notable_empire_2"/>
-			<template name="NPCCharacter.spc_notable_empire_2b"/>
-			<template name="NPCCharacter.spc_notable_empire_3"/>
-			<template name="NPCCharacter.spc_notable_empire_3b"/>
-			<template name="NPCCharacter.spc_notable_empire_4"/>
-			<template name="NPCCharacter.spc_notable_empire_4b"/>
-			<template name="NPCCharacter.spc_notable_empire_5"/>
-			<template name="NPCCharacter.spc_notable_empire_6"/>
-			<template name="NPCCharacter.spc_notable_empire_7"/>
-			<template name="NPCCharacter.spc_notable_empire_8"/>
-			<template name="NPCCharacter.spc_notable_empire_9"/>
-			<template name="NPCCharacter.spc_notable_empire_10"/>
-			<template name="NPCCharacter.spc_notable_empire_11"/>
-			<template name="NPCCharacter.spc_notable_empire_12"/>
-			<template name="NPCCharacter.spc_notable_empire_13"/>
-			<template name="NPCCharacter.spc_notable_empire_21"/>
-			<template name="NPCCharacter.spc_notable_empire_22"/>
-			<template name="NPCCharacter.spc_notable_empire_gl1"/>
-			<template name="NPCCharacter.spc_notable_empire_gl4"/>
-			<template name="NPCCharacter.spc_empire_headman_1"/>
-			<template name="NPCCharacter.spc_empire_headman_2"/>
-			<template name="NPCCharacter.spc_empire_headman_3"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_0"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_1"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_2"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_3"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_4"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_5"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_6"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_7"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_8"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_9"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_10"/>
+			<template name="NPCCharacter.AR_s_emp_wanderer_11"/>
+			<template name="NPCCharacter.AR_s_emp_notable_0"/>
+			<template name="NPCCharacter.AR_s_emp_notable_0b"/>
+			<template name="NPCCharacter.AR_s_emp_notable_1"/>
+			<template name="NPCCharacter.AR_s_emp_notable_1b"/>
+			<template name="NPCCharacter.AR_s_emp_notable_2"/>
+			<template name="NPCCharacter.AR_s_emp_notable_2b"/>
+			<template name="NPCCharacter.AR_s_emp_notable_3"/>
+			<template name="NPCCharacter.AR_s_emp_notable_3b"/>
+			<template name="NPCCharacter.AR_s_emp_notable_4"/>
+			<template name="NPCCharacter.AR_s_emp_notable_4b"/>
+			<template name="NPCCharacter.AR_s_emp_notable_5"/>
+			<template name="NPCCharacter.AR_s_emp_notable_6"/>
+			<template name="NPCCharacter.AR_s_emp_notable_7"/>
+			<template name="NPCCharacter.AR_s_emp_notable_8"/>
+			<template name="NPCCharacter.AR_s_emp_notable_9"/>
+			<template name="NPCCharacter.AR_s_emp_notable_10"/>
+			<template name="NPCCharacter.AR_s_emp_notable_11"/>
+			<template name="NPCCharacter.AR_s_emp_notable_12"/>
+			<template name="NPCCharacter.AR_s_emp_notable_13"/>
+			<template name="NPCCharacter.AR_s_emp_notable_21"/>
+			<template name="NPCCharacter.AR_s_emp_notable_22"/>
+			<template name="NPCCharacter.AR_s_emp_notable_gl1"/>
+			<template name="NPCCharacter.AR_s_emp_notable_gl4"/>
+			<template name="NPCCharacter.AR_s_emp_headman_1"/>
+			<template name="NPCCharacter.AR_s_emp_headman_2"/>
+			<template name="NPCCharacter.AR_s_emp_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_0"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_1"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_2"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_3"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_0"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_1"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_2"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_3"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_0"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_0"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_1"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_2"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_0"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_1"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_2"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_3"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_0"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_1"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_2"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_3"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_0"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
-			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_0"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_1"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_2"/>
+			<template name="NPCCharacter.AR_spc_chandions_champions_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.AR_tournament_template_s_empire_one_participant_set_v1"/>
@@ -479,9 +463,9 @@
 			<template name="NPCCharacter.AR_tournament_template_s_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/> 
 			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="aserai"
@@ -493,8 +477,8 @@
 	         basic_troop="NPCCharacter.AR_ase_recruit"
 	         melee_militia_troop="NPCCharacter.AR_ase_t3_swordsman"
 	         ranged_militia_troop="NPCCharacter.AR_ase_t3_slinger"
-	         melee_elite_militia_troop="NPCCharacter.AR_ase_t4_swordsman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_ase_t4_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_ase_t5_swordsman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_ase_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_aserai_template"
@@ -787,8 +771,8 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="sturgia"
@@ -800,8 +784,8 @@
 	         basic_troop="NPCCharacter.AR_stu_recruit"
 	         melee_militia_troop="NPCCharacter.AR_stu_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_stu_t3_slinger"
-	         melee_elite_militia_troop="NPCCharacter.AR_stu_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_stu_t4_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_stu_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_stu_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_sturgia_template"
@@ -1769,8 +1753,8 @@
 	         basic_troop="NPCCharacter.AR_ilt_recruit"
 	         melee_militia_troop="NPCCharacter.AR_ilt_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_ilt_t3_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_ilt_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_ilt_t4_archer"
+	         melee_elite_militia_troop="NPCCharacter.AR_ilt_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_ilt_t5_archer"
 	         can_have_settlement="true"
 	         town_edge_number="4"
 	         villager_party_template="PartyTemplate.villager_khuzait_template"
@@ -2076,7 +2060,7 @@
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_w"
-	         name="{=AR_empirefaction_w_culture_name}Western Calradian"
+	         name="{=si_ar_empire_w_culture_name}Western Calradian"
 	         is_main_culture="false"
 	         color="FF4E3A55"
 	         color2="FFDE9953"
@@ -2084,8 +2068,8 @@
 	         basic_troop="NPCCharacter.AR_w_emp_recruit"
 	         melee_militia_troop="NPCCharacter.AR_w_emp_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_w_emp_t3_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_w_emp_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_w_emp_t4_archer"
+	         melee_elite_militia_troop="NPCCharacter.AR_w_emp_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_w_emp_t5_archer"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_w_empire_template"
@@ -2142,11 +2126,11 @@
 	         beggar="NPCCharacter.AR_w_emp_beggar"
 	         female_beggar="NPCCharacter.AR_w_emp_female_beggar"
 	         female_dancer="NPCCharacter.AR_w_emp_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_w_empire"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_w_empire"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_w_empire"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_w_empire"
-	         gear_dummy="NPCCharacter.gear_dummy_w_empire"
+	         gear_practice_dummy="NPCCharacter.AR_w_emp_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_w_emp_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_w_emp_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_w_emp_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_w_emp_gear_dummy"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -2465,44 +2449,44 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_empire_w_0"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_1"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_2"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_3"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_4"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_5"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_6"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_7"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_8"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_9"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_10"/>
-			<template name="NPCCharacter.spc_wanderer_empire_w_11"/>
-			<template name="NPCCharacter.spc_notable_w_empire_0"/>
-			<template name="NPCCharacter.spc_notable_w_empire_0b"/>
-			<template name="NPCCharacter.spc_notable_w_empire_1"/>
-			<template name="NPCCharacter.spc_notable_w_empire_1b"/>
-			<template name="NPCCharacter.spc_notable_w_empire_2"/>
-			<template name="NPCCharacter.spc_notable_w_empire_2b"/>
-			<template name="NPCCharacter.spc_notable_w_empire_3"/>
-			<template name="NPCCharacter.spc_notable_w_empire_3b"/>
-			<template name="NPCCharacter.spc_notable_w_empire_4"/>
-			<template name="NPCCharacter.spc_notable_w_empire_4b"/>
-			<template name="NPCCharacter.spc_notable_w_empire_5"/>
-			<template name="NPCCharacter.spc_notable_w_empire_6"/>
-			<template name="NPCCharacter.spc_notable_w_empire_7"/>
-			<template name="NPCCharacter.spc_notable_w_empire_8"/>
-			<template name="NPCCharacter.spc_notable_w_empire_9"/>
-			<template name="NPCCharacter.spc_notable_w_empire_10"/>
-			<template name="NPCCharacter.spc_notable_w_empire_11"/>
-			<template name="NPCCharacter.spc_notable_w_empire_12"/>
-			<template name="NPCCharacter.spc_notable_w_empire_13"/>
-			<template name="NPCCharacter.spc_notable_w_empire_21"/>
-			<template name="NPCCharacter.spc_notable_w_empire_22"/>
-			<template name="NPCCharacter.spc_notable_w_empire_gl1"/>
-			<template name="NPCCharacter.spc_notable_w_empire_gl4"/>
-			<template name="NPCCharacter.spc_w_empire_headman_1"/>
-			<template name="NPCCharacter.spc_w_empire_headman_2"/>
-			<template name="NPCCharacter.spc_w_empire_headman_3"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_0"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_1"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_2"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_3"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_4"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_5"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_6"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_7"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_8"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_9"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_10"/>
+			<template name="NPCCharacter.AR_w_emp_wanderer_11"/>
+			<template name="NPCCharacter.AR_w_emp_notable_0"/>
+			<template name="NPCCharacter.AR_w_emp_notable_0b"/>
+			<template name="NPCCharacter.AR_w_emp_notable_1"/>
+			<template name="NPCCharacter.AR_w_emp_notable_1b"/>
+			<template name="NPCCharacter.AR_w_emp_notable_2"/>
+			<template name="NPCCharacter.AR_w_emp_notable_2b"/>
+			<template name="NPCCharacter.AR_w_emp_notable_3"/>
+			<template name="NPCCharacter.AR_w_emp_notable_3b"/>
+			<template name="NPCCharacter.AR_w_emp_notable_4"/>
+			<template name="NPCCharacter.AR_w_emp_notable_4b"/>
+			<template name="NPCCharacter.AR_w_emp_notable_5"/>
+			<template name="NPCCharacter.AR_w_emp_notable_6"/>
+			<template name="NPCCharacter.AR_w_emp_notable_7"/>
+			<template name="NPCCharacter.AR_w_emp_notable_8"/>
+			<template name="NPCCharacter.AR_w_emp_notable_9"/>
+			<template name="NPCCharacter.AR_w_emp_notable_10"/>
+			<template name="NPCCharacter.AR_w_emp_notable_11"/>
+			<template name="NPCCharacter.AR_w_emp_notable_12"/>
+			<template name="NPCCharacter.AR_w_emp_notable_13"/>
+			<template name="NPCCharacter.AR_w_emp_notable_21"/>
+			<template name="NPCCharacter.AR_w_emp_notable_22"/>
+			<template name="NPCCharacter.AR_w_emp_notable_gl1"/>
+			<template name="NPCCharacter.AR_w_emp_notable_gl4"/>
+			<template name="NPCCharacter.AR_w_emp_headman_1"/>
+			<template name="NPCCharacter.AR_w_emp_headman_2"/>
+			<template name="NPCCharacter.AR_w_emp_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
 			<template name="NPCCharacter.AR_spc_guardians_leader_0"/>
@@ -2538,13 +2522,13 @@
 			<template name="NPCCharacter.AR_tournament_template_w_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/> 
 			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_n"
-	         name="{=AR_empirefaction_n_culture_name}Eastern Calradian"
+	         name="{=si_ar_empire_n_culture_name}Eastern Calradian"
 	         is_main_culture="false"
 	         color="FF4E3A55"
 	         color2="FFDE9953"
@@ -2552,8 +2536,8 @@
 	         basic_troop="NPCCharacter.AR_n_emp_recruit"
 	         melee_militia_troop="NPCCharacter.AR_n_emp_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_n_emp_t3_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_n_emp_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_n_emp_t4_archer"
+	         melee_elite_militia_troop="NPCCharacter.AR_n_emp_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_n_emp_t5_archer"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_n_empire_template"
@@ -2610,11 +2594,11 @@
 	         beggar="NPCCharacter.AR_n_emp_beggar"
 	         female_beggar="NPCCharacter.AR_n_emp_female_beggar"
 	         female_dancer="NPCCharacter.AR_n_emp_female_dancer"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_n_empire"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_n_empire"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_n_empire"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_n_empire"
-	         gear_dummy="NPCCharacter.gear_dummy_n_empire"
+	         gear_practice_dummy="NPCCharacter.AR_n_emp_gear_practice_dummy"
+	         weapon_practice_stage_1="NPCCharacter.AR_n_emp_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_n_emp_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_n_emp_weapon_practice_stage_3"
+	         gear_dummy="NPCCharacter.AR_n_emp_gear_dummy"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -2933,64 +2917,64 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_empire_n_0"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_1"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_2"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_3"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_4"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_5"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_6"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_7"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_8"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_9"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_10"/>
-			<template name="NPCCharacter.spc_wanderer_empire_n_11"/>
-			<template name="NPCCharacter.spc_notable_n_empire_0"/>
-			<template name="NPCCharacter.spc_notable_n_empire_0b"/>
-			<template name="NPCCharacter.spc_notable_n_empire_1"/>
-			<template name="NPCCharacter.spc_notable_n_empire_1b"/>
-			<template name="NPCCharacter.spc_notable_n_empire_2"/>
-			<template name="NPCCharacter.spc_notable_n_empire_2b"/>
-			<template name="NPCCharacter.spc_notable_n_empire_3"/>
-			<template name="NPCCharacter.spc_notable_n_empire_3b"/>
-			<template name="NPCCharacter.spc_notable_n_empire_4"/>
-			<template name="NPCCharacter.spc_notable_n_empire_4b"/>
-			<template name="NPCCharacter.spc_notable_n_empire_5"/>
-			<template name="NPCCharacter.spc_notable_n_empire_6"/>
-			<template name="NPCCharacter.spc_notable_n_empire_7"/>
-			<template name="NPCCharacter.spc_notable_n_empire_8"/>
-			<template name="NPCCharacter.spc_notable_n_empire_9"/>
-			<template name="NPCCharacter.spc_notable_n_empire_10"/>
-			<template name="NPCCharacter.spc_notable_n_empire_11"/>
-			<template name="NPCCharacter.spc_notable_n_empire_12"/>
-			<template name="NPCCharacter.spc_notable_n_empire_13"/>
-			<template name="NPCCharacter.spc_notable_n_empire_21"/>
-			<template name="NPCCharacter.spc_notable_n_empire_22"/>
-			<template name="NPCCharacter.spc_notable_n_empire_gl1"/>
-			<template name="NPCCharacter.spc_notable_n_empire_gl4"/>
-			<template name="NPCCharacter.spc_n_empire_headman_1"/>
-			<template name="NPCCharacter.spc_n_empire_headman_2"/>
-			<template name="NPCCharacter.spc_n_empire_headman_3"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_0"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_1"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_2"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_3"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_4"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_5"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_6"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_7"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_8"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_9"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_10"/>
+			<template name="NPCCharacter.AR_n_emp_wanderer_11"/>
+			<template name="NPCCharacter.AR_n_emp_notable_0"/>
+			<template name="NPCCharacter.AR_n_emp_notable_0b"/>
+			<template name="NPCCharacter.AR_n_emp_notable_1"/>
+			<template name="NPCCharacter.AR_n_emp_notable_1b"/>
+			<template name="NPCCharacter.AR_n_emp_notable_2"/>
+			<template name="NPCCharacter.AR_n_emp_notable_2b"/>
+			<template name="NPCCharacter.AR_n_emp_notable_3"/>
+			<template name="NPCCharacter.AR_n_emp_notable_3b"/>
+			<template name="NPCCharacter.AR_n_emp_notable_4"/>
+			<template name="NPCCharacter.AR_n_emp_notable_4b"/>
+			<template name="NPCCharacter.AR_n_emp_notable_5"/>
+			<template name="NPCCharacter.AR_n_emp_notable_6"/>
+			<template name="NPCCharacter.AR_n_emp_notable_7"/>
+			<template name="NPCCharacter.AR_n_emp_notable_8"/>
+			<template name="NPCCharacter.AR_n_emp_notable_9"/>
+			<template name="NPCCharacter.AR_n_emp_notable_10"/>
+			<template name="NPCCharacter.AR_n_emp_notable_11"/>
+			<template name="NPCCharacter.AR_n_emp_notable_12"/>
+			<template name="NPCCharacter.AR_n_emp_notable_13"/>
+			<template name="NPCCharacter.AR_n_emp_notable_21"/>
+			<template name="NPCCharacter.AR_n_emp_notable_22"/>
+			<template name="NPCCharacter.AR_n_emp_notable_gl1"/>
+			<template name="NPCCharacter.AR_n_emp_notable_gl4"/>
+			<template name="NPCCharacter.AR_n_emp_headman_1"/>
+			<template name="NPCCharacter.AR_n_emp_headman_2"/>
+			<template name="NPCCharacter.AR_n_emp_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_levoni_leader_0"/>
-			<template name="NPCCharacter.AR_spc_levoni_leader_1"/>
-			<template name="NPCCharacter.AR_spc_levoni_leader_2"/>
-			<template name="NPCCharacter.AR_spc_levoni_leader_3"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_0"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_levoni_leader_0"/>
-			<template name="NPCCharacter.AR_spc_levoni_leader_1"/>
-			<template name="NPCCharacter.AR_spc_levoni_leader_2"/>
-			<template name="NPCCharacter.AR_spc_levoni_leader_3"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_0"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
+			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.AR_tournament_template_n_empire_one_participant_set_v1"/>
@@ -3006,9 +2990,9 @@
 			<template name="NPCCharacter.AR_tournament_template_n_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/> 
 			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="kannic"
@@ -3020,8 +3004,8 @@
 	         basic_troop="NPCCharacter.AR_kan_recruit"
 	         melee_militia_troop="NPCCharacter.AR_kan_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_kan_t3_slinger"
-	         melee_elite_militia_troop="NPCCharacter.AR_kan_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_kan_t4_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_kan_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_kan_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_kannic_template"
@@ -3466,9 +3450,9 @@
 			<template name="NPCCharacter.AR_tournament_template_kannic_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_min_lysians_t3"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vakken"
@@ -4177,8 +4161,8 @@
 	         basic_troop="NPCCharacter.AR_dar_recruit"
 	         melee_militia_troop="NPCCharacter.AR_dar_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_dar_t3_slinger"
-	         melee_elite_militia_troop="NPCCharacter.AR_dar_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_dar_t4_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_dar_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_dar_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_darshi_template"
@@ -4447,6 +4431,8 @@
 			<template name="NPCCharacter.AR_dar_aux_recruit"/>
 			<template name="NPCCharacter.AR_min_ethawian_t3"/>
 			<template name="NPCCharacter.AR_min_ghilman_t3"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="byalic"
@@ -4458,8 +4444,8 @@
 	         basic_troop="NPCCharacter.AR_jok_recruit"
 	         melee_militia_troop="NPCCharacter.AR_jok_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_jok_t3_slinger"
-	         melee_elite_militia_troop="NPCCharacter.AR_jok_t4_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_jok_t4_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_jok_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_jok_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         militia_bonus="1"

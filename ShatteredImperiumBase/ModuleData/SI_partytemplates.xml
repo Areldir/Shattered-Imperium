@@ -849,7 +849,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_legion_t5_inf"/>
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_legion_t4_inf"/>
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_legion_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_legion_t5_cav"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_legion_t5_skirm"/>
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_legion_t4_skirm"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -1028,13 +1028,13 @@
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_ethawian_t4_skirmisher"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="party_template_exploratores_nahasae">
+	<MBPartyTemplate id="party_template_lysians">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_exploratores_t5_cav"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_exploratores_t4_cav"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_exploratores_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_exploratores_t5_camel"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_exploratores_t4_camel"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_lysians_t5_cavalry"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_lysians_t4_cavalry"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_lysians_t3"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_lysians_t5_archer"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_lysians_t4_archer"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_aracathans">
@@ -1057,11 +1057,11 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_saleas_sisters">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_sisters_t5_shock_inf"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_sisters_t4_shock_inf"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_sisters_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_sisters_t5_inf"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_sisters_t4_inf"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_emp_aux_gladiatrix_t5_sword"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_emp_aux_gladiatrix_t4_sword"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_emp_aux_gladiatrix_t5_spear"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_emp_aux_gladiatrix_t4_spear"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_silver_dragon_company">
@@ -1089,6 +1089,15 @@
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_ircara_t3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_ircara_t5_melee"/>
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_ircara_t4_melee"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="party_template_chandions_champions">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_emp_aux_gladiator_t5_sword"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_emp_aux_gladiator_t4_sword"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_emp_aux_gladiator_t5_spear"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_emp_aux_gladiator_t4_spear"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Bandits -->

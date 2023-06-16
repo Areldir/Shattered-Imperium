@@ -316,7 +316,7 @@
 	<!-- Mestricaros -->
 	<xsl:template match="Settlement[@id='castle_ES4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_3</xsl:attribute>
-	</xsl:template>		
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES4_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_ES4_2_text}Ethemisa sits on the river that the Aserai call the Nahr al-Kals - the ‘Bitter River’ - and what imperial citizens call the Calsa. Here, the river has just descended from the coastal hills and has not yet reached the alkali plains of the southeast. The lands around produce a fine crop of grain.</xsl:attribute>
 	</xsl:template>
@@ -330,7 +330,16 @@
 	<xsl:template match="Settlement[@id='town_EN3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_3</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_EN3']/@culture">
+	<xsl:template match="Settlement[@id='town_EN3']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EN3_text}Saneopa sits on a low pass leading from the Nevys Valley to the north to the pool of the Ophthys. The ancient Palaic peoples of this region, like the Battanians, treated lakes as sacred sites, and the Ophthys in particular was said to be a gateway to another world. Today, the Palaics are long gone, and Saneopa forms one of the heartland cities of the Calradian Empire. The hustle and bustle of Saneopa, one of the main trading centers of inland Calradia, stands in sharp contrast to the dark and silent waters below.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN3_1_text}Enoisa sits by the shores of the Ophthys, the eye, a deep lake in the hill country south of the Dryatic Mountains. Wheat grows here, fed by the ample rains of the north. Legend has it that this was once a shrine of the ancient Palaic people, who believed the lake was a gateway to another world.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN3_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN3_3_text}Crios lies nestled amid the limestone ridges of the eastern Dryatic Mountains. The highland soils make fine grazing for horses.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN3']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN3_1']/@culture">
@@ -338,11 +347,17 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN3_3']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_3</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EN1']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EN1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN1_1_text}Varagos sits on the Aris River, a small highland stream that flows into the deep pool known as the Ophthys. The land here is not especially rich, but is sufficient for the raising of sheep.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN1_2_text}Aeoria sits in the fertile Vale of the Aris, in the heartland of the Calradian Empire. The dialect here is laced with words from Palaic, the language spoken in the center of the continent before the Calradians came.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EN1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN1_1']/@culture">
@@ -350,7 +365,14 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
+	</xsl:template>
+	
+	
+	<!--xsl:template match="Settlement[@id='castle_village_EN1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN1_1_text}</xsl:attribute>
 	</xsl:template-->
+	
+	
 	<!-- Argoros -->
 	<xsl:template match="Settlement[@id='town_EN4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_2</xsl:attribute>
@@ -376,6 +398,10 @@
 	<xsl:template match="Settlement[@id='castle_village_EN5_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template-->
+	
+	
+	
+	
 	<!-- Osticos -->
 	<xsl:template match="Settlement[@id='town_ES1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_1</xsl:attribute>
@@ -497,6 +523,10 @@
 	<xsl:template match="Settlement[@id='castle_village_EN4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template-->
+	
+	
+	
+	
 	<!--
 	Western Calradian Republic
 	-->
@@ -505,7 +535,7 @@
 		<xsl:attribute name='name'>{=si_ar_town_V7_name}Charasea</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V7']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V7_text}The city of Charasea is traditionally reckoned to be the first Calradian colony on the shores of their new continent, marking the exact spot where Calradios the Great came ashore in times of old. At the Empire's height, when the capital moved north to Paravenos, Charasea remained a key hub of sea-faring and trade, growing increasingly wealthy on trade with the Nahasa, and across the Western Sea. However, the city’s fortunes would change when, in the year 913, a massive earthquake struck the Gulf of Charasea, leaving much of the ancient city in ruins. Whilst the city’s population, long made up primarily of Vlandian settlers, were quick to begin reconstruction, little of Charasea’s former splendour was left recognisable. Despite the destruction, and now the loss of most of the western provinces, life in Charasea appears to go on much as it always has. Trade continues to flow and imperial aristocrats still maintain their summer homes on the warm shores of the bay, cruising their pleasure-boats around its islands.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_V7_text}The city of Charasea is reckoned by tradition to be the first Calradian colony on the shores of their new continent, marking the exact spot where Calradios the Great came ashore in times of old. At the Empire's height, when the capital moved north to Paravenos, Charasea remained a key hub of seafaring and trade, growing increasingly wealthy on trade with the Nahasa, and across the Western Sea. However, the city’s fortunes would change when, in the year 913, a massive earthquake struck the Gulf of Charasea, leaving much of the ancient city in ruins. Whilst the city’s population, long made up primarily of Vlandian settlers, were quick to begin reconstruction, little of Charasea’s former splendour was left recognisable. Despite the destruction, and now the loss of most of the western provinces, life in Charasea appears to go on much as it always has. Trade continues to flow, and imperial aristocrats still maintain their summer homes on the warm shores of the gulf, cruising their pleasure-boats around its islands.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_9</xsl:attribute>
@@ -522,7 +552,7 @@
 	<xsl:template match="Settlement[@id='village_V7_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V7_2_text}The village of Vesinos lies by a creek running down from the Epiric Hills to the Bay of Charas. This warm land is well-suited to the growing of olive trees.</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_V7']/@culture">
+	<xsl:template match="Settlement[@id='town_V7']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V7_1']/@culture">
@@ -530,7 +560,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V7_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V1']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_V1_name}Usana Castle</xsl:attribute>
 	</xsl:template>
@@ -543,17 +573,26 @@
 	<xsl:template match="Settlement[@id='castle_village_V1_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_V1_1_text}Usana sits by a small bay that flows into the larger Bay of Charas. This warm southern land supports the growing of olive trees.</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_V1']/@culture">
+	<xsl:template match="Settlement[@id='castle_V1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V1_1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Dionicos -->
 	<xsl:template match="Settlement[@id='town_EW1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_3</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_EW1']/@culture">
+	<xsl:template match="Settlement[@id='town_EW1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EW1_text}The town of Lageta was infamously acquired by the Empire by an act of treachery. A rogue Calradian mercenary murdered the Palaic chieftain who employed him, took the citadel, invited in Calradian colonists, then bequeathed the town to their Emperor. The Senate disavowed his action but accepted the bequest. The district is now thoroughly Calradicized, but the Battanians to the north remember, and whenever a Calradian envoy speaks of the sanctity of treaties and pacts, they just nod to each other and say, 'Lageta’. Despite this, the dense forests of the region make industry in Lageta highly productive, drawing in new colonists and entrepreneurs from across the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW1_1_text}Primessos lies in the wooded upper reaches of the Gavys Valley. Pigs, fed on the acorns of the southern oak trees, thrive in this climate.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW1_2_text}Montos sits at the base of the Cursion Escarpment, near the Battanian frontier. The foresters here keep a watchful eye on their neighbors, always looking for raiding parties coming westward from the valley of the Miron River to their east.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EW1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EW1_1']/@culture">
@@ -561,11 +600,14 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EW1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EW4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_3</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EW4']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EW4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW4_2_text}Gamardan sits at the head of a small bay that branches off the larger Gulf of Charas. The wines of this region are unusually sweet and strong, and valued throughout the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EW4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW4_1']/@culture">
@@ -573,12 +615,21 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Varros -->
 	<xsl:template match="Settlement[@id='town_EW4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_2</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_EW4']/@culture">
+	<xsl:template match="Settlement[@id='town_EW4']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EW4_text}Ortysia, named for the quails who inhabit the nearby coastal marshes, was the first Calradian colony on the shores of the Perassic Sea. In its early centuries, it fell under the authority of the Kannic city-state of Quyaz, but the expansion of the Calradian Republic soon united the colony with its mother state. For centuries, sailors coming from the pirate-infested islands of the Bay of Charas gave thanks when they saw its towers looming through the haze of the western Perassic, signalling a return to safe Calradian-controlled waters.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW4_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW4_3_text}Vinela sits beneath the waterfalls where the Aminys River rushes down to join the Perassic Sea. Villagers collect salt from the sea in the shadow of coastal cliffs.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW4_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW4_4_text}Garengolia lies near a rich vein of silver in hills overlooking the Gavys River. The Calradian Empire have minted its denars from these mines for centuries.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EW4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EW4_1']/@culture">
@@ -589,11 +640,17 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EW4_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EW1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_2</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EW1']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EW1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW1_1_text}Garontor gives its name to the promontory between the Gulf of Charas and the inland Perassic sea. Coastal meadows, where tall grasses tolerant of the ocean salt-spray thrive, support the rearing of fine horses.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW1_2_text}Lysia gives its name to the narrow strait where the Perassic Sea joins the western ocean. It lies just on the Perassic side of the straits, near broad beaches that allow the farming of salt.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EW1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW1_1']/@culture">
@@ -601,12 +658,24 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Lonalion -->
 	<xsl:template match="Settlement[@id='town_EW6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_5</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_EW6']/@culture">
+	<xsl:template match="Settlement[@id='town_EW6']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EW6_text}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly after Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW6_1_text}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic Mountains. The villagers raise cattle in the highland pastures.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW6_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW6_3_text}Thersenion sits in the upper Aminys Valley, in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EW6_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EW6_4_text}Leblenion lies alongside the Aminys River in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EW6']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EW6_1']/@culture">
@@ -617,7 +686,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EW6_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Impestores -->
 	<xsl:template match="Settlement[@id='town_V1']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V1_name}Velucana</xsl:attribute>
@@ -646,13 +715,13 @@
 	<xsl:template match="Settlement[@id='village_V6_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V6_2_text}Padulis lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the western provinces of the Calradian Empire are well-suited to the growing of olives.</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match='Settlement[@id="village_V6_2"]/Components'>
+	<xsl:template match='Settlement[@id="village_V6_2"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Village id="village_comp_V6_2" village_type="VillageType.olive_trees" hearth="615" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
+			<Village id="village_comp_V6_2" village_type="VillageType.olive_trees" hearth="615" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</xsl:copy>
-	</xsl:template-->
-	<!--xsl:template match="Settlement[@id='town_V1']/@culture">
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_V1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V1_1']/@culture">
@@ -663,12 +732,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V6_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Sorados -->
 	<xsl:template match="Settlement[@id='castle_EW8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_6</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EW8']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EW8_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW8_1_text}Gersegos sits in the gorges of the Miron River, as it cuts between the cliffs of the Cursion Escarpment and the Dryatic Mountains. Villagers have sunk mines into a spur that overlooks the village, extracting silver and other precious metals.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW8_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW8_2_text}Vathea sits high on the slopes of the Dryatic Mountains, facing across the valley to the great basalt slab of Mount Erithrys. The villagers mine iron from shafts sunk deep into the cliffs of the mountains.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EW8']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW8_1']/@culture">
@@ -676,12 +751,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW8_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Corenios -->
 	<xsl:template match="Settlement[@id='castle_EW5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_7</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EW5']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EW5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW5_1_text}Veron in the foothills of the Uchalion Massif, near the headwaters of the Garys River. On summer nights the hills above the village are dotted with the fires of shepherds, taking their animals to graze on the upland pastures.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW5_2_text}Goleryn sits in the warm, oak-covered Epiric Hills, near both the Vlandian and Battanian frontiers. Sheep-raising is a way of life in these parts, as is sheep-rustling.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EW5']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW5_1']/@culture">
@@ -689,12 +770,15 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW5_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Maneolis -->
 	<xsl:template match="Settlement[@id='castle_EW6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_8</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EW6']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EW6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW6_2_text}Nideon sits on a low-lying meander of the Zeos River, in the shadow of the plutonic Mount Erithrys. Flax grows in fields reclaimed from the river marshlands.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EW6']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW6_1']/@culture">
@@ -702,12 +786,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW6_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Palladios -->
 	<xsl:template match="Settlement[@id='castle_EW7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_west_9</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EW7']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EW7_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW7_1_text}Oristocorys sits on the Bay of Ortysia, part of the seaway between the Western Ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EW7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EW7_2_text}Elvania sits on the Bay of Ortysia, part of the seaway between the Western Ocean and the Perassic Sea. Olive trees grow on the slopes of the nearby hills, warmed by the southern sun.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EW7']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW7_1']/@culture">
@@ -715,7 +805,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW7_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	
 
 
@@ -1112,12 +1202,21 @@
 	<xsl:template match="Settlement[@id='castle_village_S2_1']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S2_1_text}Mazhadan sits near the source of the Galchas River, just west of Lake Laconis. Villagers grow flax in the muddy valleys between the hills in this cold, rainy land.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_S2_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
-	<!-- Hrafnaving -->
+	<xsl:template match="Settlement[@id='castle_village_S2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S2_2_text}Forin sits among rye and barley fields next to the Galcha River, on the edge of the Ircara Wildlands. The village thrives on the grain it sells to the woodland fur-trapping communities.</xsl:attribute>
+	</xsl:template>
+	<!-- Dervoving -->
 	<xsl:template match="Settlement[@id='castle_B8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vaegiria_3</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S4_2_text}Ismilkorg sits on grassy downs between the Galcha and Vastra rivers, two small tributaries of the Miron. The people here are mostly cattle-herders as well as cattle-rustlers, and have long traded raids with the Calradian frontier villages to the east and Battanians to the west.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_B8']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
@@ -1138,6 +1237,12 @@
 	<xsl:template match="Settlement[@id='castle_EN9']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vaegiria_4</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN9_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN9_1_text}Mecalovea sits overlooking the Galchasic Cataracts, a series of rapids and waterfalls through which the Miron River empties into Lake Laconis. The village, perched on a cliffside for protection from raiders in this frontier region, thrives on the ore deposits exposed where the cataract cuts through the escarpment.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN9_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN9_2_text}Agalmon sits near the juncture of the Galchas and the Miron, two small but fast-flowing northern rivers. This foresting village has had mostly good relations with its Vakken and Sturgian neighbors thanks to decades of intermarriage, though they have become strained of late with the outbreak of war.</xsl:attribute>
+	</xsl:template>
 	<!--
 	Quyazic Empire
 	-->
@@ -1148,14 +1253,32 @@
 	<xsl:template match="Settlement[@id='town_A1']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_A1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_A1_text}The city of Quyaz was once the beating heart of a mercantile republic that dominated the trade between the Western Ocean and the Perassic Sea, speaking the now all-but-extinct Kannic tongue - a relative of Nahasawi. Centuries ago, the hegemonic Calradians overtook the Quyazic Republic and slowly snuffed out their trade, and the rulers of the city were taken over by mercenaries from the Nahasa. However, the Calradian Empire has since preferred to leave the governance of Quyaz to itself, with a council of local nobility running the city in a senate not dissimilar to that of their old republic. Today, it stands as the final bastion of a resurgent Kannic culture, albeit heavily watered down by the centuries-long influences of the Calradians.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_1']/@name">
+		<xsl:attribute name='name'>{=si_ar_village_A1_1_name}Selakhora</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_1']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A1_1_text}Selakhora - known as ‘Tasheba’ in the language of the Nahasa - lies on the western edges of the Perassic Sea. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_2']/@name">
+		<xsl:attribute name='name'>{=si_ar_village_A1_2_name}Baqos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A1_2_text}Baqos slightly inland from the Perassic Sea, beneath the great granite outcrop of the Jabal Tamar. The sea winds bring the uplands here just enough rain to support the cultivation of olive trees.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_4']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_4']/@text">
+		<xsl:attribute name='text'></xsl:attribute>
 	</xsl:template>
 	<!-- Magonos -->
 	<xsl:template match="Settlement[@id='town_A6']/@owner">
@@ -1500,7 +1623,7 @@
 	<xsl:template match="Settlement[@id='town_V3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_paravenos_1</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_V3']/@culture">
+	<xsl:template match="Settlement[@id='town_V3']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_2']/@culture">
@@ -1511,7 +1634,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	
 	
 </xsl:stylesheet>

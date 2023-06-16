@@ -799,7 +799,7 @@
 			<EquipmentSet id="AR_vae_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_8_17" name="Diocosos" age="45" voice="curt" is_hero="true" default_group="Cavalry" culture="Culture.vakken" occupation="Lord">
+	<NPCCharacter id="AR_lord_8_17" name="Diocosos" age="45" voice="curt" is_hero="true" default_group="Cavalry" culture="Culture.empire" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="44" weight="0.3515" build="0.3943" key="00104C0D80CC334D8899787495DC37DA4E699263877A85874735B45C5974771D0096560309C562C700000000000000000000000000000000000000001F2C7042"/>
 		</face>
@@ -818,7 +818,7 @@
 			<EquipmentSet id="AR_vae_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_8_18" name="Theodora" age="44" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vakken" occupation="Lord">
+	<NPCCharacter id="AR_lord_8_18" name="Theodora" age="44" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="44" weight="0.4414" build="0.4923" key="0015240540E40015696358A72768CCACE97759874B8C523667D36A26754386890087660308E34AD8000000000000000000000000000000000000000069144043"/>
 		</face>
@@ -837,7 +837,7 @@
 			<EquipmentSet id="AR_vae_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_8_19" name="Lorea" age="26" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vakken" occupation="Lord">
+	<NPCCharacter id="AR_lord_8_19" name="Lorea" age="26" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="26" weight="0.4214" build="0.4923" key="0015580C40E4200AA59B28C49E49B987837399709369B6344D6572B6BB394E9E0067660306928977000000000000000000000000000000000000000068C42003"/>
 		</face>
@@ -855,7 +855,7 @@
 			<EquipmentSet id="AR_vae_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_8_20" name="Sarapios" age="24" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vakken" occupation="Lord">
+	<NPCCharacter id="AR_lord_8_20" name="Sarapios" age="24" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="24" weight="0.2238" build="0.3375" key="0015580C40E40005A5BA969A6739D57496A899709369B6349814BA335999989600753603078CC745000000000000000000000000000000000000000068F47002"/>
 		</face>
@@ -891,7 +891,7 @@
 			<EquipmentSet id="AR_vae_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_8_22" name="Velina" age="21" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vakken" occupation="Lord">
+	<NPCCharacter id="AR_lord_8_22" name="Velina" age="21" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="21" weight="0.2238" build="0.3375" key="00105806C0E4100BA5844C953BB8A585E97799709369B634DCC6ACA47543868900753603075585C2000000000000000000000000000000000000000068EC10C3"/>
 		</face>
@@ -3404,124 +3404,6 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MINOR FACTION LORDS -->
-	<NPCCharacter id="AR_spc_legion_of_the_betrayed_leader_0" name="{=7hrmlfxh}of the Legion" voice="curt" is_template="true" age="40" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lost_legion_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_legion_of_the_betrayed_leader_1" name="{=7hrmlfxh}of the Legion" voice="earnest" age="37" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lost_legion_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_legion_of_the_betrayed_leader_2" name="{=7hrmlfxh}of the Legion" voice="ironic" age="34" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lost_legion_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_legion_of_the_betrayed_leader_3" name="{=7hrmlfxh}of the Legion" voice="curt" age="42" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-			<hair_tags>
-				<hair_tag name="Bald"/>
-				<hair_tag name="ShortAndThin"/>
-				<hair_tag name="Tousled"/>
-				<hair_tag name="Short"/>
-			</hair_tags>
-			<beard_tags>
-				<beard_tag name="Cleanshaven"/>
-				<beard_tag name="LightShortBeard"/>
-				<beard_tag name="HeavyShortBeard"/>
-				<beard_tag name="Cleanshaven"/>
-			</beard_tags>
-		</face>
-		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_lost_legion_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<NPCCharacter id="AR_spc_company_of_the_boar_leader_0" name="{=eobXmmLg}the Boar" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -4143,77 +4025,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_spc_aracathans_leaders"/>
 			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- saleas sisters -->
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_0" name="{=7hrmlfxh}of the Sisters" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_saleas_sisters_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_1" name="{=7hrmlfxh}of the Sisters" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_saleas_sisters_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_2" name="{=7hrmlfxh}of the Sisters" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_saleas_sisters_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_3" name="{=7hrmlfxh}of the Sisters" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_saleas_sisters_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- NPC LORDS EDUCATION TEMPLATES -->

@@ -11,7 +11,7 @@
 	<xsl:template match='NPCCharacter[@id="caravan_master_aserai"]/skills'>
 		<xsl:copy>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="100"/>
+			<skill id="Riding" value="160"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -33,7 +33,7 @@
 	<xsl:template match='NPCCharacter[@id="caravan_master_empire"]/skills'>
 		<xsl:copy>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="70"/>
+			<skill id="Riding" value="120"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -47,8 +47,6 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet id="AR_s_emp_caravan_master_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.empire_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='caravan_master_khuzait']/@name">
@@ -57,7 +55,7 @@
 	<xsl:template match='NPCCharacter[@id="caravan_master_khuzait"]/skills'>
 		<xsl:copy>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="130"/>
+			<skill id="Riding" value="200"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -79,7 +77,7 @@
 	<xsl:template match='NPCCharacter[@id="caravan_master_sturgia"]/skills'>
 		<xsl:copy>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="70"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1786,6 +1784,60 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="poacher"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="sword_sisters_sister_t3"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="sword_sisters_sister_t4"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="sword_sisters_sister_t5"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="sword_sisters_sister_infantry_t5"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="eastern_mercenary"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="eastern_mercenary_t4"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="eastern_mercenary_t5"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="eastern_mounted_mercenary_t4"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="eastern_mounted_mercenary_t5"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
 			<xsl:apply-templates select="@* | node()"/>

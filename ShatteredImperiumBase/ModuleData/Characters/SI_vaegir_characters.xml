@@ -639,7 +639,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Cavalry Skirmisher Medium Skill 60-100 -->
+	<!-- T4 Elite Lance Cavalry Medium Skill 60-100 -->
 	<NPCCharacter id="AR_vae_t4_elite_lance_cav" default_group="Cavalry" level="21" name="{=si_ar_vae_t4_elite_lance_cav}Vaegir Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -662,7 +662,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Cavalry Skirmisher Heavy Skill 60-130 -->
+	<!-- T5 Elite Lance Cavalry Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_vae_t5_elite_lance_cav" default_group="Cavalry" level="26" name="{=si_ar_vae_t5_elite_lance_cav}Vaegir Seasoned Horseman" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -685,7 +685,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T6 Elite Cavalry Skirmisher Heavy Skill 80-180 -->
+	<!-- T6 Elite Lance Cavalry Heavy Skill 80-180 -->
 	<NPCCharacter id="AR_vae_t6_elite_lance_cav" default_group="Cavalry" level="31" name="{=si_ar_vae_t6_elite_lance_cav}Vaegir Druzhinnik Horseguard" occupation="Soldier" culture="Culture.vakken">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
@@ -1486,7 +1486,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
@@ -1510,7 +1510,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1533,7 +1533,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1554,7 +1554,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1577,7 +1577,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1670,7 +1670,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="70"/>
@@ -1694,7 +1694,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -1717,7 +1717,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -1738,7 +1738,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1761,7 +1761,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1845,7 +1845,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
@@ -1869,7 +1869,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1892,7 +1892,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -1913,7 +1913,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="100"/>
 			<skill id="Polearm" value="60"/>
@@ -1936,7 +1936,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="100"/>
 			<skill id="Polearm" value="60"/>
@@ -1948,6 +1948,119 @@
 		<Equipments>
 			<EquipmentSet id="AR_min_ircara_t5_slinger_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- CALRADIAN VAEGIR GUARD -->
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_vaegir_recruit" default_group="Infantry" level="16" name="{=si_ar_emp_aux_vaegir_recruit}Vaegir Guard Footman" is_basic_troop="true" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vaegir_t4_infantry"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vaegir_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t3_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Shock Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_vaegir_t4_infantry" default_group="Infantry" level="21" name="{=si_ar_emp_aux_vaegir_t4_infantry}Vaegir Guard Glaiveman" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vaegir_t5_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_vaegir_t5_infantry" default_group="Infantry" level="26" name="{=si_ar_emp_aux_vaegir_t5_infantry}Vaegir Guard Champion" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_elite_shock_inf_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Lance Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_vaegir_t4_cavalry" default_group="Cavalry" level="21" name="{=si_ar_emp_aux_vaegir_t4_cavalry}Vaegir Guard Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vaegir_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t4_elite_lance_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Lance Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_vaegir_t5_cavalry" default_group="Cavalry" level="26" name="{=si_ar_emp_aux_vaegir_t5_cavalry}Vaegir Guard Lancer" occupation="Soldier" culture="Culture.vakken">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vae_t5_elite_lance_cav_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
