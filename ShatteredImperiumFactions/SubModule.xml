@@ -24,6 +24,28 @@
 	<SubModules>
 	</SubModules>
 	<Xmls>
+	
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="02-Barbarian/SI_battania_characters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="02-Barbarian/SI_battania_equipmentsets"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	
+	
+	
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="SI_notable_characters"/>
 			<IncludedGameTypes>
@@ -61,15 +83,6 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="01-Empire/SI_s_empire_characters"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
 			<XmlName id="NPCCharacters" path="01-Empire/SI_n_empire_characters"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
@@ -80,15 +93,6 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="01-Empire/spnpccharacters_empire_reforms_auxiliaries"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="01-Empire/SI_s_empire_equipmentsets"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>

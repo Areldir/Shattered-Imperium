@@ -366,18 +366,20 @@
 	<xsl:template match="Settlement[@id='castle_village_EN1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
-	
-	
-	<!--xsl:template match="Settlement[@id='castle_village_EN1_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_EN1_1_text}</xsl:attribute>
-	</xsl:template-->
-	
-	
 	<!-- Argoros -->
 	<xsl:template match="Settlement[@id='town_EN4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_2</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_EN4']/@culture">
+	<xsl:template match="Settlement[@id='town_EN4']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EN4_text}The city of Argoron sits where the cold, slow moving Nevys River meets Lake Laconis. This was once the land of the Laconians, who saw the Calradian Empire as a protector against the more warlike Palaic peoples. They welcomed and intermarried with Calradian settlers and their chiefs soon joined the Senate, whilst their old language and customs gradually faded away.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN4_2_text}Alatys lies on the flat southern end of Lake Laconis, on delta lowlands formed by the River Nevys. The waters of the lake, which are very shallow and muddy here, are well-stocked with flounder and crayfish, while trout can be fished upstream in the Nevys.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN4_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN4_4_text}Hetania sits beneath a spur on the far northeastern bend of the Dryatic Mountains. As in many villages around here, the foresters of this region still speak the Palaic languages of the tribes who lived here before the coming of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN4_2']/@culture">
@@ -385,11 +387,11 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN4_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_EN5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_2</xsl:attribute>
-	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EN5']/@culture">
+	</xsl:template>	
+	<xsl:template match="Settlement[@id='castle_EN5']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN5_1']/@culture">
@@ -397,16 +399,24 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN5_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
-	
-	
-	
-	
+	</xsl:template>
 	<!-- Osticos -->
 	<xsl:template match="Settlement[@id='town_ES1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_1</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_ES1']/@culture">
+	<xsl:template match="Settlement[@id='town_ES1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_ES1_text}The frontier city of Danustica dominates the network of lakes and lagoons known as the Calsea, in the eastern provinces of the Calradian Empire. It has long held the line against incursions by the Aserai and various Darshi shahs and padishahs further to the east. Many a Calradian legionary stationed here has scribbled graffiti on its walls cursing the city's sweltering summers, brackish water and the mosquitos that rise from the Calsea, but the inhabitants are proud of their role as border defenders and mock the soldiers wilting in the heat around them.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES1_2_text}Polisia sits among the network of rivers and lakes known as the Calsea near the Aserai borderlands. Villagers harvest salt from a lagoon to their west, a former inlet of the Perassic Sea that was cut off by a sandspit. These lowlands are shunned by many others in Calradia, who find the air thick and fetid, but the inhabitants are proud of their role keeping watch on the Aserai.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES1_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES1_3_text}Tegresos sits just north of the River Calsa, right before it enters the network of lakes, creeks and lagoons that form the borderlands with the Aserai. The inhabitants of this region have bred sheep that feed on marsh-grasses.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES1_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES1_4_text}Erebulos lies by a lagoon that was formerly part of the Perassic Sea, closed by a recently formed sandspit. Villagers scoop clay from the creek-bottoms here, selling it to the pottery kilns of Danustica and other nearby towns.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_ES1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_ES1_2']/@culture">
@@ -417,11 +427,17 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_ES1_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_ES1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_1</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_ES1']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_ES1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES1_1_text}Odrysa lies on the far eastern frontiers of the Calradian Empire, just across the River Tiagys from the Darshi-speaking lands of the steppe. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES1_2_text}Caira sits amid the network of rivers, lakes and lagoons known as the Calsea. Any further east, the land becomes alkaline and barren, but here the floodplains of the parallel Calsa and Tiagys rivers allow the growing of wheat.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_ES1']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES1_1']/@culture">
@@ -429,12 +445,15 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Julios -->
 	<xsl:template match="Settlement[@id='town_ES7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_5</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_ES7']/@culture">
+	<xsl:template match="Settlement[@id='town_ES7']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_ES7_text}Syronea sits on the western shores of Lake Tanaesis. This city - a byword for luxury and decadence - is one of the most powerful, rich and peaceful in the Calradian Empire. It is the center of the Calradian silk industry and an entrepot for the goods flowing in from the lands known to imperial administrators as Transtanaesia - the possessions and protectorates beyond the great lake comprising the Tanash City States. Indeed, though the Tanashi have recently risen in assertiveness and the eastern provinces have recently fallen to rebellion and civil war, the silk trade has diminished little and life in Syronea goes on much as it always has.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_ES7']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_ES7_1']/@culture">
@@ -442,11 +461,17 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_ES7_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_ES2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_5</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_ES2']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_ES2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES2_1_text}Corenia is one of the farthest flung villages of the Calradian Empire to speak the Calradic tongue. It sits in the plains southeast of Lake Tanaesis in the shadow of the Akkan Hills, beyond which is spoken only Darshi and the languages of the steppe. Villagers grow grain here, keeping watch for raiders from across the frontiers.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES2_2_text}Metachia lies on the southern shores of Lake Tanaesis, in the frontier lands beyond the River Tiagys. This colony of the Calradian Empire, established in more peaceful times, is a center for mulberry bushes used in silk production.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_ES2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES2_1']/@culture">
@@ -454,12 +479,21 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES2_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Dolentos -->
 	<xsl:template match="Settlement[@id='town_EN5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_5</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_EN5']/@culture">
+	<xsl:template match="Settlement[@id='town_EN5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_EN5_text}Myzea gives its name to the ‘Myzead’ - the rich hill country in the eastern provinces of the Calradian Empire. This region was the territory of the senator Litos Dolentos, who brought the Palaic tribes here into the imperial fold relatively peacefully by offering them protection against raiders from the steppes. When he fell afoul of his rivals in the Senate, however, he tried to organize them into a rival 'barbarian' republic modelled on the ancient Calradian version. The Calradian Empire quickly snuffed this ‘Myzean Republic’ out, but the people here, now thoroughly Calradicized, still harbor an attachment to the old republican system and its partisans.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN5_1_text}Vealos sits in the slowly-rising eastern slopes of the Dryatic Mountains, in the eastern provinces of the Calradian Empire. Although mostly covered with beech and oak woods, the mountain slopes provide good grazing for horses and has traditionally been home to stud farms for the imperial cavalry.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN5_2_text}Orthra - or ‘the dawn’ - is a relatively recent settlement. It was named by a cavalry officer for its fine eastward views of the Myzead - the hill country in the eastern provinces of the Calradian Empire. It was founded as a stud farm to breed imperial horses with steppe stock from the east, and continues to provide horses for the imperial cavalry.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN5']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN5_1']/@culture">
@@ -467,12 +501,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN5_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Lascaris -->
 	<xsl:template match="Settlement[@id='town_ES5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_6</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='town_ES5']/@culture">
+	<xsl:template match="Settlement[@id='town_ES5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_ES5_text}The city of Onira is located in the southern Tanaeitic Plain, in the eastern provinces of the Calradian Empire. It is famous for the ‘tale of Sarpea of Onira’ - one of the epic poems of the eastern frontier. Like many, it seems written to justify the Calradian conquest. Sarpea - a senator's daughter - was seized by a Palaic chieftain and carried to his citadel here. When the imperial armies appeared before its walls years later to rescue her, she begged them to retreat for the sake of her infant son, whom her fearsome husband had threatened to hurl from the walls instead of allowing him to be captured and raised by his mother's people. The legions withdrew, so the story says, but the boy grew into a warrior who joined the Calradian Empire and slew his father. It is now the center of a horse-breeding industry on the eastern plains.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_ES5_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_ES5_3_text}Parasemnos sits in a low pass linking the Tanaeitic Plain with the valley of the Calsa River. The villagers raise sheep on brushlands that have been turned into pasture.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_ES5']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_ES5_1']/@culture">
@@ -483,12 +523,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_ES5_3']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Avlonos -->
 	<xsl:template match="Settlement[@id='castle_ES3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_7</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_ES3']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_ES3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES3_1_text}Melion in a narrow valley near the center of the Myzead -a rugged plateau in the east of the Calradian Empire. Villagers here cultivate mulberry bushes. The leaves are harvested and fed to silkworks, producing thread much valued by both refined imperial nobles for their courtwear and hard-riding nomads and frontiersmen, who wear it beneath their armor as an extra layer of protection against arrows.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES3_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES3_2_text}Sagolina sits at the foot of a narrow valley in the Myzead, a rugged plateau in eastern Calradia. The silver mined from nearby hills helps explain the effort and expense to which the Calradian Empire has gone in past centuries to conquer and defend these lands.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_ES3']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES3_1']/@culture">
@@ -496,12 +542,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES3_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Vetranis -->
 	<xsl:template match="Settlement[@id='castle_ES7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_south_9</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_ES7']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_ES7_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES7_1_text}Jogurys lies on the flat western shores of Lake Tanaesis. This land was originally inhabited by nomadic tribes and has come under cultivation only recently. Calradian colonists have made intensive efforts to grow mulberry bushes here to raise silkworms - a lucrative product in this region.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_ES7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_ES7_2_text}Eunalica sits on the western shores of Lake Tanaesis, in a fertile plain only recently colonized by the Calradian Empire. This low-lying country is fine land for the growing of flax.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_ES7']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES7_1']/@culture">
@@ -509,12 +561,18 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_ES7_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
+	</xsl:template>
 	<!-- Diogenos -->
 	<xsl:template match="Settlement[@id='castle_EN4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_8</xsl:attribute>
 	</xsl:template>
-	<!--xsl:template match="Settlement[@id='castle_EN4']/@culture">
+	<xsl:template match="Settlement[@id='castle_village_EN4_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN4_1_text}Gaos sits in a broad valley in the Myzead - the hill country in the east of the Calradian Empire. Nomadic herders once occupied this land, and the village's name is taken from their word for the abundant cattle that graze in this region.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN4_2_text}Themys lies under a ridge of limestone crags in the Myzead - the hill country in the eastern provinces of the Calradian Empire. The grasses on the rolling downs are well-suited to the raising of sheep.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EN4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN4_1']/@culture">
@@ -522,11 +580,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
-	</xsl:template-->
-	
-	
-	
-	
+	</xsl:template>
 	<!--
 	Western Calradian Republic
 	-->
@@ -1250,39 +1304,51 @@
 	<xsl:template match="Settlement[@id='town_A1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_quyaz_1</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='town_A1']/@culture">
-		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A1']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_A1_text}The city of Quyaz was once the beating heart of a mercantile republic that dominated the trade between the Western Ocean and the Perassic Sea, speaking the now all-but-extinct Kannic tongue - a relative of Nahasawi. Centuries ago, the hegemonic Calradians overtook the Quyazic Republic and slowly snuffed out their trade, and the rulers of the city were taken over by mercenaries from the Nahasa. However, the Calradian Empire has since preferred to leave the governance of Quyaz to itself, with a council of local nobility running the city in a senate not dissimilar to that of their old republic. Today, it stands as the final bastion of a resurgent Kannic culture, albeit heavily watered down by the centuries-long influences of the Calradians.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_A1_1']/@name">
-		<xsl:attribute name='name'>{=si_ar_village_A1_1_name}Selakhora</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_A1_1']/@culture">
-		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_A1_1_text}Selakhora - known as ‘Tasheba’ in the language of the Nahasa - lies on the western edges of the Perassic Sea. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='village_A1_2']/@culture">
-		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	<xsl:template match="Settlement[@id='village_A1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A1_2_text}Baqos slightly inland from the Perassic Sea, beneath the great granite outcrop of the Jabal Tamar. The sea winds bring the uplands here just enough rain to support the cultivation of olive trees.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_1']/@name">
+		<xsl:attribute name='name'>{=si_ar_village_A1_1_name}Selakhora</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_2']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_A1_2_name}Baqos</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='village_A1_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_A1_2_text}Baqos slightly inland from the Perassic Sea, beneath the great granite outcrop of the Jabal Tamar. The sea winds bring the uplands here just enough rain to support the cultivation of olive trees.</xsl:attribute>
+	<xsl:template match="Settlement[@id='town_A1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_4']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='village_A1_4']/@text">
-		<xsl:attribute name='text'></xsl:attribute>
-	</xsl:template>
 	<!-- Magonos -->
 	<xsl:template match="Settlement[@id='town_A6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_quyaz_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_A6']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_A6_text}The port city of Sanala is the gateway through which the grain of the lower Damar has flowed forth to feed a hungry world. The periodic advances of the Calradian Empire to the south of the Perassic Sea have usually been aimed at seizing this strategic prize. Although the legions have long since moved onwards, Sanala remains among the most cosmopolitan cities in Calradia, filled with merchants from many lands bidding for the lowest bulk prices.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A6_1_text}Mijayit lies off of the estuary of the Damar river as it reaches the Perassic Sea. The rich silt deposits left by the river make this one of the most fertile regions of the Nahasa.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A6_2_text}Hamoshawat lies on the lower Damar river, just before it reaches the Perassic Sea. The rich silt deposits left by the river make this one of the most fertile regions of the Nahasa.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A6_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A6_3_text}Jahasim sits on the southern shore of the Perassic Sea, on the site of an ancient Kannic colony. The warm waters abound in tuna, bonito, sardines, and other fish.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A6_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A6_4_text}Nahlan sits on the floodplain of the Damar River, in a location where it cuts through the Jarjara Escarpment. This soil, refreshed yearly by the silt of the flooding river, produces bountiful crops of wheat.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A6']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>

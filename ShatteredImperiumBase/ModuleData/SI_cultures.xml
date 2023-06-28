@@ -390,18 +390,18 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.AR_s_emp_wanderer_0"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_1"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_2"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_3"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_4"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_5"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_6"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_7"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_8"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_9"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_10"/>
-			<template name="NPCCharacter.AR_s_emp_wanderer_11"/>
+			<template name="NPCCharacter.spc_wanderer_empire_0"/>
+			<template name="NPCCharacter.spc_wanderer_empire_1"/>
+			<template name="NPCCharacter.spc_wanderer_empire_2"/>
+			<template name="NPCCharacter.spc_wanderer_empire_3"/>
+			<template name="NPCCharacter.spc_wanderer_empire_4"/>
+			<template name="NPCCharacter.spc_wanderer_empire_5"/>
+			<template name="NPCCharacter.spc_wanderer_empire_6"/>
+			<template name="NPCCharacter.spc_wanderer_empire_7"/>
+			<template name="NPCCharacter.spc_wanderer_empire_8"/>
+			<template name="NPCCharacter.spc_wanderer_empire_9"/>
+			<template name="NPCCharacter.spc_wanderer_empire_10"/>
+			<template name="NPCCharacter.spc_wanderer_empire_11"/>
 			<template name="NPCCharacter.AR_s_emp_notable_0"/>
 			<template name="NPCCharacter.AR_s_emp_notable_0b"/>
 			<template name="NPCCharacter.AR_s_emp_notable_1"/>
@@ -463,9 +463,9 @@
 			<template name="NPCCharacter.AR_tournament_template_s_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/> 
-			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="aserai"
@@ -1477,10 +1477,10 @@
 	         color2="FFBFCBB0"
 	         elite_basic_troop="NPCCharacter.AR_bat_archer_recruit"
 	         basic_troop="NPCCharacter.AR_bat_recruit"
-	         melee_militia_troop="NPCCharacter.AR_bat_militia_spearman"
-	         ranged_militia_troop="NPCCharacter.AR_bat_militia_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_bat_militia_veteran_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_bat_militia_veteran_archer"
+	         melee_militia_troop="NPCCharacter.AR_bat_t3_spearman"
+	         ranged_militia_troop="NPCCharacter.AR_bat_t3_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_bat_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_bat_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         militia_bonus="1"
@@ -1496,7 +1496,7 @@
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="{=Ax9OkgL5}The misty hills of north-western Calradia are dominated by the Battanian clans, the original inhabitants of much of the continent. Their hilltop fortresses have born witness to countless wars fought to resist outside invaders: first the Empire's legions, and more recently the rising Sturgian and Vlandian kingdoms. They are masters of the longbow, the night raid, the sudden wild charge out of the woods. They idolise valour, but especially like it when mixed with a bit of mischief - the cattle thief who can whisk an entire herd into the fog; the champion who dines with a rival tribe, and, regaling his hosts with an anecdote of battle, produces from his bag the skull of one of their kinsmen that he took as a souvenir."
 	         tournament_master="NPCCharacter.tournament_master_battania"
-	         villager="NPCCharacter.AR_villager_battania"
+	         villager="NPCCharacter.AR_bat_villager"
 	         caravan_master="NPCCharacter.AR_bat_caravan_master"
 	         armed_trader="NPCCharacter.AR_bat_armed_trader"
 	         caravan_guard="NPCCharacter.AR_bat_caravan_guard"
@@ -2449,18 +2449,18 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.AR_w_emp_wanderer_0"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_1"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_2"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_3"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_4"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_5"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_6"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_7"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_8"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_9"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_10"/>
-			<template name="NPCCharacter.AR_w_emp_wanderer_11"/>
+			<template name="NPCCharacter.spc_wanderer_empire_0"/>
+			<template name="NPCCharacter.spc_wanderer_empire_1"/>
+			<template name="NPCCharacter.spc_wanderer_empire_2"/>
+			<template name="NPCCharacter.spc_wanderer_empire_3"/>
+			<template name="NPCCharacter.spc_wanderer_empire_4"/>
+			<template name="NPCCharacter.spc_wanderer_empire_5"/>
+			<template name="NPCCharacter.spc_wanderer_empire_6"/>
+			<template name="NPCCharacter.spc_wanderer_empire_7"/>
+			<template name="NPCCharacter.spc_wanderer_empire_8"/>
+			<template name="NPCCharacter.spc_wanderer_empire_9"/>
+			<template name="NPCCharacter.spc_wanderer_empire_10"/>
+			<template name="NPCCharacter.spc_wanderer_empire_11"/>
 			<template name="NPCCharacter.AR_w_emp_notable_0"/>
 			<template name="NPCCharacter.AR_w_emp_notable_0b"/>
 			<template name="NPCCharacter.AR_w_emp_notable_1"/>
@@ -2522,9 +2522,9 @@
 			<template name="NPCCharacter.AR_tournament_template_w_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/> 
-			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_n"
@@ -2917,18 +2917,18 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.AR_n_emp_wanderer_0"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_1"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_2"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_3"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_4"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_5"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_6"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_7"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_8"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_9"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_10"/>
-			<template name="NPCCharacter.AR_n_emp_wanderer_11"/>
+			<template name="NPCCharacter.spc_wanderer_empire_0"/>
+			<template name="NPCCharacter.spc_wanderer_empire_1"/>
+			<template name="NPCCharacter.spc_wanderer_empire_2"/>
+			<template name="NPCCharacter.spc_wanderer_empire_3"/>
+			<template name="NPCCharacter.spc_wanderer_empire_4"/>
+			<template name="NPCCharacter.spc_wanderer_empire_5"/>
+			<template name="NPCCharacter.spc_wanderer_empire_6"/>
+			<template name="NPCCharacter.spc_wanderer_empire_7"/>
+			<template name="NPCCharacter.spc_wanderer_empire_8"/>
+			<template name="NPCCharacter.spc_wanderer_empire_9"/>
+			<template name="NPCCharacter.spc_wanderer_empire_10"/>
+			<template name="NPCCharacter.spc_wanderer_empire_11"/>
 			<template name="NPCCharacter.AR_n_emp_notable_0"/>
 			<template name="NPCCharacter.AR_n_emp_notable_0b"/>
 			<template name="NPCCharacter.AR_n_emp_notable_1"/>
@@ -2990,9 +2990,9 @@
 			<template name="NPCCharacter.AR_tournament_template_n_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/> 
-			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="kannic"
@@ -3385,18 +3385,18 @@
 			<icon id="400"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.AR_kan_wanderer_0"/>
-			<template name="NPCCharacter.AR_kan_wanderer_1"/>
-			<template name="NPCCharacter.AR_kan_wanderer_2"/>
-			<template name="NPCCharacter.AR_kan_wanderer_3"/>
-			<template name="NPCCharacter.AR_kan_wanderer_4"/>
-			<template name="NPCCharacter.AR_kan_wanderer_5"/>
-			<template name="NPCCharacter.AR_kan_wanderer_6"/>
-			<template name="NPCCharacter.AR_kan_wanderer_7"/>
-			<template name="NPCCharacter.AR_kan_wanderer_8"/>
-			<template name="NPCCharacter.AR_kan_wanderer_9"/>
-			<template name="NPCCharacter.AR_kan_wanderer_10"/>
-			<template name="NPCCharacter.AR_kan_wanderer_11"/>
+			<template name="NPCCharacter.spc_wanderer_empire_0"/>
+			<template name="NPCCharacter.spc_wanderer_empire_1"/>
+			<template name="NPCCharacter.spc_wanderer_empire_2"/>
+			<template name="NPCCharacter.spc_wanderer_empire_3"/>
+			<template name="NPCCharacter.spc_wanderer_empire_4"/>
+			<template name="NPCCharacter.spc_wanderer_empire_5"/>
+			<template name="NPCCharacter.spc_wanderer_empire_6"/>
+			<template name="NPCCharacter.spc_wanderer_empire_7"/>
+			<template name="NPCCharacter.spc_wanderer_empire_8"/>
+			<template name="NPCCharacter.spc_wanderer_empire_9"/>
+			<template name="NPCCharacter.spc_wanderer_empire_10"/>
+			<template name="NPCCharacter.spc_wanderer_empire_11"/>
 			<template name="NPCCharacter.AR_kan_notable_0"/>
 			<template name="NPCCharacter.AR_kan_notable_0b"/>
 			<template name="NPCCharacter.AR_kan_notable_1"/>
@@ -3450,9 +3450,9 @@
 			<template name="NPCCharacter.AR_tournament_template_kannic_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.AR_min_lysians_t3"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<template name="NPCCharacter.AR_min_lysians_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vakken"

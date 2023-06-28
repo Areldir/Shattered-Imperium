@@ -84,12 +84,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_battania_template">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_bat_militia_spearman"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_bat_militia_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_militia_veteran_spearman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_militia_veteran_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_bat_clann_guard"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_bat_clann_archer"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_bat_t3_spearman"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_bat_t3_slinger"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_battania_template">
@@ -103,7 +99,7 @@
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_bat_caravan_guard"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_vet_caravan_guard"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_bat_t3_swordsman"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_bat_villager"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_village_woman_battania"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -115,7 +111,7 @@
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_caravan_master"/>
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AR_bat_t3_swordsman"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_bat_t3_skirmisher"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_bat_villager"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_village_woman_battania"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -127,7 +123,7 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_battania_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_villager_battania"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_bat_villager"/>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_village_woman_battania"/>
 		</stacks>
 	</MBPartyTemplate>

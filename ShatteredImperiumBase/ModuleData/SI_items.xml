@@ -37,6 +37,15 @@
 		</Pieces>
 		<!-- Length: 152 Weight: 0.65 -->
 	</CraftedItem>
+	<CraftedItem id="AR_battania_spear_5_t4" name="{=osa_ar_battania_spear_5_t4}Highland Fine Steel Leaf Spear" crafting_template="TwoHandedPolearm" culture="Culture.battania" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_20" Type="Blade" scale_factor="90"/>
+			<Piece id="spear_banner_16" Type="Guard" scale_factor="101"/>
+			<Piece id="AR_SI_spear_handle_d" Type="Handle" scale_factor="101"/>
+			<Piece id="spear_pommel_9" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 150 Weight: 0.69 -->
+	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
@@ -708,7 +717,7 @@
 	</CraftedItem>
 	<CraftedItem id="empire_mace_3_t4" name="{=YLplNGxb}Calradic Mace" crafting_template="Mace" culture="Culture.empire" modifier_group="mace">
 		<Pieces>
-			<Piece id="mace_head_8" Type="Blade" scale_factor="104"/>
+			<Piece id="AR_empire_mace_head_b" Type="Blade" scale_factor="104"/>
 			<Piece id="mace_handle_10" Type="Handle" scale_factor="110"/>
 		</Pieces>
 		<!-- Length: 51 Weight: 1.02 -->

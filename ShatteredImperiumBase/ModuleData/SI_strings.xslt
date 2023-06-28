@@ -137,6 +137,7 @@
 	<xsl:template match="string[@id='str_comment_special_clan_intro_ghilman.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_lakepike.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_skolderbroda.default']"/>
+	<xsl:template match="string[@id='str_comment_special_clan_intro_hidden_hand.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_legion_of_the_betrayed.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_forest_people.default']"/>
 </xsl:stylesheet>
