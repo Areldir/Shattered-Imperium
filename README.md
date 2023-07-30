@@ -1,15 +1,16 @@
 # Shattered-Imperium
-Beta Version - For Mount and Blade Bannerlord
+Beta Version - For Mount and Blade Bannerlord v1.2.x
 
 Name: Shattered Imperium (Calradian Reforms - Definitive Edition)
 
-Version: Beta 0.2.5
+Version: Beta 0.3.0
 
 ----------------------------------------------------------------------------------------------------------
 Required files: 
 
 				Harmony
-				AdonnaysTroopChanger
+				Better Exception Window
+				AdonnaysTroopChanger (Removed temporarily for testing)
 				RBM
 				OpenSourceArmory
 				OpenSourceWeaponry
@@ -17,7 +18,7 @@ Required files:
 				OpenSourceArmoryRBM
 				OpenSourceWeaponryRBM
 				OpenSourceSaddleryRBM
-				BannerColorPersistence
+				BannerColorPersistence (Removed temporarily for testing)
 	
 Recommended files:
 
@@ -52,9 +53,10 @@ Configuration. When in game, make sure you set the following in the RBM Configur
 Load Order:
 
 				1. Harmony
-				2. Sandbox, SandboxCore, StoryMode, CustomBattle
-				3. Required mods (See above)
-				4. Shattered Imperium: Base Files
-				5. Shattered Imperium: Factions
+				2. Better Exception Window
+				3. Sandbox, SandboxCore, StoryMode, CustomBattle
+				4. Required mods (See above)
+				5. Shattered Imperium: Base Files
+				6. Shattered Imperium: Factions
 
 ----------------------------------------------------------------------------------------------------------
