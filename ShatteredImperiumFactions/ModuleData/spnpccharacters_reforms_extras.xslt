@@ -5,6 +5,7 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
+	<!-- CARAVAN MASTERS -->
 	<xsl:template match="NPCCharacter[@id='caravan_master_aserai']/@name">
 		<xsl:attribute name="name">{=si_ar_ase_caravan_master}Aserai Caravan Master</xsl:attribute>
 	</xsl:template>
@@ -25,6 +26,28 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet id="AR_ase_caravan_master_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='caravan_master_battania']/@name">
+		<xsl:attribute name="name">{=si_ar_bat_caravan_master}Battanian Caravan Master</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_battania"]/skills'>
+		<xsl:copy>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_battania"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_bat_caravan_master_battletemplate"/>
+			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='caravan_master_empire']/@name">
@@ -93,6 +116,113 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
+	<!-- ARENA CHARACTERS -->
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_aserai"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ase_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_2_aserai"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ase_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_3_aserai"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ase_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_battania"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_bat_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_battania" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_2_battania"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_bat_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_battania" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_3_battania"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_bat_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_battania" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_empire"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_2_empire"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_3_empire"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_khuzait"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_2_khuzait"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_3_khuzait"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_sturgia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_2_sturgia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_3_sturgia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- STORYMODE CHARACTERS -->
 	<xsl:template match='NPCCharacter[@id="tutorial_placeholder_volunteer"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -151,6 +281,7 @@
 			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 		</xsl:copy>
 	</xsl:template>
+	<!-- VANILLA ENCYCLOPEDIA REMOVALS -->
 	<xsl:template match='NPCCharacter[@id="aserai_recruit"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
