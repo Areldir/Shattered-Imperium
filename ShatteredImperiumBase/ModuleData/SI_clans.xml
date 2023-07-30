@@ -94,14 +94,8 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_2_text}The fen Derngil clan have held the high kingship of the Battanians for generations, having seized power in a bloody coup now lost to time in all but name. They have enforced their rule through the judicious use of violence and diplomacy, being equally comfortable facing their foes on the battlefield and at the negotiating table. From their highland fortress at Dunglanys, the fen Derngil want for little and are threatened by few. Even the Calradian Empire at its height was hard-pressed to usurp their position, instead preferring to attack the Battanian clans along its borders, whose raids on imperial territory have brought the fen Derngil immense wealth in the form of gifts of fealty."
 	         banner_key="11.2.2.4345.4345.776.777.1.0.0.412.13.13.508.508.768.799.0.0.180.504.13.13.95.129.766.761.0.1.3.510.13.13.137.98.658.717.0.1.242.510.13.13.137.97.873.707.0.1.121.510.13.13.137.97.772.906.0.1.2"/>
-	<!--		
-		Patriarch: Ergeon, 5_3 whitebeard, arthur-type. Submits to Gruffendoc because they realize latter's capacity to lead
-		Active queen: Mywin 5_4, holds her own lands and fights in her own right
-		Heir Sein 5_8
-		Inactive heiress (5_11)
-		Lieutenant: 5_14
-	-->
 	<Faction id="clan_battania_3"
 	         name="{=0m0IUnL1}fen Uvain"
 	         tier="5"
@@ -109,25 +103,16 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_3_text}The fen Uvain are an ambitious clan who have ruled over a vast estate in the northern extent of the Uchalion Plateau, in a region where the Battanian lands meet the Bay of Varcheg. They are not a martial or particularly charismatic people, preferring to plot from the safety and secrecy afforded by the high walls of their fortress home. Passed over for the high kingship for generations, they resent the current fen Derngil royal house, and have taken to secretly funding a number of clandestine organizations that operate against the interests of the crown. This low cunning has awarded the fen Uvain few friends among the Battanian nobility, though there are equally few who would underestimate their capability in the political arena."
 	         banner_key="11.101.75.4000.4000.764.764.1.0.0.427.39.0.261.261.764.869.0.0.-1.133.39.0.400.400.764.696.0.0.0"/>
-	<!--		
-	Fen Uvain
-		Old house, know they lack the charisma to conquer, prefer to plot to maintain their independence
-		Good ties to Wolfskins
-	
-		Meledir. Patriarch (5_5) - Cautious, deceitful, unctuous, 
-		Inactive queen (5_6)
-		Heir - Culharn (5_9) conventional
-		Heiress (5_12)
-		Lieutenant (5_15)
-	-->
 	<Faction id="clan_battania_1"
-	         name="{=a67wFbUw}fen Conaill"
+	         name="{=si_ar_clan_battania_1_name}fen Conaill"
 	         tier="5"
 	         owner="Hero.lord_5_1"
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_3_text}The fen Conaill are one of the most ancient Battanian noble clans, having held lands around the fortress of Marunath since the days before Calradios the Great arrived on the continent. They claim to be a mercantile people, though a closer inspection of much of their merchandise reveals it to be suspiciously Calradian in origin - the product of centuries of raiding the unprotected imperial villages along the foothills of the Uchalion Plateau. Despite this wealth, they are widely derided by Battanian society for the harsh tariffs they impose on their clansmen, whose ever-present threat of rebellion places the fen Conaill in a precarious position."
 	         banner_key="11.101.75.4000.4000.764.764.1.0.0.456.39.0.467.467.764.864.0.0.180.413.39.0.274.274.755.644.0.0.124"/>
 	<Faction id="clan_battania_5"
 	         name="{=ObBvcDhJ}fen Giall"
@@ -136,6 +121,7 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_5_text}The fen Giall, unsurprisingly for those clans of the Battanian nobility, claim descent from a centuries-long line of ancestors, having ruled the lands of the upper Trand River valley since the times of spirits. A proud people, they once boasted strong relations with the Calradian Empire, whose merchants often frequented the estates of the fen Giall in exchange for their warriors refraining from raiding the imperial borderlands. Whilst this amicable arrangement brought substantial wealth, it also brought the ire of the other Battanian clans, who resented the fen Giall for breaking bread with those they viewed as their oppressors. However, war is now on the doorstep of the fen Giall’s estates, with both the Vlandians and Massa posing a threat to the lands of the western Uchalion Plateau."
 	         banner_key="11.101.75.4345.4345.776.777.1.0.0.535.39.0.189.178.822.905.0.1.0.535.39.0.178.178.700.904.0.0.0.151.39.0.425.425.773.717.0.0.0"/>
 	<Faction id="clan_battania_4"
 	         name="{=k3djFmuO}fen Penraic"
@@ -144,6 +130,7 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_4_text}The fen Penraic are one of the younger noble clans of the Battanians, having risen to prominence only a handful of generations ago. Fierce raiders and stalwart warriors, they made their name and fortune in the numerous skirmishes between the Battanians, Vakken and Sturgians, plundering the hillforts of the northerners and coming back with several warlord heads as trophies. Widely feared by the other Battanian noble clans, the fen Penraic jealously eye the position of high king, and there are few who would question, let alone stand in the way of, their single-minded willingness to gain dominance over the Battanian Kingdom."
 	         banner_key="11.2.2.4345.4345.776.777.1.0.0.157.13.13.147.147.764.694.0.0.0.157.13.13.147.147.764.694.0.1.0.527.13.13.111.117.764.951.0.0.90.132.13.13.465.465.764.828.0.0.0.448.13.13.142.126.764.608.0.0.-1.510.13.13.163.83.764.665.0.0.0.503.13.13.55.49.624.753.0.0.6.503.13.13.55.49.904.753.0.0.6"/>
 	<Faction id="AR_clan_battania_9"
 	         name="{=si_ar_clan_battania_9_name}fen Sithigh"
@@ -152,8 +139,8 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_9_text}The fen Sithigh, like many clans of the Battanian nobility, have a tumultuous story of both growth and decline that can be traced back centuries. The scions of successful merchants who first forged trading connections with the then-nascent Calradian Empire, the fen Sithigh were quick to capitalize on their new mercantile gains, establishing a series of highly profitable emporia across the Uchalion Plateau to trade in the region’s wine, furs and iron ore. However, as with all stories, a rise must inevitably lead to a fall, and the fen Sithigh soon fell foul of larger and more powerful imperial trade corporations. With their wealth in steady decline, it remains to be seen how long the fen Sithigh can retain their position at the pinnacle of Battanian society."
 	         banner_key="11.2.2.4000.4000.764.764.1.0.0.405.13.13.501.501.764.764.0.0.0.506.13.13.77.113.687.895.0.0.-124.504.13.13.116.152.712.851.0.0.-31.506.13.13.77.113.610.764.0.0.-181.504.13.13.116.152.661.764.0.0.-91.506.13.13.77.113.689.628.0.0.-243.504.13.13.116.152.713.672.0.0.-152.506.13.13.77.113.842.631.0.0.-303.504.13.13.116.152.816.674.0.0.-213.506.13.13.77.113.926.766.0.0.-1.504.13.13.116.152.875.766.0.0.-271.506.13.13.77.113.843.897.0.0.-61.504.13.13.116.152.818.853.0.0.-331"/>
-	<!-- fen Caernacht, resentful clan -->
 	<Faction id="clan_battania_8"
 	         name="{=14GLGKNj}fen Caernacht"
 	         tier="3"
@@ -161,6 +148,7 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text="{=si_ar_clan_battania_8_text}The fen Caernacht were once one of the most powerful clans of the Battanian nobility, having even held the position of high king for a few generations. However, their primacy in Battanian politics drew envious eyes, and they would soon be unseated by the treachery of the fen Derngil, who it is rumored had the last fen Caernacht high king assassinated and then rigged the noble council election to ensure their own rise to power. Despite little evidence to confirm this story, the fen Caernacht retain a bitter grudge against the fen Derngil, who they view as usurpers. They will follow the will of the high king, albeit with little enthusiasm, if only for the good of the Battanian people as a whole."
 	         banner_key="11.2.2.4345.4345.776.777.1.0.0.415.28.28.481.481.769.764.0.0.0.511.28.28.80.94.767.998.0.1.180.511.28.28.80.94.770.531.0.0.0.511.28.28.80.94.536.762.0.0.89.511.28.28.80.94.1001.765.0.1.270.511.28.28.64.78.920.848.0.1.180.511.28.28.64.78.927.690.0.0.-1.511.28.28.64.78.618.680.0.0.-1.511.28.28.64.78.612.839.0.1.180"/>
 	<Faction id="clan_battania_7"
 	         name="{=HMnHaJac}fen Morcar"
@@ -169,6 +157,7 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text=""
 	         banner_key="11.2.2.4345.4345.776.777.1.0.0.407.13.0.509.509.764.757.0.0.-1.413.13.0.62.55.654.869.0.0.315.413.13.0.62.55.879.866.0.1.44.413.13.0.62.55.654.644.0.1.-136.413.13.0.62.55.879.648.0.0.135"/>
 	<Faction id="clan_battania_6"
 	         name="{=qoLWSdRE}fen Eingal"
@@ -177,8 +166,8 @@
 	         culture="Culture.battania"
 	         super_faction="Kingdom.battania"
 	         is_noble="true"
+	         text=""
 	         banner_key="11.2.2.4345.4345.776.777.1.0.0.511.13.0.101.101.773.942.0.0.180.505.13.0.117.117.770.768.0.0.45.511.13.0.101.101.771.595.0.0.0.406.13.0.509.509.769.767.0.0.0.511.13.0.101.101.599.765.0.1.89.511.13.0.101.101.942.770.0.0.270"/>
-	<!-- update? 11.2.2.4345.4345.776.777.1.0.0.511.13.0.101.101.773.942.0.0.180.505.13.0.117.117.770.768.0.0.45.511.13.0.101.101.771.595.0.0.0.406.13.0.509.509.769.767.0.0.0.511.13.0.101.101.599.765.0.1.89.511.13.0.101.101.942.770.0.0.270.510.13.0.108.110.872.867.0.0.225.510.13.0.108.110.865.659.0.0.137.510.13.0.108.110.665.670.0.0.225.510.13.0.108.110.671.870.0.0.314 -->
 	<!--
 	Calradian Empire
 	-->
@@ -1149,7 +1138,7 @@
 	         name="{=si_ar_wolfskins_name}Wolfskins"
 	         short_name="{=si_ar_wolfskins_short_name}Wolfskins"
 	         tier="4"
-	         text="{=si_ar_wolfskins_text}The Wolfskins are heirs to a long tradition in the Battanian lands, wherein great warriors went ‘wilding’ for a part of their youth, learning the ways of the woods and how to fight and suffer hardship. So long as a Wolfskin wears no sewn clothes, eats no cooked food, and sleeps under no roof, he is immune from the laws of men. In fact, the Wolfskins of today tend to be the sons of wealthy families, taking a few years to indulge their feral side by robbing travellers and living viciously, whilst not necessarily adhering to the old code.">
+	         text="{=si_ar_wolfskins_text}The Wolfskins are heirs to a long tradition in the Battanian lands wherein great warriors went ‘wilding’ for a part of their youth, learning the ways of the woods and how to fight and suffer hardship. So long as a Wolfskin wears the fur of a wolf, eats no cooked food, and sleeps under no roof, he is immune from the laws of men. In fact, the Wolfskins of today tend to be the sons of wealthy families, taking a few years to indulge their feral side by robbing travellers and living viciously, whilst not necessarily adhering to the old code.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_wolfskins_leader_0"/>
 			<template id="NPCCharacter.AR_spc_wolfskins_leader_1"/>
@@ -1571,7 +1560,7 @@
 			<template id="NPCCharacter.AR_spc_lysians_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
-	<Faction id="aracathans"
+	<Faction id="dryatics"
 	         initial_posX="705.0"
 	         initial_posY="590.0"
 	         banner_key="11.92.92.1536.1536.768.768.1.0.0.409.155.155.500.500.764.764.0.0.0"
@@ -1581,20 +1570,19 @@
 	         alternative_color="FF774f3c"
 	         alternative_color2="FF774f3c"
 	         culture="Culture.dryatic"
-	         default_party_template="PartyTemplate.party_template_aracathans"
+	         default_party_template="PartyTemplate.party_template_dryatics"
 	         settlement_banner_mesh="encounter_flag_f"
 	         is_minor_faction="true"
-	         is_outlaw="true"
-	         is_nomad="true"
-	         name="{=si_ar_aracathans_name}Aracathan Mountain Tribes"
-	         short_name="{=si_ar_aracathans_short_name}Aracathans"
+	         is_clan_type_mercenary="true"
+	         name="{=si_ar_dryatics_name}Aracathan Mountain Tribes"
+	         short_name="{=si_ar_dryatics_short_name}Aracathans"
 	         tier="4"
-	         text="{=si_ar_aracathans_text}The Aracathan tribes are a hardy people, tempered by constant conflict. One of the few surviving remnants of the Dryatic population from the lands south of Epicrotea, they have long been under threat of the Empire's domination. Unlike many of their cousins, who made a peace with the empire and were allowed to peacefully integrate into imperial society, the Aracathan Hillmen have chosen instead to mount and armed resistence, conducting raids from their sheltered villages in the hills. Now on their last legs, the Calradian civil war has afforded them one final chance to fight for their freedom, before the last spark of Dryatic culture is extinguished once and for all.">
+	         text="{=si_ar_dryatics_text}The Dryatic Hillmen are one of the most ancient tribal peoples of Calradia, having dwelt in their mountainous homeland in the center of the continent since the days long before the arrival of Calradios the Great. A hardy and resilient people, they have spent countless centuries living in small villages amongst the crags and peaks, droving cattle from the verdant valley floors to the frigid alpine meadows. Whilst technically occupying the lands of the Calradian Empire, they have proved remarkably resistant to Calradicization, retaining much of their language and customs. Their hard lifestyle has made them ideal warriors, prized across Calradia as mercenaries and bodyguards.">
 		<minor_faction_character_templates>
-			<template id="NPCCharacter.AR_spc_aracathans_leader_0"/>
-			<template id="NPCCharacter.AR_spc_aracathans_leader_1"/>
-			<template id="NPCCharacter.AR_spc_aracathans_leader_2"/>
-			<template id="NPCCharacter.AR_spc_aracathans_leader_3"/>
+			<template id="NPCCharacter.AR_spc_dryatics_leader_0"/>
+			<template id="NPCCharacter.AR_spc_dryatics_leader_1"/>
+			<template id="NPCCharacter.AR_spc_dryatics_leader_2"/>
+			<template id="NPCCharacter.AR_spc_dryatics_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<Faction id="vezha_valkyries"
@@ -1747,6 +1735,31 @@
 			<template id="NPCCharacter.AR_spc_chandions_champions_leader_1"/>
 			<template id="NPCCharacter.AR_spc_chandions_champions_leader_2"/>
 			<template id="NPCCharacter.AR_spc_chandions_champions_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="druids"
+	         initial_posX="261.0"
+	         initial_posY="509.0"
+	         banner_key="11.40.40.4000.4000.768.768.1.0.0.500.2.7.500.500.764.764.0.0.0.223.2.7.400.400.764.764.0.1.90"
+	         label_color="FF848B65"
+	         color="0xffffffff"
+	         color2="FF848B65"
+	         alternative_color="0xffffffff"
+	         alternative_color2="FF848B65"
+	         culture="Culture.battania"
+	         default_party_template="PartyTemplate.party_template_druids"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_clan_type_mercenary="true"
+	         name="{=si_ar_druids_name}Druids of Ailta Druin"
+	         short_name="{=si_ar_druids_short_name}Druids"
+	         tier="4"
+	         text="{=si_ar_druids_text}The Druids of Ailta Druin - so named for the mountainous region in which they dwell - are a religious order that has for centuries served as the religious officials of the Battanian Kingdom. Indeed, for one to become the high king of the Battanians, they must be crowned atop the rock of Dunglanys by the chief shaman of the druidic order. A secretive and mysterious order, the Druids of Ailta Druin are widely regarded across Calradia as heretics, known for sacrificing fair maidens to the spirits of the Otherworld and reading dread portents in the skies. Despite this, a group of druids choose to wander the world, and will serve any willing to have them.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_druids_leader_0"/>
+			<template id="NPCCharacter.AR_spc_druids_leader_1"/>
+			<template id="NPCCharacter.AR_spc_druids_leader_2"/>
+			<template id="NPCCharacter.AR_spc_druids_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<!--

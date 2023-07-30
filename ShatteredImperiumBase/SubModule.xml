@@ -2,16 +2,17 @@
 <Module>
 	<Name value="Shattered Imperium: Base Files"/>
 	<Id value="ShatteredImperiumBase"/>
-	<Version value="v0.2.5"/>
+	<Version value="v0.3.0"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.1.3"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.3"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.1.3"/>
-		<DependedModule Id="CustomBattle" DependentVersion="v1.1.3"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.1.3"/>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode"/>
 		<DependedModule Id="Bannerlord.Harmony"/>
+		<DependedModule Id="BetterExceptionWindow"/>
 		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
@@ -154,6 +155,9 @@
 				<GameType value="CustomGame"/>
 				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingTemplates" path="SI_crafting_templates"/>
 		</XmlNode>
 	</Xmls>
 </Module>

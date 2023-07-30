@@ -31,7 +31,6 @@
 	         armed_trader="NPCCharacter.AR_s_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_s_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_s_emp_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_s_emp_duel_preset"
 	         prison_guard="NPCCharacter.AR_s_emp_prison_guard"
 	         guard="NPCCharacter.AR_s_emp_guard"
 	         blacksmith="NPCCharacter.AR_s_emp_blacksmith"
@@ -72,6 +71,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_s_emp_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_s_emp_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_s_emp_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_s_emp_duel_preset_battletemplate"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -324,23 +326,49 @@
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
+			<name name="{=vdOWVAoz}Altesios"/>
 			<name name="{=ogq9oxDn}Angarys"/>
+			<name name="{=TNI6qRbQ}Astrethides"/>
+			<name name="{=NTRPMben}Atragorys"/>
 			<name name="{=MgDUudOx}Balastisos"/>
+			<name name="{=t36SVqzP}Bustamys"/>
+			<name name="{=xyKumbJI}Calastides"/>
 			<name name="{=Rvww4Kxi}Corstases"/>
+			<name name="{=jhlwsyqq}Chromasos"/>
 			<name name="{=kWiQaFLM}Delicos"/>
+			<name name="{=aaOSBHrI}Dinamontes"/>
 			<name name="{=DiB4ukeK}Elysos"/>
+			<name name="{=7lixVdYb}Erchisasos"/>
+			<name name="{=FakFqJf1}Eurtimides"/>
 			<name name="{=pUvrTrHT}Gessios"/>
+			<name name="{=sgIlIqrI}Goronos"/>
 			<name name="{=fsOUhzLv}Jalos"/>
+			<name name="{=GcgpbmWB}Jintasos"/>
+			<name name="{=IK7uQU2p}Lasirys"/>
 			<name name="{=CuocGtTq}Lestharos"/>
+			<name name="{=w4u0LxQb}Lovanides"/>
+			<name name="{=lsOtNjxl}Manitesos"/>
 			<name name="{=FVl3D2qT}Meones"/>
+			<name name="{=8CQuY3RO}Munitides"/>
 			<name name="{=fAKa9JfU}Nathanys"/>
+			<name name="{=HSpdZCr5}Nebranos"/>
+			<name name="{=024kHRwG}Nomanides"/>
 			<name name="{=RhwPmahK}Opynates"/>
+			<name name="{=E1NB09bP}Otsamides"/>
+			<name name="{=PbxaX8F5}Othalotos"/>
 			<name name="{=OL6fbZRY}Paltos"/>
+			<name name="{=ild3wLKb}Pylitax"/>
+			<name name="{=eRg4Ngl1}Pharchasys"/>
 			<name name="{=HPrHkie6}Phenigos"/>
+			<name name="{=XWqBgFzc}Phorides"/>
+			<name name="{=Yl3c9WaM}Salastrys"/>
 			<name name="{=DYdI0faN}Stracanasthes"/>
 			<name name="{=g7etVhSO}Sumessos"/>
+			<name name="{=U9kQ2sTU}Tasyx"/>
+			<name name="{=lMxYCQYF}Teminides"/>
 			<name name="{=oGf1fUpP}Therycos"/>
 			<name name="{=AeNqteUX}Zebales"/>
+			<name name="{=63ZZltcm}Zalastros"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="empire_decreased_garrison_wage"/>
@@ -498,7 +526,6 @@
 	         armed_trader="NPCCharacter.AR_ase_armed_trader"
 	         caravan_guard="NPCCharacter.AR_ase_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_ase_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_ase_duel_preset"
 	         prison_guard="NPCCharacter.AR_ase_prison_guard"
 	         guard="NPCCharacter.AR_ase_guard"
 	         blacksmith="NPCCharacter.AR_ase_blacksmith"
@@ -539,6 +566,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_ase_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_ase_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_ase_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.ase_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.ase_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_ase_duel_preset_battletemplate"
 	         board_game_type="Seega">
 		<vassal_reward_items>
 			<item id="Item.noble_horse_khamseen"/>
@@ -658,15 +688,30 @@
 			<name name="{=8RolYmff}Zuwaira"/>
 		</female_names>
 		<clan_names>
+			<name name="{=VV6p47Ee}Banu Arumaq"/>
 			<name name="{=By82n3gR}Banu Aska"/>
-			<name name="{=uwalgjVy}Banu Dhamin"/>
+			<name name="{=QBtprltg}Banu Ayan"/>
+			<name name="{=uwalgjVy}Banu Dilis"/>
+			<name name="{=IcB0xdbd}Banu Dhamin"/>
 			<name name="{=86LT9H6v}Banu Fasus"/>
+			<name name="{=0znqTt5G}Banu Harranad"/>
+			<name name="{=ZEwqRhHO}Banu Hund"/>
+			<name name="{=TIhFAZld}Banu Ijaraz"/>
 			<name name="{=c39lybQJ}Banu Julul"/>
 			<name name="{=Iwe7Xpke}Banu Kinyan"/>
+			<name name="{=UKcaINTn}Banu Khashal"/>
 			<name name="{=irccq0qs}Banu Laikh"/>
 			<name name="{=DygS1Bef}Banu Mushala"/>
 			<name name="{=bgNQtbS7}Banu Nir"/>
+			<name name="{=yrYO33f8}Banu Qaram"/>
+			<name name="{=7oBUn2V1}Banu Rawi"/>
+			<name name="{=fDbOCRMM}Banu Shum"/>
+			<name name="{=wRVVs7t4}Banu Sirsan"/>
+			<name name="{=SGFsmCJa}Banu Tammar"/>
 			<name name="{=sAa3o3vw}Banu Tharuq"/>
+			<name name="{=EbkJbzwO}Banu Unuth"/>
+			<name name="{=SJJobqeR}Banu Widhas"/>
+			<name name="{=oY2rbPH2}Banu Yurib"/>
 			<name name="{=L4XUK5n4}Banu Yatash"/>
 			<name name="{=WFfbxYu5}Banu Zus"/>
 		</clan_names>
@@ -805,7 +850,6 @@
 	         armed_trader="NPCCharacter.AR_stu_armed_trader"
 	         caravan_guard="NPCCharacter.AR_stu_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_stu_vet_caravan_guard"
-	         duel_preset="NPCCharacter.sturgia_duel_preset"
 	         prison_guard="NPCCharacter.AR_stu_prison_guard"
 	         guard="NPCCharacter.AR_stu_guard"
 	         blacksmith="NPCCharacter.blacksmith_sturgia"
@@ -846,6 +890,9 @@
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sturgia"
 	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sturgia"
 	         gear_dummy="NPCCharacter.gear_dummy_sturgia"
+	         default_battle_equipment_roster="EquipmentRoster.stu_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.stu_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_jok_duel_preset_battletemplate"
 	         board_game_type="Konane">
 		<vassal_reward_items>
 			<item id="Item.avalanche_2haxe"/>
@@ -944,6 +991,13 @@
 			<name name="{=SvyDUmw3}Vyanimir"/>
 			<name name="{=oPmn1SHy}Zuvan"/>
 			<name name="{=bLY1zbNI}Zvatim"/>
+			<name name="{=j5HUaQ1a}Azhir"/>
+			<name name="{=IaBXamj4}Danivan"/>
+			<name name="{=4dJ3pLxu}Khemel"/>
+			<name name="{=vQMRjzmO}Pyas"/>
+			<name name="{=1I3uRUGM}Riman"/>
+			<name name="{=hsqDfT2j}Yathan"/>
+			<name name="{=i9bQ8UoK}Zhelik"/>
 			<name name="{=!*}Obas"/>
 		</male_names>
 		<female_names>
@@ -990,15 +1044,37 @@
 			<name name="{=Lv753Nnn}Zylata"/>
 		</female_names>
 		<clan_names>
+			<name name="{=tGEChxdb}Achanoving"/>
 			<name name="{=OLLYkaWd}Asraloving"/>
+			<name name="{=Y9qYt71a}Balikoving"/>
 			<name name="{=yUuM8a0j}Boranoving"/>
+			<name name="{=XJZJIZ9Q}Cholokhoving"/>
+			<name name="{=NbprLzeU}Dazheroving"/>
+			<name name="{=eNSZGTbN}Doronoving"/>
 			<name name="{=euyyBbjq}Folyoroving"/>
+			<name name="{=tKUIAmbV}Fyomanoving"/>
 			<name name="{=ODcWVL1a}Gendiroving"/>
+			<name name="{=NLXHafGS}Gissinoving"/>
+			<name name="{=Va35TmQW}Igrunoving"/>
 			<name name="{=UYqwbjTP}Iskanoving"/>
+			<name name="{=dey9d9DX}Kasyoving"/>
+			<name name="{=ctJub9Ah}Khirinoving"/>
+			<name name="{=YJ6JKs9O}Kyorinoving"/>
+			<name name="{=Vp9n86Wy}Lezhanoving"/>
 			<name name="{=z2Oqk8aq}Maregoving"/>
+			<name name="{=bBD4tF2y}Morochoving"/>
+			<name name="{=XQfYxgti}Nimanoving"/>
+			<name name="{=DxU5mVDg}Pyasoving"/>
+			<name name="{=RpDv3cGI}Rimanoving"/>
+			<name name="{=BrI1aJdo}Rukhanoving"/>
 			<name name="{=lpbIXNdK}Suratoving"/>
+			<name name="{=Lcbrsqw8}Syaveroving"/>
+			<name name="{=jqaH0a35}Tymanoving"/>
+			<name name="{=IVHobRWE}Usharoving"/>
 			<name name="{=RFapQLfR}Vyshoving"/>
+			<name name="{=OrUdifEU}Yathanoving"/>
 			<name name="{=gC1paDtD}Yerchoving"/>
+			<name name="{=DakafAXa}Zamantoving"/>
 			<name name="{=qD72Ya4I}Zhanoving"/>
 		</clan_names>
 		<cultural_feats>
@@ -1139,7 +1215,6 @@
 	         armed_trader="NPCCharacter.AR_vla_armed_trader"
 	         caravan_guard="NPCCharacter.AR_vla_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_vla_vet_caravan_guard"
-	         duel_preset="NPCCharacter.vlandia_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_vlandia"
 	         guard="NPCCharacter.guard_vlandia"
 	         blacksmith="NPCCharacter.blacksmith_vlandia"
@@ -1180,6 +1255,9 @@
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_vlandia"
 	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_vlandia"
 	         gear_dummy="NPCCharacter.gear_dummy_vlandia"
+	         default_battle_equipment_roster="EquipmentRoster.vla_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.vla_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.vla_duel_preset_template"
 	         board_game_type="MuTorere">
 		<vassal_reward_items>
 			<item id="Item.sentinel_2hsword"/>
@@ -1475,7 +1553,7 @@
 	         is_main_culture="true"
 	         color="FF2D3F1D"
 	         color2="FFBFCBB0"
-	         elite_basic_troop="NPCCharacter.AR_bat_archer_recruit"
+	         elite_basic_troop="NPCCharacter.AR_bat_elite_recruit"
 	         basic_troop="NPCCharacter.AR_bat_recruit"
 	         melee_militia_troop="NPCCharacter.AR_bat_t3_spearman"
 	         ranged_militia_troop="NPCCharacter.AR_bat_t3_slinger"
@@ -1497,51 +1575,53 @@
 	         text="{=Ax9OkgL5}The misty hills of north-western Calradia are dominated by the Battanian clans, the original inhabitants of much of the continent. Their hilltop fortresses have born witness to countless wars fought to resist outside invaders: first the Empire's legions, and more recently the rising Sturgian and Vlandian kingdoms. They are masters of the longbow, the night raid, the sudden wild charge out of the woods. They idolise valour, but especially like it when mixed with a bit of mischief - the cattle thief who can whisk an entire herd into the fog; the champion who dines with a rival tribe, and, regaling his hosts with an anecdote of battle, produces from his bag the skull of one of their kinsmen that he took as a souvenir."
 	         tournament_master="NPCCharacter.tournament_master_battania"
 	         villager="NPCCharacter.AR_bat_villager"
-	         caravan_master="NPCCharacter.AR_bat_caravan_master"
+	         caravan_master="NPCCharacter.caravan_master_battania"
 	         armed_trader="NPCCharacter.AR_bat_armed_trader"
 	         caravan_guard="NPCCharacter.AR_bat_caravan_guard"
-	         veteran_caravan_guard="NPCCharacter.AR_bat_vet_caravan_guard"
-	         duel_preset="NPCCharacter.battania_duel_preset"
-	         prison_guard="NPCCharacter.prison_guard_battania"
-	         guard="NPCCharacter.guard_battania"
+	         veteran_caravan_guard="NPCCharacter.AR_bat_vet_caravan_guard"     
+	         prison_guard="NPCCharacter.AR_bat_prison_guard"
+	         guard="NPCCharacter.AR_bat_guard"
 	         blacksmith="NPCCharacter.blacksmith_battania"
 	         weaponsmith="NPCCharacter.weaponsmith_battania"
-	         townswoman="NPCCharacter.AR_townswoman_battania"
-	         townswoman_infant="NPCCharacter.townswoman_infant_battania"
-	         townswoman_child="NPCCharacter.townswoman_child_battania"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_battania"
-	         townsman="NPCCharacter.AR_townsman_battania"
-	         townsman_infant="NPCCharacter.townsman_infant_battania"
-	         townsman_child="NPCCharacter.townsman_child_battania"
-	         townsman_teenager="NPCCharacter.townsman_teenager_battania"
-	         village_woman="NPCCharacter.AR_village_woman_battania"
-	         villager_male_child="NPCCharacter.villager_child_battania"
-	         villager_male_teenager="NPCCharacter.villager_teenager_battania"
-	         villager_female_child="NPCCharacter.village_woman_child_battania"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_battania"
+	         townswoman="NPCCharacter.AR_bat_townswoman"
+	         townswoman_infant="NPCCharacter.AR_bat_townswoman_infant"
+	         townswoman_child="NPCCharacter.AR_bat_townswoman_child"
+	         townswoman_teenager="NPCCharacter.AR_bat_townswoman_teenager"
+	         townsman="NPCCharacter.AR_bat_townsman"
+	         townsman_infant="NPCCharacter.AR_bat_townsman_infant"
+	         townsman_child="NPCCharacter.AR_bat_townsman_child"
+	         townsman_teenager="NPCCharacter.AR_bat_townsman_teenager"
+	         village_woman="NPCCharacter.AR_bat_village_woman"
+	         villager_male_child="NPCCharacter.AR_bat_villager_child"
+	         villager_male_teenager="NPCCharacter.AR_bat_villager_teenager"
+	         villager_female_child="NPCCharacter.AR_bat_village_woman_child"
+	         villager_female_teenager="NPCCharacter.AR_bat_village_woman_teenager"
 	         ransom_broker="NPCCharacter.ransom_broker_battania"
 	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_battania"
-	         merchant_notary="NPCCharacter.merchant_notary_battania"
-	         artisan_notary="NPCCharacter.artisan_notary_battania"
-	         preacher_notary="NPCCharacter.preacher_notary_battania"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_battania"
+	         merchant_notary="NPCCharacter.AR_bat_merchant_notary"   
+	         artisan_notary="NPCCharacter.AR_bat_artisan_notary"
+	         preacher_notary="NPCCharacter.AR_bat_preacher_notary"
+	         rural_notable_notary="NPCCharacter.AR_bat_rural_notable_notary"
 	         shop_worker="NPCCharacter.shop_worker_battania"
 	         tavernkeeper="NPCCharacter.tavernkeeper_battania"
 	         taverngamehost="NPCCharacter.taverngamehost_battania"
 	         musician="NPCCharacter.musician_battania"
 	         tavern_wench="NPCCharacter.tavern_wench_battania"
 	         armorer="NPCCharacter.armorer_battania"
-	         horseMerchant="NPCCharacter.horseMerchant_battania"
+	         horseMerchant="NPCCharacter.horseMerchant_battania" 
 	         barber="NPCCharacter.barber_battania"
 	         merchant="NPCCharacter.merchant_battania"
-	         beggar="NPCCharacter.beggar_battania"
-	         female_beggar="NPCCharacter.female_beggar_battania"
+	         beggar="NPCCharacter.AR_bat_beggar"
+	         female_beggar="NPCCharacter.AR_bat_female_beggar"
 	         female_dancer="NPCCharacter.female_dancer_battania"
 	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_battania"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_battania"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_battania"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_battania"
+	         weapon_practice_stage_1="NPCCharacter.AR_bat_weapon_practice_stage_1"
+	         weapon_practice_stage_2="NPCCharacter.AR_bat_weapon_practice_stage_2"
+	         weapon_practice_stage_3="NPCCharacter.AR_bat_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.gear_dummy_battania"
+	         default_battle_equipment_roster="EquipmentRoster.bat_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.bat_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.bat_duel_preset_template"
 	         board_game_type="BaghChal">
 		<vassal_reward_items>
 			<item id="Item.reaper_falx"/>
@@ -1597,6 +1677,11 @@
 			<name name="{=e52LPp57}Udris"/>
 			<name name="{=TxKnmzwT}Urien"/>
 			<name name="{=uAS832LM}Ydwin"/>
+			<name name="{=!*}Fiachra"/>
+			<name name="{=!*}Dubhan"/>
+			<name name="{=!*}Colum"/>
+			<name name="{=!*}Eibhir"/>
+			<name name="{=!*}Finnchad"/>
 		</male_names>
 		<female_names>
 			<name name="{=6pAsFGvw}Abeil"/>
@@ -1641,18 +1726,39 @@
 			<name name="{=UtfVuNN0}Vivein"/>
 			<name name="{=vb2rv3OK}Una"/>
 			<name name="{=PlGiSfwr}Ylen"/>
+			<name name="{=!*}Eimile"/>
+			<name name="{=!*}Aine"/>
+			<name name="{=!*}Ierne"/>
+			<name name="{=!*}Maen"/>
+			<name name="{=!*}Eilish"/>
 		</female_names>
 		<clan_names>
 			<name name="{=ppQbB9BH}fen Aertus"/>
+			<name name="{=pK5nYd3m}fen Ailath"/>
+			<name name="{=4BXAmC6W}fen Beannis"/>
 			<name name="{=T1xNyk3H}fen Brachar"/>
+			<name name="{=skIyo33b}fen Calrain"/>
+			<name name="{=3jXYDAIo}fen Cearthad"/>
 			<name name="{=CYxjotI2}fen Crusac"/>
+			<name name="{=AaoxZ4pn}fen Diall"/>
 			<name name="{=begCei6W}fen Domus"/>
 			<name name="{=iQbFDpKT}fen Earach"/>
 			<name name="{=SQji7Ek8}fen Fiachan"/>
+			<name name="{=aCFsI8g6}fen Galonin"/>
+			<name name="{=txEVb6TR}fen Gwaithor"/>
+			<name name="{=M2CFIsZU}fen Lanor"/>
+			<name name="{=qlqeOSSi}fen Leduin"/>
 			<name name="{=GBfFp7bW}fen Loen"/>
 			<name name="{=T1mpRVib}fen Morain"/>
+			<name name="{=JMiahwuO}fen Niabar"/>
+			<name name="{=IlwK5VaT}fen Parrac"/>
+			<name name="{=K3fAPP5V}fen Rhamennon"/>
+			<name name="{=2bNvfQny}fen Ruamor"/>
+			<name name="{=VVpv4El5}fen Sachta"/>
 			<name name="{=rjew3J8a}fen Seanel"/>
+			<name name="{=UlQWfDsU}fen Teicolar"/>
 			<name name="{=MHT9jCqB}fen Tuil"/>
+			<name name="{=QXaSPsyi}fen Uimach"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="battanian_forest_speed"/>
@@ -1715,33 +1821,42 @@
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_1"/>
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_2"/>
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_3"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_0"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_1"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_2"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_0"/>
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_1"/>
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_2"/>
 			<template name="NPCCharacter.AR_spc_wolfskins_leader_3"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_0"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_1"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_2"/>
+			<template name="NPCCharacter.AR_spc_druids_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_battania_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_battania_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_one_participant_set_v2"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v4"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v5"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_two_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_two_participant_set_v5"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_battania_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.western_mercenary"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_min_dryatics_t3"/>
+			<template name="NPCCharacter.AR_min_wolfskins_t3"/>
+			<template name="NPCCharacter.AR_min_druids_t3"/>
+			<template name="NPCCharacter.AR_bat_aux_fem_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="khuzait"
@@ -1774,7 +1889,6 @@
 	         armed_trader="NPCCharacter.AR_ilt_armed_trader"
 	         caravan_guard="NPCCharacter.AR_ilt_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_ilt_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_ilt_duel_preset"
 	         prison_guard="NPCCharacter.AR_ilt_prison_guard"
 	         guard="NPCCharacter.AR_ilt_guard"
 	         blacksmith="NPCCharacter.AR_ilt_blacksmith"
@@ -1815,6 +1929,9 @@
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_khuzait"
 	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_khuzait"
 	         gear_dummy="NPCCharacter.gear_dummy_khuzait"
+	         default_battle_equipment_roster="EquipmentRoster.khu_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.khu_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_ilt_duel_preset_battletemplate"
 	         board_game_type="Puluc">
 		<vassal_reward_items>
 			<item id="Item.steppe_war_bow"/>
@@ -1947,14 +2064,23 @@
 		<clan_names>
 			<name name="{=qJprzW1N}Airit"/>
 			<name name="{=4833ZS9c}Aldusunit"/>
+			<name name="{=R6kwhkGk}Anegis"/>
 			<name name="{=tPG5uf4C}Bochit"/>
 			<name name="{=J1s05Ovk}Charait"/>
+			<name name="{=f0NUMdNu}Demerkhen"/>
 			<name name="{=3apHdqU7}Ingchit"/>
+			<name name="{=u154THZL}Jalsyut"/>
+			<name name="{=CSDne5ja}Khurdyut"/>
 			<name name="{=5zxaCgd6}Maranjit"/>
+			<name name="{=ptXbItT1}Nangkhut"/>
+			<name name="{=aXwDg9VT}Olokhai"/>
 			<name name="{=tDaWbJlY}Oranarit"/>
+			<name name="{=aaXaxmii}Sajyut"/>
 			<name name="{=lhiAWoFw}Sunit"/>
+			<name name="{=ZNUooJ48}Tebegun"/>
 			<name name="{=MjZumz0j}Tokhit"/>
 			<name name="{=LipFTLvz}Ubchit"/>
+			<name name="{=jcUgdBEo}Unggun"/>
 			<name name="{=ZwOT9J49}Yujit"/>
 		</clan_names>
 		<cultural_feats>
@@ -2090,7 +2216,6 @@
 	         armed_trader="NPCCharacter.AR_w_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_w_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_w_emp_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_w_emp_duel_preset"
 	         prison_guard="NPCCharacter.AR_w_emp_prison_guard"
 	         guard="NPCCharacter.AR_w_emp_guard"
 	         blacksmith="NPCCharacter.AR_w_emp_blacksmith"
@@ -2131,6 +2256,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_w_emp_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_w_emp_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_w_emp_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_s_emp_duel_preset_battletemplate"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -2383,23 +2511,49 @@
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
+			<name name="{=vdOWVAoz}Altesios"/>
 			<name name="{=ogq9oxDn}Angarys"/>
+			<name name="{=TNI6qRbQ}Astrethides"/>
+			<name name="{=NTRPMben}Atragorys"/>
 			<name name="{=MgDUudOx}Balastisos"/>
+			<name name="{=t36SVqzP}Bustamys"/>
+			<name name="{=xyKumbJI}Calastides"/>
 			<name name="{=Rvww4Kxi}Corstases"/>
+			<name name="{=jhlwsyqq}Chromasos"/>
 			<name name="{=kWiQaFLM}Delicos"/>
+			<name name="{=aaOSBHrI}Dinamontes"/>
 			<name name="{=DiB4ukeK}Elysos"/>
+			<name name="{=7lixVdYb}Erchisasos"/>
+			<name name="{=FakFqJf1}Eurtimides"/>
 			<name name="{=pUvrTrHT}Gessios"/>
+			<name name="{=sgIlIqrI}Goronos"/>
 			<name name="{=fsOUhzLv}Jalos"/>
+			<name name="{=GcgpbmWB}Jintasos"/>
+			<name name="{=IK7uQU2p}Lasirys"/>
 			<name name="{=CuocGtTq}Lestharos"/>
+			<name name="{=w4u0LxQb}Lovanides"/>
+			<name name="{=lsOtNjxl}Manitesos"/>
 			<name name="{=FVl3D2qT}Meones"/>
+			<name name="{=8CQuY3RO}Munitides"/>
 			<name name="{=fAKa9JfU}Nathanys"/>
+			<name name="{=HSpdZCr5}Nebranos"/>
+			<name name="{=024kHRwG}Nomanides"/>
 			<name name="{=RhwPmahK}Opynates"/>
+			<name name="{=E1NB09bP}Otsamides"/>
+			<name name="{=PbxaX8F5}Othalotos"/>
 			<name name="{=OL6fbZRY}Paltos"/>
+			<name name="{=ild3wLKb}Pylitax"/>
+			<name name="{=eRg4Ngl1}Pharchasys"/>
 			<name name="{=HPrHkie6}Phenigos"/>
+			<name name="{=XWqBgFzc}Phorides"/>
+			<name name="{=Yl3c9WaM}Salastrys"/>
 			<name name="{=DYdI0faN}Stracanasthes"/>
 			<name name="{=g7etVhSO}Sumessos"/>
+			<name name="{=U9kQ2sTU}Tasyx"/>
+			<name name="{=lMxYCQYF}Teminides"/>
 			<name name="{=oGf1fUpP}Therycos"/>
 			<name name="{=AeNqteUX}Zebales"/>
+			<name name="{=63ZZltcm}Zalastros"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="empire_decreased_garrison_wage"/>
@@ -2558,7 +2712,6 @@
 	         armed_trader="NPCCharacter.AR_n_emp_armed_trader"
 	         caravan_guard="NPCCharacter.AR_n_emp_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_n_emp_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_n_emp_duel_preset"
 	         prison_guard="NPCCharacter.AR_n_emp_prison_guard"
 	         guard="NPCCharacter.AR_n_emp_guard"
 	         blacksmith="NPCCharacter.AR_n_emp_blacksmith"
@@ -2599,6 +2752,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_n_emp_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_n_emp_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_n_emp_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_s_emp_duel_preset_battletemplate"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -2851,23 +3007,49 @@
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
+			<name name="{=vdOWVAoz}Altesios"/>
 			<name name="{=ogq9oxDn}Angarys"/>
+			<name name="{=TNI6qRbQ}Astrethides"/>
+			<name name="{=NTRPMben}Atragorys"/>
 			<name name="{=MgDUudOx}Balastisos"/>
+			<name name="{=t36SVqzP}Bustamys"/>
+			<name name="{=xyKumbJI}Calastides"/>
 			<name name="{=Rvww4Kxi}Corstases"/>
+			<name name="{=jhlwsyqq}Chromasos"/>
 			<name name="{=kWiQaFLM}Delicos"/>
+			<name name="{=aaOSBHrI}Dinamontes"/>
 			<name name="{=DiB4ukeK}Elysos"/>
+			<name name="{=7lixVdYb}Erchisasos"/>
+			<name name="{=FakFqJf1}Eurtimides"/>
 			<name name="{=pUvrTrHT}Gessios"/>
+			<name name="{=sgIlIqrI}Goronos"/>
 			<name name="{=fsOUhzLv}Jalos"/>
+			<name name="{=GcgpbmWB}Jintasos"/>
+			<name name="{=IK7uQU2p}Lasirys"/>
 			<name name="{=CuocGtTq}Lestharos"/>
+			<name name="{=w4u0LxQb}Lovanides"/>
+			<name name="{=lsOtNjxl}Manitesos"/>
 			<name name="{=FVl3D2qT}Meones"/>
+			<name name="{=8CQuY3RO}Munitides"/>
 			<name name="{=fAKa9JfU}Nathanys"/>
+			<name name="{=HSpdZCr5}Nebranos"/>
+			<name name="{=024kHRwG}Nomanides"/>
 			<name name="{=RhwPmahK}Opynates"/>
+			<name name="{=E1NB09bP}Otsamides"/>
+			<name name="{=PbxaX8F5}Othalotos"/>
 			<name name="{=OL6fbZRY}Paltos"/>
+			<name name="{=ild3wLKb}Pylitax"/>
+			<name name="{=eRg4Ngl1}Pharchasys"/>
 			<name name="{=HPrHkie6}Phenigos"/>
+			<name name="{=XWqBgFzc}Phorides"/>
+			<name name="{=Yl3c9WaM}Salastrys"/>
 			<name name="{=DYdI0faN}Stracanasthes"/>
 			<name name="{=g7etVhSO}Sumessos"/>
+			<name name="{=U9kQ2sTU}Tasyx"/>
+			<name name="{=lMxYCQYF}Teminides"/>
 			<name name="{=oGf1fUpP}Therycos"/>
 			<name name="{=AeNqteUX}Zebales"/>
+			<name name="{=63ZZltcm}Zalastros"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="empire_decreased_garrison_wage"/>
@@ -3026,7 +3208,6 @@
 	         armed_trader="NPCCharacter.AR_kan_armed_trader"
 	         caravan_guard="NPCCharacter.AR_kan_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_kan_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_kan_duel_preset"
 	         prison_guard="NPCCharacter.AR_kan_prison_guard"
 	         guard="NPCCharacter.AR_kan_guard"
 	         blacksmith="NPCCharacter.AR_kan_blacksmith"
@@ -3067,6 +3248,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_kan_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_kan_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_kan_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_s_emp_duel_preset_battletemplate"
 	         board_game_type="Tablut">
 		<vassal_reward_items>
 			<item id="Item.justicier_2hsword"/>
@@ -3319,23 +3503,49 @@
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
+			<name name="{=vdOWVAoz}Altesios"/>
 			<name name="{=ogq9oxDn}Angarys"/>
+			<name name="{=TNI6qRbQ}Astrethides"/>
+			<name name="{=NTRPMben}Atragorys"/>
 			<name name="{=MgDUudOx}Balastisos"/>
+			<name name="{=t36SVqzP}Bustamys"/>
+			<name name="{=xyKumbJI}Calastides"/>
 			<name name="{=Rvww4Kxi}Corstases"/>
+			<name name="{=jhlwsyqq}Chromasos"/>
 			<name name="{=kWiQaFLM}Delicos"/>
+			<name name="{=aaOSBHrI}Dinamontes"/>
 			<name name="{=DiB4ukeK}Elysos"/>
+			<name name="{=7lixVdYb}Erchisasos"/>
+			<name name="{=FakFqJf1}Eurtimides"/>
 			<name name="{=pUvrTrHT}Gessios"/>
+			<name name="{=sgIlIqrI}Goronos"/>
 			<name name="{=fsOUhzLv}Jalos"/>
+			<name name="{=GcgpbmWB}Jintasos"/>
+			<name name="{=IK7uQU2p}Lasirys"/>
 			<name name="{=CuocGtTq}Lestharos"/>
+			<name name="{=w4u0LxQb}Lovanides"/>
+			<name name="{=lsOtNjxl}Manitesos"/>
 			<name name="{=FVl3D2qT}Meones"/>
+			<name name="{=8CQuY3RO}Munitides"/>
 			<name name="{=fAKa9JfU}Nathanys"/>
+			<name name="{=HSpdZCr5}Nebranos"/>
+			<name name="{=024kHRwG}Nomanides"/>
 			<name name="{=RhwPmahK}Opynates"/>
+			<name name="{=E1NB09bP}Otsamides"/>
+			<name name="{=PbxaX8F5}Othalotos"/>
 			<name name="{=OL6fbZRY}Paltos"/>
+			<name name="{=ild3wLKb}Pylitax"/>
+			<name name="{=eRg4Ngl1}Pharchasys"/>
 			<name name="{=HPrHkie6}Phenigos"/>
+			<name name="{=XWqBgFzc}Phorides"/>
+			<name name="{=Yl3c9WaM}Salastrys"/>
 			<name name="{=DYdI0faN}Stracanasthes"/>
 			<name name="{=g7etVhSO}Sumessos"/>
+			<name name="{=U9kQ2sTU}Tasyx"/>
+			<name name="{=lMxYCQYF}Teminides"/>
 			<name name="{=oGf1fUpP}Therycos"/>
 			<name name="{=AeNqteUX}Zebales"/>
+			<name name="{=63ZZltcm}Zalastros"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="empire_decreased_garrison_wage"/>
@@ -3485,7 +3695,6 @@
 	         armed_trader="NPCCharacter.AR_vae_armed_trader"
 	         caravan_guard="NPCCharacter.AR_vae_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_vae_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_vae_duel_preset"
 	         prison_guard="NPCCharacter.AR_vae_prison_guard"
 	         guard="NPCCharacter.AR_vae_guard"
 	         blacksmith="NPCCharacter.AR_vae_blacksmith"
@@ -3526,6 +3735,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_vae_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_vae_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_vae_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.stu_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.stu_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_jok_duel_preset_battletemplate"
 	         board_game_type="Konane">
 		<vassal_reward_items>
 			<item id="Item.avalanche_2haxe"/>
@@ -3722,16 +3934,16 @@
 			<icon id="445"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_0"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_1"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_2"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_3"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_4"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_5"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_6"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_7"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_8"/>
-			<template name="NPCCharacter.spc_wanderer_vaegiria_9"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_0"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_1"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_2"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_3"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_4"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_5"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_6"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_7"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_8"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_9"/>
 			<template name="NPCCharacter.spc_notable_vaegiria_0"/>
 			<template name="NPCCharacter.spc_notable_vaegiria_0b"/>
 			<template name="NPCCharacter.spc_notable_vaegiria_1"/>
@@ -3829,7 +4041,6 @@
 	         armed_trader="NPCCharacter.AR_mas_armed_trader"
 	         caravan_guard="NPCCharacter.AR_mas_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_mas_vet_caravan_guard"
-	         duel_preset="NPCCharacter.massa_duel_preset"
 	         prison_guard="NPCCharacter.prison_guard_massa"
 	         guard="NPCCharacter.guard_massa"
 	         blacksmith="NPCCharacter.blacksmith_massa"
@@ -3870,6 +4081,9 @@
 	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_massa"
 	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_massa"
 	         gear_dummy="NPCCharacter.gear_dummy_massa"
+	         default_battle_equipment_roster="EquipmentRoster.vla_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.vla_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.vla_duel_preset_template"
 	         board_game_type="MuTorere">
 		<vassal_reward_items>
 			<item id="Item.sentinel_2hsword"/>
@@ -4084,19 +4298,19 @@
 			<icon id="315"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_massa_0"/>
-			<template name="NPCCharacter.spc_wanderer_massa_1"/>
-			<template name="NPCCharacter.spc_wanderer_massa_2"/>
-			<template name="NPCCharacter.spc_wanderer_massa_3"/>
-			<template name="NPCCharacter.spc_wanderer_massa_4"/>
-			<template name="NPCCharacter.spc_wanderer_massa_5"/>
-			<template name="NPCCharacter.spc_wanderer_massa_6"/>
-			<template name="NPCCharacter.spc_wanderer_massa_7"/>
-			<template name="NPCCharacter.spc_wanderer_massa_8"/>
-			<template name="NPCCharacter.spc_wanderer_massa_9"/>
-			<template name="NPCCharacter.spc_wanderer_massa_10"/>
-			<template name="NPCCharacter.spc_wanderer_massa_11"/>
-			<template name="NPCCharacter.spc_wanderer_massa_12"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_0"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_1"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_2"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_3"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_4"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_5"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_6"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_7"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_8"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_9"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_10"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_11"/>
+			<template name="NPCCharacter.spc_wanderer_vlandia_12"/>
 			<template name="NPCCharacter.spc_notable_massa_merch1"/>
 			<template name="NPCCharacter.spc_notable_massa_merch2"/>
 			<template name="NPCCharacter.spc_notable_massa_merch3"/>
@@ -4182,7 +4396,6 @@
 	         armed_trader="NPCCharacter.AR_dar_armed_trader"
 	         caravan_guard="NPCCharacter.AR_dar_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_dar_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_dar_duel_preset"
 	         prison_guard="NPCCharacter.AR_dar_prison_guard"
 	         guard="NPCCharacter.AR_dar_guard"
 	         blacksmith="NPCCharacter.AR_dar_blacksmith"
@@ -4223,6 +4436,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_dar_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_dar_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_dar_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.ase_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.ase_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_ase_duel_preset_battletemplate"
 	         board_game_type="Seega">
 		<vassal_reward_items>
 			<item id="Item.noble_horse_khamseen"/>
@@ -4353,17 +4569,17 @@
 			<icon id="309"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_spahad_0"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_1"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_2"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_3"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_4"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_5"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_6"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_7"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_8"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_9"/>
-			<template name="NPCCharacter.spc_wanderer_spahad_10"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_0"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_1"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_2"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_3"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_4"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_5"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_6"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_7"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_8"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_9"/>
+			<template name="NPCCharacter.spc_wanderer_aserai_10"/>
 			<template name="NPCCharacter.spc_notable_spahad_0"/>
 			<template name="NPCCharacter.spc_notable_spahad_0b"/>
 			<template name="NPCCharacter.spc_notable_spahad_1"/>
@@ -4466,7 +4682,6 @@
 	         armed_trader="NPCCharacter.AR_jok_armed_trader"
 	         caravan_guard="NPCCharacter.AR_jok_caravan_guard"
 	         veteran_caravan_guard="NPCCharacter.AR_jok_vet_caravan_guard"
-	         duel_preset="NPCCharacter.AR_jok_duel_preset"
 	         prison_guard="NPCCharacter.AR_jok_prison_guard"
 	         guard="NPCCharacter.AR_jok_guard"
 	         blacksmith="NPCCharacter.AR_jok_blacksmith"
@@ -4507,6 +4722,9 @@
 	         weapon_practice_stage_2="NPCCharacter.AR_jok_weapon_practice_stage_2"
 	         weapon_practice_stage_3="NPCCharacter.AR_jok_weapon_practice_stage_3"
 	         gear_dummy="NPCCharacter.AR_jok_gear_dummy"
+	         default_battle_equipment_roster="EquipmentRoster.khu_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.khu_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.AR_ilt_duel_preset_battletemplate"
 	         board_game_type="Puluc">
 		<vassal_reward_items>
 			<item id="Item.reaper_falx"/>
@@ -4625,16 +4843,16 @@
 			<icon id="415"/>
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_0"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_1"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_2"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_3"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_4"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_5"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_6"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_7"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_8"/>
-			<template name="NPCCharacter.spc_wanderer_gotarnia_9"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_0"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_1"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_2"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_3"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_4"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_5"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_6"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_7"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_8"/>
+			<template name="NPCCharacter.spc_wanderer_sturgia_9"/>
 			<template name="NPCCharacter.spc_notable_gotarnia_merchant_1"/>
 			<template name="NPCCharacter.spc_notable_gotarnia_0b"/>
 			<template name="NPCCharacter.spc_notable_gotarnia_0c"/>
@@ -4698,6 +4916,8 @@
 	         encounter_background_mesh="encounter_sturgia"
 	         caravan_party_template="PartyTemplate.caravan_template_sturgia"
 	         militia_party_template="PartyTemplate.militia_sturgia_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
 		<banner_bearer_replacement_weapons>
 			<item id="Item.sturgia_sword_1_t2"/>
@@ -4743,6 +4963,8 @@
 	         encounter_background_mesh="encounter_empire"
 	         caravan_party_template="PartyTemplate.caravan_template_s_empire"
 	         militia_party_template="PartyTemplate.militia_s_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
 		<male_names>
 			<name name="{=v9B50R0Q}Acarion"/>
@@ -4995,6 +5217,8 @@
 	         encounter_background_mesh="encounter_khuzait"
 	         caravan_party_template="PartyTemplate.caravan_template_khuzait"
 	         militia_party_template="PartyTemplate.militia_khuzait_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
 		<male_names>
 			<name name="{=AWM3jbaZ}Ajin"/>
@@ -5117,7 +5341,7 @@
 	         is_main_culture="false"
 	         color="FF2D3F1D"
 	         color2="FFBFCBB0"
-	         elite_basic_troop="NPCCharacter.AR_bat_archer_recruit"
+	         elite_basic_troop="NPCCharacter.AR_bat_elite_recruit"
 	         basic_troop="NPCCharacter.AR_bat_recruit"
 	         can_have_settlement="true"
 	         town_edge_number="16"
@@ -5125,6 +5349,8 @@
 	         encounter_background_mesh="encounter_battania"
 	         caravan_party_template="PartyTemplate.caravan_template_battania"
 	         militia_party_template="PartyTemplate.militia_battania_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
 		<male_names>
 			<name name="{=VP9hqkxO}Aedid"/>
@@ -5224,6 +5450,8 @@
 	         encounter_background_mesh="encounter_khuzait"
 	         caravan_party_template="PartyTemplate.caravan_template_khuzait"
 	         militia_party_template="PartyTemplate.militia_khuzait_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
 		<male_names>
 			<name name="{=!*}Cheng"/>
@@ -5256,7 +5484,14 @@
 	         basic_troop="NPCCharacter.AR_ban_t1_looter"
 	         is_bandit="true"
 	         can_have_settlement="false"
-	         encounter_background_mesh="encounter_looter"/>
+	         encounter_background_mesh="encounter_looter">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="sea_raiders"
 	         name="{=pBUc2pL8}Sea Raiders"
 	         bandit_chief="NPCCharacter.AR_ban_t4_sea_raider"
@@ -5268,7 +5503,14 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_shore_bandit"
-	         bandit_boss_party_template="PartyTemplate.sea_raiders_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.sea_raiders_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="mountain_bandits"
 	         name="{=mOa9CX13}Mountain Bandits"
 	         bandit_chief="NPCCharacter.AR_ban_t4_mountain_bandit"
@@ -5280,7 +5522,14 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_mountain_bandit"
-	         bandit_boss_party_template="PartyTemplate.mountain_bandits_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.mountain_bandits_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="forest_bandits"
 	         name="{=sAbjtZbB}Forest Bandits"
 	         bandit_chief="NPCCharacter.AR_ban_t4_forest_bandit"
@@ -5292,7 +5541,14 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_forest_bandit"
-	         bandit_boss_party_template="PartyTemplate.forest_bandits_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.forest_bandits_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.battania_sword_1_t2"/>
+			<item id="Item.battania_sword_2_t3"/>
+			<item id="Item.battania_sword_4_t4"/>
+			<item id="Item.battania_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="desert_bandits"
 	         name="{=kkUQObZn}Desert Bandits"
 	         bandit_chief="NPCCharacter.AR_ban_t4_desert_bandit"
@@ -5304,7 +5560,14 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_desert_bandits"
-	         bandit_boss_party_template="PartyTemplate.desert_bandits_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.desert_bandits_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_3_t3"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_5_t4"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="steppe_bandits"
 	         name="{=e6csp4ha}Steppe Bandits"
 	         bandit_chief="NPCCharacter.AR_ban_t4_steppe_bandit"
@@ -5316,7 +5579,14 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_desert_bandits"
-	         bandit_boss_party_template="PartyTemplate.steppe_bandits_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.steppe_bandits_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.khuzait_sword_1_t2"/>
+			<item id="Item.khuzait_sword_2_t3"/>
+			<item id="Item.khuzait_sword_3_t3"/>
+			<item id="Item.khuzait_sword_4_t4"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="rebel_gladiators"
 	         name="{=e6csp4ha}Rebel Gladiators"
 	         bandit_chief="NPCCharacter.AR_ban_t5_rebel_gladiator"
@@ -5328,7 +5598,14 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_forest_bandit"
-	         bandit_boss_party_template="PartyTemplate.rebel_gladiators_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.rebel_gladiators_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="slavers"
 	         name="{=e6csp4ha}Slavers"
 	         bandit_chief="NPCCharacter.AR_ban_t5_slaver"
@@ -5340,5 +5617,26 @@
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_forest_bandit"
-	         bandit_boss_party_template="PartyTemplate.slavers_boss_party_template"/>
+	         bandit_boss_party_template="PartyTemplate.slavers_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
+	<Culture id="neutral_culture"
+	         name="{=jKviMpbP}Calradian"
+	         elite_basic_troop="NPCCharacter.guard"
+	         basic_troop="NPCCharacter.guard"
+	         encounter_background_mesh="encounter_empire"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 </SPCultures>

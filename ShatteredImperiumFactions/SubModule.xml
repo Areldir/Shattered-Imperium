@@ -2,16 +2,17 @@
 <Module>
 	<Name value="Shattered Imperium: Factions"/>
 	<Id value="ShatteredImperiumFactions"/>
-	<Version value="v0.2.5"/>
+	<Version value="v0.3.0"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.1.3"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.3"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.1.3"/>
-		<DependedModule Id="CustomBattle" DependentVersion="v1.1.3"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.1.3"/>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode"/>
 		<DependedModule Id="Bannerlord.Harmony"/>
+		<DependedModule Id="BetterExceptionWindow"/>
 		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
@@ -24,28 +25,6 @@
 	<SubModules>
 	</SubModules>
 	<Xmls>
-	
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="02-Barbarian/SI_battania_characters"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="02-Barbarian/SI_battania_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-	
-	
-	
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="SI_notable_characters"/>
 			<IncludedGameTypes>
@@ -102,33 +81,6 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="01-Empire/SI_n_empire_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="02-Barbarian/spnpccharacters_battania_reforms_main"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="02-Barbarian/spnpccharacters_barbarian_reforms_auxiliaries"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="02-Barbarian/spnpccharacters_barbarian_reforms_militias"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>

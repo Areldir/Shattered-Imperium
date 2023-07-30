@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<!-- OSA Weapons -->
-	<CraftedItem id="AR_gladiator_fork_a" name="Calradic Gladiator Fork" crafting_template="TwoHandedPolearm" culture="Culture.empire" modifier_group="polearm">
+	<CraftedItem id="AR_sickle_t3" name="{=osa_ar_sickle_t3}Iron Ritual Sickle" crafting_template="OneHandedSword" culture="Culture.battania" modifier_group="sword">
 		<Pieces>
-			<Piece id="spear_blade_26" Type="Blade" scale_factor="120"/>
-			<Piece id="spear_guard_15" Type="Guard"/>
-			<Piece id="spear_handle_5" Type="Handle" scale_factor="110"/>
-			<Piece id="spear_pommel_6" Type="Pommel"/>
+			<Piece id="AR_aserai_blade_a" Type="Blade" scale_factor="60"/>
+			<Piece id="sturgian_guard_1" Type="Guard"/>
+			<Piece id="sturgian_grip_32" Type="Handle"/>
+			<Piece id="aserai_pommel_1" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 152 Weight: 1.32 -->
+		<!-- Length: 70 Weight: 1.03 -->
 	</CraftedItem>
-	<CraftedItem id="AR_gladiator_fork_b" name="Calradic Decorated Gladiator Fork" crafting_template="TwoHandedPolearm" culture="Culture.empire" modifier_group="polearm">
+	<CraftedItem id="AR_sickle_t4" name="{=osa_ar_sickle_t4}Steel Ritual Sickle" crafting_template="OneHandedSword" culture="Culture.battania" modifier_group="sword">
 		<Pieces>
-			<Piece id="spear_blade_25" Type="Blade" scale_factor="105"/>
-			<Piece id="spear_banner_1" Type="Guard" scale_factor="90"/>
-			<Piece id="AR_SI_spear_handle_e" Type="Handle" scale_factor="110"/>
-			<Piece id="spear_pommel_6" Type="Pommel"/>
+			<Piece id="AR_aserai_blade_a" Type="Blade" scale_factor="60"/>
+			<Piece id="battania_guard_1" Type="Guard" scale_factor="90"/>
+			<Piece id="battania_grip_1" Type="Handle" scale_factor="110"/>
+			<Piece id="empire_pommel_3" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 152 Weight: 1.09 -->
-	</CraftedItem>
-	<CraftedItem id="AR_gladiator_fork_c" name="Calradic Gladiator Trident" crafting_template="TwoHandedPolearm" culture="Culture.empire" modifier_group="polearm">
-		<Pieces>
-			<Piece id="spear_blade_32" Type="Blade" scale_factor="110"/>
-			<Piece id="spear_guard_15" Type="Guard"/>
-			<Piece id="spear_handle_5" Type="Handle" scale_factor="110"/>
-			<Piece id="spear_pommel_6" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 152 Weight: 0.76 -->
-	</CraftedItem>
-	<CraftedItem id="AR_gladiator_fork_d" name="Calradic Decorated Gladiator Trident" crafting_template="TwoHandedPolearm" culture="Culture.empire" modifier_group="polearm">
-		<Pieces>
-			<Piece id="spear_blade_32" Type="Blade" scale_factor="135"/>
-			<Piece id="spear_banner_1" Type="Guard" scale_factor="90"/>
-			<Piece id="AR_SI_spear_handle_e" Type="Handle" scale_factor="110"/>
-			<Piece id="spear_pommel_6" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 152 Weight: 0.65 -->
-	</CraftedItem>
-	<CraftedItem id="AR_battania_spear_5_t4" name="{=osa_ar_battania_spear_5_t4}Highland Fine Steel Leaf Spear" crafting_template="TwoHandedPolearm" culture="Culture.battania" modifier_group="polearm">
-		<Pieces>
-			<Piece id="spear_blade_20" Type="Blade" scale_factor="90"/>
-			<Piece id="spear_banner_16" Type="Guard" scale_factor="101"/>
-			<Piece id="AR_SI_spear_handle_d" Type="Handle" scale_factor="101"/>
-			<Piece id="spear_pommel_9" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 150 Weight: 0.69 -->
+		<!-- Length: 72 Weight: 0.96 -->
 	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
