@@ -26,7 +26,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Infantry Light Skill 20-40 -->
-	<NPCCharacter id="AR_ase_t2_swordsman" default_group="Infantry" level="11" name="{=si_ar_ase_t2_swordsman}Aserai Tribal Warrior" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t2_swordsman" default_group="Ranged" level="11" name="{=si_ar_ase_t2_swordsman}Aserai Tribal Warrior" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -49,7 +49,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Sword Infantry Medium Skill 40-70 -->
-	<NPCCharacter id="AR_ase_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_ase_t3_swordsman}Aserai Tribal Axeman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t3_swordsman" default_group="Ranged" level="16" name="{=si_ar_ase_t3_swordsman}Aserai Tribal Axeman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -72,7 +72,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Sword Infantry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_ase_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_ase_t4_swordsman}Aserai Hardened Tribal Axeman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t4_swordsman" default_group="Ranged" level="21" name="{=si_ar_ase_t4_swordsman}Aserai Hardened Tribal Axeman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -95,7 +95,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_ase_t5_swordsman}Aserai Palace Guard Axeman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_swordsman" default_group="Ranged" level="26" name="{=si_ar_ase_t5_swordsman}Aserai Palace Guard Axeman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -969,7 +969,7 @@
 			<EquipmentSet id="AR_ase_villager_woman_child_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_ase_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.aserai" name="{=cte0zSCz}Aserai Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<!--NPCCharacter id="AR_ase_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.aserai" name="{=cte0zSCz}Aserai Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -979,7 +979,7 @@
 			<EquipmentSet id="AR_ase_duel_preset_battletemplate"/>
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
 		</Equipments>
-	</NPCCharacter>
+	</NPCCharacter-->
 	<NPCCharacter id="AR_ase_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.aserai" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
@@ -1085,8 +1085,8 @@
 		</face>
 		<skills/>
 		<Equipments>
-			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate" civilian="true"/>
 			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate"/>
+			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_ase_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">

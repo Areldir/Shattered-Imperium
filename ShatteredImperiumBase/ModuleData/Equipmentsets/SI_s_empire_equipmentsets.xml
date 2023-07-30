@@ -3478,7 +3478,7 @@
 			<Equipment slot="Leg" id="Item.leather_shoes"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_s_emp_tournament_master_civiliantemplate" culture="Culture.empire">
+	<EquipmentRoster id="AR_s_emp_tournament_master_battletemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
@@ -3490,6 +3490,23 @@
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 		</EquipmentSet>
 		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.AR_empire_armor_n"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_s_emp_tournament_master_civiliantemplate" culture="Culture.empire">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+			<Equipment slot="Body" id="Item.AR_empire_armor_m"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.AR_empire_armor_n"/>
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -3632,12 +3649,12 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.imperial_spear_t2"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.imperial_spear_t2"/>
@@ -3652,7 +3669,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 		</EquipmentSet>
 	</EquipmentRoster>
@@ -3669,23 +3686,23 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_sword_3_t3"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_sword_3_t3"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.light_mace_t3"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.light_mace_t3"/>
@@ -3718,19 +3735,19 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_sword_5_t4"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_4_t4"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_4_t4"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_mace_2_t4"/>
-			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_sword_5_t4"/>

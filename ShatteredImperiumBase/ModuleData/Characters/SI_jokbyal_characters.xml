@@ -324,7 +324,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Sword Infantry Very Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_jok_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_jok_t6_swordsman}Jokbyalic Bloodsworn Champion" occupation="Soldier" culture="Culture.byalic">
+	<NPCCharacter id="AR_jok_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_jok_t6_swordsman}Jokbyalic Bloodsworn Axeman" occupation="Soldier" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -984,7 +984,7 @@
 			<EquipmentSet id="AR_jok_villager_woman_child_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_jok_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.byalic" name="{=cte0zSCz}Jokbyalic Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<!--NPCCharacter id="AR_jok_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.byalic" name="{=cte0zSCz}Jokbyalic Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_byalic"/>
 		</face>
@@ -994,7 +994,7 @@
 			<EquipmentSet id="AR_jok_duel_preset_battletemplate"/>
 			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
 		</Equipments>
-	</NPCCharacter>
+	</NPCCharacter-->
 	<NPCCharacter id="AR_jok_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.byalic" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_byalic"/>
@@ -1100,8 +1100,8 @@
 		</face>
 		<skills/>
 		<Equipments>
+			<EquipmentSet id="AR_jok_tournament_master_battletemplate"/>
 			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate" civilian="true"/>
-			<EquipmentSet id="AR_jok_tournament_master_civiliantemplate"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_jok_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">

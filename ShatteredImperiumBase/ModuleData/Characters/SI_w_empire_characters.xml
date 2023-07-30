@@ -1008,7 +1008,7 @@
 			<EquipmentSet id="AR_s_emp_villager_woman_child_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_w_emp_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.empire_w" name="{=cte0zSCz}Empire Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<!--NPCCharacter id="AR_w_emp_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.empire_w" name="{=cte0zSCz}Empire Tribesman" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1018,7 +1018,7 @@
 			<EquipmentSet id="AR_s_emp_duel_preset_battletemplate"/>
 			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
 		</Equipments>
-	</NPCCharacter>
+	</NPCCharacter-->
 	<NPCCharacter id="AR_w_emp_blacksmith" default_group="Infantry" occupation="Blacksmith" culture="Culture.empire_w" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
@@ -1124,8 +1124,8 @@
 		</face>
 		<skills/>
 		<Equipments>
+			<EquipmentSet id="AR_s_emp_tournament_master_battletemplate"/>
 			<EquipmentSet id="AR_s_emp_tournament_master_civiliantemplate" civilian="true"/>
-			<EquipmentSet id="AR_s_emp_tournament_master_civiliantemplate"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_w_emp_ransom_broker" default_group="Infantry" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.empire_w" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
