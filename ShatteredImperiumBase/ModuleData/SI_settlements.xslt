@@ -82,12 +82,36 @@
 	<xsl:template match="Settlement[@id='town_B3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B3_1_text}Bog Beth sits in a low, forested valley in the east of the Uchalion Massif. Villagers trap beavers, foxes and other fur-bearing animals in the dark, marshy woods.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B3_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B3_2_text}Geunat Nal - the village ‘where Nal left his head’ - is a fur-trapping village near the site of a duel famous in Battanian legend. The villagers are known for their skill as foresters, helping the nearby cliff-top fortress of Car Banseth to guard the northern approaches to the Battanian heartland from Sturgian and other raiders.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B3_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B3_3_text}Tor Leiad - the ‘hill of the full moon’ - lies beneath a wooded knoll in the northern Battanian lands. Villagers harvest the thick-growing forests of oak, yew and beech. The woods here have been tended carefully by the Battanians for centuries, ensuring that there are always enough trees to harvest and sell for timber.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_B4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B4_2_text}Lindorn sits on the green hills north and west of Llyn Tywal - the ‘dark lake’. The surrounding farmlands are sown with wheat and barley.</xsl:attribute>
 	</xsl:template>
 	<!-- fen Conaill -->
 	<xsl:template match="Settlement[@id='town_B1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_B1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_B1_text}Marunath - the 'Horse of the Ford' - is nowhere near a river. But Battanian bards love nothing more than an incongruous place-name around which a legend can be woven. In this case the hero Ochlaigan, who was foretold to defeat the seven sons of Glanys in seven duels near seven fords, encountered the last of his enemies here. He slit his horse's throat and crossed over the stream of blood that gushed forth, defeating his last enemy and fulfiling the prophecy. Today, Marunath is one of the major towns on the Uchalion Plateau, with merchants from all across Calradia coming to sell their wares in its markets.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B1_1_text}Dalmengus sits by the side of the Llyn Tywal - the ‘Dark Lake’ that lies at the center of the Uchalion Massif. The flat, well-watered lands here are fertile and well-suited to wheat and barley.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B1_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B1_3_text}Beglomuar sits in a nook of the southern escarpment of the Uchalion Massif. There is little to recommend these lands other than the ore deposits in the hills and the bog-iron of the mountain marshes.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B1_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B1_4_text}Ath Cafal sits near the head of the Cafalcombe, a steep valley that descends to the borderlands of the Calradian Empire. Decent clay can be found in the small streams that rush down from the hills on all sides.</xsl:attribute>
 	</xsl:template>
 	<!-- fen Giall -->
 	<xsl:template match="Settlement[@id='town_B5']/@owner">
