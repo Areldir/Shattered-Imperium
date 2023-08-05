@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- CALRADIAN EMPIRE: Notables -->
-	<!-- Worldly imperial merchant -->
 	<NPCCharacter id="AR_s_emp_notable_0" name="{=!}Cautious imperial merchant" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Merchant">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
@@ -1146,8 +1145,307 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- DARSHI: Notables -->
+	<NPCCharacter id="AR_dar_notable_0" name="{=!}{FIRSTNAME} the Dateseller" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ase_merchant_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ase_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_0b" name="{=!}{FIRSTNAME} the Minter" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ase_merchant_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ase_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_1" name="{=!}{FIRSTNAME} the Coppermonger" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ase_merchant_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ase_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_1b" name="{=!}{FIRSTNAME} the Incensemonger" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ase_merchant_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ase_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_2" name="{=!}{FIRSTNAME} the Woolseller" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_ase_merchant_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ase_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_2b" name="{=!}{FIRSTNAME} the Appraiser" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_3" name="{=!}{FIRSTNAME} the Caravanser" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_3b" name="{=!}{FIRSTNAME} the Benefactor" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_4" name="{=!}Darshi rebellious preacher" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_5" name="{=!}Darshi fire-and-brimstone preacher" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_6" name="{=!}Darshi female preacher" voice="earnest" is_template="true" default_group="Infantry" is_female="true" culture="Culture.darshi" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_7" name="{=!}Darshi fitiwi" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_8" name="{=!}Darshi fitiwi" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_9" name="{=!}Fearsome female Darshi gang leader" voice="curt" is_template="true" default_group="Infantry" is_female="true" culture="Culture.darshi" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_10" name="{=!}Darshi artisan leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_11" name="{=!}Darshi earnest umda rural notable" voice="earnest" is_template="true" default_group="Infantry" culture="Culture.darshi" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_notable_12" name="{=!}Darshi quiet umda rural notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.darshi" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_headman_1" name="{=!}Darshi rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_headman_2" name="{=!}Darshi conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_dar_headman_3" name="{=!}Darshi devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.darshi" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_darshi"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="ArabianHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<!-- QUYAZIC EMPIRE: Notables -->
-	<!-- Worldly imperial merchant -->
 	<NPCCharacter id="AR_kan_notable_0" name="{=!}Cautious imperial merchant" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
 			<face_key_template value="BodyProperty.villager_kannic"/>
