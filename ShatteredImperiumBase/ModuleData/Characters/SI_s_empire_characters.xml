@@ -1851,4 +1851,117 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- CALRADIAN DEFECTORS -->
+	<!-- T1 Sword Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_slave_recruit" default_group="Infantry" level="16" name="{=si_ar_emp_aux_slave_recruit}Calradian Defector Footman" occupation="Mercenary" is_basic_troop="true" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_slave_t4_infantry"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_slave_t4_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_slave_recruit_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_slave_t4_infantry" default_group="Infantry" level="21" name="{=si_ar_emp_aux_slave_t4_infantry}Calradian Defector Swordsman" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_slave_t5_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_slave_t4_infantry_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_slave_t5_infantry" default_group="Infantry" level="26" name="{=si_ar_emp_aux_slave_t5_infantry}Calradian Defector Legionary" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_slave_t5_infantry_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Crossbowman Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_slave_t4_skirmisher" default_group="Ranged" level="21" name="{=si_ar_emp_aux_slave_t4_skirmisher}Calradian Defector Huntsman" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_slave_t5_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_slave_t4_skirmisher_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Crossbowman Medium Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_slave_t5_skirmisher" default_group="Ranged" level="26" name="{=si_ar_emp_aux_slave_t5_skirmisher}Calradian Defector Crossbowman" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_slave_t5_skirmisher_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>

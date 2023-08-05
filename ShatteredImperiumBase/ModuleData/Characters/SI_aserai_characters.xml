@@ -1085,7 +1085,7 @@
 		</face>
 		<skills/>
 		<Equipments>
-			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate"/>
+			<EquipmentSet id="AR_ase_tournament_master_battletemplate"/>
 			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -1609,6 +1609,121 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="AR_min_benizilal_t5_pyro_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- AUXILIARY ASERAI -->
+	<!-- T3 Archer Medium Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_aserai_recruit" default_group="Ranged" level="16" name="{=si_ar_emp_aux_aserai_recruit}Auxiliary Nahasan Scout" occupation="Mercenary" is_basic_troop="true" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_aserai_t4_archer"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_aserai_t4_camel"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_aserai_recruit_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Archer Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_aserai_t4_archer" default_group="Ranged" level="21" name="{=si_ar_emp_aux_aserai_t4_archer}Auxiliary Nahasan Bowman" occupation="Mercenary" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_aserai_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_aserai_t4_archer_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Archer Medium Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_aserai_t5_archer" default_group="Ranged" level="26" name="{=si_ar_emp_aux_aserai_t5_archer}Auxiliary Nahasan Archer" occupation="Mercenary" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_aserai_t5_archer_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Cavalry Archer Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_aserai_t4_camel" default_group="HorseArcher" level="21" name="{=si_ar_emp_aux_aserai_t4_camel}Auxiliary Nahasan Camel Rider" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_aserai_t5_camel"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_aserai_t4_camel_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Cavalry Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_aserai_t5_camel" default_group="HorseArcher" level="26" name="{=si_ar_emp_aux_aserai_t5_camel}Auxiliary Nahasan Dromedary Warrior" occupation="Mercenary" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_aserai_t5_camel_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>

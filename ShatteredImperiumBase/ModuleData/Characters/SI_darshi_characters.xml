@@ -1102,7 +1102,7 @@
 		</face>
 		<skills/>
 		<Equipments>
-			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate"/>
+			<EquipmentSet id="AR_ase_tournament_master_battletemplate"/>
 			<EquipmentSet id="AR_ase_tournament_master_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -1415,8 +1415,8 @@
 		<skills>
 			<skill id="Athletics" value="80"/>
 			<skill id="Riding" value="120"/>
-			<skill id="OneHanded" value="60"/>
-			<skill id="TwoHanded" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
@@ -1438,8 +1438,8 @@
 		<skills>
 			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="120"/>
-			<skill id="OneHanded" value="60"/>
-			<skill id="TwoHanded" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
@@ -1814,6 +1814,119 @@
 		<Equipments>
 			<EquipmentSet id="AR_min_ethawian_t5_skirmisher_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- AUXILIARY DARSHI -->
+	<!-- T3 Spear Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_darshi_recruit" default_group="Infantry" level="16" name="{=si_ar_emp_aux_darshi_recruit}Auxiliary Darshi Hillman" is_basic_troop="true" occupation="Mercenary" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_darshi_t4_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_darshi_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_darshi_recruit_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_darshi_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_emp_aux_darshi_t4_swordsman}Auxiliary Darshi Warrior" occupation="Mercenary" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_darshi_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_darshi_t4_swordsman_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_darshi_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_emp_aux_darshi_t5_swordsman}Auxiliary Darshi Champion" occupation="Mercenary" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_darshi_t5_swordsman_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_darshi_t4_cavalry" default_group="Cavalry" level="21" name="{=si_ar_emp_aux_darshi_t4_cavalry}Auxiliary Darshi Rider" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_darshi_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_darshi_t4_cavalry_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_darshi_t5_cavalry" default_group="Cavalry" level="26" name="{=si_ar_emp_aux_darshi_t5_cavalry}Auxiliary Darshi Horseman" occupation="Mercenary" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_darshi_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
