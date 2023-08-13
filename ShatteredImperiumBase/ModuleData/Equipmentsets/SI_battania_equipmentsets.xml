@@ -2325,7 +2325,7 @@
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_i"/>
-			<Equipment slot="Head" id="Item.TV_battania_helmet_j"/>
+			<Equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_g"/>
 			<Equipment slot="Gloves" id="Item.woven_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
@@ -2343,7 +2343,7 @@
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Body" id="Item.scale_armor"/>
-			<Equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_g"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_i"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
@@ -2352,7 +2352,7 @@
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_i"/>
-			<Equipment slot="Head" id="Item.TV_battania_helmet_g"/>
+			<Equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_h"/>
 			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 			<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
@@ -2372,7 +2372,7 @@
 			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Body" id="Item.tv_battania_armor_f"/>
-			<Equipment slot="Head" id="Item.TV_battania_helmet_j"/>
+			<Equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_o"/>
 			<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
 			<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
@@ -2390,7 +2390,7 @@
 			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_j"/>
-			<Equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_h"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_m"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
@@ -2399,7 +2399,7 @@
 			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_a"/>
-			<Equipment slot="Head" id="Item.TV_battania_helmet_i"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
 			<Equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
 			<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
@@ -2419,7 +2419,7 @@
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_a2"/>
-			<Equipment slot="Head" id="Item.TV_battania_helmet_j"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_o"/>
 			<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
 			<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
@@ -2437,7 +2437,7 @@
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_b"/>
-			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_i"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_m"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
@@ -2446,7 +2446,7 @@
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_b2"/>
-			<Equipment slot="Head" id="Item.TV_battania_helmet_h"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
 			<Equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
 			<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
@@ -6549,10 +6549,116 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<!-- DRYATIC HILLMEN: Auxiliary And Mercenary Characters -->
-	<EquipmentRoster id="AR_min_dryatics_t3_battletemplate" culture="Culture.dryatic">
+	<EquipmentRoster id="AR_spc_dryatics_leader_battletemplate" culture="Culture.palaic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_5_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_p2"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_b"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_q"/>
+			<Equipment slot="Gloves" id="Item.TV_battania_gloves_c"/>
+			<Equipment slot="Cape" id="Item.bearskin"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_4_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.ranger_mail"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_h"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+			<Equipment slot="Cape" id="Item.battanian_mail_scarf"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_5_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.tv_battania_warlord_armor_c"/>
+			<Equipment slot="Head" id="Item.AR_battania_lord_helmet_f"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_o"/>
+			<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
+			<Equipment slot="Cape" id="Item.ao_battanian_mail_shoulders"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_4_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.tv_battania_armor_d"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_b2"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_m"/>
+			<Equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
+			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_h"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_5_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_p"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_i"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
+			<Equipment slot="Gloves" id="Item.TV_battania_gloves_b"/>
+			<Equipment slot="Cape" id="Item.rough_bearskin"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_4_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.tv_battania_armor_b"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_b"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_p"/>
+			<Equipment slot="Gloves" id="Item.TV_battania_gloves_c"/>
+			<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_battania_2hsword_5_t5"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_5_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_p3"/>
+			<Equipment slot="Head" id="Item.AR_battania_lord_helmet_g"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
+			<Equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
+			<Equipment slot="Item2" id="Item.AR_battania_spear_4_t4"/>
+			<Equipment slot="Item3" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Body" id="Item.tv_battania_warlord_armor_c2"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_b2"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+			<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b"/>
+			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_min_dryatics_t3_battletemplate" culture="Culture.palaic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
@@ -6563,7 +6669,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_2_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_d"/>
@@ -6574,7 +6680,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.cloth_tunic"/>
@@ -6585,10 +6691,10 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
-			<Equipment slot="Body" id="Item.ao_battanian_woolen_tunic_with_kilt"/>
+			<Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
 			<Equipment slot="Head" id="Item.battania_fur_cap"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.ragged_armwraps"/>
@@ -6596,7 +6702,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
@@ -6607,7 +6713,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_e"/>
@@ -6618,7 +6724,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
@@ -6629,7 +6735,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
@@ -6640,10 +6746,10 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
-			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
 			<Equipment slot="Head" id="Item.leather_studdedhelm_over_headcloth"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_c"/>
 			<Equipment slot="Gloves" id="Item.ragged_armwraps"/>
@@ -6651,7 +6757,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
@@ -6662,10 +6768,10 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
-			<Equipment slot="Body" id="Item.battania_light_armor_e"/>
+			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Head" id="Item.AR_hat_f"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_w"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
@@ -6673,7 +6779,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_c"/>
@@ -6684,7 +6790,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
@@ -6695,7 +6801,7 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_v"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_1_t2"/>
 			<Equipment slot="Body" id="Item.battania_light_armor_b"/>
@@ -6705,13 +6811,14 @@
 			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_min_dryatics_t4_infantry_battletemplate" culture="Culture.dryatic">
+	<EquipmentRoster id="AR_min_dryatics_t4_infantry_battletemplate" culture="Culture.palaic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzb"/>
 			<Equipment slot="Body" id="Item.scale_armor"/>
-			<Equipment slot="Head" id="Item.roman_helmet_z"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_g"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_i"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
@@ -6720,8 +6827,9 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzb2"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_i"/>
-			<Equipment slot="Head" id="Item.simple_helmet"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_g"/>
 			<Equipment slot="Gloves" id="Item.woven_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
@@ -6730,8 +6838,9 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzb"/>
 			<Equipment slot="Body" id="Item.tv_battania_armor_a"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_f"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c2"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_j"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
 			<Equipment slot="Cape" id="Item.rough_bearskin"/>
@@ -6740,8 +6849,9 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzb2"/>
 			<Equipment slot="Body" id="Item.scale_armor"/>
-			<Equipment slot="Head" id="Item.simple_helmet_headcloth"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_j"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_i"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
@@ -6750,20 +6860,22 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzb"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_i"/>
-			<Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_h"/>
 			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 			<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_min_dryatics_t5_infantry_battletemplate" culture="Culture.dryatic">
+	<EquipmentRoster id="AR_min_dryatics_t5_infantry_battletemplate" culture="Culture.palaic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Item2" id="Item.western_javelin_3_t4"/>
-			<Equipment slot="Body" id="Item.tv_battania_armor_f"/>
-			<Equipment slot="Head" id="Item.AR_roman_helmet_e_strips_mail"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzc"/>
+			<Equipment slot="Body" id="Item.ao_battanian_scale_armor"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_h"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_q"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_c"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
@@ -6772,8 +6884,9 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_3_t4"/>
-			<Equipment slot="Body" id="Item.ao_battanian_scale_armor"/>
-			<Equipment slot="Head" id="Item.AR_empire_helmet_l"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzc2"/>
+			<Equipment slot="Body" id="Item.tv_battania_armor_f"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_o"/>
 			<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
 			<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
@@ -6782,8 +6895,9 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Item2" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzc"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_a"/>
-			<Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_mail"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a2"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_n"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_b"/>
 			<Equipment slot="Cape" id="Item.fur_cloak_c"/>
@@ -6792,8 +6906,9 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.AR_war_dart_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzc2"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_j"/>
-			<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_i"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_m"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
@@ -6802,21 +6917,22 @@
 			<Equipment slot="Item0" id="Item.battania_polearm_1_t5"/>
 			<Equipment slot="Item1" id="Item.western_throwing_axe_1_t1"/>
 			<Equipment slot="Item2" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzc"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_a"/>
-			<Equipment slot="Head" id="Item.tall_helmet"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
 			<Equipment slot="Gloves" id="Item.AR_pict_glove_a"/>
 			<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_min_dryatics_t4_cavalry_battletemplate" culture="Culture.dryatic">
+	<EquipmentRoster id="AR_min_dryatics_t4_cavalry_battletemplate" culture="Culture.palaic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_g2"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_u"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
 			<Equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
@@ -6824,25 +6940,12 @@
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
-			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
-			<Equipment slot="Head" id="Item.simple_helmet"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<Equipment slot="Cape" id="Item.battania_civil_cloak"/>
-			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
-			<Equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
-		</EquipmentSet>
-		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
-			<Equipment slot="Head" id="Item.battania_skull_cap"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_g"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_c"/>
@@ -6851,11 +6954,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
-			<Equipment slot="Head" id="Item.leather_studdedhelm_over_thinhide"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_r"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
 			<Equipment slot="Cape" id="Item.rough_bearskin"/>
@@ -6863,25 +6966,12 @@
 			<Equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
-			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.battania_light_armor_a"/>
-			<Equipment slot="Head" id="Item.AR_roman_helmet_cap"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_t"/>
-			<Equipment slot="Gloves" id="Item.highland_gloves"/>
-			<Equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
-			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
-			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-		</EquipmentSet>
-		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.tv_battania_armor_e"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_f"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c2"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_x"/>
 			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.TV_battania_cloak_l"/>
@@ -6890,11 +6980,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.ao_battanian_gambeson"/>
-			<Equipment slot="Head" id="Item.simple_helmet_headcloth"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_c"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
 			<Equipment slot="Cape" id="Item.bearskin"/>
@@ -6903,24 +6993,24 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
-			<Equipment slot="Head" id="Item.battania_skull_cap"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_s"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_a"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
-			<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
+			<Equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
-			<Equipment slot="Head" id="Item.leather_studdedhelm_over_thinhide"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_c2"/>
 			<Equipment slot="Leg" id="Item.leather_shoes"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
@@ -6929,52 +7019,26 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_mace_1_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_a2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_h"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_g"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_j"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_s"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
 			<Equipment slot="Cape" id="Item.TV_battania_cloak_l2"/>
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
 		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
-			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
-			<Equipment slot="Head" id="Item.battania_skull_cap"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			<Equipment slot="Cape" id="Item.wolf_shoulder"/>
-			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
-			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.battania_mace_1_t3"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
-			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
-			<Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
-			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
-			<Equipment slot="Gloves" id="Item.highland_gloves"/>
-			<Equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
-			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
-			<Equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
-		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_min_dryatics_t5_cavalry_battletemplate" culture="Culture.dryatic">
+	<EquipmentRoster id="AR_min_dryatics_t5_cavalry_battletemplate" culture="Culture.palaic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.kilt_over_plated_leather"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_h2"/>
+			<Equipment slot="Body" id="Item.battanian_chainmail_armor_c"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_i"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
 			<Equipment slot="Cape" id="Item.AR_wolf_shoulder_e2"/>
@@ -6983,11 +7047,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_i"/>
-			<Equipment slot="Head" id="Item.AR_roman_helmet_a"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_h"/>
 			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
 			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 			<Equipment slot="Cape" id="Item.rough_bearskin"/>
@@ -6996,11 +7060,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
-			<Equipment slot="Head" id="Item.AR_empire_helmet_l"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_t"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_g"/>
 			<Equipment slot="Gloves" id="Item.woven_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
@@ -7008,25 +7072,12 @@
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.AR_battania_mace_3_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
-			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
-			<Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_mail"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-			<Equipment slot="Gloves" id="Item.highland_gloves"/>
-			<Equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
-			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
-			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
-		</EquipmentSet>
-		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.mail_shirt"/>
-			<Equipment slot="Head" id="Item.leather_studdedhelm_over_roughscale"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_i"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_j"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
 			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
@@ -7035,11 +7086,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-			<Equipment slot="Head" id="Item.tall_helmet"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a2"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_i"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
 			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_b"/>
@@ -7048,11 +7099,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_mace_3_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
-			<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_h"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_g"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Cape" id="Item.bearskin"/>
@@ -7061,11 +7112,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
-			<Equipment slot="Head" id="Item.helmet_with_faceguard"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a"/>
 			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
 			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
@@ -7074,11 +7125,11 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.mail_shirt"/>
-			<Equipment slot="Head" id="Item.AR_empire_helmet_m"/>
+			<Equipment slot="Head" id="Item.AR_battania_helmet_u"/>
 			<Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
 			<Equipment slot="Gloves" id="Item.woven_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.HMJ_battanian_leather_scarf"/>
@@ -7087,42 +7138,29 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_battania_mace_3_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b2"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_h"/>
+			<Equipment slot="Body" id="Item.battanian_chainmail_armor_d"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_helmet_a2"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_h"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
-			<Equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
+			<Equipment slot="Item1" id="Item.AD_shield_infantry_b"/>
 			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
 			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_i"/>
-			<Equipment slot="Head" id="Item.hmj_simple_nasal_helm_hood"/>
+			<Equipment slot="Head" id="Item.TV_battania_helmet_i"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
 			<Equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
 			<Equipment slot="Cape" id="Item.AR_wolf_shoulder_e"/>
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
-			<Equipment slot="Item1" id="Item.AR_shield_infantry_w"/>
-			<Equipment slot="Item2" id="Item.western_javelin_2_t3"/>
-			<Equipment slot="Item3" id="Item.AR_battania_spear_2_t3"/>
-			<Equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
-			<Equipment slot="Head" id="Item.leather_studdedhelm_over_roughscale"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
-			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
-			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
-			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<!-- AUXILIARY BATTANIAN -->

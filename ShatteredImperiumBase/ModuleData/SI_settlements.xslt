@@ -1416,7 +1416,7 @@
 	<xsl:template match="Settlement[@id='town_EN6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_1</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='town_EN6']/@culture">
+	<!--xsl:template match="Settlement[@id='town_EN6']/@culture">
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_1']/@culture">
@@ -1424,7 +1424,7 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_2']/@culture">
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
+	</xsl:template-->
 	<!-- Bructarach -->
 	<xsl:template match="Settlement[@id='castle_village_EN2_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_EN2_2_text}Nortanisa is a fishing village on the southern shores of Lake Laconis. Villagers place nets and cages in the shallow edges of the lake to catch roach, bream, perch, and crayfish.</xsl:attribute>
@@ -1432,12 +1432,12 @@
 	<xsl:template match="Settlement[@id='castle_EN2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_jokbyalic_2</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_EN2_1']/@culture">
+	<!--xsl:template match="Settlement[@id='castle_village_EN2_1']/@culture">
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EN2_2']/@culture">
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
+	</xsl:template-->
 	<!-- Jutungar -->
 	<xsl:template match="Settlement[@id='castle_village_EN7_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_1_text}Epinosa lies in the far north of the Calradian Empire, just south of the glacial lakes known as the Iltan Portages where ships are hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>

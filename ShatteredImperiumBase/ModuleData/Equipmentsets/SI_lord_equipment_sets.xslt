@@ -3878,11 +3878,9 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
-				<Equipment slot="Head" id="Item.AR_vlandia_helmet_z"/>
-				<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+				<Equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 				<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
@@ -3892,7 +3890,6 @@
 				<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3901,11 +3898,9 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
-				<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
-				<Equipment slot="Head" id="Item.AR_vlandia_helmet_z"/>
-				<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
+				<Equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 				<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
@@ -3915,7 +3910,6 @@
 				<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -4860,10 +4854,10 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Body" id="Item.AR_vlandia_scale_a"/>
-				<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_c"/>
+				<Equipment slot="Body" id="Item.AR_vlandia_armor_p"/>
+				<Equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
 				<Equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
-				<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
 				<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
 			</EquipmentSet>
 		</xsl:copy>

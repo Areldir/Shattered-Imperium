@@ -1192,10 +1192,10 @@
 	         color2="FFECBA44"
 	         elite_basic_troop="NPCCharacter.AR_vla_cavalry_recruit"
 	         basic_troop="NPCCharacter.AR_vla_recruit"
-	         melee_militia_troop="NPCCharacter.AR_vla_militia_spearman"
-	         ranged_militia_troop="NPCCharacter.AR_vla_militia_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_vla_militia_veteran_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_vla_militia_veteran_archer"
+	         melee_militia_troop="NPCCharacter.AR_vla_t3_spearman"
+	         ranged_militia_troop="NPCCharacter.AR_vla_t3_archer"
+	         melee_elite_militia_troop="NPCCharacter.AR_vla_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_vla_t5_archer"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_vlandia_template"
@@ -1210,7 +1210,7 @@
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 	         text="{=1Ww5lg6I}The first Vlandians arrived from overseas, mercenaries and adventurers, speaking the tongues of many lands, taking the empire's silver to guard the frontiers against the unsubdued tribes of the interior. They took their name from one of their first warlords, Wilund the Bold - Valandion, in Calradic - and became known as the Vlandians. Their heavy cavalry, second to none, ran down the Emperor's foes from the Aserai wastes to the distant steppes. But cash-strapped officials soon began to pay them with land grants and titles instead of silver, perhaps not the most far-sighted of policies. The Vlandians settled, married, planted farms, and seized nearby imperial fortresses as their own. Now they are an independent kingdom, their traditions drawing from both Calradia and their distant homelands."
 	         tournament_master="NPCCharacter.tournament_master_vlandia"
-	         villager="NPCCharacter.AR_villager_vlandia"
+	         villager="NPCCharacter.AR_vla_villager"
 	         caravan_master="NPCCharacter.AR_vla_caravan_master"
 	         armed_trader="NPCCharacter.AR_vla_armed_trader"
 	         caravan_guard="NPCCharacter.AR_vla_caravan_guard"
@@ -1578,7 +1578,7 @@
 	         caravan_master="NPCCharacter.caravan_master_battania"
 	         armed_trader="NPCCharacter.AR_bat_armed_trader"
 	         caravan_guard="NPCCharacter.AR_bat_caravan_guard"
-	         veteran_caravan_guard="NPCCharacter.AR_bat_vet_caravan_guard"     
+	         veteran_caravan_guard="NPCCharacter.AR_bat_vet_caravan_guard"
 	         prison_guard="NPCCharacter.AR_bat_prison_guard"
 	         guard="NPCCharacter.AR_bat_guard"
 	         blacksmith="NPCCharacter.blacksmith_battania"
@@ -1598,7 +1598,7 @@
 	         villager_female_teenager="NPCCharacter.AR_bat_village_woman_teenager"
 	         ransom_broker="NPCCharacter.ransom_broker_battania"
 	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_battania"
-	         merchant_notary="NPCCharacter.AR_bat_merchant_notary"   
+	         merchant_notary="NPCCharacter.AR_bat_merchant_notary"
 	         artisan_notary="NPCCharacter.AR_bat_artisan_notary"
 	         preacher_notary="NPCCharacter.AR_bat_preacher_notary"
 	         rural_notable_notary="NPCCharacter.AR_bat_rural_notable_notary"
@@ -1608,7 +1608,7 @@
 	         musician="NPCCharacter.musician_battania"
 	         tavern_wench="NPCCharacter.tavern_wench_battania"
 	         armorer="NPCCharacter.armorer_battania"
-	         horseMerchant="NPCCharacter.horseMerchant_battania" 
+	         horseMerchant="NPCCharacter.horseMerchant_battania"
 	         barber="NPCCharacter.barber_battania"
 	         merchant="NPCCharacter.merchant_battania"
 	         beggar="NPCCharacter.AR_bat_beggar"
@@ -3944,24 +3944,24 @@
 			<template name="NPCCharacter.spc_wanderer_sturgia_7"/>
 			<template name="NPCCharacter.spc_wanderer_sturgia_8"/>
 			<template name="NPCCharacter.spc_wanderer_sturgia_9"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_0"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_0b"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_1"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_2"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_2b"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_3"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_3b"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_3c"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_4"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_5"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_6"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_7"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_8"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_9"/>
-			<template name="NPCCharacter.spc_notable_vaegiria_10"/>
-			<template name="NPCCharacter.spc_vaegiria_headman_1"/>
-			<template name="NPCCharacter.spc_vaegiria_headman_2"/>
-			<template name="NPCCharacter.spc_vaegiria_headman_3"/>
+			<template name="NPCCharacter.AR_vae_notable_0"/>
+			<template name="NPCCharacter.AR_vae_notable_0b"/>
+			<template name="NPCCharacter.AR_vae_notable_1"/>
+			<template name="NPCCharacter.AR_vae_notable_2"/>
+			<template name="NPCCharacter.AR_vae_notable_2b"/>
+			<template name="NPCCharacter.AR_vae_notable_3"/>
+			<template name="NPCCharacter.AR_vae_notable_3b"/>
+			<template name="NPCCharacter.AR_vae_notable_3c"/>
+			<template name="NPCCharacter.AR_vae_notable_4"/>
+			<template name="NPCCharacter.AR_vae_notable_5"/>
+			<template name="NPCCharacter.AR_vae_notable_6"/>
+			<template name="NPCCharacter.AR_vae_notable_7"/>
+			<template name="NPCCharacter.AR_vae_notable_8"/>
+			<template name="NPCCharacter.AR_vae_notable_9"/>
+			<template name="NPCCharacter.AR_vae_notable_10"/>
+			<template name="NPCCharacter.AR_vae_headman_1"/>
+			<template name="NPCCharacter.AR_vae_headman_2"/>
+			<template name="NPCCharacter.AR_vae_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
 			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_0"/>
@@ -4853,25 +4853,24 @@
 			<template name="NPCCharacter.spc_wanderer_sturgia_7"/>
 			<template name="NPCCharacter.spc_wanderer_sturgia_8"/>
 			<template name="NPCCharacter.spc_wanderer_sturgia_9"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_merchant_1"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_0b"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_0c"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_0d"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_0e"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_1"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_1b"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_2"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_3"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_4"/>
-			<template name="NPCCharacter.spc_notable_gotarnia_5"/>
-			<template name="NPCCharacter.spc_gotarnia_artisan_1"/>
-			<template name="NPCCharacter.spc_gotarnia_artisan_2"/>
-			<template name="NPCCharacter.spc_gotarnia_artisan_3"/>
-			<template name="NPCCharacter.spc_gotarnia_rural_notable_1"/>
-			<template name="NPCCharacter.spc_gotarnia_rural_notable_2"/>
-			<template name="NPCCharacter.spc_gotarnia_headman_1"/>
-			<template name="NPCCharacter.spc_gotarnia_headman_2"/>
-			<template name="NPCCharacter.spc_gotarnia_headman_3"/>
+			<template name="NPCCharacter.AR_jok_notable_0"/>
+			<template name="NPCCharacter.AR_jok_notable_0b"/>
+			<template name="NPCCharacter.AR_jok_notable_1"/>
+			<template name="NPCCharacter.AR_jok_notable_2"/>
+			<template name="NPCCharacter.AR_jok_notable_2b"/>
+			<template name="NPCCharacter.AR_jok_notable_3"/>
+			<template name="NPCCharacter.AR_jok_notable_3b"/>
+			<template name="NPCCharacter.AR_jok_notable_3c"/>
+			<template name="NPCCharacter.AR_jok_notable_4"/>
+			<template name="NPCCharacter.AR_jok_notable_5"/>
+			<template name="NPCCharacter.AR_jok_notable_6"/>
+			<template name="NPCCharacter.AR_jok_notable_7"/>
+			<template name="NPCCharacter.AR_jok_notable_8"/>
+			<template name="NPCCharacter.AR_jok_notable_9"/>
+			<template name="NPCCharacter.AR_jok_notable_10"/>
+			<template name="NPCCharacter.AR_jok_headman_1"/>
+			<template name="NPCCharacter.AR_jok_headman_2"/>
+			<template name="NPCCharacter.AR_jok_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
 			<template name="NPCCharacter.AR_spc_lochanians_leader_0"/>
@@ -5107,6 +5106,44 @@
 			<name name="{=!*}Georgios"/>
 			<name name="{=!*}Gnaeos"/>
 			<name name="{=!*}Galerian"/>
+			<name name="{=VP9hqkxO}Aedid"/>
+			<name name="{=5oRDaemv}Aeric"/>
+			<name name="{=LpLL0m3O}Arlech"/>
+			<name name="{=Z7GxyIaC}Borun"/>
+			<name name="{=MpZCQ0z1}Breadan"/>
+			<name name="{=RfxXnZ8Z}Cadugan"/>
+			<name name="{=StJ9aR91}Cadfin"/>
+			<name name="{=IkTCwsB8}Col"/>
+			<name name="{=0CQgia2a}Culharn"/>
+			<name name="{=T9bXZA0W}Cynac"/>
+			<name name="{=vDGYMAmm}Dermot"/>
+			<name name="{=9vBp5E0Q}Derngil"/>
+			<name name="{=FNHFzVCU}Edwain"/>
+			<name name="{=TLZKQSb1}Egan"/>
+			<name name="{=cL1lO5iP}Ergeon"/>
+			<name name="{=fydMDGtL}Fercread"/>
+			<name name="{=6bBj5HgU}Garain"/>
+			<name name="{=68JEMvYl}Griff"/>
+			<name name="{=lMrP68Ba}Grynad"/>
+			<name name="{=rTGmgm4b}Ioren"/>
+			<name name="{=074bIPbm}Llum"/>
+			<name name="{=bDMmX9YI}Luichan"/>
+			<name name="{=K4UdL65N}Lyd"/>
+			<name name="{=MNFMqV3n}Lyfris"/>
+			<name name="{=d8D98oFG}Melidir"/>
+			<name name="{=SFybYZNK}Mengus"/>
+			<name name="{=tCTzsaIu}Muinser"/>
+			<name name="{=6AwXDgIK}Mych"/>
+			<name name="{=qhanbPZ9}Nal"/>
+			<name name="{=bbJLOMhl}Pelisor"/>
+			<name name="{=tHtt3HCn}Pryndor"/>
+			<name name="{=rgskh3ve}Rhagyd"/>
+			<name name="{=iTRV8m4Y}Rhylan"/>
+			<name name="{=fG19XSVm}Rugan"/>
+			<name name="{=Xnngcfg9}Sein"/>
+			<name name="{=e52LPp57}Udris"/>
+			<name name="{=TxKnmzwT}Urien"/>
+			<name name="{=uAS832LM}Ydwin"/>
 		</male_names>
 		<female_names>
 			<name name="{=h8DsXm7X}Achena"/>
@@ -5202,6 +5239,48 @@
 			<name name="{=!*}Lorea"/>
 			<name name="{=!*}Rosea"/>
 			<name name="{=!*}Tulia"/>
+			<name name="{=6pAsFGvw}Abeil"/>
+			<name name="{=WuMGWUJ7}Addien"/>
+			<name name="{=4Vd1TXpN}Anwyn"/>
+			<name name="{=86L9ayRV}Athlian"/>
+			<name name="{=ZgGnqkki}Beniseth"/>
+			<name name="{=Wuiog2eu}Brigis"/>
+			<name name="{=9WMeUGTy}Caelis"/>
+			<name name="{=AYdwWae6}Ceatra"/>
+			<name name="{=xqC8yfah}Cidre"/>
+			<name name="{=gqJUdECJ}Daellian"/>
+			<name name="{=Gwfb6O5O}Eira"/>
+			<name name="{=jwcpnm8K}Eidenor"/>
+			<name name="{=7uj8QoPA}Fetheir"/>
+			<name name="{=w1a9E7a9}Fiasyn"/>
+			<name name="{=2s7Tb4NC}Fionara"/>
+			<name name="{=TWykLiFB}Gweth"/>
+			<name name="{=VWSA8EVV}Gwennein"/>
+			<name name="{=p4BMhcsQ}Iara"/>
+			<name name="{=tTmqewol}Ifrain"/>
+			<name name="{=6LRFHHqT}Imulir"/>
+			<name name="{=Ma855h44}Iona"/>
+			<name name="{=pVGKlS3W}Istiona"/>
+			<name name="{=ODSf45wh}Leadh"/>
+			<name name="{=RZ5bYYmX}Lisaradh"/>
+			<name name="{=WNu6dKHe}Lliari"/>
+			<name name="{=jMPWSzAi}Loen"/>
+			<name name="{=rtljufhM}Mariwyn"/>
+			<name name="{=eCCuztOS}Moera"/>
+			<name name="{=iNFahwv3}Nia"/>
+			<name name="{=gU5cMdTT}Norena"/>
+			<name name="{=YEqDIbir}Oana"/>
+			<name name="{=jCrbe08Y}Olawyn"/>
+			<name name="{=h6dabKXz}Reissen"/>
+			<name name="{=aYr6ovxb}Rhagin"/>
+			<name name="{=ncEWiljT}Rhia"/>
+			<name name="{=SVruYnYb}Selag"/>
+			<name name="{=Y49TwXg4}Sionna"/>
+			<name name="{=Fe90zVYF}Soeras"/>
+			<name name="{=W4VYqLYc}Veraghid"/>
+			<name name="{=UtfVuNN0}Vivein"/>
+			<name name="{=vb2rv3OK}Una"/>
+			<name name="{=PlGiSfwr}Ylen"/>
 		</female_names>
 	</Culture>
 	<Culture id="karakhuzait"
@@ -5334,107 +5413,6 @@
 			<name name="{=6fENuhfZ}Sibuga"/>
 			<name name="{=bdH1JEma}Yachim"/>
 			<name name="{=PdK2pGIb}Yesha"/>
-		</female_names>
-	</Culture>
-	<Culture id="dryatic"
-	         name="{=AR_dryatic_culture_name}Dryatic"
-	         is_main_culture="false"
-	         color="FF2D3F1D"
-	         color2="FFBFCBB0"
-	         elite_basic_troop="NPCCharacter.AR_bat_elite_recruit"
-	         basic_troop="NPCCharacter.AR_bat_recruit"
-	         can_have_settlement="true"
-	         town_edge_number="16"
-	         villager_party_template="PartyTemplate.villager_battania_template"
-	         encounter_background_mesh="encounter_battania"
-	         caravan_party_template="PartyTemplate.caravan_template_battania"
-	         militia_party_template="PartyTemplate.militia_battania_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
-	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
-		<male_names>
-			<name name="{=VP9hqkxO}Aedid"/>
-			<name name="{=5oRDaemv}Aeric"/>
-			<name name="{=LpLL0m3O}Arlech"/>
-			<name name="{=Z7GxyIaC}Borun"/>
-			<name name="{=MpZCQ0z1}Breadan"/>
-			<name name="{=RfxXnZ8Z}Cadugan"/>
-			<name name="{=StJ9aR91}Cadfin"/>
-			<name name="{=IkTCwsB8}Col"/>
-			<name name="{=0CQgia2a}Culharn"/>
-			<name name="{=T9bXZA0W}Cynac"/>
-			<name name="{=vDGYMAmm}Dermot"/>
-			<name name="{=9vBp5E0Q}Derngil"/>
-			<name name="{=FNHFzVCU}Edwain"/>
-			<name name="{=TLZKQSb1}Egan"/>
-			<name name="{=cL1lO5iP}Ergeon"/>
-			<name name="{=fydMDGtL}Fercread"/>
-			<name name="{=6bBj5HgU}Garain"/>
-			<name name="{=68JEMvYl}Griff"/>
-			<name name="{=lMrP68Ba}Grynad"/>
-			<name name="{=rTGmgm4b}Ioren"/>
-			<name name="{=074bIPbm}Llum"/>
-			<name name="{=bDMmX9YI}Luichan"/>
-			<name name="{=K4UdL65N}Lyd"/>
-			<name name="{=MNFMqV3n}Lyfris"/>
-			<name name="{=d8D98oFG}Melidir"/>
-			<name name="{=SFybYZNK}Mengus"/>
-			<name name="{=tCTzsaIu}Muinser"/>
-			<name name="{=6AwXDgIK}Mych"/>
-			<name name="{=qhanbPZ9}Nal"/>
-			<name name="{=bbJLOMhl}Pelisor"/>
-			<name name="{=tHtt3HCn}Pryndor"/>
-			<name name="{=rgskh3ve}Rhagyd"/>
-			<name name="{=iTRV8m4Y}Rhylan"/>
-			<name name="{=fG19XSVm}Rugan"/>
-			<name name="{=Xnngcfg9}Sein"/>
-			<name name="{=e52LPp57}Udris"/>
-			<name name="{=TxKnmzwT}Urien"/>
-			<name name="{=uAS832LM}Ydwin"/>
-		</male_names>
-		<female_names>
-			<name name="{=6pAsFGvw}Abeil"/>
-			<name name="{=WuMGWUJ7}Addien"/>
-			<name name="{=4Vd1TXpN}Anwyn"/>
-			<name name="{=86L9ayRV}Athlian"/>
-			<name name="{=ZgGnqkki}Beniseth"/>
-			<name name="{=Wuiog2eu}Brigis"/>
-			<name name="{=9WMeUGTy}Caelis"/>
-			<name name="{=AYdwWae6}Ceatra"/>
-			<name name="{=xqC8yfah}Cidre"/>
-			<name name="{=gqJUdECJ}Daellian"/>
-			<name name="{=Gwfb6O5O}Eira"/>
-			<name name="{=jwcpnm8K}Eidenor"/>
-			<name name="{=7uj8QoPA}Fetheir"/>
-			<name name="{=w1a9E7a9}Fiasyn"/>
-			<name name="{=2s7Tb4NC}Fionara"/>
-			<name name="{=TWykLiFB}Gweth"/>
-			<name name="{=VWSA8EVV}Gwennein"/>
-			<name name="{=p4BMhcsQ}Iara"/>
-			<name name="{=tTmqewol}Ifrain"/>
-			<name name="{=6LRFHHqT}Imulir"/>
-			<name name="{=Ma855h44}Iona"/>
-			<name name="{=pVGKlS3W}Istiona"/>
-			<name name="{=ODSf45wh}Leadh"/>
-			<name name="{=RZ5bYYmX}Lisaradh"/>
-			<name name="{=WNu6dKHe}Lliari"/>
-			<name name="{=jMPWSzAi}Loen"/>
-			<name name="{=rtljufhM}Mariwyn"/>
-			<name name="{=eCCuztOS}Moera"/>
-			<name name="{=iNFahwv3}Nia"/>
-			<name name="{=gU5cMdTT}Norena"/>
-			<name name="{=YEqDIbir}Oana"/>
-			<name name="{=jCrbe08Y}Olawyn"/>
-			<name name="{=h6dabKXz}Reissen"/>
-			<name name="{=aYr6ovxb}Rhagin"/>
-			<name name="{=ncEWiljT}Rhia"/>
-			<name name="{=SVruYnYb}Selag"/>
-			<name name="{=Y49TwXg4}Sionna"/>
-			<name name="{=Fe90zVYF}Soeras"/>
-			<name name="{=W4VYqLYc}Veraghid"/>
-			<name name="{=UtfVuNN0}Vivein"/>
-			<name name="{=vb2rv3OK}Una"/>
-			<name name="{=PlGiSfwr}Ylen"/>
 		</female_names>
 	</Culture>
 	<Culture id="rensichou"
