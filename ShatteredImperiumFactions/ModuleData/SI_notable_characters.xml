@@ -1445,6 +1445,273 @@
 			<EquipmentSet id="AR_dar_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- JOKBYALS: Notables -->
+	<NPCCharacter id="AR_jok_notable_0" name="{=!}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_0b" name="{=!}Caustic sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_1" name="{=!}curt sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_2" name="{=!}Adventurous sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_2b" name="{=!}Honest Sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_3" name="{=!}Honorable female sturgian merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_jok_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_3b" name="{=!}Affable sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_3c" name="{=!}Devious female sturgian merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_jok_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_4" name="{=!}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_5" name="{=!}Sturgian female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.byalic" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_jok_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_6" name="{=!}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_7" name="{=!}Sturgian female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.byalic" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_jok_village_woman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_8" name="{=!}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.byalic" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_9" name="{=!}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.byalic" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_notable_10" name="{=!}Sturgian land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.byalic" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_headman_1" name="{=!}sturgia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_headman_2" name="{=!}sturgia conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_jok_headman_3" name="{=!}sturgia devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_byalic"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_jok_villager_battletemplate"/>
+			<EquipmentSet id="AR_jok_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<!-- QUYAZIC EMPIRE: Notables -->
 	<NPCCharacter id="AR_kan_notable_0" name="{=!}Cautious imperial merchant" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Merchant">
 		<face>
@@ -1823,6 +2090,291 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAEGIRS: Notables -->
+	<NPCCharacter id="AR_vae_notable_0" name="{=!}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_0b" name="{=!}Caustic sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_1" name="{=!}curt sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_2" name="{=!}Adventurous sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_2b" name="{=!}Honest Sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_3" name="{=!}Honorable female sturgian merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_3b" name="{=!}Affable sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_3c" name="{=!}Devious female sturgian merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_4" name="{=!}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_5" name="{=!}Sturgian female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.vakken" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_6" name="{=!}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_7" name="{=!}Sturgian female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.vakken" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_8" name="{=!}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.vakken" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_9" name="{=!}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.vakken" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_notable_10" name="{=!}Sturgian land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.vakken" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_headman_1" name="{=!}sturgia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_headman_2" name="{=!}sturgia conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vae_headman_3" name="{=!}sturgia devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>

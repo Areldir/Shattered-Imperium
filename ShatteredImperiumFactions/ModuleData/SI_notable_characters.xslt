@@ -512,4 +512,419 @@
 			<EquipmentSet id="AR_s_emp_legion_wanderer_civiliantemplate" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
+	<!-- ILTANLAR: Notables -->
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_0"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_4"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_5"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_6"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_7"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_8"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_9"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_khuzait_10"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_ilt_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_merchant_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_0b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_1b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_1c"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_2b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_khuzait_4"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_gangleader_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_gangleader_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_villager_battletemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_gangleader_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_villager_battletemplate"/>
+			<EquipmentSet id="AR_ilt_villager_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_artisan_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_artisan_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_artisan_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_rural_notable_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_rural_notable_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_headman_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_headman_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_khuzait_headman_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_ilt_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_ilt_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- STURGIA: Notables -->
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_0"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_4"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_5"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_6"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_7"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_8"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_sturgia_9"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_stu_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_0"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_0b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_2b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_3b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_3c"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_4"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_5"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_6"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_7"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_village_woman_battletemplate"/>
+			<EquipmentSet id="AR_stu_village_woman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_8"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_9"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_sturgia_10"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_sturgia_headman_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_sturgia_headman_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_sturgia_headman_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_stu_villager_battletemplate"/>
+			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 </xsl:stylesheet>
