@@ -253,4 +253,276 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- T3 Sword Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_vla_t3_swordsman" default_group="Infantry" level="16" name="{=si_ar_vla_t3_swordsman}Vlandian Swordsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t4_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_vla_t4_sword_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t3_swordsman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_vla_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_vla_t4_swordsman}Vlandian Hardened Swordsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t4_swordsman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vla_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_vla_t5_swordsman}Vlandian Seasoned Swordsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t6_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t5_swordsman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Infantry Very Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vla_t6_swordsman" default_group="Infantry" level="31" name="{=si_ar_vla_t6_swordsman}Vlandian Knightly Swordsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t6_swordsman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sword Cavalry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_vla_t4_sword_cav" default_group="Cavalry" level="21" name="{=si_ar_vla_t4_sword_cav}Vlandian Mounted Swordsman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t5_sword_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t4_sword_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sword Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_vla_t5_sword_cav" default_group="Cavalry" level="26" name="{=si_ar_vla_t5_sword_cav}Vlandian Seasoned Mounted Swordsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t6_sword_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t5_sword_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Sword Cavalry Very Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vla_t6_sword_cav" default_group="Cavalry" level="31" name="{=si_ar_vla_t6_sword_cav}Vlandian Knightly Mounted Swordsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t6_sword_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Crossbowman Light Skill 20-40 -->
+	<NPCCharacter id="AR_vla_t2_crossbowman" default_group="Ranged" level="11" name="{=si_ar_vla_t2_crossbowman}Vlandian Huntsman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t3_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t2_crossbowman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Crossbowman Light Skill 40-70 -->
+	<NPCCharacter id="AR_vla_t3_crossbowman" default_group="Ranged" level="16" name="{=si_ar_vla_t3_crossbowman}Vlandian Crossbowman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t4_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t3_crossbowman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Crossbowman Medium Skill 60-100 -->
+	<NPCCharacter id="AR_vla_t4_crossbowman" default_group="Ranged" level="21" name="{=si_ar_vla_t4_crossbowman}Vlandian Hardened Crossbowman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t5_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t4_crossbowman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Crossbowman Medium Skill 60-130 -->
+	<NPCCharacter id="AR_vla_t5_crossbowman" default_group="Ranged" level="26" name="{=si_ar_vla_t5_crossbowman}Vlandian Seasoned Crossbowman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_vla_t6_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t5_crossbowman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Crossbowman Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_vla_t6_crossbowman" default_group="Ranged" level="31" name="{=si_ar_vla_t6_crossbowman}Vlandian Knightly Crossbowman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_vla_t6_crossbowman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA: Noble Troops -->
 </NPCCharacters>
