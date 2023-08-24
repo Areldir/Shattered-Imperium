@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
+	<!-- CALRADIAN EMPIRE: Levy Troops -->
 	<EquipmentRoster id="AR_s_emp_villager_civiliantemplate" culture="Culture.empire">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.cloth_tunic"/>
@@ -96,7 +97,7 @@
 			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+			<Equipment slot="Item0" id="Item.AR_billhook_1_t2"/>
 			<Equipment slot="Item1" id="Item.throwing_stone"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
@@ -172,7 +173,7 @@
 			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
+			<Equipment slot="Item0" id="Item.AR_billhook_1_t2"/>
 			<Equipment slot="Item1" id="Item.AR_throwing_pot"/>
 			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
 			<Equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
@@ -891,6 +892,7 @@
 			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_n"/>
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!-- CALRADIAN EMPIRE: Field Troops -->
 	<EquipmentRoster id="AR_s_emp_recruit_battletemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
@@ -1865,6 +1867,7 @@
 			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!-- CALRADIAN EMPIRE: Noble Troops -->
 	<EquipmentRoster id="AR_s_emp_cavalry_recruit_battletemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item2" id="Item.empire_sword_1_t2"/>
@@ -2663,6 +2666,7 @@
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_a2"/>
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!-- CALRADIAN EMPIRE: Caravans -->
 	<EquipmentRoster id="AR_s_emp_armed_trader_battletemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.composite_bow"/>
@@ -2963,6 +2967,7 @@
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zc"/>
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!-- CALRADIAN EMPIRE: Guards -->
 	<EquipmentRoster id="AR_s_emp_prison_guard_civiliantemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
@@ -3005,6 +3010,7 @@
 			<Equipment slot="Cape" id="Item.TV_empire_shoulders_b"/>
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!-- CALRADIAN EMPIRE: Civilians -->
 	<EquipmentRoster id="AR_s_emp_village_woman_battletemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
@@ -4085,7 +4091,7 @@
 			<Equipment slot="Cape" id="Item.battania_shoulder_strap"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<!-- SALEA'S SISTERS -->
+	<!-- GLADIATRICES -->
 	<EquipmentRoster id="AR_emp_aux_gladiatrix_t5_sword_battletemplate" culture="Culture.empire">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_sword_6_t5"/>
@@ -4676,6 +4682,382 @@
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 			<Equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
 			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_i"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- SEEKERS OF CYPEGOS -->
+	<EquipmentRoster id="AR_min_embers_t3_battletemplate" culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.battania_civil_hood"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.ao_crown_b"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_focale"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.AR_empire_laurel_a"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_min_embers_t4_inf_battletemplate" culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.battania_civil_hood"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.ao_crown_b"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_focale"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t4"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.AR_empire_laurel_a"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_min_embers_t5_inf_battletemplate" culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.ao_crown_b"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_focale"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze2"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.battania_civil_hood"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_imperial_axe_t5"/>
+			<Equipment slot="Item1" id="Item.AR_plumbata"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_zze"/>
+			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.AR_empire_laurel_a"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_min_embers_t4_shock_battletemplate" culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.battania_civil_hood"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.ao_crown_b"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_focale"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_khuzait_polearm_1_t3"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.AR_empire_laurel_a"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_min_embers_t5_shock_battletemplate" culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.ao_crown_b"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_focale"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.AR_monk_robe_b"/>
+			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_j"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Head" id="Item.battania_civil_hood"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Cape" id="Item.empire_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Item1" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item2" id="Item.AR_naptha_pot"/>
+			<Equipment slot="Item3" id="Item.AR_plumbata"/>
+			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
+			<Equipment slot="Head" id="Item.AR_empire_laurel_a"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_a"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<!-- CALRADIAN DEFECTORS -->

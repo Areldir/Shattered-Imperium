@@ -1289,4 +1289,80 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- EASTERN CALRADIAN EMPIRE: Auxiliary And Mercenary Characters -->
+	<!-- SALEA'S SISTERS -->
+	<NPCCharacter id="AR_spc_saleas_sisters_leader_0" name="{=si_ar_spc_saleas_sisters_leader_0}of the Sisters" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_saleas_sisters_leader_1" name="{=si_ar_spc_saleas_sisters_leader_1}of the Sisters" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_saleas_sisters_leader_2" name="{=si_ar_spc_saleas_sisters_leader_2}of the Sisters" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_saleas_sisters_leader_3" name="{=si_ar_spc_saleas_sisters_leader_3}of the Sisters" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>

@@ -1479,81 +1479,6 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- SALEA'S SISTERS -->
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_0" name="{=si_ar_spc_saleas_sisters_leader_0}of the Sisters" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_multirace"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_1" name="{=si_ar_spc_saleas_sisters_leader_1}of the Sisters" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_multirace"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_2" name="{=si_ar_spc_saleas_sisters_leader_2}of the Sisters" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_multirace"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_saleas_sisters_leader_3" name="{=si_ar_spc_saleas_sisters_leader_3}of the Sisters" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_multirace"/>
-		</face>
-		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_sword_battletemplate"/>
-			<EquipmentSet id="AR_emp_aux_gladiatrix_t5_spear_battletemplate"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!-- T3 Gladiatrix Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_gladiatrix_recruit" default_group="Infantry" level="16" name="{=si_ar_emp_aux_gladiatrix_recruit}Gladiatrix Youth" is_female="true" occupation="Mercenary" is_basic_troop="true" culture="Culture.empire">
 		<face>
@@ -1848,6 +1773,195 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="AR_min_hand_t5_archer_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- SEEKERS OF CYPEGOS -->
+	<NPCCharacter id="AR_spc_embers_of_flame_leader_0" name="{=si_ar_spc_embers_of_flame_leader_0}the Seeker" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t5_inf_battletemplate"/>
+			<EquipmentSet id="AR_min_embers_t5_shock_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_embers_of_flame_leader_1" name="{=si_ar_spc_embers_of_flame_leader_1}the Seeker" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t5_inf_battletemplate"/>
+			<EquipmentSet id="AR_min_embers_t5_shock_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_embers_of_flame_leader_2" name="{=si_ar_spc_embers_of_flame_leader_2}the Seeker" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t5_inf_battletemplate"/>
+			<EquipmentSet id="AR_min_embers_t5_shock_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_embers_of_flame_leader_3" name="{=si_ar_spc_embers_of_flame_leader_3}the Seeker" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t5_inf_battletemplate"/>
+			<EquipmentSet id="AR_min_embers_t5_shock_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Embers of Flame Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_embers_t3" default_group="Infantry" level="16" name="{=si_ar_min_embers_t3}Seeker Initiate" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_embers_t4_inf"/>
+			<upgrade_target id="NPCCharacter.AR_min_embers_t4_shock"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t3_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Embers of Flame Light Skill 60-100 -->
+	<NPCCharacter id="AR_min_embers_t4_inf" default_group="Infantry" level="21" name="{=si_ar_min_embers_t4_inf}Seeker Journeyman" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_embers_t5_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t4_inf_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Embers of Flame Light Skill 60-130 -->
+	<NPCCharacter id="AR_min_embers_t5_inf" default_group="Infantry" level="26" name="{=si_ar_min_embers_t5_inf}Seeker Elder" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t5_inf_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Embers of Flame Light Skill 60-100 -->
+	<NPCCharacter id="AR_min_embers_t4_shock" default_group="Infantry" level="21" name="{=si_ar_min_embers_t4_shock}Seeker Mystic" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_embers_t5_shock"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t4_shock_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Embers of Flame Light Skill 60-130 -->
+	<NPCCharacter id="AR_min_embers_t5_shock" default_group="Infantry" level="26" name="{=si_ar_min_embers_t5_shock}Seeker Zealot" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_cypegios"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_embers_t5_shock_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
