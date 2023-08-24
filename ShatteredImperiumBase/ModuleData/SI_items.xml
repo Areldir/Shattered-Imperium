@@ -546,20 +546,20 @@
 	<CraftedItem id="short_sword_t3" name="{=cRCkC36E}Short Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_9" Type="Blade"/>
-			<Piece id="AR_empire_guard_c" Type="Guard"/>
+			<Piece id="AR_empire_guard_a" Type="Guard"/>
 			<Piece id="vlandian_grip_23" Type="Handle"/>
-			<Piece id="vlandian_pommel_8" Type="Pommel"/>
+			<Piece id="aserai_pommel_1" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 65 Weight: 0.98 -->
+		<!-- Length: 66 Weight: 0.96 -->
 	</CraftedItem>
 	<CraftedItem id="bastard_sword_t2" name="{=arBdK7st}Simple Bastard Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_4" Type="Blade"/>
-			<Piece id="AR_empire_guard_c" Type="Guard"/>
-			<Piece id="sturgian_grip_33" Type="Handle"/>
-			<Piece id="sturgian_pommel_7" Type="Pommel"/>
+			<Piece id="sturgian_guard_6" Type="Guard"/>
+			<Piece id="sturgian_grip_33" Type="Handle" scale_factor="90"/>
+			<Piece id="sturgian_pommel_3" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 100 Weight: 0.9 -->
+		<!-- Length: 98 Weight: 0.97 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_sword_1_t2" name="{=w9RLq82l}Iron Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
@@ -573,20 +573,91 @@
 	<CraftedItem id="vlandia_sword_2_t3" name="{=ha3rVEzP}Ridged Tipped Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_4" Type="Blade"/>
-			<Piece id="sturgian_guard_12" Type="Guard" scale_factor="90"/>
-			<Piece id="vlandian_grip_21" Type="Handle"/>
-			<Piece id="vlandian_pommel_6" Type="Pommel"/>
+			<Piece id="sturgian_guard_8" Type="Guard"/>
+			<Piece id="aserai_grip_16" Type="Handle" scale_factor="90"/>
+			<Piece id="aserai_pommel_4" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 99 Weight: 1.14 -->
+		<!-- Length: 105 Weight: 1.04 -->
+	</CraftedItem>
+	<CraftedItem id="narrow_sword_t3" name="{=3YhwjpQ0}Narrow Sword" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_8" Type="Blade"/>
+			<Piece id="sturgian_guard_1" Type="Guard"/>
+			<Piece id="vlandian_grip_14" Type="Handle"/>
+			<Piece id="empire_pommel_1" Type="Pommel" scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 94 Weight: 1.11 -->
+	</CraftedItem>
+	<CraftedItem id="vlandia_sword_3_t4" name="{=8mpp8ZCL}Knightly Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_7" Type="Blade" scale_factor="110"/>
+			<Piece id="sturgian_guard_2" Type="Guard"/>
+			<Piece id="vlandian_grip_11" Type="Handle"/>
+			<Piece id="vlandian_pommel_2" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 107 Weight: 1.07 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_sword_4_t4" name="{=ksxylfU4}Ridged Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_5" Type="Blade" scale_factor="105"/>
 			<Piece id="aserai_noble_guard_4" Type="Guard" scale_factor="95"/>
-			<Piece id="vlandian_grip_10" Type="Handle"/>
-			<Piece id="vlandian_pommel_7" Type="Pommel"/>
+			<Piece id="vlandian_grip_14" Type="Handle"/>
+			<Piece id="sturgian_pommel_2" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 113 Weight: 1.17 -->
+		<!-- Length: 117 Weight: 0.99 -->
+	</CraftedItem>
+	<CraftedItem id="broad_arming_sword_t4" name="{=b8AgXwbL}Broad Arming Sword" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_2" Type="Blade"/>
+			<Piece id="vlandian_guard_4" Type="Guard"/>
+			<Piece id="cleaver_grip_7" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_2" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 107 Weight: 1.12 -->
+	</CraftedItem>
+	<CraftedItem id="vlandia_sword_5_t5" name="{=VAcSEseI}Wide Fullered Broad Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_3" Type="Blade" scale_factor="100"/>
+			<Piece id="vlandian_guard_8" Type="Guard" scale_factor="100"/>
+			<Piece id="vlandian_grip_20" Type="Handle" scale_factor="100"/>
+			<Piece id="vlandian_pommel_9" Type="Pommel" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="vlandia_noble_sword_1_t5" name="{=Zcaucj4W}Decorated Arming Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_4" Type="Blade" scale_factor="105"/>
+			<Piece id="vlandian_noble_guard_3" Type="Guard"/>
+			<Piece id="vlandian_noble_grip_3" Type="Handle"/>
+			<Piece id="AR_empire_pommel_b" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 76 Weight: 0.9 -->
+	</CraftedItem>
+	<CraftedItem id="vlandia_noble_sword_2_t5" name="{=ZsaukY0N}Arming Sword with Circle" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_1" Type="Blade" scale_factor="110"/>
+			<Piece id="vlandian_noble_guard_1" Type="Guard"/>
+			<Piece id="vlandian_noble_grip_4" Type="Handle" scale_factor="110"/>
+			<Piece id="sturgian_noble_pommel_4" Type="Pommel" scale_factor="90"/>
+		</Pieces>
+		<!-- Length: 85 Weight: 0.98 -->
+	</CraftedItem>
+	<CraftedItem id="vlandia_noble_sword_3_t5" name="{=P9FUrH8a}Gold Engraved Arming Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_2" Type="Blade" scale_factor="105"/>
+			<Piece id="vlandian_noble_guard_3" Type="Guard"/>
+			<Piece id="sturgian_noble_grip_4" Type="Handle" scale_factor="110"/>
+			<Piece id="vlandian_noble_pommel_3" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 81 Weight: 1.08 -->
+	</CraftedItem>
+	<CraftedItem id="vlandia_noble_sword_4_t5" name="{=4q69NwNy}Crescent Guarded Arming Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_3" Type="Blade"/>
+			<Piece id="vlandian_noble_guard_4" Type="Guard"/>
+			<Piece id="sturgian_noble_grip_2" Type="Handle"/>
+			<Piece id="empire_noble_pommel_3" Type="Pommel" scale_factor="90"/>
+		</Pieces>
+		<!-- Length: 70 Weight: 0.89 -->
 	</CraftedItem>
 	<CraftedItem id="wooden_sword_t1" name="{=1HWRwbwT}Wooden Sword" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false" modifier_group="sword">
 		<Pieces>
