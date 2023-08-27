@@ -979,6 +979,15 @@
 	         is_noble="true"
 	         text="{=si_ar_clan_yachios_1_text}The Carasios family, known to their Aserai neighbors as the Banu Qaraz, are one of the oldest families of the Calradian Empire. Originally hailing from the port city of Charasea, they were among the marcher archons who joined Emperor Mavinon’s campaign into the Nahasa, founding the outpost of Yachios to guard the borderlands of the Calradian Empire’s Nahasan provinces. The growth of their lands from military fort to thriving cosmopolitan town has brought much wealth and power to the Carasios. However, with the growing assertiveness of the Aserai, the Carasios have now found themselves cut off from imperial authority, their archontate isolated among shifting sands."
 	         banner_key="11.116.116.4000.4000.764.764.1.0.0.119.11.0.300.300.764.764.0.1.15.202.11.0.400.300.624.784.0.1.270.202.11.0.400.300.904.784.0.0.90.500.11.0.600.600.764.771.0.0.0"/>
+	<Faction id="clan_yachios_2"
+	         name="{=si_ar_clan_yachios_2_name}Khalkapatres"
+	         tier="5"
+	         owner="Hero.AR_lord_15_8"
+	         culture="Culture.empire"
+	         super_faction="Kingdom.yachios"
+	         is_noble="true"
+	         text="PLACEHOLDER"
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.341.11.0.400.400.754.664.0.1.0.427.11.0.400.400.764.864.0.0.0"/>
 	<!--
 	Paravenos Archontate
 	-->
@@ -1227,7 +1236,7 @@
 	<Faction id="embers_of_flame"
 	         initial_posX="575.0"
 	         initial_posY="446.0"
-	         banner_key="11.148.148.1500.1500.764.764.1.0.0.505.148.148.250.11.756.763.0.0.0.202.5.5.402.402.677.595.0.0.234.202.5.5.402.402.849.599.0.1.123.202.5.5.402.402.677.936.0.1.-55.202.5.5.402.402.850.933.0.0.54.106.5.5.322.322.762.674.0.0.0.321.5.5.270.270.760.860.0.0.0.340.5.5.80.80.760.581.0.0.0"
+	         banner_key="11.148.5.4000.4000.764.764.1.0.0.505.5.148.250.11.756.763.0.0.0.202.5.148.402.402.677.595.0.0.234.202.5.148.402.402.849.599.0.1.123.202.5.148.402.402.677.936.0.1.-55.202.5.148.402.402.850.933.0.0.54.106.5.148.322.322.762.674.0.0.0.321.5.148.270.270.760.860.0.0.0.340.5.148.80.80.760.581.0.0.0"
 	         label_color="FF7C2B1A"
 	         color="FF7C2B1A"
 	         color2="FF7C2B1A"
@@ -1368,10 +1377,10 @@
 	         settlement_banner_mesh="encounter_flag_f"
 	         is_minor_faction="true"
 	         is_mafia="true"
-	         name="{=si_ar_guardians_name}Protectors of the Hills"
-	         short_name="{=si_ar_guardians_short_name}Protectores"
+	         name="{=si_ar_guardians_name}Rhotian Free Company"
+	         short_name="{=si_ar_guardians_short_name}Rhotians"
 	         tier="4"
-	         text="{=si_ar_guardians_text}The Protectors of the Hills are a unit of auxiliary frontiersmen hailing from the western borderlands between the Calradian Empire and Battanian Kingdom. Raised in the Gavys Valley from the Empire's Palaic citizens, they are used to working with the local nobility, specializing in scouting and tracking the often ephemeral traces left by Battanian warbands. But as the Empire descended into civil war, the Protectors have begun asserting power in the areas in which they live, becoming a law unto themselves and taking what they want from passing Imperial caravans. They still will cooperate with Imperial nobles, but on their terms, not the Empire's.">
+	         text="{=si_ar_guardians_text}The Rhotian Free Company are a unit of auxiliary frontiersmen hailing from the borderlands between the Calradian Empire and Battanian Kingdom. Raised in the region around the city of Rhotae from the Empire's Palaic citizens, they are used to working with the local nobility, specializing in scouting and tracking the often ephemeral traces left by Battanian warbands. But as the Empire descended into civil war, the Rhotians have begun asserting power in the areas in which they live, becoming a law unto themselves and taking what they want from passing imperial caravans. They still will cooperate with imperial authorities, but on their terms and nobody else's.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_guardians_leader_0"/>
 			<template id="NPCCharacter.AR_spc_guardians_leader_1"/>
@@ -1760,6 +1769,31 @@
 			<template id="NPCCharacter.AR_spc_druids_leader_1"/>
 			<template id="NPCCharacter.AR_spc_druids_leader_2"/>
 			<template id="NPCCharacter.AR_spc_druids_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="yachios_free_company"
+	         initial_posX="445.0"
+	         initial_posY="55.0"
+	         banner_key="11.67.97.4000.4000.764.764.1.0.0.309.7.0.250.250.777.764.0.1.225.427.7.0.400.300.644.764.0.1.270.521.7.0.100.100.764.544.0.0.0.427.7.0.400.300.884.764.0.0.90"
+	         label_color="0xFF4E3A55"
+	         color="0xFF4E3A55"
+	         color2="0xffB57A1E"
+	         alternative_color="0xFF4E3A55"
+	         alternative_color2="0xffB57A1E"
+	         culture="Culture.empire"
+	         default_party_template="PartyTemplate.party_template_yachios_free_company"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_clan_type_mercenary="true"
+	         name="{=si_ar_yachios_free_company_name}Yachios Free Company"
+	         short_name="{=si_ar_yachios_free_company_short_name}Yachios"
+	         tier="4"
+	         text="{=si_ar_yachios_free_company_text}The citizens of the Calradian frontier colony of Yachios have long been prized across the continent for their martial prowess, having tended to the windswept borders of the Nahasa for centuries. Every year, those who have recently reached manhood are assembled in the main square and then allocated to the varying military companies of the colony. One such group is the ‘Yachios Free Company’ - a group of warriors who choose not to serve the colony, but to roam the lands of Calradia and fight as mercenaries. With the recent expansion of the Aserai and subsequent isolation of Yachios from the remainder of the Calradian Empire, this group has gained an additional impetus, and will fight for or against all comers, for the right price.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_0"/>
+			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_1"/>
+			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_2"/>
+			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<!--

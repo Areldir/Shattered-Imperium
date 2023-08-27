@@ -30,6 +30,9 @@
 		<xsl:attribute name='owner'>Faction.clan_aserai_5</xsl:attribute>
 	</xsl:template>
 	<!-- Banu Sarran -->
+	<xsl:template match="Settlement[@id='town_A4']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_A4_text}Razih is said to be the point from which Kannic explorers set forth to colonize the shores of the Perassic Sea in the centuries before the coming of the Calradian Empire - the prows of their ships decorated with the intertwined vine leaves of the Kannic goddess of wealth, wine, love and war. Today, the Kannic tongue has been replaced by Nahasawi dialects and their religion is all but forgotten, but the symbol lives on, said to protect those who risk all for the sake of gain or glory.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_aserai_2</xsl:attribute>
 	</xsl:template>

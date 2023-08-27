@@ -3163,6 +3163,7 @@
 	<!--
 	Yachios Archontate
 	-->
+	<!-- Carasios -->
 	<NPCCharacter id="AR_lord_15_1" name="{=waQPRCaT}Gorigos" age="43" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="43" weight="0.3256" build="0.8461" key="0020580C402C12458A378B1A48547AD92A88A437666A74B295B7C4A98D58BB8A008D56030888975200000000000000000000000000000000000000006CFC2002"/>
@@ -3280,6 +3281,72 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="emp_bat_template_medium"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Khalkapatres -->
+	<NPCCharacter id="AR_lord_15_8" name="{=waQPRCaT}Artimendros" age="37" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.0386" build="0.785"  key="0023B80AC000358B74381BE57A643597759B7798A4BC2D7968989791B581909B007C1603074A7BCB000000000000000000000000000000000000000018F49082"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_15_9" name="{=d6aTWH9m}Rhamira" age="36" is_female="true" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.3904" build="0.304"  key="001E8C0D00B4000A6986A8B4848AE7B5789937889C387B423954D89574BA95B50075660307C85669000000000000000000000000000000000000000060EC3083"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_15_10" name="{=zaHnL2It}Vitalios" age="19" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="19" weight="0.3904" build="0.304"  key="001E8C0D00B4330D6986A8B4848AE7B5789937889C387B423954D89574BA95B50075660307C85669000000000000000000000000000000000000000060EC9082"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_heavy"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_15_11" name="{=zaHnL2It}Phamynor" age="16" voice="softspoken" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="16" weight="0.0386" build="0.785"  key="0020B80AC0002008743C688BBB745975759B7798A4BC2D7968989791B581909B007C1603074A7BCB000000000000000000000000000000000000000018F47082"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="2"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Generosity" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_heavy"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -3539,139 +3606,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_spc_brotherhood_of_woods_leaders"/>
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- guardians of the hills/w.empire -->
-	<NPCCharacter id="AR_spc_guardians_leader_0" name="the Protector" voice="ironic" is_template="true" age="42" default_group="Cavalry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_western"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_guardians_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_guardians_leader_1" name="the Protector" voice="softspoken" is_template="true" is_female="true" age="22" default_group="Cavalry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_western"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_guardians_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_guardians_leader_2" name="the Protector" voice="softspoken" is_template="true" age="28" default_group="Cavalry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_western"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_guardians_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_guardians_leader_3" name="the Protector" voice="softspoken" is_template="true" age="35" default_group="Cavalry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_western"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_guardians_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- eleftheroi/e.empire -->
-	<NPCCharacter id="AR_spc_eleftheroi_leader_0" name="{=IVnvHF8S}of the Eleftheroi" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
-		</face>
-		<Traits>
-			<Trait id="Valor" value="1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="HorseArcherFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_eleftheroi_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_eleftheroi_leader_1" name="{=IVnvHF8S}of the Eleftheroi" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
-		</face>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="HorseArcherFightingSkills" value="4"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_eleftheroi_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_eleftheroi_leader_2" name="{=IVnvHF8S}of the Eleftheroi" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="HorseArcherFightingSkills" value="4"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_eleftheroi_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_eleftheroi_leader_3" name="{=IVnvHF8S}of the Eleftheroi" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire_n" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_eleftheroi"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_eleftheroi_leaders"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- biscani -->

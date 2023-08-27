@@ -502,6 +502,7 @@
 			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
+			<template name="NPCCharacter.AR_min_yachios_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="aserai"
@@ -3663,6 +3664,7 @@
 			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 			<template name="NPCCharacter.AR_min_lysians_t3"/>
+			<template name="NPCCharacter.AR_min_yachios_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="vakken"
@@ -4012,7 +4014,7 @@
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="massa"
-	         name="{=AR_massa_culture_name}Swadic"
+	         name="{=AR_massa_culture_name}Massa"
 	         is_main_culture="false"
 	         color="FF58888B"
 	         color2="FFECBA44"
@@ -5594,7 +5596,7 @@
 	         basic_troop="NPCCharacter.AR_ban_t3_slaver"
 	         is_bandit="true"
 	         can_have_settlement="true"
-	         encounter_background_mesh="encounter_forest_bandit"
+	         encounter_background_mesh="encounter_mountain_bandit"
 	         bandit_boss_party_template="PartyTemplate.slavers_boss_party_template">
 		<banner_bearer_replacement_weapons>
 			<item id="Item.iron_spatha_sword_t2"/>
