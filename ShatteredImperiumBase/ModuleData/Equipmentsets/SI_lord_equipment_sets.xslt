@@ -3879,7 +3879,7 @@
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
-				<Equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+				<Equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
@@ -3899,7 +3899,7 @@
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
-				<Equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+				<Equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>

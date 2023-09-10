@@ -72,7 +72,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Spear Infantry Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_n_emp_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_n_emp_t4_spearman}E. Calradian Seasoned Borderer Spearman" occupation="Soldier" culture="Culture.empire_n">
+	<NPCCharacter id="AR_n_emp_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_n_emp_t4_spearman}E. Calradian Hardened Borderer Spearman" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -162,7 +162,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Archer Medium Skill 60-100 -->
-	<NPCCharacter id="AR_n_emp_t4_archer" default_group="Ranged" level="21" name="{=si_ar_n_emp_t4_archer}E. Calradian Seasoned Borderer Archer" occupation="Soldier" culture="Culture.empire_n">
+	<NPCCharacter id="AR_n_emp_t4_archer" default_group="Ranged" level="21" name="{=si_ar_n_emp_t4_archer}E. Calradian Hardened Borderer Archer" occupation="Soldier" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -750,7 +750,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Caravan Cavalry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_n_emp_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_n_emp_vet_caravan_guard}E. Calradian Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.empire_n">
+	<NPCCharacter id="AR_n_emp_vet_caravan_guard" default_group="Cavalry" level="26" name="{=si_ar_n_emp_vet_caravan_guard}E. Calradian Seasoned Caravan Guard" occupation="CaravanGuard" culture="Culture.empire_n">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -1132,7 +1132,7 @@
 			<EquipmentSet id="AR_s_emp_ransom_broker_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_merchant_notary" default_group="Infantry" name="{=reoVAtrE}Merchant Notary" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_n_emp_merchant_notary" default_group="Infantry" name="{=si_ar_n_emp_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1142,7 +1142,7 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_artisan_notary" default_group="Infantry" name="{=ECxiXTbF}Artisan Notary" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_n_emp_artisan_notary" default_group="Infantry" name="{=si_ar_n_emp_artisan_notary}Artisan" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1152,7 +1152,17 @@
 			<EquipmentSet id="AR_s_emp_villager_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_preacher_notary" default_group="Infantry" name="{=bLMGbLF8}Preacher Notary" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="AR_n_emp_preacher_notary" default_group="Infantry" name="{=si_ar_n_emp_preacher_notary}Priest" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_n_emp_rural_notable_notary" default_group="Infantry" name="{=si_ar_n_emp_rural_notable_notary}E. Calradian Nobleman" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1160,16 +1170,6 @@
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_n_emp_rural_notable_notary" default_group="Infantry" name="{=AlmaRAib}Rural Notable Notary" occupation="Townsfolk" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills/>
-		<Equipments>
-			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
-			<EquipmentSet id="AR_s_emp_villager_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_n_emp_shop_worker" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.empire_n" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">

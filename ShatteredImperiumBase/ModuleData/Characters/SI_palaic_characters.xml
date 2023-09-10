@@ -193,7 +193,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="80"/>
+			<skill id="Riding" value="160"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="40"/>
@@ -217,7 +217,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="80"/>
+			<skill id="Riding" value="160"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -240,7 +240,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="80"/>
+			<skill id="Riding" value="160"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
@@ -261,7 +261,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="160"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="100"/>
@@ -284,7 +284,7 @@
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
-			<skill id="Riding" value="120"/>
+			<skill id="Riding" value="160"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="130"/>
@@ -299,7 +299,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- RHOTIAN FREE COMPANY -->
-	<NPCCharacter id="AR_spc_guardians_leader_0" name="of Rhotash" voice="ironic" is_template="true" age="42" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
+	<NPCCharacter id="AR_spc_guardians_leader_0" name="{=si_ar_spc_guardians_leader_0}of Rhotash" voice="ironic" is_template="true" age="42" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_temean"/>
 		</face>
@@ -317,7 +317,7 @@
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_guardians_leader_1" name="of Rhotash" voice="softspoken" is_template="true" is_female="true" age="22" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
+	<NPCCharacter id="AR_spc_guardians_leader_1" name="{=si_ar_spc_guardians_leader_1}of Rhotash" voice="softspoken" is_template="true" is_female="true" age="22" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_temean"/>
 		</face>
@@ -336,7 +336,7 @@
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_guardians_leader_2" name="of Rhotash" voice="softspoken" is_template="true" age="28" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
+	<NPCCharacter id="AR_spc_guardians_leader_2" name="{=si_ar_spc_guardians_leader_2}of Rhotash" voice="softspoken" is_template="true" age="28" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_temean"/>
 		</face>
@@ -352,7 +352,7 @@
 			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_guardians_leader_3" name="of Rhotash" voice="softspoken" is_template="true" age="35" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
+	<NPCCharacter id="AR_spc_guardians_leader_3" name="{=si_ar_spc_guardians_leader_3}of Rhotash" voice="softspoken" is_template="true" age="35" default_group="Cavalry" is_hero="false" culture="Culture.palaic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_temean"/>
 		</face>
@@ -371,4 +371,116 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- AUXILIARY EPIRIC -->
+	<!-- T3 Epiric Slinger Light Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_epiric_recruit" default_group="Infantry" level="16" name="{=si_ar_emp_aux_epiric_recruit}Auxiliary Epiric Footman" occupation="Mercenary" is_basic_troop="true" culture="Culture.palaic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_western"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_epiric_t4_infantry"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_epiric_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_epiric_recruit_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Epiric Slinger Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_epiric_t4_infantry" default_group="Infantry" level="21" name="{=si_ar_emp_aux_epiric_t4_infantry}Auxiliary Epiric Spearman" occupation="Mercenary" culture="Culture.palaic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_western"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_epiric_t5_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_epiric_t4_infantry_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Epiric Slinger Medium Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_epiric_t5_infantry" default_group="Infantry" level="26" name="{=si_ar_emp_aux_epiric_t5_infantry}Auxiliary Epiric Champion" occupation="Mercenary" culture="Culture.palaic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_western"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_epiric_t5_infantry_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Epiric Cavalry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_epiric_t4_cavalry" default_group="Cavalry" level="21" name="{=si_ar_emp_aux_epiric_t4_cavalry}Auxiliary Epiric Rider" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.palaic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_western"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_epiric_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_epiric_t4_cavalry_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Epiric Cavalry Skill Very Heavy 60-130 -->
+	<NPCCharacter id="AR_emp_aux_epiric_t5_cavalry" default_group="Cavalry" level="26" name="{=si_ar_emp_aux_epiric_t5_cavalry}Auxiliary Epiric Horseman" occupation="Mercenary" culture="Culture.palaic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_western"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_epiric_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
