@@ -1067,7 +1067,7 @@
 		<xsl:attribute name='text'>{=si_ar_town_V2_text}Ocs Hall is one of the more recent towns to arise in Calradia. Originating as an isolated holdout of the Battanians known as Caer Modris, nestled among the Calradian heartlands and centered on the volcanic lake Llyn Modris - said to be the seat of a giant - the settlement remained in obscurity until only recently. Like much of western Calradia, the Llyn Modris valley was settled in more recent times by Vlandian colonists, who displaced the existing Battanian roundhouses in favor of their own halls. In the year 951, following Osric Iron-Arm’s declaration of independence from the Calradian Empire, the old Vlandian warlord Oca conquered the area and built his great feasting hall atop the ruins of the great house of the old chieftain, thus restyling the town and its lake in his own name. The Battanian tribes were driven into obscurity, and took their legends with them.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V2_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V2_3_text}Fregian sits on the flatlands north of Paravenos, where the warmth of the south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V2_3_text}Fregian sits on the flatlands north of Paravenos - known to the Vlandians as the 'Swadian Plains' - where the warmth of the south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_7</xsl:attribute>
@@ -1110,7 +1110,7 @@
 		<xsl:attribute name='text'>{=si_ar_castle_village_V3_1_text}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Taranos River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V3_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V3_2_text}Valanby sits overlooking the Taranos Estuary - the very spot where Wilund the Bold, father of the Vlandians, landed with his companions in times of old. Villagers plant flax in land reclaimed from the riverside marshes.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V3_2_text}Valanby sits overlooking the Taranos Estuary, at the very spot where Wilund the Bold - father of the Vlandians - landed with his companions in times of old. Villagers plant flax in land reclaimed from the riverside marshes.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_2</xsl:attribute>
@@ -1190,19 +1190,19 @@
 	</xsl:template>
 	<!-- Cortand -->
 	<xsl:template match="Settlement[@id='castle_V7']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_V7_name}Tarivela Castle</xsl:attribute>
+		<xsl:attribute name='name'>{=si_ar_castle_V7_name}Talivela Castle</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_1']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_village_V7_1_name}Tarivela</xsl:attribute>
+		<xsl:attribute name='name'>{=si_ar_castle_village_V7_1_name}Talivela</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V7_1_text}Tarivela in the middle of the Taranos Valley in the heartland of Calradia. Villagers plant olives here on the hillsides.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V7_1_text}Talivela in the middle of the Taranos Valley in the heartland of Calradia. Villagers plant olives here on the hillsides.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_2']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_village_V7_2_name}Rubinys</xsl:attribute>
+		<xsl:attribute name='name'>{=si_ar_castle_village_V7_2_name}Rodetanys</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V7_2_text}Rubinys takes its name from the ruddy, iron-rich soil of this part of the the Rhennod hills. The mines of this district supplied the iron ore for the great forges of Paravenos.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V7_2_text}Rodetanys takes its name from the ruddy, iron-rich soil of this part of the the Rhennod hills. The mines of this district supplied the iron ore for the great forges of Paravenos.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_4</xsl:attribute>
@@ -1410,7 +1410,7 @@
 	Jokbyalic Kingdom
 	-->
 	<!-- Aurvantus -->
-	<xsl:template match="Settlement[@id='castle_village_V8_2']/@text">
+	<xsl:template match="Settlement[@id='town_EN6']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_EN6_text}Amprela is the foremost town of the far northeast of the Calradian Empire. Atop its towers, one may see beacons from the frontier fortresses to the north, east and west that might signal the approach of raiders. In spite of the recent capture of the town by the Jokbyals, little in Amprela appears to have changed from times of old. Horse archers recruited from the rough Eleftheroi freemen still drink in the barracks, waiting for the order to ride out against horsemen from the steppe, and cataphracts can still be seen to sally through its gates to vie for control of the trade crossing the nearby network of lakes known as the Iltan portages.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_2']/@text">
@@ -1681,7 +1681,7 @@
 		<xsl:attribute name='name'>{=si_ar_town_V3_name}Paravenos</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V3']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V3_text}Paravenos was the second major colony founded by Calradios the Great, serving as the inland capital and summer residence of the Calradian Kingdom during its formative years. As the Calradian Kingdom evolved into a republic, and then into the Calradian Empire, Paravenos attracted citizens from far and wide, growing into the wealthiest city on the continent. Eventually, the Calradian Empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the western provinces. However, the last century has been cruel to the city. In the year 937, a host of Battanians lay siege to the city, destroying many of its ancient edifices before a relief force of Vlandian auxiliaries could arrive. Now, those very Vlandians surround Paravenos, and it remains to be seen how long the old capital will hold out against their nascent kingdom.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_V3_text}Paravenos was the second major colony founded by Calradios the Great, serving as the inland capital and summer residence of the Calradian Kingdom during its formative years. As the Calradian Kingdom evolved into a republic, and then into the Calradian Empire, Paravenos attracted citizens from far and wide, growing into the wealthiest city on the continent. Eventually, the Calradian Empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the western provinces. However, the last century has been cruel to the city. In the year 937, a host of Battanians laid siege to the city, destroying many of its ancient edifices before a relief force of Vlandian auxiliaries could arrive. Now, those very Vlandians surround Paravenos, and it remains to be seen how long the old capital will hold out against their nascent kingdom.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_2']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_V3_2_name}Arulunos</xsl:attribute>
@@ -1693,7 +1693,7 @@
 		<xsl:attribute name='name'>{=si_ar_village_V3_3_name}Laranacys</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V3_3_text}Laranacys sits on gentle hills on the lower Taranos Valley. Villagers plant rye, barley and wheat for sale to the hungry urban population of nearby Paravenos.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V3_3_text}Laranacys sits on gentle hills on the lower Taranos Valley, at the western edge of the Swadian Plains. Villagers plant rye, barley and wheat for sale to the hungry urban population of nearby Paravenos.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_4']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_V3_4_name}Palisona</xsl:attribute>

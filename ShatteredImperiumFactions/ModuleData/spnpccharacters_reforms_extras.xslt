@@ -116,6 +116,28 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='caravan_master_vlandia']/@name">
+		<xsl:attribute name="name">{=si_ar_vla_vlandia_master}Vlandian Caravan Master</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_vlandia"]/skills'>
+		<xsl:copy>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="caravan_master_vlandia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_caravan_master_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<!-- ARENA CHARACTERS -->
 	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_aserai"]/Equipments'>
 		<xsl:copy>
@@ -220,6 +242,27 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet id="AR_stu_weapon_practice_stage_3_battletemplate"/>
 			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_1_vlandia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_weapon_practice_stage_1_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_2_vlandia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_weapon_practice_stage_2_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="weapon_practice_stage_3_vlandia"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_weapon_practice_stage_3_battletemplate"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<!-- STORYMODE CHARACTERS -->
@@ -931,6 +974,12 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="vlandian_light_cavalry"]'>
+		<xsl:copy>
+			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
+			<xsl:apply-templates select="@* | node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="vlandian_cavalry"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>
 			<xsl:apply-templates select="@* | node()"/>
