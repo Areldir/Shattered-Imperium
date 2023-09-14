@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- MASSA: Levy Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_mas_villager" default_group="Infantry" level="6" name="{=si_ar_mas_villager}Massa Freeman" occupation="Villager" culture="Culture.massa" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t2_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_mas_t2_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_villager_battletemplate"/>
+			<EquipmentSet id="AR_vla_villager_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Spear Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_mas_t2_spearman" default_group="Infantry" level="11" name="{=si_ar_mas_t2_spearman}Massa Levy Footman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t3_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t2_spearman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Spear Infantry Skill Medium 40-70 -->
+	<NPCCharacter id="AR_mas_t3_spearman" default_group="Infantry" level="16" name="{=si_ar_mas_t3_spearman}Massa Levy Spearman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t4_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t3_spearman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Spear Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_mas_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_mas_t4_spearman}Massa Hardened Levy Spearman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t4_spearman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Spear Infantry Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_mas_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_mas_t5_spearman}Massa Town Guard Spearman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t5_spearman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Slinger Medium Skill 20-40 -->
+	<NPCCharacter id="AR_mas_t2_slinger" default_group="Ranged" level="11" name="{=si_ar_mas_t2_slinger}Massa Levy Huntsman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t3_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t2_slinger_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Slinger Medium Skill 40-70 -->
+	<NPCCharacter id="AR_mas_t3_slinger" default_group="Ranged" level="16" name="{=si_ar_mas_t3_slinger}Massa Levy Slinger" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t4_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t3_slinger_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Slinger Medium Skill 60-100 -->
+	<NPCCharacter id="AR_mas_t4_slinger" default_group="Ranged" level="21" name="{=si_ar_mas_t4_slinger}Massa Hardened Levy Slinger" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t5_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t4_slinger_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Slinger Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_mas_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_mas_t5_slinger}Massa Town Guard Slinger" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t5_slinger_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- MASSA: Field Troops -->
+	<!-- T1 Recruit Light Skill 5-20 -->
+	<NPCCharacter id="AR_mas_recruit" default_group="Infantry" level="6" name="{=si_ar_mas_recruit}Massa Recruit" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t2_pikeman"/>
+			<!--upgrade_target id="NPCCharacter.AR_vla_t2_skirmisher"/-->
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_recruit_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Pike Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_mas_t2_pikeman" default_group="Infantry" level="11" name="{=si_ar_mas_t2_pikeman}Massa Footman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t3_pikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t2_pikeman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Pike Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_mas_t3_pikeman" default_group="Infantry" level="16" name="{=si_ar_mas_t3_pikeman}Massa Pikeman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t4_pikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t3_pikeman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Pike Infantry Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_mas_t4_pikeman" default_group="Infantry" level="21" name="{=si_ar_mas_t4_pikeman}Massa Hardened Pikeman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t5_pikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t4_pikeman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Pike Infantry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_mas_t5_pikeman" default_group="Infantry" level="26" name="{=si_ar_mas_t5_pikeman}Massa Seasoned Pikeman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t6_pikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t5_pikeman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Pike Infantry Very Heavy Skill 80-180 -->
+	<NPCCharacter id="AR_mas_t6_pikeman" default_group="Infantry" level="31" name="{=si_ar_mas_t6_pikeman}Massa Champion Pikeman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t6_pikeman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
