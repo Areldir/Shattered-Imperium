@@ -1,22 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
-	<!-- New heroes added
-  <Hero id="lord_7_5"  spouse="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_1"  spouse="Hero.lord_7_5" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_2"  father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_3"  father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_4"  father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_7"  spouse="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_1"  spouse="Hero.lord_7_7" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_2"  father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_3"  father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_4"  father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-
-  <Hero id="lord_7_8_1"  spouse="Hero.lord_7_8" faction="Faction.clan_vlandia_11" />
-  <Hero id="lord_7_8_2"  father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
-  <Hero id="lord_7_8_3"  father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
-  -->
-
 	<!--lords.xml-->
 	<Hero id="main_hero" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction"/>
 	<Hero id="main_hero_father" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_mother"/>
@@ -27,6 +10,99 @@
 	<Hero id="lord_1_1_13" spouse="Hero.lord_1_64" faction="Faction.clan_empire_north_4"/>
 	<Hero id="lord_1_20" faction="Faction.clan_empire_north_4"/>
 	<Hero id="lord_1_64" faction="Faction.clan_empire_north_4"/>
+	<!--
+	Aserai Emirates
+	-->
+	<!-- Banu Atij -->
+	<Hero id="AR_lord_3_18" spouse="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
+	<Hero id="lord_3_18" spouse="Hero.AR_lord_3_18" faction="Faction.clan_aserai_6" text="{=AR0aSR5J}The current Shah of the Banu Asera is Aydas, the head of the Banu Atij clan. An ardent traditionalist and cunning politician, he has attempted to quell the constant infighting amongst the clans of the Nahasa, modelling his governance on the ways of the Darshi Padishahs. However, the clans do not respect his rule, with many believing the teachings of a cult centered around a prophet called Musyaz, who claims the Aserai should shake off the old ways of the Darshi conquerers and assert their dominance over the Nahasa."/>
+	<Hero id="lord_3_18_1" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
+	<Hero id="lord_3_18_2" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
+	<Hero id="lord_3_18_3" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
+	<Hero id="lord_3_18_4" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
+	<!-- Banu Qild -->
+	<Hero id="lord_3_5" spouse="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_51" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_12" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_20" spouse="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_20_1" spouse="Hero.lord_3_20" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_20_2" father="Hero.lord_3_20" mother="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_6" spouse="Hero.lord_3_5" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_9" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<!-- Banu Arbas -->
+	<Hero id="lord_3_17" spouse="Hero.lord_3_17_1" faction="Faction.clan_aserai_5"/>
+	<Hero id="lord_3_17_1" spouse="Hero.lord_3_17" faction="Faction.clan_aserai_5"/>
+	<Hero id="lord_3_17_2" father="Hero.lord_3_17" mother="Hero.lord_3_17_1" faction="Faction.clan_aserai_5"/>
+	<Hero id="lord_3_21" spouse="Hero.lord_3_21_1" faction="Faction.clan_aserai_5"/>
+	<Hero id="lord_3_21_1" spouse="Hero.lord_3_21" faction="Faction.clan_aserai_5"/>	
+	<!-- Banu Sarran -->
+	<Hero id="dead_lord_3_1" alive="false" faction="Faction.clan_aserai_2"/>
+	<Hero id="lord_3_8" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
+	<Hero id="lord_3_11" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
+	<Hero id="lord_3_3" spouse="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
+	<Hero id="lord_3_3_1" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
+	<Hero id="lord_3_4" spouse="Hero.lord_3_3" faction="Faction.clan_aserai_2"/>	
+	<!-- Banu Maluf -->
+	<Hero id="lord_3_19" spouse="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
+	<Hero id="lord_3_19_1" spouse="Hero.lord_3_19" faction="Faction.clan_aserai_7"/>
+	<Hero id="lord_3_19_2" father="Hero.lord_3_19" mother="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
+	<Hero id="lord_3_19_3" father="Hero.lord_3_19" mother="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
+	<Hero id="lord_3_23" spouse="Hero.lord_3_23_1" faction="Faction.clan_aserai_7"/>
+	<Hero id="lord_3_23_1" spouse="Hero.lord_3_23" faction="Faction.clan_aserai_7"/>
+	<!-- Banu Habbab -->
+	<Hero id="lord_3_22" spouse="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
+	<Hero id="lord_3_22_1" spouse="Hero.lord_3_22" faction="Faction.clan_aserai_8"/>
+	<Hero id="lord_3_22_2" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
+	<Hero id="lord_3_22_3" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
+	<Hero id="lord_3_22_4" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
+	<!-- Banu Ruwaid -->
+	<Hero id="lord_A9_l" spouse="Hero.lord_A9_s" faction="Faction.clan_aserai_9"/>
+	<Hero id="lord_A9_s" spouse="Hero.lord_A9_l" faction="Faction.clan_aserai_9"/>
+	<Hero id="lord_A9_c" father="Hero.lord_A9_l" mother="Hero.lord_A9_s" faction="Faction.clan_aserai_9"/>
+	<Hero id="lord_A9_u" faction="Faction.clan_aserai_9"/>
+	<!-- Banu Hulyan -->
+	<Hero id="lord_3_1" spouse="Hero.lord_3_2" faction="Faction.clan_aserai_1" text="{=AR00031}Kharid is the head of the Banu Hulyan; one of the oldest clans of the Nahasa. Centuries ago, his forefathers settled around the Damar River, trading their nomadic lifestyle for the safety of solid stone walls. Over the years, the Banu Hulyan have maintained a strong grip over the south, crushing smaller clans and occasionally contesting the larger clans for rule of the Aserai. Less than a year ago, Kharid was visited by the prophet Musyaz, hailing from a distant oasis far to the south, who now whispers in his ear that he should lead the Aserai in shaking off their old ways and carving an empire for themselves amongst the shifting sands."/>
+	<Hero id="lord_3_2" spouse="Hero.lord_3_1" faction="Faction.clan_aserai_1"/>
+	<Hero id="lord_3_7" father="Hero.lord_3_1" mother="Hero.lord_3_2" faction="Faction.clan_aserai_1"/>
+	<Hero id="lord_3_10" father="Hero.lord_3_1" mother="Hero.lord_3_2" faction="Faction.clan_aserai_1"/>
+	<Hero id="lord_3_13" spouse="Hero.lord_3_13_1" faction="Faction.clan_aserai_1"/>
+	<Hero id="lord_3_13_1" spouse="Hero.lord_3_13" faction="Faction.clan_aserai_1"/>
+	<Hero id="lord_3_13_2" father="Hero.lord_3_13" mother="Hero.lord_3_13_1" faction="Faction.clan_aserai_1"/>
+	<!-- Banu Karama -->
+	<Hero id="lord_3_14" spouse="Hero.lord_3_14_1" faction="Faction.clan_aserai_4"/>
+	<Hero id="lord_3_14_1" spouse="Hero.lord_3_14" faction="Faction.clan_aserai_4"/>
+	<Hero id="lord_3_15" spouse="Hero.lord_3_15_1" faction="Faction.clan_aserai_4"/>
+	<Hero id="lord_3_15_1" spouse="Hero.lord_3_15" faction="Faction.clan_aserai_4"/>
+	<Hero id="lord_3_15_2" father="Hero.lord_3_15" mother="Hero.lord_3_15_1" faction="Faction.clan_aserai_4"/>
+	<Hero id="lord_3_16" spouse="Hero.lord_3_16_1" faction="Faction.clan_aserai_4"/>
+	<Hero id="lord_3_16_1" spouse="Hero.lord_3_16" faction="Faction.clan_aserai_4"/>
+
+
+	<!--
+	Battanian Kingdom
+	-->
+	<!-- fen Sithigh -->
+	<Hero id="AR_lord_5_2" spouse="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_5_3" spouse="Hero.AR_lord_5_2" faction="Faction.AR_clan_battania_9"/>
+	<Hero id="AR_lord_5_4" father="Hero.AR_lord_5_2" mother="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
+	<Hero id="AR_lord_5_5" father="Hero.AR_lord_5_2" mother="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
+	<Hero id="AR_lord_5_6" spouse="Hero.AR_lord_5_7" faction="Faction.AR_clan_battania_9"/>
+	<Hero id="AR_lord_5_7" spouse="Hero.AR_lord_5_6" faction="Faction.AR_clan_battania_9"/>
+	<Hero id="AR_lord_5_8" father="Hero.AR_lord_5_6" mother="Hero.AR_lord_5_7" faction="Faction.AR_clan_battania_9"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<!-- Empire north 9 - Serapides (DONE) -->
 	<Hero id="lord_NE9_l" faction="Faction.clan_empire_north_9"/>
 	<Hero id="AR_lord_1_14" spouse="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9"/>
@@ -238,85 +314,7 @@
 	<Hero id="AR_lord_4_28" alive="false" faction="Faction.clan_vlandia_10"/>
 
 
-	<!--
-	Aserai Emirates
-	-->
-	<!-- Banu Atij -->
-	<Hero id="AR_lord_3_18" spouse="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
-	<Hero id="lord_3_18" spouse="Hero.AR_lord_3_18" faction="Faction.clan_aserai_6" text="{=AR0aSR5J}The current Shah of the Banu Asera is Aydas, the head of the Banu Atij clan. An ardent traditionalist and cunning politician, he has attempted to quell the constant infighting amongst the clans of the Nahasa, modelling his governance on the ways of the Darshi Padishahs. However, the clans do not respect his rule, with many believing the teachings of a cult centered around a prophet called Musyaz, who claims the Aserai should shake off the old ways of the Darshi conquerers and assert their dominance over the Nahasa."/>
-	<Hero id="lord_3_18_1" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
-	<Hero id="lord_3_18_2" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
-	<Hero id="lord_3_18_3" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
-	<Hero id="lord_3_18_4" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
-	<!-- Banu Qild -->
-	<Hero id="lord_3_5" spouse="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_51" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_12" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_20" spouse="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_20_1" spouse="Hero.lord_3_20" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_20_2" father="Hero.lord_3_20" mother="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_6" spouse="Hero.lord_3_5" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_9" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<!-- Banu Arbas -->
-	<Hero id="lord_3_17" spouse="Hero.lord_3_17_1" faction="Faction.clan_aserai_5"/>
-	<Hero id="lord_3_17_1" spouse="Hero.lord_3_17" faction="Faction.clan_aserai_5"/>
-	<Hero id="lord_3_17_2" father="Hero.lord_3_17" mother="Hero.lord_3_17_1" faction="Faction.clan_aserai_5"/>
-	<Hero id="lord_3_21" spouse="Hero.lord_3_21_1" faction="Faction.clan_aserai_5"/>
-	<Hero id="lord_3_21_1" spouse="Hero.lord_3_21" faction="Faction.clan_aserai_5"/>	
-	<!-- Banu Sarran -->
-	<Hero id="dead_lord_3_1" alive="false" faction="Faction.clan_aserai_2"/>
-	<Hero id="lord_3_8" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
-	<Hero id="lord_3_11" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
-	<Hero id="lord_3_3" spouse="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
-	<Hero id="lord_3_3_1" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
-	<Hero id="lord_3_4" spouse="Hero.lord_3_3" faction="Faction.clan_aserai_2"/>	
-	<!-- Banu Maluf -->
-	<Hero id="lord_3_19" spouse="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
-	<Hero id="lord_3_19_1" spouse="Hero.lord_3_19" faction="Faction.clan_aserai_7"/>
-	<Hero id="lord_3_19_2" father="Hero.lord_3_19" mother="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
-	<Hero id="lord_3_19_3" father="Hero.lord_3_19" mother="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
-	<Hero id="lord_3_23" spouse="Hero.lord_3_23_1" faction="Faction.clan_aserai_7"/>
-	<Hero id="lord_3_23_1" spouse="Hero.lord_3_23" faction="Faction.clan_aserai_7"/>
-	<!-- Banu Habbab -->
-	<Hero id="lord_3_22" spouse="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
-	<Hero id="lord_3_22_1" spouse="Hero.lord_3_22" faction="Faction.clan_aserai_8"/>
-	<Hero id="lord_3_22_2" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
-	<Hero id="lord_3_22_3" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
-	<Hero id="lord_3_22_4" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
-	<!-- Banu Ruwaid -->
-	<Hero id="lord_A9_l" spouse="Hero.lord_A9_s" faction="Faction.clan_aserai_9"/>
-	<Hero id="lord_A9_s" spouse="Hero.lord_A9_l" faction="Faction.clan_aserai_9"/>
-	<Hero id="lord_A9_c" father="Hero.lord_A9_l" mother="Hero.lord_A9_s" faction="Faction.clan_aserai_9"/>
-	<Hero id="lord_A9_u" faction="Faction.clan_aserai_9"/>
-	<!-- Banu Hulyan -->
-	<Hero id="lord_3_1" spouse="Hero.lord_3_2" faction="Faction.clan_aserai_1" text="{=AR00031}Kharid is the head of the Banu Hulyan; one of the oldest clans of the Nahasa. Centuries ago, his forefathers settled around the Damar River, trading their nomadic lifestyle for the safety of solid stone walls. Over the years, the Banu Hulyan have maintained a strong grip over the south, crushing smaller clans and occasionally contesting the larger clans for rule of the Aserai. Less than a year ago, Kharid was visited by the prophet Musyaz, hailing from a distant oasis far to the south, who now whispers in his ear that he should lead the Aserai in shaking off their old ways and carving an empire for themselves amongst the shifting sands."/>
-	<Hero id="lord_3_2" spouse="Hero.lord_3_1" faction="Faction.clan_aserai_1"/>
-	<Hero id="lord_3_7" father="Hero.lord_3_1" mother="Hero.lord_3_2" faction="Faction.clan_aserai_1"/>
-	<Hero id="lord_3_10" father="Hero.lord_3_1" mother="Hero.lord_3_2" faction="Faction.clan_aserai_1"/>
-	<Hero id="lord_3_13" spouse="Hero.lord_3_13_1" faction="Faction.clan_aserai_1"/>
-	<Hero id="lord_3_13_1" spouse="Hero.lord_3_13" faction="Faction.clan_aserai_1"/>
-	<Hero id="lord_3_13_2" father="Hero.lord_3_13" mother="Hero.lord_3_13_1" faction="Faction.clan_aserai_1"/>
-	<!-- Banu Karama -->
-	<Hero id="lord_3_14" spouse="Hero.lord_3_14_1" faction="Faction.clan_aserai_4"/>
-	<Hero id="lord_3_14_1" spouse="Hero.lord_3_14" faction="Faction.clan_aserai_4"/>
-	<Hero id="lord_3_15" spouse="Hero.lord_3_15_1" faction="Faction.clan_aserai_4"/>
-	<Hero id="lord_3_15_1" spouse="Hero.lord_3_15" faction="Faction.clan_aserai_4"/>
-	<Hero id="lord_3_15_2" father="Hero.lord_3_15" mother="Hero.lord_3_15_1" faction="Faction.clan_aserai_4"/>
-	<Hero id="lord_3_16" spouse="Hero.lord_3_16_1" faction="Faction.clan_aserai_4"/>
-	<Hero id="lord_3_16_1" spouse="Hero.lord_3_16" faction="Faction.clan_aserai_4"/>
 
-
-	<!--
-	Battanian Kingdom
-	-->
-	<!-- fen Sithigh -->
-	<Hero id="AR_lord_5_2" spouse="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9" text="PLACEHOLDER"/>
-	<Hero id="AR_lord_5_3" spouse="Hero.AR_lord_5_2" faction="Faction.AR_clan_battania_9"/>
-	<Hero id="AR_lord_5_4" father="Hero.AR_lord_5_2" mother="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
-	<Hero id="AR_lord_5_5" father="Hero.AR_lord_5_2" mother="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
-	<Hero id="AR_lord_5_6" spouse="Hero.AR_lord_5_7" faction="Faction.AR_clan_battania_9"/>
-	<Hero id="AR_lord_5_7" spouse="Hero.AR_lord_5_6" faction="Faction.AR_clan_battania_9"/>
-	<Hero id="AR_lord_5_8" father="Hero.AR_lord_5_6" mother="Hero.AR_lord_5_7" faction="Faction.AR_clan_battania_9"/>
 
 
 
@@ -331,9 +329,10 @@
 	<Hero id="lord_1_24" faction="Faction.clan_empire_west_1"/>
 	<Hero id="lord_1_44" faction="Faction.clan_empire_west_1"/>
 	<Hero id="AR_lord_1_8" spouse="Hero.AR_lord_1_9" faction="Faction.clan_empire_west_1" text="{=arI9dpuu}The Calradian Empire is ruled by Helenea, wife of the late-Emperor Themestios and regent for their son Jamanys. The first female ruler of the Calradian Empire since the lady Zeona, two centuries ago, she will rule until her son comes of age. Generous and wise, she is a popular figure with the Empire's people, though has little support amongst those in the senatorial nobility who remain loyal to her family. Whilst they voted for her son, many in the senate worry that Helenea may take the imperial throne for herself, instead of handing over power when Jamanys is at the rightful age."/>
-	<Hero id="AR_lord_1_9" alive="false" spouse="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpuv}Themestios was the last emperor of a united Calradian Empire. A cunning politician and efficient administrator, he successfully led the Empire in campaigns of expansion to the east, incorporating much of the territory east of Lake Tanaesis into the imperial fold. However, his reign was cut short when a campaign into the Iltan Portages went awry, with the Emperor's camp being overrun by Jokbyalic horsemen during the night. In the brief battle, Themestios was slain and the dragon banner of Calradios was carried off by Jokbyalic tribesmen as a trophy; the Emperor's sudden loss leaving the Calradians in a state of disarray."/>
+	<Hero id="AR_lord_1_9" alive="false" father="Hero.AR_lord_1_15" spouse="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpuv}Themestios was the last emperor of a united Calradian Empire. A cunning politician and efficient administrator, he successfully led the Empire in campaigns of expansion to the east, incorporating much of the territory east of Lake Tanaesis into the imperial fold. However, his reign was cut short when a campaign into the Iltan Portages went awry, with the Emperor's camp being overrun by Jokbyalic horsemen during the night. In the brief battle, Themestios was slain and the dragon banner of Calradios was carried off by Jokbyalic tribesmen as a trophy; the Emperor's sudden loss leaving the Calradians in a state of disarray."/>
 	<Hero id="AR_lord_1_10" father="Hero.AR_lord_1_9" mother="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpuw}Junia is the eldest child of the late-Emperor Themestios. A natural-born leader, she spent much of her childhood learning the arts of statecraft from her father and mother, being given the high honor of leading an elite unit of her father's lancers in Themestios' ill-fated eastern campaign, at only the age of 18. Despite being present for her father's death, Junia was passed over for succession to the imperial throne in favor of her younger brother. Proud and adventurous, she now follows her own path, leading troops in the hope of gaining glory on the battlefield."/>
 	<Hero id="AR_lord_1_11" father="Hero.AR_lord_1_9" mother="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpux}Jamanys is the heir-apparent for the throne of the Calradian Empire. After the untimely death of his father Themestios, the Calradian senate met to vote on the matter of succession. The late-emperor had named his son as heir, though many senators believed that a boy so young was unfit to rule. A vote was held, with Jamanys being nominated Emperor by an incredibly slim margin. Abandoned immediately by nearly half of the senate, who fled to the west, the remaining senators named Jamanys' mother regent until he comes of age. However, with civil war raging on all sides, some say the Empire may not survive long enough for him to take his throne."/>
+	<Hero id="AR_lord_1_15" alive="false" faction="Faction.clan_empire_west_1" text="{=si_ar_lord_1_15_text}Zaricos reigned as the Emperor of the Calradian Empire from the years 895 to 934. His lifetime saw notable changes in the character of his empire and its people, as well as the expansion and contraction of imperial borders across the continent. In the south, Zaricos led his legions against the Aserai, extending the border from the walls of the colony of Yachios to Qasira on the coast of the Perassic Sea, whilst the rise of the Alkit and Vaegir realms in the north saw the loss of much of the Calradian frontier around Lake Laconis. However, possibly the most significant event to occur during Zaricos’ reign would occur in 913, when a massive earthquake practically levelled the ancient Calradian capital of Charasea. The city’s population, long made up primarily of Vlandian settlers, were quick to begin reconstruction. However, little of Charasea’s former splendour was left recognisable. Despite this, Zaricos’ reign is remembered as a time of stability for the majority of the Calradian Empire, whose citizens enjoyed great peace and prosperity. Zaricos died peacefully in his sleep, transferring the imperial crown to his son Themestios. He is remembered fondly across Calradia, with statues erected in his memory."/>
 	<!-- Pethros -->
 	<Hero id="lord_1_14" faction="Faction.clan_empire_south_1"/>
 	<!--Hero id="AR_lord_1_12"  faction="Faction.clan_empire_south_1" /-->

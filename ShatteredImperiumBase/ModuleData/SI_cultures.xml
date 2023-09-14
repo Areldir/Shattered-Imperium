@@ -824,9 +824,10 @@
 			<template name="NPCCharacter.AR_tournament_template_aserai_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
-			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
-			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<template name="NPCCharacter.AR_min_jawwal_t3"/>
+			<template name="NPCCharacter.AR_min_ghilman_t3"/>
+			<template name="NPCCharacter.AR_min_ethawian_t3"/>
+			<template name="NPCCharacter.AR_min_yachios_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="sturgia"
@@ -1191,6 +1192,7 @@
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_nor_aux_recruit"/>
 			<template name="NPCCharacter.AR_min_skolder_t3"/>
+			<template name="NPCCharacter.AR_min_seax_t3"/>
 			<template name="NPCCharacter.AR_stu_aux_fem_recruit"/>
 		</basic_mercenary_troops>
 	</Culture>
@@ -1450,6 +1452,11 @@
 			<name name="{=!*}Aldlith"/>
 			<name name="{=!*}Maerdis"/>
 			<name name="{=!*}Beywyn"/>
+			<name name="{=!*}Richelda"/>
+			<name name="{=!*}Ava"/>
+			<name name="{=!*}Aelfwyn"/>
+			<name name="{=!*}Herlinda"/>
+			<name name="{=!*}Liedrada"/>
 		</female_names>
 		<clan_names>
 			<name name="{=p1dFvTAc}dey {ORIGIN_SETTLEMENT}"/>
@@ -1535,24 +1542,24 @@
 			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_one_participant_set_v3"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_two_participant_set_v4"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_vlandia_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.AR_min_companyboar_t3"/>
 			<template name="NPCCharacter.western_mercenary"/>
 			<template name="NPCCharacter.sword_sisters_sister_t3"/>
 		</basic_mercenary_troops>
@@ -2190,6 +2197,8 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_min_chosensky_t3"/>
+			<template name="NPCCharacter.AR_min_silverdragon_t3"/>
+			<template name="NPCCharacter.AR_min_karakhuzaits_t3"/>
 			<template name="NPCCharacter.AR_ilt_aux_fem_recruit"/>
 			<template name="NPCCharacter.AR_ilt_aux_hawlan_recruit"/>
 		</basic_mercenary_troops>
@@ -3148,16 +3157,16 @@
 			<template name="NPCCharacter.AR_n_emp_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_0"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_1"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_2"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_0"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_1"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_2"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.AR_tournament_template_n_empire_one_participant_set_v1"/>
@@ -4009,6 +4018,8 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_nor_aux_recruit"/>
+			<template name="NPCCharacter.AR_min_skolder_t3"/>
+			<template name="NPCCharacter.AR_min_seax_t3"/>
 			<template name="NPCCharacter.AR_min_ircara_t3"/>
 			<template name="NPCCharacter.AR_vae_aux_fem_recruit"/>
 		</basic_mercenary_troops>
@@ -4020,10 +4031,10 @@
 	         color2="FFECBA44"
 	         elite_basic_troop="NPCCharacter.AR_mas_elite_recruit"
 	         basic_troop="NPCCharacter.AR_mas_recruit"
-	         melee_militia_troop="NPCCharacter.AR_mas_militia_spearman"
-	         ranged_militia_troop="NPCCharacter.AR_mas_militia_archer"
-	         melee_elite_militia_troop="NPCCharacter.AR_mas_militia_veteran_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.AR_mas_militia_veteran_archer"
+	         melee_militia_troop="NPCCharacter.AR_mas_t3_spearman"
+	         ranged_militia_troop="NPCCharacter.AR_mas_t3_slinger"
+	         melee_elite_militia_troop="NPCCharacter.AR_mas_t5_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.AR_mas_t5_slinger"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_massa_template"
@@ -4036,9 +4047,9 @@
 	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_massa"
 	         faction_banner_key="11.45.127.1536.1536.764.764.1.0.0.160.0.15.512.512.764.764.1.0.0"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
-	         text="The Swadic people are another tribe of Jumnians who migrated to Calradia centuries ago alongside their Vlandian cousins, searching for land and riches. A brutal people, renowned for their martial prowess, the Massans were employed by the Calradian Empire as guardians of its' frontiers, riding down enemies of the emperors in the cold northern borderlands. Recently, the Massans chose to not follow Osric Iron-Arm, instead becoming an independent kingdom. Siezing the very lands they swore to protect, the Massans now rival their Vlandian cousins for control of the verdant west of Calradia."
+	         text="The Massa people are another tribe of Jumnians who migrated to Calradia centuries ago alongside their Vlandian cousins, searching for land and riches. A brutal people, renowned for their martial prowess, the Massans were employed by the Calradian Empire as guardians of its' frontiers, riding down enemies of the emperors in the cold northern borderlands. Recently, the Massans chose to not follow Osric Iron-Arm, instead becoming an independent kingdom. Siezing the very lands they swore to protect, the Massans now rival their Vlandian cousins for control of the verdant west of Calradia."
 	         tournament_master="NPCCharacter.tournament_master_massa"
-	         villager="NPCCharacter.villager_massa"
+	         villager="NPCCharacter.AR_mas_villager"
 	         caravan_master="NPCCharacter.AR_mas_caravan_master"
 	         armed_trader="NPCCharacter.AR_mas_armed_trader"
 	         caravan_guard="NPCCharacter.AR_mas_caravan_guard"
@@ -4269,9 +4280,23 @@
 			<name name="{=!*}Aldlith"/>
 			<name name="{=!*}Maerdis"/>
 			<name name="{=!*}Beywyn"/>
+			<name name="{=!*}Richelda"/>
+			<name name="{=!*}Ava"/>
+			<name name="{=!*}Aelfwyn"/>
+			<name name="{=!*}Herlinda"/>
+			<name name="{=!*}Liedrada"/>
 		</female_names>
 		<clan_names>
-			<name name="{=p1dFvTAc}dey {ORIGIN_SETTLEMENT}"/>
+			<name name="{=!*}Thedela"/>
+			<name name="{=!*}Althand"/>
+			<name name="{=!*}Varnyd"/>
+			<name name="{=!*}Foncar"/>
+			<name name="{=!*}Trandys"/>
+			<name name="{=!*}Rhotar"/>
+			<name name="{=!*}Vanthad"/>
+			<name name="{=!*}Sargond"/>
+			<name name="{=!*}Maerad"/>
+			<name name="{=!*}Fridar"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="vlandian_renown_mercenary_income"/>
@@ -4346,24 +4371,24 @@
 			<template name="NPCCharacter.AR_spc_swadicians_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_massa_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_massa_one_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_massa_one_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_one_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_one_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_one_participant_set_v3"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_massa_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_massa_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_massa_two_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_massa_two_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_two_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_two_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_two_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_two_participant_set_v4"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_massa_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_massa_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_massa_four_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_massa_four_participant_set_v4"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_four_participant_set_v1"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_four_participant_set_v2"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_four_participant_set_v3"/>
+			<template name="NPCCharacter.AR_tournament_template_massa_four_participant_set_v4"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.eastern_mercenary"/>
+			<template name="NPCCharacter.AR_min_companyboar_t3"/>
 			<template name="NPCCharacter.western_mercenary"/>
 			<template name="NPCCharacter.sword_sisters_sister_t3"/>
 		</basic_mercenary_troops>
@@ -4649,8 +4674,8 @@
 			<template name="NPCCharacter.AR_dar_aux_recruit"/>
 			<template name="NPCCharacter.AR_min_ethawian_t3"/>
 			<template name="NPCCharacter.AR_min_ghilman_t3"/>
-			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
-			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
+			<template name="NPCCharacter.AR_min_silverdragon_t3"/>
+			<template name="NPCCharacter.AR_min_karakhuzaits_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="byalic"
@@ -4902,8 +4927,9 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_min_lochanian_t3"/>
-			<template name="NPCCharacter.western_mercenary"/>
+			<template name="NPCCharacter.AR_nor_aux_recruit"/>
 			<template name="NPCCharacter.AR_jok_aux_fem_recruit"/>
+			<template name="NPCCharacter.AR_min_karakhuzaits_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="nord"

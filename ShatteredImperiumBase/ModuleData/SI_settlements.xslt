@@ -120,13 +120,46 @@
 	<xsl:template match="Settlement[@id='town_B5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_5</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_B5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_B5_text}Pen Cannoc sits on a promontory overlooking the Trand River as it plunges from the Uchalion Plateau into the lowlands of western Calradia. Legends speak of the water-nymphs who live in the dark pools under the rock, luring travellers and invaders to their deaths, except on those rare occasions when they fall in love with a hero and grant him victory and blessings. Certainly, the fisherfolk of this region have learned respect for the perils of the upper Trand, where a small misstep on slippery stone can cast one off a precipice into the waters below. Despite its perils, the town has nonetheless become a center of activity, drawing merchants and artisans from across the Uchalion Massif.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B5_1_text}Durn sits just below the gorges of the upper Trand River. Villagers scrape mud from the pools and bogs alongside the river as it levels out, carting it up the winding paths to the town of Pen Cannoc perched on the cliff above them.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B5_2_text}Gainseth sits in a dark wooded valley beneath the Rhennod Hills on the eastern edge of the Uchalion Massif. Villagers collect mud from the marshy ground for sale to the potters of Pen Cannoc.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B5_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B5_3_text}Fenon Etir sits on an outcrop overlooking the source of the Etir River, a tributary of the Trand. Villagers here have cut shallow shaft mines into the soft stone in search of elusive seams of iron.</xsl:attribute>
+	</xsl:template>
 	<!-- fen Penraic -->
 	<xsl:template match="Settlement[@id='town_B4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_4</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_B4']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_B4_text}Seonon, sad Seonon, has a history as dark as the waters of the Llyn Tywal. Here Algana the Fair stood atop the tower lamenting the death of her beloved Gorawan, until the spirits of the Otherworld were themselves overcome with sadness and allowed his shade to ascend through the pool for a day and a night to console her. In latter days this land has often been ravaged by raiders from the Sturgian and Vakken lowlands, though the fertile soil, watered by the Llyn Tywal, also affords great wealth to anyone who may hold the town.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B4_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B4_1_text}Bryn Glas sits in a ridge in the eastern escarpment of the Uchalion Massif. Villagers grow grapes in the fertile soil, watered by the Llyn Tywal, for the production of an uncommonly fine wine.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B4_2_text}Andurn sits in a cleft in the hills overlooking Llyn Tywal - the ‘dark lake’. The villagers of these parts tend the forests, harvesting beech, oak and yew for sale to the towns.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B4_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B4_3_text}Mag Arba sits on grassy downs overlooking Llyn Tywal - the ‘dark lake’. Villagers have planted flax in the boggy dales between the hills.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_B4_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_B4_4_text}Swenryn overlooks the rocky cataract that holds back the dark waters of the Llyn Tywal, creating the lake in the center of the Uchalion Plateau. Horses graze above the rapids and waterfalls.</xsl:attribute>
+	</xsl:template>
 	<!-- fen Sithigh -->
 	<xsl:template match="Settlement[@id='castle_B6']/@owner">
 		<xsl:attribute name='owner'>Faction.AR_clan_battania_9</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B6_1_text}Flintolg sits on a high crest on the eastern side of the Uchalion Massif. The soil is poor, but the woods grow thick here, making this the source of much of the timber used in the Battanian highlands.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B6_2_text}Glintor sits overlooking the rapids of the Fiur River, where the waters of Llyn Tywal descend to enter the Bay of Varcheg. Horses are raised on the downs, much prized by both raiders and traders from the lands to the north.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match='Settlement[@id="village_S1_3"]/Components'>
 		<xsl:copy>
@@ -147,13 +180,31 @@
 	<xsl:template match="Settlement[@id='castle_B5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_8</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B5_1_text}Rhemtoil lies beneath a cleft in the eastern escarpment of the Uchalion Plateau, near the source of the River Miron, which the Battanians call the Myr. This is among the most fertile of the Battanian lands, and produces a fine crop of wheat.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B5_2_text}Claig Ban lies at the foot of a steep cleft that climbs the Uchalion Massif. The villagers here gather clay from the nearby Myr River for sale to the potters of the Battanian towns.</xsl:attribute>
+	</xsl:template>
 	<!-- fen Morcar -->
 	<xsl:template match="Settlement[@id='castle_B2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_7</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B2_1_text}Llanoc Hen sits in a ridge in the heights of the Uchalion Massif. The villagers, known as skilled pig-farmers, look down two passes - the western one leading up from the disputed western lowlands lands and the eastern one leading up from the lands of the Calradian Empire.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B2_2_text}Cantrec sits in the rocky Glen of Balasog that climbs up from the Calradian lowlands  lands into the Uchalion Plateau. The land is not especially fertile here, but pigs thrive in the brush and shrubland of the heights.</xsl:attribute>
+	</xsl:template>
 	<!-- fen Eingal -->
 	<xsl:template match="Settlement[@id='castle_B3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_6</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B3_1_text}Druimmor sits in the Morcomb - a rift valley that divides the Uchalion Plateau from the mountains of the Ebor Peninsula. Miners here have found silver in clefts in the hillsides.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B3_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B3_2_text}Tor Melina sits in a marshy basin in the dark forested hills of the northwestern Uchalion Massif. Villagers take clay from the damp soil for sale to the potters of nearby towns.</xsl:attribute>
 	</xsl:template>
 	<!--
 	Calradian Empire
@@ -1062,9 +1113,24 @@
 	<xsl:template match="Settlement[@id='town_V5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V5_1_text}Furbec sits on a shelf overlooking the rocky Biscan Coast of western Calradia. The climate is warm most of the year, and grapes do well on the slopes of the nearby Biscan Hills.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V5_2_text}Meroc is a fishing village overlooking a cove in the Biscan Coast. The villagers sail out into the Western Ocean in search of mullet and bass near the shore, and tuna and sardines amid the islands to the south.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V5_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V5_3_text}Nogrent sits on a slope of the Biscan Hills in western Calradia. Villagers here raise sheep on the pastures between the coastal woods and the high crags of the hills.</xsl:attribute>
+	</xsl:template>
 	<!-- dey Fortes -->
 	<xsl:template match="Settlement[@id='town_V2']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V2_text}Ocs Hall is one of the more recent towns to arise in Calradia. Originating as an isolated holdout of the Battanians known as Caer Modris, nestled among the Calradian heartlands and centered on the volcanic lake Llyn Modris - said to be the seat of a giant - the settlement remained in obscurity until only recently. Like much of western Calradia, the Llyn Modris valley was settled in more recent times by Vlandian colonists, who displaced the existing Battanian roundhouses in favor of their own halls. In the year 951, following Osric Iron-Arm’s declaration of independence from the Calradian Empire, the old Vlandian warlord Oca conquered the area and built his great feasting hall atop the ruins of the great house of the old chieftain, thus restyling the town and its lake in his own name. The Battanian tribes were driven into obscurity, and took their legends with them.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V2_1_text}Mareiven sits on the steep wooded slopes of the Rhennod Mountains, overlooking the lake now known as the Ocspool. Villagers harvest the tall trees of the heights, selling the logs to cities on the coast.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V2_2_text}Oritan sits on a short river that rushes out of the mountains of the Ebor Peninsula and empties into the Llyn Modris - now known as the Ocspool. The river slows as it hits a nearby bend, allowing the collection of potters' clay from the banks.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V2_3']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V2_3_text}Fregian sits on the flatlands north of Paravenos - known to the Vlandians as the 'Swadian Plains' - where the warmth of the south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.</xsl:attribute>
@@ -1077,7 +1143,7 @@
 		<xsl:attribute name='name'>{=si_ar_town_V9_name}Rovalatys</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V9']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V9_text}Rovalatys, in the mountains of the Ebor Peninsula, was never fully an imperial town. Nordic migrants, drawn to the region by rumors of riches to be made prospecting for silver or hunting for furs, long outnumbered Calradians even before the arrival of the Vlandians. They too have recognized its potential, and despite its harsh winters this land is among the more populous regions of the nascent Vlandian Kingdom, with bountiful fields in the valleys of the mountains feeding the constant flow of settlers from the south drawn here by their hunger for wealth.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_V9_text}Rovalatys, in the mountains of the Ebor Peninsula, was never fully a Calradian town. Nordic migrants, drawn to the region by rumors of riches to be made prospecting for silver or hunting for furs, long outnumbered Calradians even before the arrival of the Vlandians. They too have recognized its potential, and despite its harsh winters this land is among the more populous regions of the nascent Vlandian Kingdom, with bountiful fields in the valleys of the mountains feeding the constant flow of settlers from the south drawn here by their hunger for wealth.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V9_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V9_1_text}Alantas sits in the center of the mountainous Ebor Peninsula. The soil here is thin and the weather here is cold, but rich deposits of iron sustain the local economy.</xsl:attribute>
@@ -1328,6 +1394,9 @@
 	<xsl:template match="Settlement[@id='village_A1_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_A1_2_text}Baqos slightly inland from the Perassic Sea, beneath the great granite outcrop of the Jabal Tamar. The sea winds bring the uplands here just enough rain to support the cultivation of olive trees.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_A1_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_A1_4_text}Hiblet sits at the base of the granite outcrop known as the Mountain of Date-palms, or ‘Jabal Tamar’ in the language of the Aserai. Rainwater trapped in cracks in the rock is diverted to the village's many date-palm gardens.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A1_1']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_A1_1_name}Selakhora</xsl:attribute>
 	</xsl:template>
@@ -1390,8 +1459,17 @@
 	<xsl:template match="Settlement[@id='castle_village_A1_1']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_A1_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_A1_1_text}Tubilis lies on the Bay of Charas. Villagers go fishing here amid the offshore islands in search of tuna, sardines, and shark.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_A1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_A1_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_A1_2_text}Elaiona - often called ‘Fanab’ by travelling Aserai - sits in a low promontory between the Gulf of Charas and the Perassic Sea.  The sea winds bring just enough rain to support the cultivation of olive trees.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_A1_2']/@name">
+		<xsl:attribute name='name'>{=si_ar_castle_village_A1_2_name}Elaiona</xsl:attribute>
 	</xsl:template>
 	<!-- Barcoses -->
 	<xsl:template match="Settlement[@id='castle_A7']/@owner">

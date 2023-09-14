@@ -346,6 +346,24 @@
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="AR_lord_1_15" name="{=si_ar_lord_1_15}Zaricos" age="73" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="73" weight="0.7083" build="0.4182"  key="0013C00AC00003CE7698A736953818AE599DA6794A89A6C9DD2AD7787A87517A0086B4030891B47300001105000030A30000001F000000000000000019105046"  />
+		</face>
+		<Traits>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="AR_emp_emperor_battletemplate"/>
+			<EquipmentSet id="AR_emp_emperor_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="AR_lord_4_1" name="{=jEIsVazl}Osric Iron-Arm" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="22" weight="0.5" build="0.7" key="0000FC021000234598A25E94DC849677396A8C717B876E16C7B287AB79C2A84B0077700307C96766000000000000000000000000000000000000000000F03000"/>
@@ -3471,74 +3489,6 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MINOR FACTION LORDS -->
-	<NPCCharacter id="AR_spc_company_of_the_boar_leader_0" name="{=eobXmmLg}the Boar" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="6"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_company_of_the_boar_leaders"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_company_of_the_boar_leader_1" name="{=eobXmmLg}the Boar" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_company_of_the_boar_leaders"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_company_of_the_boar_leader_2" name="{=eobXmmLg}the Boar" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Honor" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_company_of_the_boar_leaders"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_spc_company_of_the_boar_leader_3" name="{=eobXmmLg}the Boar" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
-		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spc_company_of_the_boar_leaders"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!-- brotherhood of woods/vlandia -->
 	<NPCCharacter id="AR_spc_brotherhood_of_woods_leader_0" name="{=QGcgQDqK}of the Brotherhood" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
 		<face>
