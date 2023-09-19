@@ -617,7 +617,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_vlandia_6_text}The dey Valant are one of the most prestigious of the Vlandian noble houses, claiming descent from Wilund the Bold - or Valandion - himself. Whilst there are few who take this claim seriously, there is nobody who dares to deny their vast wealth and influence over Vlandian society. Instead of signing on to fighting for the Calradian Empire, the dey Valant preferred to remain in their secluded mountain estate on the Ebor Peninsula, monopolizing the trade flowing from southern Calradia to the Nords across the sea to the north. Whilst some have condemned this as an act of cowardice, the wealth of the dey Valant has always bought their obeisance."
 	         banner_key="11.71.14.4000.4000.764.764.1.0.0.336.15.0.400.400.764.814.0.0.0.219.15.0.200.200.764.564.0.0.0"/>
 	<Faction id="clan_vlandia_8"
 	         name="{=9NWQNInC}dey Molarn"
@@ -626,7 +626,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text=""
+			 text="{=si_ar_clan_vlandia_8_text}The dey Molarn are relatively unique amongst the noble houses of Vlandia. Their ancestors were Nords, who centuries ago ventured across the frigid northern seas to settle on the Ebor Peninsula. Formidable warriors, it was not long before the people of the region came to respect their rule. Quick to intermarry with the successive waves of Vlandian settlers who came to reside in their town of Ostican, the dey Molarn soon cast off many of their Nordic traditions in favor of new Vlandian customs. Zealous supporters of Vlandian independence from the Calradian Empire, they jumped at the opportunity to join the nascent kingdom of Osric Iron-Arm."
 	         banner_key="11.14.14.4000.4000.764.764.1.0.0.315.15.0.450.450.714.764.0.0.50.424.15.0.200.200.764.664.0.0.0.315.15.0.450.450.814.764.0.1.310"/>
 	<Faction id="clan_vlandia_11"
 	         name="{=DeSGiCgF}dey Rothad"
@@ -1414,32 +1414,6 @@
 			<template id="NPCCharacter.AR_spc_chosen_of_the_sky_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
-	<Faction id="swadicians"
-	         initial_posX="136.0"
-	         initial_posY="504.0"
-	         banner_key="11.126.126.1536.1536.768.768.1.0.0.307.155.155.400.400.764.914.0.0.90.125.155.155.400.400.764.684.0.0.0"
-	         label_color="FF5A7A4F"
-	         color="FF5A7A4F"
-	         color2="FF5A7A4F"
-	         alternative_color="FF5A7A4F"
-	         alternative_color2="FF5A7A4F"
-	         culture="Culture.massa"
-	         default_party_template="PartyTemplate.kingdom_hero_party_swadician_template"
-	         settlement_banner_mesh="encounter_flag_f"
-	         is_minor_faction="true"
-	         is_outlaw="true"
-	         is_nomad="true"
-	         name="{=si_ar_swadicians_name}Biscani"
-	         short_name="{=si_ar_swadicians_short_name}Biscani"
-	         tier="4"
-	         text="{=si_ar_swadicians_text}The Biscani are one of the smaller Swadic migrator tribes, deriving their name from the Calradic word for the coastal lands they originally landed in. Generations ago, a handful of their warrior ancestors joined their Vlandian and Massa kin in travelling to Calradia, searching for wealth and lands to call their own. However, whilst the Vlandians and Massa migrated in large and powerful groups, being recognised by the Calradian Empire as distinct auxiliary units, the Biscani retained much of their old nomadic lifestyle. Over the years, they have proved useful to the Calradian Empire as raiders and frontiersmen, ranging across Calradia's rich western highlands and fighting anyone who dares to stop them.">
-		<minor_faction_character_templates>
-			<template id="NPCCharacter.AR_spc_swadicians_leader_0"/>
-			<template id="NPCCharacter.AR_spc_swadicians_leader_1"/>
-			<template id="NPCCharacter.AR_spc_swadicians_leader_2"/>
-			<template id="NPCCharacter.AR_spc_swadicians_leader_3"/>
-		</minor_faction_character_templates>
-	</Faction>
 	<Faction id="lochanians"
 	         initial_posX="705.0"
 	         initial_posY="590.0"
@@ -1794,6 +1768,58 @@
 			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_1"/>
 			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_2"/>
 			<template id="NPCCharacter.AR_spc_yachios_free_company_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="swadians"
+	         initial_posX="136.0"
+	         initial_posY="504.0"
+	         banner_key="11.142.5.4000.4000.764.764.1.0.0.307.5.142.400.400.764.924.0.0.90.125.5.142.400.400.744.694.0.0.0"
+	         label_color="0xff6b2929"
+	         color="0xff6b2929"
+	         color2="0xffF7BF46"
+	         alternative_color="0xff6b2929"
+	         alternative_color2="0xffF7BF46"
+	         culture="Culture.vlandia"
+	         default_party_template="PartyTemplate.kingdom_hero_party_swadians_template"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_outlaw="true"
+	         is_nomad="true"
+	         name="{=si_ar_swadians_name}Swadian Free Company"
+	         short_name="{=si_ar_swadians_short_name}Swadians"
+	         tier="4"
+	         text="{=si_ar_swadians_text}The Swadian Plains - the verdant lands extending from the Trand River north to the Western Ocean - have long been an integral part of the territory of the Vlandian people. As the focus of the Calradian Empire moved ever eastward, the lands gradually became a rural backwater, their towns declining in importance as many of their most wealthy and influential citizens emigrated to follow the center of imperial power. However, these lands offered incoming Vlandian settlers a promise. Today, the people of the Swadian Plain form a distinct class within Vlandian society, being renowned horsemen and warriors that comprise much of the nascent kingdom’s army. However, some Swadian horsemen prefer to sell their services to the highest bidder, comprising one of Calradia’s most deadly mercenary companies.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_swadians_leader_0"/>
+			<template id="NPCCharacter.AR_spc_swadians_leader_1"/>
+			<template id="NPCCharacter.AR_spc_swadians_leader_2"/>
+			<template id="NPCCharacter.AR_spc_swadians_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="biscan_exiles"
+	         initial_posX="136.0"
+	         initial_posY="504.0"
+	         banner_key="12.145.126.4000.4000.764.764.1.0.0.101.5.5.450.450.764.764.0.0.0"
+	         label_color="FF5A7A4F"
+	         color="FF5A7A4F"
+	         color2="FF5A7A4F"
+	         alternative_color="FF5A7A4F"
+	         alternative_color2="FF5A7A4F"
+	         culture="Culture.massa"
+	         default_party_template="PartyTemplate.kingdom_hero_party_biscan_exiles_template"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_outlaw="true"
+	         is_nomad="true"
+	         name="{=si_ar_biscan_exiles_name}Biscan Exiles"
+	         short_name="{=si_ar_biscan_exiles_name}Biscans"
+	         tier="4"
+	         text="{=si_ar_biscan_exiles_text}The people of the Biscan Coast have long lived between two worlds. Originally part of the Calradian heartland known for its opulent estates and expansive vineyards, the Biscan Coast was also one of the first places that Vlandian travellers first landed in. Over the centuries, these Vlandians integrated peacefully with the local population, intermarrying with Calradian citizens to form a distinct sub-culture renowned for their martial prowess. Now, with the Vlandians in open rebellion against the Calradian Empire, many Biscans find themselves torn between loyalties, preferring to band together in an exile mercenary company than to openly declare for either side.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_0"/>
+			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_1"/>
+			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_2"/>
+			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<!--

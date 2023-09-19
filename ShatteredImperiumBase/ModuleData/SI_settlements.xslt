@@ -1158,6 +1158,12 @@
 	<xsl:template match="Settlement[@id='town_V8']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V8_text}Ostican was once a minor port of the Calradian Empire, known as a haven for seafarers travelling from the Ebor Peninsula to and from the oceans to the west and north of Calradia. Many were talented corsairs, employed by various factions of the Calradian Empire to harry their foes during their intermittent civil wars. Indeed, some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V8_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V8_1_text}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its daring fishermen, who venture out far to find banks, chilled by currents from the north, that are rich in cod.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V8_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V8_2_text}Cananc lies in the wet wooded hills of the northern Rhennod, where cedars grow tall in the sea-mists. The villagers trap beaver, marten and rabbit for their pelts.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V8_3']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V8_3_text}Remental sits in a gap in the mountains of the Ebor Peninsula. Towering fir and spruce grow on the slopes. Villagers trap fur-bearing animals like marten, rabbit and fox. This wild region has recently attracted many settlers drawn to the relative freedom of the woods, where the rule of the Vlandian warlords is much lighter than in the south.</xsl:attribute>
 	</xsl:template>

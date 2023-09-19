@@ -1146,4 +1146,367 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- BROTHERHOOD OF THE WOODS -->
+	<NPCCharacter id="AR_spc_brotherhood_of_woods_leader_0" name="{=si_ar_spc_brotherhood_of_woods_leader_0}of the Brotherhood" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t5_archer_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_brotherhood_of_woods_leader_1" name="{=si_ar_spc_brotherhood_of_woods_leader_1}of the Brotherhood" voice="curt" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t5_skirm_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_brotherhood_of_woods_leader_2" name="{=si_ar_spc_brotherhood_of_woods_leader_2}of the Brotherhood" voice="ironic" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t5_archer_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_brotherhood_of_woods_leader_3" name="{=si_ar_spc_brotherhood_of_woods_leader_3}of the Brotherhood" voice="earnest" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t5_skirm_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<!-- T3 Brotherhood of the Woods Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_brotherhood_t3" default_group="Ranged" level="16" name="{=si_ar_min_brotherhood_t3}Brotherhood Outlaw" occupation="Mercenary" is_basic_troop="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_brotherhood_t4_skirm"/>
+			<upgrade_target id="NPCCharacter.AR_min_brotherhood_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t3_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Brotherhood of the Woods Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_brotherhood_t4_skirm" default_group="Ranged" level="21" name="{=si_ar_min_brotherhood_t4_skirm}Brotherhood Thug" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_brotherhood_t5_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t4_skirm_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Brotherhood of the Woods Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_brotherhood_t5_skirm" default_group="Ranged" level="26" name="{=si_ar_min_brotherhood_t5_skirm}Brotherhood Warrior" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t5_skirm_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Brotherhood of the Woods Light Skill 60-100 -->
+	<NPCCharacter id="AR_min_brotherhood_t4_archer" default_group="Ranged" level="21" name="{=si_ar_min_brotherhood_t4_archer}Brotherhood Woodsman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_brotherhood_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t4_archer_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Brotherhood of the Woods Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_brotherhood_t5_archer" default_group="Ranged" level="26" name="{=si_ar_min_brotherhood_t5_archer}Brotherhood Huntsman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_brotherhood_t5_archer_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- SWADIAN FREE COMPANY -->
+	<NPCCharacter id="AR_spc_swadians_leader_0" name="{=si_ar_spc_swadians_leader_0}the Swadian" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t5_lancer_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_swadians_leader_1" name="{=si_ar_spc_swadians_leader_1}the Swadian" voice="curt" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t5_crossbow_cav_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_swadians_leader_2" name="{=si_ar_spc_swadians_leader_2}the Swadian" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t5_lancer_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_swadians_leader_3" name="{=si_ar_spc_swadians_leader_3}the Swadian" voice="earnest" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t5_crossbow_cav_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Swadian Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_swadians_t3" default_group="Cavalry" level="16" name="{=si_ar_min_swadians_t3}Swadian Outrider" occupation="Mercenary" is_basic_troop="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_swadians_t4_lancer"/>
+			<upgrade_target id="NPCCharacter.AR_min_swadians_t4_crossbow_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t3_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Swadian Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_swadians_t4_lancer" default_group="Cavalry" level="21" name="{=si_ar_min_swadians_t4_lancer}Swadian Horseman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_swadians_t5_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t4_lancer_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Swadian Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_swadians_t5_lancer" default_group="Cavalry" level="26" name="{=si_ar_min_swadians_t5_lancer}Swadian Lancer" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t5_lancer_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Swadian Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_swadians_t4_crossbow_cav" default_group="HorseArcher" level="21" name="{=si_ar_min_swadians_t4_crossbow_cav}Swadian Mounted Huntsman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_swadians_t5_crossbow_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t4_crossbow_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Swadian Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_swadians_t5_crossbow_cav" default_group="HorseArcher" level="26" name="{=si_ar_min_swadians_t5_crossbow_cav}Swadian Mounted Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_swadians_t5_crossbow_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- BISCAN EXILES -->
 </NPCCharacters>
