@@ -639,6 +639,9 @@
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_mas_t3_pikeman"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_mas_t4_pikeman"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t5_pikeman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_t2_skirmisher"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t3_skirmisher"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t4_skirmisher"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_vakken_template">
@@ -841,7 +844,6 @@
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_companyboar_t4_crossbow_cav"/>
 		</stacks>
 	</MBPartyTemplate>
-	<!-- party templates for outlaw minor factions (8) -->
 	<MBPartyTemplate id="kingdom_hero_party_outlaw_aserai_template">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_benizilal_t5_slinger"/>
@@ -896,7 +898,6 @@
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_brotherhood_t4_skirm"/>
 		</stacks>
 	</MBPartyTemplate>
-	<!-- party templates for nomad minor factions (4) -->
 	<MBPartyTemplate id="kingdom_hero_party_jawwal_template">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_jawwal_t5_camel_melee"/>

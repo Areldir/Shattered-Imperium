@@ -22,7 +22,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_mas_villager_battletemplate"/>
-			<EquipmentSet id="AR_vla_villager_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_mas_villager_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T2 Spear Infantry Light Skill 20-40 -->
@@ -223,7 +223,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_mas_t2_pikeman"/>
-			<!--upgrade_target id="NPCCharacter.AR_vla_t2_skirmisher"/-->
+			<upgrade_target id="NPCCharacter.AR_mas_t2_skirmisher"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_mas_recruit_battletemplate"/>
@@ -340,6 +340,119 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="AR_mas_t6_pikeman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Skirmisher Light Skill 20-40 -->
+	<NPCCharacter id="AR_mas_t2_skirmisher" default_group="Ranged" level="11" name="{=si_ar_mas_t2_skirmisher}Massa Scout" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t3_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t2_skirmisher_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Skirmisher Light Skill 40-70 -->
+	<NPCCharacter id="AR_mas_t3_skirmisher" default_group="Ranged" level="16" name="{=si_ar_mas_t3_skirmisher}Massa Javelinman" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t4_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t3_skirmisher_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_mas_t4_skirmisher" default_group="Ranged" level="21" name="{=si_ar_mas_t4_skirmisher}Massa Skirmisher" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t5_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t4_skirmisher_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Skirmisher Medium Skill 60-130 -->
+	<NPCCharacter id="AR_mas_t5_skirmisher" default_group="Ranged" level="26" name="{=si_ar_mas_t5_skirmisher}Massa Seasoned Skirmisher" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t6_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t5_skirmisher_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T6 Skirmisher Medium Skill 80-180 -->
+	<NPCCharacter id="AR_mas_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_mas_t6_skirmisher}Massa Champion Skirmisher" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t6_skirmisher_battletemplate"/>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>

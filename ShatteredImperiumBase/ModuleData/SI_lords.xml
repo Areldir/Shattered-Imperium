@@ -348,7 +348,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_15" name="{=si_ar_lord_1_15}Zaricos" age="73" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="73" weight="0.7083" build="0.4182"  key="0013C00AC00003CE7698A736953818AE599DA6794A89A6C9DD2AD7787A87517A0086B4030891B47300001105000030A30000001F000000000000000019105046"  />
+			<BodyProperties version="4" age="73" weight="0.7083" build="0.4182" key="0013C00AC00003CE7698A736953818AE599DA6794A89A6C9DD2AD7787A87517A0086B4030891B47300001105000030A30000001F000000000000000019105046"/>
 		</face>
 		<Traits>
 			<Trait id="Commander" value="5"/>
@@ -364,6 +364,9 @@
 			<EquipmentSet id="AR_emp_emperor_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!--
+	Vlandian Kingdom
+	-->
 	<NPCCharacter id="AR_lord_4_1" name="{=jEIsVazl}Osric Iron-Arm" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="22" weight="0.5" build="0.7" key="0000FC021000234598A25E94DC849677396A8C717B876E16C7B287AB79C2A84B0077700307C96766000000000000000000000000000000000000000000F03000"/>
@@ -397,6 +400,44 @@
 		<Equipments>
 			<EquipmentSet id="vla_bat_template_medium"/>
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_4_3" name="{=vEsKYrFR}Aldric" age="31" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31" weight="0.3858" build="0.5735"  key="0002FC03570004060889E7BC4866D567396A8C717B876E8865B3498C79C2A84B0089600308898C78000000000000000000000000000000000000000001001040"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_4_4" name="{=vEsKYrFR}Gilvard" age="74" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="74" weight="0.6389" build="0.3451"  key="00027C04C00015410855B759C9893776396A8C717B876E8865B3498C79C2A84B0075A00307898C78000000000000000000000000000000000000000000D81040"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_4_23" name="{=C1LIflK9}Richelda" age="43" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
@@ -3305,7 +3346,7 @@
 	<!-- Khalkapatres -->
 	<NPCCharacter id="AR_lord_15_8" name="{=waQPRCaT}Artimendros" age="37" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="37" weight="0.0386" build="0.785"  key="0023B80AC000358B74381BE57A643597759B7798A4BC2D7968989791B581909B007C1603074A7BCB000000000000000000000000000000000000000018F49082"  />
+			<BodyProperties version="4" age="37" weight="0.0386" build="0.785" key="0023B80AC000358B74381BE57A643597759B7798A4BC2D7968989791B581909B007C1603074A7BCB000000000000000000000000000000000000000018F49082"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -3322,7 +3363,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_15_9" name="{=d6aTWH9m}Rhamira" age="36" is_female="true" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="36" weight="0.3904" build="0.304"  key="001E8C0D00B4000A6986A8B4848AE7B5789937889C387B423954D89574BA95B50075660307C85669000000000000000000000000000000000000000060EC3083"  />
+			<BodyProperties version="4" age="36" weight="0.3904" build="0.304" key="001E8C0D00B4000A6986A8B4848AE7B5789937889C387B423954D89574BA95B50075660307C85669000000000000000000000000000000000000000060EC3083"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -3337,7 +3378,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_15_10" name="{=zaHnL2It}Vitalios" age="19" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="19" weight="0.3904" build="0.304"  key="001E8C0D00B4330D6986A8B4848AE7B5789937889C387B423954D89574BA95B50075660307C85669000000000000000000000000000000000000000060EC9082"  />
+			<BodyProperties version="4" age="19" weight="0.3904" build="0.304" key="001E8C0D00B4330D6986A8B4848AE7B5789937889C387B423954D89574BA95B50075660307C85669000000000000000000000000000000000000000060EC9082"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -3355,7 +3396,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_15_11" name="{=zaHnL2It}Phamynor" age="16" voice="softspoken" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="16" weight="0.0386" build="0.785"  key="0020B80AC0002008743C688BBB745975759B7798A4BC2D7968989791B581909B007C1603074A7BCB000000000000000000000000000000000000000018F47082"  />
+			<BodyProperties version="4" age="16" weight="0.0386" build="0.785" key="0020B80AC0002008743C688BBB745975759B7798A4BC2D7968989791B581909B007C1603074A7BCB000000000000000000000000000000000000000018F47082"/>
 		</face>
 		<skills/>
 		<Traits>

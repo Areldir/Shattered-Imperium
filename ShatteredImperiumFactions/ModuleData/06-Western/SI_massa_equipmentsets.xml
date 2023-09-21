@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
 	<!-- MASSA: Levy Troops -->
+	<EquipmentRoster id="AR_mas_villager_civiliantemplate" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_focale"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.plain_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_e"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+			<Equipment slot="Head" id="Item.arming_coif"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Head" id="Item.AR_hat_a"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+			<Equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
+			<Equipment slot="Head" id="Item.merchants_hat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.AR_empire_armor_f"/>
+			<Equipment slot="Head" id="Item.AR_hat_b"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.burlap_waistcoat"/>
+			<Equipment slot="Head" id="Item.leather_cap"/>
+			<Equipment slot="Leg" id="Item.simple_shoes"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+			<Equipment slot="Cape" id="Item.green_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+			<Equipment slot="Body" id="Item.hemp_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			<Equipment slot="Cape" id="Item.wolf_shoulder"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+			<Equipment slot="Head" id="Item.arming_coif"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
+			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+			<Equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+	</EquipmentRoster>
 	<EquipmentRoster id="AR_mas_villager_battletemplate" culture="Culture.massa">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
@@ -17,6 +112,15 @@
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
 			<Equipment slot="Cape" id="Item.hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+			<Equipment slot="Item1" id="Item.AR_throwing_pot"/>
+			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+			<Equipment slot="Head" id="Item.arming_coif"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
@@ -70,6 +174,13 @@
 			<Equipment slot="Cape" id="Item.green_hood"/>
 		</EquipmentSet>
 		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+			<Equipment slot="Item1" id="Item.AR_throwing_pot"/>
+			<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+		</EquipmentSet>
+		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
 			<Equipment slot="Item1" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.hemp_tunic"/>
@@ -84,7 +195,7 @@
 			<Equipment slot="Head" id="Item.arming_coif"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
-			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_billhook_1_t2"/>
@@ -144,7 +255,7 @@
 			<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
 			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
 			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
-			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
@@ -194,7 +305,7 @@
 			<Equipment slot="Head" id="Item.laced_cloth_coif"/>
 			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
 			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
-			<Equipment slot="Cape" id="Item.ao_focale"/>
+			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
@@ -204,7 +315,7 @@
 			<Equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
-			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_mas_t3_spearman_battletemplate" culture="Culture.massa">
@@ -226,7 +337,7 @@
 			<Equipment slot="Head" id="Item.TV_nord_helmet_i"/>
 			<Equipment slot="Leg" id="Item.sturgia_boots_d"/>
 			<Equipment slot="Gloves" id="Item.padded_mitten"/>
-			<Equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -326,7 +437,7 @@
 			<Equipment slot="Head" id="Item.tv_vlandia_helmet_r"/>
 			<Equipment slot="Leg" id="Item.TV_empire_boots_c"/>
 			<Equipment slot="Gloves" id="Item.padded_mitten"/>
-			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -398,7 +509,7 @@
 			<Equipment slot="Head" id="Item.open_mail_coif"/>
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -498,7 +609,7 @@
 			<Equipment slot="Head" id="Item.AR_empire_helmet_l"/>
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -528,7 +639,7 @@
 			<Equipment slot="Head" id="Item.TV_nord_helmet_j"/>
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -580,7 +691,7 @@
 			<Equipment slot="Head" id="Item.ao_imperial_nasal_helmet_over_mail_coif"/>
 			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_f"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_4_t4"/>
@@ -670,7 +781,7 @@
 			<Equipment slot="Head" id="Item.AR_empire_helmet_n"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_g"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_western_spear_5_t4"/>
@@ -690,7 +801,7 @@
 			<Equipment slot="Head" id="Item.TV_nord_helmet_k"/>
 			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_f"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_western_spear_5_t4"/>
@@ -731,6 +842,15 @@
 			<Equipment slot="Head" id="Item.AR_roman_hat_a2"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_sling_a"/>
+			<Equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_sling_a"/>
@@ -804,6 +924,15 @@
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_sling_a"/>
+			<Equipment slot="Item1" id="Item.AR_sling_bullets_a1"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.plain_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_mas_t3_slinger_battletemplate" culture="Culture.massa">
 		<EquipmentSet>
@@ -825,6 +954,16 @@
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_sling_a"/>
+			<Equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+			<Equipment slot="Item2" id="Item.light_mace_t3"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_helmet_o"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_sling_a"/>
@@ -906,6 +1045,16 @@
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
 			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
 		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_sling_a"/>
+			<Equipment slot="Item1" id="Item.AR_sling_bullets_b1"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.plain_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.AR_empire_archer_helmet_b"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_mas_t4_slinger_battletemplate" culture="Culture.massa">
 		<EquipmentSet>
@@ -928,7 +1077,7 @@
 			<Equipment slot="Head" id="Item.AR_empire_helmet_p"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_sling_b"/>
@@ -994,7 +1143,7 @@
 			<Equipment slot="Head" id="Item.AR_vlandia_helmet_p"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_sling_b"/>
@@ -1084,7 +1233,7 @@
 			<Equipment slot="Head" id="Item.open_mail_coif"/>
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_sling_b"/>
@@ -1172,7 +1321,7 @@
 			<Equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif"/>
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
-			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_sling_b"/>
@@ -1291,7 +1440,7 @@
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Head" id="Item.laced_cloth_coif"/>
 			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-			<Equipment slot="Cape" id="Item.ao_focale"/>
+			<Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
@@ -1691,7 +1840,7 @@
 			<Equipment slot="Item0" id="Item.fine_pike_t4"/>
 			<Equipment slot="Item1" id="Item.AR_shield_infantry_zzc"/>
 			<Equipment slot="Body" id="Item.AR_sturgia_armor_e"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_d"/>
+			<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_spangenhelmet"/>
 			<Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
 			<Equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
 			<Equipment slot="Cape" id="Item.AR_vlandia_shoulders_d"/>
@@ -1826,7 +1975,7 @@
 			<Equipment slot="Item0" id="Item.fine_pike_t4"/>
 			<Equipment slot="Item1" id="Item.AR_shield_infantry_zzc2"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_s2"/>
-			<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_spangenhelmet"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_helmet_d"/>
 			<Equipment slot="Leg" id="Item.AR_empire_boots_b"/>
 			<Equipment slot="Gloves" id="Item.AR_empire_gloves_c"/>
 			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
@@ -1837,7 +1986,7 @@
 			<Equipment slot="Item0" id="Item.thamaskene_pike_t4"/>
 			<Equipment slot="Item1" id="Item.AR_shield_infantry_zzc2"/>
 			<Equipment slot="Body" id="Item.AR_sturgia_armor_f2"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_a"/>
+			<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_spangenhelmet_crest"/>
 			<Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
 			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
 			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
@@ -1846,7 +1995,7 @@
 			<Equipment slot="Item0" id="Item.thamaskene_pike_t4"/>
 			<Equipment slot="Item1" id="Item.AR_shield_infantry_zzc"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_d"/>
-			<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_spangenhelmet_crest"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_a"/>
 			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
 			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
 			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_h"/>
@@ -1957,6 +2106,466 @@
 			<Equipment slot="Head" id="Item.TV_nord_helmet_l"/>
 			<Equipment slot="Leg" id="Item.TV_vlandia_boots_c"/>
 			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_mas_t2_skirmisher_battletemplate" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+			<Equipment slot="Head" id="Item.leather_cap"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.small_spurred_axe_t2"/>
+			<Equipment slot="Body" id="Item.plain_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.bastard_sword_t2"/>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
+			<Equipment slot="Head" id="Item.merchants_hat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.hemp_tunic"/>
+			<Equipment slot="Head" id="Item.padded_cap"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.bastard_sword_t2"/>
+			<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.arming_coif"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.green_hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.small_spurred_axe_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Head" id="Item.laced_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_mas_t3_skirmisher_battletemplate" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.long_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.arming_coif"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+			<Equipment slot="Body" id="Item.plain_hemp_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_b"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.narrow_sword_t3"/>
+			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_f"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.light_mace_t3"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+			<Equipment slot="Gloves" id="Item.ragged_armwraps"/>
+			<Equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
+			<Equipment slot="Head" id="Item.merchants_hat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.light_mace_t3"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Head" id="Item.AR_roman_hat_b2"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.hemp_tunic"/>
+			<Equipment slot="Head" id="Item.padded_cap"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.narrow_sword_t3"/>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Head" id="Item.leather_cap"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+			<Equipment slot="Cape" id="Item.green_hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Head" id="Item.laced_cloth_coif"/>
+			<Equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_mas_t4_skirmisher_battletemplate" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Body" id="Item.gambeson_b"/>
+			<Equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
+			<Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_a_fur_b"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.padded_mitten"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.broad_arming_sword_t4"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+			<Equipment slot="Head" id="Item.segmented_cervelliere_over_padded_cloth"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			<Equipment slot="Gloves" id="Item.padded_mitten"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Head" id="Item.simple_helmet"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+			<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_a_fur_a"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+			<Equipment slot="Head" id="Item.nasal_cervelliere_over_padded_cap"/>
+			<Equipment slot="Leg" id="Item.TV_empire_boots_c"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.broad_arming_sword_t4"/>
+			<Equipment slot="Body" id="Item.aketon"/>
+			<Equipment slot="Head" id="Item.open_padded_coif"/>
+			<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+			<Equipment slot="Head" id="Item.AR_sturgia_helmet_f"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.padded_mitten"/>
+			<Equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.northern_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Body" id="Item.padded_short_coat"/>
+			<Equipment slot="Head" id="Item.cervelliere_over_padded_cap"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_d2"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+			<Equipment slot="Body" id="Item.woven_leather_vest"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_cap"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_mas_t5_skirmisher_battletemplate" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Body" id="Item.DZ_sturgia_armor_a"/>
+			<Equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_b4"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_b_fur_b"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			<Equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Item2" id="Item.broad_arming_sword_t4"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
+			<Equipment slot="Head" id="Item.nasal_cervelliere_over_laced_coif"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+			<Equipment slot="Head" id="Item.tall_helmet"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+			<Equipment slot="Leg" id="Item.TV_empire_boots_c"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+			<Equipment slot="Cape" id="Item.AR_empire_shoulders_b"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_b_fur_b"/>
+			<Equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<Equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Body" id="Item.DZ_sturgia_armor_a2"/>
+			<Equipment slot="Head" id="Item.segmented_cervelliere_over_laced_coif"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+			<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_2_t3"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_b3"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_a"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_mas_t6_skirmisher_battletemplate" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Body" id="Item.DZ_sturgia_armor_b"/>
+			<Equipment slot="Head" id="Item.AR_sturgia_helmet_n"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_g"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Body" id="Item.AP_leather_tabard_c"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_b_fur_c"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			<Equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.TV_empire_armor_e"/>
+			<Equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+			<Equipment slot="Head" id="Item.plumed_helmet"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_f"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+			<Equipment slot="Body" id="Item.banded_leather_over_mail"/>
+			<Equipment slot="Head" id="Item.nasal_cervelliere_over_mail_coif"/>
+			<Equipment slot="Leg" id="Item.TV_empire_boots_c"/>
+			<Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.TV_empire_armor_e2"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_b_fur_a"/>
+			<Equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<Equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_g"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Body" id="Item.DZ_sturgia_armor_b2"/>
+			<Equipment slot="Head" id="Item.AR_sturgia_helmet_e"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_f"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.western_javelin_3_t4"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+			<Equipment slot="Body" id="Item.AP_leather_tabard_d"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_b_plumed"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			<Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers"/>
 			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
 		</EquipmentSet>
 	</EquipmentRoster>
