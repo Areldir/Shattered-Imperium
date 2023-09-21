@@ -23,6 +23,12 @@
 		<xsl:attribute name='owner'>Faction.clan_aserai_3</xsl:attribute>
 	</xsl:template>
 	<!-- Banu Arbas -->
+	<xsl:template match='Settlement[@id="town_A7"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_A7" is_castle="false" level="1" background_crop_position="0.401" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.408" prosperity="2100"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A7']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_A7_text}Askar dominates the middle stretches of the Damar River, as it weaves between the bluffs of the Jarjara Escarpment. This region has been thickly populated for thousands of years, but the river is restless, and every few centuries leaps its banks and erases what comes before. This latest regional capital was founded as an imperial encampment during their furthest penetration of the Nahasa several centuries ago, though it was taken generations ago by the Aserai tribes after the legions withdrew.</xsl:attribute>
 	</xsl:template>
@@ -669,6 +675,12 @@
 	<xsl:template match="Settlement[@id='town_V7']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V7_name}Charasea</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="town_V7"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_V7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4500"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V7']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V7_text}The city of Charasea is reckoned by tradition to be the first Calradian colony on the shores of their new continent, marking the exact spot where Calradios the Great came ashore in times of old. At the Empire's height, when the capital moved north to Paravenos, Charasea remained a key hub of seafaring and trade, growing increasingly wealthy on trade with the Nahasa, and across the Western Sea. However, the city’s fortunes would change when, in the year 913, a massive earthquake struck the Gulf of Charasea, leaving much of the ancient city in ruins. Whilst the city’s population, long made up primarily of Vlandian settlers, were quick to begin reconstruction, little of Charasea’s former splendour was left recognisable. Despite the destruction, and now the loss of most of the western provinces, life in Charasea appears to go on much as it always has. Trade continues to flow, and imperial aristocrats still maintain their summer homes on the warm shores of the gulf, cruising their pleasure-boats around its islands.</xsl:attribute>
 	</xsl:template>
@@ -825,6 +837,12 @@
 	<!-- Impestores -->
 	<xsl:template match="Settlement[@id='town_V1']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V1_name}Velucana</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="town_V1"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_V1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" prosperity="3000"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V1']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V1_text}The town of Velucana was one of the first inland colonies of the nascent Calradian Kingdom, founded just two decades after Calradios the Great landed at Charasea. Located to protect the northern approaches to the port city, it grew wealthy over the centuries through trade with the Palaic peoples along the Biscan coast, and the Battanians of the Uchalion Plateau. However, as the center of power moved northwards to Paravenos, then onwards to the cities of the east, Velucana slowly dwindled, until very few inhabitants remained within the town. Resurgence came in the form of Vlandian settlers, who built their homes over the abandoned ruins of those who came before. Whilst few edifices of the older Calradian settlement now survive, Velucana has remained firmly under imperial influence.</xsl:attribute>
@@ -1027,6 +1045,12 @@
 		<xsl:attribute name='text'>{=si_ar_town_S2_text}Balgard, which sits on the icy waters of Mazopor bay, was founded by migrants from the Nordlands. Legend holds that the initial wave of Nords arrogantly demanded tribute from the nearby Vakken and Sturgian tribes, who formed an alliance and drove the newcomers back to their ships. But the victors fell out over the spoils, until a canny Nord, Gundar, landed and volunteered to help them fairly divvy up the weapons and armor of his dead kinsmen. The residents recognized Gundar's lordship over the region and his descendants, intermarried with the Sturgians, are today one of the most powerful Sturgian chiefdoms.</xsl:attribute>
 	</xsl:template>
 	<!-- Togaroving -->
+	<xsl:template match='Settlement[@id="town_S7"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_S7" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="3100"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_5</xsl:attribute>
 	</xsl:template>
@@ -1034,6 +1058,12 @@
 		<xsl:attribute name='text'>{=si_ar_town_S7_text}Revyl - the chief town of the rocky Kachyar peninsula, has always been a traditional rival of Balgard. According to legend, the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the Balgardian Gundaroving chiefdom.</xsl:attribute>
 	</xsl:template>
 	<!-- Hayekoving -->
+	<xsl:template match='Settlement[@id="town_S6"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_S6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="1900"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_3</xsl:attribute>
 	</xsl:template>
@@ -1123,6 +1153,12 @@
 		<xsl:attribute name='text'>{=si_ar_village_V5_3_text}Nogrent sits on a slope of the Biscan Hills in western Calradia. Villagers here raise sheep on the pastures between the coastal woods and the high crags of the hills.</xsl:attribute>
 	</xsl:template>
 	<!-- dey Fortes -->
+	<xsl:template match='Settlement[@id="town_V2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_V2" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="3600"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V2']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V2_text}Ocs Hall is one of the more recent towns to arise in Calradia. Originating as an isolated holdout of the Battanians known as Caer Modris, nestled among the Calradian heartlands and centered on the volcanic lake Llyn Modris - said to be the seat of a giant - the settlement remained in obscurity until only recently. Like much of western Calradia, the Llyn Modris valley was settled in more recent times by Vlandian colonists, who displaced the existing Battanian roundhouses in favor of their own halls. In the year 951, following Osric Iron-Arm’s declaration of independence from the Calradian Empire, the old Vlandian warlord Oca conquered the area and built his great feasting hall atop the ruins of the great house of the old chieftain, thus restyling the town and its lake in his own name. The Battanian tribes were driven into obscurity, and took their legends with them.</xsl:attribute>
 	</xsl:template>
@@ -1171,18 +1207,21 @@
 		<xsl:attribute name='owner'>Faction.clan_vlandia_8</xsl:attribute>
 	</xsl:template>
 	<!-- dey Rothad -->
+	<xsl:template match="Settlement[@id='castle_village_V6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_V6_1_text}Caleus lies on the misty coastal plain south of the Bay of Varcheg. Villagers speak a mix of the Vlandian, Sturgian and Battanian tongues. They grow flax in the lowlands here.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V6_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_V6_2_text}Deriat sits between the Bay of Varcheg and the ridges of the Ebor Peninsula. Villagers here trap beaver and mink in the hills and sometimes pursue seals in the waters of the bay.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_11</xsl:attribute>
 	</xsl:template>
-	<!-- dey Tihr -->
+	<!-- dey Hongar -->
 	<xsl:template match="Settlement[@id='castle_village_V3_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V3_1_text}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Taranos River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V3_1_text}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Trand River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V3_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V3_2_text}Valanby sits overlooking the Taranos Estuary, at the very spot where Wilund the Bold - father of the Vlandians - landed with his companions in times of old. Villagers plant flax in land reclaimed from the riverside marshes.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V3_2_text}Valanby sits overlooking the Trand Estuary, at the very spot where Wilund the Bold - father of the Vlandians - landed with his companions in times of old. Villagers plant flax in land reclaimed from the riverside marshes.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_2</xsl:attribute>
@@ -1206,13 +1245,13 @@
 	</xsl:template>
 	<!-- dey Jelind -->
 	<xsl:template match="Settlement[@id='castle_village_V2_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_ castle_village_V2_1_text}Hongard sits in the warm wooded lands near the meandering Taranos river. This land, rich in wheat and once the heartland of the Empire, is now the center of the Vlandian kingdom.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_ castle_village_V2_1_text}Hongard sits in the warm wooded lands near the meandering Trand river. This land, rich in wheat and once the heartland of the Empire, is now the center of the Vlandian kingdom.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V2_2']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_village_V2_2_name}Pherytona</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V2_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V2_2_text}Pherytona near a curve of the meandering Taranos river, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V2_2_text}Pherytona near a curve of the meandering Trand river, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_9</xsl:attribute>
@@ -1223,6 +1262,12 @@
 	<!-- Armac -->
 	<xsl:template match="Settlement[@id='town_V6']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V6_name}Jaculanys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="town_V6"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_V6" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4000"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V6']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V6_text}Jaculanys sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. However, in the third year of the reign of Emperor Themestios, Battanian raiders descended from the Rhennod Hills, destroying the town and putting many of its inhabitants to the sword. Despite the reconstruction efforts of the newly crowned Emperor, little of the old town remained to the present. It was seized by the rampaging Massa in the year 951, serving as the capital of their nascent realm.</xsl:attribute>
@@ -1268,7 +1313,7 @@
 		<xsl:attribute name='name'>{=si_ar_castle_village_V7_1_name}Talivela</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V7_1_text}Talivela in the middle of the Taranos Valley in the heartland of Calradia. Villagers plant olives here on the hillsides.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V7_1_text}Talivela in the middle of the Trand Valley in the heartland of Calradia. Villagers plant olives here on the hillsides.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_2']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_village_V7_2_name}Rodetanys</xsl:attribute>
@@ -1595,6 +1640,12 @@
 	Spahanfar Satrapy
 	-->
 	<!-- Spahanfar -->
+	<xsl:template match='Settlement[@id="town_K6"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_K6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="4200"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K6']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_K6_text}The town of Odokh sits at the foot of Kohi Rohini, the mountains of the dawn. Among the most remote of the towns of the Devseg, it is reputed to have been the abode of King Ahhak, a mythical tyrant from whose shoulders flowed serpents. Even today the Kohi Rohini has a reputation for black magic and mystery that helps keep outsiders at bay. The city has in recent centuries served as the capital of the Spahanfar Satrapy, who have intermarried with the mountain peoples and continue to honor their customs, participate in their rituals, and keep their secrets.</xsl:attribute>
 	</xsl:template>
@@ -1672,6 +1723,12 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Esbarafar -->
+	<xsl:template match='Settlement[@id="town_K5"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_K5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="4500"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K5']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_K5_text}Chaikand sits by the reed-marshes on the edge of Lake Tanaesis. Part of the imperial protectorate known as ‘Transtanaesia’, boats laden with hides, wool and salt are shuttled from here across the placid waters of the lake, returning with Calradian silks and silver. Such trade has brought Chaikand unparalleled wealth and status on the continent, though not without cost. Jealous eyes watch from all sides, and the people of the city are used to having to defend themselves from those who would take their wealth for themselves.</xsl:attribute>
 	</xsl:template>
@@ -1700,6 +1757,13 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Sowdafar -->
+	
+	<xsl:template match='Settlement[@id="town_K2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_K2" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="4500"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K2']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_K2_text}Akkalat, the ‘White Fortress’, was built by the fearsome Padishah Hoshtar on one of his periodic attempts to conquer the Devseg. For decades the sacred flame that burned from the top of the citadel symbolized his suzerainty over the tribes here. But the realm of the Padishah is as changeable as the wind, and now the fortress lies on the boundary of two worlds. To the north and west lie the independent city states of the Tanash, whilst the lands of the Padishah stretch to the south and east. Such a liminal position has both its advantages, and its dangers. Whilst Akkalat’s position affords it great wealth as a nexus in trade routes, it also places it in the ambitions of many who would claim rulership of the Devseg, much like Hoshtar in the days of old.</xsl:attribute>
 	</xsl:template>
@@ -1743,6 +1807,12 @@
 	<xsl:template match="Settlement[@id='town_A3']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_A3_name}Yachios</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="town_A3"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_A3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="4000"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A3']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_A3_text}Yachios, known as ‘Iyakis’ in the language of the Nahasa, sits in a cleft in the Jarjara Escarpment, where the waters of the fierce but brief desert rains can be trapped and used for irrigation. For generations, it has been an autonomous outpost of the Calradian Empire, with the ruling Carasios family overseeing imperial matters in the great bronze desert. From here, caravans heading to and from the interior of the Nahasa may stop to rest and water their horses and camels, and also pay their taxes to the Calradian Emperor.</xsl:attribute>
 	</xsl:template>
@@ -1764,6 +1834,12 @@
 	<xsl:template match="Settlement[@id='town_V3']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V3_name}Paravenos</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="town_V3"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_V3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.008" prosperity="4200"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V3']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V3_text}Paravenos was the second major colony founded by Calradios the Great, serving as the inland capital and summer residence of the Calradian Kingdom during its formative years. As the Calradian Kingdom evolved into a republic, and then into the Calradian Empire, Paravenos attracted citizens from far and wide, growing into the wealthiest city on the continent. Eventually, the Calradian Empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the western provinces. However, the last century has been cruel to the city. In the year 937, a host of Battanians laid siege to the city, destroying many of its ancient edifices before a relief force of Vlandian auxiliaries could arrive. Now, those very Vlandians surround Paravenos, and it remains to be seen how long the old capital will hold out against their nascent kingdom.</xsl:attribute>
 	</xsl:template>
@@ -1771,19 +1847,19 @@
 		<xsl:attribute name='name'>{=si_ar_village_V3_2_name}Arulunos</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V3_2_text}Arulunos sits in the forested middle valleys of the Taranos River. The villagers specialize in the raising of hogs, who feast on acorns from the oak woodlands.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V3_2_text}Arulunos sits in the forested middle valleys of the Trand River. The villagers specialize in the raising of hogs, who feast on acorns from the oak woodlands.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_3']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_V3_3_name}Laranacys</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V3_3_text}Laranacys sits on gentle hills on the lower Taranos Valley, at the western edge of the Swadian Plains. Villagers plant rye, barley and wheat for sale to the hungry urban population of nearby Paravenos.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V3_3_text}Laranacys sits on gentle hills on the lower Trand Valley, at the western edge of the Swadian Plains. Villagers plant rye, barley and wheat for sale to the hungry urban population of nearby Paravenos.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_4']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_V3_4_name}Palisona</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_4']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V3_4_text}Palisona sits at the mouth of a rocky glen that splits the grassy downs north of the Taranos River. The soil is thin in these parts, but the village does well farming hogs and other livestock.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V3_4_text}Palisona sits at the mouth of a rocky glen that splits the grassy downs north of the Trand River. The soil is thin in these parts, but the village does well farming hogs and other livestock.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_paravenos_1</xsl:attribute>
