@@ -1257,7 +1257,7 @@
 		<xsl:attribute name='owner'>Faction.clan_vlandia_9</xsl:attribute>
 	</xsl:template>
 	<!--
-	Massan Kingdom
+	Massa Confederation
 	-->
 	<!-- Armac -->
 	<xsl:template match="Settlement[@id='town_V6']/@name">

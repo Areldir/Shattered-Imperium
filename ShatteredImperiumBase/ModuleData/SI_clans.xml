@@ -675,7 +675,7 @@
 	         banner_key="11.71.14.4000.4000.764.764.1.0.0.335.15.0.500.500.764.754.0.0.0.336.15.0.200.200.764.724.0.0.0"/>
 	<!--Vlandian warships first came to the western shores of Calradia as traders. Then, seeing how rich the land was, they decided to take it. First the Empire fought them, then when that failed granted them noble titles and estates to make them into imperial clients, and then - when they rebelled - fought them again. Now they are an independent kingdom, known for steel-forging and their horses, and their armored riders are a constant menace to the Empire's western marches.-->
 	<!--
-	Massa Kingdom
+	Massa Confederation
 	-->
 	<Faction id="clan_vlandia_3"
 	         name="{=si_ar_clan_vlandia_3_name}Armac"
@@ -993,6 +993,15 @@
 	         is_noble="true"
 	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the ‘family of the sacred city’ – have been the rulers of the city of Paravenos since the days of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
 	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
+	<Faction id="clan_paravenos_2"
+	         name="{=si_ar_clan_paravenos_2_name}Rendakis"
+	         tier="5"
+	         owner="Hero.AR_lord_16_8"
+	         culture="Culture.empire_w"
+	         super_faction="Kingdom.paravenos"
+	         is_noble="true"
+	         text="{=si_ar_clan_paravenos_2_text}The Rendakis, unlike many noble families of the western provinces of the Calradian Empire, cannot claim descent from a long and illustrious line of the Calradian nobility. Their ancestors were minor nobles of the Palaic people of the Myzead - the hill country in the east of the Calradian Empire. When the legions came, the Rendakis wisely bowed to imperial authority, and so were allowed to keep their wealth and status, despite being dispossessed of their lands. Migrating to the western provinces, when those lands were considered little more than a sleepy imperial backwater, they built for themselves a pleasant life running a vineyard on the Swadian Plains north of Paravenos. However, with the rise of the nascent Vlandian Kingdom, the Rendakis now find themselves called upon to defend their very way of life, lest it go extinct."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.104.11.0.300.350.764.774.0.1.0.500.11.0.500.500.764.764.0.0.0"/>
 	<!--
 	MINOR FACTIONS
 	-->
@@ -1776,8 +1785,7 @@
 	         default_party_template="PartyTemplate.kingdom_hero_party_swadians_template"
 	         settlement_banner_mesh="encounter_flag_f"
 	         is_minor_faction="true"
-	         is_outlaw="true"
-	         is_nomad="true"
+	         is_clan_type_mercenary="true"
 	         name="{=si_ar_swadians_name}Swadian Free Company"
 	         short_name="{=si_ar_swadians_short_name}Swadians"
 	         tier="4"
@@ -1813,6 +1821,31 @@
 			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_1"/>
 			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_2"/>
 			<template id="NPCCharacter.AR_spc_biscan_exiles_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="paravenos_exiles"
+	         initial_posX="136.0"
+	         initial_posY="504.0"
+	         banner_key="3.86.8.4000.4000.764.764.1.0.0.328.5.5.300.300.624.594.0.0.0.328.5.5.300.300.904.934.0.0.0.100.5.5.250.250.904.614.0.0.0.100.5.5.250.250.624.914.0.0.0"
+	         label_color="0xFFBF4972"
+	         color="0xFFBF4972"
+	         color2="0xffDEA940"
+	         alternative_color="0xFFBF4972"
+	         alternative_color2="0xffDEA940"
+	         culture="Culture.empire_w"
+	         default_party_template="PartyTemplate.kingdom_hero_party_paravenos_exiles_template"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_clan_type_mercenary="true"
+	         name="{=si_ar_paravenos_exiles_name}Paravenos Exiles"
+	         short_name="{=si_ar_paravenos_exiles_name}Paravenoi"
+	         tier="4"
+	         text="{=si_ar_paravenos_exiles_text}Paravenos - the ancient capital of the Calradian Empire - once shone as a jewel in the crown that was the western provinces. These verdant lands of rolling green hills and lush forests once comprised the heartland of the Calradian people. However, time has not been kind to these lands, with the movement of imperial power eastward, as well as successive waves of invasion and settlement by foreign peoples, reducing the once great cities of the west to little more than shanty towns. Such was the fate of Paravenos. With the foundation of the Vlandian Kingdom, many citizens of Paravenos have found themselves alienated from their lands and forced into exile. Whilst some have taken their exile meekly, some have decided to continue the fight, forming one of the most effective mercenary companies in Calradia.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_paravenos_exiles_leader_0"/>
+			<template id="NPCCharacter.AR_spc_paravenos_exiles_leader_1"/>
+			<template id="NPCCharacter.AR_spc_paravenos_exiles_leader_2"/>
+			<template id="NPCCharacter.AR_spc_paravenos_exiles_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
 	<!--

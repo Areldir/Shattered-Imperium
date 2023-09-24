@@ -1467,4 +1467,187 @@
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- PARAVENOS EXILES -->
+	<NPCCharacter id="AR_spc_paravenos_exiles_leader_0" name="{=si_ar_spc_paravenos_exiles_leader_0}of Paravenos" voice="curt" is_template="true" age="38" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_w_emp_bat_template_flamboyant"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_paravenos_exiles_leader_1" name="{=si_ar_spc_paravenos_exiles_leader_1}of Paravenos" voice="earnest" age="35" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_w_emp_bat_template_medium"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_paravenos_exiles_leader_2" name="{=si_ar_spc_paravenos_exiles_leader_2}of Paravenos" voice="ironic" age="34" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_w_emp_bat_template_heavy"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_paravenos_exiles_leader_3" name="{=si_ar_spc_paravenos_exiles_leader_3}of Paravenos" voice="curt" age="41" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_w_emp_bat_template_medium"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Paravenos Exiles Medium Skill 40-70 -->
+	<NPCCharacter id="AR_min_paravenos_exiles_t3" default_group="Infantry" level="16" name="{=si_ar_min_paravenos_exiles_t3}Paravenos Footman" occupation="Mercenary" is_basic_troop="true" culture="Culture.empire_w">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_paravenos_exiles_t4_spearman"/>
+			<upgrade_target id="NPCCharacter.AR_min_paravenos_exiles_t4_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_paravenos_exiles_t3_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Paravenos Exiles Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_min_paravenos_exiles_t4_spearman" default_group="Infantry" level="21" name="{=si_ar_min_paravenos_exiles_t4_spearman}Paravenos Spearman" occupation="Mercenary" culture="Culture.empire_w">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_paravenos_exiles_t5_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_paravenos_exiles_t4_spearman_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Paravenos Exiles Very Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_paravenos_exiles_t5_spearman" default_group="Infantry" level="26" name="{=si_ar_min_paravenos_exiles_t5_spearman}Paravenos City Guard Spearman" occupation="Mercenary" culture="Culture.empire_w">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_paravenos_exiles_t5_spearman_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Paravenos Exiles Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_min_paravenos_exiles_t4_crossbowman" default_group="Ranged" level="21" name="{=si_ar_min_paravenos_exiles_t4_crossbowman}Paravenos Crossbowman" occupation="Mercenary" culture="Culture.empire_w">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_paravenos_exiles_t5_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_paravenos_exiles_t4_crossbowman_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Paravenos Exiles Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_paravenos_exiles_t5_crossbowman" default_group="Ranged" level="26" name="{=si_ar_min_paravenos_exiles_t5_crossbowman}Paravenos City Guard Crossbowman" occupation="Mercenary" culture="Culture.empire_w">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_paravenos_exiles_t5_crossbowman_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>

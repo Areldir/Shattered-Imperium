@@ -1,15 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
-	<!--lords.xml-->
+	<!--heroes.xml-->
 	<Hero id="main_hero" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction"/>
 	<Hero id="main_hero_father" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_mother"/>
 	<Hero id="main_hero_mother" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_father"/>
-	<Hero id="dead_lord_2_1" alive="false" faction="Faction.clan_sturgia_2"/>
-	<Hero id="dead_lord_2_2" alive="false" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2"/>
-	<Hero id="lord_1_1_12" faction="Faction.clan_empire_north_4"/>
-	<Hero id="lord_1_1_13" spouse="Hero.lord_1_64" faction="Faction.clan_empire_north_4"/>
-	<Hero id="lord_1_20" faction="Faction.clan_empire_north_4"/>
-	<Hero id="lord_1_64" faction="Faction.clan_empire_north_4"/>
 	<!--
 	Aserai Emirates
 	-->
@@ -79,227 +73,65 @@
 	<!--
 	Battanian Kingdom
 	-->
+	<!-- fen Derngil -->
+	<Hero id="lord_5_3" spouse="Hero.lord_5_4" faction="Faction.clan_battania_2" text="Aetaric is the High King of the Battanians. A wise ruler, he has devoted his life to raising the status of his clan in Battanian society, choosing politics over bloodshed. A popular leader, though resented by the more warlike elements of Battanian society, his cautious approach has so-far paid off, allowing the Battanian clans to claim much territory from the crumbling Calradian Empire."/>
+	<Hero id="lord_5_3_1" father="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
+	<Hero id="lord_5_3_2" faction="Faction.clan_battania_2"/>
+	<Hero id="lord_5_4" spouse="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
+	<Hero id="lord_5_8" father="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
+	<Hero id="lord_5_11" father="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
+	<!-- fen Uvain -->
+	<Hero id="lord_5_5" spouse="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
+	<Hero id="lord_5_5_1" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
+	<Hero id="lord_5_6" spouse="Hero.lord_5_5" faction="Faction.clan_battania_3"/>
+	<Hero id="lord_5_9" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
+	<Hero id="lord_5_91" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
+	<Hero id="lord_5_12" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
+	<!-- fen Conaill -->
+	<Hero id="lord_5_1" spouse="Hero.AR_lord_5_1" faction="Faction.clan_battania_1"/>
+	<Hero id="AR_lord_5_1" spouse="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
+	<Hero id="lord_5_1_1" father="Hero.lord_5_1" mother="Hero.AR_lord_5_1" faction="Faction.clan_battania_1"/>
+	<Hero id="lord_5_7" father="Hero.lord_5_1" mother="Hero.AR_lord_5_1" faction="Faction.clan_battania_1"/>
+	<Hero id="lord_5_10" father="Hero.lord_5_1" mother="Hero.AR_lord_5_1" faction="Faction.clan_battania_1"/>
+	<Hero id="lord_5_13" faction="Faction.clan_battania_1"/>
+	<Hero id="lord_5_13_1" father="Hero.lord_5_13" faction="Faction.clan_battania_1"/>
+	<Hero id="lord_5_131" father="Hero.lord_5_13" faction="Faction.clan_battania_1"/>
+	<!-- fen Giall -->
+	<Hero id="lord_5_16" spouse="Hero.lord_5_16_1" faction="Faction.clan_battania_5"/>
+	<Hero id="lord_5_16_1" spouse="Hero.lord_5_16" faction="Faction.clan_battania_5"/>
+	<Hero id="lord_5_16_2" father="Hero.lord_5_16" mother="Hero.lord_5_16_1" faction="Faction.clan_battania_5"/>
+	<Hero id="lord_5_20" faction="Faction.clan_battania_5"/>
+	<!-- fen Penraic -->
+	<Hero id="lord_5_14" spouse="Hero.lord_5_14_1" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_14_1" spouse="Hero.lord_5_14" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_19" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_22" faction="Faction.clan_battania_4"/>
 	<!-- fen Sithigh -->
-	<Hero id="AR_lord_5_2" spouse="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_5_2" spouse="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
 	<Hero id="AR_lord_5_3" spouse="Hero.AR_lord_5_2" faction="Faction.AR_clan_battania_9"/>
 	<Hero id="AR_lord_5_4" father="Hero.AR_lord_5_2" mother="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
 	<Hero id="AR_lord_5_5" father="Hero.AR_lord_5_2" mother="Hero.AR_lord_5_3" faction="Faction.AR_clan_battania_9"/>
 	<Hero id="AR_lord_5_6" spouse="Hero.AR_lord_5_7" faction="Faction.AR_clan_battania_9"/>
 	<Hero id="AR_lord_5_7" spouse="Hero.AR_lord_5_6" faction="Faction.AR_clan_battania_9"/>
 	<Hero id="AR_lord_5_8" father="Hero.AR_lord_5_6" mother="Hero.AR_lord_5_7" faction="Faction.AR_clan_battania_9"/>
-	
-	
-	
-	
-	
-	
-	<!-- Empire north 9 - Serapides (DONE) -->
-	<Hero id="lord_NE9_l" faction="Faction.clan_empire_north_9"/>
-	<Hero id="AR_lord_1_14" spouse="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9"/>
-	<Hero id="lord_NE9_s" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9"/>
-	<Hero id="lord_NE9_d" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9"/>
-	<!-- Empire west 1 (DONE) -->
-	<!-- Empire west 2 (DONE) -->
-	<Hero id="lord_1_9" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
-	<Hero id="lord_1_10" spouse="Hero.lord_1_9" faction="Faction.clan_empire_west_2"/>
-	<Hero id="lord_1_35" faction="Faction.clan_empire_west_2"/>
-	<Hero id="lord_1_25" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
-	<Hero id="lord_1_23" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
-	<!-- Empire west 3 (DONE) -->
-	<Hero id="lord_1_11" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3" text="Dorios is the head of the Western Empire. A senator from an old family; his people have raised cattle in the fertile western lands of the Calradian Empire for generations. He is a reluctant ruler, driven to secession from the Empire by the weakness of the Emperors to protect his homeland and estates from the growing Vlandian menace. Now, he leads a senate comprising the most powerful western nobles, attempting to reclaim what was lost to the invaders."/>
-	<Hero id="lord_1_111" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
-	<Hero id="lord_1_12" spouse="Hero.lord_1_11" faction="Faction.clan_empire_west_3"/>
-	<Hero id="lord_1_36" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
-	<Hero id="lord_1_26" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
-	<!-- empire west 4 (DONE) -->
-	<!-- empire west 5 (DONE) -->
-	<Hero id="lord_1_45" spouse="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
-	<Hero id="lord_1_45_1" spouse="Hero.lord_1_45" faction="Faction.clan_empire_west_5"/>
-	<Hero id="lord_1_45_2" father="Hero.lord_1_45" mother="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
-	<Hero id="lord_1_45_3" father="Hero.lord_1_45" mother="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
-	<Hero id="lord_1_57" spouse="Hero.lord_1_57_1" faction="Faction.clan_empire_west_5"/>
-	<Hero id="lord_1_57_1" spouse="Hero.lord_1_57" faction="Faction.clan_empire_west_5"/>
-	<Hero id="lord_1_57_2" father="Hero.lord_1_57" mother="Hero.lord_1_57_1" faction="Faction.clan_empire_west_5"/>
-	<!-- empire west 6 (DONE) -->
-	<Hero id="lord_1_52" spouse="Hero.lord_1_52_1" faction="Faction.clan_empire_west_6"/>
-	<Hero id="lord_1_52_1" spouse="Hero.lord_1_52" faction="Faction.clan_empire_west_6"/>
-	<Hero id="lord_1_52_2" father="Hero.lord_1_52" mother="Hero.lord_1_52_1" faction="Faction.clan_empire_west_6"/>
-	<Hero id="lord_1_62" spouse="Hero.lord_1_62_1" faction="Faction.clan_empire_west_6"/>
-	<Hero id="lord_1_62_1" spouse="Hero.lord_1_62" faction="Faction.clan_empire_west_6"/>
-	<!-- empire west 7 (DONE) -->
-	<Hero id="lord_1_53" faction="Faction.clan_empire_west_7"/>
-	<Hero id="lord_1_73" spouse="Hero.lord_1_73_1" faction="Faction.clan_empire_west_7"/>
-	<Hero id="lord_1_73_1" spouse="Hero.lord_1_73" faction="Faction.clan_empire_west_7"/>
-	<!-- Maneolis, clan West 8 (DONE) -->
-	<Hero id="lord_1_71" faction="Faction.clan_empire_west_8"/>
-	<Hero id="lord_WE8_c" faction="Faction.clan_empire_west_8"/>
-	<Hero id="lord_WE8_u" faction="Faction.clan_empire_west_8"/>
-	<!-- Palladios, somewhat dull clan leader, his politically astute sister and her husband (DONE) -->
-	<Hero id="lord_WE9_l" faction="Faction.clan_empire_west_9"/>
-	<Hero id="lord_WE9_u" spouse="Hero.lord_WE9_u2" faction="Faction.clan_empire_west_9"/>
-	<Hero id="lord_WE9_u2" spouse="Hero.lord_WE9_u" faction="Faction.clan_empire_west_9"/>
-	<!-- STURGIA - Gundaroving -->
-	<Hero id="lord_2_1" spouse="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="Sivur is the Grand Prince of the Sturgians. Whilst a monarch in his own right, he has no real authority over the other Sturgian principalities, instead being elected from amongst his peers to lead the Sturgian people on the field of battle. A calculating and ruthless authoritarian, he wishes nothing more than to gain effective dominance over the other ruling Sturgian clans, however faces stiff resistence to his centralising actions from the other princes."/>
-	<Hero id="lord_2_2" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_1" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_2" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_3" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_4" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_7" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_7_1" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_10" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<!-- Sturgia clan 2 -->
-	<Hero id="lord_2_3" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2"/>
-	<Hero id="lord_2_4" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2"/>
-	<Hero id="lord_2_4_1" mother="Hero.lord_2_4" faction="Faction.clan_sturgia_2"/>
-	<Hero id="lord_2_8" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2"/>
-	<Hero id="lord_2_11" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2"/>
-	<Hero id="lord_2_111" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2"/>
-	<!-- Sturgia clan 3 -->
-	<Hero id="lord_2_5" spouse="Hero.lord_2_6" faction="Faction.clan_sturgia_3" text="{=6lZGNChB}Porev is lord of the Kaldaving, one of the younger houses of the Vaegirians. His people have always been as interested in trade as they have been in war, although Godun himself is everything a boyar might want: cooperative, prompt to pay his feudal dues, quick to respond to his liege's calls to arms. Yet Vidar has never fully trusted him, because it is hard to imagine a Kaldaving without his own long-term plan for personal aggrandizement."/>
-	<Hero id="lord_2_6" spouse="Hero.lord_2_5" faction="Faction.clan_sturgia_3"/>
-	<Hero id="lord_2_9" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
-	<Hero id="lord_2_12" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
-	<Hero id="lord_2_121" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
-	<!-- Sturgia clan 4 -->
-	<Hero id="lord_2_14" spouse="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_14_1" spouse="Hero.lord_2_14" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_14_2" father="Hero.lord_2_14" mother="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_14_3" father="Hero.lord_2_14" mother="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_16" spouse="Hero.lord_2_16_1" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_16_1" spouse="Hero.lord_2_16" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_21" spouse="Hero.lord_2_21_1" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_21_1" spouse="Hero.lord_2_21" faction="Faction.clan_sturgia_4"/>
-	<!-- Sturgia clan 5 -->
-	<Hero id="lord_2_17" spouse="Hero.lord_2_17_1" faction="Faction.clan_sturgia_5"/>
-	<Hero id="lord_2_17_1" spouse="Hero.lord_2_17" faction="Faction.clan_sturgia_5"/>
-	<Hero id="lord_2_22" spouse="Hero.lord_2_22_1" faction="Faction.clan_sturgia_5"/>
-	<Hero id="lord_2_22_1" spouse="Hero.lord_2_22" faction="Faction.clan_sturgia_5"/>
-	<Hero id="lord_2_24" spouse="Hero.lord_2_24_1" faction="Faction.clan_sturgia_5"/>
-	<Hero id="lord_2_24_1" spouse="Hero.lord_2_24" faction="Faction.clan_sturgia_5"/>
-	<!-- Sturgia clan 6 -->
-	<Hero id="lord_2_18" spouse="Hero.lord_2_18_1" faction="Faction.clan_sturgia_6"/>
-	<Hero id="lord_2_18_1" spouse="Hero.lord_2_18" faction="Faction.clan_sturgia_6"/>
-	<Hero id="lord_2_23" faction="Faction.clan_sturgia_6"/>
-	<Hero id="lord_2_23_1" father="Hero.lord_2_23" faction="Faction.clan_sturgia_6"/>
-	<!-- Sturgia clan 7 -->
-	<Hero id="lord_2_15" faction="Faction.clan_sturgia_7"/>
-	<Hero id="lord_2_15_1" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
-	<Hero id="lord_2_15_2" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
-	<Hero id="lord_2_15_3" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
-	<Hero id="lord_2_15_4" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
-	<Hero id="lord_2_19" spouse="Hero.lord_2_19_1" faction="Faction.clan_sturgia_7"/>
-	<Hero id="lord_2_19_1" spouse="Hero.lord_2_19" faction="Faction.clan_sturgia_7"/>
-	<!-- Sturgia clan 8 -->
-	<Hero id="lord_2_20" spouse="Hero.lord_2_20_1" faction="Faction.clan_sturgia_8"/>
-	<Hero id="lord_2_20_1" spouse="Hero.lord_2_20" faction="Faction.clan_sturgia_8"/>
-	<Hero id="lord_S8_u" faction="Faction.clan_sturgia_8"/>
-	<!-- Vlandia clan 1 -->
-	<Hero id="AR_lord_4_1" spouse="Hero.AR_lord_4_2" father="Hero.AR_lord_4_3" faction="Faction.clan_vlandia_1" text="{=ARiQI7ps}Osric Iron-Arm is the first king of the Vlandians. Raised by his uncle, Osric was brought up on one of the Vlandians' many campaigns in service of the Calradian Empire in the eastern provinces. Taught to distrust imperial authority from a young age, as a youth Osric rallied a band of followers amongst the Vlandian vassal lords and led them west to the old imperial capital at Paravenos, seizing the governor's mansion in a bloodless coup and forcing the Calradian provincial administration to flee the city, never to return. Word of his deeds spread like wildfire amongst the other Vlandian clans, and soon after, he would amass in Paravenos a vast host, facing an imperial legion on the plains south of city. As the battle raged around him, Osric confronted a member of the Calradian Vaegir Guard in single combat. The fight lasted for an hour, and though blinded in one eye by the guardsman's dagger, Osric managed to grapple the man to the ground, beating him to death and earning the title of 'Iron-Arm'. Hailed king of an independent Vlandian kingdom at the mere age of 18, Osric now sets his one good eye outwards towards conquest."/>
-	<Hero id="AR_lord_4_2" spouse="Hero.AR_lord_4_1" faction="Faction.clan_vlandia_1"/>
-	<Hero id="AR_lord_4_3" alive="false" father="Hero.AR_lord_4_4" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_3_text}Aldric of the noble house dey Meroc was, despite his age, one of the most renowned warriors and leaders of the Vlandian people since the likes of Wilund the Bold himself. He served with distinction as a commander of the Calradian Empire’s auxiliary Vlandian cavalry, fighting in the eastern campaigns against both the Darshi and the nomads of the Devseg, winning fame and glory on the battlefield, as well as the adoration of his people for his care in not idly throwing away the lives of his warriors. Aldric’s life was tragically cut short at the point of a Darshi cataphract’s lance, though not before he had sired a son - Osric - whose efforts in following his father’s footsteps have taken the Vlandians to heights previously unseen."/>
-	<Hero id="AR_lord_4_4" alive="false" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_4_text}Gilvard of house dey Meroc was a relatively undistinguished member of the Vlandian nobility, serving as a junior officer in the auxiliary Vlandian cavalry of the Calradian Empire. Much of his life was spent on the frigid northern frontiers, fighting of the frequent attacks of Nordic raiders and Vakken warbands. This thankless job brought him, and the house dey Meroc as a whole, wealth and standing among their own people, if not with the Calradians they served."/>
-	<Hero id="lord_4_1" spouse="Hero.lord_4_2" faction="Faction.clan_vlandia_1" text="{=EHiQI7ps}Regbold is the eldest uncle of Osric Iron-Arm. When Osric's parents died in one of the Calradian Empire's many campaigns in the east, Regbold took in his young nephew and raised him as if he was his own son. Seeing the losses of his people in the empire's constant wars as completely unnecessary, Regbold was instrumental in moulding the young Osric into the future king of an independent Vlandia."/>
-	<Hero id="lord_4_2" spouse="Hero.lord_4_1" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_7" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_10" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_13" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_14" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_141" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_15" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
-	<!-- Vlandia clan 2 -->
-	<Hero id="lord_4_3" father="Hero.AR_lord_4_4" spouse="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
-	<Hero id="lord_4_3_1" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
-	<Hero id="lord_4_4" spouse="Hero.lord_4_3" faction="Faction.clan_vlandia_2"/>
-	<Hero id="lord_4_8" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
-	<Hero id="lord_4_11" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
-	<!-- Vlandia clan 5 -->
-	<Hero id="lord_4_25" spouse="Hero.lord_4_25_1" faction="Faction.clan_vlandia_5"/>
-	<Hero id="lord_4_25_1" spouse="Hero.lord_4_25" faction="Faction.clan_vlandia_5"/>
-	<Hero id="lord_4_21" faction="Faction.clan_vlandia_5"/>
-	<!-- Vlandia clan 6 -->
-	<Hero id="lord_4_20" spouse="Hero.lord_4_20_1" faction="Faction.clan_vlandia_6"/>
-	<Hero id="lord_4_20_1" spouse="Hero.lord_4_20" faction="Faction.clan_vlandia_6"/>
-	<Hero id="lord_4_22" spouse="Hero.lord_4_22_1" faction="Faction.clan_vlandia_6"/>
-	<Hero id="lord_4_22_1" spouse="Hero.lord_4_22" faction="Faction.clan_vlandia_6"/>
-	<!-- Vlandia clan 7, der fortis-->
-	<Hero id="lord_4_23" faction="Faction.clan_vlandia_7" text="Oca is the warlord of clan dey Fortes, a highly militant clan who were among the first to join Osric Iron-Arm in his invasion of the western provinces of the Calradian Empire. In a great battle against the Battanians near the lake of Llyn Modris, Oca single-handedly slew two Battanian chieftains and routed their retinues, claiming the lands around the great lake for himself. A trustworthy friend and formidable oponent, his martial prowess is largely responsible for holding the northern frontier of the young Vlandian kingdom against its' many foes"/>
-	<Hero id="lord_4_23_1" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<Hero id="lord_4_23_2" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<Hero id="lord_4_23_3" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<!-- dey Molarn -->
-	<Hero id="lord_4_24" spouse="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_24_1" spouse="Hero.lord_4_24" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_24_2" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_24_3" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_24_4" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_26" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_26_1" faction="Faction.clan_vlandia_8"/>
-	<!-- Dey Jelind -->
-	<Hero id="lord_4_27" spouse="Hero.lord_4_27_1" faction="Faction.clan_vlandia_9"/>
-	<Hero id="lord_4_27_1" spouse="Hero.lord_4_27" faction="Faction.clan_vlandia_9"/>
-	<Hero id="lord_V9_u" faction="Faction.clan_vlandia_9"/>
-	<!-- Vlandia clan 10 -->
-	<Hero id="lord_4_28" faction="Faction.clan_vlandia_10"/>
-	<Hero id="lord_4_28_1" father="Hero.lord_4_28" faction="Faction.clan_vlandia_10"/>
-	<Hero id="lord_4_28_2" father="Hero.lord_4_28" faction="Faction.clan_vlandia_10"/>
-	<!-- Battanian clans begin -->
-	<Hero id="lord_5_1" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_1_1" father="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_3" spouse="Hero.lord_5_4" faction="Faction.clan_battania_2" text="Aetaric is the High King of the Battanians. A wise ruler, he has devoted his life to raising the status of his clan in Battanian society, choosing politics over bloodshed. A popular leader, though resented by the more warlike elements of Battanian society, his cautious approach has so-far paid off, allowing the Battanian clans to claim much territory from the crumbling Calradian Empire."/>
-	<Hero id="lord_5_3_1" father="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
-	<Hero id="lord_5_3_2" faction="Faction.clan_battania_2"/>
-	<Hero id="lord_5_4" spouse="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
-	<Hero id="lord_5_5" faction="Faction.clan_battania_3" spouse="Hero.lord_5_6"/>
-	<Hero id="lord_5_5_1" faction="Faction.clan_battania_3" father="Hero.lord_5_5" mother="Hero.lord_5_6"/>
-	<Hero id="lord_5_6" faction="Faction.clan_battania_3" spouse="Hero.lord_5_5"/>
-	<Hero id="lord_5_7" father="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_8" father="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
-	<Hero id="lord_5_9" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
-	<Hero id="lord_5_91" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
-	<Hero id="lord_5_10" father="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_11" father="Hero.lord_5_3" faction="Faction.clan_battania_2"/>
-	<Hero id="lord_5_12" father="Hero.lord_5_5" mother="Hero.lord_5_6" faction="Faction.clan_battania_3"/>
-	<Hero id="lord_5_13" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_13_1" father="Hero.lord_5_13" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_131" father="Hero.lord_5_13" faction="Faction.clan_battania_1"/>
-	<Hero id="lord_5_15" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_15_1" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_15_2" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_15_3" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_14" spouse="Hero.lord_5_14_1" faction="Faction.clan_battania_4"/>
-	<Hero id="lord_5_14_1" spouse="Hero.lord_5_14" faction="Faction.clan_battania_4"/>
-	<Hero id="lord_5_16" spouse="Hero.lord_5_16_1" faction="Faction.clan_battania_5"/>
-	<Hero id="lord_5_16_1" spouse="Hero.lord_5_16" faction="Faction.clan_battania_5"/>
-	<Hero id="lord_5_16_2" father="Hero.lord_5_16" mother="Hero.lord_5_16_1" faction="Faction.clan_battania_5"/>
-	<Hero id="lord_5_17" spouse="Hero.lord_5_17_1" faction="Faction.clan_battania_6"/>
-	<Hero id="lord_5_17_1" spouse="Hero.lord_5_17" faction="Faction.clan_battania_6"/>
-	<Hero id="lord_5_18" father="Hero.lord_5_15" spouse="Hero.lord_5_18_1" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_18_1" spouse="Hero.lord_5_18" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_19" faction="Faction.clan_battania_4"/>
-	<Hero id="lord_5_20" faction="Faction.clan_battania_5"/>
-	<Hero id="lord_5_21" spouse="Hero.lord_5_21_1" faction="Faction.clan_battania_6"/>
-	<Hero id="lord_5_21_1" spouse="Hero.lord_5_21" faction="Faction.clan_battania_6"/>
-	<Hero id="lord_5_21_2" father="Hero.lord_5_21" mother="Hero.lord_5_21_1" faction="Faction.clan_battania_6"/>
-	<Hero id="lord_5_22" faction="Faction.clan_battania_4"/>
-	<!-- Dey Rothad -->
-	<Hero id="lord_V11_l" faction="Faction.clan_vlandia_11"/>
-	<Hero id="lord_V11_u" faction="Faction.clan_vlandia_11"/>
-	<Hero id="lord_V11_c1" father="Hero.lord_V11_l" faction="Faction.clan_vlandia_11"/>
-	<Hero id="lord_V11_c2" father="Hero.lord_V11_l" faction="Faction.clan_vlandia_11"/>
-	<!-- Kostaroving -->
-	<Hero id="lord_S9_l" mother="Hero.lord_S9_m" faction="Faction.clan_sturgia_9"/>
-	<Hero id="lord_S9_m" faction="Faction.clan_sturgia_9"/>
-	<Hero id="lord_S9_c" father="Hero.lord_S9_l" faction="Faction.clan_sturgia_9"/>
-	<Hero id="lord_S9_u" faction="Faction.clan_sturgia_9"/>
+	<!-- fen Caernacht -->
 	<Hero id="lord_B8_l" spouse="Hero.lord_B8_s" faction="Faction.clan_battania_8"/>
 	<Hero id="lord_B8_s" spouse="Hero.lord_B8_l" faction="Faction.clan_battania_8"/>
 	<Hero id="lord_B8_c" father="Hero.lord_B8_s" mother="Hero.lord_B8_l" faction="Faction.clan_battania_8"/>
-	<Hero id="AR_lord_5_1" spouse="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
+	<!-- fen Morcar -->
+	<Hero id="lord_5_15" faction="Faction.clan_battania_7"/>
 	<Hero id="AR_lord_5_15" faction="Faction.clan_battania_7"/>
-	<Hero id="AR_lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<Hero id="AR_lord_4_28" alive="false" faction="Faction.clan_vlandia_10"/>
+	<Hero id="lord_5_15_1" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
+	<Hero id="lord_5_15_2" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
+	<Hero id="lord_5_15_3" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
+	<Hero id="lord_5_18" father="Hero.lord_5_15" spouse="Hero.lord_5_18_1" faction="Faction.clan_battania_7"/>
+	<Hero id="lord_5_18_1" spouse="Hero.lord_5_18" faction="Faction.clan_battania_7"/>
+	<!-- fen Eingal -->
+	<Hero id="lord_5_17" spouse="Hero.lord_5_17_1" faction="Faction.clan_battania_6"/>
+	<Hero id="lord_5_17_1" spouse="Hero.lord_5_17" faction="Faction.clan_battania_6"/>
+	<Hero id="lord_5_21" spouse="Hero.lord_5_21_1" faction="Faction.clan_battania_6"/>
+	<Hero id="lord_5_21_1" spouse="Hero.lord_5_21" faction="Faction.clan_battania_6"/>
+	<Hero id="lord_5_21_2" father="Hero.lord_5_21" mother="Hero.lord_5_21_1" faction="Faction.clan_battania_6"/>
 	<!--
 	Calradian Empire
 	-->
@@ -316,14 +148,14 @@
 	<Hero id="AR_lord_1_11" father="Hero.AR_lord_1_9" mother="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpux}Jamanys is the heir-apparent for the throne of the Calradian Empire. After the untimely death of his father Themestios, the Calradian senate met to vote on the matter of succession. The late-emperor had named his son as heir, though many senators believed that a boy so young was unfit to rule. A vote was held, with Jamanys being nominated Emperor by an incredibly slim margin. Abandoned immediately by nearly half of the senate, who fled to the west, the remaining senators named Jamanys' mother regent until he comes of age. However, with civil war raging on all sides, some say the Empire may not survive long enough for him to take his throne."/>
 	<Hero id="AR_lord_1_15" alive="false" faction="Faction.clan_empire_west_1" text="{=si_ar_lord_1_15_text}Zaricos reigned as the Emperor of the Calradian Empire from the years 895 to 934. His lifetime saw notable changes in the character of his empire and its people, as well as the expansion and contraction of imperial borders across the continent. In the south, Zaricos led his legions against the Aserai, extending the border from the walls of the colony of Yachios to Qasira on the coast of the Perassic Sea, whilst the rise of the Alkit and Vaegir realms in the north saw the loss of much of the Calradian frontier around Lake Laconis. However, possibly the most significant event to occur during Zaricos’ reign would occur in 913, when a massive earthquake practically levelled the ancient Calradian capital of Charasea. The city’s population, long made up primarily of Vlandian settlers, were quick to begin reconstruction. However, little of Charasea’s former splendour was left recognisable. Despite this, Zaricos’ reign is remembered as a time of stability for the majority of the Calradian Empire, whose citizens enjoyed great peace and prosperity. Zaricos died peacefully in his sleep, transferring the imperial crown to his son Themestios. He is remembered fondly across Calradia, with statues erected in his memory."/>
 	<!-- Pethros -->
-	<Hero id="lord_1_14" faction="Faction.clan_empire_south_1"/>
-	<!--Hero id="AR_lord_1_12"  faction="Faction.clan_empire_south_1" /-->
+	<Hero id="lord_1_14" spouse="Hero.AR_lord_1_12" faction="Faction.clan_empire_south_1"/>
+	<Hero id="AR_lord_1_12" spouse="Hero.lord_1_14" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_27" spouse="Hero.lord_1_27_1" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_27_1" spouse="Hero.lord_1_27" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_27_2" father="Hero.lord_1_27" mother="Hero.lord_1_27_1" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_27_3" father="Hero.lord_1_27" mother="Hero.lord_1_27_1" faction="Faction.clan_empire_south_1"/>
-	<Hero id="lord_1_37" mother="Hero.lord_1_14" faction="Faction.clan_empire_south_1"/>
-	<!--Hero id="AR_lord_1_13"  father="Hero.AR_lord_1_12" mother="Hero.lord_1_14" faction="Faction.clan_empire_south_1" /-->
+	<Hero id="lord_1_37" father="Hero.AR_lord_1_12" mother="Hero.lord_1_14" faction="Faction.clan_empire_south_1"/>
+	<Hero id="AR_lord_1_13" father="Hero.AR_lord_1_12" mother="Hero.lord_1_14" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_47" spouse="Hero.lord_1_47_1" faction="Faction.clan_empire_south_1" text="Alexios is the head of clan Pethros; one of the Calradian Empire's oldest and most esteemed noble families. Whilst his ancestors once held the imperial purple, he has little ambition for higher office, instead turning his attentions to serving the imperial family and the people of Lycaron as a diligent administrator. Secretly, he hopes his former colleagues, now serving in the western separatist senate, can be convinced to return peacefully to the imperial fold."/>
 	<Hero id="lord_1_47_1" spouse="Hero.lord_1_47" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_47_2" father="Hero.lord_1_47" mother="Hero.lord_1_47_1" faction="Faction.clan_empire_south_1"/>
@@ -443,6 +275,57 @@
 	<Hero id="lord_1_56" spouse="Hero.lord_1_56_1" faction="Faction.clan_empire_north_8"/>
 	<Hero id="lord_1_56_1" spouse="Hero.lord_1_56" faction="Faction.clan_empire_north_8"/>
 	<!--
+	Western Calradian Republic
+	-->
+	<!-- Heraclonos -->
+	<Hero id="lord_NE9_l" spouse="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_1_14" spouse="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9"/>
+	<Hero id="lord_NE9_s" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9"/>
+	<Hero id="lord_NE9_d" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9"/>
+	<!-- Dionicos -->
+	<Hero id="lord_1_11" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
+	<Hero id="lord_1_111" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
+	<Hero id="lord_1_12" spouse="Hero.lord_1_11" faction="Faction.clan_empire_west_3"/>
+	<Hero id="lord_1_36" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
+	<Hero id="lord_1_26" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
+	<!-- Varros -->
+	<Hero id="lord_1_9" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_10" spouse="Hero.lord_1_9" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_35" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_25" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_23" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<!-- Lonalion -->
+	<Hero id="lord_1_45" spouse="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
+	<Hero id="lord_1_45_1" spouse="Hero.lord_1_45" faction="Faction.clan_empire_west_5"/>
+	<Hero id="lord_1_45_2" father="Hero.lord_1_45" mother="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
+	<Hero id="lord_1_45_3" father="Hero.lord_1_45" mother="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
+	<Hero id="lord_1_57" spouse="Hero.lord_1_57_1" faction="Faction.clan_empire_west_5"/>
+	<Hero id="lord_1_57_1" spouse="Hero.lord_1_57" faction="Faction.clan_empire_west_5"/>
+	<Hero id="lord_1_57_2" father="Hero.lord_1_57" mother="Hero.lord_1_57_1" faction="Faction.clan_empire_west_5"/>
+	<!-- Impestores -->
+	<Hero id="lord_1_1_12" faction="Faction.clan_empire_north_4"/>
+	<Hero id="lord_1_1_13" spouse="Hero.lord_1_64" faction="Faction.clan_empire_north_4"/>
+	<Hero id="lord_1_20" faction="Faction.clan_empire_north_4"/>
+	<Hero id="lord_1_64" faction="Faction.clan_empire_north_4"/>
+	<!-- Sorados -->
+	<Hero id="lord_1_52" spouse="Hero.lord_1_52_1" faction="Faction.clan_empire_west_6"/>
+	<Hero id="lord_1_52_1" spouse="Hero.lord_1_52" faction="Faction.clan_empire_west_6"/>
+	<Hero id="lord_1_52_2" father="Hero.lord_1_52" mother="Hero.lord_1_52_1" faction="Faction.clan_empire_west_6"/>
+	<Hero id="lord_1_62" spouse="Hero.lord_1_62_1" faction="Faction.clan_empire_west_6"/>
+	<Hero id="lord_1_62_1" spouse="Hero.lord_1_62" faction="Faction.clan_empire_west_6"/>
+	<!-- Corenios -->
+	<Hero id="lord_1_53" faction="Faction.clan_empire_west_7"/>
+	<Hero id="lord_1_73" spouse="Hero.lord_1_73_1" faction="Faction.clan_empire_west_7"/>
+	<Hero id="lord_1_73_1" spouse="Hero.lord_1_73" faction="Faction.clan_empire_west_7"/>
+	<!-- Maneolis -->
+	<Hero id="lord_1_71" faction="Faction.clan_empire_west_8"/>
+	<Hero id="lord_WE8_c" faction="Faction.clan_empire_west_8"/>
+	<Hero id="lord_WE8_u" faction="Faction.clan_empire_west_8"/>
+	<!-- Palladios -->
+	<Hero id="lord_WE9_l" faction="Faction.clan_empire_west_9"/>
+	<Hero id="lord_WE9_u" spouse="Hero.lord_WE9_u2" faction="Faction.clan_empire_west_9"/>
+	<Hero id="lord_WE9_u2" spouse="Hero.lord_WE9_u" faction="Faction.clan_empire_west_9"/>
+	<!--
 	Iltanlar Khanate
 	-->
 	<!-- Turakizt -->
@@ -507,7 +390,133 @@
 	<Hero id="lord_K9_c1" father="Hero.lord_K9_l" mother="Hero.lord_K9_s" faction="Faction.clan_khuzait_9"/>
 	<Hero id="lord_K9_c2" father="Hero.lord_K9_l" mother="Hero.lord_K9_s" faction="Faction.clan_khuzait_9"/>
 	<!--
-	Massan Kingdom
+	Sturgian Principalities
+	-->
+	<!-- Gundaroving -->
+	<Hero id="lord_2_1" spouse="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="Sivur is the Grand Prince of the Sturgians. Whilst a monarch in his own right, he has no real authority over the other Sturgian principalities, instead being elected from amongst his peers to lead the Sturgian people on the field of battle. A calculating and ruthless authoritarian, he wishes nothing more than to gain effective dominance over the other ruling Sturgian clans, however faces stiff resistence to his centralising actions from the other princes."/>
+	<Hero id="lord_2_2" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_1" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_2" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_3" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_4" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_7" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_7_1" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_10" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<!-- Togaroving -->
+	<Hero id="lord_2_17" spouse="Hero.lord_2_17_1" faction="Faction.clan_sturgia_5"/>
+	<Hero id="lord_2_17_1" spouse="Hero.lord_2_17" faction="Faction.clan_sturgia_5"/>
+	<Hero id="lord_2_22" spouse="Hero.lord_2_22_1" faction="Faction.clan_sturgia_5"/>
+	<Hero id="lord_2_22_1" spouse="Hero.lord_2_22" faction="Faction.clan_sturgia_5"/>
+	<Hero id="lord_2_24" spouse="Hero.lord_2_24_1" faction="Faction.clan_sturgia_5"/>
+	<Hero id="lord_2_24_1" spouse="Hero.lord_2_24" faction="Faction.clan_sturgia_5"/>
+	<!-- Hayekoving -->
+	<Hero id="lord_2_5" spouse="Hero.lord_2_6" faction="Faction.clan_sturgia_3" text="{=6lZGNChB}Porev is lord of the Kaldaving, one of the younger houses of the Vaegirians. His people have always been as interested in trade as they have been in war, although Godun himself is everything a boyar might want: cooperative, prompt to pay his feudal dues, quick to respond to his liege's calls to arms. Yet Vidar has never fully trusted him, because it is hard to imagine a Kaldaving without his own long-term plan for personal aggrandizement."/>
+	<Hero id="lord_2_6" spouse="Hero.lord_2_5" faction="Faction.clan_sturgia_3"/>
+	<Hero id="lord_2_9" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
+	<Hero id="lord_2_12" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
+	<Hero id="lord_2_121" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
+	<!-- Nowyraving -->
+	<Hero id="lord_2_20" spouse="Hero.lord_2_20_1" faction="Faction.clan_sturgia_8"/>
+	<Hero id="lord_2_20_1" spouse="Hero.lord_2_20" faction="Faction.clan_sturgia_8"/>
+	<Hero id="lord_S8_u" faction="Faction.clan_sturgia_8"/>
+	<!-- Kuloving -->
+	<Hero id="lord_2_3" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2"/>
+	<Hero id="lord_2_4" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2"/>
+	<Hero id="lord_2_4_1" mother="Hero.lord_2_4" faction="Faction.clan_sturgia_2"/>
+	<Hero id="lord_2_8" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2"/>
+	<Hero id="lord_2_11" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2"/>
+	<Hero id="lord_2_111" father="Hero.lord_2_3" faction="Faction.clan_sturgia_2"/>
+	<Hero id="dead_lord_2_1" alive="false" faction="Faction.clan_sturgia_2"/>
+	<Hero id="dead_lord_2_2" alive="false" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2"/>
+	<!-- Vezhoving -->
+	<Hero id="lord_2_15" faction="Faction.clan_sturgia_7"/>
+	<Hero id="lord_2_15_1" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
+	<Hero id="lord_2_15_2" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
+	<Hero id="lord_2_15_3" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
+	<Hero id="lord_2_15_4" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
+	<Hero id="lord_2_19" spouse="Hero.lord_2_19_1" faction="Faction.clan_sturgia_7"/>
+	<Hero id="lord_2_19_1" spouse="Hero.lord_2_19" faction="Faction.clan_sturgia_7"/>
+	<!-- Kostoroving -->
+	<Hero id="lord_S9_l" mother="Hero.lord_S9_m" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_S9_m" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_S9_c" father="Hero.lord_S9_l" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_S9_u" faction="Faction.clan_sturgia_9"/>
+	<!-- Ormidoving -->
+	<Hero id="lord_2_14" spouse="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_14_1" spouse="Hero.lord_2_14" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_14_2" father="Hero.lord_2_14" mother="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_14_3" father="Hero.lord_2_14" mother="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_16" spouse="Hero.lord_2_16_1" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_16_1" spouse="Hero.lord_2_16" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_21" spouse="Hero.lord_2_21_1" faction="Faction.clan_sturgia_4"/>
+	<Hero id="lord_2_21_1" spouse="Hero.lord_2_21" faction="Faction.clan_sturgia_4"/>
+	<!-- Svehlaving -->
+	<Hero id="lord_2_18" spouse="Hero.lord_2_18_1" faction="Faction.clan_sturgia_6"/>
+	<Hero id="lord_2_18_1" spouse="Hero.lord_2_18" faction="Faction.clan_sturgia_6"/>
+	<Hero id="lord_2_23" faction="Faction.clan_sturgia_6"/>
+	<Hero id="lord_2_23_1" father="Hero.lord_2_23" faction="Faction.clan_sturgia_6"/>
+	<!--
+	Vlandian Kingdom
+	-->
+	<!-- dey Meroc -->
+	<Hero id="AR_lord_4_1" spouse="Hero.AR_lord_4_2" father="Hero.AR_lord_4_3" faction="Faction.clan_vlandia_1" text="{=ARiQI7ps}Osric Iron-Arm is the first king of the Vlandians. Raised by his uncle, Osric was brought up on one of the Vlandians' many campaigns in service of the Calradian Empire in the eastern provinces. Taught to distrust imperial authority from a young age, as a youth Osric rallied a band of followers amongst the Vlandian vassal lords and led them west to the old imperial capital at Paravenos, seizing the governor's mansion in a bloodless coup and forcing the Calradian provincial administration to flee the city, never to return. Word of his deeds spread like wildfire amongst the other Vlandian clans, and soon after, he would amass in Paravenos a vast host, facing an imperial legion on the plains south of city. As the battle raged around him, Osric confronted a member of the Calradian Vaegir Guard in single combat. The fight lasted for an hour, and though blinded in one eye by the guardsman's dagger, Osric managed to grapple the man to the ground, beating him to death and earning the title of 'Iron-Arm'. Hailed king of an independent Vlandian kingdom at the mere age of 18, Osric now sets his one good eye outwards towards conquest."/>
+	<Hero id="AR_lord_4_2" spouse="Hero.AR_lord_4_1" faction="Faction.clan_vlandia_1"/>
+	<Hero id="AR_lord_4_3" alive="false" father="Hero.AR_lord_4_4" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_3_text}Aldric of the noble house dey Meroc was, despite his age, one of the most renowned warriors and leaders of the Vlandian people since the likes of Wilund the Bold himself. He served with distinction as a commander of the Calradian Empire’s auxiliary Vlandian cavalry, fighting in the eastern campaigns against both the Darshi and the nomads of the Devseg, winning fame and glory on the battlefield, as well as the adoration of his people for his care in not idly throwing away the lives of his warriors. Aldric’s life was tragically cut short at the point of a Darshi cataphract’s lance, though not before he had sired a son - Osric - whose efforts in following his father’s footsteps have taken the Vlandians to heights previously unseen."/>
+	<Hero id="AR_lord_4_4" alive="false" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_4_text}Gilvard of house dey Meroc was a relatively undistinguished member of the Vlandian nobility, serving as a junior officer in the auxiliary Vlandian cavalry of the Calradian Empire. Much of his life was spent on the frigid northern frontiers, fighting of the frequent attacks of Nordic raiders and Vakken warbands. This thankless job brought him, and the house dey Meroc as a whole, wealth and standing among their own people, if not with the Calradians they served."/>
+	<Hero id="lord_4_1" spouse="Hero.lord_4_2" faction="Faction.clan_vlandia_1" text="{=EHiQI7ps}Regbold is the eldest uncle of Osric Iron-Arm. When Osric's parents died in one of the Calradian Empire's many campaigns in the east, Regbold took in his young nephew and raised him as if he was his own son. Seeing the losses of his people in the empire's constant wars as completely unnecessary, Regbold was instrumental in moulding the young Osric into the future king of an independent Vlandia."/>
+	<Hero id="lord_4_2" spouse="Hero.lord_4_1" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_7" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_10" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_13" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_14" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_141" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_15" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
+	<!-- dey Fortes -->
+	<Hero id="lord_4_23" spouse="Hero.AR_lord_4_23" faction="Faction.clan_vlandia_7" text="Oca is the warlord of clan dey Fortes, a highly militant clan who were among the first to join Osric Iron-Arm in his invasion of the western provinces of the Calradian Empire. In a great battle against the Battanians near the lake of Llyn Modris, Oca single-handedly slew two Battanian chieftains and routed their retinues, claiming the lands around the great lake for himself. A trustworthy friend and formidable oponent, his martial prowess is largely responsible for holding the northern frontier of the young Vlandian kingdom against its' many foes"/>
+	<Hero id="AR_lord_4_23" spouse="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23_1" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23_2" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23_3" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
+	<!-- dey Valant -->
+	<Hero id="lord_4_20" spouse="Hero.lord_4_20_1" faction="Faction.clan_vlandia_6"/>
+	<Hero id="lord_4_20_1" spouse="Hero.lord_4_20" faction="Faction.clan_vlandia_6"/>
+	<Hero id="lord_4_22" spouse="Hero.lord_4_22_1" faction="Faction.clan_vlandia_6"/>
+	<Hero id="lord_4_22_1" spouse="Hero.lord_4_22" faction="Faction.clan_vlandia_6"/>
+	<!-- dey Molarn -->
+	<Hero id="lord_4_24" spouse="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
+	<Hero id="lord_4_24_1" spouse="Hero.lord_4_24" faction="Faction.clan_vlandia_8"/>
+	<Hero id="lord_4_24_2" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
+	<Hero id="lord_4_24_3" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
+	<Hero id="lord_4_24_4" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
+	<Hero id="lord_4_26" faction="Faction.clan_vlandia_8"/>
+	<Hero id="lord_4_26_1" faction="Faction.clan_vlandia_8"/>
+	<!-- dey Rothad -->
+	<Hero id="lord_V11_l" faction="Faction.clan_vlandia_11"/>
+	<Hero id="lord_V11_u" faction="Faction.clan_vlandia_11"/>
+	<Hero id="lord_V11_c1" father="Hero.lord_V11_l" faction="Faction.clan_vlandia_11"/>
+	<Hero id="lord_V11_c2" father="Hero.lord_V11_l" faction="Faction.clan_vlandia_11"/>
+	<!-- dey Hongar -->
+	<Hero id="lord_4_3" father="Hero.AR_lord_4_4" spouse="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
+	<Hero id="lord_4_3_1" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
+	<Hero id="lord_4_4" spouse="Hero.lord_4_3" faction="Faction.clan_vlandia_2"/>
+	<Hero id="lord_4_8" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
+	<Hero id="lord_4_11" father="Hero.lord_4_3" mother="Hero.lord_4_4" faction="Faction.clan_vlandia_2"/>
+	<!-- dey Folcun -->
+	<Hero id="lord_4_28" spouse="Hero.AR_lord_4_28" faction="Faction.clan_vlandia_10"/>
+	<Hero id="AR_lord_4_28" spouse="Hero.lord_4_28" faction="Faction.clan_vlandia_10"/>
+	<Hero id="lord_4_28_1" father="Hero.lord_4_28" mother="Hero.AR_lord_4_28" faction="Faction.clan_vlandia_10"/>
+	<Hero id="lord_4_28_2" father="Hero.lord_4_28" mother="Hero.AR_lord_4_28" faction="Faction.clan_vlandia_10"/>
+	<!-- dey Gunric -->
+	<Hero id="lord_4_25" spouse="Hero.lord_4_25_1" faction="Faction.clan_vlandia_5"/>
+	<Hero id="lord_4_25_1" spouse="Hero.lord_4_25" faction="Faction.clan_vlandia_5"/>
+	<Hero id="lord_4_21" faction="Faction.clan_vlandia_5"/>
+	<!-- dey Jelind -->
+	<Hero id="lord_4_27" spouse="Hero.lord_4_27_1" faction="Faction.clan_vlandia_9"/>
+	<Hero id="lord_4_27_1" spouse="Hero.lord_4_27" faction="Faction.clan_vlandia_9"/>
+	<Hero id="lord_V9_u" faction="Faction.clan_vlandia_9"/>
+	<!--
+	Massa Confederation
 	-->
 	<!-- Armac -->
 	<Hero id="lord_4_6" faction="Faction.clan_vlandia_3" spouse="Hero.lord_4_5"/>
@@ -742,4 +751,9 @@
 	<Hero id="AR_lord_16_5" spouse="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
 	<Hero id="AR_lord_16_6" spouse="Hero.AR_lord_16_5" faction="Faction.clan_paravenos_1"/>
 	<Hero id="AR_lord_16_7" father="Hero.AR_lord_16_5" mother="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
+	<!-- Rendakis -->
+	<Hero id="AR_lord_16_8" spouse="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_16_9" spouse="Hero.AR_lord_16_8" faction="Faction.clan_paravenos_2"/>
+	<Hero id="AR_lord_16_10" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
+	<Hero id="AR_lord_16_11" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
 </Heroes>
