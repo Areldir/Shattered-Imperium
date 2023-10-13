@@ -1,140 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- MASSA -->
-	<!-- T2 Elite Light Skill 20-40 -->
-	<NPCCharacter id="AR_mas_elite_recruit" default_group="Infantry" level="11" name="Massan Puer Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
-		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="20"/>
-			<skill id="OneHanded" value="20"/>
-			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_mas_t3_elite"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.cloth_tunic"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.laced_coif"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Cape" id="Item.green_hood"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.long_hemp_tunic"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.arming_coif"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.padded_leather_shirt"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.padded_coif"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.long_hemp_tunic"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.padded_cap"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.sackcloth_tunic"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Cape" id="Item.hood"/>
-			</EquipmentRoster>
-			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- T3 Elite Medium Skill 40-70 -->
-	<NPCCharacter id="AR_mas_t3_elite" default_group="Infantry" level="16" name="Massan Warjandi Warrior" occupation="Soldier" culture="Culture.massa">
-		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="40"/>
-			<skill id="OneHanded" value="40"/>
-			<skill id="TwoHanded" value="70"/>
-			<skill id="Polearm" value="70"/>
-			<skill id="Bow" value="40"/>
-			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="40"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_mas_t4_cavalry"/>
-			<upgrade_target id="NPCCharacter.AR_mas_t4_elite_shock"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.woven_leather_vest"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-				<equipment slot="Head" id="Item.open_mail_coif"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.mail_coif"/>
-				<equipment slot="Cape" id="Item.wolf_shoulder"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m2"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.woven_leather_vest"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-				<equipment slot="Head" id="Item.mail_coif"/>
-				<equipment slot="Cape" id="Item.hood"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<equipment slot="Item2" id="Item.western_spear_3_t3"/>
-				<equipment slot="Body" id="Item.padded_short_coat"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Head" id="Item.open_mail_coif"/>
-				<equipment slot="Cape" id="Item.green_hood"/>
-				<equipment slot="Gloves" id="Item.leather_gloves"/>
-			</EquipmentRoster>
-			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!-- T4 Sword Cavalry Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_mas_t4_cavalry" default_group="Cavalry" level="21" name="Massan Eoredmann Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.massa">
 		<face>
@@ -343,7 +209,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Elite Shock Medium Skill 60-130 -->
-	<NPCCharacter id="AR_mas_t4_elite_shock" default_group="Infantry" level="21" name="Massan Compaignon" occupation="Soldier" culture="Culture.massa">
+	<NPCCharacter id="AR_mas_t4_shock_inf" default_group="Infantry" level="21" name="Massan Compaignon" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -358,7 +224,7 @@
 			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_mas_t5_elite_shock"/>
+			<upgrade_target id="NPCCharacter.AR_mas_t5_shock_inf"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -405,7 +271,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Elite Shock Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_mas_t5_elite_shock" default_group="Infantry" level="26" name="Massan Veteran Compaignon" occupation="Soldier" culture="Culture.massa">
+	<NPCCharacter id="AR_mas_t5_shock_inf" default_group="Infantry" level="26" name="Massan Veteran Compaignon" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -420,7 +286,7 @@
 			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_mas_t6_elite_shock"/>
+			<upgrade_target id="NPCCharacter.AR_mas_t6_shock_inf"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -457,7 +323,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Elite Shock Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_mas_t6_elite_shock" default_group="Infantry" level="31" name="dey Cananc Thegn" occupation="Soldier" culture="Culture.massa">
+	<NPCCharacter id="AR_mas_t6_shock_inf" default_group="Infantry" level="31" name="dey Cananc Thegn" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>

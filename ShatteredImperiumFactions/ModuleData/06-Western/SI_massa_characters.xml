@@ -323,7 +323,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Pike Infantry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_mas_t6_pikeman" default_group="Infantry" level="31" name="{=si_ar_mas_t6_pikeman}Massa Champion Pikeman" occupation="Soldier" culture="Culture.massa">
+	<NPCCharacter id="AR_mas_t6_pikeman" default_group="Infantry" level="31" name="{=si_ar_mas_t6_pikeman}Massa Housecarl Pikeman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_massan"/>
 		</face>
@@ -437,7 +437,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Skirmisher Medium Skill 80-180 -->
-	<NPCCharacter id="AR_mas_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_mas_t6_skirmisher}Massa Champion Skirmisher" occupation="Soldier" culture="Culture.massa">
+	<NPCCharacter id="AR_mas_t6_skirmisher" default_group="Ranged" level="31" name="{=si_ar_mas_t6_skirmisher}Massa Housecarl Skirmisher" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_massan"/>
 		</face>
@@ -504,7 +504,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Longbowman Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_mas_t6_archer" default_group="Ranged" level="31" name="{=si_ar_mas_t6_archer}Massa Champion Longbowman" occupation="Soldier" culture="Culture.massa">
+	<NPCCharacter id="AR_mas_t6_archer" default_group="Ranged" level="31" name="{=si_ar_mas_t6_archer}Massa Housecarl Longbowman" occupation="Soldier" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_massan"/>
 		</face>
@@ -525,4 +525,51 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MASSA: Noble Troops -->
+	<!-- Recruit Shock Infantry Light Skill 20-40 -->
+	<NPCCharacter id="AR_mas_elite_recruit" default_group="Infantry" level="11" name="{=si_ar_mas_elite_recruit}Massa Noble Youth" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t3_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_elite_recruit_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_mas_t3_shock_inf" default_group="Infantry" level="16" name="Massan Warjandi Warrior" occupation="Soldier" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_mas_t4_cavalry"/>
+			<upgrade_target id="NPCCharacter.AR_mas_t4_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_mas_t3_shock_inf_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
