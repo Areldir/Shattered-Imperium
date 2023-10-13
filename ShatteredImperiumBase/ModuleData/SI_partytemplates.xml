@@ -799,8 +799,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_massa">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_mas_t5_cavalry"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_mas_t4_cavalry"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_mas_t5_shock_inf"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_mas_t4_shock_inf"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_vakken">
@@ -958,11 +958,11 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_biscan_exiles_template">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_swadician_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_swadician_t4_archer"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_swadician_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_swadician_t5_melee"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_swadician_t4_melee"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_biscan_t5_cavalry"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_biscan_t4_cavalry"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_biscan_t3"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_biscan_t5_swordsman"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_biscan_t4_swordsman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_lochanians_template">
@@ -1107,6 +1107,15 @@
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_paravenos_exiles_t3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_paravenos_exiles_t5_crossbowman"/>
 			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_paravenos_exiles_t4_crossbowman"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_rhennod_hillmen_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_biscan_t5_cavalry"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_biscan_t4_cavalry"/>
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_biscan_t3"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_biscan_t5_swordsman"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_biscan_t4_swordsman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- BANDITS -->

@@ -1214,7 +1214,6 @@
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	
 	<!-- T3 Brotherhood of the Woods Light Skill 40-70 -->
 	<NPCCharacter id="AR_min_brotherhood_t3" default_group="Ranged" level="16" name="{=si_ar_min_brotherhood_t3}Brotherhood Outlaw" occupation="Mercenary" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
@@ -1426,7 +1425,7 @@
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="80"/>
 			<skill id="Riding" value="240"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1440,7 +1439,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_min_swadians_t4_lancer_battletemplate"/>
-			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Swadian Heavy Skill 60-130 -->
@@ -1461,7 +1460,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="AR_min_swadians_t5_lancer_battletemplate"/>
-			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Swadian Medium Skill 60-100 -->
@@ -1484,7 +1483,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_min_swadians_t4_crossbow_cav_battletemplate"/>
-			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Swadian Medium Skill 60-130 -->
@@ -1505,8 +1504,304 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="AR_min_swadians_t5_crossbow_cav_battletemplate"/>
-			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- BISCAN EXILES -->
+	<NPCCharacter id="AR_spc_biscan_exiles_leader_0" name="{=si_ar_spc_biscan_exiles_leader_0}the Biscan" voice="ironic" is_template="true" age="36" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_biscan_exiles_leader_1" name="{=si_ar_spc_biscan_exiles_leader_1}the Biscan" voice="softspoken" is_template="true" age="21" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_flamboyant"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_biscan_exiles_leader_2" name="{=si_ar_spc_biscan_exiles_leader_2}the Biscan" voice="softspoken" is_template="true" age="32" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_biscan_exiles_leader_3" name="{=si_ar_spc_biscan_exiles_leader_3}the Biscan" voice="softspoken" is_template="true" age="27" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_flamboyant"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Biscan Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_biscan_t3" default_group="Infantry" level="16" name="{=si_ar_min_biscan_t3}Biscan Footman" occupation="Mercenary" is_basic_troop="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_biscan_t4_swordsman"/>
+			<upgrade_target id="NPCCharacter.AR_min_biscan_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_biscan_t3_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Biscan Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_biscan_t4_swordsman" default_group="Infantry" level="21" name="{=si_ar_min_biscan_t4_swordsman}Biscan Swordsman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_biscan_t5_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_biscan_t4_swordsman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Biscan Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_biscan_t5_swordsman" default_group="Infantry" level="26" name="{=si_ar_min_biscan_t5_swordsman}Biscan Champion" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_biscan_t5_swordsman_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Biscan Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_biscan_t4_cavalry" default_group="Cavalry" level="21" name="{=si_ar_min_biscan_t4_cavalry}Biscan Rider" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_biscan_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_biscan_t4_cavalry_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Biscan Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_biscan_t5_cavalry" default_group="Cavalry" level="26" name="{=si_ar_min_biscan_t5_cavalry}Biscan Horseman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_biscan_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- AUXILIARY VLANDIAN -->
+	<!-- T3 Cavalry Light Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_vlandia_recruit" default_group="Cavalry" level="16" name="{=si_ar_emp_aux_vlandia_recruit}Auxiliary Vlandian Outrider" occupation="Mercenary" is_basic_troop="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vlandia_t4_lance_cav"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vlandia_t4_sword_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_vlandia_recruit_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_vlandia_t4_lance_cav" default_group="Cavalry" level="21" name="{=si_ar_emp_aux_vlandia_t4_lance_cav}Auxiliary Vlandian Horseman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vlandia_t5_lance_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_vlandia_t4_lance_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_vlandia_t5_lance_cav" default_group="Cavalry" level="26" name="{=si_ar_emp_aux_vlandia_t5_lance_cav}Auxiliary Vlandian Lancer" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_vlandia_t5_lance_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Cavalry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_vlandia_t4_sword_cav" default_group="Cavalry" level="21" name="{=si_ar_emp_aux_vlandia_t4_sword_cav}Auxiliary Vlandian Mounted Swordsman" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_vlandia_t5_sword_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_vlandia_t4_sword_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Cavalry Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_vlandia_t5_sword_cav" default_group="Cavalry" level="26" name="{=si_ar_emp_aux_vlandia_t5_sword_cav}Auxiliary Vlandian Horseguard" occupation="Mercenary" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_vlandia_t5_sword_cav_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
