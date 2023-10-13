@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<!-- OSA Weapons -->
-	<CraftedItem id="AR_sickle_t3" name="{=osa_ar_sickle_t3}Iron Druidic Sickle" crafting_template="OneHandedSword" culture="Culture.battania" modifier_group="sword">
-		<Pieces>
-			<Piece id="AR_aserai_blade_a" Type="Blade" scale_factor="60"/>
-			<Piece id="sturgian_guard_1" Type="Guard"/>
-			<Piece id="sturgian_grip_32" Type="Handle"/>
-			<Piece id="aserai_pommel_1" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 70 Weight: 1.03 -->
-	</CraftedItem>
-	<CraftedItem id="AR_sickle_t4" name="{=osa_ar_sickle_t4}Steel Druidic Sickle" crafting_template="OneHandedSword" culture="Culture.battania" modifier_group="sword">
-		<Pieces>
-			<Piece id="AR_aserai_blade_a" Type="Blade" scale_factor="60"/>
-			<Piece id="battania_guard_1" Type="Guard" scale_factor="90"/>
-			<Piece id="battania_grip_1" Type="Handle" scale_factor="110"/>
-			<Piece id="empire_pommel_3" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 72 Weight: 0.96 -->
-	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
@@ -406,23 +388,24 @@
 		</Pieces>
 	</CraftedItem>
 	<!-- 1h Swords -->
+	<!-- Aserai -->
 	<CraftedItem id="aserai_sword_1_t2" name="{=fHj6NbWy}Iron Flyssa" crafting_template="OneHandedSword" culture="Culture.aserai" modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_4" Type="Blade"/>
-			<Piece id="AR_empire_guard_c" Type="Guard"/>
+			<Piece id="AR_basic_guard_b" Type="Guard"/>
 			<Piece id="sturgian_grip_13" Type="Handle"/>
-			<Piece id="aserai_pommel_1" Type="Pommel"/>
+			<Piece id="AR_battania_pommel_b" Type="Pommel" scale_factor="50"/>
 		</Pieces>
-		<!-- Length: 114 Weight: 0.99 -->
+		<!-- Length: 113 Weight: 0.82 -->
 	</CraftedItem>
 	<CraftedItem id="aserai_sword_2_t2" name="{=JPByibJQ}Iron Scimitar" crafting_template="OneHandedSword" culture="Culture.aserai" modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_3" Type="Blade"/>
-			<Piece id="AR_empire_guard_a" Type="Guard"/>
+			<Piece id="AR_empire_guard_c" Type="Guard"/>
 			<Piece id="sturgian_grip_14" Type="Handle"/>
-			<Piece id="sturgian_pommel_7" Type="Pommel"/>
+			<Piece id="aserai_pommel_4" Type="Pommel" scale_factor="70"/>
 		</Pieces>
-		<!-- Length: 104 Weight: 0.93 -->
+		<!-- Length: 103 Weight: 0.94 -->
 	</CraftedItem>
 	<CraftedItem id="aserai_sword_3_t3" name="{=bANXyotg}Slightly Ridged Flyssa" crafting_template="OneHandedSword" culture="Culture.aserai" modifier_group="sword">
 		<Pieces>
@@ -451,6 +434,7 @@
 		</Pieces>
 		<!-- Length: 116 Weight: 1.13 -->
 	</CraftedItem>
+	<!-- Battania -->
 	<CraftedItem id="battania_sword_1_t2" name="{=habJjtmv}Ridged Iron Broadsword" crafting_template="OneHandedSword" culture="Culture.battania" modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3_iron" Type="Blade"/>
@@ -469,6 +453,7 @@
 		</Pieces>
 		<!-- Length: 85 Weight: 0.86 -->
 	</CraftedItem>
+	<!-- Empire -->
 	<CraftedItem id="empire_sword_1_t2" name="{=1CamO1P3}Iron Spatha" crafting_template="OneHandedSword" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_4" Type="Blade"/>
@@ -490,64 +475,65 @@
 	<CraftedItem id="empire_sword_2_t3" name="{=4OaVIYuD}Spatha With Narrow Fuller" crafting_template="OneHandedSword" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_1" Type="Blade"/>
-			<Piece id="AR_empire_guard_c" Type="Guard" scale_factor="110"/>
+			<Piece id="AR_empire_guard_a" Type="Guard"/>
 			<Piece id="empire_grip_1" Type="Handle"/>
-			<Piece id="empire_pommel_2" Type="Pommel" scale_factor="90"/>
+			<Piece id="aserai_pommel_4" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 103 Weight: 0.95 -->
+		<!-- Length: 103 Weight: 0.99 -->
 	</CraftedItem>
 	<CraftedItem id="empire_sword_3_t3" name="{=M2wvaObX}Spatha" crafting_template="OneHandedSword" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_1" Type="Blade"/>
 			<Piece id="battania_guard_6" Type="Guard" scale_factor="90"/>
 			<Piece id="vlandian_grip_2" Type="Handle" scale_factor="97"/>
-			<Piece id="empire_noble_pommel_3" Type="Pommel" scale_factor="94"/>
+			<Piece id="battania_pommel_6" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 103 Weight: 1.11 -->
+		<!-- Length: 103 Weight: 0.98 -->
 	</CraftedItem>
 	<CraftedItem id="empire_sword_4_t4" name="{=AMIdBVZb}Fine Steel Spatha" crafting_template="OneHandedSword" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_6" Type="Blade" scale_factor="105"/>
-			<Piece id="battania_guard_6" Type="Guard" scale_factor="90"/>
+			<Piece id="empire_guard_3" Type="Guard"/>
 			<Piece id="khuzait_noble_grip_2" Type="Handle"/>
-			<Piece id="empire_pommel_2" Type="Pommel" scale_factor="95"/>
+			<Piece id="aserai_pommel_4" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 101 Weight: 1.28 -->
+		<!-- Length: 100 Weight: 1.11 -->
 	</CraftedItem>
 	<CraftedItem id="empire_sword_6_t5" name="{=1bc4kTaz}Thamaskene Steel Spatha" crafting_template="OneHandedSword" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_7" Type="Blade"/>
 			<Piece id="AR_empire_guard_b" Type="Guard" scale_factor="97"/>
 			<Piece id="empire_grip_17" Type="Handle"/>
-			<Piece id="empire_pommel_3" Type="Pommel"/>
+			<Piece id="battania_pommel_5" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 111 Weight: 0.97 -->
+		<!-- Length: 111 Weight: 0.98 -->
 	</CraftedItem>
 	<CraftedItem id="empire_noble_sword_1_t5" name="{=GyYsQlVd}Decorated Short Spatha" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
-			<Piece id="empire_noble_blade_1" Type="Blade"/>
+			<Piece id="empire_noble_blade_1" Type="Blade" scale_factor="110"/>
 			<Piece id="empire_noble_guard_3" Type="Guard" scale_factor="93"/>
 			<Piece id="empire_grip_17" Type="Handle"/>
 			<Piece id="AR_empire_pommel_b" Type="Pommel" scale_factor="140"/>
 		</Pieces>
-		<!-- Length: 97 Weight: 1.01 -->
+		<!-- Length: 104 Weight: 1.22 -->
 	</CraftedItem>
 	<CraftedItem id="empire_noble_sword_2_t5" name="{=Rcc0JW6H}Thamaskene Steel Spatha" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_7" Type="Blade"/>
 			<Piece id="empire_noble_guard_4" Type="Guard"/>
-			<Piece id="empire_noble_grip_2" Type="Handle"/>
+			<Piece id="empire_noble_grip_2" Type="Handle" scale_factor="120"/>
 			<Piece id="empire_noble_pommel_4" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 110 Weight: 1.13 -->
+		<!-- Length: 111 Weight: 1 -->
 	</CraftedItem>
 	<CraftedItem id="empire_noble_sword_3_t5" name="{=HpdJJO9g}Spatha with Ring Pommel" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
-			<Piece id="empire_noble_blade_4" Type="Blade" scale_factor="100"/>
-			<Piece id="empire_noble_guard_3" Type="Guard" scale_factor="100"/>
-			<Piece id="empire_noble_grip_4" Type="Handle" scale_factor="100"/>
-			<Piece id="empire_noble_pommel_2" Type="Pommel" scale_factor="100"/>
+			<Piece id="empire_noble_blade_4" Type="Blade"/>
+			<Piece id="AR_empire_guard_d" Type="Guard"/>
+			<Piece id="empire_noble_grip_4" Type="Handle"/>
+			<Piece id="empire_noble_pommel_2" Type="Pommel"/>
 		</Pieces>
+		<!-- Length: 111 Weight: 1.1 -->
 	</CraftedItem>
 	<CraftedItem id="empire_sword_5_t4" name="{=OLTUHPaD}Fine Steel Paramerion" crafting_template="OneHandedSword" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
@@ -558,15 +544,171 @@
 		</Pieces>
 		<!-- Length: 113 Weight: 1 -->
 	</CraftedItem>
-	<CraftedItem id="short_sword_t3" name="{=cRCkC36E}Short Sword" crafting_template="OneHandedSword" modifier_group="sword">
+	<!-- Khuzait -->
+	<CraftedItem id="khuzait_sword_1_t2" name="{=QjdyYS0m}Iron Saber" crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
 		<Pieces>
-			<Piece id="sturgian_blade_9" Type="Blade"/>
-			<Piece id="AR_empire_guard_a" Type="Guard"/>
-			<Piece id="vlandian_grip_23" Type="Handle"/>
+			<Piece id="khuzait_blade_7" Type="Blade"/>
+			<Piece id="AR_basic_guard_b" Type="Guard" scale_factor="90"/>
+			<Piece id="sturgian_grip_12" Type="Handle"/>
+			<Piece id="cleaver_pommel_4" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 91 Weight: 0.74 -->
+	</CraftedItem>
+	<CraftedItem id="simple_sabre_sword_t2" name="{=oQmUlQWp}Simple Saber " crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_6" Type="Blade"/>
+			<Piece id="AR_basic_guard_a" Type="Guard" scale_factor="90"/>
+			<Piece id="sturgian_grip_33" Type="Handle"/>
+			<Piece id="aserai_pommel_2" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 89 Weight: 0.88 -->
+	</CraftedItem>
+	<CraftedItem id="simple_back_sword_t2" name="{=IK2Z9zWk}Simple Scimitar" crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_7" Type="Blade" scale_factor="90"/>
+			<Piece id="sturgian_guard_6" Type="Guard"/>
+			<Piece id="cleaver_grip_3" Type="Handle"/>
+			<Piece id="cleaver_pommel_4" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 83 Weight: 0.81 -->
+	</CraftedItem>
+	<CraftedItem id="khuzait_sword_3_t3" name="{=eaALL6uO}Long Saber" crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_5" Type="Blade"/>
+			<Piece id="cleaver_guard_4" Type="Guard" scale_factor="90"/>
+			<Piece id="khuzait_grip_2" Type="Handle"/>
+			<Piece id="khuzait_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 112 Weight: 0.91 -->
+	</CraftedItem>
+	<CraftedItem id="broad_ild_sword_t3" name="{=e8amL6a1}Broad Ild" crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_5" Type="Blade"/>
+			<Piece id="sturgian_guard_1" Type="Guard"/>
+			<Piece id="khuzait_grip_14" Type="Handle"/>
 			<Piece id="aserai_pommel_1" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 66 Weight: 0.96 -->
+		<!-- Length: 115 Weight: 1.02 -->
 	</CraftedItem>
+	<CraftedItem id="khuzait_sword_4_t4" name="{=gadEbFyj}Fine Steel Saber" crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_1" Type="Blade" scale_factor="105"/>
+			<Piece id="sturgian_guard_9" Type="Guard" scale_factor="90"/>
+			<Piece id="khuzait_grip_15" Type="Handle"/>
+			<Piece id="khuzait_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 110 Weight: 0.97 -->
+	</CraftedItem>
+	<CraftedItem id="khuzait_sword_5_t4" name="{=4YTJJaTG}Heavy Saber" crafting_template="OneHandedSword" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_blade_2" Type="Blade" scale_factor="110"/>
+			<Piece id="battania_guard_5" Type="Guard"/>
+			<Piece id="khuzait_grip_8" Type="Handle"/>
+			<Piece id="khuzait_pommel_4" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 116 Weight: 1.13 -->
+	</CraftedItem>
+	<CraftedItem id="khuzait_noble_sword_1_t5" name="{=v7WQhge3}Decorated Saber" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.khuzait" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_2" Type="Blade" scale_factor="130"/>
+			<Piece id="khuzait_noble_guard_1" Type="Guard"/>
+			<Piece id="khuzait_noble_grip_2" Type="Handle"/>
+			<Piece id="khuzait_noble_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 96 Weight: 1.44 -->
+	</CraftedItem>
+	<!-- Sturgia -->
+	<CraftedItem id="sturgia_sword_1_t2" name="{=Ag6dujzl}Tapered Blade" crafting_template="OneHandedSword" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_1" Type="Blade"/>
+			<Piece id="AR_basic_guard_b" Type="Guard" scale_factor="90"/>
+			<Piece id="sturgian_grip_13" Type="Handle"/>
+			<Piece id="AR_basic_pommel_a" Type="Pommel" scale_factor="90"/>
+		</Pieces>
+		<!-- Length: 82 Weight: 0.63 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_sword_2_t3" name="{=FQHaFsyQ}Backsword" crafting_template="OneHandedSword" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_5" Type="Blade"/>
+			<Piece id="sturgian_guard_6" Type="Guard"/>
+			<Piece id="sturgian_grip_4" Type="Handle"/>
+			<Piece id="sturgian_pommel_3" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 77 Weight: 0.82 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_sword_3_t3" name="{=MRIdGqhA}Pointy Warsword" crafting_template="OneHandedSword" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_7" Type="Blade"/>
+			<Piece id="sturgian_guard_1" Type="Guard"/>
+			<Piece id="empire_grip_6" Type="Handle" scale_factor="110"/>
+			<Piece id="sturgian_pommel_3" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 83 Weight: 0.83 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_sword_4_t4" name="{=EadnjRjs}Long Warsword" crafting_template="OneHandedSword" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_2" Type="Blade" scale_factor="105"/>
+			<Piece id="sturgian_guard_10" Type="Guard" scale_factor="90"/>
+			<Piece id="sturgian_grip_7" Type="Handle"/>
+			<Piece id="sturgian_pommel_4" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 102 Weight: 0.92 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_sword_5_t4" name="{=SGdY9jmK}Fullered Narrow Warsword" crafting_template="OneHandedSword" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_6" Type="Blade" scale_factor="110"/>
+			<Piece id="sturgian_guard_9" Type="Guard" scale_factor="70"/>
+			<Piece id="sturgian_grip_25" Type="Handle"/>
+			<Piece id="sturgian_pommel_10" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 89 Weight: 0.81 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_sword_5_t5" name="{=jfWzICId}Fullered Long Warsword" crafting_template="OneHandedSword" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_8" Type="Blade"/>
+			<Piece id="sturgian_guard_11" Type="Guard"/>
+			<Piece id="sturgian_grip_36" Type="Handle"/>
+			<Piece id="sturgian_pommel_12" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 93 Weight: 1.02 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_noble_sword_1_t5" name="{=lXwaLAYP}Thamaskene Steel Warsword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_noble_blade_2" Type="Blade" scale_factor="130"/>
+			<Piece id="sturgian_noble_guard_2" Type="Guard"/>
+			<Piece id="sturgian_noble_grip_1" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_3" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 84 Weight: 1.2 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_noble_sword_2_t5" name="{=4wQRk3f5}Decorated Long Warsword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_noble_blade_3" Type="Blade" scale_factor="110"/>
+			<Piece id="sturgian_noble_guard_1" Type="Guard"/>
+			<Piece id="sturgian_noble_grip_2" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 82 Weight: 1.08 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_noble_sword_3_t5" name="{=QA5zGCKf}Decorated Fullered Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_noble_blade_1" Type="Blade" scale_factor="140"/>
+			<Piece id="sturgian_noble_guard_3" Type="Guard"/>
+			<Piece id="sturgian_noble_grip_3" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_2" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 89 Weight: 1.27 -->
+	</CraftedItem>
+	<CraftedItem id="sturgia_noble_sword_4_t5" name="{=06Qoh8AO}Gold Bound Short Warsword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.sturgia" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_noble_blade_4" Type="Blade" scale_factor="110"/>
+			<Piece id="sturgian_noble_guard_4" Type="Guard"/>
+			<Piece id="sturgian_noble_grip_4" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_4" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 85 Weight: 0.94 -->
+	</CraftedItem>
+	<!-- Vlandia -->
 	<CraftedItem id="bastard_sword_t2" name="{=arBdK7st}Simple Bastard Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_4" Type="Blade"/>
@@ -579,20 +721,29 @@
 	<CraftedItem id="vlandia_sword_1_t2" name="{=w9RLq82l}Iron Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_1" Type="Blade" scale_factor="95"/>
-			<Piece id="AR_basic_guard_a" Type="Guard"/>
+			<Piece id="AR_basic_guard_b" Type="Guard"/>
 			<Piece id="sturgian_grip_14" Type="Handle" scale_factor="110"/>
-			<Piece id="AR_battania_pommel_b" Type="Pommel" scale_factor="90"/>
+			<Piece id="AR_basic_pommel_a" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 99 Weight: 0.82 -->
+		<!-- Length: 100 Weight: 0.83 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_sword_2_t3" name="{=ha3rVEzP}Ridged Tipped Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_4" Type="Blade"/>
-			<Piece id="sturgian_guard_8" Type="Guard"/>
+			<Piece id="sturgian_guard_6" Type="Guard"/>
 			<Piece id="aserai_grip_16" Type="Handle" scale_factor="90"/>
-			<Piece id="aserai_pommel_4" Type="Pommel" scale_factor="90"/>
+			<Piece id="sturgian_pommel_3" Type="Pommel" scale_factor="110"/>
 		</Pieces>
-		<!-- Length: 105 Weight: 1.04 -->
+		<!-- Length: 105 Weight: 0.97 -->
+	</CraftedItem>
+	<CraftedItem id="short_sword_t3" name="{=cRCkC36E}Short Sword" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sturgian_blade_9" Type="Blade"/>
+			<Piece id="AR_empire_guard_a" Type="Guard"/>
+			<Piece id="vlandian_grip_23" Type="Handle"/>
+			<Piece id="aserai_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 66 Weight: 0.96 -->
 	</CraftedItem>
 	<CraftedItem id="narrow_sword_t3" name="{=3YhwjpQ0}Narrow Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
@@ -608,7 +759,7 @@
 			<Piece id="vlandian_blade_7" Type="Blade" scale_factor="110"/>
 			<Piece id="sturgian_guard_2" Type="Guard"/>
 			<Piece id="vlandian_grip_11" Type="Handle"/>
-			<Piece id="vlandian_pommel_2" Type="Pommel"/>
+			<Piece id="sturgian_pommel_10" Type="Pommel"/>
 		</Pieces>
 		<!-- Length: 107 Weight: 1.07 -->
 	</CraftedItem>
@@ -624,55 +775,56 @@
 	<CraftedItem id="broad_arming_sword_t4" name="{=b8AgXwbL}Broad Arming Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_2" Type="Blade"/>
-			<Piece id="vlandian_guard_4" Type="Guard"/>
+			<Piece id="aserai_guard_6" Type="Guard"/>
 			<Piece id="cleaver_grip_7" Type="Handle"/>
 			<Piece id="sturgian_noble_pommel_2" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 107 Weight: 1.12 -->
+		<!-- Length: 109 Weight: 1.08 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_sword_5_t5" name="{=VAcSEseI}Wide Fullered Broad Arming Sword" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
-			<Piece id="vlandian_blade_3" Type="Blade" scale_factor="100"/>
-			<Piece id="vlandian_guard_8" Type="Guard" scale_factor="100"/>
-			<Piece id="vlandian_grip_20" Type="Handle" scale_factor="100"/>
-			<Piece id="vlandian_pommel_9" Type="Pommel" scale_factor="100"/>
+			<Piece id="vlandian_blade_3" Type="Blade"/>
+			<Piece id="aserai_noble_guard_4" Type="Guard"/>
+			<Piece id="vlandian_grip_20" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_3" Type="Pommel" scale_factor="110"/>
 		</Pieces>
+		<!-- Length: 104 Weight: 1.29 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_noble_sword_1_t5" name="{=Zcaucj4W}Decorated Arming Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
-			<Piece id="vlandian_noble_blade_4" Type="Blade" scale_factor="105"/>
+			<Piece id="vlandian_noble_blade_4" Type="Blade" scale_factor="150"/>
 			<Piece id="vlandian_noble_guard_3" Type="Guard"/>
 			<Piece id="vlandian_noble_grip_3" Type="Handle"/>
 			<Piece id="AR_empire_pommel_b" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 76 Weight: 0.9 -->
+		<!-- Length: 105 Weight: 1.13 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_noble_sword_2_t5" name="{=ZsaukY0N}Arming Sword with Circle" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
-			<Piece id="vlandian_noble_blade_1" Type="Blade" scale_factor="110"/>
-			<Piece id="vlandian_noble_guard_1" Type="Guard"/>
+			<Piece id="vlandian_noble_blade_1" Type="Blade" scale_factor="130"/>
+			<Piece id="sturgian_noble_guard_4" Type="Guard"/>
 			<Piece id="vlandian_noble_grip_4" Type="Handle" scale_factor="110"/>
 			<Piece id="sturgian_noble_pommel_4" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 85 Weight: 0.98 -->
+		<!-- Length: 100 Weight: 1.15 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_noble_sword_3_t5" name="{=P9FUrH8a}Gold Engraved Arming Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
-			<Piece id="vlandian_noble_blade_2" Type="Blade" scale_factor="105"/>
+			<Piece id="vlandian_noble_blade_5" Type="Blade"/>
 			<Piece id="vlandian_noble_guard_3" Type="Guard"/>
 			<Piece id="sturgian_noble_grip_4" Type="Handle" scale_factor="110"/>
 			<Piece id="vlandian_noble_pommel_3" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 81 Weight: 1.08 -->
+		<!-- Length: 107 Weight: 1.19 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_noble_sword_4_t5" name="{=4q69NwNy}Crescent Guarded Arming Sword" crafting_template="OneHandedSword" is_merchandise="false" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
-			<Piece id="vlandian_noble_blade_3" Type="Blade"/>
+			<Piece id="vlandian_blade_3" Type="Blade"/>
 			<Piece id="vlandian_noble_guard_4" Type="Guard"/>
 			<Piece id="sturgian_noble_grip_2" Type="Handle"/>
 			<Piece id="empire_noble_pommel_3" Type="Pommel" scale_factor="90"/>
 		</Pieces>
-		<!-- Length: 70 Weight: 0.89 -->
+		<!-- Length: 101 Weight: 1.26 -->
 	</CraftedItem>
 	<CraftedItem id="wooden_sword_t1" name="{=1HWRwbwT}Wooden Sword" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false" modifier_group="sword">
 		<Pieces>
@@ -738,6 +890,24 @@
 		</Pieces>
 		<!-- Length: 110 Weight: 1.12 -->
 	</CraftedItem>
+	<CraftedItem id="western_2hsword_t3" name="{=ekUvh8Em}Tapered Two-Hander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_2" Type="Blade"/>
+			<Piece id="sturgian_guard_1" Type="Guard"/>
+			<Piece id="cleaver_grip_10" Type="Handle" scale_factor="110"/>
+			<Piece id="empire_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 105 Weight: 1.37 -->
+	</CraftedItem>
+	<CraftedItem id="western_2hsword_t4" name="{=rtRGq1uU}Broad Two Hander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_blade_2" Type="Blade"/>
+			<Piece id="aserai_guard_3" Type="Guard"/>
+			<Piece id="vlandian_grip_7" Type="Handle"/>
+			<Piece id="empire_pommel_4" Type="Pommel" scale_factor="90"/>
+		</Pieces>
+		<!-- Length: 109 Weight: 1.05 -->
+	</CraftedItem>
 	<CraftedItem id="war_razor_2hsword_t4" name="{=4RTsybkx}War Razor" crafting_template="TwoHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="cleaver_blade_5" Type="Blade"/>
@@ -750,12 +920,12 @@
 	<!-- Daggers -->
 	<CraftedItem id="gladius_b" name="Gladius" crafting_template="Dagger" culture="Culture.empire" modifier_group="sword">
 		<Pieces>
-			<Piece id="dagger_blade_11" Type="Blade" scale_factor="250"/>
+			<Piece id="dagger_blade_6" Type="Blade" scale_factor="150"/>
 			<Piece id="battania_dagger_guard_6" Type="Guard"/>
 			<Piece id="sturgian_grip_4" Type="Handle"/>
 			<Piece id="battania_pommel_6" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 88 Weight: 0.97 -->
+		<!-- Length: 80 Weight: 0.87 -->
 	</CraftedItem>
 	<CraftedItem id="pugio" name="{=bVzkrtUc}Pugio" crafting_template="Dagger" culture="Culture.empire" modifier_group="sword">
 		<Pieces>

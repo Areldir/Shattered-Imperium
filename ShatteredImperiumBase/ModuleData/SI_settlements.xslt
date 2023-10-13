@@ -1195,7 +1195,7 @@
 		<xsl:attribute name='text'>{=si_ar_town_V8_text}Ostican was once a minor port of the Calradian Empire, known as a haven for seafarers travelling from the Ebor Peninsula to and from the oceans to the west and north of Calradia. Many were talented corsairs, employed by various factions of the Calradian Empire to harry their foes during their intermittent civil wars. Indeed, some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V8_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V8_1_text}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its daring fishermen, who venture out far to find banks, chilled by currents from the north, that are rich in cod.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V8_1_text}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its uncommonly fine horses, who graze on the sparse tundra between the mountains and the sea.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V8_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V8_2_text}Cananc lies in the wet wooded hills of the northern Rhennod, where cedars grow tall in the sea-mists. The villagers trap beaver, marten and rabbit for their pelts.</xsl:attribute>
@@ -1227,6 +1227,12 @@
 		<xsl:attribute name='owner'>Faction.clan_vlandia_2</xsl:attribute>
 	</xsl:template>
 	<!-- dey Folcun -->
+	<xsl:template match='Settlement[@id="castle_village_V4_1"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_V4_1" village_type="VillageType.wheat_farm" hearth="429" gate_rotation="0.208" bound="Settlement.castle_V4" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V4_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_V4_1_text}Ormanfard sits by a small, fast-flowing river that runs down from the mountains of the Rhennod to fill the Llyn Modris - the lake now known to the Vlandians as Ocspool. Rains are plentiful and wheat and barley grow well on the hillsides.</xsl:attribute>
 	</xsl:template>
@@ -1245,7 +1251,7 @@
 	</xsl:template>
 	<!-- dey Jelind -->
 	<xsl:template match="Settlement[@id='castle_village_V2_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_ castle_village_V2_1_text}Hongard sits in the warm wooded lands near the meandering Trand river. This land, rich in wheat and once the heartland of the Empire, is now the center of the Vlandian kingdom.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_ castle_village_V2_1_text}Hongard sits in the warm wooded lands near the meandering Trand river. This land, rich in wheat and once the heartland of the Calradian Empire, now forms the center of the nascent Vlandian kingdom.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V2_2']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_village_V2_2_name}Pherytona</xsl:attribute>
@@ -1536,11 +1542,11 @@
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<!--
-	Jokbyalic Kingdom
+	Byalic Confederation
 	-->
-	<!-- Aurvantus -->
+	<!-- Suomalai -->
 	<xsl:template match="Settlement[@id='town_EN6']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_EN6_text}Amprela is the foremost town of the far northeast of the Calradian Empire. Atop its towers, one may see beacons from the frontier fortresses to the north, east and west that might signal the approach of raiders. In spite of the recent capture of the town by the Jokbyals, little in Amprela appears to have changed from times of old. Horse archers recruited from the rough Eleftheroi freemen still drink in the barracks, waiting for the order to ride out against horsemen from the steppe, and cataphracts can still be seen to sally through its gates to vie for control of the trade crossing the nearby network of lakes known as the Iltan portages.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_EN6_text}Amprela is the foremost town of the far northeast of the Calradian Empire. Atop its towers, one may see beacons from the frontier fortresses to the north, east and west that might signal the approach of raiders. Horse archers recruited from the rough Eleftheroi freemen drink in the barracks, waiting for the order to ride out against the nomads of the steppe, and cataphracts can be seen to sally through its gates to vie for control of the trade crossing the nearby network of lakes known as the Iltan portages.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_EN6_2_text}Boreagora lies in the cold north of the Empire, by the network of glacial lakes known as the portages of Iltan. Nearby imperial forts, looming over the waterways, keep watch for raiders from the steppe and northlands. The lowlands here are suited to the growing of flax.</xsl:attribute>
@@ -1557,7 +1563,7 @@
 	<xsl:template match="Settlement[@id='village_EN6_2']/@culture">
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template-->
-	<!-- Bructarach -->
+	<!-- Karzali -->
 	<xsl:template match="Settlement[@id='castle_village_EN2_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_EN2_2_text}Nortanisa is a fishing village on the southern shores of Lake Laconis. Villagers place nets and cages in the shallow edges of the lake to catch roach, bream, perch, and crayfish.</xsl:attribute>
 	</xsl:template>
@@ -1570,7 +1576,7 @@
 	<xsl:template match="Settlement[@id='castle_village_EN2_2']/@culture">
 		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template-->
-	<!-- Jutungar -->
+	<!-- Hamalai -->
 	<xsl:template match="Settlement[@id='castle_village_EN7_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_1_text}Epinosa lies in the far north of the Calradian Empire, just south of the glacial lakes known as the Iltan Portages where ships are hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
 	</xsl:template>
@@ -1757,7 +1763,6 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Sowdafar -->
-	
 	<xsl:template match='Settlement[@id="town_K2"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>

@@ -8,6 +8,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_1_1']/@name">
 		<xsl:attribute name="name">Camnon</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_flamboyant"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_2']/@name">
 		<xsl:attribute name="name">Jolanna</xsl:attribute>
 	</xsl:template>
@@ -65,6 +72,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_1_7']/@name">
 		<xsl:attribute name="name">Scipsor</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_7"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_flamboyant"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_8']/@name">
 		<xsl:attribute name="name">Gandarina</xsl:attribute>
 	</xsl:template>
@@ -91,6 +105,13 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_14']/@name">
 		<xsl:attribute name="name">Destasea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_14"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_15']/@name">
 		<xsl:attribute name="name">Vitalios</xsl:attribute>
@@ -604,6 +625,13 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_1']/@name">
 		<xsl:attribute name="name">Kharid</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_3_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="ase_bat_template_flamboyant"/>
+			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_2']/@name">
 		<xsl:attribute name="name">Mahayl</xsl:attribute>
@@ -1172,63 +1200,67 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_26_1']/@name">
 		<xsl:attribute name="name">Lietgardis</xsl:attribute>
 	</xsl:template>
-
 	<!--xsl:template match="NPCCharacter[@id='lord_K9_l']/@culture">
 		<xsl:attribute name="culture">Culture.khuzait</xsl:attribute>
 	</xsl:template-->
-
 	<xsl:template match='NPCCharacter[@id="lord_1_14"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="42" weight="0.4469" build="0.6034" key="000A600D802C300A92997D6827BC7B476656937B6567BC477951AA3B495B439800894603083A389400000000000000000000000000000000000000003B044003"/>
+			<BodyProperties version="4" weight="0.4469" build="0.6034" key="000A600D802C300A92997D6827BC7B476656937B6567BC477951AA3B495B439800894603083A389400000000000000000000000000000000000000003B044003"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_1_37"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="21" weight="0.2469" build="0.6034" key="0013600D802C300B92997D6827BC7B47A794937B6567BC47889A4E8D8D45A3C7008946030826888100000000000000000000000000000000000000003B0420C3"/>
+			<BodyProperties version="4" weight="0.2469" build="0.6034" key="0013600D802C300B92997D6827BC7B47A794937B6567BC47889A4E8D8D45A3C7008946030826888100000000000000000000000000000000000000003B0420C3"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_3_18"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4608" build="0.875" key="001E8C0D80000483AE98416865866A992DC4599D492BC68477A787688E78465F007D700307B7B787000000000000000000000000000000000000000016F08104"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="48" weight="0.5355" build="0.5046" key="002BB00F00581A193D566B73B67B261542B7AD6148BA8C4A9B58C9B998B29ACD0098860309C2635B000000000000000000000000000000000000000017247082"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046" key="002BB00F00581A193D566B73B67B261542B7AD6148BA8C4A9B58C9B998B29ACD0098860309C2635B000000000000000000000000000000000000000017247082"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="46" weight="0.5355" build="0.5046" key="0020B00FC05810013D566B73B67B261542B7AD6148BA8C4A9B58C9B998B29ACD0098860309C2635B000000000000000000000000000000000000000017244083"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046" key="0020B00FC05810013D566B73B67B261542B7AD6148BA8C4A9B58C9B998B29ACD0098860309C2635B000000000000000000000000000000000000000017244083"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19_2"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="22" weight="0.5355" build="0.5046" key="002EB00FC058001278B8E84784DBA95A42B78B5E434AB5B679C4B42D98B29ACD00988603093A1C88000000000000000000000000000000000000000017241083"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046" key="002EB00FC058001278B8E84784DBA95A42B78B5E434AB5B679C4B42D98B29ACD00988603093A1C88000000000000000000000000000000000000000017241083"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19_3"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="20" weight="0.5355" build="0.5046" key="0036B80F0058100246A874872898854742B718997C57B83B6A8664BD98B29ACD0098860309A655D6000000000000000000000000000000000000000017242043"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046" key="0036B80F0058100246A874872898854742B718997C57B83B6A8664BD98B29ACD0098860309A655D6000000000000000000000000000000000000000017242043"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_23"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="24" weight="0.5355" build="0.5046" key="0031C80F0058295379B31678635B8A7B42B74D7AA36B6679D857829598B29ACD00988603094DB55C000000000000000000000000000000000000000017247002"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046" key="0031C80F0058295379B31678635B8A7B42B74D7AA36B6679D857829598B29ACD00988603094DB55C000000000000000000000000000000000000000017247002"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_23_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="22" weight="0.5355" build="0.5046" key="0029D80F005810027477587627566A85B9A287A573638BE2A6CBAD79A4A5B3E80098860309C937880000000000000000000000000000000000000000172440C3"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046" key="0029D80F005810027477587627566A85B9A287A573638BE2A6CBAD79A4A5B3E80098860309C937880000000000000000000000000000000000000000172440C3"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_6_4"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="50" weight="0.5" build="0.5" key="0010AC0FC0003001B73A98A8857586339B198699F7BF6AA8788A3AE89946CA6500477603047B385E000000000000000000000000000000000000000034941043"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0010AC0FC0003001B73A98A8857586339B198699F7BF6AA8788A3AE89946CA6500477603047B385E000000000000000000000000000000000000000034941043"/>
 		</xsl:copy>
 	</xsl:template>
 </xsl:stylesheet>

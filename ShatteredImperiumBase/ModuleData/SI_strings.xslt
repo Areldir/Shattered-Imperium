@@ -143,4 +143,6 @@
 	<xsl:template match="string[@id='str_comment_special_clan_intro_wolfskins.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_embers_of_flame.default']"/>
 	<xsl:template match="string[@id='str_comment_special_clan_intro_eleftheroi.default']"/>
+	<xsl:template match="string[@id='str_comment_special_clan_intro_company_of_the_boar.default']"/>
+	<xsl:template match="string[@id='str_comment_special_clan_intro_brotherhood_of_woods.default']"/>
 </xsl:stylesheet>

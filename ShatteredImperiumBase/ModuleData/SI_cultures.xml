@@ -504,6 +504,7 @@
 			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
 			<template name="NPCCharacter.AR_min_yachios_t3"/>
 			<template name="NPCCharacter.AR_min_paravenos_exiles_t3"/>
+			<template name="NPCCharacter.AR_min_biscan_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="aserai"
@@ -1578,7 +1579,7 @@
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_min_companyboar_t3"/>
 			<template name="NPCCharacter.AR_min_swadians_t3"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_min_biscan_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="battania"
@@ -2715,6 +2716,7 @@
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
 			<template name="NPCCharacter.AR_min_paravenos_exiles_t3"/>
+			<template name="NPCCharacter.AR_min_biscan_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_n"
@@ -3203,6 +3205,7 @@
 			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
+			<template name="NPCCharacter.AR_min_biscan_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="kannic"
@@ -3871,6 +3874,16 @@
 			<name name="{=!*}Pekko"/>
 			<name name="{=!*}Rauko"/>
 			<name name="{=!*}Vuoni"/>
+			<name name="{=!*}Volbmar"/>
+			<name name="{=!*}Bihto"/>
+			<name name="{=!*}Mihkkal"/>
+			<name name="{=!*}Dorste"/>
+			<name name="{=!*}Veaiku"/>
+			<name name="{=!*}Juvven"/>
+			<name name="{=!*}Ravdnar"/>
+			<name name="{=!*}Nilsa"/>
+			<name name="{=!*}Guhtur"/>
+			<name name="{=!*}Ovlin"/>
 		</male_names>
 		<female_names>
 			<name name="{=vz038vX7}Achita"/>
@@ -3919,6 +3932,16 @@
 			<name name="{=!*}Menar"/>
 			<name name="{=!*}Olianar"/>
 			<name name="{=!*}Vikka"/>
+			<name name="{=!*}Soffa"/>
+			<name name="{=!*}Nienna"/>
+			<name name="{=!*}Ester"/>
+			<name name="{=!*}Lotta"/>
+			<name name="{=!*}Selbma"/>
+			<name name="{=!*}Aire"/>
+			<name name="{=!*}Leandu"/>
+			<name name="{=!*}Linne"/>
+			<name name="{=!*}Ikka"/>
+			<name name="{=!*}Biret"/>
 		</female_names>
 		<clan_names>
 			<name name="{=OLLYkaWd}Asraloving"/>
@@ -4408,7 +4431,7 @@
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.AR_min_companyboar_t3"/>
 			<template name="NPCCharacter.AR_min_swadians_t3"/>
-			<template name="NPCCharacter.sword_sisters_sister_t3"/>
+			<template name="NPCCharacter.AR_min_biscan_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="darshi"
@@ -4720,7 +4743,7 @@
 	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_jokbyalic"
 	         faction_banner_key="11.45.123.6296.6296.764.764.1.0.0.460.0.3.509.509.764.764.1.0.0"
 	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
-	         text="To the north of the Calradian steppe dwell a myriad of tribes, referred to by the nomads as the 'Jokbyalics', simply 'those Byalics who live above us'. A hardy, warlike people, they have for centuries lived in small isolated villages, carving out a meagre existence raising sheep and cattle in the thin expanses of grassland between river and forest. However, in the year 946, the Nachaghan tribe from the east thundered into the Jokbyalic territory, pillaging the land and enslaving its people. Threatened with annihilation, the Jokbyalics were forced to migrate west, carving a bloody swathe across the Iltan Portages into the Calradian Empire. After routing the legions and killing the Calradian Emperor Themestios, they now find themselves with a small kingdom in the Calradian borderlands, far from their home, with threats on all sides."
+	         text="To the north of the Calradian steppe dwell a myriad of tribes, referred to by the people of Calradia as the Byals. A hardy, warlike people, they have for centuries lived in small isolated villages, carving out a meagre existence raising sheep and cattle in the thin expanses of grassland between river and forest. However, in the year 946, the Nachaghan tribe from the east thundered into the Byalic territory, pillaging the land and enslaving its people. Threatened with annihilation, the Byalics were forced to migrate west, carving a bloody swathe across the Iltan Portages into the Calradian Empire. After routing the legions and killing the Calradian Emperor Themestios, they now find themselves with a small kingdom in the Calradian borderlands, far from their home, with threats on all sides."
 	         tournament_master="NPCCharacter.AR_jok_tournament_master"
 	         villager="NPCCharacter.AR_jok_villager"
 	         caravan_master="NPCCharacter.AR_jok_caravan_master"
@@ -4785,70 +4808,58 @@
 			<policy id="policy_lawspeakers"/>
 		</default_policies>
 		<male_names>
-			<name name="{=!*}Rikiar"/>
-			<name name="{=!*}Hermenigild"/>
-			<name name="{=!*}Hisarna"/>
-			<name name="{=!*}Vultuulf"/>
-			<name name="{=!*}Gesalec"/>
-			<name name="{=!*}Wala"/>
-			<name name="{=!*}Euric"/>
-			<name name="{=!*}Ovida"/>
-			<name name="{=!*}Anianus"/>
-			<name name="{=!*}Eraric"/>
-			<name name="{=!*}Tuluin"/>
-			<name name="{=!*}Remismund"/>
-			<name name="{=!*}Vinitharius"/>
-			<name name="{=!*}Sigisvult"/>
-			<name name="{=!*}Ataulf"/>
-			<name name="{=!*}Ricimer"/>
-			<name name="{=!*}Braga"/>
-			<name name="{=!*}Valaravans"/>
-			<name name="{=!*}Goddas"/>
-			<name name="{=!*}Vandil"/>
-			<name name="{=!*}Theoderic"/>
-			<name name="{=!*}Thrasaric"/>
-			<name name="{=!*}Gadaric"/>
-			<name name="{=!*}Heldebald"/>
-			<name name="{=!*}Winguric"/>
-			<name name="{=!*}Tribigild"/>
-			<name name="{=!*}Irnfried"/>
-			<name name="{=!*}Vitigis"/>
-			<name name="{=!*}Athanagild"/>
-			<name name="{=!*}Chindasuinth"/>
-			<name name="{=!*}Untheric"/>
+			<name name="{=!*}Volbmar"/>
+			<name name="{=!*}Bihto"/>
+			<name name="{=!*}Mihkkal"/>
+			<name name="{=!*}Dorste"/>
+			<name name="{=!*}Veaiku"/>
+			<name name="{=!*}Juvven"/>
+			<name name="{=!*}Ravdnar"/>
+			<name name="{=!*}Nilsa"/>
+			<name name="{=!*}Guhtur"/>
+			<name name="{=!*}Ovlin"/>
+			<name name="{=ig8zAo8f}Ori"/>
+			<name name="{=!*}Aedin"/>
+			<name name="{=!*}Aeric"/>
+			<name name="{=!*}Bulba"/>
+			<name name="{=!*}Dirigun"/>
+			<name name="{=!*}Faarn"/>
+			<name name="{=!*}Ragnar"/>
+			<name name="{=!*}Gundur"/>
+			<name name="{=!*}Knudarr"/>
+			<name name="{=!*}Olaf"/>
+			<name name="{=!*}Asvald"/>
+			<name name="{=!*}Thord"/>
+			<name name="{=!*}Sigeferth"/>
+			<name name="{=!*}Osvif"/>
+			<name name="{=!*}Borstig"/>
 		</male_names>
 		<female_names>
-			<name name="{=!*}Areagne"/>
-			<name name="{=!*}Amelina"/>
-			<name name="{=!*}Hilduara"/>
-			<name name="{=!*}Monia"/>
-			<name name="{=!*}Geloyra"/>
-			<name name="{=!*}Brenhilda"/>
-			<name name="{=!*}Liuva"/>
-			<name name="{=!*}Ereleuva"/>
-			<name name="{=!*}Talida"/>
-			<name name="{=!*}Gudeliva"/>
-			<name name="{=!*}Garsendis"/>
-			<name name="{=!*}Elja"/>
-			<name name="{=!*}Glismoda"/>
-			<name name="{=!*}Lorelei"/>
-			<name name="{=!*}Kaethe"/>
-			<name name="{=!*}Wilgefortis"/>
-			<name name="{=!*}Amalberga"/>
-			<name name="{=!*}Vadamerca"/>
-			<name name="{=!*}Lucienne"/>
-			<name name="{=!*}Sunilda"/>
-			<name name="{=!*}Mira"/>
-			<name name="{=!*}Narin"/>
-			<name name="{=!*}Attala"/>
-			<name name="{=!*}Gailesvintha"/>
-			<name name="{=!*}Emalia"/>
-			<name name="{=!*}Erelieva"/>
-			<name name="{=!*}Theodananda"/>
-			<name name="{=!*}Gelvira"/>
-			<name name="{=!*}Rasha"/>
-			<name name="{=!*}Gaatha"/>
-			<name name="{=!*}Gertlind"/>
+			<name name="{=!*}Soffa"/>
+			<name name="{=!*}Nienna"/>
+			<name name="{=!*}Ester"/>
+			<name name="{=!*}Lotta"/>
+			<name name="{=!*}Selbma"/>
+			<name name="{=!*}Aire"/>
+			<name name="{=!*}Leandu"/>
+			<name name="{=!*}Linne"/>
+			<name name="{=!*}Ikka"/>
+			<name name="{=!*}Biret"/>
+			<name name="{=L0fuYckc}Friga"/>
+			<name name="{=!*}Matheld"/>
+			<name name="{=!*}Afrid"/>
+			<name name="{=!*}Dria"/>
+			<name name="{=!*}Bryn"/>
+			<name name="{=!*}Eilif"/>
+			<name name="{=!*}Endegrid"/>
+			<name name="{=!*}Herjasa"/>
+			<name name="{=!*}Jadeth"/>
+			<name name="{=!*}Kaeteli"/>
+			<name name="{=!*}Hallgerd"/>
+			<name name="{=!*}Asleif"/>
+			<name name="{=!*}Grelod"/>
+			<name name="{=!*}Melkorka"/>
+			<name name="{=!*}Hildirid"/>
 		</female_names>
 		<clan_names>
 			<name name="{=!*}Aertus"/>
@@ -4981,6 +4992,11 @@
 			<name name="{=!*}Gundur"/>
 			<name name="{=!*}Knudarr"/>
 			<name name="{=!*}Olaf"/>
+			<name name="{=!*}Asvald"/>
+			<name name="{=!*}Thord"/>
+			<name name="{=!*}Sigeferth"/>
+			<name name="{=!*}Osvif"/>
+			<name name="{=!*}Borstig"/>
 		</male_names>
 		<female_names>
 			<name name="{=L0fuYckc}Friga"/>
@@ -4993,6 +5009,11 @@
 			<name name="{=!*}Herjasa"/>
 			<name name="{=!*}Jadeth"/>
 			<name name="{=!*}Kaeteli"/>
+			<name name="{=!*}Hallgerd"/>
+			<name name="{=!*}Asleif"/>
+			<name name="{=!*}Grelod"/>
+			<name name="{=!*}Melkorka"/>
+			<name name="{=!*}Hildirid"/>
 		</female_names>
 	</Culture>
 	<Culture id="palaic"
