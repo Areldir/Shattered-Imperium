@@ -95,7 +95,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Sword Infantry Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_swordsman" default_group="Ranged" level="26" name="{=si_ar_ase_t5_swordsman}Aserai Palace Guard Spearman" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_swordsman" default_group="Ranged" level="26" name="{=si_ar_ase_t5_swordsman}Aserai Town Guard Spearman" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -185,7 +185,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Slinger Medium Skill 60-130 -->
-	<NPCCharacter id="AR_ase_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_ase_t5_slinger}Aserai Palace Guard Slinger" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t5_slinger" default_group="Ranged" level="26" name="{=si_ar_ase_t5_slinger}Aserai Town Guard Slinger" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -323,7 +323,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Spear Infantry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_spearman" default_group="Infantry" level="31" name="{=si_ar_ase_t6_spearman}Aserai Immortal Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t6_spearman" default_group="Infantry" level="31" name="{=si_ar_ase_t6_spearman}Aserai Haris Spearman" formation_position_preference="Back" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -437,7 +437,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Archer Medium Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_archer" default_group="Ranged" level="31" name="{=si_ar_ase_t6_archer}Aserai Immortal Archer" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t6_archer" default_group="Ranged" level="31" name="{=si_ar_ase_t6_archer}Aserai Haris Archer" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -506,7 +506,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Cavalry Archer Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_camel" default_group="HorseArcher" level="31" name="{=si_ar_ase_t6_camel}Aserai Immortal Dromedary Warrior" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t6_camel" default_group="HorseArcher" level="31" name="{=si_ar_ase_t6_camel}Aserai Haris Dromedary Warrior" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -595,8 +595,6 @@
 		<Equipments>
 			<EquipmentSet id="AR_ase_t4_heavy_cavalry_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
-			<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_ze"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Elite Cavalry Heavy Skill 60-130 -->
@@ -623,7 +621,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Elite Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_heavy_cavalry}Aserai Immortal Horseguard" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t6_heavy_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_heavy_cavalry}Aserai Haris Horseguard" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
@@ -690,7 +688,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T6 Elite Lancer Cavalry Very Heavy Skill 80-180 -->
-	<NPCCharacter id="AR_ase_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_lance_cavalry}Aserai Immortal Cataphract" occupation="Soldier" culture="Culture.aserai">
+	<NPCCharacter id="AR_ase_t6_lance_cavalry" default_group="Cavalry" level="31" name="{=si_ar_ase_t6_lance_cavalry}Aserai Haris Cataphract" occupation="Soldier" culture="Culture.aserai">
 		<face>
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
