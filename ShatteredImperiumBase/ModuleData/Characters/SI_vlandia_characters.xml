@@ -835,6 +835,33 @@
 			<EquipmentSet id="AR_vla_village_woman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="AR_vla_village_woman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia"/>
+			<EquipmentSet id="AR_vla_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vla_village_woman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia"/>
+			<EquipmentSet id="AR_vla_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vla_village_woman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia"/>
+			<EquipmentSet id="AR_vla_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="AR_vla_townsman" default_group="Infantry" level="1" name="{=si_ar_vla_townsman}Vlandian Townsman" occupation="Townsfolk" culture="Culture.vlandia">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
@@ -873,6 +900,33 @@
 			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="AR_vla_townswoman_infant" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="AR_vla_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vla_townswoman_child" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="AR_vla_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vla_townswoman_teenager" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium"/>
+			<EquipmentSet id="AR_vla_villager_woman_child_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="AR_vla_beggar" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
@@ -891,6 +945,35 @@
 		<Equipments>
 			<EquipmentSet id="npc_wanderer_equipment_template_vlandia"/>
 			<EquipmentSet id="AR_s_emp_female_beggar_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vla_gangleader_bodyguard" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.vlandia" level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_gangleader_bodyguard_battletemplate"/>
+			<EquipmentSet id="AR_s_emp_gangleader_bodyguard_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_vla_tournament_master" default_group="Infantry" occupation="ArenaMaster" culture="Culture.vlandia" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentSet id="AR_vla_tournament_master_battletemplate"/>
+			<EquipmentSet id="AR_vla_tournament_master_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_vla_merchant_notary" default_group="Infantry" name="{=si_ar_vla_merchant_notary}Trader" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
