@@ -84,6 +84,15 @@
 	<xsl:template match="Settlement[@id='castle_B7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_2</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_B7_1"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_B7_1" village_type="VillageType.cattle_farm" hearth="809" gate_rotation="0.008" bound="Settlement.castle_B7" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B7_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_B7_1_text}Aster sits in a shallow valley between the hills of the northeastern Uchalion and the Rock of Glanys. The people of this region have the reputation of being more focused on trade than warfare, and tribal elders have encouraged the raising of vast herds of cattle to feed the markets of Dunglanys.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B7_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_B7_2_text}Imlagh lies on rolling downs in the middle of the Uchalion Massif. The village specializes in white grapes for the making of the sweet Battanian wines.</xsl:attribute>
 	</xsl:template>
@@ -199,8 +208,14 @@
 	<xsl:template match="Settlement[@id='castle_village_B2_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_B2_1_text}Llanoc Hen sits in a ridge in the heights of the Uchalion Massif. The villagers, known as skilled pig-farmers, look down two passes - the western one leading up from the disputed western lowlands lands and the eastern one leading up from the lands of the Calradian Empire.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_B2_2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_B2_2" village_type="VillageType.cattle_farm" hearth="397" gate_rotation="0.508" bound="Settlement.castle_B2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B2_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_B2_2_text}Cantrec sits in the rocky Glen of Balasog that climbs up from the Calradian lowlands  lands into the Uchalion Plateau. The land is not especially fertile here, but pigs thrive in the brush and shrubland of the heights.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_B2_2_text}Cantrec sits in the rocky Glen of Balasog that climbs up from the Calradian lowlands into the Uchalion Plateau. The land is not especially fertile here, but the villagers make do droving vast herds of cattle between the valleys below and the highland meadows above.</xsl:attribute>
 	</xsl:template>
 	<!-- fen Eingal -->
 	<xsl:template match="Settlement[@id='castle_B3']/@owner">

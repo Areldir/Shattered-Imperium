@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.kannic">
+	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
-			<face_key_template value="BodyProperty.fighter_kannic"/>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -16,13 +16,13 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.kannic">
+	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
 		<face>
-			<face_key_template value="BodyProperty.fighter_kannic"/>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -340,6 +340,25 @@
 			<EquipmentRoster/>
 			<EquipmentSet id="AR_emp_emperor_battletemplate"/>
 			<EquipmentSet id="AR_emp_emperor_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_1_16" name="{=si_ar_lord_1_16}Ulbos" default_group="Cavalry" age="71" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="71" weight="0.2315" build="0.5648"  key="0010480557B4034F6C7CAA89C3C5AA7592D571A4A387763D329B657437695D350068350306E9BA6200001105000030A30000001F00000000000000002CB81000"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="emp_bat_template_heavy"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!--

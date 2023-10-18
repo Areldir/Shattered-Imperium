@@ -52,7 +52,7 @@
 	         short_name="{=bgjiFSHZ}Battanians"
 	         title="{=qaDIU0XC}High Kingdom of the Battanians"
 	         ruler_title="{=afvM7XpQ}High King"
-	         text="">
+	         text="{=si_ar_kingdom_battania_text}From time immemorial there has been a high king of Battania, crowned with great ceremony on the sacred hill of Dunthanach to reign over the dark, mysterious forests and stony crags of the Uchalion Plateau. Ask any Battanian chieftain, however, whose ‘kingdom’ he lives in, and he will look around at his hall and his fields and his pastures, his flocks and his retainers, and answer ‘Mine, of course!’ The Battanians are, by nature, a free spirited and fiercely independent people, though they prove to be single-mindedly determined in both protecting what is theirs, and taking what is others. Only lately, following the example of the Calradian Empire, have the high kings of Battania made any effort to exert their authority. ‘Such unruly cattle as my people require a strong herdsman's hand to steer them from the ravine and protect them from the wolf,’ said one recent high king, just before he was betrayed by a jealous cousin and taken in chains to the nearest imperial outpost.">
 		<relationships>
 			<relationship kingdom="Kingdom.massa"
 			              value="-1"
@@ -63,7 +63,6 @@
 			<policy id="policy_lawspeakers"/>
 		</policies>
 	</Kingdom>
-
 	<!--
 	Calradian Empire
 	-->
@@ -80,13 +79,13 @@
 	         culture="Culture.empire"
 	         settlement_banner_mesh="encounter_flag_a"
 	         flag_mesh="info_screen_flags_b"
-	         name="{=AR_kingdom_empire_s_name}Calradian Empire"
-	         short_name="{=AR_kingdom_empire_s_short_name}Calradian Empire"
-	         title="{=AR_kingdom_empire_s_title}Calradian Empire"
-	         ruler_title="{=AR_kingdom_empire_s_ruler_title}Basileos"
-	         text="{=AR_kingdom_empire_s_text}According to tradition, the first Calradians entered the continent as exiles, following Calradios the Great across the vast Western Ocean to found a colony at Charasea. Over time, the Calradians relentlessly expanded their territories across the continent, founding new colonies and conquering neighbouring peoples until soon, their empire stretched from the Western Ocean to the Great Grass Sea. Cunning politics ensured new peoples and cultures were assimilated into the Empire, whilst the might of the legions ensured the stability of the borders. However, recently cracks have started to form in the very heart of the Calradian Empire, pitting brother against brother in a series of devastating civil wars. Smelling weakness, barbarians now make frequent incursions into the Empire's borders to raid, or worse, to carve out their own kingdoms. Despite this, to many in the Empire's heartland, life continues much as it always has. Farmers still toil under a blazing sun, the senate still meets to debate matters of state, and the vaunted imperial legions have lost none of their potency, carrying the Dragon Banner of Calradios forward to victory.">
+	         name="{=si_ar_kingdom_empire_s_name}Calradian Empire"
+	         short_name="{=si_ar_kingdom_empire_s_short_name}Calradian Empire"
+	         title="{=si_ar_kingdom_empire_s_title}Calradian Empire"
+	         ruler_title="{=si_ar_kingdom_empire_s_ruler_title}Emperor"
+	         text="{=si_ar_kingdom_empire_s_text}According to tradition, the first Calradians entered the continent as exiles, following Calradios the Great across the vast Western Ocean to found the great city of Charasea. Over time, the Calradians relentlessly expanded their territories across the continent, founding new colonies and conquering neighboring peoples until soon, their empire stretched from the Western Ocean to the Great Eastern Steppe. Cunning politics ensured new peoples and cultures were assimilated into the Empire, whilst the might of the legions ensured the stability of the borders. However, recently cracks have started to form in the very heart of the Calradian Empire, pitting brother against brother in a series of devastating civil wars. Smelling weakness, barbarians now make frequent incursions into the imperial borderlands to raid, or worse, to carve out their own kingdoms. Despite this, to many in the Calradian heartland, life continues much as it always has. Farmers still toil under a blazing sun, the Calradian Senate still meets to debate matters of state, and the vaunted imperial legions have lost none of their potency, carrying the Dragon Banner of Calradios forward to victory.">
 		<relationships>
-			<relationship kingdom="Kingdom.aserai"
+			<relationship kingdom="Kingdom.empire"
 			              value="-1"
 			              isAtWar="true"/>
 		</relationships>
@@ -111,13 +110,13 @@
 	         culture="Culture.empire_n"
 	         settlement_banner_mesh="encounter_flag_a"
 	         flag_mesh="info_screen_flags_b"
-	         name="{=AR_kingdom_empire_n_name}Eastern Calradian Despotate"
-	         short_name="{=AR_kingdom_empire_n_short_name}Eastern Calradian Despotate"
-	         title="{=AR_kingdom_empire_n_title}Eastern Calradian Despotate"
-	         ruler_title="{=AR_kingdom_empire_n_ruler_title}Strategos"
-	         text="{=AR_kingdom_empire_n_text}For the last two centuries, the vaunted legions of the Calradian Empire have won fame and fortune in the east, expanding the frontier greatly into the former lands of the Laconians. Halted when they reached the shores of Lake Tanaesis, they drained marshes and turned the river floodplains into wheatfields, cut back forests and turned the hillsides into pasture. The generals of the east; proud sons of the Empire's noble families, are uniquely bloodthirsty amongst their fellows. Three years ago, after a victory over the Jokbyalics that restored the fortunes of the Calradians, the pre-eminent general Zenon of the Neretzes clan was hailed Emperor by his troops, splitting the Calradian Empire and igniting civil war. Zenon, now styling himself Solarios 'Light-Giver', has forged the eastern provinces into a powerful empire, driving the armies of friend and foe alike before his battle-hardened legions.">
+	         name="{=si_ar_kingdom_empire_n_name}Eastern Calradian Despotate"
+	         short_name="{=si_ar_kingdom_empire_n_short_name}Eastern Calradian Despotate"
+	         title="{=si_ar_kingdom_empire_n_title}Eastern Calradian Despotate"
+	         ruler_title="{=si_ar_kingdom_empire_n_ruler_title}Emperor"
+	         text="{=si_ar_kingdom_empire_n_text}For the last two centuries, the vaunted legions of the Calradian Empire have won fame and fortune in the east, expanding the frontier greatly into the former lands of the Palaic people who dwelt beyond the Dryatic Mountains. Halted when they reached the shores of Lake Tanaesis, they drained marshes and turned the river floodplains into wheatfields, cut back forests and turned the hillsides into pasture. However, the shifting fortunes of life on the eastern frontier have turned over the past centuries, and thundering hooves can be heard far and wide across the steppes of the east. In 949, this came to a head when, forced onwards by nomadic incursions, the Byalic people invaded the Calradian Empire, killing Emperor Themestios Comnos in battle and routing his armies. The situation was restored by the talented - albeit decidedly insane - general Zenon of the Neretzes family, who succeeded in defeating the Byals, halting their advance further into imperial territory and reclaiming the Dragon Banner of Calradios. Though he sent the banner back to imperial authorities as a gesture of goodwill, his troops hailed him as emperor, splitting the Calradian Empire and igniting the civil war that now rages. Zenon, now styling himself Solarios 'Light-Giver', has since forged the eastern provinces into a powerful empire, driving the armies of friend and foe alike before his battle-hardened legions.">
 		<relationships>
-			<relationship kingdom="Kingdom.khuzait"
+			<relationship kingdom="Kingdom.empire_s"
 			              value="-1"
 			              isAtWar="true"/>
 		</relationships>
@@ -142,11 +141,11 @@
 	         culture="Culture.empire_w"
 	         settlement_banner_mesh="encounter_flag_a"
 	         flag_mesh="info_screen_flags_a"
-	         name="{=AR_kingdom_empire_w_name}Western Calradian Republic"
-	         short_name="{=AR_kingdom_empire_w_short_name}Western Calradian Republic"
-	         title="{=AR_kingdom_empire_w_title}Western Calradian Republic"
-	         ruler_title="{=AR_kingdom_empire_w_ruler_title}Illustrios"
-	         text="{=AR_kingdom_empire_w_text}The warm, green land of oak forests and volcanic outcrops that makes up the western provinces of the Calradian Empire is the spiritual heartland of the Calradians. According to legend, Calradios the Great first landed at the site of the present-day city of Charasea, laying the foundation of an empire which would last through the ages. However, now the Empire's western provinces are in crisis. The former capital city of Paravenos has fallen to the Vlandians - one-time auxiliaries in the Empire's legions. Facing an existential threat to their ancestral lands and way of life, the senators of the western provinces voted for secession from the Empire, electing the Praetor of Charasea to lead them in plunging the Empire further into civil war.">
+	         name="{=si_ar_kingdom_empire_w_name}Western Calradian Republic"
+	         short_name="{=si_ar_kingdom_empire_w_short_name}Western Calradian Republic"
+	         title="{=si_ar_kingdom_empire_w_title}Western Calradian Republic"
+	         ruler_title="{=si_ar_kingdom_empire_w_ruler_title}Emperor"
+	         text="{=si_ar_kingdom_empire_w_text}The western lands of Calradia form the spiritual heartland of the Calradian people. It was this land which, over a millennium ago, saw the arrival of Calradios the Great and his companions on the coast of the continent, founding the colony of Charasea and laying the foundation of an empire which would last through the ages. But the Calradian Empire’s center of gravity has since moved further eastwards, and their original heartland - has been lost to both the Vlandians and Massa. The west of the Empire today, a warm green land of oak forests and volcanic outcrops, was mostly conquered from the Palaic tribes. Over the centuries, they have intermarried with Calradian colonists and today their old languages and customs are mostly forgotten. Service in the legions has traditionally been a path out of rural poverty and many an ambitious general has drawn his most loyal recruits from this region. Facing an existential threat to their ancestral lands and way of life, the senators of the western provinces voted for secession from the Empire, hailing the Archon of Charasea as Emperor to lead them and raising legions to fight both friend and foe.">
 		<relationships>
 			<relationship kingdom="Kingdom.vlandia"
 			              value="-1"
@@ -173,13 +172,13 @@
 	         culture="Culture.khuzait"
 	         settlement_banner_mesh="encounter_flag_f"
 	         flag_mesh="info_screen_flags_b"
-	         name="{=AR_kingdom_iltanlar_name}Iltanlar Khanate"
-	         short_name="{=AR_kingdom_iltanlar_short_name}Iltanlar"
-	         title="{=AR_kingdom_iltanlar_title}Iltanlar Khanate"
-	         ruler_title="{=AR_kingdom_iltanlar_ruler_title}Khan"
-	         text="{=AR_kingdom_iltanlar_text}For centuries, the tribes in the vast steppe east of Calradia have been content to live as nomads, venturing into the western lands to raid and trade, and then returning to their ancestral freedom. Just over a century however, a number of tribes confederated and settled the western plateau known as the Devseg, becoming known as Iltanlar due to their frequent travels into the Iltan Portages. Whilst still largely autonomous, these tribes have notionally fallen under the control of the Itakhar; the strongest tribe inhabiting the Devseg, hailing their leader as Khan of an uneasy tribal alliance.">
+	         name="{=si_ar_kingdom_iltanlar_name}Iltanlar Khanate"
+	         short_name="{=si_ar_kingdom_iltanlar_short_name}Iltanlar"
+	         title="{=si_ar_kingdom_iltanlar_title}Iltanlar Khanate"
+	         ruler_title="{=si_ar_kingdom_iltanlar_ruler_title}Khan"
+	         text="">
 		<relationships>
-			<relationship kingdom="Kingdom.empire"
+			<relationship kingdom="Kingdom.tanash"
 			              value="-1"
 			              isAtWar="true"/>
 		</relationships>
@@ -190,7 +189,7 @@
 	</Kingdom>
 	<!--
 	Sturgian Chiefdoms
-	-->	
+	-->
 	<Kingdom id="sturgia"
 	         owner="Hero.lord_2_1"
 	         banner_key="11.12.12.4345.4345.768.768.1.0.0.462.13.13.512.512.769.764.1.0.0"
@@ -250,7 +249,6 @@
 			<policy id="policy_castle_charters"/>
 		</policies>
 	</Kingdom>
-
 	<!-- Lesser Kingdom Factions -->
 	<Kingdom id="vaegiria"
 	         owner="Hero.AR_lord_8_1"
@@ -448,8 +446,6 @@
 			<policy id="policy_council_of_elders"/>
 		</policies>
 	</Kingdom>
-	
-	
 	<Kingdom id="yachios"
 	         owner="Hero.AR_lord_15_1"
 	         banner_key="11.116.116.4000.4000.764.764.1.0.0.119.11.0.300.300.764.764.0.1.15.202.11.0.400.300.624.784.0.1.270.202.11.0.400.300.904.784.0.0.90.500.11.0.600.600.764.771.0.0.0"
@@ -478,7 +474,6 @@
 			<policy id="policy_land_grants_for_veterans"/>
 		</policies>
 	</Kingdom>
-	
 	<Kingdom id="paravenos"
 	         owner="Hero.AR_lord_16_1"
 	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"
@@ -507,6 +502,4 @@
 			<policy id="policy_council_of_elders"/>
 		</policies>
 	</Kingdom>
-	
-	
 </Kingdoms>
