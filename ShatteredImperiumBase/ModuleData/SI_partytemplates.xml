@@ -70,7 +70,7 @@
 	<MBPartyTemplate id="villager_massa_template">
 		<stacks>
 			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_mas_villager"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.village_woman_massa"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_mas_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_vakken_template">
@@ -276,7 +276,7 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_vet_caravan_guard"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_t3_spearman"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.village_woman_massa"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="caravan_template_vakken">
@@ -419,7 +419,7 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_caravan_master"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_t3_spearman"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.village_woman_massa"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="elite_caravan_template_vakken">
@@ -644,6 +644,10 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t4_skirmisher"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_t4_archer"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t5_archer"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_mas_t3_shock_inf"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_mas_t4_shock_inf"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t5_shock_inf"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_mas_t5_cavalry"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_vakken_template">
