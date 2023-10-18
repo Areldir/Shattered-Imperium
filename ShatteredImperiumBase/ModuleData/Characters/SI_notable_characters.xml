@@ -2093,6 +2093,271 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- MASSA: Notables -->
+	<NPCCharacter id="AR_mas_notable_merch1" name="{=!}Ironic vlandia merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_merch2" name="{=!}curt Vlandia merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_merch3" name="{=!}Daring Vlandia merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_merch4" name="{=!}Softspoken vlandia merchant" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_merch5" name="{=!}{FIRSTNAME} the Manciple" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_1" name="{=!}{FIRSTNAME} the Warehouser" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_1b" name="{=!}{FIRSTNAME} the Heiress" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_2" name="{=!}Puritan male preacher" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_3" name="{=!}Rebellious female preacher" voice="earnest" is_template="true" default_group="Infantry" is_female="true" culture="Culture.massa" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_gangleader_1" name="{=!}Standard male gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_gangleader_2" name="{=!}Female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.massa" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_gangleader_3" name="{=!}Male gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.massa" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_artisan_1" name="{=!}Vlandian artisan 1" voice="earnest" is_template="true" default_group="Infantry" culture="Culture.massa" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_artisan_2" name="{=!}Vlandian artisan 2" voice="curt" is_template="true" default_group="Infantry" culture="Culture.massa" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_rural_1" name="{=!}Vlandian yeoman" voice="curt" is_template="true" default_group="Infantry" culture="Culture.massa" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_notable_rural_2" name="{=!}Vlandian yeoman" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.massa" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_headman_1" name="{=!}vlandia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="FrankishHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_headman_2" name="{=!}vlandia conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="FrankishHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mas_headman_3" name="{=!}vlandia devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.massa" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_massa"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="FrankishHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<!-- VAEGIRS: Notables -->
 	<NPCCharacter id="AR_vae_notable_0" name="{=!}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
 		<face>

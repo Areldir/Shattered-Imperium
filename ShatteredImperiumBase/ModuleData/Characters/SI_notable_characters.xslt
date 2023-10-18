@@ -927,4 +927,229 @@
 			<EquipmentSet id="AR_stu_townsman_civiliantemplate" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
+	<!-- VLANDIA: Notables -->
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_0"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_monk_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_4"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_5"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_6"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_7"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_8"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_9"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_10"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_warrior_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_11"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_vlandia_12"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_battletemplate"/>
+			<EquipmentSet id="AR_vla_woodsman_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_merch1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_merch2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_merch3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_merch4"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_merch5"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_merchant_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_1b"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate"/>
+			<EquipmentSet id="AR_s_emp_preacher_notary_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_vlandia_gangleader_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_vlandia_gangleader_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_vlandia_gangleader_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townswoman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_artisan_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_artisan_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_artisan_wanderer_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_rural_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_notable_vlandia_rural_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_vlandia_headman_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_vlandia_headman_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_vlandia_headman_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate"/>
+			<EquipmentSet id="AR_vla_townsman_civiliantemplate" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 </xsl:stylesheet>
