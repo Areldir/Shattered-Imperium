@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<!-- JOKBYALS: Levy Troops -->
+	<!-- BYALS: Levy Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_jok_villager" default_group="Infantry" level="6" name="{=si_ar_jok_villager}Byalic Tribesman" occupation="Villager" culture="Culture.byalic" is_basic_troop="true">
 		<face>
@@ -205,7 +205,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- JOKBYALS: Field Troops -->
+	<!-- BYALS: Field Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_jok_recruit" default_group="Infantry" level="6" name="{=si_ar_jok_recruit}Byalic Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.byalic">
 		<face>
@@ -524,7 +524,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- JOKBYALS: Noble Troops -->
+	<!-- BYALS: Noble Troops -->
 	<!-- Recruit Elite Cavalry Light Skill 20-40 -->
 	<NPCCharacter id="AR_jok_elite_recruit" default_group="Cavalry" level="11" name="{=si_ar_jok_elite_recruit}Byalic Rider" occupation="Soldier" is_basic_troop="true" culture="Culture.byalic">
 		<face>
@@ -706,7 +706,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- JOKBYALS: Caravans -->
+	<!-- BYALS: Caravans -->
 	<!-- T3 Armed Trader Light Skill 40-70 -->
 	<NPCCharacter id="AR_jok_armed_trader" default_group="Ranged" level="16" name="{=si_ar_jok_armed_trader}Byalic Armed Trader" occupation="CaravanGuard" culture="Culture.byalic" is_basic_troop="true">
 		<face>
@@ -791,7 +791,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- JOKBYALS: Guards -->
+	<!-- BYALS: Guards -->
 	<NPCCharacter id="AR_jok_prison_guard" default_group="Infantry" level="21" culture="Culture.byalic" occupation="PrisonGuard" name="{=si_ar_jok_prison_guard}Byalic Prison Guard">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
@@ -832,7 +832,7 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- JOKBYALS: Civilians -->
+	<!-- BYALS: Civilians -->
 	<!-- T1 Recruit Light Skill 5-20 -->
 	<NPCCharacter id="AR_jok_village_woman" default_group="Infantry" is_female="true" level="6" name="{=si_ar_jok_village_woman}Byalic Tribeswoman" occupation="Villager" is_basic_troop="true" culture="Culture.byalic">
 		<face>
@@ -1255,7 +1255,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- JOKBYALS: Auxiliary And Mercenary Characters -->
+	<!-- BYALS: Auxiliary And Mercenary Characters -->
 	<!-- T3 Infantry Light Skill 40-70 -->
 	<NPCCharacter id="AR_jok_aux_fem_recruit" default_group="Infantry" is_female="true" level="16" name="{=si_ar_jok_aux_fem_recruit}Byalic Camp Follower" occupation="Mercenary" is_basic_troop="true" culture="Culture.byalic">
 		<face>

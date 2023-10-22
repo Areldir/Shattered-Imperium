@@ -856,7 +856,7 @@
 	<xsl:template match='Settlement[@id="town_V1"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_V1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" prosperity="3000"/>
+			<Town id="town_comp_V1" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" prosperity="3000"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V1']/@text">
@@ -1186,6 +1186,18 @@
 	<xsl:template match="Settlement[@id='village_V2_3']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V2_3_text}Fregian sits on the flatlands north of Paravenos - known to the Vlandians as the 'Swadian Plains' - where the warmth of the south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="village_V2_3"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="village_comp_V2_3" village_type="VillageType.flax_plant" hearth="347" gate_rotation="0.008" bound="Settlement.castle_SI_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_SI_V1_1"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_SI_V1_1" village_type="VillageType.wheat_farm" hearth="410" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_7</xsl:attribute>
 	</xsl:template>
@@ -1299,6 +1311,12 @@
 	<xsl:template match="Settlement[@id='village_V6_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V6_1_text}Armacis lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the western provinces of the Calradian Empire are well-suited to the growing of olives.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='Settlement[@id="village_V6_1"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="village_comp_V6_1" village_type="VillageType.olive_trees" hearth="120" gate_rotation="0.058" bound="Settlement.castle_SI_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V6_3']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_V6_3_name}Alnimys</xsl:attribute>
 	</xsl:template>
@@ -1325,6 +1343,12 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V6_4']/@culture">
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_SI_V3_2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_SI_V3_2" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
+		</xsl:copy>
 	</xsl:template>
 	<!-- Cortand -->
 	<xsl:template match="Settlement[@id='castle_V7']/@name">
@@ -1355,27 +1379,30 @@
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
 	</xsl:template>
 	<!-- Marynd -->
-	<xsl:template match="Settlement[@id='castle_B1']/@owner">
+	<xsl:template match="Settlement[@id='castle_SI_V3']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_massa_1</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V3']/@culture">
+		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V4_1']/@culture">
+		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V4_2']/@culture">
+		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
+	</xsl:template>
 	<!-- Gosar -->
-	<xsl:template match="Settlement[@id='castle_V8']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_V8_name}Verecsana Castle</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_V8_1']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_village_V8_1_name}Verecsana</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_V8_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V8_1_text}Verecsana sits by the waters of Llyn Modris, a small but deep inland lake known to the Vlandians as the Ocspool. Villagers here grow wheat in the gentle downs by the lakeside.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_V8_2']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_village_V8_2_name}Marynos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_V8_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V8_2_text}Marynos lies on the slopes west of Llyn Modris. Misty mornings, cooled by sea winds drifting south, and warm afternoons make this land well-suited to the growing of grapes.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_V8']/@owner">
+	<xsl:template match="Settlement[@id='castle_SI_V4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_massa_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V4']/@culture">
+		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V3_1']/@culture">
+		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V3_2']/@culture">
+		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
 	</xsl:template>
 	<!--
 	Vaegir Kingdom
@@ -1397,6 +1424,18 @@
 		<xsl:attribute name='text'>{=si_ar_village_S3_1_text}Chornobas - or ‘black wood’ - sits in lands cleared from the forests overlooking the cataract through which the Miron River empties into Lake Laconis. The villagers grow rye and barley in fields misted by the spray from the falls.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_S3_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_S1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vaegiria_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_S1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_S1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_S1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
 	<!-- Kaldaving -->
@@ -1487,9 +1526,8 @@
 	<xsl:template match="Settlement[@id='village_A1_4']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
-	<!-- Magonos -->
 	<xsl:template match="Settlement[@id='town_A6']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_quyaz_2</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_quyaz_1</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A6']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_A6_text}The port city of Sanala is the gateway through which the grain of the lower Damar has flowed forth to feed a hungry world. The periodic advances of the Calradian Empire to the south of the Perassic Sea have usually been aimed at seizing this strategic prize. Although the legions have long since moved onwards, Sanala remains among the most cosmopolitan cities in Calradia, filled with merchants from many lands bidding for the lowest bulk prices.</xsl:attribute>
@@ -1519,6 +1557,34 @@
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A6_4']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<!-- Magonos -->
+	<xsl:template match="Settlement[@id='town_SI_A1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_quyaz_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_SI_A1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_A1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_A1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_A1_3']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_quyaz_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A1_2']/@culture">
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<!-- Geranos -->
@@ -1824,6 +1890,7 @@
 	<!--
 	Yachios Archontate
 	-->
+	<!-- Carasios -->
 	<xsl:template match="Settlement[@id='town_A3']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_A3_name}Yachios</xsl:attribute>
 	</xsl:template>
@@ -1848,9 +1915,23 @@
 	<xsl:template match="Settlement[@id='village_A3_3']/@culture">
 		<xsl:attribute name='culture'>Culture.empire</xsl:attribute>
 	</xsl:template>
+	<!-- Khalkapatres -->
+	<xsl:template match="Settlement[@id='castle_SI_A2']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_yachios_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A2']/@culture">
+		<xsl:attribute name='culture'>Culture.empire</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A2_1']/@culture">
+		<xsl:attribute name='culture'>Culture.empire</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A2_2']/@culture">
+		<xsl:attribute name='culture'>Culture.empire</xsl:attribute>
+	</xsl:template>
 	<!--
 	Paravenos Archontate
 	-->
+	<!-- Akropolites -->
 	<xsl:template match="Settlement[@id='town_V3']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V3_name}Paravenos</xsl:attribute>
 	</xsl:template>
@@ -1894,6 +1975,34 @@
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V3_4']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_V8']/@name">
+		<xsl:attribute name='name'>{=si_ar_castle_V8_name}Verecsana Castle</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V8_1']/@name">
+		<xsl:attribute name='name'>{=si_ar_castle_village_V8_1_name}Verecsana</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V8_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_V8_1_text}Verecsana sits by the waters of Llyn Modris, a small but deep inland lake known to the Vlandians as the Ocspool. Villagers here grow wheat in the gentle downs by the lakeside.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V8_2']/@name">
+		<xsl:attribute name='name'>{=si_ar_castle_village_V8_2_name}Marynos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V8_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_V8_2_text}Marynos lies on the slopes west of Llyn Modris. Misty mornings, cooled by sea winds drifting south, and warm afternoons make this land well-suited to the growing of grapes.</xsl:attribute>
+	</xsl:template>
+	<!-- Rendakis -->
+	<xsl:template match="Settlement[@id='castle_V8']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_paravenos_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_V8']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V8_1']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V8_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 </xsl:stylesheet>

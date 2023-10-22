@@ -1319,7 +1319,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_a"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_kan_bat_template_heavy" culture="Culture.kannic">
 		<EquipmentSet>
@@ -2218,6 +2218,183 @@
 	Massa Confederation
 	-->
 	<!-- Male Battle Presets -->
+	<EquipmentRoster id="AR_mas_bat_template_medium" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.AR_sturgia_armor_e2"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_d_plumed_b"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_zb"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Body" id="Item.vlandia_chainmail"/>
+			<Equipment slot="Head" id="Item.RW_vlandia_lord_helmet_a"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_l"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.western_scale_mail"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_helmet_n"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_h"/>
+			<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_spangenhelmet_crest"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_b"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.AP_leather_tabard_a"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_helmet_e"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_k"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_noble_sword_5_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_h2"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_d_plumed_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_za"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.AR_sturgia_armor_e"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			<Equipment slot="Gloves" id="Item.lordly_padded_mitten"/>
+			<Equipment slot="Cape" id="Item.tv_battania_cloak_k"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_mas_bat_template_heavy" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.sturgian_lamellar_fortified"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_d"/>
+			<Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_h"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Body" id="Item.desert_scale_armor"/>
+			<Equipment slot="Head" id="Item.imperial_goggled_helmet"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_o2"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+			<Equipment slot="Head" id="Item.AR_roman_helmet_d_plumed_c"/>
+			<Equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_y"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Body" id="Item.TV_sturgia_armor_e3"/>
+			<Equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_c"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.TV_empire_armor_m"/>
+			<Equipment slot="Head" id="Item.TV_empire_helmet_d"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_c"/>
+			<Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_t2"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_k"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			<Equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_i"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_c"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_p"/>
+			<Equipment slot="Leg" id="Item.TV_empire_boots_a"/>
+			<Equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a2"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Body" id="Item.TV_sturgia_armor_e"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_s"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_c"/>
+			<Equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_scale_a"/>
+			<Equipment slot="Head" id="Item.RW_vlandia_lord_helmet_a"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e"/>
+			<Equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+			<Equipment slot="Head" id="Item.DZ_empire_helmet_c"/>
+			<Equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_c"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.AR_shield_infantry_e2"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_t"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_h"/>
+			<Equipment slot="Leg" id="Item.tv_empire_plate_a"/>
+			<Equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_t"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<Equipment slot="Item1" id="Item.viking_round_shield"/>
+			<Equipment slot="Body" id="Item.TV_empire_armor_o"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_l"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_b"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
 	<!-- Female Battle Presets -->
 	<!-- Male Civil Presets -->
 	<!-- Female Civil Presets -->
@@ -2322,7 +2499,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_a2"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_vae_bat_template_heavy" culture="Culture.vakken">
 		<EquipmentSet>
@@ -3344,7 +3521,7 @@
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.AR_seax_b"/>
 			<Equipment slot="Body" id="Item.laced_dress"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_womens_hat_a"/>
+			<Equipment slot="Head" id="Item.womens_headwrap_b"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 			<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
@@ -3738,7 +3915,7 @@
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_got_bat_template_heavy" culture="Culture.byalic">
 		<EquipmentSet>
@@ -4405,7 +4582,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_a"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_n_emp_bat_template_heavy" culture="Culture.empire_n">
 		<EquipmentSet>
@@ -5586,7 +5763,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_a"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_w_emp_bat_template_heavy" culture="Culture.empire_w">
 		<EquipmentSet>
@@ -6724,218 +6901,6 @@
 			<Equipment slot="Head" id="Item.ao_angevin_crown"/>
 			<Equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
 		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="AR_mas_bat_template_medium" culture="Culture.massa">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Item3" id="Item.vlandia_polearm_1_t5"/>
-			<Equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif"/>
-			<Equipment slot="Body" id="Item.vlandia_chainmail"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-			<Equipment slot="Gloves" id="Item.leather_gloves"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_i"/>
-			<Equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_e"/>
-			<Equipment slot="Body" id="Item.mail_shirt"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_c"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-			<Equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
-			<Equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.hauberk"/>
-			<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_j"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_g"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_leather_a"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_y"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Cape" id="Item.mercenary_padding_cape"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_a"/>
-			<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-			<Equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Cape" id="Item.mercenary_padding_cape"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_n"/>
-			<Equipment slot="Body" id="Item.mail_shirt"/>
-			<Equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-			<Equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_leather_a"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-			<Equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Cape" id="Item.mercenary_padding_cape"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_r2"/>
-			<Equipment slot="Body" id="Item.vlandia_chainmail"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-			<Equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_lamellar_b"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_q2"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_white_b"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
-		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
-	</EquipmentRoster>
-	<EquipmentRoster id="AR_mas_bat_template_heavy" culture="Culture.massa">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Item3" id="Item.vlandia_polearm_1_t5"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_d"/>
-			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_scale_a"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_lord_helmet_c"/>
-			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Body" id="Item.AR_empire_scale_armor_c"/>
-			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-			<Equipment slot="Head" id="Item.RW_vlandia_lord_helmet_a"/>
-			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_c"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-			<Equipment slot="Head" id="Item.AR_vlandian_knights_helmet_b"/>
-			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_n"/>
-			<Equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_i"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_2hsword_1_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_scale_a"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_n"/>
-			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_b"/>
-			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-			<Equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
-			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
-			<Equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
-			<Equipment slot="Item2" id="Item.AR_shield_infantry_c2"/>
-			<Equipment slot="Body" id="Item.northern_coat_of_plates"/>
-			<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-			<Equipment slot="Head" id="Item.RW_vlandia_lord_helmet_a"/>
-			<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
-			<Equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_d"/>
-			<Equipment slot="Horse" id="Item.noble_horse_western"/>
-			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
-		</EquipmentSet>
-		<Flags IsNobleTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_mas_bat_template_flamboyant" culture="Culture.massa">
 		<EquipmentSet>
