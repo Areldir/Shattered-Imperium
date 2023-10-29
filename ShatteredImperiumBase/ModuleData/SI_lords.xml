@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
+	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -16,13 +16,13 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="AR_mas_bat_template_medium"/>
+			<EquipmentSet id="bat_civ_template_wild"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.massa">
+	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_battania"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -36,7 +36,7 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="vla_noncom_template_default"/>
+			<EquipmentSet id="bat_bat_template_lady"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -344,7 +344,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_16" name="{=si_ar_lord_1_16}Ulbos" default_group="Cavalry" age="71" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="71" weight="0.2315" build="0.5648"  key="0010480557B4034F6C7CAA89C3C5AA7592D571A4A387763D329B657437695D350068350306E9BA6200001105000030A30000001F00000000000000002CB81000"  />
+			<BodyProperties version="4" age="71" weight="0.2315" build="0.5648" key="0010480557B4034F6C7CAA89C3C5AA7592D571A4A387763D329B657437695D350068350306E9BA6200001105000030A30000001F00000000000000002CB81000"/>
 		</face>
 		<skills/>
 		<Traits>
@@ -1908,6 +1908,9 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!--
+	Massa Confederation
+	-->
 	<NPCCharacter id="AR_lord_11_1" name="Lorgand" voice="ironic" age="46" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="46" weight="0.45" build="0.5" key="000048020000000D91938C98CAC8887AC34EA3548EB16C3273AAA4BB838BF6AA00777603079A745200000000000000000000000000000000000000003CFC1082"/>
@@ -1944,8 +1947,8 @@
 			<Trait id="KnightFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_mas_bat_template_lady"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_mas_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_3" name="Ubold" voice="softspoken" age="26" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -1961,7 +1964,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_heavy"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_4" name="Iliset" voice="curt" age="22" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -1979,7 +1982,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_5" name="Ealwen" voice="softspoken" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -1996,7 +1999,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_medium"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_6" name="Carmenet" voice="curt" age="42" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -2014,7 +2017,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_lady"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_7" name="Garmund" voice="softspoken" age="44" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -2035,7 +2038,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_heavy"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_8" name="Melind" voice="softspoken" age="43" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -2054,7 +2057,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_9" name="Varmond" voice="ironic" age="22" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -2070,7 +2073,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_heavy"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_10" name="Rothard" voice="softspoken" age="24" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -2086,7 +2089,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_medium"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_11" name="Beywyn" voice="softspoken" age="19" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -2104,7 +2107,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_mas_bat_template_medium"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!--
@@ -2417,6 +2420,7 @@
 			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- Askapour -->
 	<NPCCharacter id="AR_lord_12_18" name="Ghulassen" voice="curt" age="42" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="42" weight="0.2253" build="0.591" key="0036B40D802C0A128AD847B78D679A688976A7CB53745D9C66A853A853332C180069360306A493D600000000000000000000000000000000000000004ABC3002"/>
@@ -2467,7 +2471,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_dar_bat_template_medium"/>
-			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="AR_dar_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_12_21" name="Daria" voice="earnest" age="20" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
@@ -2486,6 +2490,392 @@
 		<Equipments>
 			<EquipmentSet id="AR_dar_bat_template_lady"/>
 			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Khwarasani -->
+	<NPCCharacter id="AR_lord_12_22" name="Kamiar" voice="curt" age="51" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="51" weight="0.4429" build="0.5586" key="00266C0E40002414786665945A84BA9C04E92B347898485A8C68E6978896F45F0068760306CD977500000000000000000000000000000000000000003CC48002"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_heavy"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_23" name="Azarin" voice="earnest" age="48" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="48" weight="0.8256" build="0.4105" key="0020180E5200000A5B7A86577841588491E9EAC727B668D68C68E697880614540056C60305CD977500000000000000000000000000000000000000003CAC1043"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_24" name="Mazyar" voice="curt" age="31" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="31" weight="0.4429" build="0.5586" key="0023180E400029C55B6665945A84BA9C04E9EAC727B668D68C68E6978896F45F0068760306CD977500000000000000000000000000000000000000003CC41002"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_medium"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_25" name="Fariba" voice="earnest" age="28" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="28" weight="0.5" build="0.5" key="0023000E52003004467A86577841588491E9753384DA040497736C85880614540047760304D566B000000000000000000000000000000000000000003C941003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_26" name="Nouzar" voice="earnest" age="24" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.4429" build="0.5586" key="00206C0E4000248E78966B4187AA687953562B347898485A8C664B87C37C6889006876030697B5DA00000000000000000000000000000000000000003CC48002"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_medium"/>
+			<EquipmentSet id="AR_dar_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_27" name="Atashban" voice="ironic" age="29" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="29" weight="0.5" build="0.0033" key="0029B00D000004965976687B4255019755D668A856887377D45147255A801606007076030763B44500000000000000000000000000000000000000003EFC1004"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Aspahbadhan -->
+	<NPCCharacter id="AR_lord_12_28" name="Aref" age="43" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="43" weight="0.5" build="0.7485" key="001E9C0FC00027857C7664876753888A7577866254C69643C4B647398C95A03700AB76030AA7497300000000000000000000000000000000000000005D5C9002"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_heavy"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_29" name="Fakhri" age="42" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42" weight="0.3935" build="0.6158" key="0023700E400000011466C685885C3B7765A436979786AC9775155888777EBA8C009966030997735B00000000000000000000000000000000000000005D241083"/>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_30" name="Kheyri" age="21" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.17" weight="0.5" build="0.7485" key="001E9C0FC00020057C7664876753888A7D77866254C69643C4B647398C95A03700AB76030AA7497300000000000000000000000000000000000000005D5C4003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_31" name="Aida" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.17" weight="0.0185" build="0.6158" key="00239C0FC000000A7C49664AB553A5877D77866254C69643751558888C95A037009906030997735B00000000000000000000000000000000000000005D241083"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Gaubari -->
+	<NPCCharacter id="AR_lord_12_32" name="Bairam" age="38" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38" weight="0.4883" build="0.3617" key="001EC80FC000144F9A84A5D453354387FCFC833B3F51ED4561FAF01186CC8F570075760307782773000000000000000000000000000000000000000072F47042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_33" name="Halimeh" age="36" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.1497" build="0.4491" key="0020380E4000000196E86B54364C98769889785A7A777679A7A687889855826E0077260307AB4374000000000000000000000000000000000000000072F400C3"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_34" name="Sima" age="19" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.3401" build="0.5932" key="001EC80FC000100F9A84A5D4533543872CFC833B3F51ED4561FAF01185C98F5A0079560307782773000000000000000000000000000000000000000072F44043"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_35" name="Kioumars" age="17" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.1497" build="0.4491" key="0020380D80001394967A678979DC58662CFC785A7A777679A7A6878885C98F5A0077260307AB4374000000000000000000000000000000000000000072F47042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_36" name="Azita" age="13" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.1497" build="0.4491" key="0020380E40002010967A678979DC58662CFC785A7A777679A7A6878885C98F5A0077260307AB4374000000000000000000000000000000000000000072F410C3"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Isfandiyar -->
+	<NPCCharacter id="AR_lord_12_37" name="Jaffar" age="44" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44" weight="0.2986" build="0.9005" key="0023FC0F0000138D32857354DEA2EED701BEA41D029289DBD223C23DB6B9513A008E46030864F4B4000000000000000000000000000000000000000045143006"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="18"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_heavy"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_38" name="Somayeh" age="41" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41" weight="0.6991" build="0.2392" key="0023680F00003002888877A89977569889A868B6B9DAB584BB73749BCCA92B490094A60309D857A90000000000000000000000000000000000000000452C4083"/>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_39" name="Kamran" age="24" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.09" weight="0.2986" build="0.9005" key="0023FC0F000003C2329A77844A56644901BEA41D029289DB86753358B6B9513A008E460308A226B50000000000000000000000000000000000000000451430C6"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_medium"/>
+			<EquipmentSet id="AR_dar_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_40" name="Shahin" age="19" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.09" weight="0.3688" build="0.5046" key="0023680F00001003887A77E5B884AA8901BE68B6B9DAB584BB73749BB6B9513A0098660309D857A90000000000000000000000000000000000000000452C9086"/>
+		</face>
+		<Traits>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Varaz -->
+	<NPCCharacter id="AR_lord_12_41" name="Arzhan" age="37" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.4791" build="0.6651" key="0029D80F00E415C5078358CF7E8724BD33DA281588E33103AC7C981BF39C3977007A7603077B44D9000000000000000000000000000000000000000052EC2042"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="9"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_42" name="Jeirana" age="36" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.4336" build="0.5324" key="0020D80F00E4300A57577443778764B198A6969559867178AC7C981BB47CC76800787603077B44D9000000000000000000000000000000000000000052EC4083"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_12_43" name="Asatyra" age="18" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.09" weight="0.0224" build="0.5324" key="0029D80F00E43002078358CF7E8724BD33DA281588E33103AC7C981BF39C397700780603077B44D9000000000000000000000000000000000000000052EC4083"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_dar_bat_template_lady"/>
+			<EquipmentSet id="AR_dar_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!--

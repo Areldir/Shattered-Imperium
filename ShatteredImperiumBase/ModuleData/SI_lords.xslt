@@ -867,6 +867,14 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_20_1']/@name">
 		<xsl:attribute name="name">Lis</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_20_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="vla_bat_template_lady"/>
+			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	
 	<xsl:template match="NPCCharacter[@id='lord_4_21']/@name">
 		<xsl:attribute name="name">Lucand</xsl:attribute>
 	</xsl:template>
@@ -879,11 +887,25 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_23']/@name">
 		<xsl:attribute name="name">Oca</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_23"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_oca_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_23_1']/@name">
 		<xsl:attribute name="name">Orgunda</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_23_2']/@name">
 		<xsl:attribute name="name">Veronet</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_23_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="vla_bat_template_lady"/>
+			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_23_3']/@name">
 		<xsl:attribute name="name">Belgir</xsl:attribute>
@@ -945,6 +967,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_5_1']/@name">
 		<xsl:attribute name="name">Arlech</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_5_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="bat_bat_template_flamboyant"/>
+			<EquipmentSet id="bat_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_7']/@name">
 		<xsl:attribute name="name">Garain</xsl:attribute>
 	</xsl:template>
@@ -962,6 +991,13 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_3_2']/@name">
 		<xsl:attribute name="name">Loenwin</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_5_3_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="bat_bat_template_medium"/>
+			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_5']/@name">
 		<xsl:attribute name="name">Breadan</xsl:attribute>
@@ -992,6 +1028,13 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_13']/@name">
 		<xsl:attribute name="name">Rhagyd</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_5_13"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="bat_bat_template_medium"/>
+			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_131']/@name">
 		<xsl:attribute name="name">Mych</xsl:attribute>
@@ -1041,6 +1084,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_5_19']/@name">
 		<xsl:attribute name="name">Ergeon</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_5_19"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="bat_bat_template_medium"/>
+			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_20']/@name">
 		<xsl:attribute name="name">Aeron</xsl:attribute>
 	</xsl:template>
@@ -1055,6 +1105,13 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_22']/@name">
 		<xsl:attribute name="name">Edwain</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_5_22"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="bat_bat_template_flamboyant"/>
+			<EquipmentSet id="bat_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_B8_l']/@name">
 		<xsl:attribute name="name">Reissen</xsl:attribute>
