@@ -12,15 +12,6 @@
 	         is_noble="true"
 	         text="{=si_ar_clan_aserai_6_text}The Banu Atij are without peer in the vast and dusty lands to the south of Calradia that comprise the Nahasa Desert. Unlike many of their kin among the Aserai, they were quick to realize the value of using their nomadic warriors to protect - rather than raid - the merchant caravans crossing the great bronze desert. From their seat of power at the ancient oasis city of Qasira, the caravans of the Banu Atij range far and wide across the continent, bringing vast wealth through the trade of dates, silks and spices. This wealth has brought them great status among the Aserai, and there are few emirs who would deny the summons of the Banu Atij to matters of politics or war."
 	         banner_key="11.61.154.4345.4345.776.777.1.0.0.428.137.0.450.450.764.804.0.0.0.521.137.0.100.100.764.534.0.0.0.144.137.0.300.300.759.734.0.0.0"/>
-	<Faction id="clan_aserai_3"
-	         name="{=wFR1ukg9}Banu Qild"
-	         tier="5"
-	         owner="Hero.lord_3_5"
-	         culture="Culture.aserai"
-	         super_faction="Kingdom.aserai"
-	         is_noble="true"
-	         text="{=si_ar_clan_aserai_3_text}The Banu Qild are renowned across the lands of the Nahasa as a family of dour ascetics, looking down from their desert fastnesses with equal disapproval on both the wealthy and poor of the Aserai. Few who travel to their fortress home of Hubyar return with tales of their hospitality, nor of their charm. However, somehow the Banu Qild have always retained a position of primacy in the politics of the great bronze desert, with more than one ancient Aserai family being ensnared by their cunning. Indeed, there are whispers that they long for days that they might lord over the other families of the Nahasa, uniting the disparate emirates into a single realm, with a Banu Qild at its head."
-	         banner_key="11.7.75.4345.4345.764.764.1.0.0.500.1.0.550.550.764.764.0.0.0.309.1.0.300.300.764.654.0.0.-130.427.1.0.300.300.764.844.0.0.0.521.1.0.196.196.764.764.0.0.0"/>
 	<Faction id="clan_aserai_5"
 	         name="{=zY2TQC9t}Banu Arbas"
 	         tier="5"
@@ -32,13 +23,22 @@
 	         banner_key="11.61.154.4345.4345.776.777.1.0.0.428.137.0.450.450.764.804.0.0.0.521.137.0.100.100.764.534.0.0.0.144.137.0.300.300.759.734.0.0.0"/>
 	<Faction id="clan_aserai_2"
 	         name="{=fvYgmrjG}Banu Sarran"
-	         tier="4"
+	         tier="5"
 	         owner="Hero.lord_3_3"
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
 	         text="{=si_ar_clan_aserai_2_text}The Banu Sarran are the rulers of one of the most recent emirates of the Nahasa, though also one of the oldest families of the Nahasa, claiming descent from the legendary Asera himself. In the past centuries, the Banu Sarran fought a series of brutal conflicts with the neighboring Banu Hulyan Emirate, attempting to seize lands off the latter to form their own realm. Ultimately unsuccessful in this, they are widely shunned by the other Aserai emirates as upstarts and violent usurpers, though this is a reputation which they in fact relish. They celebrate their nomadic past in odes and poems on their success in battle over fellow Aserai, or in seducing the other tribes' daughters. This does not endear them to the other peoples of the Nahasa, though they do maintain close ties with the Jawwal - that clan of outcasts who still live the nomadic lifestyle."
-	         banner_key="11.101.75.4345.4345.776.777.1.0.0.515.1.0.177.177.770.582.0.0.0.223.1.0.482.482.767.763.0.0.359.515.1.0.177.177.764.953.0.0.0"/>
+	         banner_key="11.156.75.4345.4345.764.764.1.0.0.223.1.0.454.454.764.764.0.0.359.515.1.0.177.177.764.764.0.0.0.500.1.0.358.358.764.764.0.0.0"/>
+	<Faction id="clan_aserai_3"
+	         name="{=wFR1ukg9}Banu Qild"
+	         tier="4"
+	         owner="Hero.lord_3_5"
+	         culture="Culture.aserai"
+	         super_faction="Kingdom.aserai"
+	         is_noble="true"
+	         text="{=si_ar_clan_aserai_3_text}The Banu Qild are renowned across the lands of the Nahasa as a family of dour ascetics, looking down from their desert fastnesses with equal disapproval on both the wealthy and poor of the Aserai. Few who travel to their fortress home of Hubyar return with tales of their hospitality, nor of their charm. However, somehow the Banu Qild have always retained a position of primacy in the politics of the great bronze desert, with more than one ancient Aserai family being ensnared by their cunning. Indeed, there are whispers that they long for days that they might lord over the other families of the Nahasa, uniting the disparate emirates into a single realm, with a Banu Qild at its head."
+	         banner_key="11.7.75.4345.4345.764.764.1.0.0.500.1.0.550.550.764.764.0.0.0.309.1.0.300.300.764.654.0.0.-130.427.1.0.300.300.764.844.0.0.0.521.1.0.196.196.764.764.0.0.0"/>
 	<Faction id="clan_aserai_7"
 	         name="{=si_ar_clan_aserai_7_name}Banu Maluf"
 	         tier="4"
@@ -46,7 +46,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-	         text="{=si_ar_clan_aserai_7_text}The Banu Maluf are one of the least settled of the Aserai emirates, still holding to the old traditions from their nomadic past. Indeed, many visitors to their estates leave with the distinct impression that a stable would be more accommodating. Trading perfumed silks and shaded pleasure gardens for feasting halls adorned with the skins and mounted heads of exotic beasts, the Banu Maluf are often seen associating more with the Bedouin of the Nahasa, than their peers among the Aserai emirs. Placed upon the fringes of society, they are nonetheless one of the most feared peoples of the great bronze desert, and few would dare to challenge their authority on the field."
+	         text="{=si_ar_clan_aserai_7_text}The Banu Maluf are one of the wealthiest among the small emirates that rule over the southern Nahasa Desert, controlling one of the only oases along the caravan routes from the desert interior to the lands of the Darshi Empire to the east. In the days before the Aserai traded the saddle for the luxuries of high walls and perfumed palaces, the Banu Maluf served as the primary guides and protectors of merchants traversing the Nahasa, albeit for a hefty price. That tradition has continued into the present, with riders of the Banu Maluf ranging far and wide across the deserts to ‘remind’ would-be caravaners to pay their dues."
 	         banner_key="11.101.0.4345.4345.776.777.1.0.0.500.1.0.186.186.764.747.0.0.-89.222.1.0.559.583.764.785.0.0.-180.428.1.0.284.284.764.786.0.0.0.500.1.0.180.180.764.747.0.0.-89.500.1.0.173.173.764.747.0.0.-89.503.1.0.140.140.764.744.0.0.-1.500.1.0.359.359.764.780.0.0.-89"/>
 	<Faction id="clan_aserai_8"
 	         name="{=o4wKMT9x}Banu Habbab"
@@ -55,7 +55,7 @@
 	         culture="Culture.aserai"
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
-	         text="{=si_ar_clan_aserai_8_text}The Banu Habbab are one of the wealthiest among the small emirates that rule over the southern Nahasa Desert, controlling one of the only oases along the caravan routes from the desert interior to the lands of the Darshi Empire to the east. In the days before the Aserai traded the saddle for the luxuries of high walls and perfumed palaces, the Banu Habbab served as the primary guides and protectors of merchants traversing the Nahasa, albeit for a hefty price. That tradition has continued into the present, with riders of the Banu Habbab ranging far and wide across the deserts to ‘remind’ would-be caravaners to pay their dues."
+	         text="{=si_ar_clan_aserai_8_text}The Banu Habbab are one of the least settled of the Aserai emirates, still holding to the old traditions from their nomadic past. Indeed, many visitors to their estates leave with the distinct impression that a stable would be more accommodating. Trading perfumed silks and shaded pleasure gardens for feasting halls adorned with the skins and mounted heads of exotic beasts, the Banu Habbab are often seen associating more with the Bedouin of the Nahasa, than their peers among the Aserai emirs. Placed upon the fringes of society, they are nonetheless one of the most feared peoples of the great bronze desert, and few would dare to challenge their authority on the field."
 	         banner_key="11.101.0.4345.4345.776.777.1.0.0.428.1.0.510.510.773.781.0.0.0.321.1.0.386.386.766.738.0.0.0.507.1.0.90.90.703.764.0.0.359.507.1.0.90.90.839.761.0.0.359"/>
 	<Faction id="clan_aserai_9"
 	         name="{=NI1paia1}Banu Ruwaid"
@@ -74,7 +74,7 @@
 	         super_faction="Kingdom.aserai"
 	         is_noble="true"
 	         text="{=si_ar_clan_aserai_1_text}The Banu Hulyan have the dubious honor of ruling over the western expanses of the Nahasa desert, controlling the key pass in the Jarjara Escarpment through which travellers and merchants move from the Damar River to the Kannic colonies of Quyaz, located on the coast of the Bahr al-Yeshm. This position has brought the Banu Hulyan immense wealth, though their hunger for wealth is tempered by a pragmatism uncommon among the Aserai. Indeed, where some might see an enemy, the Banu Hulyan see only a trading partner who has gone astray. In recent years, their court has become home to an assortment of shamans and prophets, through which the Banu Hulyan hope to win the hearts and minds of the superstitious Aserai. Indeed, there are rumors of a prophet, born to the Banu Hulyan, that might unite the emirates of the great bronze desert - a true sultan for the Banu Asera."
-	         banner_key="11.0.0.4345.4345.776.777.1.0.0.212.1.0.484.484.762.769.0.0.0.521.1.0.150.150.664.844.0.0.0.427.1.0.150.150.864.844.0.0.-90"/>
+	         banner_key="11.0.0.4345.4345.776.777.1.0.0.212.1.0.480.480.764.764.0.0.0.521.1.0.150.150.664.844.0.0.0.427.1.0.150.150.864.844.0.0.-90"/>
 	<Faction id="clan_aserai_4"
 	         name="{=si_ar_clan_aserai_4_name}Banu Karama"
 	         tier="2"
@@ -430,7 +430,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text="{=si_ar_clan_khuzait_1_text}The Turakizt are the current ruling family of the Iltanlar, claiming divine descent from one of the twelve sons of the mythical she-wolf. Centuries ago, their ancestors descended from the highlands beyond the Sulan Dag Mountains, displacing the local nomadic tribes and founding the fortress city of Baltakhand. Since that time, other nomadic tribes have flocked to their banners, settling far and wide across the Devseg to form one of the largest realms in Calradia. The Turakizt hold together their fragile alliance of tribes with an iron fist, quashing the more independent-minded beys and maintaining a tight grip on the movements of traders across their lands from the Darshi and Calradian empires, thus securing the wealth and prestige of their people."
+	         text="{=si_ar_clan_khuzait_1_text}The Turakizt are the current ruling family of the Iltanlar, claiming divine descent from one of the ten sons of the mythical she-wolf. Centuries ago, their ancestors descended from the highlands beyond the Sulun Dag Mountains, displacing the local nomadic tribes and founding the fortress city of Baltakhand. Since that time, other nomadic tribes have flocked to their banners, settling far and wide across the Devseg to form one of the largest realms in Calradia. The Turakizt hold together their fragile alliance of tribes with an iron fist, quashing the more independent-minded beys and maintaining a tight grip on the movements of traders across their lands from the Darshi and Calradian empires, thus securing the wealth and prestige of their people."
 	         banner_key="11.116.116.4345.4345.780.802.1.0.0.449.11.0.309.319.764.654.0.0.0.449.11.0.309.319.764.884.0.0.180.510.11.0.351.240.643.769.0.0.180.510.11.0.351.240.886.769.0.0.180.500.11.0.500.500.764.771.0.0.0"/>
 	<Faction id="clan_khuzait_2"
 	         name="{=si_ar_clan_khuzait_2_name}Gunalait"
@@ -440,7 +440,7 @@
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
 	         text="{=si_ar_clan_khuzait_2_text}The Gunalait, like many of their kin, descend from nomads of Calradia’s eastern steppe who migrated into the region known as the Devseg many centuries ago. Similar to their Turakizt overlords, they have monopolized the movement of silks and spices through their lands, growing immensely wealthy as middlemen in the trade routes of both the Darshi and Calradian empires. However, it is in the art of war that the Gunalait are most renowned. Born for the saddle and bow, the battle cries of their riders bringing terror to any who would dare stand in their way."
-	         banner_key="11.116.116.4345.4345.780.802.1.0.0.128.11.0.200.200.764.759.0.0.0.401.11.0.500.500.764.764.0.0.0.500.11.0.353.353.764.764.0.0.0"/>
+	         banner_key="11.116.116.4345.4345.780.802.1.0.0.449.11.0.309.319.764.654.0.0.0.449.11.0.309.319.764.884.0.0.180.510.11.0.351.240.643.769.0.0.180.510.11.0.351.240.886.769.0.0.180.500.11.0.500.500.764.771.0.0.0"/>
 	<Faction id="clan_khuzait_3"
 	         name="{=si_ar_clan_khuzait_3_name}Baljugit"
 	         tier="5"
@@ -448,7 +448,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text="{=si_ar_clan_khuzait_3_text}The Baljugit tribe are one of the most ancient among the Iltanlar, having dwelt in the foothills south of the Sulan Dag Mountains for almost a millennium. Unlike many of their kin, the Baljugit are not a migratory people, preferring instead to live in clusters of yurts on the fringes of the only woodland found on the Devseg Plateau, felling trees and raising herds of horses and goats in the small forest clearings. This life has made them a hardy people, as well-adjusted to survival in the woods as life in the saddle , and their axemen are renowned across the lands of the Calradian steppe."
+	         text="{=si_ar_clan_khuzait_3_text}The Baljugit tribe are one of the most ancient among the Iltanlar, having dwelt in the foothills south of the Sulun Dag Mountains for almost a millennium. Unlike many of their kin, the Baljugit are not a migratory people, preferring instead to live in clusters of yurts on the fringes of the only woodland found on the Devseg Plateau, felling trees and raising herds of horses and goats in the small forest clearings. This life has made them a hardy people, as well-adjusted to survival in the woods as life in the saddle , and their axemen are renowned across the lands of the Calradian steppe."
 	         banner_key="11.116.116.4345.4345.780.802.1.0.0.127.11.0.165.165.769.574.0.0.0.307.11.0.508.508.764.754.0.0.45.503.11.0.165.165.764.904.0.0.0.307.11.0.508.508.764.754.0.1.-45"/>
 	<Faction id="clan_khuzait_4"
 	         name="{=si_ar_clan_khuzait_4_name}Kurtogulit"
@@ -466,7 +466,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text="{=si_ar_clan_khuzait_5_text}The Ayangait, like many among the Iltanlar, migrated into the lands west of the Sulan Dag Mountains centuries ago, mobilizing their numerous slaves to build the fortress known today as Kaysar Castle. From this place, they have served as the guard of the northern approaches to Baltakhand, growing wealthy in the process through taxing travellers and merchants heading to the capital of the Iltanlar Khanate. They are renowned as fierce warriors, skilled in both the bow and lance, ranging from their fortress seat to drove vast herds of horses from the Karakaz River to Tsanga Nor, terrorizing villagers along the Darshi and Calradian borders as they go."
+	         text="{=si_ar_clan_khuzait_5_text}The Ayangait, like many among the Iltanlar, migrated into the lands west of the Sulun Dag Mountains centuries ago, mobilizing their numerous slaves to build the fortress known today as Kaysar Castle. From this place, they have served as the guard of the northern approaches to Baltakhand, growing wealthy in the process through taxing travellers and merchants heading to the capital of the Iltanlar Khanate. They are renowned as fierce warriors, skilled in both the bow and lance, ranging from their fortress seat to drove vast herds of horses from the Karakaz River to Tsanga Nor, terrorizing villagers along the Darshi and Calradian borders as they go."
 	         banner_key="11.116.116.4345.4345.780.802.1.0.0.428.11.0.438.438.764.784.0.0.0.503.11.0.211.211.764.809.0.0.358.214.11.0.243.243.764.641.0.0.0"/>
 	<Faction id="clan_khuzait_6"
 	         name="{=si_ar_clan_khuzait_6_name}Himaxar"
@@ -484,7 +484,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text="{=si_ar_clan_khuzait_7_text}The Aizrit claim descent from a long lineage of mystics and shamans. Like many among the Iltanlar, they believe that their ancestor was one of the twelve sons of the mythical she-wolf, who mounted the horse of night and now rides across the sky with a great wolf pack. Whilst many in Calradia view this as little more than petty superstition, the Aizrit live and die by this belief, and carry it across the steppe with them, preaching to any who will listen. In battle, they are formidable adversaries, known for sacrificing captured enemies in brutal blood rituals."
+	         text="{=si_ar_clan_khuzait_7_text}The Aizrit claim descent from a long lineage of mystics and shamans. Like many among the Iltanlar, they believe that their ancestor was one of the ten sons of the mythical she-wolf, who mounted the horse of night and now rides across the sky with a great wolf pack. Whilst many in Calradia view this as little more than petty superstition, the Aizrit live and die by this belief, and carry it across the steppe with them, preaching to any who will listen. In battle, they are formidable adversaries, known for sacrificing captured enemies in brutal blood rituals."
 	         banner_key="11.116.116.4000.4000.780.802.1.0.0.117.11.0.250.250.782.758.0.0.0.502.11.0.350.350.764.764.0.0.45.521.11.0.100.100.821.839.0.0.0"/>
 	<Faction id="clan_khuzait_8"
 	         name="{=si_ar_clan_khuzait_8_name}Mazalar"
@@ -493,7 +493,7 @@
 	         culture="Culture.khuzait"
 	         super_faction="Kingdom.khuzait"
 	         is_noble="true"
-	         text="{=si_ar_clan_khuzait_8_text}The Mazalar, unlike most prominent tribes of the Iltanlar, have only recently moved into the lands of the Devseg, riding down from the highland foothills of the Sulan Dag Mountains to seize a foothold around the fortress known as Tepes Castle. A violent and cruel people, even their Iltanlar kin regard them as savage and ignoble, and their subjects and slaves are among the most miserable in Calradia. However, their use to the khans of Baltakhand is readily apparent, and so the Mazalar now form the vanguard of the nomadic hosts, riding along the borderlands with the Darshi city states and fighting any who dare to cross them."
+	         text="{=si_ar_clan_khuzait_8_text}The Mazalar, unlike most prominent tribes of the Iltanlar, have only recently moved into the lands of the Devseg, riding down from the highland foothills of the Sulun Dag Mountains to seize a foothold around the fortress known as Tepes Castle. A violent and cruel people, even their Iltanlar kin regard them as savage and ignoble, and their subjects and slaves are among the most miserable in Calradia. However, their use to the khans of Baltakhand is readily apparent, and so the Mazalar now form the vanguard of the nomadic hosts, riding along the borderlands with the Darshi city states and fighting any who dare to cross them."
 	         banner_key="11.116.116.4345.4345.780.802.1.0.0.126.11.0.250.250.764.764.0.0.0.510.11.0.250.200.914.644.0.0.90.510.11.0.250.200.914.884.0.0.90.510.11.0.250.200.614.884.0.0.90.510.11.0.250.200.614.644.0.0.90.521.11.0.150.150.764.554.0.0.0.503.11.0.150.150.764.974.0.0.0"/>
 	<Faction id="clan_khuzait_9"
 	         name="{=si_ar_clan_khuzait_9_name}Ixgchit"
@@ -577,7 +577,7 @@
 	         culture="Culture.sturgia"
 	         super_faction="Kingdom.sturgia"
 	         is_noble="true"
-	         text="{=si_ar_clan_sturgia_4_text}The Ormidoving - the ‘House of Orm’ - claim descent from a long line of Nordic warriors and raiders, who settled in the lands along the coast of Lake Laconis in centuries past. Whilst many Nord families managed to integrate into Sturgian society relatively peacefully, the Ormidoving have instead earned a fearsome reputation as some of the most bloodthirsty warriors in the northern lands, having settled many a feud with their rival Sturgian clans at the edge of an axe blade. The position of their estates on the key crossing from the Bay of Varcheg to Lake Laconis has proved most fruitful, meaning that despite their relative paucity of wealth and status, they control one of the most powerful of the Sturgian chiefdoms."
+	         text="{=si_ar_clan_sturgia_4_text}The Ormidoving - the ‘House of Orm’ - claim descent from a long line of Nordic warriors and raiders, who settled in the lands along the southern coast of the Byalic Sea in centuries past. Whilst many Nord families managed to integrate into Sturgian society relatively peacefully, the Ormidoving have instead earned a fearsome reputation as some of the most bloodthirsty warriors in the northern lands, having settled many a feud with their rival Sturgian clans at the edge of an axe blade. The position of their estates in the isolated north has proved most fruitful. The multitude of local Vakken tribes fell easily to the Ormidoving warriors, and now provide them with vast quantities of tribute, making them one of the wealthiest of the Sturgian chiefdoms."
 	         banner_key="11.71.12.4922.4922.580.740.1.0.0.307.111.0.416.416.781.835.0.0.180.307.111.0.416.416.793.720.0.0.0.442.111.0.310.310.673.844.0.0.180.442.111.0.310.310.901.718.0.0.0"/>
 	<Faction id="clan_sturgia_6"
 	         name="{=si_ar_clan_sturgia_6_name}Svehlaving"
@@ -598,9 +598,8 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_1_text}The dey Meroc are one of the oldest houses of the Vlandian nobility, having dwelt along the Biscan coast since the days of Wilund the Bold. For generations, they eked out an existence selling salted fish to the Calradian citizens of the city of Ialonos - located near to their village. However, their fortunes would change when they enlisted in the service of the Calradian Emperor Phamynor, winning wealth and renown for themselves campaigning against the Darshi in the distant east of the continent. An independent-minded people, the dey Meroc have long held ambitions for an independent Vlandian kingdom, preferably with them at its head. Seizing the opportunity afforded to them by the interregnum in the Calradian Empire, they have achieved just that, and now they stand at the head of a vast kingdom, fighting for independence against the very Calradian authorities they once served."
+	         text="{=si_ar_clan_vlandia_1_text}The dey Meroc are one of the oldest houses of the Vlandian nobility, having dwelt along the Biscan coast since the days of Wilund the Bold. For generations, they eked out an existence selling salted fish to the Calradian citizens of the city of Ialonos - located near to their village. However, their fortunes would change when they enlisted in the service of the Calradian Emperor Phamynor, winning wealth and renown for themselves campaigning against the Darshi in the distant east of the continent. An independent-minded people, the dey Meroc have long held ambitions for an independent Vlandian kingdom, preferably with them at its head. Seizing the opportunity afforded to them by the interregnum in the Calradian Empire, they have achieved just that, and now they stand at the head of a vast kingdom, fighting for independence against the very Calradian authorities they once served."
 	         banner_key="11.71.14.4922.4922.776.777.1.0.0.346.15.0.509.509.770.757.0.0.0.424.15.0.213.213.585.771.0.0.0.424.15.0.213.213.951.763.0.0.0"/>
-
 	<Faction id="clan_vlandia_7"
 	         name="{=LZVzzczs}dey Fortes"
 	         tier="5"
@@ -608,7 +607,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_7_text}The dey Fortes, like many of the noble houses of the Vlandians, cannot claim descent from the wealthy or influential of Calradia’s past. Their ancestors were humble travellers who sailed across the Western Ocean in search of a better life, settling on the Ebor Peninsula in the growing Vlandian enclave. Their scion’s reputation as stalwart mercenaries would quickly gain the attention of the Calradian Empire. Promoted to lead a Vlandian auxiliary company, the dey Fortes would fight alongside the Calradian legions from the frigid lands of the north to the deserts of the Nahasa, becoming a leader among their people. This clout has served the dey Fortes well, and now they sit at the head of the nascent kingdom’s war council and rule over a substantial estate around the Llyn Modris."
+	         text="{=si_ar_clan_vlandia_7_text}The dey Fortes, like many of the noble houses of the Vlandians, cannot claim descent from the wealthy or influential of Calradia’s past. Their ancestors were humble travellers who sailed across the Western Ocean in search of a better life, settling on the Ebor Peninsula in the growing Vlandian enclave. Their scion’s reputation as stalwart mercenaries would quickly gain the attention of the Calradian Empire. Promoted to lead a Vlandian auxiliary company, the dey Fortes would fight alongside the Calradian legions from the frigid lands of the north to the deserts of the Nahasa, becoming a leader among their people. This clout has served the dey Fortes well, and now they sit at the head of the nascent kingdom’s war council and rule over a substantial estate around the Llyn Modris."
 	         banner_key="11.71.14.4000.4000.764.764.1.0.0.141.15.0.450.450.764.754.0.0.0.301.15.0.450.450.764.914.0.0.90.301.15.0.450.450.764.614.0.0.270"/>
 	<Faction id="clan_vlandia_6"
 	         name="{=vbLAA0RF}dey Valant"
@@ -617,7 +616,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_6_text}The dey Valant are one of the most prestigious of the Vlandian noble houses, claiming descent from Wilund the Bold - or Valandion - himself. Whilst there are few who take this claim seriously, there is nobody who dares to deny their vast wealth and influence over Vlandian society. Instead of signing on to fighting for the Calradian Empire, the dey Valant preferred to remain in their secluded mountain estate on the Ebor Peninsula, monopolizing the trade flowing from southern Calradia to the Nords across the sea to the north. Whilst some have condemned this as an act of cowardice, the wealth of the dey Valant has always bought their obeisance."
+	         text="{=si_ar_clan_vlandia_6_text}The dey Valant are one of the most prestigious of the Vlandian noble houses, claiming descent from Wilund the Bold - or Valandion - himself. Whilst there are few who take this claim seriously, there is nobody who dares to deny their vast wealth and influence over Vlandian society. Instead of signing on to fighting for the Calradian Empire, the dey Valant preferred to remain in their secluded mountain estate on the Ebor Peninsula, monopolizing the trade flowing from southern Calradia to the Nords across the sea to the north. Whilst some have condemned this as an act of cowardice, the wealth of the dey Valant has always bought their obeisance."
 	         banner_key="11.71.14.4000.4000.764.764.1.0.0.336.15.0.400.400.764.814.0.0.0.219.15.0.200.200.764.564.0.0.0"/>
 	<Faction id="clan_vlandia_8"
 	         name="{=9NWQNInC}dey Molarn"
@@ -626,7 +625,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_8_text}The dey Molarn are the noble house of the city of Ostican – one of the earliest enclaves of the Vlandians on the continent of Calradia. Their ancestors were fortunate, being brought on as servants to the Calradian rulers of the town at the time. Known for their cunning, they proved indispensable to the Calradian Empire, being given the administration of the town when their masters fell out of the graces of the imperial court. The dey Molarn have since amassed a sizeable fortune through the trade of uncommonly fine thoroughbred horses, which today make up the mounts for the majority of the Vlandian cavalry."
+	         text="{=si_ar_clan_vlandia_8_text}The dey Molarn are the noble house of the city of Ostican – one of the earliest enclaves of the Vlandians on the continent of Calradia. Their ancestors were fortunate, being brought on as servants to the Calradian rulers of the town at the time. Known for their cunning, they proved indispensable to the Calradian Empire, being given the administration of the town when their masters fell out of the graces of the imperial court. The dey Molarn have since amassed a sizeable fortune through the trade of uncommonly fine thoroughbred horses, which today make up the mounts for the majority of the Vlandian cavalry."
 	         banner_key="11.14.14.4000.4000.764.764.1.0.0.315.15.0.450.450.714.764.0.0.50.424.15.0.200.200.764.664.0.0.0.315.15.0.450.450.814.764.0.1.310"/>
 	<Faction id="clan_vlandia_11"
 	         name="{=DeSGiCgF}dey Rothad"
@@ -635,7 +634,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_11_text}The dey Rothad are renowned across Calradia as one of the most warlike of the Vlandian noble houses, having cut a bloody swathe through friend and foe alike from the southern deserts to the eastern steppe. Descendants of adventurers who settled initially on the Swadian Plains, they were quick to seize on the opportunity for bloodshed and plunder offered by service alongside the legions of the Calradian Empire, encouraging many of their kin to join the imperial forces as auxiliaries. When the Vlandians were transferred back to the western provinces by Emperor Themestios Comnos, the dey Rothad soon grew weary of the reconstruction of Calradian cities, preferring to make war on the Battanians, carving out their own estates on the coast of the Bay of Varcheg."
+	         text="{=si_ar_clan_vlandia_11_text}The dey Rothad are renowned across Calradia as one of the most warlike of the Vlandian noble houses, having cut a bloody swathe through friend and foe alike from the southern deserts to the eastern steppe. Descendants of adventurers who settled initially on the Swadian Plains, they were quick to seize on the opportunity for bloodshed and plunder offered by service alongside the legions of the Calradian Empire, encouraging many of their kin to join the imperial forces as auxiliaries. When the Vlandians were transferred back to the western provinces by Emperor Themestios Comnos, the dey Rothad soon grew weary of the reconstruction of Calradian cities, preferring to make war on the Battanians, carving out their own estates on the coast of the Bay of Varcheg."
 	         banner_key="11.71.14.4922.4922.580.740.1.0.0.102.15.0.400.400.764.744.0.0.0.306.15.0.200.300.664.944.0.0.90.306.15.0.200.300.864.944.0.1.-90"/>
 	<Faction id="clan_vlandia_2"
 	         name="{=si_ar_clan_vlandia_2_name}dey Hongar"
@@ -644,7 +643,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_2_text}The dey Hongar are the noble house of Ethenbold - uncle to the first Vlandian king - Osric Iron-Arm. Whilst many may think this relationship would afford the dey Hongar a position of primacy within the nascent Vlandian Kingdom, it is in fact far from the truth. Viewed as little more than useful vassals by Osric, the dey Hongar were assigned the thankless task of maintaining the encirclement of the Calradian city of Paravenos, losing countless men and resources in the years-long process. Nearly bankrupted into obscurity by their task, they resent the authority those ‘wayward’ members of the dey Meroc, considering themselves a better candidate for leadership of the Vlandian people."
+	         text="{=si_ar_clan_vlandia_2_text}The dey Hongar are the noble house of Ethenbold - uncle to the first Vlandian king - Osric Iron-Arm. Whilst many may think this relationship would afford the dey Hongar a position of primacy within the nascent Vlandian Kingdom, it is in fact far from the truth. Viewed as little more than useful vassals by Osric, the dey Hongar were assigned the thankless task of maintaining the encirclement of the Calradian city of Paravenos, losing countless men and resources in the years-long process. Nearly bankrupted into obscurity by their task, they resent the authority those ‘wayward’ members of the dey Meroc, considering themselves a better candidate for leadership of the Vlandian people."
 	         banner_key="11.101.75.4000.4000.764.764.1.0.0.140.39.0.300.300.764.784.0.1.0.500.39.0.550.550.764.764.0.0.0.424.39.0.200.100.614.764.0.1.90.424.39.0.200.100.914.764.0.0.270.304.39.0.200.300.838.692.0.0.-1"/>
 	<Faction id="clan_vlandia_10"
 	         name="{=yQcZrUYi}dey Folcun"
@@ -653,7 +652,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_10_text}The dey Folcun, like many Vlandian noble houses, claim their origins in the rough back streets and shady alleyways of the Calradian city of Ostican. Their ancestors were destitute travellers, bartering passage on trading vessels in return for manual labor or a period of domestic servitude. Seeing the potential of their new homeland, the dey Folcun elected to live a hard life on the Battanian frontier in the Rhennod Mountains, fighting off raiding warbands to keep their meager holdings. Today, they are hailed as one of the great bulwarks of the nascent Vlandian Kingdom, protecting the productive lands of the Swadian Plains and Ebor Peninsula from their less savory neighbors."
+	         text="{=si_ar_clan_vlandia_10_text}The dey Folcun, like many Vlandian noble houses, claim their origins in the rough back streets and shady alleyways of the Calradian city of Ostican. Their ancestors were destitute travellers, bartering passage on trading vessels in return for manual labor or a period of domestic servitude. Seeing the potential of their new homeland, the dey Folcun elected to live a hard life on the Battanian frontier in the Rhennod Mountains, fighting off raiding warbands to keep their meager holdings. Today, they are hailed as one of the great bulwarks of the nascent Vlandian Kingdom, protecting the productive lands of the Swadian Plains and Ebor Peninsula from their less savory neighbors."
 	         banner_key="11.71.14.4922.4922.580.740.1.0.0.305.15.0.444.444.759.762.0.0.0.206.15.0.480.480.653.760.0.0.17.206.15.0.480.480.872.768.0.0.194"/>
 	<Faction id="clan_vlandia_5"
 	         name="{=9qAUWcfa}dey Gunric"
@@ -662,7 +661,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_5_text}The dey Gunric are relatively unique amongst the noble houses of Vlandia. Their ancestors were Nords, who centuries ago ventured across the frigid northern seas to settle on the Ebor Peninsula. Formidable warriors, it was not long before the people of the region came to respect their rule. Quick to intermarry with the successive waves of Vlandian settlers who came to reside in the area around the town of Ostican, the dey Gunric soon cast off many of their Nordic traditions in favor of new Vlandian customs. Zealous supporters of Vlandian independence from the Calradian Empire, they jumped at the opportunity to join the nascent kingdom of Osric Iron-Arm."
+	         text="{=si_ar_clan_vlandia_5_text}The dey Gunric are relatively unique amongst the noble houses of Vlandia. Their ancestors were Nords, who centuries ago ventured across the frigid northern seas to settle on the Ebor Peninsula. Formidable warriors, it was not long before the people of the region came to respect their rule. Quick to intermarry with the successive waves of Vlandian settlers who came to reside in the area around the town of Ostican, the dey Gunric soon cast off many of their Nordic traditions in favor of new Vlandian customs. Zealous supporters of Vlandian independence from the Calradian Empire, they jumped at the opportunity to join the nascent kingdom of Osric Iron-Arm."
 	         banner_key="11.14.14.4000.4000.764.764.1.0.0.418.15.0.300.300.764.864.0.0.0.159.15.0.500.500.764.644.0.0.0"/>
 	<Faction id="clan_vlandia_9"
 	         name="{=LygSwU3i}dey Jelind"
@@ -671,8 +670,92 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-			 text="{=si_ar_clan_vlandia_9_text}The dey Jelind hail from the Biscan Hills - the westernmost mountain range in Calradia. Their ancestors were mercenaries, who sailed to the continent from the islands to the west in search of fame and riches. Quick to join the service of the Calradian Empire, the scions of the dey Jelind fought against all manner of foes, from the nomads of the east and south to savage raiders from the north, only returning to their western homeland within living memory. When the Emperor Themestios Comnos transferred the Vlandians back to protect the western provinces, the dey Jelind soon found themselves ruling over a small estate on the eastern slopes of the Biscan Hills, near the very place their ancestors once dwelt. They zealously protect this land, and so were quick to join the nascent Vlandian Kingdom."
+	         text="{=si_ar_clan_vlandia_9_text}The dey Jelind hail from the Biscan Hills - the westernmost mountain range in Calradia. Their ancestors were mercenaries, who sailed to the continent from the islands to the west in search of fame and riches. Quick to join the service of the Calradian Empire, the scions of the dey Jelind fought against all manner of foes, from the nomads of the east and south to savage raiders from the north, only returning to their western homeland within living memory. When the Emperor Themestios Comnos transferred the Vlandians back to protect the western provinces, the dey Jelind soon found themselves ruling over a small estate on the eastern slopes of the Biscan Hills, near the very place their ancestors once dwelt. They zealously protect this land, and so were quick to join the nascent Vlandian Kingdom."
 	         banner_key="11.71.14.4000.4000.764.764.1.0.0.335.15.0.500.500.764.754.0.0.0.336.15.0.200.200.764.724.0.0.0"/>
+	<!--
+	Spahanfar Satrapy
+	-->
+	<Faction id="clan_spahad_1"
+	         name="{=si_ar_clan_spahad_1_name}Spahanfar"
+	         tier="6"
+	         owner="Hero.AR_lord_12_1"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_1_text}The Spahanfar hail from the western borderlands of the lands of the Padishah, having been counted among the most staunch defenders of the Darshi Empire for centuries. During the campaign of the Padishah Hoshtar into the Devseg over three hundred years ago, the Spahanfar first gained an introduction to the lands of Calradia, seeing its vast wealth and potential. Nearly a century later, led by the ambitious general Kourosh, the Spahanfar returned to these western lands, carving a realm from the grasslands of the Devseg down to the sands of the Nahasa. Given authority to fly the Padishah’s banner in rulership over their own satrapy in eastern Calradia, the Spahanfari shahs have since found themselves constantly looking to both preserve their own borders, and expand their influence over the continent."
+	         banner_key="11.38.0.4000.4000.776.777.1.0.0.144.1.0.450.450.759.764.0.0.0.119.1.0.200.201.744.668.0.0.-130.500.1.0.500.500.764.764.0.0.0.500.1.0.560.580.764.764.0.0.0"/>
+	<Faction id="clan_spahad_2"
+	         name="{=si_ar_clan_spahad_2_name}Dhami"
+	         tier="5"
+	         owner="Hero.AR_lord_12_5"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_2_text}The Dhami are one of the most influential noble families of the Spahanfar Satrapy. Once, their ancestors held a seat on the council of the Padishah, advising the rulers of the Darshi Empire on matters of state. However, the Dhami would come unstuck when one of their more zealous scions was caught in the chambers of a padishah’s daughter, resulting in the entire family being publicly shamed for their digressions and exiled to the western borderlands. Cunning politics and a keen eye for commerce has since seen the restoration of the Dhami fortune, as well as much of their influence on Darshi politics, and now there are few who can escape their machinations within the Satrapy’s borders."
+	         banner_key="11.101.0.4000.4000.776.777.1.0.0.401.1.0.507.507.764.764.0.0.359.411.1.0.256.256.764.764.0.0.0.500.1.0.315.315.764.764.0.0.0"/>
+	<Faction id="clan_spahad_3"
+	         name="{=si_ar_clan_spahad_3_name}Musalan"
+	         tier="5"
+	         owner="Hero.AR_lord_12_10"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_3_text}The Musalan are a clan of mercenaries from the far southern protectorates of the Darshi Padishah. Seventy years ago, at the request of the Spahanfari Shah, the Musalan were dispatched by the Padishah to aid in the fighting in the Nahasa, decisively turning the tide against the Aserai in a battle before the walls of Razih. Whilst the campaign would ultimately end in the Darshi ignominiously retreating from their conquests under a ferocious Aserai resistance, the Musalan were rewarded for their bravery by the Spahanfari with rulership over the town of Baghkuk. They now form the cornerstone of the Darshi borderlands with the Nahasa, repelling increasingly spirited incursions by their Aserai neighbors."
+	         banner_key="11.38.0.4000.4000.776.777.1.0.0.144.1.0.450.450.759.764.0.0.0.119.1.0.200.201.744.668.0.0.-130.500.1.0.500.500.764.764.0.0.0.500.1.0.560.580.764.764.0.0.0"/>
+	<Faction id="clan_spahad_4"
+	         name="{=si_ar_clan_spahad_4_name}Askapour"
+	         tier="4"
+	         owner="Hero.AR_lord_12_18"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_4_text}The Askapour are an old and esteemed Darshi family, ruling a small shahdom in the lands around the southern foothills of the Devseg Plateau since the time before the coming of the Padishah's Empire to the east of Calradia. Unlike many of their fellows, the Askapour willingly joined the Darshi Empire following Hoshtar's invasion into the region, becoming prominent warlords in the Padishah's westernmost borderlands. Though now subservient to the Spahanfar Satrapy, their wealth, accumulated over countless generations, gives them substantial leverage within the court of the Shah, and the fruits of their ambitions can readily be seen."
+	         banner_key="11.101.0.4000.4000.764.764.1.0.0.321.1.0.300.300.764.824.0.0.0.110.1.0.400.400.764.694.0.0.0.521.1.0.174.174.764.544.0.0.0"/>
+	<Faction id="clan_spahad_5"
+	         name="{=si_ar_clan_spahad_5_name}Khwarasani"
+	         tier="4"
+	         owner="Hero.AR_lord_12_22"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_5_text}The Khwarasani claim descent from one of the cadet branches of the line of the Padishah Kavad - their progenitor born of the union of the Darshi ruler and one of his concubines. Despite this familial connection, they were not afforded a high station in Darshi society, being sent to administer a borderland region far from the center of power - and far from the shame of Kavad. The Khwarasani were fast to support the Spahanfari in their incursion into the Nahasa, leading one of the divisions that made up their invading army. Rewarded for their diligent conduct, the Khwarasani were given a smallholding on the border of the new satrapy, staunchly defending their realm against marauders from the great bronze desert."
+	         banner_key="11.101.0.4000.4000.764.764.1.0.0.406.1.0.400.400.764.764.0.0.0.502.1.0.400.400.764.764.0.0.45.502.1.0.400.400.764.764.0.0.0.406.1.0.400.400.764.764.0.0.45"/>
+	<Faction id="clan_spahad_6"
+	         name="{=si_ar_clan_spahad_6_name}Aspahbadhan"
+	         tier="3"
+	         owner="Hero.AR_lord_12_28"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_6_text}The Aspahbadhan, like many of the Darshi marcher families, claim descent from a long lineage of proud warriors, having fought beneath the banner of the Padishah since the ancient days. Indeed, there are few among the nobility of the western borderlands who can boast of so many ancestors who served in the Immortals - the most fearsome division of the Darshi army. This clout has gained the Aspahbadhan a respected position in the Spahanfar Satrapy, being granted lands in the foothills of the Kuh-e Karkas Mountains, on the border with the nascent Aserai Emirates. From their estates, the Aspahbadhan frequently ride forth to do battle with the nomads of the Nahasa, and there are few in Calradia who would deny their experience on the field of battle."
+	         banner_key="11.101.0.4000.4000.764.764.1.0.0.500.1.0.500.500.764.764.0.0.0.500.1.0.450.440.764.764.0.0.0.500.1.0.430.420.764.764.0.0.0.403.1.0.430.420.764.764.0.0.0.411.1.0.250.250.764.759.0.0.0.503.1.0.200.200.764.759.0.0.0"/>
+	<Faction id="clan_spahad_7"
+	         name="{=si_ar_clan_spahad_7_name}Gaubari"
+	         tier="3"
+	         owner="Hero.AR_lord_12_32"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_7_text}The Gaubari are one of the lesser houses of the Darshi nobility, having held a low office as one of the courtiers of the padishahs for over five generations. Aspiring of higher offices and zealous to prove themselves in the ebb and flow of Darshi politics, they were eager to join the Spahanfari campaigns into the Nahasa, hiring a small mercenary army to carve for themselves a small holding on the westernmost borderlands of the Darshi incursion into the great bronze desert. Now, the Gaubari have earned themselves a place at the table of the shah, though must fight hard to hold onto all that they have gained."
+	         banner_key="11.101.0.4000.4000.764.764.1.0.0.500.1.0.500.500.764.764.0.0.0.222.1.0.450.450.764.764.0.0.0.500.1.0.400.400.764.764.0.0.0.411.1.0.250.250.764.764.0.0.0.500.1.0.250.250.764.764.0.0.0"/>
+	<Faction id="clan_spahad_8"
+	         name="{=si_ar_clan_spahad_8_name}Isfandiyar"
+	         tier="2"
+	         owner="Hero.AR_lord_12_37"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text=""
+	         banner_key="11.101.0.4000.4000.764.764.1.0.0.502.1.0.500.500.764.764.0.0.0.425.1.0.200.200.764.764.0.0.0.411.1.0.150.150.764.664.0.0.0.411.1.0.150.150.764.864.0.0.0.510.1.0.350.200.884.764.0.0.90.510.1.0.350.200.644.764.0.0.90"/>
+	<Faction id="clan_spahad_9"
+	         name="{=si_ar_clan_spahad_9_name}Varaz"
+	         tier="2"
+	         owner="Hero.AR_lord_12_41"
+	         culture="Culture.darshi"
+	         super_faction="Kingdom.spahad"
+	         is_noble="true"
+	         text="{=si_ar_clan_spahad_9_text}The Varaz can lay claim to one of the least storied histories of any in the Spahanfar Satrapy. In the days before the Darshi expansion into Calradia, the Varaz were simple goatherds dwelling in the Tiagys River basin. Their progenitor was drafted into the service of the Padishah Arshak in his war against the people of the Devseg, winning acclaim for the clan by single-handedly defeating seven steppe lancers in a single battle with just his sling and spear. Awarded a title of minor nobility, the Varaz have since accompanied many of the Darshi incursions into Calradia, and now form one of the key landholders in the Spahanfar Satrapy, protecting the lands of the shahs against all comers."
+	         banner_key="11.101.0.4000.4000.764.764.1.0.0.125.1.0.400.400.834.784.0.0.0.125.1.0.400.400.694.784.0.1.0.411.1.0.150.150.764.584.0.0.0.503.1.0.100.100.764.584.0.0.0"/>
 	<!--
 	Massa Confederation
 	-->
@@ -813,7 +896,7 @@
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.byals"
 	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_1_text}The Suomalai are a junior branch of the old Jokbyalic high family. Once, they held a small but wealthy holding along the shoreline of the upper Karakaz River, raising livestock and profiting off the trade of amber and furs from Nordic wanderers to the Khans of the Sulan Dag Mountains. The coming of the Nachaghan hordes saw the destruction of the Suomalai’s halls and the death of their high chieftain and nearly his entire bloodline. Saved from destruction only by the swift actions of Fidhr - brother of the former high chieftain - who foresaw their destruction and led his family and retinue westwards, the Suomalai now attempt to rebuild their shattered realm."
+	         text="{=si_ar_clan_jokbyalic_1_text}The Suomalai are the most powerful of the Byalic noble families, having held the high chieftain's throne for centuries. Once, they held a small but wealthy holding along the shoreline of the upper Karakaz River, raising livestock and profiting off the trade of amber and furs from Nordic wanderers to the khans of the Sulun Dag Mountains. The coming of the Nachaghan hordes saw the destruction of the Suomalai’s halls and the death of their high chieftain and nearly his entire bloodline. Saved from destruction only by the swift actions of Fidhr - brother of the former high chieftain - who foresaw their destruction and led his family and retinue westwards, the Suomalai now attempt to rebuild their shattered realm along the frigid coast of the Byalic Sea."
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"/>
 	<Faction id="clan_jokbyalic_2"
 	         name="{=si_ar_clan_jokbyalic_2_name}Karzali"
@@ -822,8 +905,8 @@
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.byals"
 	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_2_text}The Karzali, like many among the Jokbyals, hail from the sheltered lands between the Karakaz River and the Byalic Sea. The descendants of proud farmer-soldiers who loyally served the ruling Suomalai high chieftains for innumerable centuries, they were among the first to face the incoming Nachaghan hordes - their warriors valiantly holding the line against the rampaging nomads to buy time for their people to escape to the west. Driven nearly to extinction by the Nachaghan, the Karzali now find themselves dwelling now in the rich lands of the former eastern provinces of the Calradian Empire, hoping the high walls may shelter them against the thundering hooves of the east."
-	         banner_key="11.2.38.2000.2000.764.764.1.0.0.416.2.38.509.509.764.764.1.0.0"/>
+	         text="{=si_ar_clan_jokbyalic_2_text}The Karzali, like many among the Byals, hail from the sheltered lands between the Karakaz River and the Byalic Sea. The descendants of proud farmer-soldiers who loyally served the ruling Suomalai high chieftains for innumerable centuries, they were among the first to face the incoming Nachaghan hordes - their warriors valiantly holding the line against the rampaging nomads to buy time for their people to escape to the west. Driven nearly to extinction by the Nachaghan, the Karzali now find themselves dwelling now in the rich lands of the former eastern provinces of the Calradian Empire, hoping the high walls may shelter them against the thundering hooves of the east."
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.416.12.12.450.450.764.764.0.0.0"/>
 	<Faction id="clan_jokbyalic_3"
 	         name="{=si_ar_clan_jokbyalic_3_name}Hamalai"
 	         tier="5"
@@ -831,17 +914,17 @@
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.byals"
 	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_3_text}The Hamalai tribe hail from the eastern coast of the Byalic Sea. In centuries past, their ancestors eked out a meager existence from fishing the frigid waters, earning enough to construct a smallholding. Their fortunes would change when, just over a century ago, Nordic traders arrived on their shores, transforming the Hamalai’s smallholding into a bustling port trading salt and dried fish with the Nords in exchange for furs and amber. However, the arrival of the Nachaghan hordes saw the lands of the Hamalai devastated by marauding horsemen. Now, they must fight for survival, reluctantly turning from the fishing net to the axe and sword."
-	         banner_key="11.2.38.2000.2000.764.764.1.0.0.417.2.38.400.400.764.764.1.0.45.500.2.38.550.550.764.764.1.0.45"/>
+	         text="{=si_ar_clan_jokbyalic_3_text}The Hamalai tribe hail from the coastal plains to the southeast of the Byalic Sea. In centuries past, their ancestors eked out a meager existence from fishing the frigid waters, earning enough to construct a smallholding. Their fortunes would change when, just over a century ago, Nordic traders arrived on their shores, transforming the Hamalai’s smallholding into a bustling port trading salt and dried fish with the Nords in exchange for furs and amber. However, the arrival of the Nachaghan hordes saw the lands of the Hamalai devastated by marauding horsemen. Now, they must fight for survival, reluctantly turning from the fishing net to the axe and sword."
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.500.12.12.500.500.764.764.0.0.0.415.12.12.450.450.764.764.0.0.45"/>
 	<Faction id="clan_jokbyalic_4"
-	         name="{=si_ar_clan_jokbyalic_4_name}Lacringus"
+	         name="{=si_ar_clan_jokbyalic_4_name}Ilvonen"
 	         tier="4"
 	         owner="Hero.AR_lord_13_15"
 	         culture="Culture.byalic"
 	         super_faction="Kingdom.byals"
 	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_4_text}The Ilvonen hail from the foothills of the Doga Karakya - the so-called ‘Black Mountain’ where the Karakaz River meets the frigid tundra of north-eastern Calradia. Proud warriors trained in the arts of mounted warfare, the Ilvonen fared better than many of their kin against the Nachaghan hordes, carving through the ranks of the nomads in a desperate flight to the south. These same horsemen would then win infamy for themselves in battle against the Calradian Empire, single-handedly cutting through the cataphract bodyguards of the Emperor Themestios Comnos and leaving the field with the Emperor’s head. Such feats have earned the Ilvonen a reputation as some of the fiercest warriors in Calradia, though it remains to be seen if even they can keep the Byalic people from falling to their many foes."
-	         banner_key="11.2.38.2000.2000.764.764.1.0.0.455.2.38.509.509.764.764.1.0.0"/>
+	         text="{=si_ar_clan_jokbyalic_4_text}The Ilvonen hail from the region west of the Doga Karakya - the so-called ‘Black Mountain’ where the Karakaz River meets the frigid tundra of north-eastern Calradia. Proud warriors trained in the arts of mounted warfare, the Ilvonen fared better than many of their kin against the Nachaghan hordes, carving through the ranks of the nomads in a desperate flight to the south. These same horsemen would then win infamy for themselves in battle against the Calradian Empire, single-handedly cutting through the cataphract bodyguards of the Emperor Themestios Comnos and leaving the field with the Emperor’s head. Such feats have earned the Ilvonen a reputation as some of the fiercest warriors in Calradia, though it remains to be seen if even they can keep the Byalic people from falling to their many foes."
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.437.12.12.450.450.764.754.0.0.0"/>
 	<!--
 	Alkit Khanate
 	-->
@@ -881,45 +964,6 @@
 	         is_noble="true"
 	         text="{=si_ar_clan_alkit_4_text}The Adiskhar are a relatively obscure tribe of the Alkit Khanate. Known to the people of the Calradian Empire by the derogatory name ‘swamp nomads’, they have dwelt on the edge of the Iltan Portages for centuries, grazing their horse herds on the meager patches of grassland in between the marshes. An unambitious people, and one of the most settled of the Iltanlar, they used the Alkit invasion to seize the nearby castle of Urikskala, displacing the Vakken inhabitants and taking it as their new home. Now, they rule over the Iltan Portages with a vengeance, jealously guarding the festering bogs and hidden pools of their homeland against all comers."
 	         banner_key="11.25.10.4345.4345.776.776.1.0.0.500.5.5.450.450.764.710.0.1.0.143.5.5.400.400.757.710.0.1.0.427.5.5.400.268.764.945.0.1.0.411.5.5.88.88.764.579.0.1.0"/>
-	<!--
-	Spahanfar Satrapy
-	-->
-	<Faction id="clan_spahad_1"
-	         name="{=si_ar_clan_spahad_1_name}Spahanfar"
-	         tier="6"
-	         owner="Hero.AR_lord_12_1"
-	         culture="Culture.darshi"
-	         super_faction="Kingdom.spahad"
-	         is_noble="true"
-	         text="{=si_ar_clan_spahad_1_text}The Spahanfar hail from the western borderlands of the Padishah, having been counted among the most staunch defenders of the Darshi Empire for centuries. During the campaign of the Padishah Hoshtar into the Devseg over three hundred years ago, the Spahanfar first gained an introduction to the lands of Calradia, seeing its vast wealth and potential. Roughly a century later, led by the ambitious general Kourosh, the Spahanfar returned to Calradia, marching from the Devseg down into the eastern Nahasa. Given rulership over their own satrapy in eastern Calradia, the Spahanfari shahs have since found themselves constantly looking to both preserve their own borders, and expand them."
-	         banner_key="11.61.154.4345.4345.776.777.1.0.0.216.137.0.450.450.764.774.0.0.180.427.137.0.200.100.759.994.0.0.0.342.137.0.100.100.764.504.0.0.0"/>
-	<Faction id="clan_spahad_2"
-	         name="{=si_ar_clan_spahad_2_name}Dhami"
-	         tier="5"
-	         owner="Hero.AR_lord_12_5"
-	         culture="Culture.darshi"
-	         super_faction="Kingdom.spahad"
-	         is_noble="true"
-	         text="{=si_ar_clan_spahad_2_text}The Dhami can lay claim to one of the least storied histories of any in the Spahanfar Satrapy. In the days before the Darshi expansion into Calradia, the Dhami were simple goatherds dwelling in the Tiagys River basin. Their progenitor was drafted into the service of the Padishah Arshak in his war against the people of the Devseg, winning acclaim for the clan by single-handedly defeating seven steppe lancers in a single battle with just his sling and spear. Awarded a title of minor nobility, the Dhami have since accompanied many of the Darshi incursions into Calradia, and now form one of the key landholders in the Spahanfar Satrapy, protecting the lands of the Shah against all comers."
-	         banner_key="11.101.0.4345.4345.776.777.1.0.0.401.1.0.507.507.764.764.0.0.359.411.1.0.256.256.764.764.0.0.0.500.1.0.315.315.764.764.0.0.0"/>
-	<Faction id="clan_spahad_3"
-	         name="{=si_ar_clan_spahad_3_name}Musalan"
-	         tier="5"
-	         owner="Hero.AR_lord_12_10"
-	         culture="Culture.darshi"
-	         super_faction="Kingdom.spahad"
-	         is_noble="true"
-	         text="{=si_ar_clan_spahad_3_text}The Musalan are a clan of mercenaries from the far southern protectorates of the Darshi Padishah. Seventy years ago, at the request of the Spahanfari Shah, the Musalan were dispatched by the Padishah to aid in the fighting in the Nahasa, decisively turning the tide against the Aserai in a battle before the walls of Razih. Whilst the campaign would ultimately end in the Darshi ignominiously retreating from their conquests under a ferocious Aserai resistance, the Musalan were rewarded for their bravery by the Spahanfari with rulership over the lands around Tamnuh Castle. They now form the cornerstone of the Darshi borderlands with the Nahasa, repelling increasingly spirited incursions by their Aserai neighbors."
-	         banner_key="11.61.154.4345.4345.776.777.1.0.0.306.137.0.450.550.764.764.0.0.45.426.137.0.200.200.764.564.0.0.90.306.137.0.450.550.764.764.0.1.315.325.137.0.200.200.764.924.0.0.0"/>
-	<Faction id="clan_spahad_4"
-	         name="{=si_ar_clan_spahad_4_name}Askapour"
-	         tier="4"
-	         owner="Hero.AR_lord_12_18"
-	         culture="Culture.darshi"
-	         super_faction="Kingdom.spahad"
-	         is_noble="true"
-	         text="{=si_ar_clan_spahad_4_text}The Askapour are an old and esteemed Darshi family, ruling a small shahdom in the lands around the southern foothills of the Devseg Plateau since the time before the coming of the Padishah's Empire to the east of Calradia. Unlike many of their fellows, the Askapour willingly joined the Darshi Empire following Hoshtar's invasion into the region, becoming prominent warlords in the Padishah's westernmost borderlands. Though now subservient to the Spahanfar Satrapy, their wealth, accumulated over countless generations, gives them substantial leverage within the court of the Shah, and the fruits of their ambitions can readily be seen."
-	         banner_key="11.101.0.2000.2000.764.764.1.0.0.321.1.0.200.200.759.824.0.0.0.110.1.0.350.350.764.714.0.0.0.500.1.0.500.500.764.764.0.0.0.521.1.0.174.174.764.538.0.0.0"/>
 	<!--
 	Tanash City States
 	-->
@@ -1430,10 +1474,10 @@
 	         is_minor_faction="true"
 	         is_outlaw="true"
 	         is_nomad="true"
-	         name="{=si_ar_lochanians_name}Lochanian Tribes"
-	         short_name="{=si_ar_lochanians_short_name}Lochanians"
+	         name="{=si_ar_lochanians_name}Sapmelas Tribes"
+	         short_name="{=si_ar_lochanians_short_name}Sapmelas"
 	         tier="4"
-	         text="{=si_ar_lochanians_text}The Lochanians are the remnants of a tribal people which once occupied the south-eastern extent of the Byalic Sea. Whilst their territory once included vast tracts of forest and tundra, centuries of relentless conflict with the peoples of the Calradian steppe have slowly pushed them southwards from their traditional homeland. The Lochanians now dwell in the crags and swamps along the shorelines of Lake Laconis, in a place known as the Iltan Portages. An outcast group spurned by almost all of Calradia, including their Jokbyalic cousins, the Lochanians are forced to fight to ensure the survival of their people.">
+	         text="{=si_ar_lochanians_text}The Sapmelas are the remnants of a tribal people which once occupied the north-eastern extent of the Byalic Sea. Whilst their territory once included vast tracts of forest and tundra, centuries of relentless conflict with the peoples of the Calradian steppe have slowly pushed them southwards from their traditional homeland. The Sapmelas now dwell among the dark lakes, swamps and crags known as the Iltan Portages. An outcast group spurned by almost all of Calradia, including their Byalic cousins, the Sapmelas are forced to fight to ensure the survival of their people.">
 		<minor_faction_character_templates>
 			<template id="NPCCharacter.AR_spc_lochanians_leader_0"/>
 			<template id="NPCCharacter.AR_spc_lochanians_leader_1"/>
@@ -1847,7 +1891,6 @@
 			<template id="NPCCharacter.AR_spc_paravenos_exiles_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
-	
 	<Faction id="rhennod_hillmen"
 	         initial_posX="136.0"
 	         initial_posY="504.0"

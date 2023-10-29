@@ -14,15 +14,6 @@
 	<Hero id="lord_3_18_2" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_3" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_4" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
-	<!-- Banu Qild -->
-	<Hero id="lord_3_5" spouse="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_51" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_12" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_20" spouse="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_20_1" spouse="Hero.lord_3_20" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_20_2" father="Hero.lord_3_20" mother="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_6" spouse="Hero.lord_3_5" faction="Faction.clan_aserai_3"/>
-	<Hero id="lord_3_9" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
 	<!-- Banu Arbas -->
 	<Hero id="lord_3_17" spouse="Hero.lord_3_17_1" faction="Faction.clan_aserai_5"/>
 	<Hero id="lord_3_17_1" spouse="Hero.lord_3_17" faction="Faction.clan_aserai_5"/>
@@ -36,6 +27,15 @@
 	<Hero id="lord_3_3" spouse="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
 	<Hero id="lord_3_3_1" father="Hero.lord_3_3" mother="Hero.lord_3_4" faction="Faction.clan_aserai_2"/>
 	<Hero id="lord_3_4" spouse="Hero.lord_3_3" faction="Faction.clan_aserai_2"/>
+	<!-- Banu Qild -->
+	<Hero id="lord_3_5" spouse="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_51" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_12" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_20" spouse="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_20_1" spouse="Hero.lord_3_20" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_20_2" father="Hero.lord_3_20" mother="Hero.lord_3_20_1" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_6" spouse="Hero.lord_3_5" faction="Faction.clan_aserai_3"/>
+	<Hero id="lord_3_9" father="Hero.lord_3_5" mother="Hero.lord_3_6" faction="Faction.clan_aserai_3"/>
 	<!-- Banu Maluf -->
 	<Hero id="lord_3_19" spouse="Hero.lord_3_19_1" faction="Faction.clan_aserai_7"/>
 	<Hero id="lord_3_19_1" spouse="Hero.lord_3_19" faction="Faction.clan_aserai_7"/>
@@ -232,7 +232,7 @@
 	<Hero id="lord_1_1_5" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_1_6" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
 	<!-- Osticos -->
-	<Hero id="lord_1_1" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1"/>
+	<Hero id="lord_1_1" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1" text="{=si_ar_lord_1_1_text}Camnon of the noble Calradian family of the Osticos is one of the most detested nobles in Calradia, with a reputation for being arrogant and elitist even among his peers. His desire for power and glory has divided his family, with some of his kinsmen remaining loyal to the Calradian Senate, whilst others have joined him in campaigning in the east. He naturally joined the rebellion of Solarios ‘Light-Giver’, viewing the ensuing chaos that has engulfed the Calradian Empire as a potential for further advancement. Few can doubt that he jealously eyes the throne, and is merely biding his time."/>
 	<Hero id="lord_1_2" spouse="Hero.lord_1_1" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_41" spouse="Hero.lord_1_1_1" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_411" father="Hero.lord_1_41" faction="Faction.clan_empire_north_1"/>
@@ -517,6 +517,61 @@
 	<Hero id="lord_4_27_1" spouse="Hero.lord_4_27" faction="Faction.clan_vlandia_9"/>
 	<Hero id="lord_V9_u" faction="Faction.clan_vlandia_9"/>
 	<!--
+	Spahanfar Satrapy
+	-->
+	<!-- Spahanfar -->
+	<Hero id="AR_lord_12_1" spouse="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1" text="Nariman is the current Shah of the Spahanfar Satrapy. A proven commander known for fighting at the head of his armies, he has led the Spahanfari to great victories over the Aserai and Calradian Empire, ensuring the protection of his foothold in the Nahasa. Though he recognizes the authority of the Padishah, he knows that to maintain his own power, he must be every bit the stalwart monarch."/>
+	<Hero id="AR_lord_12_2" spouse="Hero.AR_lord_12_1" faction="Faction.clan_spahad_1"/>
+	<Hero id="AR_lord_12_3" spouse="Hero.AR_lord_12_4" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
+	<Hero id="AR_lord_12_4" spouse="Hero.AR_lord_12_3" faction="Faction.clan_spahad_1"/>
+	<Hero id="AR_lord_12_13" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
+	<Hero id="AR_lord_12_14" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
+	<!-- Dhami -->
+	<Hero id="AR_lord_12_5" spouse="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
+	<Hero id="AR_lord_12_6" spouse="Hero.AR_lord_12_5" faction="Faction.clan_spahad_2"/>
+	<Hero id="AR_lord_12_7" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" spouse="Hero.AR_lord_12_8" faction="Faction.clan_spahad_2"/>
+	<Hero id="AR_lord_12_8" spouse="Hero.AR_lord_12_7" faction="Faction.clan_spahad_2"/>
+	<Hero id="AR_lord_12_9" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
+	<!-- Musalan -->
+	<Hero id="AR_lord_12_10" faction="Faction.clan_spahad_3"/>
+	<Hero id="AR_lord_12_11" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_12" faction="Faction.clan_spahad_3"/>
+	<Hero id="AR_lord_12_12" spouse="Hero.AR_lord_12_11" faction="Faction.clan_spahad_3"/>
+	<Hero id="AR_lord_12_15" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_16" faction="Faction.clan_spahad_3"/>
+	<Hero id="AR_lord_12_16" spouse="Hero.AR_lord_12_15" faction="Faction.clan_spahad_3"/>
+	<Hero id="AR_lord_12_17" mother="Hero.AR_lord_12_10" faction="Faction.clan_spahad_3"/>
+	<!-- Askapour -->
+	<Hero id="AR_lord_12_18" spouse="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
+	<Hero id="AR_lord_12_19" spouse="Hero.AR_lord_12_18" faction="Faction.clan_spahad_4"/>
+	<Hero id="AR_lord_12_20" father="Hero.AR_lord_12_18" mother="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
+	<Hero id="AR_lord_12_21" father="Hero.AR_lord_12_18" mother="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
+	<!-- Khwarasani -->
+	<Hero id="AR_lord_12_22" spouse="Hero.AR_lord_12_23" faction="Faction.clan_spahad_5"/>
+	<Hero id="AR_lord_12_23" spouse="Hero.AR_lord_12_22" faction="Faction.clan_spahad_5"/>
+	<Hero id="AR_lord_12_24" father="Hero.AR_lord_12_22" mother="Hero.AR_lord_12_23" faction="Faction.clan_spahad_5"/>
+	<Hero id="AR_lord_12_25" spouse="Hero.AR_lord_12_27" father="Hero.AR_lord_12_22" mother="Hero.AR_lord_12_23" faction="Faction.clan_spahad_5"/>
+	<Hero id="AR_lord_12_26" father="Hero.AR_lord_12_22" mother="Hero.AR_lord_12_23" faction="Faction.clan_spahad_5"/>
+	<Hero id="AR_lord_12_27" spouse="Hero.AR_lord_12_25" faction="Faction.clan_spahad_5"/>
+	<!-- Aspahbadhan -->
+	<Hero id="AR_lord_12_28" spouse="Hero.AR_lord_12_29" faction="Faction.clan_spahad_6"/>
+	<Hero id="AR_lord_12_29" spouse="Hero.AR_lord_12_28" faction="Faction.clan_spahad_6"/>
+	<Hero id="AR_lord_12_30" father="Hero.AR_lord_12_28" mother="Hero.AR_lord_12_29" faction="Faction.clan_spahad_6"/>
+	<Hero id="AR_lord_12_31" father="Hero.AR_lord_12_28" mother="Hero.AR_lord_12_29" faction="Faction.clan_spahad_6"/>
+	<!-- Gaubari -->
+	<Hero id="AR_lord_12_32" spouse="Hero.AR_lord_12_33" faction="Faction.clan_spahad_7"/>
+	<Hero id="AR_lord_12_33" spouse="Hero.AR_lord_12_32" faction="Faction.clan_spahad_7"/>
+	<Hero id="AR_lord_12_34" father="Hero.AR_lord_12_32" mother="Hero.AR_lord_12_33" faction="Faction.clan_spahad_7"/>
+	<Hero id="AR_lord_12_35" father="Hero.AR_lord_12_32" mother="Hero.AR_lord_12_33" faction="Faction.clan_spahad_7"/>
+	<Hero id="AR_lord_12_36" father="Hero.AR_lord_12_32" mother="Hero.AR_lord_12_33" faction="Faction.clan_spahad_7"/>
+	<!-- Isfandiyar -->
+	<Hero id="AR_lord_12_37" spouse="Hero.AR_lord_12_38" faction="Faction.clan_spahad_8"/>
+	<Hero id="AR_lord_12_38" spouse="Hero.AR_lord_12_37" faction="Faction.clan_spahad_8"/>
+	<Hero id="AR_lord_12_39" father="Hero.AR_lord_12_37" mother="Hero.AR_lord_12_38" faction="Faction.clan_spahad_8"/>
+	<Hero id="AR_lord_12_40" father="Hero.AR_lord_12_37" mother="Hero.AR_lord_12_38" faction="Faction.clan_spahad_8"/>
+	<!-- Varaz -->
+	<Hero id="AR_lord_12_41" spouse="Hero.AR_lord_12_42" faction="Faction.clan_spahad_9"/>
+	<Hero id="AR_lord_12_42" spouse="Hero.AR_lord_12_41" faction="Faction.clan_spahad_9"/>
+	<Hero id="AR_lord_12_43" father="Hero.AR_lord_12_41" mother="Hero.AR_lord_12_42" faction="Faction.clan_spahad_9"/>
+	<!--
 	Massa Confederation
 	-->
 	<!-- Armac -->
@@ -668,34 +723,6 @@
 	<Hero id="AR_lord_10_18" father="Hero.AR_lord_10_15" mother="Hero.AR_lord_10_16" faction="Faction.clan_alkit_4"/>
 	<Hero id="AR_lord_10_22" spouse="Hero.AR_lord_10_17" faction="Faction.clan_alkit_4"/>
 	<Hero id="AR_lord_10_23" father="Hero.AR_lord_10_22" mother="Hero.AR_lord_10_17" faction="Faction.clan_alkit_4"/>
-	<!--
-	Spahanfar Satrapy
-	-->
-	<!-- Spahanfar -->
-	<Hero id="AR_lord_12_1" spouse="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1" text="Nariman is the current Shah of the Spahanfar Satrapy. A proven commander known for fighting at the head of his armies, he has led the Spahanfari to great victories over the Aserai and Calradian Empire, ensuring the protection of his foothold in the Nahasa. Though he recognizes the authority of the Padishah, he knows that to maintain his own power, he must be every bit the stalwart monarch."/>
-	<Hero id="AR_lord_12_2" spouse="Hero.AR_lord_12_1" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_3" spouse="Hero.AR_lord_12_4" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_4" spouse="Hero.AR_lord_12_3" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_13" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_14" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
-	<!-- Dhami -->
-	<Hero id="AR_lord_12_5" spouse="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_6" spouse="Hero.AR_lord_12_5" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_7" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" spouse="Hero.AR_lord_12_8" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_8" spouse="Hero.AR_lord_12_7" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_9" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
-	<!-- Musalan -->
-	<Hero id="AR_lord_12_10" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_11" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_12" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_12" spouse="Hero.AR_lord_12_11" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_15" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_16" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_16" spouse="Hero.AR_lord_12_15" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_17" mother="Hero.AR_lord_12_10" faction="Faction.clan_spahad_3"/>
-	<!-- Askapour -->
-	<Hero id="AR_lord_12_18" spouse="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
-	<Hero id="AR_lord_12_19" spouse="Hero.AR_lord_12_18" faction="Faction.clan_spahad_4"/>
-	<Hero id="AR_lord_12_20" father="Hero.AR_lord_12_18" mother="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
-	<Hero id="AR_lord_12_21" father="Hero.AR_lord_12_18" mother="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
 	<!--
 	Tanash City States
 	-->

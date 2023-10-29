@@ -1368,8 +1368,8 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- LOCHANIANS -->
-	<NPCCharacter id="AR_spc_lochanians_leader_0" name="{=si_ar_spc_lochanians_leader_0}of the Lochanians" voice="ironic" is_template="true" age="42" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<!-- SAPMELAS -->
+	<NPCCharacter id="AR_spc_lochanians_leader_0" name="{=si_ar_spc_lochanians_leader_0}of the Sapmelas" voice="ironic" is_template="true" age="42" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1387,7 +1387,7 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_1" name="{=si_ar_spc_lochanians_leader_1}of the Lochanians" voice="softspoken" is_template="true" age="22" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_1" name="{=si_ar_spc_lochanians_leader_1}of the Sapmelas" voice="softspoken" is_template="true" age="22" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1406,7 +1406,7 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_2" name="{=si_ar_spc_lochanians_leader_2}of the Lochanians" voice="curt" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_2" name="{=si_ar_spc_lochanians_leader_2}of the Sapmelas" voice="curt" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1422,7 +1422,7 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_spc_lochanians_leader_3" name="{=si_ar_spc_lochanians_leader_3}of the Lochanians" voice="softspoken" is_template="true" age="35" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_spc_lochanians_leader_3" name="{=si_ar_spc_lochanians_leader_3}of the Sapmelas" voice="softspoken" is_template="true" age="35" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1440,8 +1440,8 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T3 Lochanian Melee Light Skill 40-70 -->
-	<NPCCharacter id="AR_min_lochanian_t3" default_group="Infantry" level="16" name="{=si_ar_min_lochanian_t3}Lochanian Hillman" occupation="Mercenary" is_basic_troop="true" culture="Culture.byalic">
+	<!-- T3 Sapmelas Melee Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_lochanian_t3" default_group="Infantry" level="16" name="{=si_ar_min_lochanian_t3}Sapmelas Hillman" occupation="Mercenary" is_basic_troop="true" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1465,7 +1465,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Lochanian Melee Medium Skill 60-100 -->
-	<NPCCharacter id="AR_min_lochanian_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_lochanian_t4_melee}Lochanian Raider" occupation="Mercenary" culture="Culture.byalic">
+	<NPCCharacter id="AR_min_lochanian_t4_melee" default_group="Infantry" level="21" name="{=si_ar_min_lochanian_t4_melee}Sapmelas Raider" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1488,7 +1488,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Lochanian Melee Heavy Skill 60-130 -->
-	<NPCCharacter id="AR_min_lochanian_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_lochanian_t5_melee}Lochanian Warrior" occupation="Mercenary" culture="Culture.byalic">
+	<NPCCharacter id="AR_min_lochanian_t5_melee" default_group="Infantry" level="26" name="{=si_ar_min_lochanian_t5_melee}Sapmelas Warrior" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1509,7 +1509,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Lochanian Shock Infantry Medium Skill 60-100 -->
-	<NPCCharacter id="AR_min_lochanian_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_min_lochanian_t4_shock_inf}Lochanian Wildsman" occupation="Mercenary" culture="Culture.byalic">
+	<NPCCharacter id="AR_min_lochanian_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_min_lochanian_t4_shock_inf}Sapmelas Wildsman" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
@@ -1532,7 +1532,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T5 Lochanian Shock Infantry Medium Skill 60-130 -->
-	<NPCCharacter id="AR_min_lochanian_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_min_lochanian_t5_shock_inf}Lochanian Berserker" occupation="Mercenary" culture="Culture.byalic">
+	<NPCCharacter id="AR_min_lochanian_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_min_lochanian_t5_shock_inf}Sapmelas Berserker" occupation="Mercenary" culture="Culture.byalic">
 		<face>
 			<face_key_template value="BodyProperty.fighter_byalic"/>
 		</face>
