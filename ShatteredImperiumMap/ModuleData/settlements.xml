@@ -3595,7 +3595,7 @@
   </Settlement>
   <Settlement id="castle_V8" name="{=Settlements.Settlement.name.castle_V8}Verecsand Castle" owner="Faction.clan_vlandia_7" posX="190.12" posY="466.865" culture="Culture.vlandia" gate_posX="189.1221" gate_posY="466.6706">
     <Components>
-      <Town id="castle_comp_V8" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.508" prosperity="780" />
+      <Town id="castle_comp_V8" is_castle="true" level="2" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.508" prosperity="780" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.castle_complex">
       <Location id="center" scene_name="vlandia_castle_b" scene_name_1="vlandia_castle_b" scene_name_2="vlandia_castle_b" scene_name_3="vlandia_castle_b" />
@@ -6004,7 +6004,7 @@
   </Settlement>
   <Settlement id="hideout_seaside_SI_1" name="{=si_ar_hideout_seaside_SI_1}Hideout" type="Hideout" posX="111.446" posY="360.207" culture="Culture.sea_raiders">
     <Components>
-      <Hideout id="hideout_seaside_SI_1" map_icon="bandit_hideout_c" scene_name="sea_bandit_c" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
+      <Hideout id="hideout_seaside_SI_1" map_icon="bandit_hideout_c" scene_name="sea_bandit_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
     </Components>
   </Settlement>
   <Settlement id="hideout_seaside_SI_2" name="{=si_ar_hideout_seaside_SI_1}Hideout" type="Hideout" posX="721.368" posY="638.374" culture="Culture.sea_raiders">
@@ -6070,6 +6070,31 @@
   <Settlement id="hideout_steppe_SI_5" name="{=si_ar_hideout_steppe_SI_5}Hideout" type="Hideout" posX="742.527" posY="286.643" culture="Culture.steppe_bandits">
     <Components>
       <Hideout id="hideout_steppe_SI_5" map_icon="bandit_hideout_a" scene_name="hideout_steppe_001" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_pirate_SI_1" name="{=si_ar_hideout_pirate_SI_1}Hideout" type="Hideout" posX="455.4804" posY="212.3369" culture="Culture.sea_raiders">
+    <Components>
+      <Hideout id="hideout_pirate_SI_1" map_icon="bandit_hideout_c" scene_name="contest_shipwreck_cove" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_pirate_SI_2" name="{=si_ar_hideout_pirate_SI_2}Hideout" type="Hideout" posX="431.6694" posY="228.0077" culture="Culture.sea_raiders">
+    <Components>
+      <Hideout id="hideout_pirate_SI_2" map_icon="bandit_hideout_c" scene_name="contest_shipwreck_cove" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_pirate_SI_3" name="{=si_ar_hideout_pirate_SI_3}Hideout" type="Hideout" posX="322.507" posY="301.7881" culture="Culture.sea_raiders">
+    <Components>
+      <Hideout id="hideout_pirate_SI_3" map_icon="bandit_hideout_c" scene_name="RuinSeaside" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_pirate_SI_4" name="{=si_ar_hideout_pirate_SI_4}Hideout" type="Hideout" posX="390.4405" posY="291.6218" culture="Culture.sea_raiders">
+    <Components>
+      <Hideout id="hideout_pirate_SI_4" map_icon="bandit_hideout_c" scene_name="sea_bandit_c" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_pirate_SI_5" name="{=si_ar_hideout_pirate_SI_5}Hideout" type="Hideout" posX="317.1927" posY="235.7648" culture="Culture.sea_raiders">
+    <Components>
+      <Hideout id="hideout_pirate_SI_5" map_icon="bandit_hideout_c" scene_name="contest_shipwreck_cove" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
     </Components>
   </Settlement>
   <!-- SHATTERED IMPERIUM: Aserai Settlements -->
@@ -7378,6 +7403,19 @@
   <Settlement id="village_SI_V1_1" name="{=si_ar_village_SI_V1_1}Jamiche" posX="155.061" posY="339.696" culture="Culture.vlandia" text="{=si_ar_village_SI_V1_1_text}Jamiche lies to the west of Charasea, on a warm coastal plain sheltered by high cliffs from the cold winds blowing in off the Western Ocean. This village and its vineyards are the personal estates of the Archon of Charasea, known for producing sweet, fragrant wines that are the delight of banquets across the Calradian Empire.">
     <Components>
       <Village id="village_comp_SI_V1_1" village_type="VillageType.vineyard" hearth="427" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_s" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_SI_V1_2" name="{=si_ar_village_SI_V1_2}Sunora" posX="156.708" posY="482.637" culture="Culture.vlandia" text="{=si_ar_village_SI_V1_2_text}Sunora sits on a hilltop, overlooking the Swadian Plains to the west and the Ocspool to the east. The villagers here are proud Calradians, who have refused to intermarry with the local Vlandian settlers. They grow grapes on the verdant hillsides, making a sweet wine that is favored in the taverns of Paravenos.">
+    <Components>
+      <Village id="village_comp_SI_V1_2" village_type="VillageType.vineyard" hearth="527" bound="Settlement.town_V3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_s" />
