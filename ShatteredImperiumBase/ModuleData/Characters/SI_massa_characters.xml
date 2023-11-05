@@ -1273,5 +1273,301 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- MASSA: Auxiliary And Mercenary Characters -->
-	<!-- RHENNOD HILLMEN -->
+	<!-- COMPANIONS OF THEUDARIS -->
+	<NPCCharacter id="AR_spc_companions_of_theudaris_leader_0" name="{=si_ar_spc_companions_of_theudaris_leader_0}the Companion" voice="ironic" is_template="true" age="34" default_group="Cavalry" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_companions_of_theudaris_leader_1" name="{=si_ar_spc_companions_of_theudaris_leader_1}the Companion" voice="softspoken" is_template="true" age="26" default_group="Cavalry" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t5_shock_inf_battletemplate"/>
+			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_companions_of_theudaris_leader_2" name="{=si_ar_spc_companions_of_theudaris_leader_2}the Companion" voice="softspoken" is_template="true" age="31" default_group="Cavalry" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_spc_companions_of_theudaris_leader_3" name="{=si_ar_spc_companions_of_theudaris_leader_3}the Companion" voice="softspoken" is_template="true" age="25" default_group="Cavalry" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t5_shock_inf_battletemplate"/>
+			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Companion Light Skill 40-70 -->
+	<NPCCharacter id="AR_min_companions_of_theudaris_t3" default_group="Infantry" level="16" name="{=si_ar_min_companions_of_theudaris_t3}Theudaris Companion Footman" occupation="Mercenary" is_basic_troop="true" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_companions_of_theudaris_t4_shock_inf"/>
+			<upgrade_target id="NPCCharacter.AR_min_companions_of_theudaris_t4_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t3_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Companion Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_companions_of_theudaris_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_min_companions_of_theudaris_t4_shock_inf}Theudaris Companion Warrior" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_companions_of_theudaris_t5_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t4_shock_inf_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Companion Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_min_companions_of_theudaris_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_min_companions_of_theudaris_t5_shock_inf}Theudaris Companion Champion" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t5_shock_inf_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Companion Medium Skill 60-100 -->
+	<NPCCharacter id="AR_min_companions_of_theudaris_t4_cavalry" default_group="Cavalry" level="21" name="{=si_ar_min_companions_of_theudaris_t4_cavalry}Theudaris Companion Rider" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_companions_of_theudaris_t5_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t4_cavalry_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Companion Medium Skill 60-130 -->
+	<NPCCharacter id="AR_min_companions_of_theudaris_t5_cavalry" default_group="Cavalry" level="26" name="{=si_ar_min_companions_of_theudaris_t5_cavalry}Theudaris Companion Horseman" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_min_companions_of_theudaris_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- AUXILIARY MASSA -->
+	<!-- T3 Shock Infantry Medium Skill 40-70 -->
+	<NPCCharacter id="AR_emp_aux_massa_recruit" default_group="Infantry" level="16" name="{=si_ar_emp_aux_massa_recruit}Auxiliary Massa Warrior" is_basic_troop="true" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_massa_t4_shock_inf"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_massa_t4_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_massa_recruit_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Shock Infantry Skirmisher Medium Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_massa_t4_shock_inf" default_group="Infantry" level="21" name="{=si_ar_emp_aux_massa_t4_shock_inf}Auxiliary Massa Axeman" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_massa_t5_shock_inf"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_massa_t4_shock_inf_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Shock Infantry Skirmisher Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_massa_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_emp_aux_massa_t5_shock_inf}Auxiliary Massa Champion" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_battanian_t5_cavalry_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Elite Archer Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_emp_aux_massa_t4_archer" default_group="Ranged" level="21" name="{=si_ar_emp_aux_massa_t4_archer}Auxiliary Massa Huntsman" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_massa_t5_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_battanian_t4_archer_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Elite Archer Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_emp_aux_massa_t5_archer" default_group="Ranged" level="26" name="{=si_ar_emp_aux_massa_t5_archer}Auxiliary Massa Longbowman" occupation="Mercenary" culture="Culture.massa">
+		<face>
+			<face_key_template value="BodyProperty.fighter_massan"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_battanian_t5_archer_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>

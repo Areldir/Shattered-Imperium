@@ -1681,7 +1681,7 @@
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
-				<Equipment slot="Body" id="Item.AR_merchants_coat_a"/>
+				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 				<Equipment slot="Leg" id="Item.TV_battania_boots_b"/>
 				<Equipment slot="Gloves" id="Item.highland_gloves"/>
@@ -1709,7 +1709,7 @@
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
-				<Equipment slot="Body" id="Item.battania_light_armor_b"/>
+				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Leg" id="Item.TV_battania_boots_t"/>
 				<Equipment slot="Cape" id="Item.empire_cape_a"/>
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
@@ -1721,7 +1721,7 @@
 	<xsl:template match='EquipmentRoster[@id="bat_civ_template_wild"]'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<EquipmentSet>
+			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
 				<Equipment slot="Body" id="Item.battania_civil_c"/>
 				<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
@@ -1730,7 +1730,7 @@
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
-			<EquipmentSet>
+			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
 				<Equipment slot="Body" id="Item.battania_light_armor_a"/>
 				<Equipment slot="Leg" id="Item.TV_battania_boots_t"/>
@@ -1738,15 +1738,15 @@
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
-			<EquipmentSet>
+			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
 				<Equipment slot="Body" id="Item.battania_civil_a"/>
 				<Equipment slot="Leg" id="Item.highland_boots"/>
-				<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
+				<Equipment slot="Cape" id="Item.wolf_shoulder"/>
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
-			<EquipmentSet>
+			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
 				<Equipment slot="Body" id="Item.AR_merchants_coat_a"/>
 				<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
@@ -1756,7 +1756,7 @@
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
-			<EquipmentSet>
+			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 				<Equipment slot="Body" id="Item.battania_light_armor_c"/>
 				<Equipment slot="Leg" id="Item.TV_battania_boots_a"/>
@@ -1765,7 +1765,7 @@
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
-			<EquipmentSet>
+			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
 				<Equipment slot="Body" id="Item.AR_battania_armor_k"/>
 				<Equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
@@ -1774,11 +1774,11 @@
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
-			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.battania_axe_2_t4"/>
 				<Equipment slot="Body" id="Item.battania_light_armor_b"/>
 				<Equipment slot="Leg" id="Item.TV_battania_boots_t"/>
-				<Equipment slot="Cape" id="Item.AR_fur_cape_a"/>
+				<Equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
 				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
 			</EquipmentSet>
@@ -1786,6 +1786,234 @@
 		</xsl:copy>
 	</xsl:template>
 	<!-- Female Civil Presets -->
+	<xsl:template match='EquipmentRoster[@id="bat_civ_template_lady_normal"]'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.battania_dress_b"/>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.empire_cape_a"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
+				<Equipment slot="Head" id="Item.headscarf_c"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<Equipment slot="Head" id="Item.ao_crown_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.female_scarf"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='EquipmentRoster[@id="bat_noncom_template_default"]'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_female_civil_a"/>
+				<Equipment slot="Head" id="Item.headscarf_c"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.southern_shawl"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
+				<Equipment slot="Head" id="Item.ao_crown_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
+				<Equipment slot="Head" id="Item.womens_headwrap_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.empire_cape_a"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_dress_a"/>
+				<Equipment slot="Head" id="Item.headscarf"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.female_scarf"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.battania_female_civil_a"/>
+				<Equipment slot="Head" id="Item.crown_x"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.female_hood"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_dress_b"/>
+				<Equipment slot="Head" id="Item.headscarf_d"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='EquipmentRoster[@id="bat_noncom_template_flamboyant"]'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_female_civil_a"/>
+				<Equipment slot="Head" id="Item.headscarf_c"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.southern_shawl"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
+				<Equipment slot="Head" id="Item.ao_crown_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
+				<Equipment slot="Head" id="Item.womens_headwrap_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.empire_cape_a"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_dress_a"/>
+				<Equipment slot="Head" id="Item.headscarf"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.female_scarf"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.battania_female_civil_a"/>
+				<Equipment slot="Head" id="Item.crown_x"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.female_hood"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_dress_b"/>
+				<Equipment slot="Head" id="Item.headscarf_d"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='EquipmentRoster[@id="bat_noncom_template_wild"]'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.AR_fur_cape_c"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_female_civil_a"/>
+				<Equipment slot="Head" id="Item.headscarf_c"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
+				<Equipment slot="Head" id="Item.ao_crown_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.wolf_shoulder"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
+				<Equipment slot="Head" id="Item.womens_headwrap_b"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.AR_fur_cape_b"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_dress_a"/>
+				<Equipment slot="Head" id="Item.headscarf"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+				<Equipment slot="Body" id="Item.battania_female_civil_a"/>
+				<Equipment slot="Head" id="Item.crown_x"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.battania_shoulder_furr"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.battania_dress_b"/>
+				<Equipment slot="Head" id="Item.headscarf_d"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				<Equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+				<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+				<Equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<!--
 	Calradian Empire
 	-->

@@ -1521,7 +1521,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- AUXILIARY BATTANIAN -->
-	<!-- T3 Elite Archer Medium Skill 40-70 -->
+	<!-- T3 Archer Medium Skill 40-70 -->
 	<NPCCharacter id="AR_emp_aux_battanian_recruit" default_group="Ranged" level="16" name="{=si_ar_emp_aux_battanian_recruit}Auxiliary Battanian Scout" is_basic_troop="true" occupation="Mercenary" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -1542,10 +1542,10 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_battanian_recruit_battletemplate"/>
-			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
+			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Archer Heavy Skill 60-100 -->
+	<!-- T4 Archer Heavy Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_battanian_t4_archer" default_group="Ranged" level="21" name="{=si_ar_emp_aux_battanian_t4_archer}Auxiliary Battanian Huntsman" occupation="Mercenary" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -1565,10 +1565,10 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_battanian_t4_archer_battletemplate"/>
-			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
+			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Archer Heavy Skill 60-130 -->
+	<!-- T5 Archer Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_battanian_t5_archer" default_group="Ranged" level="26" name="{=si_ar_emp_aux_battanian_t5_archer}Auxiliary Battanian Longbowman" occupation="Mercenary" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -1589,7 +1589,7 @@
 			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Cavalry Skirmisher Medium Skill 60-100 -->
+	<!-- T4 Cavalry Skirmisher Medium Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_battanian_t4_cavalry" default_group="Cavalry" level="21" name="{=si_ar_emp_aux_battanian_t4_cavalry}Auxiliary Battanian Rider" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
@@ -1609,10 +1609,10 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_battanian_t4_cavalry_battletemplate"/>
-			<EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
+			<EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Cavalry Skirmisher Heavy Skill 60-130 -->
+	<!-- T5 Cavalry Skirmisher Heavy Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_battanian_t5_cavalry" default_group="Cavalry" level="26" name="{=si_ar_emp_aux_battanian_t5_cavalry}Auxiliary Battanian Horseman" occupation="Mercenary" culture="Culture.battania">
 		<face>
 			<face_key_template value="BodyProperty.fighter_battania"/>
