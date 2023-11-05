@@ -2204,6 +2204,9 @@
 	<xsl:template match="Settlement[@id='village_V3_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_V1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
 	<!-- Rendakis -->
 	<xsl:template match="Settlement[@id='castle_V8']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_V8_name}Verecsana Castle</xsl:attribute>
