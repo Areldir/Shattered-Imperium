@@ -801,14 +801,166 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_4']/@name">
 		<xsl:attribute name="name">Rathegund</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_5']/@name">
-		<xsl:attribute name="name">Leothold</xsl:attribute>
-	</xsl:template>
+	<!--
+	Massa Confederation
+	-->
+	<!-- Armingar -->
 	<xsl:template match="NPCCharacter[@id='lord_4_6']/@name">
 		<xsl:attribute name="name">Beswinda</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_6']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_6"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
+			<EquipmentSet id="AR_mas_noncom_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_6_1']/@name">
 		<xsl:attribute name="name">Theraflaed</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_6_1']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_6_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
+			<EquipmentSet id="AR_mas_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_5']/@name">
+		<xsl:attribute name="name">Leothold</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_5']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_5"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_mas_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_9']/@name">
+		<xsl:attribute name="name">Thomund</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_9']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_9"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_heavy"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_12']/@name">
+		<xsl:attribute name="name">Petta</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_12']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_12"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
+			<EquipmentSet id="AR_mas_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_121']/@name">
+		<xsl:attribute name="name">Althegar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_121']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_121"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_mas_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Hathdar -->
+	<xsl:template match="NPCCharacter[@id='lord_4_16']/@name">
+		<xsl:attribute name="name">Sevelar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_16']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_16"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_mas_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_16_1']/@name">
+		<xsl:attribute name="name">Gisilchild</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_16_1']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_16_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
+			<EquipmentSet id="AR_mas_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_17']/@name">
+		<xsl:attribute name="name">Carmenet</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_17']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_17"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
+			<EquipmentSet id="AR_mas_noncom_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_18']/@name">
+		<xsl:attribute name="name">Amalgun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_18']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_18"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_heavy"/>
+			<EquipmentSet id="AR_mas_civ_template_heavy" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_181']/@name">
+		<xsl:attribute name="name">Althegar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_181']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_181"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_medium"/>
+			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_19']/@name">
+		<xsl:attribute name="name">Brunda</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_19']/@culture">
+		<xsl:attribute name="culture">Culture.massa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_19"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
+			<EquipmentSet id="AR_mas_noncom_template_default" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_7']/@name">
 		<xsl:attribute name="name">Origand</xsl:attribute>
@@ -816,20 +968,11 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_8']/@name">
 		<xsl:attribute name="name">Isilcred</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_9']/@name">
-		<xsl:attribute name="name">Thomund</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_10']/@name">
 		<xsl:attribute name="name">Elys</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_11']/@name">
 		<xsl:attribute name="name">Isilflaed</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_12']/@name">
-		<xsl:attribute name="name">Petta</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_121']/@name">
-		<xsl:attribute name="name">Anaheid</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_13']/@name">
 		<xsl:attribute name="name">Ecard</xsl:attribute>
@@ -842,24 +985,6 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_15']/@name">
 		<xsl:attribute name="name">Edugath</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_16']/@name">
-		<xsl:attribute name="name">Sevelar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_16_1']/@name">
-		<xsl:attribute name="name">Gisilchild</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_17']/@name">
-		<xsl:attribute name="name">Carmenet</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_18']/@name">
-		<xsl:attribute name="name">Amalgun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_181']/@name">
-		<xsl:attribute name="name">Althegar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_19']/@name">
-		<xsl:attribute name="name">Brunda</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_20']/@name">
 		<xsl:attribute name="name">Servic</xsl:attribute>
@@ -874,7 +999,6 @@
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
-	
 	<xsl:template match="NPCCharacter[@id='lord_4_21']/@name">
 		<xsl:attribute name="name">Lucand</xsl:attribute>
 	</xsl:template>

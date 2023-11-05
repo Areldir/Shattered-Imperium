@@ -36,7 +36,7 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="bat_bat_template_lady"/>
+			<EquipmentSet id="bat_noncom_template_wild"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -96,7 +96,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="bat_bat_template_heavy"/>
+			<EquipmentSet id="bat_bat_template_lady"/>
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -115,7 +115,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bat_bat_template_heavy"/>
-			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+			<EquipmentSet id="bat_civ_template_heavy" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_5_3" name="{=d6aTWH9m}Dairile" age="47" is_female="true" voice="softspoken" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
@@ -133,7 +133,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_5_4" name="{=zaHnL2It}Ainnir" age="24" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_5_4" name="{=zaHnL2It}Cathair" age="24" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="24" weight="0.0746" build="0.4491" key="00056C0AC088300387493B925D663C7D237877889384A87387567994BAE1A7560077160307B6D75700000000000000000000000000000000000000003EF41003"/>
 		</face>
@@ -147,8 +147,8 @@
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="emp_bat_template_heavy"/>
-			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="bat_bat_template_flamboyant"/>
+			<EquipmentSet id="bat_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_5_5" name="{=zaHnL2It}Sine" age="21" is_female="true" voice="earnest" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
@@ -165,8 +165,8 @@
 			<Trait id="Generosity" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="bat_bat_template_heavy"/>
-			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="bat_bat_template_lady"/>
+			<EquipmentSet id="bat_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_5_6" name="{=waQPRCaT}Eogan" age="47" is_female="true" voice="earnest" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
@@ -184,7 +184,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bat_bat_template_lady"/>
-			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_5_7" name="{=d6aTWH9m}Abaigeal" age="44" is_female="true" voice="softspoken" is_hero="true" culture="Culture.battania" occupation="Lord" default_group="Cavalry">
@@ -198,7 +198,7 @@
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="bat_bat_template_medium"/>
+			<EquipmentSet id="bat_bat_template_lady"/>
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -214,7 +214,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bat_bat_template_heavy"/>
-			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+			<EquipmentSet id="bat_civ_template_heavy" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!--
@@ -1911,25 +1911,23 @@
 	<!--
 	Massa Confederation
 	-->
+	<!-- Marynd -->	
 	<NPCCharacter id="AR_lord_11_1" name="Lorgand" voice="ironic" age="46" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="46" weight="0.45" build="0.5" key="000048020000000D91938C98CAC8887AC34EA3548EB16C3273AAA4BB838BF6AA00777603079A745200000000000000000000000000000000000000003CFC1082"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="BalancedFightingSkills" value="7"/>
 			<Trait id="Commander" value="8"/>
-			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="7"/>
-			<Trait id="Valor" value="1"/>
-			<Trait id="Honor" value="-2"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Calculating" value="-1"/>
 			<Trait id="Generosity" value="1"/>
-			<Trait id="Oligarchic" value="1"/>
-			<Trait id="Calculating" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_mas_king_battletemplate"/>
-			<EquipmentSet id="AR_mas_king_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_mas_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_11_2" name="Detheuda" voice="softspoken" age="45" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
@@ -1947,7 +1945,7 @@
 			<Trait id="KnightFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_mas_bat_template_lady"/>
 			<EquipmentSet id="AR_mas_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -2002,6 +2000,7 @@
 			<EquipmentSet id="AR_mas_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- Gosardth -->
 	<NPCCharacter id="AR_lord_11_6" name="Carmenet" voice="curt" age="42" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.massa" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="42" weight="0.1744" build="0.628" key="000D68054044240E581938178B984AD5C5F716354784954B9816895C97AC92880089360308559477000000000000000000000000000000000000000011044042"/>
@@ -4059,6 +4058,429 @@
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	
+	
+	
+	<!--
+	Geroian Republic
+	-->
+	<!-- Hamilakes -->	
+	<NPCCharacter id="AR_lord_17_1" name="{=waQPRCaT}Baltasys" age="48" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="48" weight="0.3735" build="0.5"  key="0023EC0FC0FC134D6885A89E2877B9652CD5959979B77811817D6160758390360087660308199811000019972FCAAAD8000000000000000000000000530C3006"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_2" name="{=d6aTWH9m}Demnasa" age="45" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="45" weight="0" build="0.5586"  key="001E9C0FC0FC300DA17C415CB9CDAD2C2CD58CCB864876819B2C43A87583903B007806030759C138000019972FCAAAD800000000000000000000000052FC3003"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_lady"/>
+			<EquipmentSet id="AR_kan_noncom_template_southfrontier" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_3" name="{=zaHnL2It}Adonys" age="24" voice="ironic" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="24" weight="0" build="0.5586"  key="001E9C0FC0FC120BA17C415CB9CDAD2C2CD58CCB864876819B2C43A87583903B007806030759C138000019972FCAAAD800000000000000000000000052FC3042"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
+			<EquipmentSet id="AR_kan_civ_template_southfrontier" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_4" name="{=zaHnL2It}Alysa" age="20" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="20" weight="0.0494" build="0.5"  key="0023EC0D80FC200B68444E887596E8572CD5959979B77811CEB375737583903B007716030715A3A7000019972FCAAAD800000000000000000000000052EC1003"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_lady"/>
+			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_5" name="{=zaHnL2It}Melita" age="37" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.8231" build="0.3645"  key="0020B40AC0583006BE765E6768C6889666775A83689A766A15A88AB4B273D6840085C60308666E97000000000000000000000000000000000000000044FC0083"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_lady"/>
+			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_6" name="{=waQPRCaT}Qarnais" age="38" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="38" weight="0.5" build="0.5"  key="0020600FC000034D17765594733866EA5697547358D70644773B0A10567958490087760308A8AB9300000000000000000000000000000000000000003B1C4002"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
+			<EquipmentSet id="AR_kan_civ_template_southfrontier" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<!-- Geskonos -->
+	<NPCCharacter id="AR_lord_17_7" name="{=kfNW01y5}Ahiras" voice="softspoken" default_group="Cavalry" age="35" is_hero="true" culture="Culture.kannic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35" weight="0" build="0.6716"  key="0020940D000033C2611209C75C51509B71E31662E410F8FEE606B7078C978107007A0603079849E3000000000000000000000000000000000000000032F43002"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_8" name="{=BxABzWjH}Nikkala" voice="earnest" is_female="True" default_group="Cavalry" age="33" is_hero="true" culture="Culture.kannic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33" weight="0.5787" build="0.0111"  key="001BF80D000030156A72643BB8889637A6B5789886A6C98B775A378786B795980070960307B69996000000000000000000000000000000000000000032F41043"  />
+		</face>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_lady"/>
+			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_9" name="{=qqW5n5Ox}Balidos" age="33" voice="softspoken" is_hero="true" default_group="Cavalry" culture="Culture.kannic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33" weight="0" build="0.6716"  key="0023940D800026066A487C92965A19AA71E3789886A6C98BE606B7078C978107007A0603079849E3000000000000000000000000000000000000000032F42002"  />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_heavy"/>
+			<EquipmentSet id="AR_kan_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_17_10" name="{=PopVsatN}Ashera" voice="ironic" age="19" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.0432" build="0.5448"  key="0020F80D0000200B6A65587C53BA87AD71E3789886A6C98B775A37878C9781070078160307B69996000000000000000000000000000000000000000032F42043"  />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_lady"/>
+			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>	
+	<NPCCharacter id="AR_lord_17_11" name="{=PopVsatN}Philosys" voice="ironic" age="15" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="15" weight="0.3673" build="0.3475"  key="0023940D8000238B6A65587C53BA87AD71E3789886A6C98B775A37878C9781070075660307B69996000000000000000000000000000000000000000032F42042"  />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_medium"/>
+			<EquipmentSet id="AR_kan_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>	
+	
+	<!--
+	Amprela Archontate
+	-->
+	<!-- Kamytzes -->
+	
+	<NPCCharacter id="AR_lord_18_1" name="{=waQPRCaT}Bardys" age="39" voice="curt" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="39" weight="0.0556" build="0.4213"  key="0013A8029100160D6376678F6754F88AEFB1A66B587AA643C4B687398795AC270086160308A749786100000000000000000000000000001B0000000005043002"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_heavy"/>
+			<EquipmentSet id="AR_n_emp_civ_template_heavy" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_2" name="{=d6aTWH9m}Ionnea" age="37" is_female="true" voice="softspoken" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.4244" build="0.5139"  key="0013CC09800010154885F6B978857946B6B8A67794B5ADB5C4B687397C1869990078660307A749786100000000000000000000000000001B000000005AE40003"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_lady"/>
+			<EquipmentSet id="AR_n_emp_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_3" name="{=zaHnL2It}Nicasya" age="19" is_female="true" voice="ironic" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.0556" build="0.483"  key="0013A8040000300B63C6777995733378B6B8A66B587AA643C4B687397C1869990087160308A749786100000000000000000000000000001B000000005B043003"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_lady"/>
+			<EquipmentSet id="AR_n_emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_4" name="{=zaHnL2It}Alypios" age="36" voice="earnest" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.3179" build="0.5448"  key="0013A8040000338563DC7B8D5D7DC7BAEFB1A66B587AA643894D87758795AC27008856030875B3476100000000000000000000000000001B0000000005041042"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_medium"/>
+			<EquipmentSet id="AR_n_emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_5" name="{=zaHnL2It}Tetradea" age="35" is_female="true" voice="earnest" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.3908" build="0.7829"  key="00105C0C4000100E5A7C5B7834981558C597A86B6A1BCAA455ABD845E96957C7004C66030469555521000000000000000000000000000018000000004A8C2003"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_lady"/>
+			<EquipmentSet id="AR_n_emp_noncom_template_stoic" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_6" name="{=waQPRCaT}Mayros" age="16" voice="curt" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.7269" build="0.2361"  key="001054028000338EAB9666546EFA8F819FB59B785875A7A8C826829B8795AC980084B60308AD9AF921000000000000000000000000000018000000003B041042"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_stoic"/>
+			<EquipmentSet id="AR_n_emp_civ_template_stoic" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	
+	<!-- Axouchos -->
+	
+	<NPCCharacter id="AR_lord_18_7" name="{=kfNW01y5}Karatos" voice="softspoken" default_group="Cavalry" age="36" is_hero="true" culture="Culture.empire_n" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.341" build="0.525"  key="0015C00FC014388D3D87896C8626A886D857EB4C3A37CB98CD2640219EF431140088560308A645E400000000000000000000000000000000000000003B1C8002"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_flamboyant"/>
+			<EquipmentSet id="AR_n_emp_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_8" name="{=BxABzWjH}Masticana" voice="earnest" is_female="True" default_group="Cavalry" age="34" is_hero="true" culture="Culture.empire_n" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34" weight="0.4985" build="0.0679"  key="000D680A4014300A3D84C39C46744E87495BEB4C3A37CB98D67217378698998C008176030896298A00000000000000000000000000000000000000003AFC4043"  />
+		</face>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_lady"/>
+			<EquipmentSet id="AR_n_emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_9" name="{=qqW5n5Ox}Agnela" age="33" is_female="true" voice="softspoken" is_hero="true" default_group="Cavalry" culture="Culture.empire_n" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33" weight="0.341" build="0.525"  key="0015C00FC01430063D87896C8626A886D857EB4C3A37CB98CD2640219EF431140088560308A645E400000000000000000000000000000000000000003B1C4003"  />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_lady"/>
+			<EquipmentSet id="AR_n_emp_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_18_10" name="{=PopVsatN}Cazea" voice="ironic" age="20" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire_n" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.0478" build="0.525"  key="0015C00A401430063D84C39C46744E87495BEB4C3A37CB98D67217378698998C008816030896298A00000000000000000000000000000000000000003B1C4043"  />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_lady"/>
+			<EquipmentSet id="AR_n_emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>	
+	<NPCCharacter id="AR_lord_18_11" name="{=PopVsatN}Mundzys" voice="ironic" age="16" default_group="Cavalry" is_hero="true" culture="Culture.empire_n" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.4985" build="0.0679"  key="0015680A401432463D84C39C46744E87495BEB4C3A37CB98D67217378698998C008176030896298A00000000000000000000000000000000000000003AFC3002"  />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_n_emp_bat_template_medium"/>
+			<EquipmentSet id="AR_n_emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>	
+	
+	
+	
+	
+	
 	<!-- NPC LORDS EDUCATION TEMPLATES -->
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_0_spahad" name="{=!}stage_2_page_0_branch_0_aserai" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.darshi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>

@@ -155,8 +155,8 @@
 	<string id="str_faction_ruler.empire_w_f" text="{=si_ar_empire_w_f_faction_ruler}Empress"/>
 	<string id="str_faction_ruler.kannic" text="{=si_ar_kannic_faction_ruler}Emperor"/>
 	<string id="str_faction_ruler.kannic_f" text="{=si_ar_kannic_f_faction_ruler}Empress"/>
-	<string id="str_faction_ruler.massa" text="{=si_ar_massa_faction_ruler}King"/>
-	<string id="str_faction_ruler.massa_f" text="{=si_ar_massa_f_faction_ruler}Queen"/>
+	<string id="str_faction_ruler.massa" text="{=si_ar_massa_faction_ruler}High Chieftain"/>
+	<string id="str_faction_ruler.massa_f" text="{=si_ar_massa_f_faction_ruler}High Chieftess"/>
 	<string id="str_faction_ruler.vakken" text="{=si_ar_vakken_faction_ruler}King"/>
 	<string id="str_faction_ruler.vakken_f" text="{=si_ar_vakken_f_faction_ruler}Queen"/>
 	<!--  -->
@@ -198,7 +198,7 @@
 	<string id="str_faction_ruler_name_with_title.empire_n" text="{=si_ar_empire_n_faction_ruler_name_with_title}{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_name_with_title.empire_w" text="{=si_ar_empire_w_faction_ruler_name_with_title}{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_name_with_title.kannic" text="{=si_ar_kannic_faction_ruler_name_with_title}{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
-	<string id="str_faction_ruler_name_with_title.massa" text="{=si_ar_massa_faction_ruler_name_with_title}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+	<string id="str_faction_ruler_name_with_title.massa" text="{=si_ar_massa_faction_ruler_name_with_title}{?RULER.GENDER}High Chieftess{?}High Chieftain{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_name_with_title.vakken" text="{=si_ar_vakken_faction_ruler_name_with_title}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
 	<!--  -->
 	<string id="str_faction_ruler_term_in_speech.aserai" text="{=si_ar_aserai_faction_ruler_term_in_speech}{?RULER.GENDER}the Emira{?}the Emir{\?} {RULER.NAME}"/>
@@ -212,7 +212,7 @@
 	<string id="str_faction_ruler_term_in_speech.empire_n" text="{=si_ar_empire_n_faction_ruler_term_in_speech}{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_term_in_speech.empire_w" text="{=si_ar_empire_w_faction_ruler_term_in_speech}{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_term_in_speech.kannic" text="{=si_ar_kannic_faction_ruler_term_in_speech}{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}"/>
-	<string id="str_faction_ruler_term_in_speech.massa" text="{=si_ar_massa_faction_ruler_term_in_speech}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+	<string id="str_faction_ruler_term_in_speech.massa" text="{=si_ar_massa_faction_ruler_term_in_speech}{?RULER.GENDER}High Chieftess{?}High Chieftain{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_term_in_speech.vakken" text="{=si_ar_vakken_faction_ruler_term_in_speech}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
 	<!--  -->
 	<string id="str_faction_noble_name_with_title.aserai" text="{=si_ar_aserai_faction_noble_name_with_title}{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}"/>
@@ -226,8 +226,8 @@
 	<string id="str_faction_noble_name_with_title.empire_n" text="{=si_ar_empire_n_faction_noble_name_with_title}{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}"/>
 	<string id="str_faction_noble_name_with_title.empire_w" text="{=si_ar_empire_w_faction_noble_name_with_title}{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}"/>
 	<string id="str_faction_noble_name_with_title.kannic" text="{=si_ar_kannic_faction_noble_name_with_title}{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}"/>
-	<string id="str_faction_noble_name_with_title.massa" text="{=si_ar_massa_faction_noble_name_with_title}{?RULER.GENDER}Boyarina{?}Boyar{\?} {RULER.NAME}"/>
-	<string id="str_faction_noble_name_with_title.vakken" text="{=si_ar_vakken_faction_noble_name_with_title}{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.massa" text="{=si_ar_massa_faction_noble_name_with_title}{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.vakken" text="{=si_ar_vakken_faction_noble_name_with_title}{?RULER.GENDER}Boyarina{?}Boyar{\?} {RULER.NAME}"/>
 	<!--  -->
 	<string id="str_liege_title.aserai" text="{=si_ar_aserai_liege_title}Emir of the Aserai">
 		<tags>
@@ -339,12 +339,12 @@
 			<tag tag_name="EmpireTag"/>
 		</tags>
 	</string>
-	<string id="str_liege_title.massa" text="{=si_ar_massa_liege_title}King of the Massa">
+	<string id="str_liege_title.massa" text="{=si_ar_massa_liege_title}High Chieftain of the Massa">
 		<tags>
 			<tag tag_name="VlandianTag"/>
 		</tags>
 	</string>
-	<string id="str_liege_title_female.massa" text="{=si_ar_massa_liege_title_female}Queen of the Massa">
+	<string id="str_liege_title_female.massa" text="{=si_ar_massa_liege_title_female}High Chieftess of the Massa">
 		<tags>
 			<tag tag_name="VlandianTag"/>
 		</tags>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<!-- OSA Weapons -->
+	<CraftedItem id="AR_northern_2h_mace_t4" name="{=osa_ar_northern_2h_mace_t4}Northern Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.sturgia" modifier_group="mace">
+		<Pieces>
+			<Piece id="AR_empire_mace_head_a" Type="Blade" scale_factor="110"/>
+			<Piece id="spear_handle_1" Type="Handle"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 102 Weight: 1.46 -->
+	</CraftedItem>
+	<CraftedItem id="AR_northern_2h_mace_t5" name="{=osa_ar_northern_2h_mace_t5}Northern Heavy Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.sturgia" modifier_group="mace">
+		<Pieces>
+			<Piece id="AR_empire_mace_head_b" Type="Blade" scale_factor="110"/>
+			<Piece id="mace_handle_20" Type="Handle" scale_factor="110"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 107 Weight: 1.56 -->
+	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>

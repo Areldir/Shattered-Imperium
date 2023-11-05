@@ -1574,7 +1574,7 @@
 	<!--
 	Massa Confederation
 	-->
-	<!-- Armac -->
+	<!-- Armingar -->
 	<xsl:template match="Settlement[@id='town_V6']/@name">
 		<xsl:attribute name='name'>{=si_ar_town_V6_name}Jaculanys</xsl:attribute>
 	</xsl:template>
@@ -1609,7 +1609,7 @@
 		<xsl:attribute name='name'>{=si_ar_village_V6_4_name}Chornadan</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V6_4']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V6_4_text}Chornadan sits overlooking a pass through the Biscan hills. The winds that blow from the western ocean make the hillsides uncommonly cold, and so the villagers of this region specialize in the raising of pigs.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_V6_4_text}Chornadan sits overlooking a pass through the Biscan hills. The winds that blow from the Western Ocean make the hillsides uncommonly cold, and so the villagers of this region specialize in the raising of pigs.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V6']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_3</xsl:attribute>
@@ -1632,7 +1632,7 @@
 			<Village id="castle_village_comp_SI_V3_2" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
 		</xsl:copy>
 	</xsl:template>
-	<!-- Cortand -->
+	<!-- Hathdar -->
 	<xsl:template match="Settlement[@id='castle_V7']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_V7_name}Talivela Castle</xsl:attribute>
 	</xsl:template>
@@ -1640,13 +1640,13 @@
 		<xsl:attribute name='name'>{=si_ar_castle_village_V7_1_name}Talivela</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V7_1_text}Talivela in the middle of the Trand Valley in the heartland of Calradia. Villagers plant olives here on the hillsides.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V7_1_text}Talivela in the middle of the Trand Valley - in the ancient heartland of Calradia. Villagers plant olives here on the hillsides.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_2']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_village_V7_2_name}Rodetanys</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V7_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V7_2_text}Rodetanys takes its name from the ruddy, iron-rich soil of this part of the the Rhennod hills. The mines of this district supplied the iron ore for the great forges of Paravenos.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V7_2_text}Rodetanys takes its name from the ruddy, iron-rich soil of this part of the the Rhennod Hills. The mines of this district have for centuries supplied the iron ore for the great forges of Paravenos.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V7']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_4</xsl:attribute>
@@ -1673,7 +1673,7 @@
 	<xsl:template match="Settlement[@id='castle_village_SI_V4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
 	</xsl:template>
-	<!-- Gosar -->
+	<!-- Gosardth -->
 	<xsl:template match="Settlement[@id='castle_SI_V4']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_massa_2</xsl:attribute>
 	</xsl:template>
@@ -2204,6 +2204,7 @@
 	<xsl:template match="Settlement[@id='village_V3_4']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
+	<!-- Rendakis -->
 	<xsl:template match="Settlement[@id='castle_V8']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_V8_name}Verecsana Castle</xsl:attribute>
 	</xsl:template>
@@ -2219,7 +2220,6 @@
 	<xsl:template match="Settlement[@id='castle_village_V8_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_V8_2_text}Marynos lies on the slopes west of Llyn Modris. Misty mornings, cooled by sea winds drifting south, and warm afternoons make this land well-suited to the growing of grapes.</xsl:attribute>
 	</xsl:template>
-	<!-- Rendakis -->
 	<xsl:template match="Settlement[@id='castle_V8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_paravenos_2</xsl:attribute>
 	</xsl:template>
@@ -2233,12 +2233,70 @@
 		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<!--
+	Geroian Republic
+	-->
+	<!-- Hamilakes -->
+	<xsl:template match="Settlement[@id='town_SI_ES1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_geroianys_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_SI_ES1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_ES1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_ES1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<!-- Geskonos -->
+	<xsl:template match="Settlement[@id='castle_SI_ES2']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_geroianys_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_ES2']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_ES2_1']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_ES2_2']/@culture">
+		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
+	</xsl:template>
+	<!--
 	Amprela Archontate
 	-->
+	<!-- Kamytzes -->
 	<xsl:template match="Settlement[@id='town_EN6']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_EN6_text}Amprela is the foremost town of the far northeast of the Calradian Empire. Atop its towers, one may see beacons from the frontier fortresses to the north, east and west that might signal the approach of raiders. Horse archers recruited from the rough Eleftheroi freemen drink in the barracks, waiting for the order to ride out against the nomads of the steppe, and cataphracts can be seen to sally through its gates to vie for control of the trade crossing the nearby network of lakes known as the Iltan portages.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_EN6_1_text}Avasinton sits in the wilder eastern reaches of the Myzead - the hill country in the east of the Calradian Empire. Villagers have cleared away the thickets and thornbrush of this region, including the pungent wormwood after which the village is named, to allow the growing of mulberry bushes, the leaves of which are harvested and fed to silkworms.</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='village_EN6_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_EN6_2_text}Boreagora lies in the cold north of the Empire, by the network of glacial lakes known as the portages of Iltan. Nearby imperial forts, looming over the waterways, keep watch for raiders from the steppe and northlands. The lowlands here are suited to the growing of flax.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_EN6_2_text}Boreagora lies in the cold north of the Calradian Empire, by the network of glacial lakes known as the Portages of Iltan. Nearby imperial forts, looming over the waterways, keep watch for raiders from the steppe and northlands. The lowlands here are suited to the growing of flax.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN6']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_amprela_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_EN6']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN6_1']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_EN6_2']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
+	</xsl:template>
+	<!-- Axouchos -->
+	<xsl:template match="Settlement[@id='castle_EN8']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_amprela_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_EN8']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN8_1']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN8_2']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 </xsl:stylesheet>
