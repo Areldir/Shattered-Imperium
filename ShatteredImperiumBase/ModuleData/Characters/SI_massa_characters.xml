@@ -1505,20 +1505,20 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Shock Infantry Skirmisher Heavy Skill 60-130 -->
+	<!-- T5 Shock Infantry Skirmisher Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_massa_t5_shock_inf" default_group="Infantry" level="26" name="{=si_ar_emp_aux_massa_t5_shock_inf}Auxiliary Massa Champion" occupation="Mercenary" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_massan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="80"/>
 			<skill id="Riding" value="120"/>
 			<skill id="OneHanded" value="60"/>
 			<skill id="TwoHanded" value="130"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="100"/>
+			<skill id="Throwing" value="130"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
@@ -1526,13 +1526,13 @@
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Elite Archer Heavy Skill 60-100 -->
+	<!-- T4 Elite Archer Light Skill 60-100 -->
 	<NPCCharacter id="AR_emp_aux_massa_t4_archer" default_group="Ranged" level="21" name="{=si_ar_emp_aux_massa_t4_archer}Auxiliary Massa Huntsman" occupation="Mercenary" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_massan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="120"/>
 			<skill id="Riding" value="120"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
@@ -1545,19 +1545,19 @@
 			<upgrade_target id="NPCCharacter.AR_emp_aux_massa_t5_archer"/>
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentSet id="AR_emp_aux_battanian_t4_archer_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_massa_t4_archer_battletemplate"/>
 			<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T5 Elite Archer Heavy Skill 60-130 -->
+	<!-- T5 Elite Archer Medium Skill 60-130 -->
 	<NPCCharacter id="AR_emp_aux_massa_t5_archer" default_group="Ranged" level="26" name="{=si_ar_emp_aux_massa_t5_archer}Auxiliary Massa Longbowman" occupation="Mercenary" culture="Culture.massa">
 		<face>
 			<face_key_template value="BodyProperty.fighter_massan"/>
 		</face>
 		<skills>
-			<skill id="Athletics" value="40"/>
+			<skill id="Athletics" value="80"/>
 			<skill id="Riding" value="120"/>
-			<skill id="OneHanded" value="100"/>
+			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="130"/>
@@ -1566,7 +1566,7 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="AR_emp_aux_battanian_t5_archer_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_massa_t5_archer_battletemplate"/>
 			<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
