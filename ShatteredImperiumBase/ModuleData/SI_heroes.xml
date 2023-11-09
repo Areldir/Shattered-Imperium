@@ -188,21 +188,21 @@
 	<!-- Hongeros -->
 	<Hero id="lord_1_30" spouse="Hero.lord_1_30_1" faction="Faction.clan_empire_south_4"/>
 	<Hero id="lord_1_30_1" spouse="Hero.lord_1_30" faction="Faction.clan_empire_south_4"/>
+	<Hero id="lord_1_30_2" father="Hero.lord_1_30" mother="Hero.lord_1_30_1" faction="Faction.clan_empire_south_4"/>
+	<Hero id="lord_1_30_3" father="Hero.lord_1_30" mother="Hero.lord_1_30_1" faction="Faction.clan_empire_south_4"/>
 	<Hero id="lord_1_49" spouse="Hero.lord_1_49_1" faction="Faction.clan_empire_south_4"/>
 	<Hero id="lord_1_49_1" spouse="Hero.lord_1_49" faction="Faction.clan_empire_south_4"/>
 	<Hero id="lord_1_49_2" father="Hero.lord_1_49" mother="Hero.lord_1_49_1" faction="Faction.clan_empire_south_4"/>
-	<Hero id="lord_1_30_2" father="Hero.lord_1_30" mother="Hero.lord_1_30_1" faction="Faction.clan_empire_south_4"/>
-	<Hero id="lord_1_30_3" father="Hero.lord_1_30" mother="Hero.lord_1_30_1" faction="Faction.clan_empire_south_4"/>
 	<Hero id="lord_1_56_2" father="Hero.lord_1_56" mother="Hero.lord_1_56_1" faction="Faction.clan_empire_south_4"/>
 	<!-- Prienicos -->
 	<Hero id="lord_1_72" spouse="Hero.lord_1_72_1" faction="Faction.clan_empire_south_8"/>
 	<Hero id="lord_1_72_1" spouse="Hero.lord_1_72" faction="Faction.clan_empire_south_8"/>
 	<Hero id="lord_SE8_c" faction="Faction.clan_empire_south_8"/>
 	<!-- Mestricaros -->
-	<Hero id="lord_1_177" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3"/>
-	<Hero id="lord_1_29" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3"/>
 	<Hero id="lord_1_17" spouse="Hero.lord_1_18" faction="Faction.clan_empire_south_3"/>
+	<Hero id="lord_1_177" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3"/>
 	<Hero id="lord_1_18" spouse="Hero.lord_1_17" faction="Faction.clan_empire_south_3"/>
+	<Hero id="lord_1_29" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3"/>
 	<Hero id="lord_1_39" father="Hero.lord_1_17" mother="Hero.lord_1_18" faction="Faction.clan_empire_south_3"/>
 	<!--
 	Eastern Calradian Despotate
@@ -212,20 +212,20 @@
 	<Hero id="AR_lord_1_6" alive="false" faction="Faction.clan_empire_north_3" text="{=si_ar_lord_1_6_text}Apolytea was the wife of Zenon Neretzes - now known as Solarios ‘Light-Giver’ - the rebel general-turned-emperor of the Eastern Calradian Despotate. A graceful, kind-hearted woman and faithful wife, she was beloved of the people of the eastern provinces of the Calradian Empire, known for her generosity in donating to the sick and dispossessed. However, in an event now marked as a crime by both the Senate and people of the Calradian Empire, Apolytea was executed on her husband's insane orders after he observed her gazing at the moon out of their bedroom window one night and believed she was communicating with his mortal enemy - the moon god."/>
 	<Hero id="AR_lord_1_7" father="Hero.AR_lord_1_5" mother="Hero.AR_lord_1_6" faction="Faction.clan_empire_north_3" text="{=si_ar_lord_1_7_text}Semnon is the son of Zenon Neretzes - now known as Solarios ‘Light-Giver’ - the rebel general-turned-emperor of the Eastern Calradian Despotate. Generous and wise, taking more after his mother than his father, Semnon has grown to strongly dislike the bloodshed of the civil war his father started, preferring to lead his legions against barbarians across the borders, rather than against their kin. He was forced to watch as his mother was executed on his father's insane orders - a crime that many of his colleagues in the eastern legions find repulsive. Indeed, whispers abound in the eastern provinces of the Calradian Empire that Semnon plots to usurp his father and take the family back into the imperial fold, though it remains to be seen if such rumors bear fruit."/>
 	<Hero id="lord_1_5" spouse="Hero.lord_1_1_7" faction="Faction.clan_empire_north_3"/>
+	<Hero id="lord_1_6" father="Hero.lord_1_5" mother="Hero.lord_1_1_7" faction="Faction.clan_empire_north_3"/>
 	<Hero id="lord_1_1_7" spouse="Hero.lord_1_5" faction="Faction.clan_empire_north_3"/>
 	<Hero id="lord_1_1_8" father="Hero.lord_1_5" mother="Hero.lord_1_1_7" spouse="Hero.lord_1_23" faction="Faction.clan_empire_north_3"/>
-	<Hero id="lord_1_6" father="Hero.lord_1_5" mother="Hero.lord_1_1_7" faction="Faction.clan_empire_north_3"/>
-	<Hero id="lord_1_33" father="Hero.lord_1_5" mother="Hero.lord_1_1_7" faction="Faction.clan_empire_north_3"/>
-	<Hero id="lord_1_43" faction="Faction.clan_empire_north_3"/>
 	<Hero id="lord_1_1_9" spouse="Hero.lord_1_43" faction="Faction.clan_empire_north_3"/>
 	<Hero id="lord_1_1_10" father="Hero.lord_1_43" mother="Hero.lord_1_1_9" faction="Faction.clan_empire_north_3"/>
 	<Hero id="lord_1_1_11" father="Hero.lord_1_43" mother="Hero.lord_1_1_9" faction="Faction.clan_empire_north_3"/>
+	<Hero id="lord_1_33" father="Hero.lord_1_5" mother="Hero.lord_1_1_7" faction="Faction.clan_empire_north_3"/>
+	<Hero id="lord_1_43" faction="Faction.clan_empire_north_3"/>
 	<!-- Argoros -->
 	<Hero id="lord_1_3" spouse="Hero.lord_1_4" faction="Faction.clan_empire_north_2" text="{=si_ar_lord_1_3_text}Ocheros is the head of the Argoros family - marcher lords who have held estates on the southern coasts of Lake Laconis for just a couple of short generations. Whilst his family is renowned for their strong support for the Calradian Senate, Ocheros chose to follow a different path after seeing the lands of his peers in the eastern legions ravaged by Byalic warriors. ‘A dire, drastic situation can only be answered by dire, drastic solutions’ he proclaimed, before joining the rebellion of Solarios ‘Light-Giver’. Marked a traitor by the Calradian Senate, and a wayward heretic by his kinsmen who remained loyal to the Calradian Empire, Ocheros now charts his own destiny."/>
 	<Hero id="lord_1_4" spouse="Hero.lord_1_3" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_22" faction="Faction.clan_empire_north_2"/>
-	<Hero id="lord_1_42" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_32" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
+	<Hero id="lord_1_42" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_422" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_1_3" spouse="Hero.lord_1_22" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_1_4" spouse="Hero.lord_1_42" faction="Faction.clan_empire_north_2"/>
@@ -234,17 +234,17 @@
 	<!-- Osticos -->
 	<Hero id="lord_1_1" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1" text="{=si_ar_lord_1_1_text}Camnon of the noble Calradian family of the Osticos is one of the most detested nobles in Calradia, with a reputation for being arrogant and elitist even among his peers. His desire for power and glory has divided his family, with some of his kinsmen remaining loyal to the Calradian Senate, whilst others have joined him in campaigning in the east. He naturally joined the rebellion of Solarios ‘Light-Giver’, viewing the ensuing chaos that has engulfed the Calradian Empire as a potential for further advancement. Few can doubt that he jealously eyes the throne, and is merely biding his time."/>
 	<Hero id="lord_1_2" spouse="Hero.lord_1_1" faction="Faction.clan_empire_north_1"/>
-	<Hero id="lord_1_41" spouse="Hero.lord_1_1_1" faction="Faction.clan_empire_north_1"/>
-	<Hero id="lord_1_411" father="Hero.lord_1_41" faction="Faction.clan_empire_north_1"/>
-	<Hero id="lord_1_31" father="Hero.lord_1_1" mother="Hero.lord_1_2" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_1_1" spouse="Hero.lord_1_41" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_1_2" spouse="Hero.lord_1_21" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_21" father="Hero.lord_1_1" mother="Hero.lord_1_2" faction="Faction.clan_empire_north_1"/>
+	<Hero id="lord_1_31" father="Hero.lord_1_1" mother="Hero.lord_1_2" faction="Faction.clan_empire_north_1"/>
+	<Hero id="lord_1_41" spouse="Hero.lord_1_1_1" faction="Faction.clan_empire_north_1"/>
+	<Hero id="lord_1_411" father="Hero.lord_1_41" faction="Faction.clan_empire_north_1"/>
 	<!-- Julios -->
-	<Hero id="lord_1_63_2" father="Hero.lord_1_63" mother="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
-	<Hero id="lord_1_63_3" father="Hero.lord_1_63" mother="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_63" spouse="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_63_1" spouse="Hero.lord_1_63" faction="Faction.clan_empire_south_5"/>
+	<Hero id="lord_1_63_2" father="Hero.lord_1_63" mother="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
+	<Hero id="lord_1_63_3" father="Hero.lord_1_63" mother="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_74" spouse="Hero.lord_1_74_1" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_74_1" spouse="Hero.lord_1_74" faction="Faction.clan_empire_south_5"/>
 	<!-- Dolentos -->
@@ -258,11 +258,11 @@
 	<Hero id="lord_1_51" faction="Faction.clan_empire_north_6"/>
 	<Hero id="lord_1_67" faction="Faction.clan_empire_north_6"/>
 	<!-- Avlonos -->
-	<Hero id="lord_1_69_2" father="Hero.lord_1_69" mother="Hero.lord_1_69_1" faction="Faction.clan_empire_south_7"/>
-	<Hero id="lord_1_69" spouse="Hero.lord_1_69_1" faction="Faction.clan_empire_south_7"/>
-	<Hero id="lord_1_69_1" spouse="Hero.lord_1_69" faction="Faction.clan_empire_south_7"/>
 	<Hero id="lord_1_55" spouse="Hero.lord_1_55_1" faction="Faction.clan_empire_south_7"/>
 	<Hero id="lord_1_55_1" spouse="Hero.lord_1_55" faction="Faction.clan_empire_south_7"/>
+	<Hero id="lord_1_69" spouse="Hero.lord_1_69_1" faction="Faction.clan_empire_south_7"/>
+	<Hero id="lord_1_69_1" spouse="Hero.lord_1_69" faction="Faction.clan_empire_south_7"/>
+	<Hero id="lord_1_69_2" father="Hero.lord_1_69" mother="Hero.lord_1_69_1" faction="Faction.clan_empire_south_7"/>
 	<!-- Vetranis -->
 	<Hero id="lord_SE9_l" spouse="Hero.lord_SE9_s" faction="Faction.clan_empire_south_9"/>
 	<Hero id="lord_SE9_s" spouse="Hero.lord_SE9_l" faction="Faction.clan_empire_south_9"/>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
+	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.fighter_battania"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -16,13 +16,13 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="bat_civ_template_wild"/>
+			<EquipmentSet id="khu_civ_template_nomad"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
+	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.fighter_battania"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -36,7 +36,7 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="bat_noncom_template_wild"/>
+			<EquipmentSet id="khu_civ_template_lady_normal"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>

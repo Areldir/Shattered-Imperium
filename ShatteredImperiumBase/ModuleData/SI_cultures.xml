@@ -323,6 +323,11 @@
 			<name name="{=!*}Lorea"/>
 			<name name="{=!*}Rosea"/>
 			<name name="{=!*}Tulia"/>
+			<name name="{=!*}Katina"/>
+			<name name="{=!*}Panope"/>
+			<name name="{=!*}Neaera"/>
+			<name name="{=!*}Nephele"/>
+			<name name="{=!*}Damea"/>
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
@@ -2545,6 +2550,11 @@
 			<name name="{=!*}Lorea"/>
 			<name name="{=!*}Rosea"/>
 			<name name="{=!*}Tulia"/>
+			<name name="{=!*}Katina"/>
+			<name name="{=!*}Panope"/>
+			<name name="{=!*}Neaera"/>
+			<name name="{=!*}Nephele"/>
+			<name name="{=!*}Damea"/>
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
@@ -3043,6 +3053,11 @@
 			<name name="{=!*}Lorea"/>
 			<name name="{=!*}Rosea"/>
 			<name name="{=!*}Tulia"/>
+			<name name="{=!*}Katina"/>
+			<name name="{=!*}Panope"/>
+			<name name="{=!*}Neaera"/>
+			<name name="{=!*}Nephele"/>
+			<name name="{=!*}Damea"/>
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
@@ -3182,12 +3197,20 @@
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_1"/>
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_2"/>
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_0"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_1"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_2"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_0"/>
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_1"/>
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_2"/>
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_0"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_1"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_2"/>
+			<template name="NPCCharacter.AR_spc_amprela_free_company_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.AR_tournament_template_n_empire_one_participant_set_v1"/>
@@ -3206,7 +3229,7 @@
 			<template name="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_gladiatrix_recruit"/>
 			<template name="NPCCharacter.AR_emp_aux_vaegir_recruit"/>
-			<template name="NPCCharacter.AR_min_biscan_t3"/>
+			<template name="NPCCharacter.AR_min_amprela_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="kannic"
@@ -3532,6 +3555,11 @@
 			<name name="{=!*}Lorea"/>
 			<name name="{=!*}Rosea"/>
 			<name name="{=!*}Tulia"/>
+			<name name="{=!*}Katina"/>
+			<name name="{=!*}Panope"/>
+			<name name="{=!*}Neaera"/>
+			<name name="{=!*}Nephele"/>
+			<name name="{=!*}Damea"/>
 		</female_names>
 		<clan_names>
 			<name name="{=pRA9EzNv}Acapanos"/>
@@ -4720,6 +4748,7 @@
 			<template name="NPCCharacter.AR_min_ghilman_t3"/>
 			<template name="NPCCharacter.AR_min_silverdragon_t3"/>
 			<template name="NPCCharacter.AR_min_karakhuzaits_t3"/>
+			<template name="NPCCharacter.AR_min_jawwal_t3"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="byalic"
@@ -5311,6 +5340,11 @@
 			<name name="{=!*}Lorea"/>
 			<name name="{=!*}Rosea"/>
 			<name name="{=!*}Tulia"/>
+			<name name="{=!*}Katina"/>
+			<name name="{=!*}Panope"/>
+			<name name="{=!*}Neaera"/>
+			<name name="{=!*}Nephele"/>
+			<name name="{=!*}Damea"/>
 			<name name="{=6pAsFGvw}Abeil"/>
 			<name name="{=WuMGWUJ7}Addien"/>
 			<name name="{=4Vd1TXpN}Anwyn"/>
@@ -5542,14 +5576,15 @@
 			<item id="Item.empire_sword_6_t5"/>
 		</banner_bearer_replacement_weapons>
 	</Culture>
+	<!---Culture id="deserters" name="Deserters" elite_basic_troop="NPCCharacter.deserter" basic_troop="NPCCharacter.deserter" is_bandit="true"/-->
 	<Culture id="sea_raiders"
 	         name="{=pBUc2pL8}Sea Raiders"
-	         bandit_chief="NPCCharacter.AR_ban_t4_sea_raider"
-	         bandit_raider="NPCCharacter.AR_ban_t3_sea_raider"
-	         bandit_bandit="NPCCharacter.AR_ban_t2_sea_raider"
-	         bandit_boss="NPCCharacter.AR_sea_raiders_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t3_sea_raider"
-	         basic_troop="NPCCharacter.AR_ban_t2_sea_raider"
+	         bandit_chief="NPCCharacter.sea_raiders_chief"
+	         bandit_raider="NPCCharacter.sea_raiders_raider"
+	         bandit_bandit="NPCCharacter.sea_raiders_bandit"
+	         bandit_boss="NPCCharacter.sea_raiders_boss"
+	         elite_basic_troop="NPCCharacter.sea_raiders_raider"
+	         basic_troop="NPCCharacter.sea_raiders_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_shore_bandit"
@@ -5563,12 +5598,12 @@
 	</Culture>
 	<Culture id="mountain_bandits"
 	         name="{=mOa9CX13}Mountain Bandits"
-	         bandit_chief="NPCCharacter.AR_ban_t4_mountain_bandit"
-	         bandit_raider="NPCCharacter.AR_ban_t3_mountain_bandit"
-	         bandit_bandit="NPCCharacter.AR_ban_t2_mountain_bandit"
-	         bandit_boss="NPCCharacter.AR_mountain_bandits_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t3_mountain_bandit"
-	         basic_troop="NPCCharacter.AR_ban_t2_mountain_bandit"
+	         bandit_chief="NPCCharacter.mountain_bandits_chief"
+	         bandit_raider="NPCCharacter.mountain_bandits_raider"
+	         bandit_bandit="NPCCharacter.mountain_bandits_bandit"
+	         bandit_boss="NPCCharacter.mountain_bandits_boss"
+	         elite_basic_troop="NPCCharacter.mountain_bandits_raider"
+	         basic_troop="NPCCharacter.mountain_bandits_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_mountain_bandit"
@@ -5582,12 +5617,12 @@
 	</Culture>
 	<Culture id="forest_bandits"
 	         name="{=sAbjtZbB}Forest Bandits"
-	         bandit_chief="NPCCharacter.AR_ban_t4_forest_bandit"
-	         bandit_raider="NPCCharacter.AR_ban_t3_forest_bandit"
-	         bandit_bandit="NPCCharacter.AR_ban_t2_forest_bandit"
-	         bandit_boss="NPCCharacter.AR_forest_bandits_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t3_forest_bandit"
-	         basic_troop="NPCCharacter.AR_ban_t2_forest_bandit"
+	         bandit_chief="NPCCharacter.forest_bandits_chief"
+	         bandit_raider="NPCCharacter.forest_bandits_raider"
+	         bandit_bandit="NPCCharacter.forest_bandits_bandit"
+	         bandit_boss="NPCCharacter.forest_bandits_boss"
+	         elite_basic_troop="NPCCharacter.forest_bandits_raider"
+	         basic_troop="NPCCharacter.forest_bandits_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_forest_bandit"
@@ -5601,12 +5636,12 @@
 	</Culture>
 	<Culture id="desert_bandits"
 	         name="{=kkUQObZn}Desert Bandits"
-	         bandit_chief="NPCCharacter.AR_ban_t4_desert_bandit"
-	         bandit_raider="NPCCharacter.AR_ban_t3_desert_bandit"
-	         bandit_bandit="NPCCharacter.AR_ban_t2_desert_bandit"
-	         bandit_boss="NPCCharacter.AR_desert_bandits_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t3_desert_bandit"
-	         basic_troop="NPCCharacter.AR_ban_t2_desert_bandit"
+	         bandit_chief="NPCCharacter.desert_bandits_chief"
+	         bandit_raider="NPCCharacter.desert_bandits_raider"
+	         bandit_bandit="NPCCharacter.desert_bandits_bandit"
+	         bandit_boss="NPCCharacter.desert_bandits_boss"
+	         elite_basic_troop="NPCCharacter.desert_bandits_raider"
+	         basic_troop="NPCCharacter.desert_bandits_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_desert_bandits"
@@ -5620,12 +5655,12 @@
 	</Culture>
 	<Culture id="steppe_bandits"
 	         name="{=e6csp4ha}Steppe Bandits"
-	         bandit_chief="NPCCharacter.AR_ban_t4_steppe_bandit"
-	         bandit_raider="NPCCharacter.AR_ban_t3_steppe_bandit"
-	         bandit_bandit="NPCCharacter.AR_ban_t2_steppe_bandit"
-	         bandit_boss="NPCCharacter.AR_steppe_bandits_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t3_steppe_bandit"
-	         basic_troop="NPCCharacter.AR_ban_t2_steppe_bandit"
+	         bandit_chief="NPCCharacter.steppe_bandits_chief"
+	         bandit_raider="NPCCharacter.steppe_bandits_raider"
+	         bandit_bandit="NPCCharacter.steppe_bandits_bandit"
+	         bandit_boss="NPCCharacter.steppe_bandits_boss"
+	         elite_basic_troop="NPCCharacter.steppe_bandits_raider"
+	         basic_troop="NPCCharacter.steppe_bandits_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_desert_bandits"
@@ -5675,6 +5710,25 @@
 			<item id="Item.empire_sword_6_t5"/>
 		</banner_bearer_replacement_weapons>
 	</Culture>
+	<!--Culture id="perassic_pirates"
+	         name="{=si_ar_perassic_pirates_culture_name}Perassic Pirates"
+	         bandit_chief="NPCCharacter.AR_ban_t5_rebel_gladiator"
+	         bandit_raider="NPCCharacter.AR_ban_t4_rebel_gladiator"
+	         bandit_bandit="NPCCharacter.AR_ban_t3_rebel_gladiator"
+	         bandit_boss="NPCCharacter.AR_rebel_gladiators_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t4_rebel_gladiator"
+	         basic_troop="NPCCharacter.AR_ban_t3_rebel_gladiator"
+	         is_bandit="true"
+	         can_have_settlement="true"
+	         encounter_background_mesh="encounter_shore_bandit"
+	         bandit_boss_party_template="PartyTemplate.rebel_gladiators_boss_party_template">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture-->
 	<Culture id="neutral_culture"
 	         name="{=jKviMpbP}Calradian"
 	         elite_basic_troop="NPCCharacter.guard"
