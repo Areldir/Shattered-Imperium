@@ -1,0 +1,1338 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ATCConfig>
+	<!-- 
+	MAJOR KINGDOM FACTIONS
+	-->
+	<!--
+	Aserai Emirates
+	-->
+	<MapFaction id="aserai">
+		<!-- ASERAI: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="60"/>
+				<volunteer id="AR_ase_villager" percent="20"/>
+				<volunteer id="AR_min_jawwal_t3" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_min_dryatics_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_min_swadians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_min_eleftheroi_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_dar_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_min_lysians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_min_biscan_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ASERAI: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_ase_recruit" percent="40"/>
+				<volunteer id="AR_ase_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ase_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Battanian Kingdom
+	-->
+	<MapFaction id="battania">
+		<!-- BATTANIA: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_min_jawwal_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="60"/>
+				<volunteer id="AR_bat_villager" percent="20"/>
+				<volunteer id="AR_min_dryatics_t3" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_min_swadians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_min_eleftheroi_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_dar_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_min_lysians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_min_biscan_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- BATTANIA: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_bat_recruit" percent="40"/>
+				<volunteer id="AR_bat_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_bat_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Calradian Empire
+	-->
+	<MapFaction id="empire_s">
+		<!-- CALRADIAN: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_aserai_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_battanian_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="60"/>
+				<volunteer id="AR_s_emp_villager" percent="20"/>
+				<volunteer id="AR_emp_aux_temean_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_eleftheroi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_epiric_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_karakhuzait_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vaegir_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vlandia_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_eleftheroi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_darshi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_aserai_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_massa_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- CALRADIAN: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_s_emp_recruit" percent="40"/>
+				<volunteer id="AR_s_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vaegir_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_s_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Eastern Calradian Despotate
+	-->
+	<MapFaction id="empire">
+		<!-- EASTERN CALRADIAN: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_aserai_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_battanian_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_temean_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="60"/>
+				<volunteer id="AR_n_emp_villager" percent="20"/>
+				<volunteer id="AR_emp_aux_eleftheroi_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_epiric_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_karakhuzait_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vaegir_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vlandia_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_eleftheroi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_darshi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_aserai_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_massa_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- EASTERN CALRADIAN: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_n_emp_recruit" percent="40"/>
+				<volunteer id="AR_n_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vaegir_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_n_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Western Calradian Republic
+	-->
+	<MapFaction id="empire_w">
+		<!-- WESTERN CALRADIAN: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_aserai_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_battanian_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Default -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_temean_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_eleftheroi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Western Calradian -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="60"/>
+				<volunteer id="AR_w_emp_villager" percent="20"/>
+				<volunteer id="AR_emp_aux_epiric_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_karakhuzait_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vaegir_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vlandia_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_eleftheroi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_darshi_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_aserai_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_massa_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- WESTERN CALRADIAN: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_w_emp_recruit" percent="40"/>
+				<volunteer id="AR_w_emp_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_vaegir_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_w_emp_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Iltanlar Khanate
+	-->
+	<MapFaction id="khuzait">
+		<!-- ILTANLAR: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_min_jawwal_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_min_dryatics_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="60"/>
+				<volunteer id="AR_ilt_villager" percent="20"/>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_min_swadians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_min_eleftheroi_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_dar_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_min_lysians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_min_biscan_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- ILTANLAR: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_ilt_recruit" percent="40"/>
+				<volunteer id="AR_ilt_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_ilt_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Sturgian Principalities
+	-->
+	<MapFaction id="sturgia">
+		<!-- STURGIA: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_min_jawwal_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_min_dryatics_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="60"/>
+				<volunteer id="AR_stu_villager" percent="20"/>
+				<volunteer id="AR_nor_aux_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_min_swadians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_min_eleftheroi_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_dar_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_min_lysians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_min_biscan_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- STURGIA: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_stu_recruit" percent="40"/>
+				<volunteer id="AR_stu_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_stu_elite_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Vlandian Kingdom
+	-->
+	<MapFaction id="vlandia">
+		<!-- VLANDIA: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_min_jawwal_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_min_dryatics_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="60"/>
+				<volunteer id="AR_vla_villager" percent="20"/>
+				<volunteer id="AR_min_swadians_t3" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_min_eleftheroi_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Darshi -->
+		<Culture id="darshi">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_dar_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_min_lysians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_min_biscan_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- VLANDIA: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_vla_recruit" percent="40"/>
+				<volunteer id="AR_vla_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_vla_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<!--
+	Spahanfar Satrapy
+	-->
+	<MapFaction id="spahad">
+		<!-- SPAHANFAR: Captured Aserai -->
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_min_jawwal_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Battanian -->
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_min_dryatics_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Calradian -->
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Eastern Calradian -->
+		<Culture id="empire_n">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Western Calradian -->
+		<Culture id="empire_w">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_emp_aux_slave_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Iltanlar -->
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Sturgian -->
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Vlandian -->
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_min_swadians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Byalic -->
+		<Culture id="byalic">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_min_eleftheroi_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Default -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="60"/>
+				<volunteer id="AR_dar_villager" percent="20"/>
+				<volunteer id="AR_dar_aux_recruit" percent="20"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Kannic -->
+		<Culture id="kannic">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_min_lysians_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Massa -->
+		<Culture id="massa">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_min_biscan_t3" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+		<!-- SPAHANFAR: Captured Vakken -->
+		<Culture id="vakken">
+			<basicTroops>
+				<volunteer id="AR_dar_recruit" percent="40"/>
+				<volunteer id="AR_dar_villager" percent="30"/>
+				<volunteer id="AR_nor_aux_recruit" percent="30"/>
+			</basicTroops>
+			<eliteTroops spawnChance="10" atPower="150" spawnChanceCap="30">
+				<volunteer id="AR_dar_cavalry_recruit"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+</ATCConfig> 

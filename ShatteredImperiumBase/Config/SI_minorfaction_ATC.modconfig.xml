@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ATCConfig>
+	<!-- MINOR FACTIONS -->
+	<!-- ASERAI -->
+	<Clan id="beni_zilal">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_benizilal_t3" percent="50"/>
+				<volunteer id="AR_min_benizilal_t4_slinger" percent="25"/>
+				<volunteer id="AR_min_benizilal_t4_pyro" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_benizilal_t5_slinger" percent="50"/>
+				<volunteer id="AR_min_benizilal_t5_pyro" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="jawwal">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_jawwal_t3" percent="50"/>
+				<volunteer id="AR_min_jawwal_t4_camel_melee" percent="25"/>
+				<volunteer id="AR_min_jawwal_t4_camel_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_jawwal_t5_camel_melee" percent="50"/>
+				<volunteer id="AR_min_jawwal_t5_camel_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- BATTANIAN -->
+	<Clan id="wolfskins">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_wolfskins_t3" percent="50"/>
+				<volunteer id="AR_min_wolfskins_t4_shock_inf" percent="25"/>
+				<volunteer id="AR_min_wolfskins_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_wolfskins_t5_shock_inf" percent="50"/>
+				<volunteer id="AR_min_wolfskins_t5_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="druids">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_druids_t3" percent="50"/>
+				<volunteer id="AR_min_druids_t4_melee" percent="25"/>
+				<volunteer id="AR_min_druids_t4_shock_inf" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_druids_t5_melee" percent="50"/>
+				<volunteer id="AR_min_druids_t5_shock_inf" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- CALRADIAN -->
+	<Clan id="hidden_hand">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_hand_t3" percent="50"/>
+				<volunteer id="AR_min_hand_t4_inf" percent="25"/>
+				<volunteer id="AR_min_hand_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_hand_t5_inf" percent="50"/>
+				<volunteer id="AR_min_hand_t5_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="chandions_champions">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_emp_aux_gladiator_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_gladiator_t4_sword" percent="25"/>
+				<volunteer id="AR_emp_aux_gladiator_t4_spear" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_emp_aux_gladiator_t5_sword" percent="50"/>
+				<volunteer id="AR_emp_aux_gladiator_t5_spear" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="embers_of_flame">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_embers_t3" percent="50"/>
+				<volunteer id="AR_min_embers_t4_inf" percent="25"/>
+				<volunteer id="AR_min_embers_t4_shock" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_embers_t5_inf" percent="50"/>
+				<volunteer id="AR_min_embers_t5_shock" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="yachios_free_company">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_yachios_t3" percent="50"/>
+				<volunteer id="AR_min_yachios_t4_spearman" percent="25"/>
+				<volunteer id="AR_min_yachios_t4_skirmisher" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_yachios_t5_spearman" percent="50"/>
+				<volunteer id="AR_min_yachios_t5_skirmisher" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- EASTERN CALRADIAN -->
+	<Clan id="saleas_sisters">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_emp_aux_gladiatrix_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_gladiatrix_t4_sword" percent="25"/>
+				<volunteer id="AR_emp_aux_gladiatrix_t4_spear" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_emp_aux_gladiatrix_t5_sword" percent="50"/>
+				<volunteer id="AR_emp_aux_gladiatrix_t5_spear" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="eleftheroi">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_eleftheroi_t3" percent="50"/>
+				<volunteer id="AR_min_eleftheroi_t4_cav" percent="25"/>
+				<volunteer id="AR_min_eleftheroi_t4_cav_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_eleftheroi_t5_cav" percent="50"/>
+				<volunteer id="AR_min_eleftheroi_t5_cav_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="amprela_free_company">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_amprela_t3" percent="50"/>
+				<volunteer id="AR_min_amprela_t4_spearman" percent="25"/>
+				<volunteer id="AR_min_amprela_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_amprela_t5_spearman" percent="50"/>
+				<volunteer id="AR_min_amprela_t5_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- WESTERN CALRADIAN -->
+	<Clan id="legion_of_the_betrayed">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_legion_t3" percent="50"/>
+				<volunteer id="AR_min_legion_t4_inf" percent="25"/>
+				<volunteer id="AR_min_legion_t4_skirm" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_legion_t5_inf" percent="50"/>
+				<volunteer id="AR_min_legion_t5_skirm" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="paravenos_exiles">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_paravenos_exiles_t3" percent="50"/>
+				<volunteer id="AR_min_paravenos_exiles_t4_spearman" percent="25"/>
+				<volunteer id="AR_min_paravenos_exiles_t4_crossbowman" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_paravenos_exiles_t5_spearman" percent="50"/>
+				<volunteer id="AR_min_paravenos_exiles_t5_crossbowman" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- ILTANLAR -->
+	<Clan id="hawlans">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_ilt_aux_hawlan_recruit" percent="50"/>
+				<volunteer id="AR_ilt_aux_t4_hawlan_melee" percent="25"/>
+				<volunteer id="AR_ilt_aux_t4_hawlan_ranged" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_ilt_aux_t5_hawlan_melee" percent="50"/>
+				<volunteer id="AR_ilt_aux_t5_hawlan_ranged" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="chosen_of_the_sky">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_chosensky_t3" percent="50"/>
+				<volunteer id="AR_min_chosensky_t4_lancer" percent="25"/>
+				<volunteer id="AR_min_chosensky_t4_cav_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_chosensky_t5_lancer" percent="50"/>
+				<volunteer id="AR_min_chosensky_t5_cav_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- STURGIAN -->
+	<Clan id="lakepike">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_lakepike_t3" percent="50"/>
+				<volunteer id="AR_min_lakepike_t4_melee" percent="25"/>
+				<volunteer id="AR_min_lakepike_t4_crossbowman" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_lakepike_t5_melee" percent="50"/>
+				<volunteer id="AR_min_lakepike_t5_crossbowman" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- VLANDIAN -->
+	<Clan id="company_of_the_boar">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_companyboar_t3" percent="50"/>
+				<volunteer id="AR_min_companyboar_t4_crossbowman" percent="25"/>
+				<volunteer id="AR_min_companyboar_t4_crossbow_cav" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_companyboar_t5_crossbowman" percent="50"/>
+				<volunteer id="AR_min_companyboar_t5_crossbow_cav" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="brotherhood_of_woods">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_brotherhood_t3" percent="50"/>
+				<volunteer id="AR_min_brotherhood_t4_skirm" percent="25"/>
+				<volunteer id="AR_min_brotherhood_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_brotherhood_t5_skirm" percent="50"/>
+				<volunteer id="AR_min_brotherhood_t5_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="swadians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_swadians_t3" percent="50"/>
+				<volunteer id="AR_min_swadians_t4_lancer" percent="25"/>
+				<volunteer id="AR_min_swadians_t4_crossbow_cav" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_swadians_t5_lancer" percent="50"/>
+				<volunteer id="AR_min_swadians_t5_crossbow_cav" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="biscan_exiles">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_biscan_t3" percent="50"/>
+				<volunteer id="AR_min_biscan_t4_swordsman" percent="25"/>
+				<volunteer id="AR_min_biscan_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_biscan_t5_swordsman" percent="50"/>
+				<volunteer id="AR_min_biscan_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- BYALS -->
+	<Clan id="lochanians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_lochanian_t3" percent="50"/>
+				<volunteer id="AR_min_lochanian_t4_melee" percent="25"/>
+				<volunteer id="AR_min_lochanian_t4_shock_inf" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_lochanian_t5_melee" percent="50"/>
+				<volunteer id="AR_min_lochanian_t5_shock_inf" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- DARSHI -->
+	<Clan id="kohi_rohini">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_dar_aux_recruit" percent="50"/>
+				<volunteer id="AR_dar_aux_t4_swordsman" percent="25"/>
+				<volunteer id="AR_dar_aux_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_dar_aux_t5_swordsman" percent="50"/>
+				<volunteer id="AR_dar_aux_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="ghilman">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_ghilman_t3" percent="50"/>
+				<volunteer id="AR_min_ghilman_t4_lancer" percent="25"/>
+				<volunteer id="AR_min_ghilman_t4_cav_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_ghilman_t5_lancer" percent="50"/>
+				<volunteer id="AR_min_ghilman_t5_cav_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="ethawians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_ethawian_t3" percent="50"/>
+				<volunteer id="AR_min_ethawian_t4_infantry" percent="25"/>
+				<volunteer id="AR_min_ethawian_t4_skirmisher" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_ethawian_t5_infantry" percent="50"/>
+				<volunteer id="AR_min_ethawian_t5_skirmisher" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- KANNIC -->
+	<Clan id="lysians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_lysians_t3" percent="50"/>
+				<volunteer id="AR_min_lysians_t4_archer" percent="25"/>
+				<volunteer id="AR_min_lysians_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_lysians_t5_archer" percent="50"/>
+				<volunteer id="AR_min_lysians_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="geroianys_free_company">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_geroianys_t3" percent="50"/>
+				<volunteer id="AR_min_geroianys_t4_axeman" percent="25"/>
+				<volunteer id="AR_min_geroianys_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_geroianys_t5_axeman" percent="50"/>
+				<volunteer id="AR_min_geroianys_t5_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- KARAKHUZAIT -->
+	<Clan id="karakhuzaits">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_karakhuzaits_t3" percent="50"/>
+				<volunteer id="AR_min_karakhuzaits_t4_lancer" percent="25"/>
+				<volunteer id="AR_min_karakhuzaits_t4_cav_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_karakhuzaits_t5_lancer" percent="50"/>
+				<volunteer id="AR_min_karakhuzaits_t5_cav_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- MASSA -->
+	<Clan id="companions_of_theudaris">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_companions_of_theudaris_t3" percent="50"/>
+				<volunteer id="AR_min_companions_of_theudaris_t4_shock_inf" percent="25"/>
+				<volunteer id="AR_min_companions_of_theudaris_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_companions_of_theudaris_t5_shock_inf" percent="50"/>
+				<volunteer id="AR_min_companions_of_theudaris_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- NORDIC -->
+	<Clan id="skolderbrotva">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_skolder_t3" percent="50"/>
+				<volunteer id="AR_min_skolder_t4_melee" percent="25"/>
+				<volunteer id="AR_min_skolder_t4_shock_inf" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_skolder_t5_melee" percent="50"/>
+				<volunteer id="AR_min_skolder_t5_shock_inf" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="seax">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_seax_t3" percent="50"/>
+				<volunteer id="AR_min_seax_t4_melee" percent="25"/>
+				<volunteer id="AR_min_seax_t4_slinger" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_seax_t5_melee" percent="50"/>
+				<volunteer id="AR_min_seax_t5_slinger" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- PALAIC -->
+	<Clan id="dryatics">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_dryatics_t3" percent="50"/>
+				<volunteer id="AR_min_dryatics_t4_infantry" percent="25"/>
+				<volunteer id="AR_min_dryatics_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_dryatics_t5_infantry" percent="50"/>
+				<volunteer id="AR_min_dryatics_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="guardians">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_emp_aux_epiric_recruit" percent="50"/>
+				<volunteer id="AR_emp_aux_epiric_t4_infantry" percent="25"/>
+				<volunteer id="AR_emp_aux_epiric_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_emp_aux_epiric_t5_infantry" percent="50"/>
+				<volunteer id="AR_emp_aux_epiric_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- RENSICHOU -->
+	<Clan id="silver_dragon_company">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_silverdragon_t3" percent="50"/>
+				<volunteer id="AR_min_silverdragon_t4_melee" percent="25"/>
+				<volunteer id="AR_min_silverdragon_t4_cav" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_silverdragon_t5_melee" percent="50"/>
+				<volunteer id="AR_min_silverdragon_t5_cav" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<!-- VAKKEN -->
+	<Clan id="forest_people">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_forest_people_t3" percent="50"/>
+				<volunteer id="AR_min_forest_people_t4_melee" percent="25"/>
+				<volunteer id="AR_min_forest_people_t4_archer" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_forest_people_t5_melee" percent="50"/>
+				<volunteer id="AR_min_forest_people_t5_archer" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="vezha_valkyries">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_vezha_t3" percent="50"/>
+				<volunteer id="AR_min_vezha_t4_melee" percent="25"/>
+				<volunteer id="AR_min_vezha_t4_cavalry" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_vezha_t5_melee" percent="50"/>
+				<volunteer id="AR_min_vezha_t5_cavalry" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+	<Clan id="ircara">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="AR_min_ircara_t3" percent="50"/>
+				<volunteer id="AR_min_ircara_t4_melee" percent="25"/>
+				<volunteer id="AR_min_ircara_t4_slinger" percent="25"/>
+			</basicTroops>
+			<eliteTroops spawnChance="15" atPower="200" spawnChanceCap="25">
+				<volunteer id="AR_min_ircara_t5_melee" percent="50"/>
+				<volunteer id="AR_min_ircara_t5_slinger" percent="50"/>
+			</eliteTroops>
+		</Culture>
+	</Clan>
+</ATCConfig>
