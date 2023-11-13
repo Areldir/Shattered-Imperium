@@ -1929,4 +1929,26 @@
 			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- DARSHI: Special Troops -->
+	<!-- T5 Greek Fire Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_dar_t5_flamethrower" default_group="Ranged" level="26" name="{=si_ar_dar_t5_flamethrower}Darshi Flamehurler" occupation="Mercenary" culture="Culture.darshi">
+		<face>
+			<face_key_template value="BodyProperty.fighter_darshi"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_dar_t5_flamethrower_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
