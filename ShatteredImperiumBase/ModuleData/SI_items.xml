@@ -17,6 +17,58 @@
 		</Pieces>
 		<!-- Length: 107 Weight: 1.56 -->
 	</CraftedItem>
+	<CraftedItem id="AR_crude_2h_mace_t2" name="{=osa_ar_crude_2h_mace_t2}Crude Spiked Two Handed Club" crafting_template="TwoHandedMace" culture="Culture.neutral" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_35" Type="Blade"/>
+			<Piece id="spear_handle_1" Type="Handle"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 112 Weight: 0.8 -->
+	</CraftedItem>
+	<CraftedItem id="AR_crude_2h_mace_t3" name="{=osa_ar_crude_2h_mace_t3}Spiked Two Handed Club" crafting_template="TwoHandedMace" culture="Culture.neutral" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_36" Type="Blade"/>
+			<Piece id="spear_handle_1" Type="Handle"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 124 Weight: 0.85 -->
+	</CraftedItem>
+	<CraftedItem id="AR_crude_spear_1_t2" name="{=osa_ar_crude_spear_1_t2}Crude Wooden Spear" crafting_template="TwoHandedPolearm" culture="Culture.neutral" modifier_group="polearm">
+		<Pieces>
+			<Piece id="AR_spear_blade_d" Type="Blade"/>
+			<Piece id="default_polearm_guard" Type="Guard"/>
+			<Piece id="AR_SI_spear_handle_c" Type="Handle" scale_factor="109"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 120 Weight: 0.65 -->
+	</CraftedItem>
+	<CraftedItem id="AR_crude_spear_2_t2" name="{=osa_ar_crude_spear_2_t2}Crude Spear" crafting_template="TwoHandedPolearm" culture="Culture.neutral" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_15" Type="Blade" scale_factor="90"/>
+			<Piece id="default_polearm_guard" Type="Guard"/>
+			<Piece id="AR_spear_handle_a" Type="Handle" scale_factor="250"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 133 Weight: 0.72 -->
+	</CraftedItem>
+	<CraftedItem id="AR_crude_javelin_1_t2" name="{=osa_ar_crude_javelin_1_t2}Crude Wooden Javelins" crafting_template="Javelin" culture="Culture.neutral" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="AR_spear_blade_d" Type="Blade" scale_factor="102"/>
+			<Piece id="default_polearm_guard" Type="Guard"/>
+			<Piece id="spear_handle_2" Type="Handle" scale_factor="110"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 70 Weight: 0.29 -->
+	</CraftedItem>
+	<CraftedItem id="AR_crude_javelin_2_t2" name="{=osa_ar_crude_javelin_2_t2}Crude Javelins" crafting_template="Javelin" culture="Culture.neutral" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_15" Type="Blade" scale_factor="90"/>
+			<Piece id="default_polearm_guard" Type="Guard"/>
+			<Piece id="spear_handle_12" Type="Handle" scale_factor="110"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 70 Weight: 0.47 -->
+	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
@@ -845,18 +897,18 @@
 	<CraftedItem id="wooden_sword_t1" name="{=1HWRwbwT}Wooden Sword" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false" modifier_group="sword">
 		<Pieces>
 			<Piece id="wood_blade_1" Type="Blade" scale_factor="110"/>
-			<Piece id="AR_empire_guard_c" Type="Guard"/>
+			<Piece id="AR_basic_guard_b" Type="Guard" scale_factor="90"/>
 			<Piece id="wood_grip_1" Type="Handle" scale_factor="110"/>
-			<Piece id="AR_battania_pommel_a" Type="Pommel"/>
+			<Piece id="AR_basic_pommel_a" Type="Pommel" scale_factor="90"/>
 		</Pieces>
 		<!-- Length: 105 Weight: 0.72 -->
 	</CraftedItem>
 	<CraftedItem id="wooden_sword_t2" name="{=1HWRwbwT}Wooden Sword" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false" modifier_group="sword">
 		<Pieces>
 			<Piece id="wood_blade_2" Type="Blade" scale_factor="110"/>
-			<Piece id="battania_guard_6" Type="Guard" scale_factor="90"/>
+			<Piece id="AR_basic_guard_a" Type="Guard" scale_factor="90"/>
 			<Piece id="wood_grip_1" Type="Handle" scale_factor="110"/>
-			<Piece id="AR_battania_pommel_a" Type="Pommel" scale_factor="110"/>
+			<Piece id="AR_battania_pommel_b" Type="Pommel" scale_factor="80"/>
 		</Pieces>
 		<!-- Length: 107 Weight: 1.15 -->
 	</CraftedItem>

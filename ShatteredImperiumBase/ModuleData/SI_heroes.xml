@@ -4,6 +4,9 @@
 	<Hero id="main_hero" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction"/>
 	<Hero id="main_hero_father" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_mother"/>
 	<Hero id="main_hero_mother" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_father"/>
+	<!-- 
+	MAJOR KINGDOM FACTIONS
+	-->
 	<!--
 	Aserai Emirates
 	-->
@@ -160,14 +163,14 @@
 	<Hero id="lord_1_47_1" spouse="Hero.lord_1_47" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_47_2" father="Hero.lord_1_47" mother="Hero.lord_1_47_1" faction="Faction.clan_empire_south_1"/>
 	<Hero id="lord_1_47_3" father="Hero.lord_1_47" mother="Hero.lord_1_47_1" faction="Faction.clan_empire_south_1"/>
-	<Hero id="AR_lord_1_16" alive="false" faction="Faction.clan_empire_south_1" text="{=si_ar_lord_1_16_text}Ulbos of the Calradian noble house of Pethros ruled as the lord of Lycaron under both emperors Zaricos and Themestios Comnos. A staunch supporter of dynastic imperial rule, he is remembered as the zealous leader of the pro-imperial faction, often taking the side of the emperors in debates when few of his colleagues would. Whilst this caused a great deal of tension with his fellow senators, who frequently whispered that he was little more than a yes-man, Ulbos was rewarded for his loyalty when the young prince Themestios chose his daughter, Helenea, to be his wife. A prominent figure in Calradian politics for the rest of his days, Ulbos was killed after being thrown from his horse whilst hunting. He is remembered fondly by the people of the Calradian Empire as a fair ruler and generous benefactor."/>
+	<Hero id="AR_lord_1_16" alive="false" faction="Faction.clan_empire_south_1" text="{=si_lord_1_16_text}Ulbos of the Calradian noble house of Pethros ruled as the lord of Lycaron under both emperors Zaricos and Themestios Comnos. A staunch supporter of dynastic imperial rule, he is remembered as the zealous leader of the pro-imperial faction, often taking the side of the emperors in debates when few of his colleagues would. Whilst this caused a great deal of tension with his fellow senators, who frequently whispered that he was little more than a yes-man, Ulbos was rewarded for his loyalty when the young prince Themestios chose his daughter, Helenea, to be his wife. A prominent figure in Calradian politics for the rest of his days, Ulbos was killed after being thrown from his horse whilst hunting. He is remembered fondly by the people of the Calradian Empire as a fair ruler and generous benefactor."/>
 	<!-- Leonipardes -->
 	<Hero id="lord_1_15" spouse="Hero.lord_1_16" faction="Faction.clan_empire_south_2"/>
 	<Hero id="lord_1_155" father="Hero.lord_1_15" mother="Hero.lord_1_16" faction="Faction.clan_empire_south_2"/>
 	<Hero id="lord_1_16" spouse="Hero.lord_1_15" faction="Faction.clan_empire_south_2"/>
 	<Hero id="lord_1_28" father="Hero.lord_1_15" mother="Hero.lord_1_16" faction="Faction.clan_empire_south_2"/>
 	<Hero id="lord_1_38" father="Hero.lord_1_15" mother="Hero.lord_1_16" faction="Faction.clan_empire_south_2"/>
-	<Hero id="lord_1_48" spouse="Hero.lord_1_48_1" faction="Faction.clan_empire_south_2" text="{=si_ar_lord_1_48_text}Temion is the current head of the Leonipardes - one of the most ancient and storied noble families of the Calradian Empire. A staunch supporter of the Calradian Senate, he willingly accepted the ascension of Jamanys Comnos to the Calradian throne, though regretted the division it caused among his colleagues. However, with many senators now declaring secession and openly fighting a civil war against imperial authority, Temion has hardened his position. ‘Just a single rotten grape is enough to turn the entire bunch to vinegar’ he says, and has thrown his family’s support entirely behind the Comnos dynasty."/>
+	<Hero id="lord_1_48" spouse="Hero.lord_1_48_1" faction="Faction.clan_empire_south_2" text="{=si_lord_1_48_text}Temion is the current head of the Leonipardes - one of the most ancient and storied noble families of the Calradian Empire. A staunch supporter of the Calradian Senate, he willingly accepted the ascension of Jamanys Comnos to the Calradian throne, though regretted the division it caused among his colleagues. However, with many senators now declaring secession and openly fighting a civil war against imperial authority, Temion has hardened his position. ‘Just a single rotten grape is enough to turn the entire bunch to vinegar’ he says, and has thrown his family’s support entirely behind the Comnos dynasty."/>
 	<Hero id="lord_1_48_1" spouse="Hero.lord_1_48" faction="Faction.clan_empire_south_2"/>
 	<Hero id="lord_1_48_2" father="Hero.lord_1_48" mother="Hero.lord_1_48_1" faction="Faction.clan_empire_south_2"/>
 	<Hero id="lord_1_48_3" father="Hero.lord_1_48" mother="Hero.lord_1_48_1" faction="Faction.clan_empire_south_2"/>
@@ -221,7 +224,7 @@
 	<Hero id="lord_1_33" father="Hero.lord_1_5" mother="Hero.lord_1_1_7" faction="Faction.clan_empire_north_3"/>
 	<Hero id="lord_1_43" faction="Faction.clan_empire_north_3"/>
 	<!-- Argoros -->
-	<Hero id="lord_1_3" spouse="Hero.lord_1_4" faction="Faction.clan_empire_north_2" text="{=si_ar_lord_1_3_text}Ocheros is the head of the Argoros family - marcher lords who have held estates on the southern coasts of Lake Laconis for just a couple of short generations. Whilst his family is renowned for their strong support for the Calradian Senate, Ocheros chose to follow a different path after seeing the lands of his peers in the eastern legions ravaged by Byalic warriors. ‘A dire, drastic situation can only be answered by dire, drastic solutions’ he proclaimed, before joining the rebellion of Solarios ‘Light-Giver’. Marked a traitor by the Calradian Senate, and a wayward heretic by his kinsmen who remained loyal to the Calradian Empire, Ocheros now charts his own destiny."/>
+	<Hero id="lord_1_3" spouse="Hero.lord_1_4" faction="Faction.clan_empire_north_2" text="{=si_lord_1_3_text}Ocheros is the head of the Argoros family - marcher lords who have held estates on the southern coasts of Lake Laconis for just a couple of short generations. Whilst his family is renowned for their strong support for the Calradian Senate, Ocheros chose to follow a different path after seeing the lands of his peers in the eastern legions ravaged by Byalic warriors. ‘A dire, drastic situation can only be answered by dire, drastic solutions’ he proclaimed, before joining the rebellion of Solarios ‘Light-Giver’. Marked a traitor by the Calradian Senate, and a wayward heretic by his kinsmen who remained loyal to the Calradian Empire, Ocheros now charts his own destiny."/>
 	<Hero id="lord_1_4" spouse="Hero.lord_1_3" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_22" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_32" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
@@ -232,7 +235,7 @@
 	<Hero id="lord_1_1_5" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
 	<Hero id="lord_1_1_6" father="Hero.lord_1_3" mother="Hero.lord_1_4" faction="Faction.clan_empire_north_2"/>
 	<!-- Osticos -->
-	<Hero id="lord_1_1" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1" text="{=si_ar_lord_1_1_text}Camnon of the noble Calradian family of the Osticos is one of the most detested nobles in Calradia, with a reputation for being arrogant and elitist even among his peers. His desire for power and glory has divided his family, with some of his kinsmen remaining loyal to the Calradian Senate, whilst others have joined him in campaigning in the east. He naturally joined the rebellion of Solarios ‘Light-Giver’, viewing the ensuing chaos that has engulfed the Calradian Empire as a potential for further advancement. Few can doubt that he jealously eyes the throne, and is merely biding his time."/>
+	<Hero id="lord_1_1" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1" text="{=si_lord_1_1_text}Camnon of the noble Calradian family of the Osticos is one of the most detested nobles in Calradia, with a reputation for being arrogant and elitist even among his peers. His desire for power and glory has divided his family, with some of his kinsmen remaining loyal to the Calradian Senate, whilst others have joined him in campaigning in the east. He naturally joined the rebellion of Solarios ‘Light-Giver’, viewing the ensuing chaos that has engulfed the Calradian Empire as a potential for further advancement. Few can doubt that he jealously eyes the throne, and is merely biding his time."/>
 	<Hero id="lord_1_2" spouse="Hero.lord_1_1" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_1_1" spouse="Hero.lord_1_41" faction="Faction.clan_empire_north_1"/>
 	<Hero id="lord_1_1_2" spouse="Hero.lord_1_21" faction="Faction.clan_empire_north_1"/>
@@ -287,14 +290,14 @@
 	<Hero id="lord_1_11" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<Hero id="lord_1_111" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<Hero id="lord_1_12" spouse="Hero.lord_1_11" faction="Faction.clan_empire_west_3"/>
-	<Hero id="lord_1_36" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<Hero id="lord_1_26" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
+	<Hero id="lord_1_36" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<!-- Varros -->
 	<Hero id="lord_1_9" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_10" spouse="Hero.lord_1_9" faction="Faction.clan_empire_west_2"/>
-	<Hero id="lord_1_35" faction="Faction.clan_empire_west_2"/>
-	<Hero id="lord_1_25" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_23" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_25" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_35" faction="Faction.clan_empire_west_2"/>
 	<!-- Lonalion -->
 	<Hero id="lord_1_45" spouse="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
 	<Hero id="lord_1_45_1" spouse="Hero.lord_1_45" faction="Faction.clan_empire_west_5"/>
@@ -396,14 +399,14 @@
 	<!-- Gundaroving -->
 	<Hero id="lord_2_1" spouse="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="Sivur is the Grand Prince of the Sturgians. Whilst a monarch in his own right, he has no real authority over the other Sturgian principalities, instead being elected from amongst his peers to lead the Sturgian people on the field of battle. A calculating and ruthless authoritarian, he wishes nothing more than to gain effective dominance over the other ruling Sturgian clans, however faces stiff resistence to his centralising actions from the other princes."/>
 	<Hero id="lord_2_2" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_1" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_2" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_3" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_4" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_7" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_7_1" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_10" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_1" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_2" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_3" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_13_4" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
 	<!-- Togaroving -->
 	<Hero id="lord_2_17" spouse="Hero.lord_2_17_1" faction="Faction.clan_sturgia_5"/>
 	<Hero id="lord_2_17_1" spouse="Hero.lord_2_17" faction="Faction.clan_sturgia_5"/>
@@ -461,11 +464,11 @@
 	Vlandian Kingdom
 	-->
 	<!-- dey Meroc -->
-	<Hero id="AR_lord_4_1" spouse="Hero.AR_lord_4_2" father="Hero.AR_lord_4_3" faction="Faction.clan_vlandia_1" text="{=ARiQI7ps}Osric Iron-Arm is the first king of the Vlandians. Raised by his uncle, Osric was brought up on one of the Vlandians' many campaigns in service of the Calradian Empire in the eastern provinces. Taught to distrust imperial authority from a young age, as a youth Osric rallied a band of followers amongst the Vlandian vassal lords and led them west to the old imperial capital at Paravenos, seizing the governor's mansion in a bloodless coup and forcing the Calradian provincial administration to flee the city, never to return. Word of his deeds spread like wildfire amongst the other Vlandian clans, and soon after, he would amass in Paravenos a vast host, facing an imperial legion on the plains south of city. As the battle raged around him, Osric confronted a member of the Calradian Vaegir Guard in single combat. The fight lasted for an hour, and though blinded in one eye by the guardsman's dagger, Osric managed to grapple the man to the ground, beating him to death and earning the title of 'Iron-Arm'. Hailed king of an independent Vlandian kingdom at the mere age of 18, Osric now sets his one good eye outwards towards conquest."/>
-	<Hero id="AR_lord_4_2" spouse="Hero.AR_lord_4_1" faction="Faction.clan_vlandia_1"/>
+	<Hero id="AR_lord_4_1" spouse="Hero.AR_lord_4_2" father="Hero.AR_lord_4_3" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_1_text}Osric ‘Iron-Arm’ is the first king of the Vlandians. Having lost his parents at a young age, whilst campaigning with the Calradian legions in the east of the continent, he was sent west to be raised by his uncle. Taught to distrust imperial authority, Osric spent much of his youth rallying the disparate Vlandian noble families under his authority, besting in duels any who would not willingly submit. Word of his deeds spread like wildfire amongst the Vlandian people, and soon they would rise up in open rebellion against the Calradian Empire, seizing key locations throughout the west and causing the few remaining imperial citizens to flee before them. On the plains south of Paravenos, the imperial authorities would make their stand, sending two legions to fight against Osric and his rebels. As the battle raged around him, Osric confronted a member of the Calradian Vaegir Guard in single combat. The fight lasted for an hour, and though slashed across one eye by the guardsman's dagger, Osric managed to grapple the man to the ground, beating him to death and earning the title of 'Iron-Arm'. Hailed king of an independent Vlandian kingdom at the mere age of 18, Osric has since sets his one good eye outwards towards conquest, claiming all the lands west of the Gavys River as his by right of arms."/>
+	<Hero id="AR_lord_4_2" spouse="Hero.AR_lord_4_1" father="Hero.lord_4_23" mother="Hero.AR_lord_4_23" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_2_text}Calatild is the wife of Osric ‘Iron-Arm’ - the first king of the Vlandians. A daughter of the powerful dey Fortes family, she was married to Osric whilst the two were still just children, to seal the alliance of the two houses as the nominal heads of the Vlandian people. Generous and kind-hearted, she embodies the virtues of a Vlandian lady, being steadfast in the support of her husband, king and people.">
 	<Hero id="AR_lord_4_3" alive="false" father="Hero.AR_lord_4_4" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_3_text}Aldric of the noble house dey Meroc was, despite his age, one of the most renowned warriors and leaders of the Vlandian people since the likes of Wilund the Bold himself. He served with distinction as a commander of the Calradian Empire’s auxiliary Vlandian cavalry, fighting in the eastern campaigns against both the Darshi and the nomads of the Devseg, winning fame and glory on the battlefield, as well as the adoration of his people for his care in not idly throwing away the lives of his warriors. Aldric’s life was tragically cut short at the point of a Darshi cataphract’s lance, though not before he had sired a son - Osric - whose efforts in following his father’s footsteps have taken the Vlandians to heights previously unseen."/>
 	<Hero id="AR_lord_4_4" alive="false" faction="Faction.clan_vlandia_1" text="{=si_ar_lord_4_4_text}Gilvard of house dey Meroc was a relatively undistinguished member of the Vlandian nobility, serving as a junior officer in the auxiliary Vlandian cavalry of the Calradian Empire. Much of his life was spent on the frigid northern frontiers, fighting of the frequent attacks of Nordic raiders and Vakken warbands. This thankless job brought him, and the house dey Meroc as a whole, wealth and standing among their own people, if not with the Calradians they served."/>
-	<Hero id="lord_4_1" spouse="Hero.lord_4_2" faction="Faction.clan_vlandia_1" text="{=EHiQI7ps}Regbold is the eldest uncle of Osric Iron-Arm. When Osric's parents died in one of the Calradian Empire's many campaigns in the east, Regbold took in his young nephew and raised him as if he was his own son. Seeing the losses of his people in the empire's constant wars as completely unnecessary, Regbold was instrumental in moulding the young Osric into the future king of an independent Vlandia."/>
+	<Hero id="lord_4_1" spouse="Hero.lord_4_2" faction="Faction.clan_vlandia_1" text="{=si_lord_4_1_text}Regbold is the eldest uncle of Osric ‘Iron-Arm’. When Osric's parents died in one of the Calradian Empire's many campaigns in the east, Regbold took in his young nephew and raised him as if he was his own son. Seeing the losses of his people in the constant wars of the Calradian Empire as completely unnecessary, and especially the death of his brother, Regbold became one of the loudest voices in calling for Vlandian independence. Viewed as instrumental in moulding the young Osric into the king of an independent Vlandia, Regbold now sits at the head of the nascent realm, advising the king on matters of state and warfare."/>
 	<Hero id="lord_4_2" spouse="Hero.lord_4_1" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_7" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_10" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
@@ -474,13 +477,13 @@
 	<Hero id="lord_4_141" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_15" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
 	<!-- dey Fortes -->
-	<Hero id="lord_4_23" spouse="Hero.AR_lord_4_23" faction="Faction.clan_vlandia_7" text="Oca is the warlord of clan dey Fortes, a highly militant clan who were among the first to join Osric Iron-Arm in his invasion of the western provinces of the Calradian Empire. In a great battle against the Battanians near the lake of Llyn Modris, Oca single-handedly slew two Battanian chieftains and routed their retinues, claiming the lands around the great lake for himself. A trustworthy friend and formidable oponent, his martial prowess is largely responsible for holding the northern frontier of the young Vlandian kingdom against its' many foes"/>
+	<Hero id="lord_4_23" spouse="Hero.AR_lord_4_23" faction="Faction.clan_vlandia_7" text="{=si_lord_4_23_text}Oca is the warlord of the dey Fortes family, a powerful yet highly militant group who were among the first to join Osric ‘Iron-Arm’ in his conquest of the western provinces of the Calradian Empire. As a young man, Oca single-handedly slew two Battanian chieftains and routed their retinues in a battle near Llyn Modris, claiming the lands around the great lake for himself as one of the largest private estates on the continent. A formidable opponent, and a valuable ally, many claim that his martial prowess is largely responsible for the rapid expansion of the young Vlandian kingdom, expelling the forces of the Calradian Empire from their former lands with brutal efficiency."/>
 	<Hero id="AR_lord_4_23" spouse="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
 	<Hero id="lord_4_23_1" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
 	<Hero id="lord_4_23_2" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
 	<Hero id="lord_4_23_3" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
 	<!-- dey Valant -->
-	<Hero id="lord_4_20" spouse="Hero.lord_4_20_1" faction="Faction.clan_vlandia_6"/>
+	<Hero id="lord_4_20" spouse="Hero.lord_4_20_1" faction="Faction.clan_vlandia_6" text="{=si_lord_4_20_text}Servic is the head of the dey Valant family - one of the most ancient and storied lineages of the Vlandian nobility. A vain man, governed by a strict and elitist code of ethics, he has done much to grow the wealth and prestige of his family, buying the industrial and farming interests from displaced Calradians and replacing them with loyal Vlandians. Though undoubtedly prominent in the political circles of the nascent Vlandian Kingdom, Servic remains a largely disliked figure among his peers, his tardiness in joining the rebellion of Osric ‘Iron-Arm’, as well as his numerous contacts in the Calradian aristocracy, earning him the ire of his fellow barons."/>
 	<Hero id="lord_4_20_1" spouse="Hero.lord_4_20" faction="Faction.clan_vlandia_6"/>
 	<Hero id="lord_4_22" spouse="Hero.lord_4_22_1" faction="Faction.clan_vlandia_6"/>
 	<Hero id="lord_4_22_1" spouse="Hero.lord_4_22" faction="Faction.clan_vlandia_6"/>
@@ -509,9 +512,9 @@
 	<Hero id="lord_4_28_1" father="Hero.lord_4_28" mother="Hero.AR_lord_4_28" faction="Faction.clan_vlandia_10"/>
 	<Hero id="lord_4_28_2" father="Hero.lord_4_28" mother="Hero.AR_lord_4_28" faction="Faction.clan_vlandia_10"/>
 	<!-- dey Gunric -->
+	<Hero id="lord_4_21" faction="Faction.clan_vlandia_5"/>
 	<Hero id="lord_4_25" spouse="Hero.lord_4_25_1" faction="Faction.clan_vlandia_5"/>
 	<Hero id="lord_4_25_1" spouse="Hero.lord_4_25" faction="Faction.clan_vlandia_5"/>
-	<Hero id="lord_4_21" faction="Faction.clan_vlandia_5"/>
 	<!-- dey Jelind -->
 	<Hero id="lord_4_27" spouse="Hero.lord_4_27_1" faction="Faction.clan_vlandia_9"/>
 	<Hero id="lord_4_27_1" spouse="Hero.lord_4_27" faction="Faction.clan_vlandia_9"/>
@@ -571,6 +574,70 @@
 	<Hero id="AR_lord_12_41" spouse="Hero.AR_lord_12_42" faction="Faction.clan_spahad_9"/>
 	<Hero id="AR_lord_12_42" spouse="Hero.AR_lord_12_41" faction="Faction.clan_spahad_9"/>
 	<Hero id="AR_lord_12_43" father="Hero.AR_lord_12_41" mother="Hero.AR_lord_12_42" faction="Faction.clan_spahad_9"/>
+	<!-- 
+	LESSER KINGDOM FACTIONS
+	-->
+	<!--
+	Alkit Khanate
+	-->
+	<!-- Alkit -->
+	<Hero id="AR_lord_10_1" spouse="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1" text="Khomar is the current Khan of the Alkit. A merciless and cruel ruler, he has driven the tribes harshly onwards in a bloody march of conquest, destroying vast hosts of Sturgians and Vakken to carve out a sizeable realm in Calradia's frozen north. Whilst undoubtedly a great warrior Khomar has shown little patience for ruling and so his largely subjects, largely made up of conquered Sturgians, show little respect for his authority, whilst the leaders of his vassal clans ever eye his throne. He will have to fight hard to maintain his realm."/>
+	<Hero id="AR_lord_10_2" spouse="Hero.AR_lord_10_1" faction="Faction.clan_alkit_1"/>
+	<Hero id="AR_lord_10_3" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
+	<Hero id="AR_lord_10_4" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
+	<Hero id="AR_lord_10_19" spouse="Hero.AR_lord_10_20" faction="Faction.clan_alkit_1"/>
+	<Hero id="AR_lord_10_20" spouse="Hero.AR_lord_10_19" faction="Faction.clan_alkit_1"/>
+	<Hero id="AR_lord_10_21" father="Hero.AR_lord_10_19" mother="Hero.AR_lord_10_20" faction="Faction.clan_alkit_1"/>
+	<!-- Yanait -->
+	<Hero id="AR_lord_10_5" spouse="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2" text="Erigai is the head of the Yanait, one of the most powerful tribes among the vassals of the Alkit. A hardened warrior who lords over his tribe with an iron fist, he has proved an effective, if unpopular, leader in their migration into the north. Ever ambitious, some whisper he is biding his time until a moment of Alkit weakness when he may be able to seize control."/>
+	<Hero id="AR_lord_10_6" spouse="Hero.AR_lord_10_5" faction="Faction.clan_alkit_2"/>
+	<Hero id="AR_lord_10_7" spouse="Hero.AR_lord_10_8" faction="Faction.clan_alkit_2"/>
+	<Hero id="AR_lord_10_8" spouse="Hero.AR_lord_10_7" father="Hero.AR_lord_10_5" mother="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2"/>
+	<Hero id="AR_lord_10_9" spouse="Hero.AR_lord_10_24" mother="Hero.AR_lord_10_6" father="Hero.AR_lord_10_5" faction="Faction.clan_alkit_2"/>
+	<Hero id="AR_lord_10_24" spouse="Hero.AR_lord_10_9" faction="Faction.clan_alkit_2"/>
+	<!-- Khionit -->
+	<Hero id="AR_lord_10_10" spouse="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
+	<Hero id="AR_lord_10_11" spouse="Hero.AR_lord_10_10" faction="Faction.clan_alkit_3"/>
+	<Hero id="AR_lord_10_12" father="Hero.AR_lord_10_10" mother="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
+	<Hero id="AR_lord_10_13" father="Hero.AR_lord_10_10" mother="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
+	<Hero id="AR_lord_10_14" father="Hero.AR_lord_10_10" mother="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
+	<!-- Adiskhar -->
+	<Hero id="AR_lord_10_15" spouse="Hero.AR_lord_10_16" faction="Faction.clan_alkit_4"/>
+	<Hero id="AR_lord_10_16" spouse="Hero.AR_lord_10_15" faction="Faction.clan_alkit_4"/>
+	<Hero id="AR_lord_10_17" father="Hero.AR_lord_10_15" mother="Hero.AR_lord_10_16" spouse="Hero.AR_lord_10_22" faction="Faction.clan_alkit_4"/>
+	<Hero id="AR_lord_10_18" father="Hero.AR_lord_10_15" mother="Hero.AR_lord_10_16" faction="Faction.clan_alkit_4"/>
+	<Hero id="AR_lord_10_22" spouse="Hero.AR_lord_10_17" faction="Faction.clan_alkit_4"/>
+	<Hero id="AR_lord_10_23" father="Hero.AR_lord_10_22" mother="Hero.AR_lord_10_17" faction="Faction.clan_alkit_4"/>
+	<!--
+	Byalic Confederation
+	-->
+	<!-- Aurvantus -->
+	<Hero id="AR_lord_13_1" spouse="Hero.AR_lord_13_2" faction="Faction.clan_jokbyalic_1" text="The current High Chieftain of the Jokbyalics is Thrasaric of the Aurvantus clan. It was he who led the Jokbyalics in their conquest of the lands to the east of Lake Tanaesis, carving out a new territory with at least notional safety from the Calradian Empire's legions, then defeated the legions of Emperor Themestios in open battle. However, these wars were costly, and now Thrasaric finds his realm threatened from all sides by the nomads of the steppe, foresters to the north, and the ever-present hand of the Calradian Empire."/>
+	<Hero id="AR_lord_13_2" spouse="Hero.AR_lord_13_1" faction="Faction.clan_jokbyalic_1"/>
+	<Hero id="AR_lord_13_3" father="Hero.AR_lord_13_1" mother="Hero.AR_lord_13_2" spouse="Hero.AR_lord_13_4" faction="Faction.clan_jokbyalic_1"/>
+	<Hero id="AR_lord_13_4" spouse="Hero.AR_lord_13_3" faction="Faction.clan_jokbyalic_1"/>
+	<Hero id="AR_lord_13_19" spouse="Hero.AR_lord_13_20" faction="Faction.clan_jokbyalic_1"/>
+	<Hero id="AR_lord_13_20" spouse="Hero.AR_lord_13_19" faction="Faction.clan_jokbyalic_1"/>
+	<Hero id="AR_lord_13_21" father="Hero.AR_lord_13_19" mother="Hero.AR_lord_13_20" faction="Faction.clan_jokbyalic_1"/>
+	<!-- Bructarach -->
+	<Hero id="AR_lord_13_5" faction="Faction.clan_jokbyalic_2"/>
+	<Hero id="AR_lord_13_6" mother="Hero.AR_lord_13_5" faction="Faction.clan_jokbyalic_2"/>
+	<Hero id="AR_lord_13_7" spouse="Hero.AR_lord_13_8" faction="Faction.clan_jokbyalic_2"/>
+	<Hero id="AR_lord_13_8" spouse="Hero.AR_lord_13_7" faction="Faction.clan_jokbyalic_2"/>
+	<Hero id="AR_lord_13_9" father="Hero.AR_lord_13_7" mother="Hero.AR_lord_13_8" spouse="Hero.AR_lord_13_10" faction="Faction.clan_jokbyalic_2"/>
+	<Hero id="AR_lord_13_10" spouse="Hero.AR_lord_13_9" faction="Faction.clan_jokbyalic_2"/>
+	<!-- Jutungar -->
+	<Hero id="AR_lord_13_11" spouse="Hero.AR_lord_13_12" faction="Faction.clan_jokbyalic_3"/>
+	<Hero id="AR_lord_13_12" spouse="Hero.AR_lord_13_11" faction="Faction.clan_jokbyalic_3"/>
+	<Hero id="AR_lord_13_13" father="Hero.AR_lord_13_11" mother="Hero.AR_lord_13_12" spouse="Hero.AR_lord_13_14" faction="Faction.clan_jokbyalic_3"/>
+	<Hero id="AR_lord_13_14" spouse="Hero.AR_lord_13_13" faction="Faction.clan_jokbyalic_3"/>
+	<!-- Lacringus -->
+	<Hero id="AR_lord_13_15" faction="Faction.clan_jokbyalic_4"/>
+	<Hero id="AR_lord_13_16" mother="Hero.AR_lord_13_15" spouse="Hero.AR_lord_13_17" faction="Faction.clan_jokbyalic_4"/>
+	<Hero id="AR_lord_13_17" spouse="Hero.AR_lord_13_16" faction="Faction.clan_jokbyalic_4"/>
+	<Hero id="AR_lord_13_18" mother="Hero.AR_lord_13_15" faction="Faction.clan_jokbyalic_4"/>
+	<Hero id="AR_lord_13_22" spouse="Hero.AR_lord_13_16" faction="Faction.clan_jokbyalic_4"/>
+	<Hero id="AR_lord_13_23" spouse="Hero.AR_lord_13_16" faction="Faction.clan_jokbyalic_4"/>
 	<!--
 	Massa Confederation
 	-->
@@ -601,35 +668,6 @@
 	<Hero id="AR_lord_11_9" father="Hero.AR_lord_11_7" mother="Hero.AR_lord_11_8" faction="Faction.clan_massa_2"/>
 	<Hero id="AR_lord_11_10" mother="Hero.AR_lord_11_6" faction="Faction.clan_massa_2"/>
 	<Hero id="AR_lord_11_11" mother="Hero.AR_lord_11_6" faction="Faction.clan_massa_2"/>
-	<!--
-	Vaegirs
-	-->
-	<!-- Vagiraving -->
-	<Hero id="AR_lord_8_1" spouse="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1" text="The current High Boyar of the Vaegirians is Vidar. Stoic and proud, he maintains a staunch defence of the senatorial privilege against those boyars who wish for a more dictatorial ruler. His close ties to the Calradian Empire, particularly to the Leonipardes; his wife's family, grant him a unique position in Calradian politics."/>
-	<Hero id="AR_lord_8_2" spouse="Hero.AR_lord_8_1" mother="Hero.lord_1_16" faction="Faction.clan_vaegiria_1"/>
-	<Hero id="AR_lord_8_3" father="Hero.AR_lord_8_1" mother="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
-	<Hero id="AR_lord_8_4" father="Hero.AR_lord_8_1" mother="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
-	<Hero id="AR_lord_8_14" spouse="Hero.AR_lord_8_15" faction="Faction.clan_vaegiria_1"/>
-	<Hero id="AR_lord_8_15" spouse="Hero.AR_lord_8_14" faction="Faction.clan_vaegiria_1"/>
-	<Hero id="AR_lord_8_16" father="Hero.AR_lord_8_14" mother="Hero.AR_lord_8_15" faction="Faction.clan_vaegiria_1"/>
-	<!-- Kaldaving -->
-	<Hero id="AR_lord_8_5" spouse="Hero.AR_lord_8_6" faction="Faction.clan_vaegiria_2"/>
-	<Hero id="AR_lord_8_6" spouse="Hero.AR_lord_8_5" faction="Faction.clan_vaegiria_2"/>
-	<Hero id="AR_lord_8_7" father="Hero.AR_lord_8_5" mother="Hero.AR_lord_8_6" faction="Faction.clan_vaegiria_2"/>
-	<Hero id="AR_lord_8_8" father="Hero.AR_lord_8_5" mother="Hero.AR_lord_8_6" spouse="Hero.AR_lord_8_9" faction="Faction.clan_vaegiria_2"/>
-	<Hero id="AR_lord_8_9" spouse="Hero.AR_lord_8_8" faction="Faction.clan_vaegiria_2"/>
-	<!-- Zhanoving -->
-	<Hero id="AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
-	<Hero id="AR_lord_8_11" mother="Hero.AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
-	<Hero id="AR_lord_8_12" mother="Hero.AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
-	<Hero id="AR_lord_8_13" mother="Hero.AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
-	<!-- Sarapisthes -->
-	<Hero id="AR_lord_8_17" spouse="Hero.AR_lord_8_18" faction="Faction.clan_vaegiria_4"/>
-	<Hero id="AR_lord_8_18" spouse="Hero.AR_lord_8_17" faction="Faction.clan_vaegiria_4"/>
-	<Hero id="AR_lord_8_19" father="Hero.AR_lord_8_17" mother="Hero.AR_lord_8_18" spouse="Hero.AR_lord_8_21" faction="Faction.clan_vaegiria_4"/>
-	<Hero id="AR_lord_8_20" father="Hero.AR_lord_8_17" mother="Hero.AR_lord_8_18" faction="Faction.clan_vaegiria_4"/>
-	<Hero id="AR_lord_8_21" spouse="Hero.AR_lord_8_19" faction="Faction.clan_vaegiria_4"/>
-	<Hero id="AR_lord_8_22" father="Hero.AR_lord_8_17" mother="Hero.AR_lord_8_18" faction="Faction.clan_vaegiria_4"/>
 	<!--
 	Quyazic Empire
 	-->
@@ -663,67 +701,6 @@
 	<Hero id="AR_lord_9_23" spouse="Hero.AR_lord_9_22" faction="Faction.clan_quyaz_4"/>
 	<Hero id="AR_lord_9_24" father="Hero.AR_lord_9_22" mother="Hero.AR_lord_9_23" faction="Faction.clan_quyaz_4"/>
 	<!--
-	Jokbyalic Kingdom
-	-->
-	<!-- Aurvantus -->
-	<Hero id="AR_lord_13_1" spouse="Hero.AR_lord_13_2" faction="Faction.clan_jokbyalic_1" text="The current High Chieftain of the Jokbyalics is Thrasaric of the Aurvantus clan. It was he who led the Jokbyalics in their conquest of the lands to the east of Lake Tanaesis, carving out a new territory with at least notional safety from the Calradian Empire's legions, then defeated the legions of Emperor Themestios in open battle. However, these wars were costly, and now Thrasaric finds his realm threatened from all sides by the nomads of the steppe, foresters to the north, and the ever-present hand of the Calradian Empire."/>
-	<Hero id="AR_lord_13_2" spouse="Hero.AR_lord_13_1" faction="Faction.clan_jokbyalic_1"/>
-	<Hero id="AR_lord_13_3" father="Hero.AR_lord_13_1" mother="Hero.AR_lord_13_2" spouse="Hero.AR_lord_13_4" faction="Faction.clan_jokbyalic_1"/>
-	<Hero id="AR_lord_13_4" spouse="Hero.AR_lord_13_3" faction="Faction.clan_jokbyalic_1"/>
-	<Hero id="AR_lord_13_19" spouse="Hero.AR_lord_13_20" faction="Faction.clan_jokbyalic_1"/>
-	<Hero id="AR_lord_13_20" spouse="Hero.AR_lord_13_19" faction="Faction.clan_jokbyalic_1"/>
-	<Hero id="AR_lord_13_21" father="Hero.AR_lord_13_19" mother="Hero.AR_lord_13_20" faction="Faction.clan_jokbyalic_1"/>
-	<!-- Bructarach -->
-	<Hero id="AR_lord_13_5" faction="Faction.clan_jokbyalic_2"/>
-	<Hero id="AR_lord_13_6" mother="Hero.AR_lord_13_5" faction="Faction.clan_jokbyalic_2"/>
-	<Hero id="AR_lord_13_7" spouse="Hero.AR_lord_13_8" faction="Faction.clan_jokbyalic_2"/>
-	<Hero id="AR_lord_13_8" spouse="Hero.AR_lord_13_7" faction="Faction.clan_jokbyalic_2"/>
-	<Hero id="AR_lord_13_9" father="Hero.AR_lord_13_7" mother="Hero.AR_lord_13_8" spouse="Hero.AR_lord_13_10" faction="Faction.clan_jokbyalic_2"/>
-	<Hero id="AR_lord_13_10" spouse="Hero.AR_lord_13_9" faction="Faction.clan_jokbyalic_2"/>
-	<!-- Jutungar -->
-	<Hero id="AR_lord_13_11" spouse="Hero.AR_lord_13_12" faction="Faction.clan_jokbyalic_3"/>
-	<Hero id="AR_lord_13_12" spouse="Hero.AR_lord_13_11" faction="Faction.clan_jokbyalic_3"/>
-	<Hero id="AR_lord_13_13" father="Hero.AR_lord_13_11" mother="Hero.AR_lord_13_12" spouse="Hero.AR_lord_13_14" faction="Faction.clan_jokbyalic_3"/>
-	<Hero id="AR_lord_13_14" spouse="Hero.AR_lord_13_13" faction="Faction.clan_jokbyalic_3"/>
-	<!-- Lacringus -->
-	<Hero id="AR_lord_13_15" faction="Faction.clan_jokbyalic_4"/>
-	<Hero id="AR_lord_13_16" mother="Hero.AR_lord_13_15" spouse="Hero.AR_lord_13_17" faction="Faction.clan_jokbyalic_4"/>
-	<Hero id="AR_lord_13_17" spouse="Hero.AR_lord_13_16" faction="Faction.clan_jokbyalic_4"/>
-	<Hero id="AR_lord_13_18" mother="Hero.AR_lord_13_15" faction="Faction.clan_jokbyalic_4"/>
-	<Hero id="AR_lord_13_22" spouse="Hero.AR_lord_13_16" faction="Faction.clan_jokbyalic_4"/>
-	<Hero id="AR_lord_13_23" spouse="Hero.AR_lord_13_16" faction="Faction.clan_jokbyalic_4"/>
-	<!--
-	Alkit Khanate
-	-->
-	<!-- Alkit -->
-	<Hero id="AR_lord_10_1" spouse="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1" text="Khomar is the current Khan of the Alkit. A merciless and cruel ruler, he has driven the tribes harshly onwards in a bloody march of conquest, destroying vast hosts of Sturgians and Vakken to carve out a sizeable realm in Calradia's frozen north. Whilst undoubtedly a great warrior Khomar has shown little patience for ruling and so his largely subjects, largely made up of conquered Sturgians, show little respect for his authority, whilst the leaders of his vassal clans ever eye his throne. He will have to fight hard to maintain his realm."/>
-	<Hero id="AR_lord_10_2" spouse="Hero.AR_lord_10_1" faction="Faction.clan_alkit_1"/>
-	<Hero id="AR_lord_10_3" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
-	<Hero id="AR_lord_10_4" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
-	<Hero id="AR_lord_10_19" spouse="Hero.AR_lord_10_20" faction="Faction.clan_alkit_1"/>
-	<Hero id="AR_lord_10_20" spouse="Hero.AR_lord_10_19" faction="Faction.clan_alkit_1"/>
-	<Hero id="AR_lord_10_21" father="Hero.AR_lord_10_19" mother="Hero.AR_lord_10_20" faction="Faction.clan_alkit_1"/>
-	<!-- Yanait -->
-	<Hero id="AR_lord_10_5" spouse="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2" text="Erigai is the head of the Yanait, one of the most powerful tribes among the vassals of the Alkit. A hardened warrior who lords over his tribe with an iron fist, he has proved an effective, if unpopular, leader in their migration into the north. Ever ambitious, some whisper he is biding his time until a moment of Alkit weakness when he may be able to seize control."/>
-	<Hero id="AR_lord_10_6" spouse="Hero.AR_lord_10_5" faction="Faction.clan_alkit_2"/>
-	<Hero id="AR_lord_10_7" spouse="Hero.AR_lord_10_8" faction="Faction.clan_alkit_2"/>
-	<Hero id="AR_lord_10_8" spouse="Hero.AR_lord_10_7" father="Hero.AR_lord_10_5" mother="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2"/>
-	<Hero id="AR_lord_10_9" spouse="Hero.AR_lord_10_24" mother="Hero.AR_lord_10_6" father="Hero.AR_lord_10_5" faction="Faction.clan_alkit_2"/>
-	<Hero id="AR_lord_10_24" spouse="Hero.AR_lord_10_9" faction="Faction.clan_alkit_2"/>
-	<!-- Khionit -->
-	<Hero id="AR_lord_10_10" spouse="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
-	<Hero id="AR_lord_10_11" spouse="Hero.AR_lord_10_10" faction="Faction.clan_alkit_3"/>
-	<Hero id="AR_lord_10_12" father="Hero.AR_lord_10_10" mother="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
-	<Hero id="AR_lord_10_13" father="Hero.AR_lord_10_10" mother="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
-	<Hero id="AR_lord_10_14" father="Hero.AR_lord_10_10" mother="Hero.AR_lord_10_11" faction="Faction.clan_alkit_3"/>
-	<!-- Adiskhar -->
-	<Hero id="AR_lord_10_15" spouse="Hero.AR_lord_10_16" faction="Faction.clan_alkit_4"/>
-	<Hero id="AR_lord_10_16" spouse="Hero.AR_lord_10_15" faction="Faction.clan_alkit_4"/>
-	<Hero id="AR_lord_10_17" father="Hero.AR_lord_10_15" mother="Hero.AR_lord_10_16" spouse="Hero.AR_lord_10_22" faction="Faction.clan_alkit_4"/>
-	<Hero id="AR_lord_10_18" father="Hero.AR_lord_10_15" mother="Hero.AR_lord_10_16" faction="Faction.clan_alkit_4"/>
-	<Hero id="AR_lord_10_22" spouse="Hero.AR_lord_10_17" faction="Faction.clan_alkit_4"/>
-	<Hero id="AR_lord_10_23" father="Hero.AR_lord_10_22" mother="Hero.AR_lord_10_17" faction="Faction.clan_alkit_4"/>
-	<!--
 	Tanash City States
 	-->
 	<!-- Zarinzadeh -->
@@ -753,37 +730,53 @@
 	<Hero id="AR_lord_14_15" father="Hero.AR_lord_14_14" mother="Hero.AR_lord_14_13" faction="Faction.clan_tanash_4"/>
 	<Hero id="AR_lord_14_16" father="Hero.AR_lord_14_14" mother="Hero.AR_lord_14_13" faction="Faction.clan_tanash_4"/>
 	<!--
-	Yachios Archontate
+	Vaegirs
 	-->
-	<!-- Carasios -->
-	<Hero id="AR_lord_15_1" spouse="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1" text="PLACEHOLDER"/>
-	<Hero id="AR_lord_15_2" spouse="Hero.AR_lord_15_1" faction="Faction.clan_yachios_1"/>
-	<Hero id="AR_lord_15_3" father="Hero.AR_lord_15_1" mother="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
-	<Hero id="AR_lord_15_4" father="Hero.AR_lord_15_1" mother="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
-	<Hero id="AR_lord_15_5" spouse="Hero.AR_lord_15_6" faction="Faction.clan_yachios_1"/>
-	<Hero id="AR_lord_15_6" spouse="Hero.AR_lord_15_5" faction="Faction.clan_yachios_1"/>
-	<Hero id="AR_lord_15_7" father="Hero.AR_lord_15_5" mother="Hero.AR_lord_15_6" faction="Faction.clan_yachios_1"/>
-	<!-- Khalkapatres -->
-	<Hero id="AR_lord_15_8" spouse="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2" text="PLACEHOLDER"/>
-	<Hero id="AR_lord_15_9" spouse="Hero.AR_lord_15_8" faction="Faction.clan_yachios_2"/>
-	<Hero id="AR_lord_15_10" father="Hero.AR_lord_15_8" mother="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
-	<Hero id="AR_lord_15_11" father="Hero.AR_lord_15_8" mother="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
+	<!-- Vagiraving -->
+	<Hero id="AR_lord_8_1" spouse="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1" text="The current High Boyar of the Vaegirians is Vidar. Stoic and proud, he maintains a staunch defence of the senatorial privilege against those boyars who wish for a more dictatorial ruler. His close ties to the Calradian Empire, particularly to the Leonipardes; his wife's family, grant him a unique position in Calradian politics."/>
+	<Hero id="AR_lord_8_2" spouse="Hero.AR_lord_8_1" mother="Hero.lord_1_16" faction="Faction.clan_vaegiria_1"/>
+	<Hero id="AR_lord_8_3" father="Hero.AR_lord_8_1" mother="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
+	<Hero id="AR_lord_8_4" father="Hero.AR_lord_8_1" mother="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
+	<Hero id="AR_lord_8_14" spouse="Hero.AR_lord_8_15" faction="Faction.clan_vaegiria_1"/>
+	<Hero id="AR_lord_8_15" spouse="Hero.AR_lord_8_14" faction="Faction.clan_vaegiria_1"/>
+	<Hero id="AR_lord_8_16" father="Hero.AR_lord_8_14" mother="Hero.AR_lord_8_15" faction="Faction.clan_vaegiria_1"/>
+	<!-- Kaldaving -->
+	<Hero id="AR_lord_8_5" spouse="Hero.AR_lord_8_6" faction="Faction.clan_vaegiria_2"/>
+	<Hero id="AR_lord_8_6" spouse="Hero.AR_lord_8_5" faction="Faction.clan_vaegiria_2"/>
+	<Hero id="AR_lord_8_7" father="Hero.AR_lord_8_5" mother="Hero.AR_lord_8_6" faction="Faction.clan_vaegiria_2"/>
+	<Hero id="AR_lord_8_8" father="Hero.AR_lord_8_5" mother="Hero.AR_lord_8_6" spouse="Hero.AR_lord_8_9" faction="Faction.clan_vaegiria_2"/>
+	<Hero id="AR_lord_8_9" spouse="Hero.AR_lord_8_8" faction="Faction.clan_vaegiria_2"/>
+	<!-- Zhanoving -->
+	<Hero id="AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
+	<Hero id="AR_lord_8_11" mother="Hero.AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
+	<Hero id="AR_lord_8_12" mother="Hero.AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
+	<Hero id="AR_lord_8_13" mother="Hero.AR_lord_8_10" faction="Faction.clan_vaegiria_3"/>
+	<!-- Sarapisthes -->
+	<Hero id="AR_lord_8_17" spouse="Hero.AR_lord_8_18" faction="Faction.clan_vaegiria_4"/>
+	<Hero id="AR_lord_8_18" spouse="Hero.AR_lord_8_17" faction="Faction.clan_vaegiria_4"/>
+	<Hero id="AR_lord_8_19" father="Hero.AR_lord_8_17" mother="Hero.AR_lord_8_18" spouse="Hero.AR_lord_8_21" faction="Faction.clan_vaegiria_4"/>
+	<Hero id="AR_lord_8_20" father="Hero.AR_lord_8_17" mother="Hero.AR_lord_8_18" faction="Faction.clan_vaegiria_4"/>
+	<Hero id="AR_lord_8_21" spouse="Hero.AR_lord_8_19" faction="Faction.clan_vaegiria_4"/>
+	<Hero id="AR_lord_8_22" father="Hero.AR_lord_8_17" mother="Hero.AR_lord_8_18" faction="Faction.clan_vaegiria_4"/>
+	<!-- 
+	MINOR KINGDOM FACTIONS
+	-->
 	<!--
-	Paravenos Archontate
+	Amprela Archontate
 	-->
-	<!-- Akropolites -->
-	<Hero id="AR_lord_16_1" spouse="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1" text="PLACEHOLDER"/>
-	<Hero id="AR_lord_16_2" spouse="Hero.AR_lord_16_1" faction="Faction.clan_paravenos_1"/>
-	<Hero id="AR_lord_16_3" father="Hero.AR_lord_16_1" mother="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
-	<Hero id="AR_lord_16_4" father="Hero.AR_lord_16_1" mother="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
-	<Hero id="AR_lord_16_5" spouse="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
-	<Hero id="AR_lord_16_6" spouse="Hero.AR_lord_16_5" faction="Faction.clan_paravenos_1"/>
-	<Hero id="AR_lord_16_7" father="Hero.AR_lord_16_5" mother="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
-	<!-- Rendakis -->
-	<Hero id="AR_lord_16_8" spouse="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2" text="PLACEHOLDER"/>
-	<Hero id="AR_lord_16_9" spouse="Hero.AR_lord_16_8" faction="Faction.clan_paravenos_2"/>
-	<Hero id="AR_lord_16_10" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
-	<Hero id="AR_lord_16_11" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
+	<!-- Kamytzes -->
+	<Hero id="AR_lord_18_1" spouse="Hero.AR_lord_18_2" faction="Faction.clan_amprela_1"/>
+	<Hero id="AR_lord_18_2" spouse="Hero.AR_lord_18_1" faction="Faction.clan_amprela_1"/>
+	<Hero id="AR_lord_18_3" father="Hero.AR_lord_18_1" mother="Hero.AR_lord_18_2" faction="Faction.clan_amprela_1"/>
+	<Hero id="AR_lord_18_4" spouse="Hero.AR_lord_18_5" faction="Faction.clan_amprela_1"/>
+	<Hero id="AR_lord_18_5" spouse="Hero.AR_lord_18_4" faction="Faction.clan_amprela_1"/>
+	<Hero id="AR_lord_18_6" father="Hero.AR_lord_18_4" mother="Hero.AR_lord_18_5" faction="Faction.clan_amprela_1"/>
+	<!-- Axouchos -->
+	<Hero id="AR_lord_18_7" spouse="Hero.AR_lord_18_8" faction="Faction.clan_geroianys_2"/>
+	<Hero id="AR_lord_18_8" spouse="Hero.AR_lord_18_7" faction="Faction.clan_geroianys_2"/>
+	<Hero id="AR_lord_18_9" faction="Faction.clan_geroianys_2"/>
+	<Hero id="AR_lord_18_10" father="Hero.AR_lord_18_7" mother="Hero.AR_lord_18_8" faction="Faction.clan_geroianys_2"/>
+	<Hero id="AR_lord_18_11" father="Hero.AR_lord_18_7" mother="Hero.AR_lord_18_8" faction="Faction.clan_geroianys_2"/>
 	<!--
 	Geroian Republic
 	-->
@@ -801,19 +794,35 @@
 	<Hero id="AR_lord_17_10" father="Hero.AR_lord_17_7" mother="Hero.AR_lord_17_8" faction="Faction.clan_geroianys_2"/>
 	<Hero id="AR_lord_17_11" father="Hero.AR_lord_17_7" mother="Hero.AR_lord_17_8" faction="Faction.clan_geroianys_2"/>
 	<!--
-	Amprela Archontate
+	Paravenos Archontate
 	-->
-	<!-- Kamytzes -->
-	<Hero id="AR_lord_18_1" spouse="Hero.AR_lord_18_2" faction="Faction.clan_amprela_1"/>
-	<Hero id="AR_lord_18_2" spouse="Hero.AR_lord_18_1" faction="Faction.clan_amprela_1"/>
-	<Hero id="AR_lord_18_3" father="Hero.AR_lord_18_1" mother="Hero.AR_lord_18_2" faction="Faction.clan_amprela_1"/>
-	<Hero id="AR_lord_18_4" spouse="Hero.AR_lord_18_5" faction="Faction.clan_amprela_1"/>
-	<Hero id="AR_lord_18_5" spouse="Hero.AR_lord_18_4" faction="Faction.clan_amprela_1"/>
-	<Hero id="AR_lord_18_6" father="Hero.AR_lord_18_4" mother="Hero.AR_lord_18_5" faction="Faction.clan_amprela_1"/>
-	<!-- Axouchos -->
-	<Hero id="AR_lord_18_7" spouse="Hero.AR_lord_18_8" faction="Faction.clan_geroianys_2"/>
-	<Hero id="AR_lord_18_8" spouse="Hero.AR_lord_18_7" faction="Faction.clan_geroianys_2"/>
-	<Hero id="AR_lord_18_9" faction="Faction.clan_geroianys_2"/>
-	<Hero id="AR_lord_18_10" father="Hero.AR_lord_18_7" mother="Hero.AR_lord_18_8" faction="Faction.clan_geroianys_2"/>
-	<Hero id="AR_lord_18_11" father="Hero.AR_lord_18_7" mother="Hero.AR_lord_18_8" faction="Faction.clan_geroianys_2"/>
+	<!-- Akropolites -->
+	<Hero id="AR_lord_16_1" spouse="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_16_2" spouse="Hero.AR_lord_16_1" faction="Faction.clan_paravenos_1"/>
+	<Hero id="AR_lord_16_3" father="Hero.AR_lord_16_1" mother="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
+	<Hero id="AR_lord_16_4" father="Hero.AR_lord_16_1" mother="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
+	<Hero id="AR_lord_16_5" spouse="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
+	<Hero id="AR_lord_16_6" spouse="Hero.AR_lord_16_5" faction="Faction.clan_paravenos_1"/>
+	<Hero id="AR_lord_16_7" father="Hero.AR_lord_16_5" mother="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
+	<!-- Rendakis -->
+	<Hero id="AR_lord_16_8" spouse="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_16_9" spouse="Hero.AR_lord_16_8" faction="Faction.clan_paravenos_2"/>
+	<Hero id="AR_lord_16_10" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
+	<Hero id="AR_lord_16_11" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
+	<!--
+	Yachios Archontate
+	-->
+	<!-- Carasios -->
+	<Hero id="AR_lord_15_1" spouse="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_15_2" spouse="Hero.AR_lord_15_1" faction="Faction.clan_yachios_1"/>
+	<Hero id="AR_lord_15_3" father="Hero.AR_lord_15_1" mother="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
+	<Hero id="AR_lord_15_4" father="Hero.AR_lord_15_1" mother="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
+	<Hero id="AR_lord_15_5" spouse="Hero.AR_lord_15_6" faction="Faction.clan_yachios_1"/>
+	<Hero id="AR_lord_15_6" spouse="Hero.AR_lord_15_5" faction="Faction.clan_yachios_1"/>
+	<Hero id="AR_lord_15_7" father="Hero.AR_lord_15_5" mother="Hero.AR_lord_15_6" faction="Faction.clan_yachios_1"/>
+	<!-- Khalkapatres -->
+	<Hero id="AR_lord_15_8" spouse="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_15_9" spouse="Hero.AR_lord_15_8" faction="Faction.clan_yachios_2"/>
+	<Hero id="AR_lord_15_10" father="Hero.AR_lord_15_8" mother="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
+	<Hero id="AR_lord_15_11" father="Hero.AR_lord_15_8" mother="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
 </Heroes>

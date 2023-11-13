@@ -2,7 +2,7 @@
 <Module>
 	<Name value="Shattered Imperium: Factions"/>
 	<Id value="ShatteredImperiumFactions"/>
-	<Version value="v0.3.0"/>
+	<Version value="v0.5.0"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
@@ -12,7 +12,7 @@
 		<DependedModule Id="CustomBattle"/>
 		<DependedModule Id="StoryMode"/>
 		<DependedModule Id="Bannerlord.Harmony"/>
-		<DependedModule Id="BetterExceptionWindow"/>
+		<DependedModule Id="Bannerlord.ButterLib"/>
 		<DependedModule Id="RBM"/>
 		<DependedModule Id="OpenSourceArmory"/>
 		<DependedModule Id="OpenSourceWeaponry"/>
@@ -20,6 +20,8 @@
 		<DependedModule Id="OpenSourceArmoryRBM"/>
 		<DependedModule Id="OpenSourceWeaponryRBM"/>
 		<DependedModule Id="OpenSourceSaddleryRBM"/>
+		<DependedModule Id="AdonnaysTroopChanger"/>
+		<DependedModule Id="ShatteredImperiumMap"/>
 		<DependedModule Id="ShatteredImperiumBase"/>
 	</DependedModules>
 	<SubModules>
@@ -36,15 +38,6 @@
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="SI_bandit_equipmentsets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-				<GameType value="EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="spnpccharacters_reforms_extras"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>

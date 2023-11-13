@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
+	<!-- 
+	MAJOR KINGDOM FACTIONS
+	-->
 	<!--
 	Aserai Emirates
 	-->
@@ -612,7 +615,7 @@
 	<Faction id="clan_vlandia_6"
 	         name="{=vbLAA0RF}dey Valant"
 	         tier="5"
-	         owner="Hero.lord_4_22"
+	         owner="Hero.lord_4_20"
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
@@ -643,7 +646,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-	         text="{=si_ar_clan_vlandia_2_text}The dey Hongar are the noble house of Ethenbold - uncle to the first Vlandian king - Osric Iron-Arm. Whilst many may think this relationship would afford the dey Hongar a position of primacy within the nascent Vlandian Kingdom, it is in fact far from the truth. Viewed as little more than useful vassals by Osric, the dey Hongar were assigned the thankless task of maintaining the encirclement of the Calradian city of Paravenos, losing countless men and resources in the years-long process. Nearly bankrupted into obscurity by their task, they resent the authority those ‘wayward’ members of the dey Meroc, considering themselves a better candidate for leadership of the Vlandian people."
+	         text="{=si_ar_clan_vlandia_2_text}The dey Hongar are the noble house of Ethenbold - uncle to the first Vlandian king - Osric 'Iron-Arm'. Whilst many may think this relationship would afford the dey Hongar a position of primacy within the nascent Vlandian Kingdom, it is in fact far from the truth. Viewed as little more than useful vassals by Osric, the dey Hongar were assigned the thankless task of maintaining the encirclement of the Calradian city of Paravenos, losing countless men and resources in the years-long process. Nearly bankrupted into obscurity by their task, they resent the authority those ‘wayward’ members of the dey Meroc, considering themselves a better candidate for leadership of the Vlandian people."
 	         banner_key="11.101.75.4000.4000.764.764.1.0.0.140.39.0.300.300.764.784.0.1.0.500.39.0.550.550.764.764.0.0.0.424.39.0.200.100.614.764.0.1.90.424.39.0.200.100.914.764.0.0.270.304.39.0.200.300.838.692.0.0.-1"/>
 	<Faction id="clan_vlandia_10"
 	         name="{=yQcZrUYi}dey Folcun"
@@ -661,7 +664,7 @@
 	         culture="Culture.vlandia"
 	         super_faction="Kingdom.vlandia"
 	         is_noble="true"
-	         text="{=si_ar_clan_vlandia_5_text}The dey Gunric are relatively unique amongst the noble houses of Vlandia. Their ancestors were Nords, who centuries ago ventured across the frigid northern seas to settle on the Ebor Peninsula. Formidable warriors, it was not long before the people of the region came to respect their rule. Quick to intermarry with the successive waves of Vlandian settlers who came to reside in the area around the town of Ostican, the dey Gunric soon cast off many of their Nordic traditions in favor of new Vlandian customs. Zealous supporters of Vlandian independence from the Calradian Empire, they jumped at the opportunity to join the nascent kingdom of Osric Iron-Arm."
+	         text="{=si_ar_clan_vlandia_5_text}The dey Gunric are relatively unique amongst the noble houses of Vlandia. Their ancestors were Nords, who centuries ago ventured across the frigid northern seas to settle on the Ebor Peninsula. Formidable warriors, it was not long before the people of the region came to respect their rule. Quick to intermarry with the successive waves of Vlandian settlers who came to reside in the area around the town of Ostican, the dey Gunric soon cast off many of their Nordic traditions in favor of new Vlandian customs. Zealous supporters of Vlandian independence from the Calradian Empire, they jumped at the opportunity to join the nascent kingdom of Osric 'Iron-Arm'."
 	         banner_key="11.14.14.4000.4000.764.764.1.0.0.418.15.0.300.300.764.864.0.0.0.159.15.0.500.500.764.644.0.0.0"/>
 	<Faction id="clan_vlandia_9"
 	         name="{=LygSwU3i}dey Jelind"
@@ -756,162 +759,9 @@
 	         is_noble="true"
 	         text="{=si_ar_clan_spahad_9_text}The Varaz can lay claim to one of the least storied histories of any in the Spahanfar Satrapy. In the days before the Darshi expansion into Calradia, the Varaz were simple goatherds dwelling in the Tiagys River basin. Their progenitor was drafted into the service of the Padishah Arshak in his war against the people of the Devseg, winning acclaim for the clan by single-handedly defeating seven steppe lancers in a single battle with just his sling and spear. Awarded a title of minor nobility, the Varaz have since accompanied many of the Darshi incursions into Calradia, and now form one of the key landholders in the Spahanfar Satrapy, protecting the lands of the shahs against all comers."
 	         banner_key="11.101.0.4000.4000.764.764.1.0.0.125.1.0.400.400.834.784.0.0.0.125.1.0.400.400.694.784.0.1.0.411.1.0.150.150.764.584.0.0.0.503.1.0.100.100.764.584.0.0.0"/>
-	<!--
-	Massa Confederation
+	<!-- 
+	LESSER KINGDOM FACTIONS
 	-->
-	<Faction id="clan_vlandia_3"
-	         name="{=si_ar_clan_vlandia_3_name}Armingar"
-	         tier="6"
-	         owner="Hero.lord_4_5"
-	         culture="Culture.massa"
-	         super_faction="Kingdom.massa"
-	         is_noble="true"
-	         text="{=si_ar_clan_vlandia_3_text}The Armingar are the wealthiest and most powerful of the Massa tribal families, having wandered the western lands of Calradia for over a century. A nomadic people, their ancestry is shadowed in mystery. Indeed, if one asks any group of the Armingar where their ancestors were from, they will invariably get different answers from everyone. What is known, however, is that wherever they have decided to settle, death and horror follow with them. They run their estates with ruthless efficiency, turning the once peaceful backwater villages of the western provinces of the Calradian Empire into slave farms, exploiting the land and its people until both are spent, before moving on. In this way, the Armingar have amassed for themselves great wealth and power, and there are few in Calradia who would be foolish enough to stand against them."
-	         banner_key="11.14.14.4922.4922.580.740.1.0.0.218.15.0.373.373.764.684.0.0.0.220.15.0.184.184.898.898.0.0.357.220.15.0.184.184.630.898.0.0.3.505.15.0.20.184.764.898.0.1.180"/>
-	<Faction id="clan_vlandia_4"
-	         name="{=si_ar_clan_vlandia_4_name}Hathdar"
-	         tier="5"
-	         owner="Hero.lord_4_16"
-	         culture="Culture.massa"
-	         super_faction="Kingdom.massa"
-	         is_noble="true"
-	         text="{=si_ar_clan_vlandia_4_text}The Hathdar, like many of their Massa kin, are a mysterious people. According to some Calradian scholars, their ancestors first appeared on the shores of the Biscan Coast sometime after Wilund the Bold - progenitor of the Vlandians - ravaging the local imperial villages and badly mauling a legionary detachment sent to stop them. To stop their incessant pillaging, the Calradian Empire was quick to offer the Hathdar a contract to fight as imperial auxiliaries, paying them an exorbitant amount of gold so that they might migrate into the Rhennod Hills, on the border with the territories of the Battanians. Constant war with raiding Battanian warbands has given the Hathdar centuries to hone their skills on the battlefield - an attribute they have now turned against their former Calradian overlords, along with the rest of their kin."
-	         banner_key="11.14.14.4000.4000.764.764.1.0.0.307.15.0.400.420.814.764.0.1.-30.207.15.0.200.200.664.764.0.0.50.220.15.0.100.100.764.620.0.0.0.307.15.0.400.420.714.764.0.0.30.207.15.0.200.200.864.764.0.1.310"/>
-	<Faction id="clan_massa_1"
-	         name="{=si_ar_clan_massa_1_name}Marynd"
-	         tier="5"
-	         owner="Hero.AR_lord_11_1"
-	         culture="Culture.massa"
-	         super_faction="Kingdom.massa"
-	         is_noble="true"
-	         text="{=si_ar_clan_massa_1_text}The Marynd are one of the lesser tribal families of the Massa Confederation, having only seized and settled in the fortifications of Cheleas Castle in recent years. Their ancestors were Vlandians, who refused the call of the Calradian Empire to serve in one of its eastern wars and fled into the forests of the west, living as common bandits until they found safe haven amongst a wandering Massa caravan. Skilled in the art of mounted warfare, they were the ones to introduce the Massa to horse-riding, transforming the crude warbands of their people into effective armies, capable of fighting on par with the vaunted Calradian legions. Zealous in battle, as well as at the negotiating table, the Marynd are a force to be reckoned with, and many in Calradia only speak their names in hushed tones, lest they taste of their sharp steel."
-	         banner_key="11.12.12.1536.1536.768.768.1.0.0.218.40.127.500.500.764.744.0.0.0.301.40.127.500.500.764.984.0.0.-90.301.40.127.500.500.764.984.0.1.90.521.40.127.100.100.764.524.0.0.0"/>
-	<Faction id="clan_massa_2"
-	         name="{=si_ar_clan_massa_2_name}Gosardth"
-	         tier="4"
-	         owner="Hero.AR_lord_11_6"
-	         culture="Culture.massa"
-	         super_faction="Kingdom.massa"
-	         is_noble="true"
-	         text="{=si_ar_clan_massa_2_text}The Gosardth have the reputation of being the most cruel and destructive of the Massa tribal families. It is believed by some that their ancestors were Nords, whose wayward travels saw them land on Vesperos - the 'Evening Isle' - that lies off the western coast of Calradia. Unlike many of their Massa kin, they did not take an auxiliary contract with the Calradian Empire, instead being simply shepherded by the Calradian legions into the Rhennod Hills, so that they might fight the Battanians rather than imperial forces. They were quick to join their kin in revolt, carving a bloody path across the western provinces of the Calradian Empire until they had returned to the island of Vesperos, constructing a small hillfort and enslaving the islanders. Now, the Gosardth look east from their island home, daring any on the mainland to oppose them."
-	         banner_key="11.12.12.2000.2000.764.764.1.0.0.347.40.127.300.300.764.714.0.1.0.206.40.127.300.300.654.814.0.0.45.206.40.127.300.300.874.814.0.1.315.220.40.127.100.100.764.894.0.1.0"/>
-	<!--
-	Vaegir Kingdom
-	-->
-	<Faction id="clan_vaegiria_1"
-	         name="{=si_ar_clan_vaegiria_1_name}Vagiraving"
-	         tier="6"
-	         owner="Hero.AR_lord_8_1"
-	         culture="Culture.vakken"
-	         super_faction="Kingdom.vaegiria"
-	         is_noble="true"
-	         text="{=si_ar_clan_vaegiria_1_text}The Vagiraving - the ‘House of the Companions’ - are one of the most ancient Vakken noble families, having dwelt in the dark forests of the Ircara Wildlands since the time before the coming of Calradios the Great to the continent. They are a lineage of warrior farmers, whose ancestors raised the great fortress town of Omor where the forest meets the shoreline of Lake Laconis, earning great wealth and status in Vakken society. Throughout the history of Calradia, whenever the boyars of the Vakken met to take counsel, the Vagiraving held the position of high esteem. Unsurprisingly, this meant the Vagiraving were swift to take the crown following the independence of their people, coming to rule over a realm precariously sited on the edges of the Calradian Empire."
-	         banner_key="11.33.33.4000.4000.776.778.1.0.0.306.148.148.312.479.770.930.0.1.-90.503.148.148.124.126.765.619.0.1.90.144.148.148.441.407.773.803.0.1.0"/>
-	<Faction id="clan_vaegiria_2"
-	         name="{=si_ar_clan_vaegiria_2_name}Kaldaving"
-	         tier="5"
-	         owner="Hero.AR_lord_8_5"
-	         culture="Culture.vakken"
-	         super_faction="Kingdom.vaegiria"
-	         is_noble="true"
-	         text="{=si_ar_clan_vaegiria_2_text}The Kaldaving hail from the frigid foothills of the Chertyg Mountains, having only migrated to the Vaegir heartland of the Ircara Wildlands within the past three generations. Once, they were simple woodsmen, growing their wealth and status in Calradian society through the trade of furs and amber from the dark northern forests. However, years of nearly constant conflict with Nordic raiders has hardened them into some of the finest warriors on the continent. Naturally, this made them prime candidates for border guards of the Calradian Empire, earning for them a small estate in the northern borderlands. Now, with the Vaegirs declaring themselves to be an independent realm, the Kaldaving find themselves once again turning to the art of war."
-	         banner_key="11.33.33.4000.4000.776.778.1.0.0.309.148.148.312.479.764.949.0.0.241.220.148.148.150.150.765.599.0.1.0.145.148.148.400.300.784.774.0.0.0"/>
-	<Faction id="clan_vaegiria_3"
-	         name="{=si_ar_clan_vaegiria_3_name}Dervoving"
-	         tier="5"
-	         owner="Hero.AR_lord_8_10"
-	         culture="Culture.vakken"
-	         super_faction="Kingdom.vaegiria"
-	         is_noble="true"
-	         text="{=si_ar_clan_vaegiria_3_text}The Dervoving claim descent from a long line of merchants and adventurers, having dwelt on the western the fringes of the Ircara Wildlands since the days of the Calradian Republic. However, whilst many other Vakken families have risen to prominence throughout the centuries from their involvement in commerce or warfare, the Dervoving have had no such luck. Instead, their estate’s precarious location on the fringe of the Cursion Escarpment has resulted in a nearly constant state of conflict with Battanian raiders. Many times has the wealth and status of the Dervoving been torn down by marauding hillmen, making them one of the most embattled peoples in Calradia."
-	         banner_key="11.35.35.4000.4000.776.778.1.0.0.426.148.148.137.129.687.578.0.0.0.306.148.148.311.391.764.943.0.1.-90.129.148.148.310.300.748.795.0.0.359.515.148.148.105.100.804.544.0.0.0.515.148.148.81.77.872.602.0.0.0.515.148.148.67.63.817.646.0.0.0"/>
-	<Faction id="clan_vaegiria_4"
-	         name="{=si_ar_clan_vaegiria_4_name}Sarapisthes"
-	         tier="4"
-	         owner="Hero.AR_lord_8_17"
-	         culture="Culture.vakken"
-	         super_faction="Kingdom.vaegiria"
-	         is_noble="true"
-	         text="{=si_ar_clan_vaegiria_4_text}The Sarapisthes, unlike many among the Vaegir Kingdom, are not actually members of the Vakken people. They are in fact Calradians, hailing from their fortified estates of Mecalovea, overlooking the frigid waters of Lake Laconis. A marriage pact with one of the Vakken noble families has seen their eldest daughter and her heirs placed in line to one of the most prosperous of the northern fur trading emporiums, though not without cost. With the Calradian Empire in crisis, the Sarapisthes have chosen the bonds of kin over their allegiance to the Emperor, and so now fight for the Vaegirs against their own people."
-	         banner_key="11.35.35.4000.4000.764.764.1.0.0.411.148.148.92.87.764.532.0.0.0.426.148.148.311.391.764.943.0.1.-90.100.148.148.350.350.764.744.0.0.359"/>
-	<!--
-	Quyazic Empire
-	-->
-	<Faction id="clan_quyaz_1"
-	         name="{=si_ar_clan_quyaz_1_name}Naumatos"
-	         tier="6"
-	         owner="Hero.AR_lord_9_1"
-	         culture="Culture.kannic"
-	         super_faction="Kingdom.quyaz"
-	         is_noble="true"
-	         text="{=si_ar_clan_quyaz_1_text}The Naumatos family have called the lands around the town of Quyaz home for centuries. Originally descended from Calradian colonists who settled in the area following the defeat of the Quyazic by the Calradian Republic, the Naumatos built a reputation as steadfast mariners and canny merchants. Leveraging connections with the Calradian nobility at Charasea, the Naumatos soon came to monopolize the formerly-Quyazic trade routes across the Perassic Sea, trading in dates and spices from the eastern Nahasa. Whilst not completely trusted by the old Kannic families of Quyaz, they have nonetheless come to dominate the politics of the town, ensuring its rise from a formerly defeated power to one which may again challenge others for supremacy over Calradia."
-	         banner_key="11.72.72.4922.4922.776.777.1.0.0.333.5.0.300.300.749.729.0.0.0.423.5.0.507.507.764.751.0.0.0"/>
-	<Faction id="clan_quyaz_2"
-	         name="{=si_ar_clan_quyaz_2_name}Magonos"
-	         tier="5"
-	         owner="Hero.AR_lord_9_5"
-	         culture="Culture.kannic"
-	         super_faction="Kingdom.quyaz"
-	         is_noble="true"
-	         text="{=si_ar_clan_quyaz_2_text}The Magonos descend from a long and storied line of Kannic aristocrats who have called the town of Aradiyaz home since the very first days of its founding. Ruling over the great breadbasket of the far western Nahasa, their estates have long been seen as the most essential component of any attempt to gain control over the Nahasa, feeding armies from both east and west in their campaigns across the great bronze desert. After the Quyazic Wars, the Magonos family was shown mercy by the victorious Calradian Republic, being allowed to rebuild their estates in exchange for providing a tribute of grain to Charasea every year. Staunch believers in an resurgence of Kannic culture, they have seized the opportunity of the Calradian civil war to fight for their independence."
-	         banner_key="11.72.72.4922.4922.776.777.1.0.0.500.5.0.507.507.764.751.0.0.0.500.5.0.425.425.763.752.0.0.0.201.5.0.350.350.764.764.0.0.0"/>
-	<Faction id="clan_quyaz_3"
-	         name="{=si_ar_clan_quyaz_3_name}Geranos"
-	         tier="5"
-	         owner="Hero.AR_lord_9_9"
-	         culture="Culture.kannic"
-	         super_faction="Kingdom.quyaz"
-	         is_noble="true"
-	         text="{=si_ar_clan_quyaz_3_text}The Geranos, like many other families dwelling in the western Nahasa, are at the crossroads of two worlds. Descendants of Calradian colonists who married into the local Kannic population, the Geranos made their fame and fortune in the cultivation of fine olives. Indeed, oil from their estates in the Lysian highlands may be found on the tables of Kings, Emperors and Khans from the Biscan Coast to the Devseg - a feat that has made them one of the most renowned families of farmers on the continent. Supporters of the aristocracy in the nearby town of Quyaz, the Geranos now mobilize their wealth and power in support of the adoptive homeland."
-	         banner_key="11.72.72.4922.4922.776.777.1.0.0.208.5.0.350.350.764.754.0.0.0.202.5.5.550.446.669.764.0.1.-95.202.5.5.550.450.859.764.0.0.95"/>
-	<Faction id="clan_quyaz_4"
-	         name="{=si_ar_clan_quyaz_4_name}Barcoses"
-	         tier="4"
-	         owner="Hero.AR_lord_9_13"
-	         culture="Culture.kannic"
-	         super_faction="Kingdom.quyaz"
-	         is_noble="true"
-	         text="{=si_ar_clan_quyaz_4_text}The Barcoses family can claim descent from one of the greatest lineages of the old Kannic nobility. In the days before the Quyazic Wars, they held the honour of presiding over the Senate of Quyaz for over six consecutive generations, leading their people in matters of state and warfare. Following their defeat at the hands of the Calradian Empire, the Barcoses were exiled to their estates near Uqba, on the Perassic Sea, never to hold office in the Calradian provincial administration at Quyaz again. However, following the secession of the Quyazic Empire, the Barcoses now see an opportunity to regain their lost power and status, re-joining the political order they once led."
-	         banner_key="11.72.72.4000.4000.764.764.1.0.0.450.5.0.300.300.764.734.0.0.0.502.5.0.400.400.764.764.0.0.45.518.5.0.150.150.944.584.0.0.90.518.5.0.150.150.584.584.0.0.90.518.5.0.150.150.584.944.0.0.90.518.5.0.150.150.944.944.0.0.90"/>
-	<!--
-	Byalic Confederation
-	-->
-	<Faction id="clan_jokbyalic_1"
-	         name="{=si_ar_clan_jokbyalic_1_name}Suomalai"
-	         tier="6"
-	         owner="Hero.AR_lord_13_1"
-	         culture="Culture.byalic"
-	         super_faction="Kingdom.byals"
-	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_1_text}The Suomalai are the most powerful of the Byalic noble families, having held the high chieftain's throne for centuries. Once, they held a small but wealthy holding along the shoreline of the upper Karakaz River, raising livestock and profiting off the trade of amber and furs from Nordic wanderers to the khans of the Sulun Dag Mountains. The coming of the Nachaghan hordes saw the destruction of the Suomalai’s halls and the death of their high chieftain and nearly his entire bloodline. Saved from destruction only by the swift actions of Fidhr - brother of the former high chieftain - who foresaw their destruction and led his family and retinue westwards, the Suomalai now attempt to rebuild their shattered realm along the frigid coast of the Byalic Sea."
-	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"/>
-	<Faction id="clan_jokbyalic_2"
-	         name="{=si_ar_clan_jokbyalic_2_name}Karzali"
-	         tier="5"
-	         owner="Hero.AR_lord_13_5"
-	         culture="Culture.byalic"
-	         super_faction="Kingdom.byals"
-	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_2_text}The Karzali, like many among the Byals, hail from the sheltered lands between the Karakaz River and the Byalic Sea. The descendants of proud farmer-soldiers who loyally served the ruling Suomalai high chieftains for innumerable centuries, they were among the first to face the incoming Nachaghan hordes - their warriors valiantly holding the line against the rampaging nomads to buy time for their people to escape to the west. Driven nearly to extinction by the Nachaghan, the Karzali now find themselves dwelling now in the rich lands of the former eastern provinces of the Calradian Empire, hoping the high walls may shelter them against the thundering hooves of the east."
-	         banner_key="11.7.7.4000.4000.764.764.1.0.0.416.12.12.450.450.764.764.0.0.0"/>
-	<Faction id="clan_jokbyalic_3"
-	         name="{=si_ar_clan_jokbyalic_3_name}Hamalai"
-	         tier="5"
-	         owner="Hero.AR_lord_13_11"
-	         culture="Culture.byalic"
-	         super_faction="Kingdom.byals"
-	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_3_text}The Hamalai tribe hail from the coastal plains to the southeast of the Byalic Sea. In centuries past, their ancestors eked out a meager existence from fishing the frigid waters, earning enough to construct a smallholding. Their fortunes would change when, just over a century ago, Nordic traders arrived on their shores, transforming the Hamalai’s smallholding into a bustling port trading salt and dried fish with the Nords in exchange for furs and amber. However, the arrival of the Nachaghan hordes saw the lands of the Hamalai devastated by marauding horsemen. Now, they must fight for survival, reluctantly turning from the fishing net to the axe and sword."
-	         banner_key="11.7.7.4000.4000.764.764.1.0.0.500.12.12.500.500.764.764.0.0.0.415.12.12.450.450.764.764.0.0.45"/>
-	<Faction id="clan_jokbyalic_4"
-	         name="{=si_ar_clan_jokbyalic_4_name}Ilvonen"
-	         tier="4"
-	         owner="Hero.AR_lord_13_15"
-	         culture="Culture.byalic"
-	         super_faction="Kingdom.byals"
-	         is_noble="true"
-	         text="{=si_ar_clan_jokbyalic_4_text}The Ilvonen hail from the region west of the Doga Karakya - the so-called ‘Black Mountain’ where the Karakaz River meets the frigid tundra of north-eastern Calradia. Proud warriors trained in the arts of mounted warfare, the Ilvonen fared better than many of their kin against the Nachaghan hordes, carving through the ranks of the nomads in a desperate flight to the south. These same horsemen would then win infamy for themselves in battle against the Calradian Empire, single-handedly cutting through the cataphract bodyguards of the Emperor Themestios Comnos and leaving the field with the Emperor’s head. Such feats have earned the Ilvonen a reputation as some of the fiercest warriors in Calradia, though it remains to be seen if even they can keep the Byalic people from falling to their many foes."
-	         banner_key="11.7.7.4000.4000.764.764.1.0.0.437.12.12.450.450.764.754.0.0.0"/>
 	<!--
 	Alkit Khanate
 	-->
@@ -952,6 +802,123 @@
 	         text="{=si_ar_clan_alkit_4_text}The Adiskhar are a relatively obscure tribe of the Alkit Khanate. Known to the people of the Calradian Empire by the derogatory name ‘swamp nomads’, they have dwelt on the edge of the Iltan Portages for centuries, grazing their horse herds on the meager patches of grassland in between the marshes. An unambitious people, and one of the most settled of the Iltanlar, they used the Alkit invasion to seize the nearby castle of Urikskala, displacing the Vakken inhabitants and taking it as their new home. Now, they rule over the Iltan Portages with a vengeance, jealously guarding the festering bogs and hidden pools of their homeland against all comers."
 	         banner_key="11.25.10.4345.4345.776.776.1.0.0.500.5.5.450.450.764.710.0.1.0.143.5.5.400.400.757.710.0.1.0.427.5.5.400.268.764.945.0.1.0.411.5.5.88.88.764.579.0.1.0"/>
 	<!--
+	Byalic Confederation
+	-->
+	<Faction id="clan_jokbyalic_1"
+	         name="{=si_ar_clan_jokbyalic_1_name}Suomalai"
+	         tier="6"
+	         owner="Hero.AR_lord_13_1"
+	         culture="Culture.byalic"
+	         super_faction="Kingdom.byals"
+	         is_noble="true"
+	         text="{=si_ar_clan_jokbyalic_1_text}The Suomalai are the most powerful of the Byalic noble families, having held the high chieftain's throne for centuries. Once, they held a small but wealthy holding along the shoreline of the upper Karakaz River, raising livestock and profiting off the trade of amber and furs from Nordic wanderers to the khans of the Sulun Dag Mountains. The coming of the Nachaghan hordes saw the destruction of the Suomalai’s halls and the death of their high chieftain and nearly his entire bloodline. Saved from destruction only by the swift actions of Fidhr - brother of the former high chieftain - who foresaw their destruction and led his family and retinue westwards, the Suomalai now attempt to rebuild their shattered realm along the frigid coast of the Byalic Sea."
+	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"/>
+	<Faction id="clan_jokbyalic_2"
+	         name="{=si_ar_clan_jokbyalic_2_name}Karzali"
+	         tier="5"
+	         owner="Hero.AR_lord_13_5"
+	         culture="Culture.byalic"
+	         super_faction="Kingdom.byals"
+	         is_noble="true"
+	         text="{=si_ar_clan_jokbyalic_2_text}The Karzali, like many among the Byals, hail from the sheltered lands between the Karakaz River and the Byalic Sea. The descendants of proud farmer-soldiers who loyally served the ruling Suomalai high chieftains for innumerable centuries, they were among the first to face the incoming Nachaghan hordes - their warriors valiantly holding the line against the rampaging nomads to buy time for their people to escape to the west. Driven nearly to extinction by the Nachaghan, the Karzali now find themselves dwelling now in the rich lands of the former eastern provinces of the Calradian Empire, hoping the high walls may shelter them against the thundering hooves of the east."
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.416.12.12.450.450.764.764.0.0.0"/>
+	<Faction id="clan_jokbyalic_3"
+	         name="{=si_ar_clan_jokbyalic_3_name}Hamalai"
+	         tier="5"
+	         owner="Hero.AR_lord_13_11"
+	         culture="Culture.byalic"
+	         super_faction="Kingdom.byals"
+	         is_noble="true"
+	         text="{=si_ar_clan_jokbyalic_3_text}The Hamalai tribe hail from the coastal plains to the southeast of the Byalic Sea. In centuries past, their ancestors eked out a meager existence from fishing the frigid waters, earning enough to construct a smallholding. Their fortunes would change when, just over a century ago, Nordic traders arrived on their shores, transforming the Hamalai’s smallholding into a bustling port trading salt and dried fish with the Nords in exchange for furs and amber. However, the arrival of the Nachaghan hordes saw the lands of the Hamalai devastated by marauding horsemen. Now, they must fight for survival, reluctantly turning from the fishing net to the axe and sword."
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.500.12.12.500.500.764.764.0.0.0.415.12.12.450.450.764.764.0.0.45"/>
+	<Faction id="clan_jokbyalic_4"
+	         name="{=si_ar_clan_jokbyalic_4_name}Ilvonen"
+	         tier="4"
+	         owner="Hero.AR_lord_13_15"
+	         culture="Culture.byalic"
+	         super_faction="Kingdom.byals"
+	         is_noble="true"
+	         text="{=si_ar_clan_jokbyalic_4_text}The Ilvonen hail from the region west of the Doga Karakya - the so-called ‘Black Mountain’ where the Karakaz River meets the frigid tundra of north-eastern Calradia. Proud warriors trained in the arts of mounted warfare, the Ilvonen fared better than many of their kin against the Nachaghan hordes, carving through the ranks of the nomads in a desperate flight to the south. These same horsemen would then win infamy for themselves in battle against the Calradian Empire, single-handedly cutting through the cataphract bodyguards of the Emperor Themestios Comnos and leaving the field with the Emperor’s head. Such feats have earned the Ilvonen a reputation as some of the fiercest warriors in Calradia, though it remains to be seen if even they can keep the Byalic people from falling to their many foes."
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.437.12.12.450.450.764.754.0.0.0"/>
+	<!--
+	Massa Confederation
+	-->
+	<Faction id="clan_vlandia_3"
+	         name="{=si_ar_clan_vlandia_3_name}Armingar"
+	         tier="6"
+	         owner="Hero.lord_4_5"
+	         culture="Culture.massa"
+	         super_faction="Kingdom.massa"
+	         is_noble="true"
+	         text="{=si_ar_clan_vlandia_3_text}The Armingar are the wealthiest and most powerful of the Massa tribal families, having wandered the western lands of Calradia for over a century. A nomadic people, their ancestry is shadowed in mystery. Indeed, if one asks any group of the Armingar where their ancestors were from, they will invariably get different answers from everyone. What is known, however, is that wherever they have decided to settle, death and horror follow with them. They run their estates with ruthless efficiency, turning the once peaceful backwater villages of the western provinces of the Calradian Empire into slave farms, exploiting the land and its people until both are spent, before moving on. In this way, the Armingar have amassed for themselves great wealth and power, and there are few in Calradia who would be foolish enough to stand against them."
+	         banner_key="11.14.14.4922.4922.580.740.1.0.0.218.15.0.373.373.764.684.0.0.0.220.15.0.184.184.898.898.0.0.357.220.15.0.184.184.630.898.0.0.3.505.15.0.20.184.764.898.0.1.180"/>
+	<Faction id="clan_vlandia_4"
+	         name="{=si_ar_clan_vlandia_4_name}Hathdar"
+	         tier="5"
+	         owner="Hero.lord_4_16"
+	         culture="Culture.massa"
+	         super_faction="Kingdom.massa"
+	         is_noble="true"
+	         text="{=si_ar_clan_vlandia_4_text}The Hathdar, like many of their Massa kin, are a mysterious people. According to some Calradian scholars, their ancestors first appeared on the shores of the Biscan Coast sometime after Wilund the Bold - progenitor of the Vlandians - ravaging the local imperial villages and badly mauling a legionary detachment sent to stop them. To stop their incessant pillaging, the Calradian Empire was quick to offer the Hathdar a contract to fight as imperial auxiliaries, paying them an exorbitant amount of gold so that they might migrate into the Rhennod Hills, on the border with the territories of the Battanians. Constant war with raiding Battanian warbands has given the Hathdar centuries to hone their skills on the battlefield - an attribute they have now turned against their former Calradian overlords, along with the rest of their kin."
+	         banner_key="11.14.14.4000.4000.764.764.1.0.0.307.15.0.400.420.814.764.0.1.-30.207.15.0.200.200.664.764.0.0.50.220.15.0.100.100.764.620.0.0.0.307.15.0.400.420.714.764.0.0.30.207.15.0.200.200.864.764.0.1.310"/>
+	<Faction id="clan_massa_1"
+	         name="{=si_ar_clan_massa_1_name}Marynd"
+	         tier="5"
+	         owner="Hero.AR_lord_11_1"
+	         culture="Culture.massa"
+	         super_faction="Kingdom.massa"
+	         is_noble="true"
+	         text="{=si_ar_clan_massa_1_text}The Marynd are one of the lesser tribal families of the Massa Confederation, having only seized and settled in the fortifications of Cheleas Castle in recent years. Their ancestors were Vlandians, who refused the call of the Calradian Empire to serve in one of its eastern wars and fled into the forests of the west, living as common bandits until they found safe haven amongst a wandering Massa caravan. Skilled in the art of mounted warfare, they were the ones to introduce the Massa to horse-riding, transforming the crude warbands of their people into effective armies, capable of fighting on par with the vaunted Calradian legions. Zealous in battle, as well as at the negotiating table, the Marynd are a force to be reckoned with, and many in Calradia only speak their names in hushed tones, lest they taste of their sharp steel."
+	         banner_key="11.12.12.1536.1536.768.768.1.0.0.218.40.127.500.500.764.744.0.0.0.301.40.127.500.500.764.984.0.0.-90.301.40.127.500.500.764.984.0.1.90.521.40.127.100.100.764.524.0.0.0"/>
+	<Faction id="clan_massa_2"
+	         name="{=si_ar_clan_massa_2_name}Gosardth"
+	         tier="4"
+	         owner="Hero.AR_lord_11_6"
+	         culture="Culture.massa"
+	         super_faction="Kingdom.massa"
+	         is_noble="true"
+	         text="{=si_ar_clan_massa_2_text}The Gosardth have the reputation of being the most cruel and destructive of the Massa tribal families. It is believed by some that their ancestors were Nords, whose wayward travels saw them land on Vesperos - the 'Evening Isle' - that lies off the western coast of Calradia. Unlike many of their Massa kin, they did not take an auxiliary contract with the Calradian Empire, instead being simply shepherded by the Calradian legions into the Rhennod Hills, so that they might fight the Battanians rather than imperial forces. They were quick to join their kin in revolt, carving a bloody path across the western provinces of the Calradian Empire until they had returned to the island of Vesperos, constructing a small hillfort and enslaving the islanders. Now, the Gosardth look east from their island home, daring any on the mainland to oppose them."
+	         banner_key="11.12.12.2000.2000.764.764.1.0.0.347.40.127.300.300.764.714.0.1.0.206.40.127.300.300.654.814.0.0.45.206.40.127.300.300.874.814.0.1.315.220.40.127.100.100.764.894.0.1.0"/>
+	<!--
+	Quyazic Empire
+	-->
+	<Faction id="clan_quyaz_1"
+	         name="{=si_ar_clan_quyaz_1_name}Naumatos"
+	         tier="6"
+	         owner="Hero.AR_lord_9_1"
+	         culture="Culture.kannic"
+	         super_faction="Kingdom.quyaz"
+	         is_noble="true"
+	         text="{=si_ar_clan_quyaz_1_text}The Naumatos family have called the lands around the town of Quyaz home for centuries. Originally descended from Calradian colonists who settled in the area following the defeat of the Quyazic by the Calradian Republic, the Naumatos built a reputation as steadfast mariners and canny merchants. Leveraging connections with the Calradian nobility at Charasea, the Naumatos soon came to monopolize the formerly-Quyazic trade routes across the Perassic Sea, trading in dates and spices from the eastern Nahasa. Whilst not completely trusted by the old Kannic families of Quyaz, they have nonetheless come to dominate the politics of the town, ensuring its rise from a formerly defeated power to one which may again challenge others for supremacy over Calradia."
+	         banner_key="11.72.72.4922.4922.776.777.1.0.0.333.5.0.300.300.749.729.0.0.0.423.5.0.507.507.764.751.0.0.0"/>
+	<Faction id="clan_quyaz_2"
+	         name="{=si_ar_clan_quyaz_2_name}Magonos"
+	         tier="5"
+	         owner="Hero.AR_lord_9_5"
+	         culture="Culture.kannic"
+	         super_faction="Kingdom.quyaz"
+	         is_noble="true"
+	         text="{=si_ar_clan_quyaz_2_text}The Magonos descend from a long and storied line of Kannic aristocrats who have called the town of Aradiyaz home since the very first days of its founding. Ruling over the great breadbasket of the far western Nahasa, their estates have long been seen as the most essential component of any attempt to gain control over the Nahasa, feeding armies from both east and west in their campaigns across the great bronze desert. After the Quyazic Wars, the Magonos family was shown mercy by the victorious Calradian Republic, being allowed to rebuild their estates in exchange for providing a tribute of grain to Charasea every year. Staunch believers in an resurgence of Kannic culture, they have seized the opportunity of the Calradian civil war to fight for their independence."
+	         banner_key="11.72.72.4922.4922.776.777.1.0.0.500.5.0.507.507.764.751.0.0.0.500.5.0.425.425.763.752.0.0.0.201.5.0.350.350.764.764.0.0.0"/>
+	<Faction id="clan_quyaz_3"
+	         name="{=si_ar_clan_quyaz_3_name}Geranos"
+	         tier="5"
+	         owner="Hero.AR_lord_9_9"
+	         culture="Culture.kannic"
+	         super_faction="Kingdom.quyaz"
+	         is_noble="true"
+	         text="{=si_ar_clan_quyaz_3_text}The Geranos, like many other families dwelling in the western Nahasa, are at the crossroads of two worlds. Descendants of Calradian colonists who married into the local Kannic population, the Geranos made their fame and fortune in the cultivation of fine olives. Indeed, oil from their estates in the Lysian highlands may be found on the tables of Kings, Emperors and Khans from the Biscan Coast to the Devseg - a feat that has made them one of the most renowned families of farmers on the continent. Supporters of the aristocracy in the nearby town of Quyaz, the Geranos now mobilize their wealth and power in support of the adoptive homeland."
+	         banner_key="11.72.72.4922.4922.776.777.1.0.0.208.5.0.350.350.764.754.0.0.0.202.5.5.550.446.669.764.0.1.-95.202.5.5.550.450.859.764.0.0.95"/>
+	<Faction id="clan_quyaz_4"
+	         name="{=si_ar_clan_quyaz_4_name}Barcoses"
+	         tier="4"
+	         owner="Hero.AR_lord_9_13"
+	         culture="Culture.kannic"
+	         super_faction="Kingdom.quyaz"
+	         is_noble="true"
+	         text="{=si_ar_clan_quyaz_4_text}The Barcoses family can claim descent from one of the greatest lineages of the old Kannic nobility. In the days before the Quyazic Wars, they held the honour of presiding over the Senate of Quyaz for over six consecutive generations, leading their people in matters of state and warfare. Following their defeat at the hands of the Calradian Empire, the Barcoses were exiled to their estates near Uqba, on the Perassic Sea, never to hold office in the Calradian provincial administration at Quyaz again. However, following the secession of the Quyazic Empire, the Barcoses now see an opportunity to regain their lost power and status, re-joining the political order they once led."
+	         banner_key="11.72.72.4000.4000.764.764.1.0.0.450.5.0.300.300.764.734.0.0.0.502.5.0.400.400.764.764.0.0.45.518.5.0.150.150.944.584.0.0.90.518.5.0.150.150.584.584.0.0.90.518.5.0.150.150.584.944.0.0.90.518.5.0.150.150.944.944.0.0.90"/>
+	<!--
 	Tanash City States
 	-->
 	<Faction id="clan_tanash_1"
@@ -991,68 +958,47 @@
 	         text="{=si_ar_clan_tanash_4_text}The Uzitsana hail from the mountain village of Akiser, set high on the slopes of the Akkan Hills in a key pass between the Tanash city states and the Devseg Plateau. The descendants of mercenaries from the steppe, who fought for the Tanashi in one of their many wars against the nomads of the Devseg, the Uzitsana were rewarded for their service with lordship over the borderlands. They are highly prized by the mercantile Tanashi for both their prowess in battle and at the negotiating table, ensuring the passivity of the neighboring steppe tribes and the protection of the precious trade caravans from the east."
 	         banner_key="11.1.0.4345.4345.776.777.1.0.0.137.1.0.400.400.744.784.0.0.0.137.1.0.400.400.784.784.0.1.0.521.1.0.180.180.764.614.0.1.0"/>
 	<!--
-	Yachios Archontate
+	Vaegir Kingdom
 	-->
-	<Faction id="clan_yachios_1"
-	         name="{=si_ar_clan_yachios_1_name}Carasios"
+	<Faction id="clan_vaegiria_1"
+	         name="{=si_ar_clan_vaegiria_1_name}Vagiraving"
 	         tier="6"
-	         owner="Hero.AR_lord_15_1"
-	         culture="Culture.empire"
-	         super_faction="Kingdom.yachios"
+	         owner="Hero.AR_lord_8_1"
+	         culture="Culture.vakken"
+	         super_faction="Kingdom.vaegiria"
 	         is_noble="true"
-	         text="{=si_ar_clan_yachios_1_text}The Carasios family, known to their Aserai neighbors as the ‘Banu Qaraz’, are one of the oldest families of the Calradian Empire. Originally hailing from the port city of Charasea, they were among the marcher archons who joined Emperor Mavinon’s campaign into the Nahasa, founding the outpost of Yachios to guard the borderlands of the Calradian Empire’s Nahasan provinces. The growth of their lands from military fort to thriving cosmopolitan town has brought much wealth and power to the Carasios. However, with the growing assertiveness of the Aserai, the Carasios have now found themselves cut off from imperial authority, their archontate isolated among shifting sands."
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.119.11.0.300.300.764.764.0.1.15.202.11.0.400.300.624.784.0.1.270.202.11.0.400.300.904.784.0.0.90.500.11.0.600.600.764.771.0.0.0"/>
-	<Faction id="clan_yachios_2"
-	         name="{=si_ar_clan_yachios_2_name}Khalkapatres"
+	         text="{=si_ar_clan_vaegiria_1_text}The Vagiraving - the ‘House of the Companions’ - are one of the most ancient Vakken noble families, having dwelt in the dark forests of the Ircara Wildlands since the time before the coming of Calradios the Great to the continent. They are a lineage of warrior farmers, whose ancestors raised the great fortress town of Omor where the forest meets the shoreline of Lake Laconis, earning great wealth and status in Vakken society. Throughout the history of Calradia, whenever the boyars of the Vakken met to take counsel, the Vagiraving held the position of high esteem. Unsurprisingly, this meant the Vagiraving were swift to take the crown following the independence of their people, coming to rule over a realm precariously sited on the edges of the Calradian Empire."
+	         banner_key="11.33.33.4000.4000.776.778.1.0.0.306.148.148.312.479.770.930.0.1.-90.503.148.148.124.126.765.619.0.1.90.144.148.148.441.407.773.803.0.1.0"/>
+	<Faction id="clan_vaegiria_2"
+	         name="{=si_ar_clan_vaegiria_2_name}Kaldaving"
 	         tier="5"
-	         owner="Hero.AR_lord_15_8"
-	         culture="Culture.empire"
-	         super_faction="Kingdom.yachios"
+	         owner="Hero.AR_lord_8_5"
+	         culture="Culture.vakken"
+	         super_faction="Kingdom.vaegiria"
 	         is_noble="true"
-	         text="{=si_ar_clan_yachios_2_text}The Khalkapatres are a clear example of both the immense potential and dangers of life on the borderlands of the Calradian Empire. Only two generations ago, they were mere imperial citizens, eking out an existence in the slums of Ortysia. However, their fortunes would change when their then-patriarch Morynon enlisted in the Calradian legions. Rising swiftly through the ranks during the campaigns of the Emperor Zaricos Comnos against the Aserai, the Khalkapatres were awarded a parcel of land around the colony of Yachios for their service. Before long, they had established themselves as an authority in the colony, sitting on the town council and serving with distinction in the town watch. However, with the Aserai now encroaching on all sides, it remains to be seen how long the Khalkapatres’ good fortune may last."
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.341.11.0.400.400.754.664.0.1.0.427.11.0.400.400.764.864.0.0.0"/>
-	<!--
-	Paravenos Archontate
+	         text="{=si_ar_clan_vaegiria_2_text}The Kaldaving hail from the frigid foothills of the Chertyg Mountains, having only migrated to the Vaegir heartland of the Ircara Wildlands within the past three generations. Once, they were simple woodsmen, growing their wealth and status in Calradian society through the trade of furs and amber from the dark northern forests. However, years of nearly constant conflict with Nordic raiders has hardened them into some of the finest warriors on the continent. Naturally, this made them prime candidates for border guards of the Calradian Empire, earning for them a small estate in the northern borderlands. Now, with the Vaegirs declaring themselves to be an independent realm, the Kaldaving find themselves once again turning to the art of war."
+	         banner_key="11.33.33.4000.4000.776.778.1.0.0.309.148.148.312.479.764.949.0.0.241.220.148.148.150.150.765.599.0.1.0.145.148.148.400.300.784.774.0.0.0"/>
+	<Faction id="clan_vaegiria_3"
+	         name="{=si_ar_clan_vaegiria_3_name}Dervoving"
+	         tier="5"
+	         owner="Hero.AR_lord_8_10"
+	         culture="Culture.vakken"
+	         super_faction="Kingdom.vaegiria"
+	         is_noble="true"
+	         text="{=si_ar_clan_vaegiria_3_text}The Dervoving claim descent from a long line of merchants and adventurers, having dwelt on the western the fringes of the Ircara Wildlands since the days of the Calradian Republic. However, whilst many other Vakken families have risen to prominence throughout the centuries from their involvement in commerce or warfare, the Dervoving have had no such luck. Instead, their estate’s precarious location on the fringe of the Cursion Escarpment has resulted in a nearly constant state of conflict with Battanian raiders. Many times has the wealth and status of the Dervoving been torn down by marauding hillmen, making them one of the most embattled peoples in Calradia."
+	         banner_key="11.35.35.4000.4000.776.778.1.0.0.426.148.148.137.129.687.578.0.0.0.306.148.148.311.391.764.943.0.1.-90.129.148.148.310.300.748.795.0.0.359.515.148.148.105.100.804.544.0.0.0.515.148.148.81.77.872.602.0.0.0.515.148.148.67.63.817.646.0.0.0"/>
+	<Faction id="clan_vaegiria_4"
+	         name="{=si_ar_clan_vaegiria_4_name}Sarapisthes"
+	         tier="4"
+	         owner="Hero.AR_lord_8_17"
+	         culture="Culture.vakken"
+	         super_faction="Kingdom.vaegiria"
+	         is_noble="true"
+	         text="{=si_ar_clan_vaegiria_4_text}The Sarapisthes, unlike many among the Vaegir Kingdom, are not actually members of the Vakken people. They are in fact Calradians, hailing from their fortified estates of Mecalovea, overlooking the frigid waters of Lake Laconis. A marriage pact with one of the Vakken noble families has seen their eldest daughter and her heirs placed in line to one of the most prosperous of the northern fur trading emporiums, though not without cost. With the Calradian Empire in crisis, the Sarapisthes have chosen the bonds of kin over their allegiance to the Emperor, and so now fight for the Vaegirs against their own people."
+	         banner_key="11.35.35.4000.4000.764.764.1.0.0.411.148.148.92.87.764.532.0.0.0.426.148.148.311.391.764.943.0.1.-90.100.148.148.350.350.764.744.0.0.359"/>
+	<!-- 
+	MINOR KINGDOM FACTIONS
 	-->
-	<Faction id="clan_paravenos_1"
-	         name="{=si_ar_clan_paravenos_1_name}Akropolites"
-	         tier="6"
-	         owner="Hero.AR_lord_16_1"
-	         culture="Culture.empire_w"
-	         super_faction="Kingdom.paravenos"
-	         is_noble="true"
-	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the ‘family of the sacred city’ – have been the rulers of the city of Paravenos since the days of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
-	<Faction id="clan_paravenos_2"
-	         name="{=si_ar_clan_paravenos_2_name}Rendakis"
-	         tier="5"
-	         owner="Hero.AR_lord_16_8"
-	         culture="Culture.empire_w"
-	         super_faction="Kingdom.paravenos"
-	         is_noble="true"
-	         text="{=si_ar_clan_paravenos_2_text}The Rendakis, unlike many noble families of the western provinces of the Calradian Empire, cannot claim descent from a long and illustrious line of the Calradian nobility. Their ancestors were minor nobles of the Palaic people of the Myzead - the hill country in the east of the Calradian Empire. When the legions came, the Rendakis wisely bowed to imperial authority, and so were allowed to keep their wealth and status, despite being dispossessed of their lands. Migrating to the western provinces, when those lands were considered little more than a sleepy imperial backwater, they built for themselves a pleasant life running a vineyard on the plains east of Paravenos. However, with the rise of the nascent Vlandian Kingdom, the Rendakis now find themselves called upon to defend their very way of life, lest it go extinct."
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.104.11.0.300.350.764.774.0.1.0.500.11.0.500.500.764.764.0.0.0"/>
-	<!--
-	Geroian Republic
-	-->
-	<Faction id="clan_geroianys_1"
-	         name="{=si_ar_clan_geroianys_1_name}Hamilakes"
-	         tier="6"
-	         owner="Hero.AR_lord_17_1"
-	         culture="Culture.kannic"
-	         super_faction="Kingdom.geroianys"
-	         is_noble="true"
-	         text="{=si_ar_clan_geroianys_1_text}The Hamilakes hail from the island of Perassis Major, in the center of the Perassic Sea. Their ancestors were Kannic explorers, who sailed west from their homeland of Razih in search of land to claim as their own, coming to found a small haven on the coast of the largest island that they charted. Over the centuries, the Hamilakes grew their wealth through commerce, monopolizing the trade routes passing between the Kannic cites of Razih and Quyaz. When the latter lost to the ever-expanding Calradians, the Hamilakes sensed the change on the wind, and so submitted to the nascent Calradian Empire without a fight, being allowed to maintain their dominance over the Perassic in exchange for providing the Calradians with their ships and much of their wealth. Now, with their island a sleepy imperial backwater, and their Calradian overlords in civil crisis, the Hamilakes must chart their own path in the turbulent waters."
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
-	<Faction id="clan_geroianys_2"
-	         name="{=si_ar_clan_geroianys_2_name}Geskonos"
-	         tier="5"
-	         owner="Hero.AR_lord_17_7"
-	         culture="Culture.kannic"
-	         super_faction="Kingdom.geroianys"
-	         is_noble="true"
-	         text="{=si_ar_clan_geroianys_2_text}The Geskonos are one of the most ancient noble houses of the Perassic Sea, having called the island of Perassis Major home since the days of the great Quyazic Republic. In centuries past, they made their name as skilled mariners, sailing their fleets across the calm, shallow waters to raid both the northern and southern coasts of the great sea, exacting tribute from Calradians, Kannics and Palaics alike, lest their sails appear over the horizon. Indeed, when the islands eventually fell under Calradian control, the new lords of the Perassic were eager to put the skills of the Geskonos to use, and so their fleet became an integral part of the Calradian navy. However, with their dominance assured and few to fight in the Perassic Sea, the Calradians were quick to divert funds and support away from their navy, and so the Geskonos saw their power and influence gradually decline. Today, their mighty fleet has passed into legend, spoken often by old fishermen in their taverns, but little noticed in the halls of power."
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.544.0.0.0.458.11.0.300.300.764.764.0.0.0.423.11.0.500.500.764.764.0.0.0"/>
 	<!--
 	Amprela Archontate
 	-->
@@ -1075,7 +1021,70 @@
 	         text="{=si_ar_clan_amprela_2_text}The Axouchos, like many noble families inhabiting the eastern provinces of the Calradian Empire, cannot claim descent from an ancient lineage of the Calradic people. They are descendants of the Palaic peoples of the Myzead - the hill country that separates the plains of central Calradia from the wild lands of the east. Seeing the fate of those who resisted the legions, their ancestors were quick to submit to imperial authority, being allowed to maintain their estates in the new eastern borderlands in exchange for defending them against the foes of the Calradian Empire. A martial people, bound by a strict code of honor, they tentatively joined the rebellion of Solarios ‘Light-Giver’, though quickly came to resent his cruelty and brutality. When their Empress was put to death, the Axouchos were one of the few who protested, swearing obeisance to the Archon of Amprela instead. Branded as traitors by Solarios’ regime, they now must follow their own path, to whatever end."
 	         banner_key="11.133.133.4000.4000.764.764.1.0.90.316.5.5.300.300.764.784.0.0.0.500.5.5.500.500.764.764.0.0.0.523.5.5.100.100.764.614.0.0.0.202.5.5.399.300.869.814.0.0.69.202.5.5.399.300.659.814.0.1.290"/>
 	<!--
-	MINOR FACTIONS
+	Geroian Republic
+	-->
+	<Faction id="clan_geroianys_1"
+	         name="{=si_ar_clan_geroianys_1_name}Hamilakes"
+	         tier="6"
+	         owner="Hero.AR_lord_17_1"
+	         culture="Culture.kannic"
+	         super_faction="Kingdom.geroianys"
+	         is_noble="true"
+	         text="{=si_ar_clan_geroianys_1_text}The Hamilakes hail from the island of Perassis Major, in the center of the Perassic Sea. Their ancestors were Kannic explorers, who sailed west from their homeland of Razih in search of land to claim as their own, coming to found a small haven on the coast of the largest island that they charted. Over the centuries, the Hamilakes grew their wealth through commerce, monopolizing the trade routes passing between the Kannic cites of Razih and Quyaz. When the latter lost to the ever-expanding Calradians, the Hamilakes sensed the change on the wind, and so submitted to the nascent Calradian Empire without a fight, being allowed to maintain their dominance over the Perassic in exchange for providing the Calradians with their ships and much of their wealth. Now, with their island a sleepy imperial backwater, and their Calradian overlords in civil crisis, the Hamilakes must chart their own path in the turbulent waters."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
+	<Faction id="clan_geroianys_2"
+	         name="{=si_ar_clan_geroianys_2_name}Geskonos"
+	         tier="5"
+	         owner="Hero.AR_lord_17_7"
+	         culture="Culture.kannic"
+	         super_faction="Kingdom.geroianys"
+	         is_noble="true"
+	         text="{=si_ar_clan_geroianys_2_text}The Geskonos are one of the most ancient noble houses of the Perassic Sea, having called the island of Perassis Major home since the days of the great Quyazic Republic. In centuries past, they made their name as skilled mariners, sailing their fleets across the calm, shallow waters to raid both the northern and southern coasts of the great sea, exacting tribute from Calradians, Kannics and Palaics alike, lest their sails appear over the horizon. Indeed, when the islands eventually fell under Calradian control, the new lords of the Perassic were eager to put the skills of the Geskonos to use, and so their fleet became an integral part of the Calradian navy. However, with their dominance assured and few to fight in the Perassic Sea, the Calradians were quick to divert funds and support away from their navy, and so the Geskonos saw their power and influence gradually decline. Today, their mighty fleet has passed into legend, spoken often by old fishermen in their taverns, but little noticed in the halls of power."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.544.0.0.0.458.11.0.300.300.764.764.0.0.0.423.11.0.500.500.764.764.0.0.0"/>
+	<!--
+	Paravenos Archontate
+	-->
+	<Faction id="clan_paravenos_1"
+	         name="{=si_ar_clan_paravenos_1_name}Akropolites"
+	         tier="6"
+	         owner="Hero.AR_lord_16_1"
+	         culture="Culture.empire_w"
+	         super_faction="Kingdom.paravenos"
+	         is_noble="true"
+	         text="{=si_ar_clan_paravenos_1_text}The Akropolites - the ‘family of the sacred city’ – have been the rulers of the city of Paravenos since the days of Calradian Kingdom. Descended from the first steward of Calradios the Great, it was the Akropolites who paced the sacred boundary of the new western capital, laying out its streets, districts and monumental edifices. Rewarded richly for their toils with power, wealth and status beyond almost any family in the Calradian Empire, recent times have been cruel to the Akropolites. Initially welcoming to the Vlandians and their kin and seeing their value in their industrious and warlike natures, they have since found themselves at the pointy end of Vlandian independence. Now, the ancient capital is surrounded by the former-allies-turned-enemies, and it remains to be seen if the Akropolites will weather the coming storm."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"/>
+	<Faction id="clan_paravenos_2"
+	         name="{=si_ar_clan_paravenos_2_name}Rendakis"
+	         tier="5"
+	         owner="Hero.AR_lord_16_8"
+	         culture="Culture.empire_w"
+	         super_faction="Kingdom.paravenos"
+	         is_noble="true"
+	         text="{=si_ar_clan_paravenos_2_text}The Rendakis, unlike many noble families of the western provinces of the Calradian Empire, cannot claim descent from a long and illustrious line of the Calradian nobility. Their ancestors were minor nobles of the Palaic people of the Myzead - the hill country in the east of the Calradian Empire. When the legions came, the Rendakis wisely bowed to imperial authority, and so were allowed to keep their wealth and status, despite being dispossessed of their lands. Migrating to the western provinces, when those lands were considered little more than a sleepy imperial backwater, they built for themselves a pleasant life running a vineyard on the plains east of Paravenos. However, with the rise of the nascent Vlandian Kingdom, the Rendakis now find themselves called upon to defend their very way of life, lest it go extinct."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.104.11.0.300.350.764.774.0.1.0.500.11.0.500.500.764.764.0.0.0"/>
+	<!--
+	Yachios Archontate
+	-->
+	<Faction id="clan_yachios_1"
+	         name="{=si_ar_clan_yachios_1_name}Carasios"
+	         tier="6"
+	         owner="Hero.AR_lord_15_1"
+	         culture="Culture.empire"
+	         super_faction="Kingdom.yachios"
+	         is_noble="true"
+	         text="{=si_ar_clan_yachios_1_text}The Carasios family, known to their Aserai neighbors as the ‘Banu Qaraz’, are one of the oldest families of the Calradian Empire. Originally hailing from the port city of Charasea, they were among the marcher archons who joined Emperor Mavinon’s campaign into the Nahasa, founding the outpost of Yachios to guard the borderlands of the Calradian Empire’s Nahasan provinces. The growth of their lands from military fort to thriving cosmopolitan town has brought much wealth and power to the Carasios. However, with the growing assertiveness of the Aserai, the Carasios have now found themselves cut off from imperial authority, their archontate isolated among shifting sands."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.119.11.0.300.300.764.764.0.1.15.202.11.0.400.300.624.784.0.1.270.202.11.0.400.300.904.784.0.0.90.500.11.0.600.600.764.771.0.0.0"/>
+	<Faction id="clan_yachios_2"
+	         name="{=si_ar_clan_yachios_2_name}Khalkapatres"
+	         tier="5"
+	         owner="Hero.AR_lord_15_8"
+	         culture="Culture.empire"
+	         super_faction="Kingdom.yachios"
+	         is_noble="true"
+	         text="{=si_ar_clan_yachios_2_text}The Khalkapatres are a clear example of both the immense potential and dangers of life on the borderlands of the Calradian Empire. Only two generations ago, they were mere imperial citizens, eking out an existence in the slums of Ortysia. However, their fortunes would change when their then-patriarch Morynon enlisted in the Calradian legions. Rising swiftly through the ranks during the campaigns of the Emperor Zaricos Comnos against the Aserai, the Khalkapatres were awarded a parcel of land around the colony of Yachios for their service. Before long, they had established themselves as an authority in the colony, sitting on the town council and serving with distinction in the town watch. However, with the Aserai now encroaching on all sides, it remains to be seen how long the Khalkapatres’ good fortune may last."
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.341.11.0.400.400.754.664.0.1.0.427.11.0.400.400.764.864.0.0.0"/>
+	<!--
+	MINOR NOMAD FACTIONS
 	-->
 	<Faction id="ghilman"
 	         initial_posX="360.0"
@@ -1503,7 +1512,7 @@
 	         is_minor_faction="true"
 	         is_outlaw="true"
 	         is_nomad="true"
-	         name="{=si_ar_lochanians_name}Sapmelas Tribes"
+	         name="{=si_ar_lochanians_name}Sapmelas Forest Tribes"
 	         short_name="{=si_ar_lochanians_short_name}Sapmelas"
 	         tier="4"
 	         text="{=si_ar_lochanians_text}The Sapmelas are the remnants of a tribal people which once occupied the north-eastern extent of the Byalic Sea. Whilst their territory once included vast tracts of forest and tundra, centuries of relentless conflict with the peoples of the Calradian steppe have slowly pushed them southwards from their traditional homeland. The Sapmelas now dwell among the dark lakes, swamps and crags known as the Iltan Portages. An outcast group spurned by almost all of Calradia, including their Byalic cousins, the Sapmelas are forced to fight to ensure the survival of their people.">

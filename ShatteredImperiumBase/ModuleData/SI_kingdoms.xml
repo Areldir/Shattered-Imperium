@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Kingdoms>
-	<!-- Major Kingdom Factions -->
+	<!-- 
+	MAJOR KINGDOM FACTIONS
+	-->
 	<!--
 	Aserai Emirates
 	-->
@@ -25,7 +27,7 @@
 		<relationships>
 			<relationship kingdom="Kingdom.empire_s"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_council_of_the_commons"/>
@@ -56,7 +58,7 @@
 		<relationships>
 			<relationship kingdom="Kingdom.massa"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_cantons"/>
@@ -149,7 +151,7 @@
 		<relationships>
 			<relationship kingdom="Kingdom.vlandia"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
@@ -180,7 +182,7 @@
 		<relationships>
 			<relationship kingdom="Kingdom.tanash"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_grazing_rights"/>
@@ -211,7 +213,7 @@
 		<relationships>
 			<relationship kingdom="Kingdom.vaegiria"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_lawspeakers"/>
@@ -238,11 +240,11 @@
 	         short_name="{=8HMyTKF6}Vlandians"
 	         title="{=lAWwcO6b}Kingdom of Vlandia"
 	         ruler_title="{=hwnp9abW}King"
-	         text="{=si_ar_kingdom_vlandia_text}The people today known as the Vlandians are said to have come to Calradia from overseas. Mercenaries and adventurers who spoke the tongues of many lands, they took their name from one of their first warlords - Wilund the Bold - known as ‘Valandion’ in Calradic. Their heavy cavalry, second to none, ran down the foes of the Calradian Empire from the shifting southern sands to the distant eastern steppe. But the Calradian Empire has never had as much coin as it needed, and so treasury officials soon learned that it could pay its auxiliary troops just as well with land grants and titles. This was perhaps not the most far-sighted of policies, however. When not riding under the Dragon Banner, the Vlandians were settled in the western lands of the Calradian Empire, where they married, planted farms, and built towns and fortresses of their own. It was not difficult, during the recent interregnum, for Osric Iron-Arm to declare himself king - independent in all but name. He in turn has recognized his lieutenants as barons and counts, granting them suzerainty over their lands in exchange for rallying to his banner in war. Now, the young kingdom looks greedily outwards, eyeing the rich and defenseless lands of the Calradian Empire for further conquest.">
+	         text="{=si_ar_kingdom_vlandia_text}The people today known as the Vlandians are said to have come to Calradia from overseas. Mercenaries and adventurers who spoke the tongues of many lands, they took their name from one of their first warlords - Wilund the Bold - known as ‘Valandion’ in Calradic. Their heavy cavalry, second to none, ran down the foes of the Calradian Empire from the shifting southern sands to the distant eastern steppe. But the Calradian Empire has never had as much coin as it needed, and so treasury officials soon learned that it could pay its auxiliary troops just as well with land grants and titles. This was perhaps not the most far-sighted of policies, however. When not riding under the Dragon Banner, the Vlandians were settled in the western lands of the Calradian Empire, where they married, planted farms, and built towns and fortresses of their own. It was not difficult, during the recent interregnum, for Osric 'Iron-Arm' to declare himself king - independent in all but name. He in turn has recognized his lieutenants as barons and counts, granting them suzerainty over their lands in exchange for rallying to his banner in war. Now, the young kingdom looks greedily outwards, eyeing the rich and defenseless lands of the Calradian Empire for further conquest.">
 		<relationships>
 			<relationship kingdom="Kingdom.empire_w"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_feudal_inheritance"/>
@@ -273,10 +275,168 @@
 		<relationships>
 			<relationship kingdom="Kingdom.aserai"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_sacred_majesty"/>
+			<policy id="policy_council_of_elders"/>
+		</policies>
+	</Kingdom>
+	<!-- 
+	LESSER KINGDOM FACTIONS
+	-->
+	<!--
+	Alkit Khanate
+	-->
+	<Kingdom id="alkit"
+	         owner="Hero.AR_lord_10_1"
+	         banner_key="11.25.10.1536.1536.768.768.1.0.0.427.11.11.400.400.764.923.1.0.0.129.11.11.300.300.759.694.1.0.0.340.11.11.200.200.764.484.1.0.0.504.11.11.90.90.718.476.1.0.-40.504.11.11.90.90.810.477.1.0.39.410.11.11.113.113.764.879.1.0.0"
+	         primary_banner_color="0xff7a7a7a"
+	         secondary_banner_color="0xffFFAD54"
+	         label_color="FF7CC8EB"
+	         color="0xff7a7a7a"
+	         color2="0xffFFAD54"
+	         alternative_color="0xff7a7a7a"
+	         alternative_color2="0xffFFAD54"
+	         culture="Culture.khuzait"
+	         settlement_banner_mesh="encounter_flag_f"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=si_ar_kingdom_alkit_name}Alkit Khanate"
+	         short_name="{=si_ar_kingdom_alkit_short_name}Alkit"
+	         title="{=si_ar_kingdom_alkit_title}Alkit Khanate"
+	         ruler_title="{=si_ar_kingdom_alkit_ruler_title}Khan"
+	         text="{=si_ar_kingdom_alkit_text}The past century of Calradian history has seen the rise of many short-lived kingdoms, each attempting to gain land and power from the instability of the Calradian Empire. The Alkit Khanate is one such state. Two generations ago, the Calradian Emperor Zaricos Comnos hired tribes of the Iltanlar to retake the colony of Varnapolys from Nordic invaders. The Alkit eagerly accepted the imperial contract, drawing on the wanderlust of other nomadic tribes to form a vast host and soon defeating the outnumbered Nords. Rewarded with stewardship of Varnapolys in the Empire's name, the Alkit found themselves among the most powerful peoples on the continent. However, the steppe breeds an unquenchable restlessness, and so the Alkit soon betrayed the Empire, cutting a swathe of conquest through the divided Sturgian and Vakken realms to form their own realm from the ashes. Now, the Alkit Khanate is on the defensive, unable to gain support from the other Iltanlar clans of their homeland far to the east, and so must fight for survival of their new realm.">
+		<relationships>
+			<relationship kingdom="Kingdom.sturgia"
+			              value="-1"
+			              isAtWar="false"/>
+		</relationships>
+		<policies>
+			<policy id="policy_sacred_majesty"/>
+			<policy id="policy_lawspeakers"/>
+		</policies>
+	</Kingdom>
+	<!--
+	Byalic Confederation
+	-->
+	<Kingdom id="byals"
+	         owner="Hero.AR_lord_13_1"
+	         banner_key="11.7.7.4000.4000.764.764.1.0.0.421.12.12.500.500.764.744.0.0.90.433.12.12.150.150.764.769.0.1.0"
+	         primary_banner_color="0xffF7BF46"
+	         secondary_banner_color="FF2D3F1D"
+	         label_color="FFebce5e"
+	         color="FFECBA44"
+	         color2="FF2D3F1D"
+	         alternative_color="FFECBA44"
+	         alternative_color2="FF2D3F1D"
+	         culture="Culture.byalic"
+	         settlement_banner_mesh="encounter_flag_e"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=si_ar_kingdom_byals_name}Byalic Confederation"
+	         short_name="{si_ar_kingdom_byals_short_name}Byals"
+	         title="{si_ar_kingdom_byals_title}Byalic Confederation"
+	         ruler_title="{=si_ar_kingdom_byals_ruler_title}High Chieftain"
+	         text="{=si_ar_kingdom_jokbyalic_text}To the north of the Calradian steppe dwell a myriad of tribes, referred to by the merchants of the Calradian Empire as the Byals. A hardy people, distantly related the Vakken and tempered by generations of intermarriage with Nord warriors, they have for centuries dwelled in small, isolated villages, carving out a meagre existence raising cattle in sheltered grasslands between the Karakaz River and northern forests, and fishing the frigid waters of the Byalic Sea. However, matters would change in the year 945, when the Nachaghan tribe from the east thundered into Byalic territory, ravging the land and pillaging its settlements. Whilst the Byals mounted a stalwart defense, the sheer numbers of the nomads would prove too much. Threatened with annihilation, many Byals migrated to the south and west, carving a desperate, bloody swathe across the Iltan Portages into the Calradian Empire. They would earn infamy in routing the imperial armies, killing the Emperor Themestios Comnos and causing the civil war that has brought the Calradian Empire to its knees. They now find themselves with small conquests on the Calradian borderlands, far from their home, with bitter enemies on all sides. It remains to be seen how long the Byals may hold out against such seemingly impossible odds.">
+		<relationships>
+			<relationship kingdom="Kingdom.empire"
+			              value="-1"
+			              isAtWar="false"/>
+		</relationships>
+		<policies>
+			<policy id="policy_cantons"/>
+			<policy id="policy_council_of_elders"/>
+		</policies>
+	</Kingdom>
+	<!--
+	Massa Confederation
+	-->
+	<Kingdom id="massa"
+	         owner="Hero.lord_4_5"
+	         banner_key="11.12.12.1536.1536.768.768.1.0.0.105.40.127.500.500.764.724.0.0.0.301.40.127.500.500.764.964.0.0.-90"
+	         primary_banner_color="0xff429081"
+	         secondary_banner_color="0xffF7BF46"
+	         label_color="ffB01301"
+	         color="FF58888B"
+	         color2="FFECBA44"
+	         alternative_color="FF58888B"
+	         alternative_color2="ff910101"
+	         culture="Culture.massa"
+	         settlement_banner_mesh="encounter_flag_d"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=si_ar_kingdom_massa_name}Massa Confederation"
+	         short_name="{=si_ar_kingdom_massa_short_name}Massa"
+	         title="{=si_ar_kingdom_massa_title}Confederation of the Massa"
+	         ruler_title="{=si_ar_kingdom_massa_ruler_title}High Chieftain"
+	         text="{=AR_kingdom_massa_text}The Confederation of Massa claims the same descent as their Vlandian cousins, forming only recently from a union of former federate tribes in the Calradian Empire's western provinces. After the Empire lost Baravenos to Osric 'Iron-Arm', many Massan chieftains saw an opportunity to gain their own independent kingdom, and so overthrew the local Imperial Archon and massacred the vaunted Seventh Legion in their camp in the Rhennod mountains, near the village of Ormanfard. Viewed by the Empire as traitors, and their Vlandian cousins as brutal barbarians, the Massan tribes now consolidate for themselves a small kingdom in the Ebor Peninsula.">
+		<relationships>
+			<relationship kingdom="Kingdom.battania"
+			              value="-1"
+			              isAtWar="false"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_castle_charters"/>
+		</policies>
+	</Kingdom>
+	<!--
+	Quyazic Empire
+	-->
+	<Kingdom id="quyaz"
+	         owner="Hero.AR_lord_9_1"
+	         banner_key="11.72.72.4922.4922.776.777.1.0.0.333.5.0.300.300.749.729.0.0.0.423.5.0.507.507.764.751.0.0.0"
+	         primary_banner_color="0xff0c4b63"
+	         secondary_banner_color="0xffFCDE90"
+	         label_color="FF1856A1"
+	         color="0xff0c4b63"
+	         color2="FFDE9953"
+	         alternative_color="0xff0c4b63"
+	         alternative_color2="FFDE9953"
+	         culture="Culture.kannic"
+	         settlement_banner_mesh="encounter_flag_b"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=si_ar_kingdom_quyaz_name}Quyazic Empire"
+	         short_name="{=si_ar_kingdom_quyaz_short_name}Quyazics"
+	         title="{=si_ar_kingdom_quyaz_title}Quyazic Empire"
+	         ruler_title="{=si_ar_kingdom_quyaz_ruler_title}Basileos"
+	         text="{=si_ar_kingdom_quyaz_text}The Kannic colonies of Quyaz once held a vast empire on the southern coasts of the Perassic Sea, renowned for its wealth and power gained through maritime trade and conquest. A series of bloody wars against the Calradian Republic centuries ago resulted in the loss of their freedom to the growing empire, and much much of their culture and language was lost to ‘calradicization’. However, over the last two centuries, raids on the Nahasan borders by the increasingly organized Aserai stretched the southern Calradian garrisons to breaking point, resulting in a number of border castles being overrun. Ineffective imperial administration ignored the pleas of the Quyazic people to protect them, and so the province soon looked to its own protection, raising legions and electing generals from among the local nobility. In the year 941, this would reach a peak when the archon Lamenon Naumatos seized the opportunity and declared independence from the Calradian Empire, founding his own ‘Quyazic Empire’. Whilst Calradian Emperor Themestios Comnos, preoccupied with an endless series of domestic crises, recognized the nascent realm and granted it notional sovereignty, with his death, the Quyazic people now find themselves fighting to defend what is theirs against both the rising Aserai Emirates, as well as their former Calradian overlords.">
+		<relationships>
+			<relationship kingdom="Kingdom.aserai"
+			              value="-1"
+			              isAtWar="false"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_land_grants_for_veterans"/>
+		</policies>
+	</Kingdom>
+	<!--
+	Tanash City States
+	-->
+	<Kingdom id="tanash"
+	         owner="Hero.AR_lord_14_1"
+	         banner_key="11.61.154.4345.4345.776.777.1.0.0.404.38.0.500.500.764.764.0.0.0.117.38.0.250.250.764.764.0.0.0.500.38.0.550.550.764.764.0.0.0.521.38.0.150.150.764.534.0.0.0"
+	         primary_banner_color="0xff8d5c44"
+	         secondary_banner_color="0xffF7BF46"
+	         label_color="FFebce5e"
+	         color="0xff8d5c44"
+	         color2="0xffF7BF46"
+	         alternative_color="0xff8d5c44"
+	         alternative_color2="0xffF7BF46"
+	         culture="Culture.darshi"
+	         settlement_banner_mesh="encounter_flag_c"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=si_ar_kingdom_tanash_name}Tanash City States"
+	         short_name="{=si_ar_kingdom_tanash_short_name}Tanashi"
+	         title="{=si_ar_kingdom_tanash_title}Tanash City States"
+	         ruler_title="{=si_ar_kingdom_tanash_ruler_title}Shah"
+	         text="{=si_ar_kingdom_tanash_text}The lands to the east of the vast Lake Tanaesis - known as ‘Tanash’ in the Darshi language - have long been the home of a number of great city states, their inhabitants growing monstrously rich on the trade of silk and spices from the far eastern lands into Calradia. Traditionally a militarily poor people, both the Calradian and Darshi empires have periodically exacted tribute from the Tanashi in return for assuring their sovereignty. However, two generations ago, a Calradian general marched his army across the Iltan Portages and subjugated the Tanash city states in a swift campaign, forming the imperial protectorate of Transtanaesia. Since that time, the Tanashi have chafed under the rule of the Calradians, who have levied ever higher taxes on the people of the region to fund their many wars. Whilst once their cities were bustling centers of commerce, drawing travellers from far and wide, now only dust gathers in many of their taverns and marketplaces. With the winds of change once again blowing, the Tanashi see the impending Calradian civil war as an opportunity to regain their independence, and so have broken free from imperial authority, electing a shah to represent their collective interests in the darkening world.">
+		<relationships>
+			<relationship kingdom="Kingdom.khuzait"
+			              value="-1"
+			              isAtWar="false"/>
+		</relationships>
+		<policies>
+			<policy id="policy_senate"/>
 			<policy id="policy_council_of_elders"/>
 		</policies>
 	</Kingdom>
@@ -304,162 +464,103 @@
 		<relationships>
 			<relationship kingdom="Kingdom.sturgia"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
 			<policy id="policy_feudal_inheritance"/>
 		</policies>
 	</Kingdom>
-	<!--
-	Quyazic Empire
+	<!-- 
+	MINOR KINGDOM FACTIONS
 	-->
-	<Kingdom id="quyaz"
-	         owner="Hero.AR_lord_9_1"
-	         banner_key="11.72.72.4922.4922.776.777.1.0.0.333.5.0.300.300.749.729.0.0.0.423.5.0.507.507.764.751.0.0.0"
-	         primary_banner_color="0xff0c4b63"
-	         secondary_banner_color="0xffFCDE90"
+	<!--
+	Amprela Archontate
+	-->
+	<Kingdom id="amprela"
+	         owner="Hero.AR_lord_18_1"
+	         banner_key="11.133.133.4000.4000.764.764.1.0.90.126.5.5.300.300.764.744.0.0.0.423.5.5.500.500.764.764.0.0.0"
+	         primary_banner_color="0xffdf84dc"
+	         secondary_banner_color="0xffF7BF46"
 	         label_color="FF1856A1"
-	         color="0xff0c4b63"
-	         color2="FFDE9953"
-	         alternative_color="0xff0c4b63"
-	         alternative_color2="FFDE9953"
-	         culture="Culture.kannic"
-	         settlement_banner_mesh="encounter_flag_b"
-	         flag_mesh="info_screen_flags_c"
-	         name="{=si_ar_kingdom_quyaz_name}Quyazic Empire"
-	         short_name="{=si_ar_kingdom_quyaz_short_name}Quyazics"
-	         title="{=si_ar_kingdom_quyaz_title}Quyazic Empire"
-	         ruler_title="{=si_ar_kingdom_quyaz_ruler_title}Basileos"
-	         text="{=si_ar_kingdom_quyaz_text}The Kannic colonies of Quyaz once held a vast empire on the southern coasts of the Perassic Sea, renowned for its wealth and power gained through maritime trade and conquest. A series of bloody wars against the Calradian Republic centuries ago resulted in the loss of their freedom to the growing empire, and much much of their culture and language was lost to ‘calradicization’. However, over the last two centuries, raids on the Nahasan borders by the increasingly organized Aserai stretched the southern Calradian garrisons to breaking point, resulting in a number of border castles being overrun. Ineffective imperial administration ignored the pleas of the Quyazic people to protect them, and so the province soon looked to its own protection, raising legions and electing generals from among the local nobility. In the year 941, this would reach a peak when the archon Lamenon Naumatos seized the opportunity and declared independence from the Calradian Empire, founding his own ‘Quyazic Empire’. Whilst Calradian Emperor Themestios Comnos, preoccupied with an endless series of domestic crises, recognized the nascent realm and granted it notional sovereignty, with his death, the Quyazic people now find themselves fighting to defend what is theirs against both the rising Aserai Emirates, as well as their former Calradian overlords.">
+	         color="0xffdf84dc"
+	         color2="0xffF7BF46"
+	         alternative_color="0xffdf84dc"
+	         alternative_color2="0xffF7BF46"
+	         culture="Culture.empire_n"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=si_ar_amprela_faction_name}Amprela Archontate"
+	         short_name="{=si_ar_amprela_faction_short_name}Amprelans"
+	         title="{=si_ar_amprela_faction_title}Amprela Archontate"
+	         ruler_title="{=si_ar_amprela_faction_ruler_title}Archon"
+	         text="{=si_ar_amprela_faction_text}PLACEHOLDER">
 		<relationships>
-			<relationship kingdom="Kingdom.aserai"
+			<relationship kingdom="Kingdom.khuzait"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
-			<policy id="policy_senate"/>
+			<policy id="policy_council_of_the_commons"/>
 			<policy id="policy_land_grants_for_veterans"/>
 		</policies>
 	</Kingdom>
 	<!--
-	Alkit Khanate
+	Geroian Republic
 	-->
-	<Kingdom id="alkit"
-	         owner="Hero.AR_lord_10_1"
-	         banner_key="11.25.10.1536.1536.768.768.1.0.0.427.11.11.400.400.764.923.1.0.0.129.11.11.300.300.759.694.1.0.0.340.11.11.200.200.764.484.1.0.0.504.11.11.90.90.718.476.1.0.-40.504.11.11.90.90.810.477.1.0.39.410.11.11.113.113.764.879.1.0.0"
-	         primary_banner_color="0xff7a7a7a"
+	<Kingdom id="geroianys"
+	         owner="Hero.AR_lord_17_1"
+	         banner_key="11.72.72.4000.4000.764.764.1.0.0.344.5.0.300.300.764.764.0.0.0.502.5.0.400.400.764.764.0.0.45.518.5.0.150.150.764.549.0.0.90"
+	         primary_banner_color="0xff9776a9"
 	         secondary_banner_color="0xffFFAD54"
-	         label_color="FF7CC8EB"
-	         color="0xff7a7a7a"
+	         label_color="FF1856A1"
+	         color="0xff9776a9"
 	         color2="0xffFFAD54"
-	         alternative_color="0xff7a7a7a"
+	         alternative_color="0xff9776a9"
 	         alternative_color2="0xffFFAD54"
-	         culture="Culture.khuzait"
-	         settlement_banner_mesh="encounter_flag_f"
+	         culture="Culture.kannic"
+	         settlement_banner_mesh="encounter_flag_a"
 	         flag_mesh="info_screen_flags_b"
-	         name="{=si_ar_kingdom_alkit_name}Alkit Khanate"
-	         short_name="{=si_ar_kingdom_alkit_short_name}Alkit"
-	         title="{=si_ar_kingdom_alkit_title}Alkit Khanate"
-	         ruler_title="{=si_ar_kingdom_alkit_ruler_title}Khan"
-	         text="{=si_ar_kingdom_alkit_text}The past century of Calradian history has seen the rise of many short-lived kingdoms, each attempting to gain land and power from the instability of the Calradian Empire. The Alkit Khanate is one such state. Two generations ago, the Calradian Emperor Zaricos Comnos hired tribes of the Iltanlar to retake the colony of Varnapolys from Nordic invaders. The Alkit eagerly accepted the imperial contract, drawing on the wanderlust of other nomadic tribes to form a vast host and soon defeating the outnumbered Nords. Rewarded with stewardship of Varnapolys in the Empire's name, the Alkit found themselves among the most powerful peoples on the continent. However, the steppe breeds an unquenchable restlessness, and so the Alkit soon betrayed the Empire, cutting a swathe of conquest through the divided Sturgian and Vakken realms to form their own realm from the ashes. Now, the Alkit Khanate is on the defensive, unable to gain support from the other Iltanlar clans of their homeland far to the east, and so must fight for survival of their new realm.">
+	         name="{=si_ar_geroianys_faction_name}Geroian Republic"
+	         short_name="{=si_ar_geroianys_faction_short_name}Geroians"
+	         title="{=si_ar_geroianys_faction_title}Geroian Archontate"
+	         ruler_title="{=si_ar_geroianys_faction_ruler_title}Archon"
+	         text="{=si_ar_geroianys_faction_text}For even the most inexperienced geographer, the Perassic Sea is difficult to miss. This vast sea, bordered by the woods and plains of the Calradian heartland to the north, and the shifting sands of the Nahasa to the south, has seen the rise and fall of countless civilizations, empires, and petty realms. At the center of the Perassic lies two great islands, known as Perassis Major and Perassis Minor in the language of the Calradians, though they go by many other names to the numerous peoples who have charted them. The earliest inhabitants of these islands were Kannic colonists from the city state of Razih, who settled the coasts of the island they called ‘Geroia’ and turned the inland forests to the purpose of ship building, amassing great fleets of merchantmen and warships. However, theirs was to be a story of decline, first conquered by the Calradians at the end of the Quyazic Wars, then stripped of their navy as the Calradians gained dominance over the entire Perassic, turning it into effectively a Calradian-controlled lake. Today, the Perassic is viewed as a sleepy backwater, the Geroian towns and villages little more than shanty towns, and their castles neglected and crumbling. However, the lords of Geroia have waited long for the day when they can rise up and seize power for themselves, and the civil war that has now engulfed the Calradian Empire has provided such an opportunity.">
 		<relationships>
-			<relationship kingdom="Kingdom.sturgia"
+			<relationship kingdom="Kingdom.aserai"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
-			<policy id="policy_sacred_majesty"/>
-			<policy id="policy_lawspeakers"/>
-		</policies>
-	</Kingdom>
-	<!--
-	Massa Confederation
-	-->
-	<Kingdom id="massa"
-	         owner="Hero.lord_4_5"
-	         banner_key="11.12.12.1536.1536.768.768.1.0.0.105.40.127.500.500.764.724.0.0.0.301.40.127.500.500.764.964.0.0.-90"
-	         primary_banner_color="0xff429081"
-	         secondary_banner_color="0xffF7BF46"
-	         label_color="ffB01301"
-	         color="FF58888B"
-	         color2="FFECBA44"
-	         alternative_color="FF58888B"
-	         alternative_color2="ff910101"
-	         culture="Culture.massa"
-	         settlement_banner_mesh="encounter_flag_d"
-	         flag_mesh="info_screen_flags_c"
-	         name="{=si_ar_kingdom_massa_name}Massa Confederation"
-	         short_name="{=si_ar_kingdom_massa_short_name}Massa"
-	         title="{=si_ar_kingdom_massa_title}Confederation of the Massa"
-	         ruler_title="{=si_ar_kingdom_massa_ruler_title}High Chieftain"
-	         text="{=AR_kingdom_massa_text}The Confederation of Massa claims the same descent as their Vlandian cousins, forming only recently from a union of former federate tribes in the Calradian Empire's western provinces. After the Empire lost Baravenos to Osric Iron-Arm, many Massan chieftains saw an opportunity to gain their own independent kingdom, and so overthrew the local Imperial Archon and massacred the vaunted Seventh Legion in their camp in the Rhennod mountains, near the village of Ormanfard. Viewed by the Empire as traitors, and their Vlandian cousins as brutal barbarians, the Massan tribes now consolidate for themselves a small kingdom in the Ebor Peninsula.">
-		<relationships>
-			<relationship kingdom="Kingdom.battania"
-			              value="-1"
-			              isAtWar="true"/>
-		</relationships>
-		<policies>
-			<policy id="policy_senate"/>
-			<policy id="policy_castle_charters"/>
-		</policies>
-	</Kingdom>
-	<!--
-	Tanash City States
-	-->
-	<Kingdom id="tanash"
-	         owner="Hero.AR_lord_14_1"
-	         banner_key="11.61.154.4345.4345.776.777.1.0.0.404.38.0.500.500.764.764.0.0.0.117.38.0.250.250.764.764.0.0.0.500.38.0.550.550.764.764.0.0.0.521.38.0.150.150.764.534.0.0.0"
-	         primary_banner_color="0xff8d5c44"
-	         secondary_banner_color="0xffF7BF46"
-	         label_color="FFebce5e"
-	         color="0xff8d5c44"
-	         color2="0xffF7BF46"
-	         alternative_color="0xff8d5c44"
-	         alternative_color2="0xffF7BF46"
-	         culture="Culture.darshi"
-	         settlement_banner_mesh="encounter_flag_c"
-	         flag_mesh="info_screen_flags_a"
-	         name="{=si_ar_kingdom_tanash_name}Tanash City States"
-	         short_name="{=si_ar_kingdom_tanash_short_name}Tanashi"
-	         title="{=si_ar_kingdom_tanash_title}Tanash City States"
-	         ruler_title="{=si_ar_kingdom_tanash_ruler_title}Shah"
-	         text="{=si_ar_kingdom_tanash_text}The lands to the east of the vast Lake Tanaesis - known as ‘Tanash’ in the Darshi language - have long been the home of a number of great city states, their inhabitants growing monstrously rich on the trade of silk and spices from the far eastern lands into Calradia. Traditionally a militarily poor people, both the Calradian and Darshi empires have periodically exacted tribute from the Tanashi in return for assuring their sovereignty. However, two generations ago, a Calradian general marched his army across the Iltan Portages and subjugated the Tanash city states in a swift campaign, forming the imperial protectorate of Transtanaesia. Since that time, the Tanashi have chafed under the rule of the Calradians, who have levied ever higher taxes on the people of the region to fund their many wars. Whilst once their cities were bustling centers of commerce, drawing travellers from far and wide, now only dust gathers in many of their taverns and marketplaces. With the winds of change once again blowing, the Tanashi see the impending Calradian civil war as an opportunity to regain their independence, and so have broken free from imperial authority, electing a shah to represent their collective interests in the darkening world.">
-		<relationships>
-			<relationship kingdom="Kingdom.khuzait"
-			              value="-1"
-			              isAtWar="true"/>
-		</relationships>
-		<policies>
-			<policy id="policy_senate"/>
 			<policy id="policy_council_of_elders"/>
+			<policy id="policy_land_grants_for_veterans"/>
 		</policies>
 	</Kingdom>
 	<!--
-	Byalic Confederation
+	Paravenos Archontate
 	-->
-	<Kingdom id="byals"
-	         owner="Hero.AR_lord_13_1"
-	         banner_key="11.7.7.4000.4000.764.764.1.0.0.421.12.12.500.500.764.744.0.0.90.433.12.12.150.150.764.769.0.1.0"
-	         primary_banner_color="0xffF7BF46"
-	         secondary_banner_color="FF2D3F1D"
-	         label_color="FFebce5e"
-	         color="FFECBA44"
-	         color2="FF2D3F1D"
-	         alternative_color="FFECBA44"
-	         alternative_color2="FF2D3F1D"
-	         culture="Culture.byalic"
-	         settlement_banner_mesh="encounter_flag_e"
+	<Kingdom id="paravenos"
+	         owner="Hero.AR_lord_16_1"
+	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"
+	         primary_banner_color="0xFFBF4972"
+	         secondary_banner_color="0xffDEA940"
+	         label_color="FF6d62b5"
+	         color="0xFFBF4972"
+	         color2="0xffDEA940"
+	         alternative_color="0xFFBF4972"
+	         alternative_color2="0xffDEA940"
+	         culture="Culture.empire_w"
+	         settlement_banner_mesh="encounter_flag_a"
 	         flag_mesh="info_screen_flags_b"
-	         name="{=si_ar_kingdom_byals_name}Byalic Confederation"
-	         short_name="{si_ar_kingdom_byals_short_name}Byals"
-	         title="{si_ar_kingdom_byals_title}Byalic Confederation"
-	         ruler_title="{=si_ar_kingdom_byals_ruler_title}High Chieftain"
-	         text="{=si_ar_kingdom_jokbyalic_text}To the north of the Calradian steppe dwell a myriad of tribes, referred to by the merchants of the Calradian Empire as the Byals. A hardy people, distantly related the Vakken and tempered by generations of intermarriage with Nord warriors, they have for centuries dwelled in small, isolated villages, carving out a meagre existence raising cattle in sheltered grasslands between the Karakaz River and northern forests, and fishing the frigid waters of the Byalic Sea. However, matters would change in the year 945, when the Nachaghan tribe from the east thundered into Byalic territory, ravging the land and pillaging its settlements. Whilst the Byals mounted a stalwart defense, the sheer numbers of the nomads would prove too much. Threatened with annihilation, many Byals migrated to the south and west, carving a desperate, bloody swathe across the Iltan Portages into the Calradian Empire. They would earn infamy in routing the imperial armies, killing the Emperor Themestios Comnos and causing the civil war that has brought the Calradian Empire to its knees. They now find themselves with small conquests on the Calradian borderlands, far from their home, with bitter enemies on all sides. It remains to be seen how long the Byals may hold out against such seemingly impossible odds.">
+	         name="{=si_ar_paravenos_faction_name}Paravenos Archontate"
+	         short_name="{=si_ar_paravenos_faction_short_name}Paravenoi"
+	         title="{=si_ar_paravenos_faction_title}Paravenos Archontate"
+	         ruler_title="{=si_ar_paravenos_faction_ruler_title}Archon"
+	         text="{=si_ar_paravenos_faction_text}PLACEHOLDER">
 		<relationships>
-			<relationship kingdom="Kingdom.empire"
+			<relationship kingdom="Kingdom.vlandia"
 			              value="-1"
-			              isAtWar="true"/>
+			              isAtWar="false"/>
 		</relationships>
 		<policies>
 			<policy id="policy_cantons"/>
@@ -494,99 +595,6 @@
 		</relationships>
 		<policies>
 			<policy id="policy_senate"/>
-			<policy id="policy_land_grants_for_veterans"/>
-		</policies>
-	</Kingdom>
-	<!--
-	Paravenos Archontate
-	-->
-	<Kingdom id="paravenos"
-	         owner="Hero.AR_lord_16_1"
-	         banner_key="11.116.116.4000.4000.764.764.1.0.0.521.11.0.100.100.764.564.0.0.0.328.11.0.300.350.764.764.0.1.0.423.11.0.550.550.764.764.0.0.0"
-	         primary_banner_color="0xFFBF4972"
-	         secondary_banner_color="0xffDEA940"
-	         label_color="FF6d62b5"
-	         color="0xFFBF4972"
-	         color2="0xffDEA940"
-	         alternative_color="0xFFBF4972"
-	         alternative_color2="0xffDEA940"
-	         culture="Culture.empire_w"
-	         settlement_banner_mesh="encounter_flag_a"
-	         flag_mesh="info_screen_flags_b"
-	         name="{=si_ar_paravenos_faction_name}Paravenos Archontate"
-	         short_name="{=si_ar_paravenos_faction_short_name}Paravenoi"
-	         title="{=si_ar_paravenos_faction_title}Paravenos Archontate"
-	         ruler_title="{=si_ar_paravenos_faction_ruler_title}Archon"
-	         text="{=si_ar_paravenos_faction_text}PLACEHOLDER">
-		<relationships>
-			<relationship kingdom="Kingdom.vlandia"
-			              value="-1"
-			              isAtWar="true"/>
-		</relationships>
-		<policies>
-			<policy id="policy_cantons"/>
-			<policy id="policy_council_of_elders"/>
-		</policies>
-	</Kingdom>
-	<!--
-	Geroian Republic
-	-->
-	<Kingdom id="geroianys"
-	         owner="Hero.AR_lord_17_1"
-	         banner_key="11.72.72.4000.4000.764.764.1.0.0.344.5.0.300.300.764.764.0.0.0.502.5.0.400.400.764.764.0.0.45.518.5.0.150.150.764.549.0.0.90"
-	         primary_banner_color="0xff9776a9"
-	         secondary_banner_color="0xffFFAD54"
-	         label_color="FF1856A1"
-	         color="0xff9776a9"
-	         color2="0xffFFAD54"
-	         alternative_color="0xff9776a9"
-	         alternative_color2="0xffFFAD54"
-	         culture="Culture.kannic"
-	         settlement_banner_mesh="encounter_flag_a"
-	         flag_mesh="info_screen_flags_b"
-	         name="{=si_ar_geroianys_faction_name}Geroian Republic"
-	         short_name="{=si_ar_geroianys_faction_short_name}Geroians"
-	         title="{=si_ar_geroianys_faction_title}Geroian Archontate"
-	         ruler_title="{=si_ar_geroianys_faction_ruler_title}Archon"
-	         text="{=si_ar_geroianys_faction_text}For even the most inexperienced geographer, the Perassic Sea is difficult to miss. This vast sea, bordered by the woods and plains of the Calradian heartland to the north, and the shifting sands of the Nahasa to the south, has seen the rise and fall of countless civilizations, empires, and petty realms. At the center of the Perassic lies two great islands, known as Perassis Major and Perassis Minor in the language of the Calradians, though they go by many other names to the numerous peoples who have charted them. The earliest inhabitants of these islands were Kannic colonists from the city state of Razih, who settled the coasts of the island they called ‘Geroia’ and turned the inland forests to the purpose of ship building, amassing great fleets of merchantmen and warships. However, theirs was to be a story of decline, first conquered by the Calradians at the end of the Quyazic Wars, then stripped of their navy as the Calradians gained dominance over the entire Perassic, turning it into effectively a Calradian-controlled lake. Today, the Perassic is viewed as a sleepy backwater, the Geroian towns and villages little more than shanty towns, and their castles neglected and crumbling. However, the lords of Geroia have waited long for the day when they can rise up and seize power for themselves, and the civil war that has now engulfed the Calradian Empire has provided such an opportunity.">
-		<relationships>
-			<relationship kingdom="Kingdom.aserai"
-			              value="-1"
-			              isAtWar="true"/>
-		</relationships>
-		<policies>
-			<policy id="policy_council_of_elders"/>
-			<policy id="policy_land_grants_for_veterans"/>
-		</policies>
-	</Kingdom>
-	<!--
-	Amprela Archontate
-	-->
-	<Kingdom id="amprela"
-	         owner="Hero.AR_lord_18_1"
-	         banner_key="11.133.133.4000.4000.764.764.1.0.90.126.5.5.300.300.764.744.0.0.0.423.5.5.500.500.764.764.0.0.0"
-	         primary_banner_color="0xffdf84dc"
-	         secondary_banner_color="0xffF7BF46"
-	         label_color="FF1856A1"
-	         color="0xffdf84dc"
-	         color2="0xffF7BF46"
-	         alternative_color="0xffdf84dc"
-	         alternative_color2="0xffF7BF46"
-	         culture="Culture.empire_n"
-	         settlement_banner_mesh="encounter_flag_a"
-	         flag_mesh="info_screen_flags_b"
-	         name="{=si_ar_amprela_faction_name}Amprela Archontate"
-	         short_name="{=si_ar_amprela_faction_short_name}Amprelans"
-	         title="{=si_ar_amprela_faction_title}Amprela Archontate"
-	         ruler_title="{=si_ar_amprela_faction_ruler_title}Archon"
-	         text="{=si_ar_amprela_faction_text}PLACEHOLDER">
-		<relationships>
-			<relationship kingdom="Kingdom.khuzait"
-			              value="-1"
-			              isAtWar="true"/>
-		</relationships>
-		<policies>
-			<policy id="policy_council_of_the_commons"/>
 			<policy id="policy_land_grants_for_veterans"/>
 		</policies>
 	</Kingdom>

@@ -1223,7 +1223,7 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V2']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V2_text}Ocs Hall is one of the more recent towns to arise in Calradia. Originating as an isolated holdout of the Battanians known as Caer Modris, nestled among the Calradian heartlands and centered on the volcanic lake Llyn Modris - said to be the seat of a giant - the settlement remained in obscurity until only recently. Like much of western Calradia, the Llyn Modris valley was settled in more recent times by Vlandian colonists, who displaced the existing Battanian roundhouses in favor of their own halls. In the year 951, following Osric Iron-Arm’s declaration of independence from the Calradian Empire, the old Vlandian warlord Oca conquered the area and built his great feasting hall atop the ruins of the great house of the old chieftain, thus restyling the town and its lake in his own name. The Battanian tribes were driven into obscurity, and took their legends with them.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_V2_text}Ocs Hall is one of the more recent towns to arise in Calradia. Originating as an isolated holdout of the Battanians known as Caer Modris, nestled among the Calradian heartlands and centered on the volcanic lake Llyn Modris - said to be the seat of a giant - the settlement remained in obscurity until only recently. Like much of western Calradia, the Llyn Modris valley was settled in more recent times by Vlandian colonists, who displaced the existing Battanian roundhouses in favor of their own halls. In the year 951, following the Vlandian declaration of independence from the Calradian Empire, the old Vlandian warlord Oca conquered the area and built his great feasting hall atop the ruins of the great house of the old chieftain, thus restyling the town and its lake in his own name. The Battanian tribes were driven into obscurity, and took their legends with them.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V2_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V2_1_text}Mareiven sits on the steep wooded slopes of the Rhennod Mountains, overlooking the lake now known as the Ocspool. Villagers harvest the tall trees of the heights, selling the logs to cities on the coast.</xsl:attribute>
@@ -1497,6 +1497,18 @@
 	<xsl:template match="Settlement[@id='castle_village_K8_1']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A13']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_spahad_4</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A13']/@culture">
+		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A13_1']/@culture">
+		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A13_2']/@culture">
+		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
+	</xsl:template>
 	<!-- Khwarasani -->
 	<xsl:template match="Settlement[@id='castle_SI_A8']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_spahad_5</xsl:attribute>
@@ -1570,6 +1582,104 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_A2_3']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
+	</xsl:template>
+	<!--
+	Alkit Khanate
+	-->
+	<!-- Alkit -->
+	<xsl:template match="Settlement[@id='town_S4']/@name">
+		<xsl:attribute name='name'>{=si_ar_town_S4_name}Varnapolys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S4']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S4_text}Varnapolys, which sits beneath the Chertyg mountains on the crystal waters of Lake Laconis, has the dubious honor of being perhaps the most-often conquered city in Calradia. Originally, it was a colony of the Calradian Empire, infamous as a place of exile for dissident senators, before it was seized by Nords as a base to expand their influence into the Sturgian fur trade. It was then taken by the Alkit tribe in the year 899 and was briefly restored to imperial authority. However, the Alkit soon reneged on their deal, and Varnapolys has since served as the capital of their small Khanate.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S4']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_alkit_1</xsl:attribute>
+	</xsl:template>
+	<!-- Yanait -->
+	<xsl:template match="Settlement[@id='town_S5']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S5_text}Tyal sits in the western foothills of Mount Iltan, at the eastern edge of the Sturgian-speaking lands. This region has long stood aloof from the power struggles of the Calradia. Its people are known as wanderers, traders, horse breeders and fur-trappers. The local aristocracy has occasionally exchanged princesses with the steppe tribes to the east to firm up a truce or a trade pact, and proudly includes the names of several great khans on their list of ancestors. Such diplomacy has been rewarded in recent years. When the Alkit hordes passed through, they allowed Tyal to peacefully integrate into their new Khanate, retaining many of their traditional practices under the watchful eye of the Yanait tribe.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S5_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S5_1_text}Visibrot is a sheep-rearing village on the lower slopes of Mount Iltan, just below the network of glacial lakes known as the Iltan portages. Though this region is cold and remote, its importance as a trade juncture between lakes Laconis and Tanaesis, between the Calradian Empire and Steppe, mean that it is relatively densely populated.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S5_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S5_2_text}Bukits sits on the eastern slopes of Mount Iltan, on the frontier of the Calradian Steppe. Villagers here raise highland cattle, bred to withstand the icy gusts that tear down the mountain.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S5']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_alkit_2</xsl:attribute>
+	</xsl:template>
+	<!-- Khionit -->
+	<xsl:template match="Settlement[@id='castle_S8']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_alkit_3</xsl:attribute>
+	</xsl:template>
+	<!-- Adiskhar -->
+	<xsl:template match="Settlement[@id='castle_village_S7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S7_2_text}Alov sits on the edge of the glacial lakes known as the Iltan Portages. Villagers cultivate rye and barley on the high ground overlooking the lakes, and the rich black soil of the region compensates for the long winters and short growing season.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_S7']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_alkit_4</xsl:attribute>
+	</xsl:template>
+	<!--
+	Byalic Confederation
+	-->
+	<!-- Suomalai -->
+	<xsl:template match="Settlement[@id='town_SI_S1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_jokbyalic_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_SI_S1']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_S1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_S1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_SI_S1_3']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<!-- Karzali -->
+	<xsl:template match="Settlement[@id='castle_EN7']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_jokbyalic_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN7_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_1_text}Epinosa lies in the far north of the Calradian Empire, just south of the glacial lakes known as the Iltan Portages where ships are hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN7_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_2_text}Pons is one of the northernmost settlements of the Calradian Empire. It is named for the 'crossing' of the Iltan Portages, a network of glacial lakes that allow ships to be hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
+	</xsl:template>
+	<!-- Hamalai -->
+	<xsl:template match="Settlement[@id='castle_K6']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_jokbyalic_3</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_K6_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_K6_1_text}Dinar lies in the northeast of Calradia, along the western bank of the Karakaz River. Snow-bound for much of the year, the spring grasses nonetheless sustain sizeable herds of sheep, the thick wool of which protects them from this land's icy winds.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_K6_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_K6_2_text}Karahalli lies on the coastal plains south of the icy Byalic Sea. Snow-bound for much of the year, the spring grasses nonetheless sustain sizeable herds of sheep, the thick wool of which protects them from the icy winds blowing off of the waters.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_K6']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_K6_1']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_K6_2']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<!-- Ilvonen -->
+	<xsl:template match="Settlement[@id='castle_SI_S3']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_jokbyalic_4</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_S3']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_S3_1']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_S3_2']/@culture">
+		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
 	</xsl:template>
 	<!--
 	Massa Confederation
@@ -1685,91 +1795,6 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_SI_V3_2']/@culture">
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
-	</xsl:template>
-	<!--
-	Vaegir Kingdom
-	-->
-	<!-- Vagiraving -->
-	<xsl:template match="Settlement[@id='town_S3']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vaegiria_1</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_S3']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_S3_text}Omor sits on the eastern shores of Lake Laconis. For centuries, it has been a holy site for the Vakken forest tribes, who worship their gods and ancestors in the sacred oak trees of the nearby woods. Today, it has grown into an emporium for fur trappers and woodsmen who prowl the Ircara Wildlands to the east, and the primeval peace of the forests is drowned out by the sounds of bartering, saws, and the unloading of ships at the lake.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_S3']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_S3_1']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_S3_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_S3_1_text}Chornobas - or ‘black wood’ - sits in lands cleared from the forests overlooking the cataract through which the Miron River empties into Lake Laconis. The villagers grow rye and barley in fields misted by the spray from the falls.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_S3_2']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_SI_S1']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vaegiria_1</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_SI_S1']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_SI_S1_1']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_SI_S1_2']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<!-- Kaldaving -->
-	<xsl:template match="Settlement[@id='castle_S2']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vaegiria_2</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_S2']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_S2_1']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_S2_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_S2_1_text}Mazhadan sits near the source of the Galchas River, just west of Lake Laconis. Villagers grow flax in the muddy valleys between the hills in this cold, rainy land.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_S2_2']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_S2_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_S2_2_text}Forin sits among rye and barley fields next to the Galcha River, on the edge of the Ircara Wildlands. The village thrives on the grain it sells to the woodland fur-trapping communities.</xsl:attribute>
-	</xsl:template>
-	<!-- Dervoving -->
-	<xsl:template match="Settlement[@id='castle_B8']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vaegiria_3</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_S4_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_S4_2_text}Ismilkorg sits on grassy downs between the Galcha and Vastra rivers, two small tributaries of the Miron. The people here are mostly cattle-herders as well as cattle-rustlers, and have long traded raids with the Calradian frontier villages to the east and Battanians to the west.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_B8']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_B8_1']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_S4_2']/@culture">
-		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_S4_2"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="castle_village_comp_S4_2" village_type="VillageType.cattle_farm" hearth="333" gate_rotation="0.008" bound="Settlement.castle_B8" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia"/>
-		</xsl:copy>
-	</xsl:template>
-	<!-- Sarapisthes -->
-	<xsl:template match="Settlement[@id='castle_EN9']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vaegiria_4</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_EN9_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_EN9_1_text}Mecalovea sits overlooking the Galchasic Cataracts, a series of rapids and waterfalls through which the Miron River empties into Lake Laconis. The village, perched on a cliffside for protection from raiders in this frontier region, thrives on the ore deposits exposed where the cataract cuts through the escarpment.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_EN9_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_EN9_2_text}Agalmon sits near the juncture of the Galchas and the Miron, two small but fast-flowing northern rivers. This foresting village has had mostly good relations with its Vakken and Sturgian neighbors thanks to decades of intermarriage, though they have become strained of late with the outbreak of war.</xsl:attribute>
 	</xsl:template>
 	<!--
 	Quyazic Empire
@@ -1917,104 +1942,6 @@
 		<xsl:attribute name='culture'>Culture.kannic</xsl:attribute>
 	</xsl:template>
 	<!--
-	Byalic Confederation
-	-->
-	<!-- Suomalai -->
-	<xsl:template match="Settlement[@id='town_SI_S1']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_jokbyalic_1</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_SI_S1']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_SI_S1_1']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_SI_S1_2']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_SI_S1_3']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<!-- Karzali -->
-	<xsl:template match="Settlement[@id='castle_EN7']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_jokbyalic_2</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_EN7_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_1_text}Epinosa lies in the far north of the Calradian Empire, just south of the glacial lakes known as the Iltan Portages where ships are hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_EN7_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_EN7_2_text}Pons is one of the northernmost settlements of the Calradian Empire. It is named for the 'crossing' of the Iltan Portages, a network of glacial lakes that allow ships to be hauled between Lakes Laconis and Tanaesis. The region is relatively thinly populated, but large herds of cattle graze on the green downs.</xsl:attribute>
-	</xsl:template>
-	<!-- Hamalai -->
-	<xsl:template match="Settlement[@id='castle_K6']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_jokbyalic_3</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_K6_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_K6_1_text}Dinar lies in the northeast of Calradia, along the western bank of the Karakaz River. Snow-bound for much of the year, the spring grasses nonetheless sustain sizeable herds of sheep, the thick wool of which protects them from this land's icy winds.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_K6_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_K6_2_text}Karahalli lies on the coastal plains south of the icy Byalic Sea. Snow-bound for much of the year, the spring grasses nonetheless sustain sizeable herds of sheep, the thick wool of which protects them from the icy winds blowing off of the waters.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_K6']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_K6_1']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_K6_2']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<!-- Ilvonen -->
-	<xsl:template match="Settlement[@id='castle_SI_S3']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_jokbyalic_4</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_SI_S3']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_SI_S3_1']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_SI_S3_2']/@culture">
-		<xsl:attribute name='culture'>Culture.byalic</xsl:attribute>
-	</xsl:template>
-	<!--
-	Alkit Khanate
-	-->
-	<!-- Alkit -->
-	<xsl:template match="Settlement[@id='town_S4']/@name">
-		<xsl:attribute name='name'>{=si_ar_town_S4_name}Varnapolys</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_S4']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_S4_text}Varnapolys, which sits beneath the Chertyg mountains on the crystal waters of Lake Laconis, has the dubious honor of being perhaps the most-often conquered city in Calradia. Originally, it was a colony of the Calradian Empire, infamous as a place of exile for dissident senators, before it was seized by Nords as a base to expand their influence into the Sturgian fur trade. It was then taken by the Alkit tribe in the year 899 and was briefly restored to imperial authority. However, the Alkit soon reneged on their deal, and Varnapolys has since served as the capital of their small Khanate.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_S4']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_alkit_1</xsl:attribute>
-	</xsl:template>
-	<!-- Yanait -->
-	<xsl:template match="Settlement[@id='town_S5']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_S5_text}Tyal sits in the western foothills of Mount Iltan, at the eastern edge of the Sturgian-speaking lands. This region has long stood aloof from the power struggles of the Calradia. Its people are known as wanderers, traders, horse breeders and fur-trappers. The local aristocracy has occasionally exchanged princesses with the steppe tribes to the east to firm up a truce or a trade pact, and proudly includes the names of several great khans on their list of ancestors. Such diplomacy has been rewarded in recent years. When the Alkit hordes passed through, they allowed Tyal to peacefully integrate into their new Khanate, retaining many of their traditional practices under the watchful eye of the Yanait tribe.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_S5_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_S5_1_text}Visibrot is a sheep-rearing village on the lower slopes of Mount Iltan, just below the network of glacial lakes known as the Iltan portages. Though this region is cold and remote, its importance as a trade juncture between lakes Laconis and Tanaesis, between the Calradian Empire and Steppe, mean that it is relatively densely populated.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_S5_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_S5_2_text}Bukits sits on the eastern slopes of Mount Iltan, on the frontier of the Calradian Steppe. Villagers here raise highland cattle, bred to withstand the icy gusts that tear down the mountain.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_S5']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_alkit_2</xsl:attribute>
-	</xsl:template>
-	<!-- Khionit -->
-	<xsl:template match="Settlement[@id='castle_S8']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_alkit_3</xsl:attribute>
-	</xsl:template>
-	<!-- Adiskhar -->
-	<xsl:template match="Settlement[@id='castle_village_S7_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_S7_2_text}Alov sits on the edge of the glacial lakes known as the Iltan Portages. Villagers cultivate rye and barley on the high ground overlooking the lakes, and the rich black soil of the region compensates for the long winters and short growing season.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_S7']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_alkit_4</xsl:attribute>
-	</xsl:template>
-	<!--
 	Tanash City States
 	-->
 	<!-- Zarinzadeh -->
@@ -2113,6 +2040,91 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K2_2']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
+	</xsl:template>
+	<!--
+	Vaegir Kingdom
+	-->
+	<!-- Vagiraving -->
+	<xsl:template match="Settlement[@id='town_S3']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vaegiria_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S3']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S3_text}Omor sits on the eastern shores of Lake Laconis. For centuries, it has been a holy site for the Vakken forest tribes, who worship their gods and ancestors in the sacred oak trees of the nearby woods. Today, it has grown into an emporium for fur trappers and woodsmen who prowl the Ircara Wildlands to the east, and the primeval peace of the forests is drowned out by the sounds of bartering, saws, and the unloading of ships at the lake.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_S3']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S3_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S3_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_S3_1_text}Chornobas - or ‘black wood’ - sits in lands cleared from the forests overlooking the cataract through which the Miron River empties into Lake Laconis. The villagers grow rye and barley in fields misted by the spray from the falls.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_S3_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_S1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vaegiria_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_S1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_S1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_S1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<!-- Kaldaving -->
+	<xsl:template match="Settlement[@id='castle_S2']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vaegiria_2</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_S2']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S2_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S2_1_text}Mazhadan sits near the source of the Galchas River, just west of Lake Laconis. Villagers grow flax in the muddy valleys between the hills in this cold, rainy land.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S2_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S2_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S2_2_text}Forin sits among rye and barley fields next to the Galcha River, on the edge of the Ircara Wildlands. The village thrives on the grain it sells to the woodland fur-trapping communities.</xsl:attribute>
+	</xsl:template>
+	<!-- Dervoving -->
+	<xsl:template match="Settlement[@id='castle_B8']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vaegiria_3</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S4_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_S4_2_text}Ismilkorg sits on grassy downs between the Galcha and Vastra rivers, two small tributaries of the Miron. The people here are mostly cattle-herders as well as cattle-rustlers, and have long traded raids with the Calradian frontier villages to the east and Battanians to the west.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_B8']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B8_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_S4_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="castle_village_S4_2"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Village id="castle_village_comp_S4_2" village_type="VillageType.cattle_farm" hearth="333" gate_rotation="0.008" bound="Settlement.castle_B8" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Sarapisthes -->
+	<xsl:template match="Settlement[@id='castle_EN9']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vaegiria_4</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN9_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN9_1_text}Mecalovea sits overlooking the Galchasic Cataracts, a series of rapids and waterfalls through which the Miron River empties into Lake Laconis. The village, perched on a cliffside for protection from raiders in this frontier region, thrives on the ore deposits exposed where the cataract cuts through the escarpment.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_EN9_2']/@text">
+		<xsl:attribute name='text'>{=si_ar_castle_village_EN9_2_text}Agalmon sits near the juncture of the Galchas and the Miron, two small but fast-flowing northern rivers. This foresting village has had mostly good relations with its Vakken and Sturgian neighbors thanks to decades of intermarriage, though they have become strained of late with the outbreak of war.</xsl:attribute>
 	</xsl:template>
 	<!--
 	Yachios Archontate

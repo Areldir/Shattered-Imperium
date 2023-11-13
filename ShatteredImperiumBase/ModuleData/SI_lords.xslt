@@ -8,7 +8,7 @@
 	<!--
 	Aserai Emirates
 	-->
-	<!-- Banu Atij -->	
+	<!-- Banu Atij -->
 	<xsl:template match="NPCCharacter[@id='lord_3_18']/@name">
 		<xsl:attribute name="name">Aydas</xsl:attribute>
 	</xsl:template>
@@ -30,7 +30,7 @@
 	<xsl:template match="NPCCharacter[@id='lord_3_18_4']/@name">
 		<xsl:attribute name="name">Arta</xsl:attribute>
 	</xsl:template>
-	<!-- Banu Arbas -->	
+	<!-- Banu Arbas -->
 	<xsl:template match="NPCCharacter[@id='lord_3_17']/@name">
 		<xsl:attribute name="name">Hur</xsl:attribute>
 	</xsl:template>
@@ -39,7 +39,7 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_17_2']/@name">
 		<xsl:attribute name="name">Mahayl</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_21']/@name">
 		<xsl:attribute name="name">Samar</xsl:attribute>
 	</xsl:template>
@@ -431,7 +431,7 @@
 			<EquipmentSet id="emp_bat_template_medium"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</xsl:copy>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_44']/@name">
 		<xsl:attribute name="name">Mathos</xsl:attribute>
 	</xsl:template>
@@ -525,7 +525,7 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_46_1']/@name">
 		<xsl:attribute name="name">Pacarios</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<!-- Sonoros -->
 	<xsl:template match="NPCCharacter[@id='lord_1_58']/@name">
 		<xsl:attribute name="name">Ucasios</xsl:attribute>
@@ -633,25 +633,25 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_1_9']/@culture">
 		<xsl:attribute name="culture">Culture.empire_n</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_1_10']/@name">
 		<xsl:attribute name="name">Alesa</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_1_10']/@culture">
 		<xsl:attribute name="culture">Culture.empire_n</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_1_11']/@name">
 		<xsl:attribute name="name">Arelisa</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_1_11']/@culture">
 		<xsl:attribute name="culture">Culture.empire_n</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_33']/@name">
 		<xsl:attribute name="name">Chalia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_33']/@culture">
 		<xsl:attribute name="culture">Culture.empire_n</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_43']/@name">
 		<xsl:attribute name="name">Arion</xsl:attribute>
 	</xsl:template>
@@ -878,7 +878,7 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_55_1']/@name">
 		<xsl:attribute name="name">Corena</xsl:attribute>
-	</xsl:template>	
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_1_55_1']/@culture">
 		<xsl:attribute name="culture">Culture.empire_n</xsl:attribute>
 	</xsl:template>
@@ -979,155 +979,465 @@
 	<!--
 	Western Calradian Republic
 	-->
-	<!-- Heraclonos -->	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<xsl:template match="NPCCharacter[@id='lord_1_9']/@name">
-		<xsl:attribute name="name">Ascyron</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_10']/@name">
-		<xsl:attribute name="name">Anadrea</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_25']/@name">
-		<xsl:attribute name="name">Valaos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_35']/@name">
-		<xsl:attribute name="name">Aemilios</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_11']/@name">
-		<xsl:attribute name="name">Dorios</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_111']/@name">
-		<xsl:attribute name="name">Crotor</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_12']/@name">
-		<xsl:attribute name="name">Velina</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_23']/@name">
-		<xsl:attribute name="name">Jastion</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_26']/@name">
-		<xsl:attribute name="name">Meritor</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_36']/@name">
-		<xsl:attribute name="name">Lucea</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_20']/@name">
-		<xsl:attribute name="name">Vemioros</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_1_12']/@name">
-		<xsl:attribute name="name">Helea</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_64']/@name">
-		<xsl:attribute name="name">Prastos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_1_13']/@name">
-		<xsl:attribute name="name">Fila</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_45']/@name">
-		<xsl:attribute name="name">Serion</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_45_1']/@name">
-		<xsl:attribute name="name">Janala</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_45_2']/@name">
-		<xsl:attribute name="name">Valaos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_45_3']/@name">
-		<xsl:attribute name="name">Nereida</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_57']/@name">
-		<xsl:attribute name="name">Lucios</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_57_1']/@name">
-		<xsl:attribute name="name">Mystesa</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_57_2']/@name">
-		<xsl:attribute name="name">Zamelea</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_52']/@name">
-		<xsl:attribute name="name">Orachos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_52_1']/@name">
-		<xsl:attribute name="name">Minarvina</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_52_2']/@name">
-		<xsl:attribute name="name">Isalea</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_53']/@name">
-		<xsl:attribute name="name">Ulbesos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_71']/@name">
-		<xsl:attribute name="name">Morenos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_WE8_c']/@name">
-		<xsl:attribute name="name">Lolea</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_WE8_u']/@name">
-		<xsl:attribute name="name">Pelicos</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_73']/@name">
-		<xsl:attribute name="name">Turiados</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_73_1']/@name">
-		<xsl:attribute name="name">Theodora</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_62']/@name">
-		<xsl:attribute name="name">Sejaron</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_1_62_1']/@name">
-		<xsl:attribute name="name">Daniria</xsl:attribute>
-	</xsl:template>
+	<!-- Heraclonos -->
 	<xsl:template match="NPCCharacter[@id='lord_NE9_l']/@name">
 		<xsl:attribute name="name">Eronys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_NE9_l']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_NE9_s']/@name">
 		<xsl:attribute name="name">Porphalios</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_NE9_s']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_NE9_d']/@name">
 		<xsl:attribute name="name">Serisa</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_NE9_d']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_NE9_d"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Dionicos -->
+	<xsl:template match="NPCCharacter[@id='lord_1_11']/@name">
+		<xsl:attribute name="name">Dorios</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_11']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_11"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_medium"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_111']/@name">
+		<xsl:attribute name="name">Crotor</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_111']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_111"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_flamboyant"/>
+			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_12']/@name">
+		<xsl:attribute name="name">Velina</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_12']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_12"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_26']/@name">
+		<xsl:attribute name="name">Meritor</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_26']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_26"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_medium"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_36']/@name">
+		<xsl:attribute name="name">Lucea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_36']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_26"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Varros -->
+	<xsl:template match="NPCCharacter[@id='lord_1_9']/@name">
+		<xsl:attribute name="name">Ascyron</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_9']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_10']/@name">
+		<xsl:attribute name="name">Anadrea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_10']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_23']/@name">
+		<xsl:attribute name="name">Jastion</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_23']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_25']/@name">
+		<xsl:attribute name="name">Valaos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_25']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_35']/@name">
+		<xsl:attribute name="name">Aemilios</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_35']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_35"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_heavy"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Lonalion -->
+	<xsl:template match="NPCCharacter[@id='lord_1_45']/@name">
+		<xsl:attribute name="name">Serion</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45_1']/@name">
+		<xsl:attribute name="name">Janala</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45_1']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45_2']/@name">
+		<xsl:attribute name="name">Valaos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45_2']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45_3']/@name">
+		<xsl:attribute name="name">Nereida</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_45_3']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_57']/@name">
+		<xsl:attribute name="name">Lucios</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_57']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_57_1']/@name">
+		<xsl:attribute name="name">Mystesa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_57_1']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_57_2']/@name">
+		<xsl:attribute name="name">Zamelea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_57_2']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<!-- Impestores -->
+	<xsl:template match="NPCCharacter[@id='lord_1_1_12']/@name">
+		<xsl:attribute name="name">Helea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_1_12']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_1_13']/@name">
+		<xsl:attribute name="name">Fila</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_1_13']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_20']/@name">
+		<xsl:attribute name="name">Vemioros</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_20']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_64']/@name">
+		<xsl:attribute name="name">Prastos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_64']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<!-- Sorados -->
+	<xsl:template match="NPCCharacter[@id='lord_1_52']/@name">
+		<xsl:attribute name="name">Orachos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_52']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_52_1']/@name">
+		<xsl:attribute name="name">Minarvina</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_52_1']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_52_2']/@name">
+		<xsl:attribute name="name">Isalea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_52_2']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_62']/@name">
+		<xsl:attribute name="name">Sejaron</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_62']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_62_1']/@name">
+		<xsl:attribute name="name">Daniria</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_62_1']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_1_62_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- Corenios -->
+	<xsl:template match="NPCCharacter[@id='lord_1_53']/@name">
+		<xsl:attribute name="name">Ulbesos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_53']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_73']/@name">
+		<xsl:attribute name="name">Turiados</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_73']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_73_1']/@name">
+		<xsl:attribute name="name">Theodora</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_73_1']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<!-- Maneolis -->
+	<xsl:template match="NPCCharacter[@id='lord_1_71']/@name">
+		<xsl:attribute name="name">Morenos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_1_71']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE8_c']/@name">
+		<xsl:attribute name="name">Lolea</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE8_c']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE8_u']/@name">
+		<xsl:attribute name="name">Pelicos</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE8_u']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<!-- Palladios -->
 	<xsl:template match="NPCCharacter[@id='lord_WE9_l']/@name">
 		<xsl:attribute name="name">Nartiros</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE9_l']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_WE9_u']/@name">
 		<xsl:attribute name="name">Valessea</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE9_u']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_WE9_u2']/@name">
 		<xsl:attribute name="name">Vincantios</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_WE9_u2']/@culture">
+		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<!--
+	Iltanlar Khanate
+	-->
+	<!-- Turakizt -->
+	<xsl:template match="NPCCharacter[@id='lord_6_1']/@name">
+		<xsl:attribute name="name">Jagutai</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_6_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="khu_bat_template_medium"/>
+			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_2']/@name">
+		<xsl:attribute name="name">Anat</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_7']/@name">
+		<xsl:attribute name="name">Ilgai</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_10']/@name">
+		<xsl:attribute name="name">Alijin</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_101']/@name">
+		<xsl:attribute name="name">Hikhara</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_13']/@name">
+		<xsl:attribute name="name">Monchug</xsl:attribute>
+	</xsl:template>
+	<!-- Gunalait -->
+	<xsl:template match="NPCCharacter[@id='lord_6_3']/@name">
+		<xsl:attribute name="name">Kuruntai</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_4']/@name">
+		<xsl:attribute name="name">Mesui</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_6_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0010AC0FC0003001B73A98A8857586339B198699F7BF6AA8788A3AE89946CA6500477603047B385E000000000000000000000000000000000000000034941043"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_8']/@name">
+		<xsl:attribute name="name">Junjad</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_81']/@name">
+		<xsl:attribute name="name">Baichar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_11']/@name">
+		<xsl:attribute name="name">Tosui</xsl:attribute>
+	</xsl:template>
+	<!-- Baljugit -->
+	<xsl:template match="NPCCharacter[@id='lord_6_5']/@name">
+		<xsl:attribute name="name">Mizam</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_51']/@name">
+		<xsl:attribute name="name">Gusur</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_9']/@name">
+		<xsl:attribute name="name">Norogur</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_12']/@name">
+		<xsl:attribute name="name">Tala</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_15']/@name">
+		<xsl:attribute name="name">Shulun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_15_1']/@name">
+		<xsl:attribute name="name">Yesha</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_15_2']/@name">
+		<xsl:attribute name="name">Asi</xsl:attribute>
+	</xsl:template>
+	<!-- Kurtogulit -->
+	<xsl:template match="NPCCharacter[@id='lord_6_6']/@name">
+		<xsl:attribute name="name">Hurunag</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_16']/@name">
+		<xsl:attribute name="name">Mehir</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_16_1']/@name">
+		<xsl:attribute name="name">Taralun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_16_2']/@name">
+		<xsl:attribute name="name">Kela</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_24']/@name">
+		<xsl:attribute name="name">Sasal</xsl:attribute>
+	</xsl:template>
+	<!-- Ayangait -->
+	<xsl:template match="NPCCharacter[@id='lord_6_17']/@name">
+		<xsl:attribute name="name">Khakhun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_17_1']/@name">
+		<xsl:attribute name="name">Yesum</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_17_2']/@name">
+		<xsl:attribute name="name">Echa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_21']/@name">
+		<xsl:attribute name="name">Yildrim</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_21_1']/@name">
+		<xsl:attribute name="name">Chechek</xsl:attribute>
+	</xsl:template>
+	<!-- Himaxar -->
+	<xsl:template match="NPCCharacter[@id='lord_6_18']/@name">
+		<xsl:attribute name="name">Korot</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_18_1']/@name">
+		<xsl:attribute name="name">Tilun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_18_2']/@name">
+		<xsl:attribute name="name">Khachin</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_22']/@name">
+		<xsl:attribute name="name">Ilatar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_22_1']/@name">
+		<xsl:attribute name="name">Sacha</xsl:attribute>
+	</xsl:template>
+	<!-- Aizrit -->
+	<xsl:template match="NPCCharacter[@id='lord_6_19']/@name">
+		<xsl:attribute name="name">Okhon</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_19_1']/@name">
+		<xsl:attribute name="name">Aika</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_19_2']/@name">
+		<xsl:attribute name="name">Sokhatai</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_23']/@name">
+		<xsl:attribute name="name">Kanujan</xsl:attribute>
+	</xsl:template>
+	<!-- Mazalar -->
+	<xsl:template match="NPCCharacter[@id='lord_6_20']/@name">
+		<xsl:attribute name="name">Boronchar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_6_20_1']/@name">
+		<xsl:attribute name="name">Taralun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_K8_u']/@name">
+		<xsl:attribute name="name">Ulusumai</xsl:attribute>
+	</xsl:template>
+	<!-- Ixgchit -->
+	<xsl:template match="NPCCharacter[@id='lord_K9_l']/@name">
+		<xsl:attribute name="name">Buchul</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_K9_s']/@name">
+		<xsl:attribute name="name">Kun</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_K9_c1']/@name">
+		<xsl:attribute name="name">Gusukan</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_K9_c2']/@name">
+		<xsl:attribute name="name">Mela</xsl:attribute>
+	</xsl:template>
+	<!--
+	Sturgian Principalities
+	-->
+	<!-- Gundaroving -->
 	<xsl:template match="NPCCharacter[@id='lord_2_1']/@name">
 		<xsl:attribute name="name">Sivur</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_2']/@name">
 		<xsl:attribute name="name">Gudra</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_3']/@name">
-		<xsl:attribute name="name">Yorig</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_4']/@name">
-		<xsl:attribute name="name">Brinya</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_4_1']/@name">
-		<xsl:attribute name="name">Ivaren</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_5']/@name">
-		<xsl:attribute name="name">Porev</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_6']/@name">
-		<xsl:attribute name="name">Milisa</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_7']/@name">
 		<xsl:attribute name="name">Temyr</xsl:attribute>
@@ -1135,26 +1445,8 @@
 	<xsl:template match="NPCCharacter[@id='lord_2_7_1']/@name">
 		<xsl:attribute name="name">Mimir</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_8']/@name">
-		<xsl:attribute name="name">Olek</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_9']/@name">
-		<xsl:attribute name="name">Ospak</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_10']/@name">
 		<xsl:attribute name="name">Siga</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_11']/@name">
-		<xsl:attribute name="name">Vara</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_111']/@name">
-		<xsl:attribute name="name">Tulvo</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_12']/@name">
-		<xsl:attribute name="name">Kara</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_121']/@name">
-		<xsl:attribute name="name">Vuldrat</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_13']/@name">
 		<xsl:attribute name="name">Urgil</xsl:attribute>
@@ -1171,18 +1463,71 @@
 	<xsl:template match="NPCCharacter[@id='lord_2_13_4']/@name">
 		<xsl:attribute name="name">Litka</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_14']/@name">
-		<xsl:attribute name="name">Drevand</xsl:attribute>
+	<!-- Togaroving -->
+	<xsl:template match="NPCCharacter[@id='lord_2_17']/@name">
+		<xsl:attribute name="name">Ragandur</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_14_1']/@name">
-		<xsl:attribute name="name">Ilvara</xsl:attribute>
+	<xsl:template match="NPCCharacter[@id='lord_2_17_1']/@name">
+		<xsl:attribute name="name">Madvara</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_14_2']/@name">
-		<xsl:attribute name="name">Ralrena</xsl:attribute>
+	<xsl:template match="NPCCharacter[@id='lord_2_22']/@name">
+		<xsl:attribute name="name">Yarli</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_14_3']/@name">
-		<xsl:attribute name="name">Marena</xsl:attribute>
+	<xsl:template match="NPCCharacter[@id='lord_2_22_1']/@name">
+		<xsl:attribute name="name">Kalata</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_24']/@name">
+		<xsl:attribute name="name">Vladar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_24_1']/@name">
+		<xsl:attribute name="name">Zorina</xsl:attribute>
+	</xsl:template>
+	<!-- Hayekoving -->
+	<xsl:template match="NPCCharacter[@id='lord_2_5']/@name">
+		<xsl:attribute name="name">Porev</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_6']/@name">
+		<xsl:attribute name="name">Milisa</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_9']/@name">
+		<xsl:attribute name="name">Ospak</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_12']/@name">
+		<xsl:attribute name="name">Kara</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_121']/@name">
+		<xsl:attribute name="name">Vuldrat</xsl:attribute>
+	</xsl:template>
+	<!-- Nowyraving -->
+	<xsl:template match="NPCCharacter[@id='lord_2_20']/@name">
+		<xsl:attribute name="name">Mornid</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_20_1']/@name">
+		<xsl:attribute name="name">Kisha</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_S8_u']/@name">
+		<xsl:attribute name="name">Uln</xsl:attribute>
+	</xsl:template>
+	<!-- Kuloving -->
+	<xsl:template match="NPCCharacter[@id='lord_2_3']/@name">
+		<xsl:attribute name="name">Yorig</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_4']/@name">
+		<xsl:attribute name="name">Brinya</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_4_1']/@name">
+		<xsl:attribute name="name">Ivaren</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_8']/@name">
+		<xsl:attribute name="name">Olek</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_11']/@name">
+		<xsl:attribute name="name">Vara</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_111']/@name">
+		<xsl:attribute name="name">Tulvo</xsl:attribute>
+	</xsl:template>
+	<!-- Vezhoving -->
 	<xsl:template match="NPCCharacter[@id='lord_2_15']/@name">
 		<xsl:attribute name="name">Sorgard</xsl:attribute>
 	</xsl:template>
@@ -1198,63 +1543,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_2_15_4']/@name">
 		<xsl:attribute name="name">Vaton</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_16']/@name">
-		<xsl:attribute name="name">Pazhel</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_16_1']/@name">
-		<xsl:attribute name="name">Kyra</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_17']/@name">
-		<xsl:attribute name="name">Ragandur</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_17_1']/@name">
-		<xsl:attribute name="name">Madvara</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_18']/@name">
-		<xsl:attribute name="name">Salulk</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_18_1']/@name">
-		<xsl:attribute name="name">Erika</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_19']/@name">
 		<xsl:attribute name="name">Gorgi</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_19_1']/@name">
 		<xsl:attribute name="name">Lumira</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_20']/@name">
-		<xsl:attribute name="name">Mornid</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_20_1']/@name">
-		<xsl:attribute name="name">Kisha</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_S8_u']/@name">
-		<xsl:attribute name="name">Uln</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_21']/@name">
-		<xsl:attribute name="name">Vulfyr</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_21_1']/@name">
-		<xsl:attribute name="name">Zenka</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_22']/@name">
-		<xsl:attribute name="name">Yarli</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_22_1']/@name">
-		<xsl:attribute name="name">Kalata</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_23']/@name">
-		<xsl:attribute name="name">Dalibol</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_23_1']/@name">
-		<xsl:attribute name="name">Otka</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_24']/@name">
-		<xsl:attribute name="name">Vladar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_2_24_1']/@name">
-		<xsl:attribute name="name">Zorina</xsl:attribute>
-	</xsl:template>
+	<!-- Kostoroving -->
 	<xsl:template match="NPCCharacter[@id='lord_S9_l']/@name">
 		<xsl:attribute name="name">Borcha</xsl:attribute>
 	</xsl:template>
@@ -1267,15 +1562,174 @@
 	<xsl:template match="NPCCharacter[@id='lord_S9_u']/@name">
 		<xsl:attribute name="name">Orig</xsl:attribute>
 	</xsl:template>
-
-
-
+	<!-- Ormidoving -->
+	<xsl:template match="NPCCharacter[@id='lord_2_14']/@name">
+		<xsl:attribute name="name">Drevand</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_14_1']/@name">
+		<xsl:attribute name="name">Ilvara</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_14_2']/@name">
+		<xsl:attribute name="name">Ralrena</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_14_3']/@name">
+		<xsl:attribute name="name">Marena</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_16']/@name">
+		<xsl:attribute name="name">Pazhel</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_16_1']/@name">
+		<xsl:attribute name="name">Kyra</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_21']/@name">
+		<xsl:attribute name="name">Vulfyr</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_21_1']/@name">
+		<xsl:attribute name="name">Zenka</xsl:attribute>
+	</xsl:template>
+	<!-- Svehlaving -->
+	<xsl:template match="NPCCharacter[@id='lord_2_18']/@name">
+		<xsl:attribute name="name">Salulk</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_18_1']/@name">
+		<xsl:attribute name="name">Erika</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_23']/@name">
+		<xsl:attribute name="name">Dalibol</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_2_23_1']/@name">
+		<xsl:attribute name="name">Otka</xsl:attribute>
+	</xsl:template>
+	<!--
+	Vlandian Kingdom
+	-->
+	<!-- dey Meroc -->
 	<xsl:template match="NPCCharacter[@id='lord_4_1']/@name">
 		<xsl:attribute name="name">Regbold</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="vla_bat_template_heavy"/>
+			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_2']/@name">
 		<xsl:attribute name="name">Gertlind</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_7']/@name">
+		<xsl:attribute name="name">Origand</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_10']/@name">
+		<xsl:attribute name="name">Elys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_13']/@name">
+		<xsl:attribute name="name">Ecard</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_14']/@name">
+		<xsl:attribute name="name">Arthedar</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_141']/@name">
+		<xsl:attribute name="name">Almoran</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_15']/@name">
+		<xsl:attribute name="name">Edugath</xsl:attribute>
+	</xsl:template>
+	<!-- dey Fortes -->
+	<xsl:template match="NPCCharacter[@id='lord_4_23']/@name">
+		<xsl:attribute name="name">Oca</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_23"]/Traits'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_23"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="AR_vla_oca_battletemplate"/>
+			<EquipmentSet id="vla_civ_template_flamboyant" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_23_1']/@name">
+		<xsl:attribute name="name">Orgunda</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_23_2']/@name">
+		<xsl:attribute name="name">Veronet</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_23_2"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="vla_bat_template_lady"/>
+			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_23_3']/@name">
+		<xsl:attribute name="name">Belgir</xsl:attribute>
+	</xsl:template>
+	<!-- dey Valant -->
+	<xsl:template match="NPCCharacter[@id='lord_4_20']/@name">
+		<xsl:attribute name="name">Servic</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_20_1']/@name">
+		<xsl:attribute name="name">Lis</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_20_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="vla_bat_template_lady"/>
+			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_22']/@name">
+		<xsl:attribute name="name">Hirobert</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_22_1']/@name">
+		<xsl:attribute name="name">Daliset</xsl:attribute>
+	</xsl:template>
+	<!-- dey Molarn -->
+	<xsl:template match="NPCCharacter[@id='lord_4_24']/@name">
+		<xsl:attribute name="name">Polmarc</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_24_1']/@name">
+		<xsl:attribute name="name">Ingunde</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_24_2']/@name">
+		<xsl:attribute name="name">Deragunda</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_24_3']/@name">
+		<xsl:attribute name="name">Saralind</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_24_4']/@name">
+		<xsl:attribute name="name">Aselfled</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_26']/@name">
+		<xsl:attribute name="name">Genalf</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_26_1']/@name">
+		<xsl:attribute name="name">Lietgardis</xsl:attribute>
+	</xsl:template>
+	<!-- dey Rothad -->
+	<xsl:template match="NPCCharacter[@id='lord_V11_l']/@name">
+		<xsl:attribute name="name">Olgurnond</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_V11_u']/@name">
+		<xsl:attribute name="name">Tandred</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_V11_c1']/@name">
+		<xsl:attribute name="name">Athelwen</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_V11_c2']/@name">
+		<xsl:attribute name="name">Nerric</xsl:attribute>
+	</xsl:template>
+	<!-- dey Hongar -->
 	<xsl:template match="NPCCharacter[@id='lord_4_3']/@name">
 		<xsl:attribute name="name">Ethenbold</xsl:attribute>
 	</xsl:template>
@@ -1284,6 +1738,42 @@
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_4']/@name">
 		<xsl:attribute name="name">Rathegund</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_8']/@name">
+		<xsl:attribute name="name">Isilcred</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_11']/@name">
+		<xsl:attribute name="name">Isilflaed</xsl:attribute>
+	</xsl:template>
+	<!-- dey Folcun -->
+	<xsl:template match="NPCCharacter[@id='lord_4_28']/@name">
+		<xsl:attribute name="name">Falsevor</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_28_1']/@name">
+		<xsl:attribute name="name">Galfinda</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_28_2']/@name">
+		<xsl:attribute name="name">Segiflaed</xsl:attribute>
+	</xsl:template>
+	<!-- dey Gunric -->
+	<xsl:template match="NPCCharacter[@id='lord_4_21']/@name">
+		<xsl:attribute name="name">Lucand</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_25']/@name">
+		<xsl:attribute name="name">Robric</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_25_1']/@name">
+		<xsl:attribute name="name">Elta</xsl:attribute>
+	</xsl:template>
+	<!-- dey Jelind -->
+	<xsl:template match="NPCCharacter[@id='lord_4_27']/@name">
+		<xsl:attribute name="name">Cherald</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_4_27_1']/@name">
+		<xsl:attribute name="name">Dernfilda</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_V9_u']/@name">
+		<xsl:attribute name="name">Helmold</xsl:attribute>
 	</xsl:template>
 	<!--
 	Massa Confederation
@@ -1444,276 +1934,6 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet id="AR_mas_bat_template_lady"/>
 			<EquipmentSet id="AR_mas_noncom_template_default" civilian="true"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_7']/@name">
-		<xsl:attribute name="name">Origand</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_8']/@name">
-		<xsl:attribute name="name">Isilcred</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_10']/@name">
-		<xsl:attribute name="name">Elys</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_11']/@name">
-		<xsl:attribute name="name">Isilflaed</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_13']/@name">
-		<xsl:attribute name="name">Ecard</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_14']/@name">
-		<xsl:attribute name="name">Arthedar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_141']/@name">
-		<xsl:attribute name="name">Almoran</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_15']/@name">
-		<xsl:attribute name="name">Edugath</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_20']/@name">
-		<xsl:attribute name="name">Servic</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_20_1']/@name">
-		<xsl:attribute name="name">Lis</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="lord_4_20_1"]/Equipments'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<EquipmentSet id="vla_bat_template_lady"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_21']/@name">
-		<xsl:attribute name="name">Lucand</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_22']/@name">
-		<xsl:attribute name="name">Hirobert</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_22_1']/@name">
-		<xsl:attribute name="name">Daliset</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_23']/@name">
-		<xsl:attribute name="name">Oca</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="lord_4_23"]/Equipments'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<EquipmentSet id="AR_vla_oca_battletemplate"/>
-			<EquipmentSet id="vla_civ_template_flamboyant" civilian="true"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_23_1']/@name">
-		<xsl:attribute name="name">Orgunda</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_23_2']/@name">
-		<xsl:attribute name="name">Veronet</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='NPCCharacter[@id="lord_4_23_2"]/Equipments'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<EquipmentSet id="vla_bat_template_lady"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_23_3']/@name">
-		<xsl:attribute name="name">Belgir</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_24']/@name">
-		<xsl:attribute name="name">Polmarc</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_24_1']/@name">
-		<xsl:attribute name="name">Ingunde</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_24_2']/@name">
-		<xsl:attribute name="name">Deragunda</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_24_3']/@name">
-		<xsl:attribute name="name">Saralind</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_24_4']/@name">
-		<xsl:attribute name="name">Aselfled</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_25']/@name">
-		<xsl:attribute name="name">Robric</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_25_1']/@name">
-		<xsl:attribute name="name">Elta</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_26']/@name">
-		<xsl:attribute name="name">Genalf</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_27']/@name">
-		<xsl:attribute name="name">Cherald</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_27_1']/@name">
-		<xsl:attribute name="name">Dernfilda</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_V9_u']/@name">
-		<xsl:attribute name="name">Helmold</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_28']/@name">
-		<xsl:attribute name="name">Falsevor</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_28_1']/@name">
-		<xsl:attribute name="name">Galfinda</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_28_2']/@name">
-		<xsl:attribute name="name">Segiflaed</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_V11_l']/@name">
-		<xsl:attribute name="name">Olgurnond</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_V11_u']/@name">
-		<xsl:attribute name="name">Tandred</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_V11_c1']/@name">
-		<xsl:attribute name="name">Athelwen</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_V11_c2']/@name">
-		<xsl:attribute name="name">Nerric</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_1']/@name">
-		<xsl:attribute name="name">Jagutai</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_2']/@name">
-		<xsl:attribute name="name">Anat</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_3']/@name">
-		<xsl:attribute name="name">Kuruntai</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_4']/@name">
-		<xsl:attribute name="name">Mesui</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_5']/@name">
-		<xsl:attribute name="name">Mizam</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_51']/@name">
-		<xsl:attribute name="name">Gusur</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_6']/@name">
-		<xsl:attribute name="name">Hurunag</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_7']/@name">
-		<xsl:attribute name="name">Ilgai</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_8']/@name">
-		<xsl:attribute name="name">Junjad</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_81']/@name">
-		<xsl:attribute name="name">Baichar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_9']/@name">
-		<xsl:attribute name="name">Norogur</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_10']/@name">
-		<xsl:attribute name="name">Alijin</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_101']/@name">
-		<xsl:attribute name="name">Hikhara</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_11']/@name">
-		<xsl:attribute name="name">Tosui</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_12']/@name">
-		<xsl:attribute name="name">Tala</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_13']/@name">
-		<xsl:attribute name="name">Monchug</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_15']/@name">
-		<xsl:attribute name="name">Shulun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_15_1']/@name">
-		<xsl:attribute name="name">Yesha</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_15_2']/@name">
-		<xsl:attribute name="name">Asi</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_16']/@name">
-		<xsl:attribute name="name">Mehir</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_16_1']/@name">
-		<xsl:attribute name="name">Taralun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_16_2']/@name">
-		<xsl:attribute name="name">Kela</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_17']/@name">
-		<xsl:attribute name="name">Khakhun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_17_1']/@name">
-		<xsl:attribute name="name">Yesum</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_17_2']/@name">
-		<xsl:attribute name="name">Echa</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_18']/@name">
-		<xsl:attribute name="name">Korot</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_18_1']/@name">
-		<xsl:attribute name="name">Tilun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_18_2']/@name">
-		<xsl:attribute name="name">Khachin</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_19']/@name">
-		<xsl:attribute name="name">Okhon</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_19_1']/@name">
-		<xsl:attribute name="name">Aika</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_19_2']/@name">
-		<xsl:attribute name="name">Sokhatai</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_20']/@name">
-		<xsl:attribute name="name">Boronchar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_20_1']/@name">
-		<xsl:attribute name="name">Taralun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_K8_u']/@name">
-		<xsl:attribute name="name">Ulusumai</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_21']/@name">
-		<xsl:attribute name="name">Yildrim</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_21_1']/@name">
-		<xsl:attribute name="name">Chechek</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_22']/@name">
-		<xsl:attribute name="name">Ilatar</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_22_1']/@name">
-		<xsl:attribute name="name">Sacha</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_23']/@name">
-		<xsl:attribute name="name">Kanujan</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_6_24']/@name">
-		<xsl:attribute name="name">Sasal</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_K9_l']/@name">
-		<xsl:attribute name="name">Buchul</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_K9_s']/@name">
-		<xsl:attribute name="name">Kun</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_K9_c1']/@name">
-		<xsl:attribute name="name">Gusukan</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_K9_c2']/@name">
-		<xsl:attribute name="name">Mela</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_26_1']/@name">
-		<xsl:attribute name="name">Lietgardis</xsl:attribute>
-	</xsl:template>
-	<!--xsl:template match="NPCCharacter[@id='lord_K9_l']/@culture">
-		<xsl:attribute name="culture">Culture.khuzait</xsl:attribute>
-	</xsl:template-->
-	<xsl:template match='NPCCharacter[@id="lord_6_4"]/face'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" weight="0.5" build="0.5" key="0010AC0FC0003001B73A98A8857586339B198699F7BF6AA8788A3AE89946CA6500477603047B385E000000000000000000000000000000000000000034941043"/>
 		</xsl:copy>
 	</xsl:template>
 </xsl:stylesheet>
