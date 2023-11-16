@@ -46,10 +46,10 @@
 		<Pieces>
 			<Piece id="spear_blade_15" Type="Blade" scale_factor="90"/>
 			<Piece id="default_polearm_guard" Type="Guard"/>
-			<Piece id="AR_spear_handle_a" Type="Handle" scale_factor="250"/>
+			<Piece id="AR_spear_handle_a" Type="Handle" scale_factor="110"/>
 			<Piece id="default_polearm_pommel" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 133 Weight: 0.72 -->
+		<!-- Length: 125 Weight: 0.81 -->
 	</CraftedItem>
 	<CraftedItem id="AR_crude_javelin_1_t2" name="{=osa_ar_crude_javelin_1_t2}Crude Wooden Javelins" crafting_template="Javelin" culture="Culture.neutral" modifier_group="spear_dart_throwing">
 		<Pieces>
@@ -912,6 +912,42 @@
 		</Pieces>
 		<!-- Length: 107 Weight: 1.15 -->
 	</CraftedItem>
+	<CraftedItem id="falchion_sword_t2" name="{=IM2SamZ8}Falchion" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="cleaver_blade_8" Type="Blade" scale_factor="91"/>
+			<Piece id="AR_empire_guard_c" Type="Guard"/>
+			<Piece id="cleaver_grip_5" Type="Handle"/>
+			<Piece id="khuzait_pommel_3" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 81 Weight: 1.16 -->
+	</CraftedItem>
+	<CraftedItem id="star_falchion_sword_t3" name="{=qZOpdQVx}Star Falchion" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="cleaver_blade_8" Type="Blade"/>
+			<Piece id="sturgian_guard_6" Type="Guard"/>
+			<Piece id="vlandian_grip_18" Type="Handle"/>
+			<Piece id="sturgian_pommel_3" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 93 Weight: 1.36 -->
+	</CraftedItem>
+	<CraftedItem id="broad_falchion_sword_t3" name="{=ktJ6crBs}Broad Falchion" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="cleaver_blade_1" Type="Blade"/>
+			<Piece id="cleaver_guard_4" Type="Guard"/>
+			<Piece id="sturgian_grip_35" Type="Handle"/>
+			<Piece id="sturgian_pommel_1" Type="Pommel" scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 108 Weight: 1.35 -->
+	</CraftedItem>
+	<CraftedItem id="pointed_falchion_sword_t4" name="{=tQw4Zfwu}Pointed Falchion" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="cleaver_blade_1" Type="Blade"/>
+			<Piece id="battania_guard_5" Type="Guard" scale_factor="90"/>
+			<Piece id="cleaver_grip_7" Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_3" Type="Pommel" scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 109 Weight: 1.29 -->
+	</CraftedItem>
 	<!-- 2h Swords -->
 	<CraftedItem id="battania_2hsword_1_t2" name="{=DQaV0i5W}Iron Broadsword" crafting_template="TwoHandedSword" culture="Culture.battania" modifier_group="sword">
 		<Pieces>
@@ -1149,7 +1185,7 @@
 	</Item>
 	<Item id="aserai_archer_armor" name="{=XOvg9rbg}Southern Decorated Coat Over Mail" mesh="aserai_archer_armor" culture="Culture.aserai" weight="9.3" Type="BodyArmor" appearance="2" subtype="body_armor">
 		<ItemComponent>
-			<Armor body_armor="55" leg_armor="28" covers_body="true" modifier_group="cloth" material_type="Cloth" has_gender_variations="true" arm_armor="46"/>
+			<Armor body_armor="55" leg_armor="28" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="46"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
