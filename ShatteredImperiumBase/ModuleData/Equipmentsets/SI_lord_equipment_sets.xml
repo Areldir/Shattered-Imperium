@@ -4368,7 +4368,7 @@
 			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_king_battletemplate" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_king_battletemplate" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
 			<Equipment slot="Item3" id="Item.battania_noble_sword_1_t5"/>
@@ -4382,7 +4382,7 @@
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_bat_template_medium" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_bat_template_medium" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
 			<Equipment slot="Item3" id="Item.battania_sword_5_t5"/>
@@ -4493,7 +4493,7 @@
 		</EquipmentSet>
 		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_bat_template_heavy" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_bat_template_heavy" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
 			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
@@ -4602,9 +4602,9 @@
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsHeavyTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_bat_template_flamboyant" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_bat_template_flamboyant" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
 			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
@@ -4665,9 +4665,9 @@
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_bat_template_wild" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_bat_template_woodsman" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
 			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
@@ -4776,9 +4776,9 @@
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_bat_template_lady" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_bat_template_lady" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
 			<Equipment slot="Item3" id="Item.battania_sword_5_t5"/>
@@ -4911,9 +4911,9 @@
 			<Equipment slot="Horse" id="Item.t2_battania_horse"/>
 			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFemaleTemplate="true"/>
+		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_civ_template_default" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_civ_template_default" culture="Culture.byalic">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
@@ -4928,9 +4928,24 @@
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Cape" id="Item.wolf_shoulder"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_civ_template_flamboyant" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_civ_template_heavy" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="AR_bya_civ_template_flamboyant" culture="Culture.byalic">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
@@ -4995,24 +5010,9 @@
 			<Equipment slot="Head" id="Item.battanian_noble_helmet_with_feather"/>
 			<Equipment slot="Cape" id="Item.wolf_shoulder"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true"/>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_civ_template_heavy" culture="Culture.byalic">
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
-			<Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
-			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
-			<Equipment slot="Body" id="Item.battania_civil_c"/>
-			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
-			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
-		</EquipmentSet>
-		<Flags IsNobleTemplate="true"/>
-	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_civ_template_wild" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_civ_template_woodsman" culture="Culture.byalic">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
@@ -5037,9 +5037,9 @@
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.armored_bearskin"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true"/>
+		<Flags IsCivilianTemplate="true" IsWoodlandTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_noncom_template_default" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_noncom_template_default" culture="Culture.byalic">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
@@ -5055,9 +5055,9 @@
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_noncom_template_wild" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_noncom_template_woods" culture="Culture.byalic">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
@@ -5075,7 +5075,7 @@
 		</EquipmentSet>
 		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_got_noncom_template_flamboyant" culture="Culture.byalic">
+	<EquipmentRoster id="AR_bya_noncom_template_flamboyant" culture="Culture.byalic">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.battania_dress_a"/>

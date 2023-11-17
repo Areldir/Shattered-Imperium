@@ -336,44 +336,13 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.battania_2hsword_4_t4"/>
-				<equipment slot="Item1" id="Item.battania_targe_b"/>
-				<equipment slot="Item2" id="Item.woodland_longbow"/>
-				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Body" id="Item.AR_battania_armor_f"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<equipment slot="Head" id="Item.imperial_mail_coif"/>
-				<equipment slot="Cape" id="Item.berserkr_fur_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_battania_2hsword_4_t4"/>
-				<equipment slot="Item1" id="Item.battania_targe_b"/>
-				<equipment slot="Item2" id="Item.woodland_longbow"/>
-				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Body" id="Item.buckled_wildsman_armor"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
-				<equipment slot="Head" id="Item.imperial_mail_coif"/>
-				<equipment slot="Cape" id="Item.berserkr_fur_a"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_battania_2haxe_3_t4"/>
-				<equipment slot="Item1" id="Item.battania_targe_b"/>
-				<equipment slot="Item2" id="Item.woodland_longbow"/>
-				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Gloves" id="Item.studded_vambraces"/>
-				<equipment slot="Head" id="Item.imperial_mail_coif"/>
-				<equipment slot="Cape" id="Item.berserkr_fur_a"/>
-			</EquipmentRoster>
+			<EquipmentSet id="AR_forest_bandits_boss_battletemplate"/>
 			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<!-- DESERT BANDITS -->
 	<!-- T2 Desert Bandit Light Skill 20-40 -->
-	<NPCCharacter id="AR_ban_t2_desert_bandit" default_group="Cavalry" name="{=uOAnHN47}Desert Bandit" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.desert_bandits">
+	<NPCCharacter id="AR_ban_t2_desert_bandit" default_group="Cavalry" name="{=si_ar_ban_t2_desert_bandit}Desert Bandit" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -455,7 +424,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- T3 Desert Bandit Light Skill 40-70 -->
-	<NPCCharacter id="AR_ban_t3_desert_bandit" default_group="Cavalry" name="{=0qDNS83n}Desert Bandit Vagrant" level="16" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.desert_bandits">
+	<NPCCharacter id="AR_ban_t3_desert_bandit" default_group="Cavalry" name="{=si_ar_ban_t3_desert_bandit}Desert Bandit Vagrant" level="16" occupation="Bandit" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -544,12 +513,12 @@
 				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
 			</EquipmentRoster>
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-			<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- T4 Desert Bandit Medium Skill 60-100 -->
-	<NPCCharacter id="AR_ban_t4_desert_bandit" default_group="Cavalry" name="{=cdbSCr6G}Desert Bandit Pillager" level="21" upgrade_requires="ItemCategory.war_horse" occupation="Bandit" culture="Culture.desert_bandits">
+	<NPCCharacter id="AR_ban_t4_desert_bandit" default_group="Cavalry" name="{=si_ar_ban_t4_desert_bandit}Desert Bandit Pillager" level="21" upgrade_requires="ItemCategory.war_horse" occupation="Bandit" culture="Culture.desert_bandits">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -1588,27 +1557,6 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- REBEL GLADIATORS -->
-	<NPCCharacter id="AR_rebel_gladiators_boss" default_group="Infantry" level="26" name="{=si_ar_rebel_gladiators_boss}Rebel Gladiator Boss" culture="Culture.rebel_gladiators" occupation="Bandit">
-		<face>
-			<face_key_template value="BodyProperty.fighter_multirace"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="40"/>
-			<skill id="Riding" value="80"/>
-			<skill id="OneHanded" value="130"/>
-			<skill id="TwoHanded" value="130"/>
-			<skill id="Polearm" value="130"/>
-			<skill id="Bow" value="130"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
-			<EquipmentSet id="AR_emp_aux_gladiator_t5_spear_battletemplate"/>
-			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!-- T3 Rebel Gladiator Medium Skill 40-70 -->
 	<NPCCharacter id="AR_ban_t3_rebel_gladiator" default_group="Infantry" level="16" name="{=si_ar_ban_t3_rebel_gladiator}Rebel Gladiator Youth" occupation="Bandit" is_basic_troop="true" culture="Culture.rebel_gladiators">
 		<face>
@@ -1619,7 +1567,7 @@
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="70"/>
 			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="40"/>
+			<skill id="Polearm" value="70"/>
 			<skill id="Bow" value="40"/>
 			<skill id="Crossbow" value="40"/>
 			<skill id="Throwing" value="70"/>
@@ -1642,7 +1590,7 @@
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="60"/>
+			<skill id="Polearm" value="100"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="100"/>
@@ -1666,7 +1614,7 @@
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="130"/>
 			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="60"/>
+			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="130"/>
@@ -1676,6 +1624,27 @@
 			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
 			<EquipmentSet id="AR_emp_aux_gladiator_t5_spear_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Rebel Gladiator Medium Skill 60-130 -->
+	<NPCCharacter id="AR_rebel_gladiators_boss" default_group="Infantry" level="26" name="{=si_ar_rebel_gladiators_boss}Rebel Gladiator Boss" culture="Culture.rebel_gladiators" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_mounted_pillager" default_group="HorseArcher" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.looters" name="{=C8hwcOdF}Mounted Pillager" skill_template="SkillSet.horsearcher_level11_template_skills" is_hidden_encyclopedia="true">
