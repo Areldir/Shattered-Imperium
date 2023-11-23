@@ -1151,43 +1151,6 @@
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t3_looter"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="brigands_template">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="36" troop="NPCCharacter.AR_ban_t2_vagabond"/>
-			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.AR_ban_t3_vagabond"/>
-			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.AR_ban_t4_vagabond"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="slavers_template">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.AR_ban_t3_slaver"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_ban_t4_slaver"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t5_slaver"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_slavers_boss"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="slavers_boss_party_template">
-		<stacks>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t4_slaver"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ban_t5_slaver"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_slavers_boss"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="rebel_gladiators_template">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="18" troop="NPCCharacter.AR_ban_t3_rebel_gladiator"/>
-			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.AR_ban_t4_rebel_gladiator"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_rebel_gladiators_boss"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="rebel_gladiators_boss_party_template">
-		<stacks>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t4_rebel_gladiator"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_rebel_gladiators_boss"/>
-		</stacks>
-	</MBPartyTemplate>
 	<MBPartyTemplate id="sea_raiders_template">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="18" troop="NPCCharacter.AR_ban_t2_sea_raider"/>
@@ -1269,4 +1232,58 @@
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_mounted_pillager"/>
 		</stacks>
 	</MBPartyTemplate>
+	<MBPartyTemplate id="vagabonds_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="36" troop="NPCCharacter.AR_ban_t2_vagabond"/>
+			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.AR_ban_t3_vagabond"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.AR_ban_t4_vagabond"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="slavers_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.AR_ban_t3_slaver"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_ban_t4_slaver"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t5_slaver"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="slavers_boss_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t4_slaver"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ban_t5_slaver"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="rebel_gladiators_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="18" troop="NPCCharacter.AR_ban_t3_rebel_gladiator"/>
+			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.AR_ban_t4_rebel_gladiator"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_rebel_gladiators_boss"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="rebel_gladiators_boss_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t4_rebel_gladiator"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_rebel_gladiators_boss"/>
+		</stacks>
+	</MBPartyTemplate>
+	
+	
+	<MBPartyTemplate id="pirates_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="18" troop="NPCCharacter.AR_ban_t2_pirate"/>
+			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.AR_ban_t3_pirate"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.AR_ban_t4_pirate"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_pirates_boss"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="pirates_boss_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ban_t3_pirate"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ban_t4_pirate"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_pirates_boss"/>
+		</stacks>
+	</MBPartyTemplate>
+	
+	
 </partyTemplates>

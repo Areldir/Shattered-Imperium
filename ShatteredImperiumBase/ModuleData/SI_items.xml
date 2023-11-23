@@ -1,74 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<!-- OSA Weapons -->
-	<CraftedItem id="AR_northern_2h_mace_t4" name="{=osa_ar_northern_2h_mace_t4}Northern Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.sturgia" modifier_group="mace">
-		<Pieces>
-			<Piece id="AR_empire_mace_head_a" Type="Blade" scale_factor="110"/>
-			<Piece id="spear_handle_1" Type="Handle"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 102 Weight: 1.46 -->
-	</CraftedItem>
-	<CraftedItem id="AR_northern_2h_mace_t5" name="{=osa_ar_northern_2h_mace_t5}Northern Heavy Two Handed Mace" crafting_template="TwoHandedMace" culture="Culture.sturgia" modifier_group="mace">
-		<Pieces>
-			<Piece id="AR_empire_mace_head_b" Type="Blade" scale_factor="110"/>
-			<Piece id="mace_handle_20" Type="Handle" scale_factor="110"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 107 Weight: 1.56 -->
-	</CraftedItem>
-	<CraftedItem id="AR_crude_2h_mace_t2" name="{=osa_ar_crude_2h_mace_t2}Crude Spiked Two Handed Club" crafting_template="TwoHandedMace" culture="Culture.neutral" modifier_group="mace">
-		<Pieces>
-			<Piece id="mace_head_35" Type="Blade"/>
-			<Piece id="spear_handle_1" Type="Handle"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 112 Weight: 0.8 -->
-	</CraftedItem>
-	<CraftedItem id="AR_crude_2h_mace_t3" name="{=osa_ar_crude_2h_mace_t3}Spiked Two Handed Club" crafting_template="TwoHandedMace" culture="Culture.neutral" modifier_group="mace">
-		<Pieces>
-			<Piece id="mace_head_36" Type="Blade"/>
-			<Piece id="spear_handle_1" Type="Handle"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 124 Weight: 0.85 -->
-	</CraftedItem>
-	<CraftedItem id="AR_crude_spear_1_t2" name="{=osa_ar_crude_spear_1_t2}Crude Wooden Spear" crafting_template="TwoHandedPolearm" culture="Culture.neutral" modifier_group="polearm">
-		<Pieces>
-			<Piece id="AR_spear_blade_d" Type="Blade"/>
-			<Piece id="default_polearm_guard" Type="Guard"/>
-			<Piece id="AR_SI_spear_handle_c" Type="Handle" scale_factor="109"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 120 Weight: 0.65 -->
-	</CraftedItem>
-	<CraftedItem id="AR_crude_spear_2_t2" name="{=osa_ar_crude_spear_2_t2}Crude Spear" crafting_template="TwoHandedPolearm" culture="Culture.neutral" modifier_group="polearm">
-		<Pieces>
-			<Piece id="spear_blade_15" Type="Blade" scale_factor="90"/>
-			<Piece id="default_polearm_guard" Type="Guard"/>
-			<Piece id="AR_spear_handle_a" Type="Handle" scale_factor="110"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 125 Weight: 0.81 -->
-	</CraftedItem>
-	<CraftedItem id="AR_crude_javelin_1_t2" name="{=osa_ar_crude_javelin_1_t2}Crude Wooden Javelins" crafting_template="Javelin" culture="Culture.neutral" modifier_group="spear_dart_throwing">
-		<Pieces>
-			<Piece id="AR_spear_blade_d" Type="Blade" scale_factor="102"/>
-			<Piece id="default_polearm_guard" Type="Guard"/>
-			<Piece id="spear_handle_2" Type="Handle" scale_factor="110"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 70 Weight: 0.29 -->
-	</CraftedItem>
-	<CraftedItem id="AR_crude_javelin_2_t2" name="{=osa_ar_crude_javelin_2_t2}Crude Javelins" crafting_template="Javelin" culture="Culture.neutral" modifier_group="spear_dart_throwing">
-		<Pieces>
-			<Piece id="spear_blade_15" Type="Blade" scale_factor="90"/>
-			<Piece id="default_polearm_guard" Type="Guard"/>
-			<Piece id="spear_handle_12" Type="Handle" scale_factor="110"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 70 Weight: 0.47 -->
-	</CraftedItem>
 	<!-- Ranged Weapons -->
 	<Item id="crossbow_cavalry_light" name="Light Cavalry Crossbow" is_merchandise="false" body_name="bo_cross_bow_heavy" mesh="crossbow_a" culture="Culture.vlandia" weight="1.0" value="7000" appearance="0.8" difficulty="0" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
@@ -159,7 +91,7 @@
 		</Pieces>
 		<!-- Length: 213 Weight: 1.66 -->
 	</CraftedItem>
-	<CraftedItem id="northern_spear_3_t4" name="{=ZLpYFYXo}Jagged Fine Steel Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia" modifier_group="polearm">
+	<CraftedItem id="northern_spear_3_t4" name="{=ZLpYFYXo}Northern Triangular Fine Steel Spear" crafting_template="TwoHandedPolearm" culture="Culture.sturgia" modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_2" Type="Blade" scale_factor="125"/>
 			<Piece id="sturgian_guard_6" Type="Guard" scale_factor="110"/>
@@ -177,23 +109,23 @@
 		</Pieces>
 		<!-- Length: 213 Weight: 1.34 -->
 	</CraftedItem>
-	<CraftedItem id="southern_spear_3_t3" name="{=IDfl59yt}Knob Headed Spear" crafting_template="TwoHandedPolearm" culture="Culture.aserai" modifier_group="polearm">
+	<CraftedItem id="southern_spear_3_t3" name="{=IDfl59yt}Jagged Spear" crafting_template="TwoHandedPolearm" culture="Culture.aserai" modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_36" Type="Blade" scale_factor="110"/>
 			<Piece id="spear_guard_2" Type="Guard"/>
-			<Piece id="spear_handle_1" Type="Handle" scale_factor="143"/>
-			<Piece id="spear_pommel_11" Type="Pommel"/>
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="180"/>
+			<Piece id="spear_pommel_8" Type="Pommel" scale_factor="102"/>
 		</Pieces>
-		<!-- Length: 180 Weight: 1.01 -->
+		<!-- Length: 213 Weight: 1.41 -->
 	</CraftedItem>
 	<CraftedItem id="southern_spear_3_t4" name="{=vXYlLH6L}Long Thamaskene Tipped Spear" crafting_template="TwoHandedPolearm" culture="Culture.aserai" modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_35" Type="Blade" scale_factor="110"/>
 			<Piece id="spear_guard_7" Type="Guard"/>
-			<Piece id="spear_handle_20" Type="Handle" scale_factor="125"/>
+			<Piece id="spear_handle_20" Type="Handle" scale_factor="97"/>
 			<Piece id="spear_pommel_11" Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 259 Weight: 2.37 -->
+		<!-- Length: 213 Weight: 1.92 -->
 	</CraftedItem>
 	<CraftedItem id="wide_leaf_spear_t4" name="{=hz87PBsa}Wide Leaf Spear" crafting_template="TwoHandedPolearm" modifier_group="polearm">
 		<Pieces>
@@ -1069,6 +1001,14 @@
 			<Piece id="empire_pommel_1" Type="Pommel"/>
 		</Pieces>
 		<!-- Length: 65 Weight: 0.99 -->
+	</CraftedItem>
+	<CraftedItem id="shishpar_mace_t4" name="{=9EWN9SiT}Light Shishpar Mace" crafting_template="Mace" culture="Culture.aserai" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_21" Type="Blade" scale_factor="110"/>
+			<Piece id="mace_handle_13" Type="Handle" scale_factor="110"/>
+			<Piece id="spear_pommel_5" Type="Pommel" scale_factor="90"/>
+		</Pieces>
+		<!-- Length: 58 Weight: 1.1 -->
 	</CraftedItem>
 	<CraftedItem id="vlandia_mace_1_t2" name="{=7jH0kuof}Spiked Mace" crafting_template="Mace" culture="Culture.vlandia" modifier_group="mace">
 		<Pieces>

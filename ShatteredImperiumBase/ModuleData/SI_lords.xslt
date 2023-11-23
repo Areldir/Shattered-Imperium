@@ -18,6 +18,18 @@
 			<BodyProperties version="4" weight="0.4608" build="0.875" key="001E8C0D80000483AE98416865866A992DC4599D492BC68477A787688E78465F007D700307B7B787000000000000000000000000000000000000000016F08104"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_3_18"]/Traits'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="2"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_18_1']/@name">
 		<xsl:attribute name="name">Nawa</xsl:attribute>
 	</xsl:template>
@@ -47,20 +59,30 @@
 		<xsl:attribute name="name">Farisa</xsl:attribute>
 	</xsl:template>
 	<!-- Banu Sarran -->
+	<xsl:template match="NPCCharacter[@id='lord_3_3']/@name">
+		<xsl:attribute name="name">Hasseidh</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="NPCCharacter[@id='lord_3_4']/@name">
+		<xsl:attribute name="name">Isna</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_8']/@name">
 		<xsl:attribute name="name">Yaqus</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_11']/@name">
 		<xsl:attribute name="name">Yasmila</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_3_3']/@name">
-		<xsl:attribute name="name">Hasseidh</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_3_1']/@name">
 		<xsl:attribute name="name">Ghuzid</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_3_4']/@name">
-		<xsl:attribute name="name">Isna</xsl:attribute>
+	<xsl:template match='NPCCharacter[@id="dead_lord_3_1"]/Traits'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</xsl:copy>
 	</xsl:template>
 	<!-- Banu Qild -->
 	<xsl:template match="NPCCharacter[@id='lord_3_5']/@name">
@@ -982,6 +1004,18 @@
 	<!-- Heraclonos -->
 	<xsl:template match="NPCCharacter[@id='lord_NE9_l']/@name">
 		<xsl:attribute name="name">Eronys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_NE9_l"]/Traits'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_NE9_l']/@culture">
 		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>

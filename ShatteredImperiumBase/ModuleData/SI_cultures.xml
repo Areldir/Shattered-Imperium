@@ -316,7 +316,7 @@
 			<name name="{=!*}Velina"/>
 			<name name="{=!*}Augustinea"/>
 			<name name="{=!*}Gordiana"/>
-			<name name="{=!*}Junia"/>
+			<name name="{=!*}Junaea"/>
 			<name name="{=!*}Popilea"/>
 			<name name="{=!*}Valeria"/>
 			<name name="{=!*}Flavea"/>
@@ -2544,7 +2544,7 @@
 			<name name="{=!*}Velina"/>
 			<name name="{=!*}Augustinea"/>
 			<name name="{=!*}Gordiana"/>
-			<name name="{=!*}Junia"/>
+			<name name="{=!*}Junaea"/>
 			<name name="{=!*}Popilea"/>
 			<name name="{=!*}Valeria"/>
 			<name name="{=!*}Flavea"/>
@@ -3048,7 +3048,7 @@
 			<name name="{=!*}Velina"/>
 			<name name="{=!*}Augustinea"/>
 			<name name="{=!*}Gordiana"/>
-			<name name="{=!*}Junia"/>
+			<name name="{=!*}Junaea"/>
 			<name name="{=!*}Popilea"/>
 			<name name="{=!*}Valeria"/>
 			<name name="{=!*}Flavea"/>
@@ -3551,7 +3551,7 @@
 			<name name="{=!*}Velina"/>
 			<name name="{=!*}Augustinea"/>
 			<name name="{=!*}Gordiana"/>
-			<name name="{=!*}Junia"/>
+			<name name="{=!*}Junaea"/>
 			<name name="{=!*}Popilea"/>
 			<name name="{=!*}Valeria"/>
 			<name name="{=!*}Flavea"/>
@@ -5002,7 +5002,7 @@
 	         is_main_culture="false"
 	         elite_basic_troop="NPCCharacter.AR_stu_recruit"
 	         basic_troop="NPCCharacter.AR_stu_elite_recruit"
-	         can_have_settlement="true"
+	         can_have_settlement="false"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_sturgia_template"
 	         encounter_background_mesh="encounter_sturgia"
@@ -5059,7 +5059,7 @@
 	         color2="FFBFCBB0"
 	         elite_basic_troop="NPCCharacter.AR_s_emp_cavalry_recruit"
 	         basic_troop="NPCCharacter.AR_s_emp_recruit"
-	         can_have_settlement="true"
+	         can_have_settlement="false"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_s_empire_template"
 	         encounter_background_mesh="encounter_empire"
@@ -5337,7 +5337,7 @@
 			<name name="{=!*}Velina"/>
 			<name name="{=!*}Augustinea"/>
 			<name name="{=!*}Gordiana"/>
-			<name name="{=!*}Junia"/>
+			<name name="{=!*}Junaea"/>
 			<name name="{=!*}Popilea"/>
 			<name name="{=!*}Valeria"/>
 			<name name="{=!*}Flavea"/>
@@ -5400,7 +5400,7 @@
 	         color2="FFCCBB89"
 	         elite_basic_troop="NPCCharacter.AR_ilt_elite_recruit"
 	         basic_troop="NPCCharacter.AR_ilt_recruit"
-	         can_have_settlement="true"
+	         can_have_settlement="false"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_khuzait_template"
 	         encounter_background_mesh="encounter_khuzait"
@@ -5532,7 +5532,7 @@
 	         color2="0xff7a7a7a"
 	         elite_basic_troop="NPCCharacter.AR_ilt_elite_recruit"
 	         basic_troop="NPCCharacter.AR_ilt_recruit"
-	         can_have_settlement="true"
+	         can_have_settlement="false"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_khuzait_template"
 	         encounter_background_mesh="encounter_khuzait"
@@ -5580,15 +5580,14 @@
 			<item id="Item.empire_sword_6_t5"/>
 		</banner_bearer_replacement_weapons>
 	</Culture>
-	<!---Culture id="deserters" name="Deserters" elite_basic_troop="NPCCharacter.deserter" basic_troop="NPCCharacter.deserter" is_bandit="true"/-->
 	<Culture id="sea_raiders"
 	         name="{=pBUc2pL8}Sea Raiders"
-	         bandit_chief="NPCCharacter.sea_raiders_chief"
-	         bandit_raider="NPCCharacter.sea_raiders_raider"
-	         bandit_bandit="NPCCharacter.sea_raiders_bandit"
-	         bandit_boss="NPCCharacter.sea_raiders_boss"
-	         elite_basic_troop="NPCCharacter.sea_raiders_raider"
-	         basic_troop="NPCCharacter.sea_raiders_bandit"
+	         bandit_chief="NPCCharacter.AR_ban_t4_sea_raider"
+	         bandit_raider="NPCCharacter.AR_ban_t3_sea_raider"
+	         bandit_bandit="NPCCharacter.AR_ban_t2_sea_raider"
+	         bandit_boss="NPCCharacter.AR_sea_raiders_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_sea_raider"
+	         basic_troop="NPCCharacter.AR_ban_t2_sea_raider"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_shore_bandit"
@@ -5602,12 +5601,12 @@
 	</Culture>
 	<Culture id="mountain_bandits"
 	         name="{=mOa9CX13}Mountain Bandits"
-	         bandit_chief="NPCCharacter.mountain_bandits_chief"
-	         bandit_raider="NPCCharacter.mountain_bandits_raider"
-	         bandit_bandit="NPCCharacter.mountain_bandits_bandit"
-	         bandit_boss="NPCCharacter.mountain_bandits_boss"
-	         elite_basic_troop="NPCCharacter.mountain_bandits_raider"
-	         basic_troop="NPCCharacter.mountain_bandits_bandit"
+	         bandit_chief="NPCCharacter.AR_ban_t4_mountain_bandit"
+	         bandit_raider="NPCCharacter.AR_ban_t3_mountain_bandit"
+	         bandit_bandit="NPCCharacter.AR_ban_t2_mountain_bandit"
+	         bandit_boss="NPCCharacter.AR_mountain_bandits_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_mountain_bandit"
+	         basic_troop="NPCCharacter.AR_ban_t2_mountain_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_mountain_bandit"
@@ -5621,12 +5620,12 @@
 	</Culture>
 	<Culture id="forest_bandits"
 	         name="{=sAbjtZbB}Forest Bandits"
-	         bandit_chief="NPCCharacter.forest_bandits_chief"
-	         bandit_raider="NPCCharacter.forest_bandits_raider"
-	         bandit_bandit="NPCCharacter.forest_bandits_bandit"
-	         bandit_boss="NPCCharacter.forest_bandits_boss"
-	         elite_basic_troop="NPCCharacter.forest_bandits_raider"
-	         basic_troop="NPCCharacter.forest_bandits_bandit"
+	         bandit_chief="NPCCharacter.AR_ban_t4_forest_bandit"
+	         bandit_raider="NPCCharacter.AR_ban_t3_forest_bandit"
+	         bandit_bandit="NPCCharacter.AR_ban_t2_forest_bandit"
+	         bandit_boss="NPCCharacter.AR_forest_bandits_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_forest_bandit"
+	         basic_troop="NPCCharacter.AR_ban_t2_forest_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_forest_bandit"
@@ -5640,12 +5639,12 @@
 	</Culture>
 	<Culture id="desert_bandits"
 	         name="{=kkUQObZn}Desert Bandits"
-	         bandit_chief="NPCCharacter.desert_bandits_chief"
-	         bandit_raider="NPCCharacter.desert_bandits_raider"
-	         bandit_bandit="NPCCharacter.desert_bandits_bandit"
-	         bandit_boss="NPCCharacter.desert_bandits_boss"
-	         elite_basic_troop="NPCCharacter.desert_bandits_raider"
-	         basic_troop="NPCCharacter.desert_bandits_bandit"
+	         bandit_chief="NPCCharacter.AR_ban_t4_desert_bandit"
+	         bandit_raider="NPCCharacter.AR_ban_t3_desert_bandit"
+	         bandit_bandit="NPCCharacter.AR_ban_t2_desert_bandit"
+	         bandit_boss="NPCCharacter.AR_desert_bandits_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_desert_bandit"
+	         basic_troop="NPCCharacter.AR_ban_t2_desert_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_desert_bandits"
@@ -5659,12 +5658,12 @@
 	</Culture>
 	<Culture id="steppe_bandits"
 	         name="{=e6csp4ha}Steppe Bandits"
-	         bandit_chief="NPCCharacter.steppe_bandits_chief"
-	         bandit_raider="NPCCharacter.steppe_bandits_raider"
-	         bandit_bandit="NPCCharacter.steppe_bandits_bandit"
-	         bandit_boss="NPCCharacter.steppe_bandits_boss"
-	         elite_basic_troop="NPCCharacter.steppe_bandits_raider"
-	         basic_troop="NPCCharacter.steppe_bandits_bandit"
+	         bandit_chief="NPCCharacter.AR_ban_t4_steppe_bandit"
+	         bandit_raider="NPCCharacter.AR_ban_t3_steppe_bandit"
+	         bandit_bandit="NPCCharacter.AR_ban_t2_steppe_bandit"
+	         bandit_boss="NPCCharacter.AR_steppe_bandits_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_steppe_bandit"
+	         basic_troop="NPCCharacter.AR_ban_t2_steppe_bandit"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_desert_bandits"
@@ -5676,8 +5675,23 @@
 			<item id="Item.khuzait_sword_4_t4"/>
 		</banner_bearer_replacement_weapons>
 	</Culture>
+	<!-- SHATTERED IMPERIUM: Custom Bandit Cultures -->
+	<Culture id="vagabonds"
+	         name="{=si_ar_vagabonds_culture_name}Vagabonds"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_vagabond"
+	         basic_troop="NPCCharacter.AR_ban_t2_vagabond"
+	         is_bandit="true"
+	         can_have_settlement="false"
+	         encounter_background_mesh="encounter_looter">
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+	</Culture>
 	<Culture id="rebel_gladiators"
-	         name="{=e6csp4ha}Rebel Gladiators"
+	         name="{=si_ar_rebel_gladiators_culture_name}Rebel Gladiators"
 	         bandit_chief="NPCCharacter.AR_ban_t5_rebel_gladiator"
 	         bandit_raider="NPCCharacter.AR_ban_t4_rebel_gladiator"
 	         bandit_bandit="NPCCharacter.AR_ban_t3_rebel_gladiator"
@@ -5696,17 +5710,12 @@
 		</banner_bearer_replacement_weapons>
 	</Culture>
 	<Culture id="slavers"
-	         name="{=e6csp4ha}Slavers"
-	         bandit_chief="NPCCharacter.AR_ban_t5_slaver"
-	         bandit_raider="NPCCharacter.AR_ban_t4_slaver"
-	         bandit_bandit="NPCCharacter.AR_ban_t3_slaver"
-	         bandit_boss="NPCCharacter.AR_slavers_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t4_slaver"
-	         basic_troop="NPCCharacter.AR_ban_t3_slaver"
+	         name="{=si_ar_slavers_culture_name}Slavers"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_slaver"
+	         basic_troop="NPCCharacter.AR_ban_t4_slaver"
 	         is_bandit="true"
-	         can_have_settlement="true"
-	         encounter_background_mesh="encounter_mountain_bandit"
-	         bandit_boss_party_template="PartyTemplate.slavers_boss_party_template">
+	         can_have_settlement="false"
+	         encounter_background_mesh="encounter_looter">
 		<banner_bearer_replacement_weapons>
 			<item id="Item.iron_spatha_sword_t2"/>
 			<item id="Item.empire_sword_1_t2"/>
@@ -5714,25 +5723,25 @@
 			<item id="Item.empire_sword_6_t5"/>
 		</banner_bearer_replacement_weapons>
 	</Culture>
-	<!--Culture id="perassic_pirates"
-	         name="{=si_ar_perassic_pirates_culture_name}Perassic Pirates"
-	         bandit_chief="NPCCharacter.AR_ban_t5_rebel_gladiator"
-	         bandit_raider="NPCCharacter.AR_ban_t4_rebel_gladiator"
-	         bandit_bandit="NPCCharacter.AR_ban_t3_rebel_gladiator"
-	         bandit_boss="NPCCharacter.AR_rebel_gladiators_boss"
-	         elite_basic_troop="NPCCharacter.AR_ban_t4_rebel_gladiator"
-	         basic_troop="NPCCharacter.AR_ban_t3_rebel_gladiator"
+	<Culture id="pirates"
+	         name="{=si_ar_pirates_culture_name}Pirates"
+	         bandit_chief="NPCCharacter.AR_ban_t4_pirate"
+	         bandit_raider="NPCCharacter.AR_ban_t3_pirate"
+	         bandit_bandit="NPCCharacter.AR_ban_t2_pirate"
+	         bandit_boss="NPCCharacter.AR_pirates_boss"
+	         elite_basic_troop="NPCCharacter.AR_ban_t3_pirate"
+	         basic_troop="NPCCharacter.AR_ban_t2_pirate"
 	         is_bandit="true"
 	         can_have_settlement="true"
 	         encounter_background_mesh="encounter_shore_bandit"
-	         bandit_boss_party_template="PartyTemplate.rebel_gladiators_boss_party_template">
+	         bandit_boss_party_template="PartyTemplate.pirates_boss_party_template">
 		<banner_bearer_replacement_weapons>
 			<item id="Item.iron_spatha_sword_t2"/>
 			<item id="Item.empire_sword_1_t2"/>
 			<item id="Item.empire_sword_2_t3"/>
 			<item id="Item.empire_sword_6_t5"/>
 		</banner_bearer_replacement_weapons>
-	</Culture-->
+	</Culture>
 	<Culture id="neutral_culture"
 	         name="{=jKviMpbP}Calradian"
 	         elite_basic_troop="NPCCharacter.guard"

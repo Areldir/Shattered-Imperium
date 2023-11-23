@@ -2314,4 +2314,129 @@
 	<xsl:template match="Settlement[@id='castle_village_EN8_2']/@culture">
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
+	<!--
+	Bandits
+	-->
+	<!-- SHATTERED IMPERIUM: Bandit Hideouts - Pirates -->
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_1']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_2']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_3']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_4']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_5']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_6']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_7']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_8']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_9']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_10']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_11']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_12']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_13']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_14']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_15']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_16']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_17']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_18']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_19']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_pirate_SI_20']/@culture">
+		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
+	</xsl:template>
+  <!-- SHATTERED IMPERIUM: Bandit Hideouts - Rebel Gladiators -->
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_1']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_2']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_3']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_4']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_5']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_6']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_7']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_8']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_9']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_10']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_11']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_12']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_13']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_14']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_15']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_16']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_17']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_18']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_19']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='hideout_gladiator_SI_20']/@culture">
+		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
+	</xsl:template>
 </xsl:stylesheet>
