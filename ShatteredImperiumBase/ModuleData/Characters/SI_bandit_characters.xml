@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- BANDITS: Characters -->
+	<!-- LOOTERS -->
+	<!-- T1 Looter Light Skill 5-20 -->
+	<NPCCharacter id="AR_ban_t1_looter" default_group="Infantry" name="{=si_ar_ban_t1_looter}Looter" level="6" occupation="Bandit" is_basic_troop="true" culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t2_looter"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t1_looter_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T2 Looter Light Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_looter" default_group="Infantry" level="11" name="{=si_ar_ban_t2_looter}Looter Savage" occupation="Bandit" culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_looter"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_looter_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Looter Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_looter" default_group="Infantry" level="16" name="{=si_ar_ban_t3_looter}Looter Chief" occupation="Bandit" culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_looter_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- SEA RAIDERS -->
+	<!-- T2 Sea Raider Medium Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_sea_raider" default_group="Infantry" name="{=si_ar_ban_t2_sea_raider}Sea Raider" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_sea_raider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_sea_raider_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Sea Raider Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_sea_raider" default_group="Infantry" name="{=si_ar_ban_t3_sea_raider}Sea Raider Sailor" level="16" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_sea_raider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_sea_raider_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sea Raider Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_sea_raider" default_group="Infantry" name="{=si_ar_ban_t4_sea_raider}Sea Raider Warrior" level="21" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_sea_raider_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Sea Raider Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_sea_raiders_boss" default_group="Infantry" name="{=si_ar_sea_raiders_boss}Sea Raider Captain" level="26" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_sea_raiders_boss_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- MOUNTAIN BANDITS -->
+	<!-- T2 Mountain Bandit Light Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_mountain_bandit" default_group="Infantry" name="{=si_ar_ban_t2_mountain_bandit}Mountain Bandit" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_mountain_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_mountain_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Mountain Bandit Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_mountain_bandit" default_group="Infantry" name="{=si_ar_ban_t3_mountain_bandit}Mountain Bandit Wildsman" level="16" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_mountain_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_mountain_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Mountain Bandit Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_mountain_bandit" default_group="Cavalry" name="{=si_ar_ban_t4_mountain_bandit}Mountain Bandit Marauder" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_mountain_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Mountain Bandit Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_mountain_bandits_boss" default_group="Cavalry" name="{=si_ar_mountain_bandits_boss}Mountain Bandit Chief" level="26" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_mountain_bandits_boss_battletemplate"/>
+			<EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- FOREST BANDITS -->
+	<!-- T2 Forest Bandit Light Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_forest_bandit" default_group="Ranged" name="{=si_ar_ban_t2_forest_bandit}Forest Bandit" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_forest_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_forest_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Forest Bandit Light Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_forest_bandit" default_group="Ranged" name="{=si_ar_ban_t3_forest_bandit}Forest Bandit Woodsman" level="16" occupation="Bandit" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_forest_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_forest_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Forest Bandit Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_forest_bandit" default_group="Ranged" name="{=si_ar_ban_t4_forest_bandit}Forest Bandit Freebooter" level="21" occupation="Bandit" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_forest_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Forest Bandit Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_forest_bandits_boss" default_group="Ranged" name="{=si_ar_forest_bandits_boss}Forest Bandit Chief" level="26" occupation="Bandit" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_forest_bandits_boss_battletemplate"/>
+			<EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- DESERT BANDITS -->
+	<!-- T2 Desert Bandit Light Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_desert_bandit" default_group="Cavalry" name="{=si_ar_ban_t2_desert_bandit}Desert Bandit" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_desert_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_desert_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Desert Bandit Light Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_desert_bandit" default_group="Cavalry" name="{=si_ar_ban_t3_desert_bandit}Desert Bandit Vagrant" level="16" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_desert_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_desert_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+			<equipment slot="Horse" id="Item.camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Desert Bandit Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_desert_bandit" default_group="Cavalry" name="{=si_ar_ban_t4_desert_bandit}Desert Bandit Pillager" level="21" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_desert_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Desert Bandit Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_desert_bandits_boss" default_group="Cavalry" name="{=si_ar_desert_bandits_boss}Desert Bandit Chief" level="26" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_desert_bandits_boss_battletemplate"/>
+			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- STEPPE BANDITS -->
+	<!-- T2 Steppe Bandit Light Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_steppe_bandit" default_group="HorseArcher" name="{=si_ar_ban_t2_steppe_bandit}Steppe Bandit" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_steppe_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_steppe_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Steppe Bandit Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_steppe_bandit" default_group="HorseArcher" name="{=si_ar_ban_t3_steppe_bandit}Steppe Bandit Ransacker" level="16" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_steppe_bandit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_steppe_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Steppe Bandit Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_steppe_bandit" default_group="HorseArcher" name="{=si_ar_ban_t4_steppe_bandit}Steppe Bandit Marauder" upgrade_requires="ItemCategory.war_horse" level="21" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_steppe_bandit_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Desert Bandit Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_steppe_bandits_boss" default_group="Cavalry" name="{=si_ar_steppe_bandits_boss}Steppe Bandit Chief" upgrade_requires="ItemCategory.war_horse" level="26" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_steppe_bandits_boss_battletemplate"/>
+			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VAGABONDS -->
+	<!-- T2 Vagabond Light Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_vagabond" default_group="Ranged" level="11" name="{=si_ar_ban_t2_vagabond}Vagabond" occupation="Bandit" is_basic_troop="true" culture="Culture.vagabonds">
+		<face>
+			<face_key_template value="BodyProperty.fighter_brigand"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_vagabond"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_vagabond_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Vagabond Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_vagabond" default_group="Ranged" level="16" name="{=si_ar_ban_t3_vagabond}Vagabond Savage" occupation="Bandit" culture="Culture.vagabonds">
+		<face>
+			<face_key_template value="BodyProperty.fighter_brigand"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_vagabond"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_vagabond_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Vagabond Infantry Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_vagabond" default_group="Ranged" level="21" name="{=si_ar_ban_t4_vagabond}Vagabond Chief" occupation="Bandit" culture="Culture.vagabonds">
+		<face>
+			<face_key_template value="BodyProperty.fighter_brigand"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_vagabond_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- SLAVERS -->
+	<!-- T3 Slavers Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_slaver" default_group="Cavalry" level="16" name="{=si_ar_ban_t3_slaver}Slaver" occupation="Bandit" is_basic_troop="true" culture="Culture.slavers">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_slaver"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_slaver_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Slavers Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_slaver" default_group="Cavalry" level="21" name="{=si_ar_ban_t4_slaver}Slaver Manhunter" occupation="Bandit" upgrade_requires="ItemCategory.war_horse" culture="Culture.slavers">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t5_slaver"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_slaver_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Slavers Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ban_t5_slaver" default_group="Cavalry" level="26" name="{=si_ar_ban_t5_slaver}Slaver Chief" occupation="Bandit" culture="Culture.slavers">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t5_slaver_battletemplate"/>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- REBEL GLADIATORS -->
+	<!-- T3 Rebel Gladiator Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_rebel_gladiator" default_group="Infantry" level="16" name="{=si_ar_ban_t3_rebel_gladiator}Rebel Gladiator Youth" occupation="Bandit" is_basic_troop="true" culture="Culture.rebel_gladiators">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_rebel_gladiator"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiator_recruit_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Rebel Gladiator Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_rebel_gladiator" default_group="Infantry" level="21" name="{=si_ar_ban_t4_rebel_gladiator}Rebel Gladiator Fighter" occupation="Bandit" is_basic_troop="true" culture="Culture.rebel_gladiators">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiator_t4_sword_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_gladiator_t4_spear_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Rebel Gladiator Medium Skill 60-130 -->
+	<NPCCharacter id="AR_ban_t5_rebel_gladiator" default_group="Infantry" level="26" name="{=si_ar_ban_t5_rebel_gladiator}Rebel Gladiator Champion" occupation="Bandit" culture="Culture.rebel_gladiators">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
+			<EquipmentSet id="AR_emp_aux_gladiator_t5_spear_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Rebel Gladiator Medium Skill 60-130 -->
+	<NPCCharacter id="AR_rebel_gladiators_boss" default_group="Infantry" level="26" name="{=si_ar_rebel_gladiators_boss}Rebel Gladiator Boss" culture="Culture.rebel_gladiators" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_multirace"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- QUEST PILLAGERS -->
+	<NPCCharacter id="AR_mounted_pillager" default_group="HorseArcher" level="11" name="{=si_ar_mounted_pillager}Mounted Pillager" occupation="Bandit" is_basic_troop="true" culture="Culture.looters" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mounted_ransacker" default_group="Cavalry" level="16" name="{=si_ar_mounted_ransacker}Mounted Ransacker" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.looters" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.arming_coif"/>
+				<equipment slot="Body" id="Item.bandit_fur_a"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Body" id="Item.bandit_fur_b"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Body" id="Item.bandit_fur_b"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- PIRATES -->
+	<!-- T2 Pirate Medium Skill 20-40 -->
+	<NPCCharacter id="AR_ban_t2_pirate" default_group="Infantry" name="{=si_ar_ban_t2_pirate}Pirate" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_pirate"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_pirate_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T3 Pirate Medium Skill 40-70 -->
+	<NPCCharacter id="AR_ban_t3_pirate" default_group="Infantry" name="{=si_ar_ban_t3_pirate}Pirate Sailor" level="16" occupation="Bandit" culture="Culture.pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t4_pirate"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t3_pirate_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Pirate Heavy Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t4_pirate" default_group="Infantry" name="{=si_ar_ban_t4_pirate}Pirate Reaver" level="21" occupation="Bandit" culture="Culture.pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t4_sea_raider_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T5 Pirate Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_pirates_boss" default_group="Infantry" name="{=si_ar_pirates_boss}Pirate Captain" level="26" occupation="Bandit" culture="Culture.pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kannic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="AR_sea_raiders_boss_battletemplate"/>
+			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
