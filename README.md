@@ -3,7 +3,7 @@ Beta Version - For Mount and Blade Bannerlord v1.2.x
 
 Name: Shattered Imperium (Calradian Reforms - Definitive Edition)
 
-Version: Beta 0.5.0
+Version: Beta 0.6.0
 
 ----------------------------------------------------------------------------------------------------------
 Required files: 
@@ -18,12 +18,7 @@ Required files:
 				OpenSourceArmoryRBM
 				OpenSourceWeaponryRBM
 				OpenSourceSaddleryRBM
-				BannerColorPersistence (Removed temporarily for testing)
 	
-Recommended files:
-
-				EnhancedBattleTest
-
 ----------------------------------------------------------------------------------------------------------
 Installation: 
 
@@ -58,6 +53,5 @@ Load Order:
 				4. Required mods (See above)
 				5. Shattered Imperium: World Map
 				6. Shattered Imperium: Base Files
-				7. Shattered Imperium: Factions
 
 ----------------------------------------------------------------------------------------------------------
