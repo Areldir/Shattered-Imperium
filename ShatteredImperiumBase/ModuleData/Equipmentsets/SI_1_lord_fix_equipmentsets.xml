@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster id="npc_wanderer_equipment_template_empire_n_civilian" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_empire_n" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_empire_n" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_troop_civilian_template_t1" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_troop_civilian_template_t3" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_empire_n" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_empire_n" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_empire_n" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_medium" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_heavy" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_flamboyant" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_stoic" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_southfrontier" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_northfrontier" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_bat_template_lady" culture="Culture.empire_n">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_default" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_stoic" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_flamboyant" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_heavy" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_southfrontier" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_northfrontier" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_civ_template_lady_normal" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_noncom_template_default" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_noncom_template_flamboyant" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_noncom_template_stoic" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_noncom_template_southfrontier" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_n_noncom_template_northfrontier" culture="Culture.empire_n">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_empire_w_civilian" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_empire_w" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_empire_w" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_troop_civilian_template_t1" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_troop_civilian_template_t3" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_empire_w" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_empire_w" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_empire_w" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_medium" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_heavy" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_flamboyant" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_stoic" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_southfrontier" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_northfrontier" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_bat_template_lady" culture="Culture.empire_w">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_default" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_stoic" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_flamboyant" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_heavy" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_southfrontier" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_northfrontier" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_civ_template_lady_normal" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_noncom_template_default" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_noncom_template_flamboyant" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_noncom_template_stoic" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_noncom_template_southfrontier" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="empire_w_noncom_template_northfrontier" culture="Culture.empire_w">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_byalic_civilian" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_byalic" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_byalic" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_troop_civilian_template_t1" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_troop_civilian_template_t3" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_byalic" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_byalic" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_byalic" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_medium" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_heavy" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_flamboyant" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_stoic" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_southfrontier" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_northfrontier" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_bat_template_lady" culture="Culture.byalic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_default" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_stoic" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_flamboyant" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_heavy" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_southfrontier" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_northfrontier" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_civ_template_lady_normal" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_noncom_template_default" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_noncom_template_flamboyant" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_noncom_template_stoic" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_noncom_template_southfrontier" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="byalic_noncom_template_northfrontier" culture="Culture.byalic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_darshi_civilian" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_darshi" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_darshi" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_troop_civilian_template_t1" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_troop_civilian_template_t3" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_darshi" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_darshi" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_darshi" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_medium" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_heavy" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_flamboyant" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_stoic" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_southfrontier" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_northfrontier" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_bat_template_lady" culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_default" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_stoic" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_flamboyant" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_heavy" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_southfrontier" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_northfrontier" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_civ_template_lady_normal" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_noncom_template_default" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_noncom_template_flamboyant" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_noncom_template_stoic" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_noncom_template_southfrontier" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="darshi_noncom_template_northfrontier" culture="Culture.darshi">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_kannic_civilian" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_kannic" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_kannic" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_troop_civilian_template_t1" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_troop_civilian_template_t3" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_kannic" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_kannic" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_kannic" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_medium" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_heavy" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_flamboyant" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_stoic" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_southfrontier" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_northfrontier" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_bat_template_lady" culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_default" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_stoic" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_flamboyant" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_heavy" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_southfrontier" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_northfrontier" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_civ_template_lady_normal" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_noncom_template_default" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_noncom_template_flamboyant" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_noncom_template_stoic" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_noncom_template_southfrontier" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kannic_noncom_template_northfrontier" culture="Culture.kannic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_massa_civilian" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_massa" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_massa" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_troop_civilian_template_t1" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_troop_civilian_template_t3" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_massa" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_massa" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_massa" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_medium" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_heavy" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_flamboyant" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_stoic" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_southfrontier" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_northfrontier" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_bat_template_lady" culture="Culture.massa">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_default" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_stoic" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_flamboyant" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_heavy" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_southfrontier" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_northfrontier" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_civ_template_lady_normal" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_noncom_template_default" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_noncom_template_flamboyant" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_noncom_template_stoic" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_noncom_template_southfrontier" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="massa_noncom_template_northfrontier" culture="Culture.massa">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_vakken_civilian" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_vakken" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_vakken" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_troop_civilian_template_t1" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_troop_civilian_template_t3" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_vakken" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="mother_char_creation_0_vakken" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Cape" id="Item.female_hood"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_0_vakken" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.cloth_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_medium" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_heavy" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_flamboyant" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.empire_lord_helmet"/>
+			<Equipment slot="Body" id="Item.imperial_scale_armor"/>
+			<Equipment slot="Cape" id="Item.pauldron_cape_a"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_stoic" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.legionary_mail"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_southfrontier" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+			<Equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_northfrontier" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<Equipment slot="Body" id="Item.mail_shirt"/>
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder_white"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_bat_template_lady" culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+			<Equipment slot="Body" id="Item.imperial_lamellar"/>
+			<Equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_default" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_3_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_stoic" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_flamboyant" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_heavy" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_southfrontier" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Cape" id="Item.leopard_pelt"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_northfrontier" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_civ_template_lady_normal" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+			<Equipment slot="Body" id="Item.empire_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_noncom_template_default" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_scarf"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_noncom_template_flamboyant" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_noncom_template_stoic" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.headscarf_c"/>
+			<Equipment slot="Body" id="Item.imperial_robes"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_noncom_template_southfrontier" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.desert_headdress"/>
+			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.southern_moccasins"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="vakken_noncom_template_northfrontier" culture="Culture.vakken">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Body" id="Item.northern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.light_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+</EquipmentRosters>

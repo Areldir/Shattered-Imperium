@@ -4453,6 +4453,7 @@
 				<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
 				<Equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='EquipmentRoster[@id="khu_noncom_template_default"]'>
@@ -4523,6 +4524,7 @@
 				<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
 				<Equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsNoncombatantTemplate="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='EquipmentRoster[@id="khu_noncom_template_flamboyant"]'>
@@ -4593,6 +4595,7 @@
 				<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
 				<Equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentSet>
+			<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" IsFlamboyantTemplate="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<!--
