@@ -279,7 +279,7 @@
 			<Equipment slot="Head" id="Item.TV_aserai_helmet_b"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_g"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -329,7 +329,7 @@
 			<Equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
 			<Equipment slot="Body" id="Item.AR_aserai_leather_a"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_f"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -663,7 +663,7 @@
 			<Equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -857,7 +857,7 @@
 			<Equipment slot="Head" id="Item.open_desert_helmet"/>
 			<Equipment slot="Body" id="Item.studded_leather_coat"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -1262,7 +1262,7 @@
 			<Equipment slot="Head" id="Item.AR_aserai_helmet_b"/>
 			<Equipment slot="Body" id="Item.aserai_civil_f"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -1709,7 +1709,7 @@
 			<Equipment slot="Head" id="Item.closed_head_scarf"/>
 			<Equipment slot="Body" id="Item.aserai_civil_a"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Horse" id="Item.aserai_horse"/>
 			<Equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
@@ -1735,7 +1735,7 @@
 			<Equipment slot="Head" id="Item.open_head_scarf"/>
 			<Equipment slot="Body" id="Item.aserai_civil_c"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
-			<Equipment slot="Gloves" id="Item.ragged_armwraps"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
 			<Equipment slot="Horse" id="Item.aserai_horse"/>
 			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
@@ -2416,7 +2416,7 @@
 			<Equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="AR_ase_t6_lance_cavalry_battletemplate" culture="Culture.aserai"> 
+	<EquipmentRoster id="AR_ase_t6_lance_cavalry_battletemplate" culture="Culture.aserai">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.composite_steppe_bow"/>
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
@@ -3775,6 +3775,7 @@
 			<Equipment slot="Horse" id="Item.war_camel"/>
 			<Equipment slot="HorseHarness" id="Item.tv_camel_armor_j"/>
 		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_min_jawwal_t3_battletemplate" culture="Culture.aserai">
 		<EquipmentSet>
@@ -4125,7 +4126,7 @@
 			<Equipment slot="Head" id="Item.AR_aserai_helmet_b"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_h"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
 			<Equipment slot="Horse" id="Item.war_camel"/>
 			<Equipment slot="HorseHarness" id="Item.tv_camel_armor_i"/>
@@ -4177,7 +4178,7 @@
 			<Equipment slot="Head" id="Item.TV_aserai_helmet_b"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_g"/>
 			<Equipment slot="Horse" id="Item.war_camel"/>
 			<Equipment slot="HorseHarness" id="Item.tv_camel_armor_e"/>
@@ -4359,6 +4360,7 @@
 			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="AR_min_benizilal_t3_battletemplate" culture="Culture.aserai">
 		<EquipmentSet>
@@ -4525,7 +4527,7 @@
 			<Equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_h"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -4569,7 +4571,7 @@
 			<Equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -4694,7 +4696,7 @@
 			<Equipment slot="Head" id="Item.open_head_scarf"/>
 			<Equipment slot="Body" id="Item.short_padded_robe"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -4716,7 +4718,7 @@
 			<Equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
 			<Equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.leopard_pelt"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -4817,7 +4819,7 @@
 			<Equipment slot="Head" id="Item.AR_aserai_helmet_b"/>
 			<Equipment slot="Body" id="Item.hemp_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
-			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
 		</EquipmentSet>
 		<EquipmentSet>

@@ -70,31 +70,8 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- SEA RAIDERS -->
-	<!-- T2 Sea Raider Medium Skill 20-40 -->
-	<NPCCharacter id="AR_ban_t2_sea_raider" default_group="Infantry" name="{=si_ar_ban_t2_sea_raider}Sea Raider" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.sea_raiders">
-		<face>
-			<face_key_template value="BodyProperty.fighter_berserker"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="80"/>
-			<skill id="Riding" value="80"/>
-			<skill id="OneHanded" value="40"/>
-			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="40"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="40"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_ban_t3_sea_raider"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentSet id="AR_ban_t2_sea_raider_battletemplate"/>
-			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!-- T3 Sea Raider Medium Skill 40-70 -->
-	<NPCCharacter id="AR_ban_t3_sea_raider" default_group="Infantry" name="{=si_ar_ban_t3_sea_raider}Sea Raider Sailor" level="16" occupation="Bandit" culture="Culture.sea_raiders">
+	<NPCCharacter id="AR_ban_t2_sea_raider" default_group="Infantry" name="{=si_ar_ban_t2_sea_raider}Sea Raider" level="16" occupation="Bandit" is_basic_troop="true" culture="Culture.sea_raiders">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
@@ -106,7 +83,30 @@
 			<skill id="Polearm" value="70"/>
 			<skill id="Bow" value="40"/>
 			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="70"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t3_sea_raider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="AR_ban_t2_sea_raider_battletemplate"/>
+			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- T4 Sea Raider Medium Skill 60-100 -->
+	<NPCCharacter id="AR_ban_t3_sea_raider" default_group="Infantry" name="{=si_ar_ban_t3_sea_raider}Sea Raider Sailor" level="21" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_berserker"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t4_sea_raider"/>
@@ -116,20 +116,20 @@
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<!-- T4 Sea Raider Heavy Skill 60-100 -->
-	<NPCCharacter id="AR_ban_t4_sea_raider" default_group="Infantry" name="{=si_ar_ban_t4_sea_raider}Sea Raider Warrior" level="21" occupation="Bandit" culture="Culture.sea_raiders">
+	<!-- T5 Sea Raider Heavy Skill 60-130 -->
+	<NPCCharacter id="AR_ban_t4_sea_raider" default_group="Infantry" name="{=si_ar_ban_t4_sea_raider}Sea Raider Warrior" level="26" occupation="Bandit" culture="Culture.sea_raiders">
 		<face>
 			<face_key_template value="BodyProperty.fighter_berserker"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="40"/>
 			<skill id="Riding" value="80"/>
-			<skill id="OneHanded" value="100"/>
-			<skill id="TwoHanded" value="100"/>
-			<skill id="Polearm" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="60"/>
 			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="100"/>
+			<skill id="Throwing" value="130"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
@@ -898,7 +898,7 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="AR_ban_t4_sea_raider_battletemplate"/>
+			<EquipmentSet id="AR_ban_t4_pirate_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -919,7 +919,7 @@
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="AR_sea_raiders_boss_battletemplate"/>
+			<EquipmentSet id="AR_pirates_boss_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
