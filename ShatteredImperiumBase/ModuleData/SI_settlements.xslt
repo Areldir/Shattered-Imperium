@@ -103,7 +103,7 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B7_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_B7_1_text}Aster sits in a shallow valley between the hills of the northeastern Uchalion and the Rock of Glanys. The people of this region have the reputation of being more focused on trade than warfare, and tribal elders have encouraged the raising of vast herds of cattle to feed the markets of Dunglanys.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_B7_1_text}Aster sits in a shallow valley between the hills of the northeastern Uchalion and the Rock of Glanys. The people of this region have the reputation of being more focused on trade than warfare, and tribal elders have encouraged the raising of vast herds of cattle to send to the markets of Dunglanys.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B7_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_B7_2_text}Imlagh lies on rolling downs in the middle of the Uchalion Massif. The village specializes in white grapes for the making of the sweet Battanian wines.</xsl:attribute>
@@ -188,21 +188,21 @@
 	<xsl:template match="Settlement[@id='castle_village_B6_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_B6_2_text}Glintor sits overlooking the rapids of the Fiur River, where the waters of Llyn Tywal descend to enter the Bay of Varcheg. Horses are raised on the downs, much prized by both raiders and traders from the lands to the north.</xsl:attribute>
 	</xsl:template>
-	<xsl:template match='Settlement[@id="village_S1_3"]/Components'>
+	<!--xsl:template match='Settlement[@id="village_S1_3"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<Village id="village_comp_S1_3" village_type="VillageType.fisherman" hearth="197" bound="Settlement.castle_B6" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<xsl:template match="Settlement[@id='village_S1_3']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_S1_3_name}Car Gryff</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_S1_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_S1_3_text}Car Gryff - a ringfort belonging to the Battanian chief Gryff - lies alongside the Bay of Varcheg. The local fishermen take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_S1_3_text}Car Gryff - a ringfort founded by the Battanian chieftain Gryff - lies alongside the Bay of Varcheg. The local fishermen take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='village_S1_3']/@culture">
+	<!--xsl:template match="Settlement[@id='village_S1_3']/@culture">
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
-	</xsl:template>
+	</xsl:template-->
 	<!-- fen Caernacht -->
 	<xsl:template match="Settlement[@id='castle_B5']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_battania_1</xsl:attribute>
@@ -341,20 +341,8 @@
 	<xsl:template match="Settlement[@id='castle_village_EW3_1']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_EW3_1_text}Onica lies on the northern shores of the Perassic Sea. The hills of this district are terraced with the grapevines of the famous Leonipardes Estates, producing a fruity, full-bodied wine renowned across the continent.</xsl:attribute>
 	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_EW3_1"]/Locations'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Location id="village_center" scene_name="empire_village_h"/>
-		</xsl:copy>
-	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_EW3_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_castle_village_EW3_2_text}Tarcutis sits on the shores of the Perassic Sea. The sandy soil and morning mists, channeled by offshore islands, allows the growing of grapes. This land is part of the famous Leonipardes Estates, producing a fruity, full-bodied wine renowned across Calradia.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_EW3_2"]/Locations'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Location id="village_center" scene_name="empire_village_s"/>
-		</xsl:copy>
 	</xsl:template>
 	<!-- Elaches -->
 	<xsl:template match="Settlement[@id='town_EW5']/@owner">
@@ -723,7 +711,7 @@
 	<xsl:template match='Settlement[@id="town_V7"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_V7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4500"/>
+			<Town id="town_comp_V7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="4500"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V7']/@text">
@@ -898,11 +886,11 @@
 	<xsl:template match='Settlement[@id="town_V1"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_V1" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" prosperity="3000"/>
+			<Town id="town_comp_V1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.378" prosperity="3000"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V1']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V1_text}The town of Velucana was one of the first inland colonies of the nascent Calradian Kingdom, founded just two decades after Calradios the Great landed at Charasea. Located to protect the northern approaches to the port city, it grew wealthy over the centuries through trade with the Palaic peoples along the Biscan coast, and the Battanians of the Uchalion Plateau. However, as the center of power moved northwards to Paravenos, then onwards to the cities of the east, Velucana slowly dwindled, until very few inhabitants remained within the town. Resurgence came in the form of Vlandian settlers, who built their homes over the abandoned ruins of those who came before. Whilst few edifices of the older Calradian settlement now survive, Velucana has remained firmly under imperial influence.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_V1_text}The town of Velucana was one of the first inland colonies of the nascent Calradian Kingdom, founded just two decades after Calradios the Great landed at Charasea. Located to protect the northern approaches to the port city, it grew wealthy over the centuries through trade with the Ialoi peoples along the Biscan coast, and the Battanians of the Uchalion Plateau. However, as the center of power moved northwards to Paravenos, then onwards to the cities of the east, Velucana slowly dwindled, until very few inhabitants remained within the town. Resurgence came in the form of Vlandian settlers, who rebuilt and reoccupied the abandoned ruins of those who came before. Whilst little of the older Calradian settlement now survives, Velucana has remained firmly under imperial influence.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_4</xsl:attribute>
@@ -1114,7 +1102,7 @@
 	<xsl:template match='Settlement[@id="town_S7"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_S7" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="3100"/>
+			<Town id="town_comp_S7" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="2500"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_S7']/@owner">
@@ -1146,11 +1134,8 @@
 	<xsl:template match="Settlement[@id='town_S1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_sturgia_8</xsl:attribute>
 	</xsl:template>
-	<xsl:template match='Settlement[@id="town_S1"]'>
-		<xsl:copy>
-			<xsl:attribute name='text'>{=si_ar_town_S1_text}Varcheg - the so-called ‘Town of the Companions’ - was founded centuries ago by Sturgian colonists on the site of an ancient ruined Vakken promontory fort, standing atop a high outcrop overlooking the Bay of Varcheg, from which it draws its name. Its position has made it a prime location for the trade of furs with the interior of northern Calradia, bringing both wealth and status to its inhabitants, who claim mixed Sturgian, Vakken and Nordic ancestries. Indeed, anyone who controls the town may use its position to effectively stifle other Sturgian chiefdoms, making it a prized objective to any looking to control the frigid lands of the north.</xsl:attribute>
-			<xsl:apply-templates select="@*|node()"/>
-		</xsl:copy>
+	<xsl:template match="Settlement[@id='town_S1']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_S1_text}Varcheg - the so-called ‘Town of the Companions’ - was founded centuries ago by Sturgian colonists on the site of an ancient ruined Vakken promontory fort, standing atop a high outcrop overlooking the Bay of Varcheg, from which it draws its name. Its position has made it a prime location for the trade of furs with the interior of northern Calradia, bringing both wealth and status to its inhabitants, who claim mixed Sturgian, Vakken and Nordic ancestries. Indeed, anyone who controls the town may use its position to effectively stifle other Sturgian chiefdoms, making it a prized objective to any looking to control the frigid lands of the north.</xsl:attribute>
 	</xsl:template>
 	<!-- Kuloving -->
 	<xsl:template match="Settlement[@id='castle_S5']/@owner">
@@ -1172,12 +1157,6 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B8_2']/@culture">
 		<xsl:attribute name='culture'>Culture.sturgia</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_B8_2"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="castle_village_comp_B8_2" village_type="VillageType.wheat_farm" hearth="328" bound="Settlement.castle_S4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania"/>
-		</xsl:copy>
 	</xsl:template>
 	<!-- Ormidoving -->
 	<xsl:template match="Settlement[@id='castle_SI_S2']/@owner">
@@ -1230,21 +1209,6 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V2_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V2_2_text}Oritan sits on a short river that rushes out of the mountains of the Ebor Peninsula and empties into the Llyn Modris - now known as the Ocspool. The river slows as it hits a nearby bend, allowing the collection of potters' clay from the banks.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V2_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V2_3_text}Fregian sits on the flatlands north of Paravenos - known to the Vlandians as the 'Swadian Plains' - where the warmth of the south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="village_V2_3"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="village_comp_V2_3" village_type="VillageType.flax_plant" hearth="347" gate_rotation="0.008" bound="Settlement.castle_SI_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_SI_V1_1"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="castle_village_comp_SI_V1_1" village_type="VillageType.wheat_farm" hearth="410" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
-		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_7</xsl:attribute>
@@ -1387,7 +1351,7 @@
 	<xsl:template match='Settlement[@id="town_K6"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_K6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="4200"/>
+			<Town id="town_comp_K6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="3200"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K6']/@text">
@@ -1424,7 +1388,7 @@
 		<xsl:attribute name='name'>{=si_ar_castle_village_K8_2_name}Erzenur</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K8_2']/@text">
-		<xsl:attribute name='text'>Erzenur and its outlying hamlets on the southern end of the Devseg Plateau, near the juncture of Ozu and Teyagh rivers. Though rough country, it is known for the fine clay that can be gathered from the ravines.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_K8_2_text}Erzenur and its outlying hamlets on the southern end of the Devseg Plateau, near the juncture of Ozu and Teyagh rivers. Though rough country, it is known for the fine clay that can be gathered from the ravines.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_K8']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
@@ -1481,18 +1445,6 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_SI_K8_3']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_K8_1"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="castle_village_comp_K8_1" village_type="VillageType.iron_mine" hearth="370" gate_rotation="0.508" bound="Settlement.town_SI_A5" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_K8_1']/@name">
-		<xsl:attribute name='name'>{=si_ar_castle_village_K8_1_name}Gereden</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_K8_1']/@text">
-		<xsl:attribute name='text'>Gereden alongside the Tiagys River, known in the local dialect as the 'Teyagh'. The waters here have a distinct reddish tint from the iron in the soil, which the villagers mine from riverside outcrops.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K8_1']/@culture">
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
@@ -1562,15 +1514,6 @@
 		<xsl:attribute name='culture'>Culture.darshi</xsl:attribute>
 	</xsl:template>
 	<!-- Varaz -->
-	<xsl:template match='Settlement[@id="village_A2_3"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="village_comp_A2_3" village_type="VillageType.desert_horse_ranch" hearth="243" bound="Settlement.castle_SI_A11" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_A2_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_A2_3_text}Hoqqa is one of the easternmost villages of Calradia’s known landmass, sitting on a spur overlooking the Tiyagis River. The land is mostly desert-steppe. Barren most of the year except for scrub, it is covered in grass and flowers in the spring and is fine grazing for horses.</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_SI_A11']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_spahad_9</xsl:attribute>
 	</xsl:template>
@@ -1697,18 +1640,6 @@
 	<xsl:template match="Settlement[@id='town_V6']/@text">
 		<xsl:attribute name='text'>{=si_ar_town_V6_text}Jaculanys sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. However, in the third year of the reign of Emperor Themestios, Battanian raiders descended from the Rhennod Hills, destroying the town and putting many of its inhabitants to the sword. Despite the reconstruction efforts of the newly crowned Emperor, little of the old town remained to the present. It was seized by the rampaging Massa in the year 951, serving as the capital of their nascent realm.</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_1']/@name">
-		<xsl:attribute name='name'>{=si_ar_village_V6_1_name}Armacis</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V6_1_text}Armacis lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the western provinces of the Calradian Empire are well-suited to the growing of olives.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="village_V6_1"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="village_comp_V6_1" village_type="VillageType.olive_trees" hearth="120" gate_rotation="0.058" bound="Settlement.castle_SI_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
-		</xsl:copy>
-	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V6_3']/@name">
 		<xsl:attribute name='name'>{=si_ar_village_V6_3_name}Alnimys</xsl:attribute>
 	</xsl:template>
@@ -1735,12 +1666,6 @@
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V6_4']/@culture">
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_SI_V3_2"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Village id="castle_village_comp_SI_V3_2" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda"/>
-		</xsl:copy>
 	</xsl:template>
 	<!-- Hathdar -->
 	<xsl:template match="Settlement[@id='castle_V7']/@name">
@@ -1967,7 +1892,7 @@
 	<xsl:template match='Settlement[@id="town_K5"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_K5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="4500"/>
+			<Town id="town_comp_K5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="4100"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K5']/@text">
@@ -2110,12 +2035,12 @@
 	<xsl:template match="Settlement[@id='castle_village_S4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vakken</xsl:attribute>
 	</xsl:template>
-	<xsl:template match='Settlement[@id="castle_village_S4_2"]/Components'>
+	<!--xsl:template match='Settlement[@id="castle_village_S4_2"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<Village id="castle_village_comp_S4_2" village_type="VillageType.cattle_farm" hearth="333" gate_rotation="0.008" bound="Settlement.castle_B8" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia"/>
 		</xsl:copy>
-	</xsl:template>
+	</xsl:template-->
 	<!-- Sarapisthes -->
 	<xsl:template match="Settlement[@id='castle_EN9']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vaegiria_4</xsl:attribute>
@@ -2136,7 +2061,7 @@
 	<xsl:template match='Settlement[@id="town_A3"]/Components'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_A3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="4000"/>
+			<Town id="town_comp_A3" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="3500"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_A3']/@text">

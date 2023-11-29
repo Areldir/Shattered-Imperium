@@ -727,7 +727,7 @@
       <Village id="castle_village_comp_EW3_1" village_type="VillageType.vineyard" hearth="312" bound="Settlement.castle_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_004" />
+      <Location id="village_center" scene_name="scn_Asturica" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -964,7 +964,7 @@
       <Village id="castle_village_comp_EW3_2" village_type="VillageType.vineyard" hearth="546" bound="Settlement.castle_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_x" />
+      <Location id="village_center" scene_name="empire_village_s" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -1709,7 +1709,7 @@
   </Settlement>
   <Settlement id="town_ES4" name="{=Settlements.Settlement.name.town_ES4}Lycaron" owner="Faction.clan_empire_south_1" posX="515.33" posY="333.562" culture="Culture.empire" gate_posX="517.5825" gate_posY="329.8356" text="{=WGtzBswe}The natural fortress of Lycaron sits on a spur jutting out of the great Ornian rock. In the final years of the imperial conquest, the Palaic tribe here negotiated a peaceful federation with the empire, only to see their home seized by the rebel leader Gethuz. The ensuing siege was only the first of many that Lycaron would undergo in the ensuing centuries, as its nearby silver mines made it a prize for every imperial pretender who ever tried to seize power in a civil war. It is said that the colony of vultures who inhabit the upper reaches of the Rock have dined on the flesh of every people of Calradia.">
     <Components>
-      <Town id="town_comp_ES4" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_5" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="3800" />
+      <Town id="town_comp_ES4" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_5" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="3000" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="empire_town_m" scene_name_1="empire_town_m" scene_name_2="empire_town_m" scene_name_3="empire_town_m" />
@@ -2223,7 +2223,7 @@
     </CommonAreas>
   </Settlement>
   <!-- From Battanian Car Gryff, Gryf's fortress -->
-  <Settlement id="village_S1_3" name="{=Settlements.Settlement.name.village_S1_3}Kargrev" posX="344.755" posY="541.842" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S1_3}Kargrev was once Car Gryff, the ringfort of the Battanian chief Gryff, but was conquered by the Sturgians two generations ago. It lies alongside the Bay of Varcheg, where the local fishermen take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.">
+  <Settlement id="village_S1_3" name="{=si_ar_village_S1_3_name}Car Gryff" posX="344.755" posY="541.842" culture="Culture.sturgia" text="{=si_ar_village_S1_3_text}Car Gryff - a ringfort founded by the Battanian chieftain Gryff - lies alongside the Bay of Varcheg. The local fishermen take advantage of the relatively sheltered waters of the bay, where fish of many kinds come to spawn.">
     <Components>
       <Village id="village_comp_S1_3" village_type="VillageType.fisherman" hearth="197" bound="Settlement.town_S1" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>
@@ -2491,7 +2491,7 @@
   <!-- Name of a local clan hero-->
   <Settlement id="town_S6" name="{=Settlements.Settlement.name.town_S6}Sibir" owner="Faction.clan_sturgia_6" posX="549.771" posY="586.259" culture="Culture.sturgia" gate_posX="554.0284" gate_posY="584.1961" text="{=PPadNxa6}Sibir was founded in a dark valley amid the Chertyg mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the ambitious Isyaroving family governs this region, but they must always balance their hunger for wealth and men to fight their wars with their subjects' reluctance to provide it.">
     <Components>
-      <Town id="town_comp_S6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="1900" />
+      <Town id="town_comp_S6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="1900" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="sturgia_town_a" scene_name_1="sturgia_town_a" scene_name_2="sturgia_town_a" scene_name_3="sturgia_town_a" />
@@ -2552,7 +2552,7 @@
   </Settlement>
   <Settlement id="town_S7" name="{=Settlements.Settlement.name.town_S7}Revyl" owner="Faction.clan_sturgia_5" posX="296.82" posY="580.832" culture="Culture.sturgia" gate_posX="300.3447" gate_posY="583.3357" text="{=T2E4xKVn}Revyl, chief town of the rocky Kachyar peninsula, was a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the ascent of the Balgardian Gundaroving dynasty.">
     <Components>
-      <Town id="town_comp_S7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="3100" />
+      <Town id="town_comp_S7" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="2500" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="sturgia_town_f" scene_name_1="sturgia_town_f" scene_name_2="sturgia_town_f" scene_name_3="sturgia_town_f" />
@@ -2992,12 +2992,12 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_A2_3" name="{=Settlements.Settlement.name.village_A2_3}Hoqqa" posX="725.889" posY="249.251" culture="Culture.aserai" text="{=Settlements.Settlement.text.village_A2_3}Hoqqa sits on the far east of the Aserai lands, on the Tiyagis river. The land is mostly desert-steppe. Barren most of the year except for scrub, it is covered in grass and flowers in the spring and is fine grazing for horses.">
+  <Settlement id="village_A2_3" name="{=si_ar_village_A2_3_name}Emad Avar" posX="706.388" posY="237.746" culture="Culture.aserai" text="{=si_ar_village_A2_3_text}Emad Avar is a small shepherding village, situated on the grasslands between the Tiagys and Nahr al-Kals rivers. The shepherds here must remain ever vigilant for clouds of dust on the horizon, which herald the approach of nomadic raiders from the steppe.">
     <Components>
-      <Village id="village_comp_A2_3" village_type="VillageType.desert_horse_ranch" hearth="243" bound="Settlement.town_A2" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+      <Village id="village_comp_A2_3" village_type="VillageType.sheep_farm" hearth="327" bound="Settlement.town_A2" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="aserai_village_j" />
+      <Location id="village_center" scene_name="aserai_village_m" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -3007,7 +3007,7 @@
   </Settlement>
   <Settlement id="town_A3" name="{=Settlements.Settlement.name.town_A3}Iyakis" owner="Faction.clan_aserai_4" posX="493.537" posY="111.743" culture="Culture.aserai" gate_posX="492.1279" gate_posY="114.4126" text="{=NFIYqaab}Iyakis sits in a cleft in the Jarjara escarpment, where the waters of the fierce but brief desert rains can be trapped and used for irrigation. For generations ago it was an autonomous outpost of the Empire known as Yachios, dominated by the Carasios clan. Fifty years ago however they saw the writing on the wall for imperial dominion in the southlands, and began intermarrying themselves with the tribes of the Nahasa. Today, known as the Qaraz, they take their places in the councils of the sultanate like any other family of the Aserai.">
     <Components>
-      <Town id="town_comp_A3" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="1800" />
+      <Town id="town_comp_A3" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="3500" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="aserai_town_b" scene_name_1="aserai_town_b" scene_name_2="aserai_town_b" scene_name_3="aserai_town_b" />
@@ -3274,7 +3274,7 @@
   </Settlement>
   <Settlement id="town_A7" name="{=Settlements.Settlement.name.town_A7}Askar" owner="Faction.clan_aserai_5" posX="379.425" posY="118.472" culture="Culture.aserai" gate_posX="380.7408" gate_posY="119.9328" text="{=GChIoZdd}Askar dominates the middle stretches of the Damar River, as it weaves between the bluffs of the Jarjara Escarpment. This region has been thickly populated for thousands of years, but the river is restless, and every few centuries leaps its banks and erases what comes before. This latest regional capital was an imperial encampment  during their furthest penetration of the Nahasa several centuries ago, taken over by the Aserai tribes after the legions withdrew.">
     <Components>
-      <Town id="town_comp_A7" is_castle="false" level="3" background_crop_position="0.401" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.408" prosperity="2100" />
+      <Town id="town_comp_A7" is_castle="false" level="1" background_crop_position="0.401" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.408" prosperity="2100" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="aserai_town_d" scene_name_1="aserai_town_d" scene_name_2="aserai_town_d" scene_name_3="aserai_town_d" />
@@ -3311,7 +3311,7 @@
       <Village id="village_comp_A7_2" village_type="VillageType.desert_horse_ranch" hearth="219" bound="Settlement.town_A7" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="aserai_village_j" />
+      <Location id="village_center" scene_name="Levente_Zenobia" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -3487,7 +3487,7 @@
   </Settlement>
   <Settlement id="castle_village_V4_1" name="{=Settlements.Settlement.name.castle_village_V4_1}Ormanfard" posX="180.271" posY="519.097" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V4_1}Ormanfard sits by a small, fast-flowing river that runs down from the mountains of the Rhennod to fill the lake known as Ocspool. Rains are plentiful and wheat and barley grow well on the hillsides.">
     <Components>
-      <Village id="castle_village_comp_V4_1" village_type="VillageType.wheat_farm" hearth="170" gate_rotation="0.208" bound="Settlement.castle_V4" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V4_1" village_type="VillageType.wheat_farm" hearth="429" gate_rotation="0.208" bound="Settlement.castle_V4" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_b" />
@@ -3617,9 +3617,9 @@
     </CommonAreas>
   </Settlement>
   <!-- Sargot, from Calradic Sargythea, Right Whale bay-->
-  <Settlement id="town_V1" name="{=Settlements.Settlement.name.town_V1}Sargot" owner="Faction.clan_vlandia_1" posX="208.858" posY="386.898" culture="Culture.vlandia" gate_posX="207.1179" gate_posY="388.3654" text="{=aOn6pa0D}Sargot is a common name for hills, promontories, islands and other defensible positions in western Calradia. It refers to a fortified encampment of the Massa, a tribe allied to the the Vlandians who joined their invasion.  Though the Massa moved on, their stay was often so traumatic for a district that the name remained long after their departure. This Sargot was actually founded on the ruins of an imperial town, resettled by Vlandians, and which has supplanted the memory of the community that came before it.">
+  <Settlement id="town_V1" name="{=si_ar_town_V1_name}Velucana" owner="Faction.clan_vlandia_1" posX="208.858" posY="386.898" culture="Culture.vlandia" gate_posX="207.1179" gate_posY="388.3654" text="{=si_ar_town_V1_text}The town of Velucana was one of the first inland colonies of the nascent Calradian Kingdom, founded just two decades after Calradios the Great landed at Charasea. Located to protect the northern approaches to the port city, it grew wealthy over the centuries through trade with the Ialoi peoples along the Biscan coast, and the Battanians of the Uchalion Plateau. However, as the center of power moved northwards to Paravenos, then onwards to the cities of the east, Velucana slowly dwindled, until very few inhabitants remained within the town. Resurgence came in the form of Vlandian settlers, who rebuilt and reoccupied the abandoned ruins of those who came before. Whilst little of the older Calradian settlement now survives, Velucana has remained firmly under imperial influence.">
     <Components>
-      <Town id="town_comp_V1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.378" prosperity="4500" />
+      <Town id="town_comp_V1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.378" prosperity="3000" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="empire_town_e" scene_name_1="empire_town_e" scene_name_2="empire_town_e" scene_name_3="empire_town_e" />
@@ -3682,7 +3682,7 @@
   <!-- From Calradic, Lobster claw  // how about Uxhall precursor - Arma-->
   <Settlement id="town_V2" name="{=Settlements.Settlement.name.town_V2}Ocs Hall" owner="Faction.clan_vlandia_7" posX="181.785" posY="495.348" culture="Culture.vlandia" gate_posX="177.3913" gate_posY="494.0723" text="{=nhmBQIC4}Ocs Hall is one of the few towns in the Vlandian kingdom that was founded after the seizure of the land from the Empire. This valley was once an isolated holdout of Battanians, centered on the Llyn Modris, a lake in a volcanic caldera that was said to be the  seat of a giant. This land was conquered by the Vlandian warlord Oca, who also gave his name to the nearby Ocspool lake. The Battanian tribes were driven inland, and took their legends with them.">
     <Components>
-      <Town id="town_comp_V2" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="4200" />
+      <Town id="town_comp_V2" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="3600" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="vlandia_town_h" scene_name_1="vlandia_town_h" scene_name_2="vlandia_town_h" scene_name_3="vlandia_town_h" />
@@ -3727,12 +3727,12 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_V2_3" name="{=Settlements.Settlement.name.village_V2_3}Fregian" posX="148.609" posY="494.408" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_3}Fregian sits on the flatlands north of Pravend, where the warmth of the Vlandian south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.">
+  <Settlement id="village_V2_3" name="{=si_ar_village_V2_3_name}Modrisa" posX="167.686" posY="505.107" culture="Culture.vlandia" text="{=si_ar_village_V2_3_text}Modrisa sits at the northeastern edge of the Swadian Plains, overlooking the Ocspool. This land was once settled by Battanians, who gave their name to the village, though they are long gone. Today, Vlandian villagers grow wheat here on the temperate coastal plains.">
     <Components>
-      <Village id="village_comp_V2_3" village_type="VillageType.flax_plant" hearth="347" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V2_3" village_type="VillageType.wheat_farm" hearth="410" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_g" />
+      <Location id="village_center" scene_name="Bullero_Long_island" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -3757,7 +3757,7 @@
   <!-- From Calradic Parzeonerea: 'City of He Who Rules By Heaven's Will')-->
   <Settlement id="town_V3" name="{=Settlements.Settlement.name.town_V3}Pravend" owner="Faction.clan_vlandia_2" posX="137.619" posY="477.551" culture="Culture.vlandia" gate_posX="135.3512" gate_posY="478.6222" text="{=Nx0qK2g6}Paravenos was the second major colony founded by Calradios the Great, and it soon succeeded Charasea as the capital of the Calradians. Eventually, the empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the West. When Osric Iron-Arm the Vlandian invaded, he recognized Paravenos would be far more valuable as a seat of power than as simply as a source of loot,  and negotiated its surrender with local senators. It passed to a cadet branch of Osric's line, the dey Tihr clan, and is today known as Pravend.">
     <Components>
-      <Town id="town_comp_V3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_vlandia_town" gate_rotation="0.008" prosperity="3200" />
+      <Town id="town_comp_V3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_vlandia_town" gate_rotation="0.008" prosperity="4200" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="empire_town_b" scene_name_1="empire_town_b" scene_name_2="empire_town_b" scene_name_3="empire_town_b" />
@@ -3808,7 +3808,7 @@
       <Village id="village_comp_V3_3" village_type="VillageType.wheat_farm" hearth="360" gate_rotation="0.008" bound="Settlement.town_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_m" />
+      <Location id="village_center" scene_name="Bullero_Long_island" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -3922,7 +3922,7 @@
   <!-- From the pre-Calradic, jackal's den -->
   <Settlement id="town_V6" name="{=Settlements.Settlement.name.town_V6}Jaculan" owner="Faction.clan_vlandia_3" posX="149.91" posY="392.826" culture="Culture.vlandia" gate_posX="154.0926" gate_posY="392.1964" text="{=R6YJsK89}Jaculan sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. The independent peasantry of this region are known for their heterodox ideas. The Brotherhood of the Woods is but the latest of a series of rebellions to have broken out here, sometimes aided by an aristocracy that considers them a tool to use against rival Vlandian houses.">
     <Components>
-      <Town id="town_comp_V6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4000" />
+      <Town id="town_comp_V6" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4000" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="vlandia_city_a" scene_name_1="vlandia_city_a" scene_name_2="vlandia_city_a" scene_name_3="vlandia_city_a" />
@@ -3942,12 +3942,12 @@
     </CommonAreas>
   </Settlement>
   <!-- From the pre-Calradic hero Armac-->
-  <Settlement id="village_V6_1" name="{=Settlements.Settlement.name.village_V6_1}Arromanc" posX="170.209" posY="374.64" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_1}Arromanc lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
+  <Settlement id="village_V6_1" name="{=si_ar_village_V6_1_name}Ibdeles" posX="155.042" posY="372.676" culture="Culture.vlandia" text="{=si_ar_village_V6_1_text}Ibdeles lies on the northern slopes of the Epiric Hills - a mountain range that divides the warm coastal plains north of the Bay of Charasea from the temperate lands to the north. The villagers here are known as tough foresters, felling timber to supply the shiprights of the Biscan Coast.">
     <Components>
-      <Village id="village_comp_V6_1" village_type="VillageType.olive_trees" hearth="120" gate_rotation="0.058" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V6_1" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_j" />
+      <Location id="village_center" scene_name="vlandia_village_c" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -3957,7 +3957,7 @@
   </Settlement>
   <Settlement id="village_V6_2" name="{=Settlements.Settlement.name.village_V6_2}Mot" posX="185.107" posY="375.822" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_2}Mot lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
     <Components>
-      <Village id="village_comp_V6_2" village_type="VillageType.olive_trees" hearth="615" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V6_2" village_type="VillageType.olive_trees" hearth="615" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_l" />
@@ -3998,7 +3998,7 @@
   <!-- -->
   <Settlement id="town_V7" name="{=Settlements.Settlement.name.town_V7}Charas" owner="Faction.clan_vlandia_4" posX="174.271" posY="336.303" culture="Culture.vlandia" gate_posX="176.499" gate_posY="340.1257" text="{=0cZmKO76}The city known today as Charas is traditionally reckoned to be the first Calradian colony on the shores of their new continent. At the Empire's height, when the capital moved north to Paravenos,  Charasea remained a key hub of sea-faring and trade, while imperial aristocrats built their summer homes on the warm shores of the nearby gulf and cruised their pleasure-boats around its islands. When the Vlandians came, Charas fell into the hands of the ruthless House of dey Cortain, and its wealth funds their ambitions.">
     <Components>
-      <Town id="town_comp_V7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="3000" />
+      <Town id="town_comp_V7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="4500" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="empire_town_s" scene_name_1="empire_town_s" scene_name_2="empire_town_s" scene_name_3="empire_town_s" />
@@ -4201,9 +4201,9 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_B2_2" name="{=Settlements.Settlement.name.castle_village_B2_2}Cantrec" posX="262.262" posY="425.217" culture="Culture.battania" text="{=Settlements.Settlement.text.castle_village_B2_2}Cantrec sits in the rocky Glen of Balasog that climbs up from the imperial lands into the plateau of the Uchafion. The lands is not especially fertile here, but pigs thrive in the bush and shrubland of the heights.">
+  <Settlement id="castle_village_B2_2" name="{=Settlements.Settlement.name.castle_village_B2_2}Cantrec" posX="262.262" posY="425.217" culture="Culture.battania" text="{=si_ar_castle_village_B2_2_text}Cantrec sits in the rocky Glen of Balasog that climbs up from the Calradian lowlands into the Uchalion Plateau. The land is not especially fertile here, but the villagers make do droving vast herds of cattle between the valleys below and the highland meadows above.">
     <Components>
-      <Village id="castle_village_comp_B2_2" village_type="VillageType.swine_farm" hearth="347" gate_rotation="0.508" bound="Settlement.castle_B2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
+      <Village id="castle_village_comp_B2_2" village_type="VillageType.cattle_farm" hearth="347" gate_rotation="0.508" bound="Settlement.castle_B2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="battania_village_l" />
@@ -4342,9 +4342,9 @@
       <Location id="prison" scene_name="battania_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_B7_1" name="{=Settlements.Settlement.name.castle_village_B7_1}Aster" posX="257.248" posY="488.724" culture="Culture.battania" text="{=Settlements.Settlement.text.castle_village_B7_1}Aster sits in a shallow valley between the hills of the northeastern Uchalion and the Rock of Glanys. The people of this region have the reputation of being more focused on trade than warfare, and tribal elders have encouraged the cultivation of mulberry bushes to sustain a small silk industry.">
+  <Settlement id="castle_village_B7_1" name="{=Settlements.Settlement.name.castle_village_B7_1}Aster" posX="257.248" posY="488.724" culture="Culture.battania" text="{=si_ar_castle_village_B7_1_text}Aster sits in a shallow valley between the hills of the northeastern Uchalion and the Rock of Glanys. The people of this region have the reputation of being more focused on trade than warfare, and tribal elders have encouraged the raising of vast herds of cattle to send to the markets of Dunglanys.">
     <Components>
-      <Village id="castle_village_comp_B7_1" village_type="VillageType.silk_plant" hearth="809" gate_rotation="0.008" bound="Settlement.castle_B7" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
+      <Village id="castle_village_comp_B7_1" village_type="VillageType.cattle_farm" hearth="809" gate_rotation="0.008" bound="Settlement.castle_B7" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="battania_village_l" />
@@ -4406,7 +4406,7 @@
       <Village id="village_comp_B1_1" village_type="VillageType.wheat_farm" hearth="131" gate_rotation="0.008" bound="Settlement.town_B1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="battania_village_k" />
+      <Location id="village_center" scene_name="bog_village_002" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -4535,7 +4535,7 @@
       <Village id="castle_village_comp_B4_2" village_type="VillageType.wheat_farm" hearth="118" bound="Settlement.castle_B4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="battania_village_l" />
+      <Location id="village_center" scene_name="bog_village_002" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -4570,7 +4570,7 @@
       <Village id="village_comp_B3_1" village_type="VillageType.trapper" hearth="550" bound="Settlement.town_B3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="battania_village_g" />
+      <Location id="village_center" scene_name="bog_village_002" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -4977,12 +4977,12 @@
       <Location id="prison" scene_name="khuzait_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_K8_1" name="{=Settlements.Settlement.name.castle_village_K8_1}Erzenur" posX="719.985" posY="262.71" culture="Culture.khuzait" text="{=Settlements.Settlement.text.castle_village_K8_1}Erzenur alongside the Tiagys river, known in the local dialect as the Teyagh. The waters here have a distinct reddish tint from the iron in the soil, which the villagers mine from riverside outcrops.">
+  <Settlement id="castle_village_K8_1" name="{=si_ar_castle_village_K8_1_name}Anzeha" posX="735.108" posY="319.705" culture="Culture.khuzait" text="{=si_ar_castle_village_K8_1_text}Anzeha lies on the southern end of the Devseg Plateau, on a desolate plain overlooking the juncture of Ozu and Teyagh rivers. The nomads here drove large herds of cattle between the ever-shrinking patches of grassland, only moving on when the land is devoid of vegetation.">
     <Components>
-      <Village id="castle_village_comp_K8_1" village_type="VillageType.iron_mine" hearth="370" gate_rotation="0.508" bound="Settlement.castle_K8" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+      <Village id="castle_village_comp_K8_1" village_type="VillageType.cattle_farm" hearth="217" gate_rotation="0.508" bound="Settlement.castle_K8" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="khuzait_village_j" />
+      <Location id="village_center" scene_name="khuzait_village_i" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -5029,7 +5029,7 @@
   <!-- clan 3, Arkits, lords 5, 9, 15 -->
   <Settlement id="town_K1" name="{=Settlements.Settlement.name.town_K1}Baltakhand" owner="Faction.clan_khuzait_2" posX="732.504" posY="536.542" culture="Culture.khuzait" gate_posX="730.2615" gate_posY="536.8068" text="{=YNm9vaHw}Baltakhand, the Fortress of the Axe, was settled by the Iltanlar, mountain-dwelling cousins of the Khuzaits. Centuries ago their beys descended into the plains and created the fortress here that guards the portages of Iltan, the network of lakes and rivers that divides the Sturgian lands from the Khuzaits' realm. Bitter winters protected them from the reach of the Empire, but no blast of wind was cutting enough to stop the horsemen of Khan Urkhun, who 40 years ago forced this town to submit to the khanate.">
     <Components>
-      <Town id="town_comp_K1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1800" />
+      <Town id="town_comp_K1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="2800" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="khuzait_city_b" scene_name_1="khuzait_city_b" scene_name_2="khuzait_city_b" scene_name_3="khuzait_city_b" />
@@ -5103,7 +5103,7 @@
   <!-- White fortress-->
   <Settlement id="town_K2" name="{=Settlements.Settlement.name.town_K2}Akkalat" owner="Faction.clan_khuzait_4" posX="726.701" posY="372.704" culture="Culture.khuzait" gate_posX="726.4065" gate_posY="370.1996" text="{=4UNOQQRa}The town that the Khuzaits know as Akkalat, the White Fortress, was built by the fearsome Padishah Hoshtar on one of his periodic attempts to conquer the Devseg. For decades the sacred flame that burned from the top of the citadel symbolized his suzerainty over the tribes here. But the Padishah's realm like the Empire is on the defensive and has retreated to the east. Today the Khan's horsetail banners fly in its place.">
     <Components>
-      <Town id="town_comp_K2" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700" />
+      <Town id="town_comp_K2" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="4500" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="khuzait_town_g" scene_name_1="khuzait_town_g" scene_name_2="khuzait_town_g" scene_name_3="khuzait_town_g" />
@@ -5148,7 +5148,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_K8_2" name="{=Settlements.Settlement.name.castle_village_K8_2}Gereden" posX="703.672" posY="321.564" culture="Culture.khuzait" text="{=Settlements.Settlement.text.village_K2_3}Gereden and its outlying hamlets on the southern end of the Devseg plateau, near the juncture of Ozu and Teyagh rivers. Though rough country, it is known for the fine clay that can be gathered from the ravines.">
+  <Settlement id="castle_village_K8_2" name="{=si_ar_castle_village_K8_2_name}Erzenur" posX="703.672" posY="321.564" culture="Culture.khuzait" text="{=si_ar_castle_village_K8_2_text}Erzenur and its outlying hamlets on the southern end of the Devseg Plateau, near the juncture of Ozu and Teyagh rivers. Though rough country, it is known for the fine clay that can be gathered from the ravines.">
     <Components>
       <Village id="castle_village_comp_K8_2" village_type="VillageType.clay_mine" hearth="272" bound="Settlement.castle_K8" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
     </Components>
@@ -5212,7 +5212,7 @@
   </Settlement>
   <Settlement id="village_K3_2" name="{=Settlements.Settlement.name.village_K3_2}Hanekhy" posX="713.596" posY="491.358" culture="Culture.khuzait" text="{=Settlements.Settlement.text.village_K3_2}Hanekhy sits atop a northern spur of the Akkan hills. The reddish streaks in the soil and rocks testify to rich iron deposits, which are mined by the villagers.">
     <Components>
-      <Village id="village_comp_K3_2" village_type="VillageType.iron_mine" hearth="139" bound="Settlement.town_K3" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
+      <Village id="village_comp_K3_2" village_type="VillageType.iron_mine" hearth="139" bound="Settlement.castle_K4" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="khuzait_village_b" />
@@ -5312,7 +5312,7 @@
   </Settlement>
   <Settlement id="town_K5" name="{=Settlements.Settlement.name.town_K5}Chaikand" owner="Faction.clan_khuzait_1" posX="684.811" posY="421.592" culture="Culture.khuzait" gate_posX="684.8689" gate_posY="419.071" text="{=SUnaVliN}Chaikand sits by the reed-marshes on the edge of Lake Tanaesis. In the years when the east was an imperial protectorate, boats laden with hides, wool and salt shuttled across the lake's placid waters, returning with imperial silks and silver. With the coming of the Khuzaits and the subsequent wars the water-trade stopped, but Chaikand remains a major trade entrepot and military base, the fief of the ruling Urkhunait clan. From the pavilions of his palace, the khan can look out across the lake and see the hazy outline of hills that he may one day graze his horses upon.">
     <Components>
-      <Town id="town_comp_K5" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="3900" />
+      <Town id="town_comp_K5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="4100" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="khuzait_city_a" scene_name_1="khuzait_city_a" scene_name_2="khuzait_city_a" scene_name_3="khuzait_city_a" />
@@ -5385,7 +5385,7 @@
   </Settlement>
   <Settlement id="town_K6" name="{=Settlements.Settlement.name.town_K6}Odokh" owner="Faction.clan_khuzait_5" posX="752.864" posY="336.823" culture="Culture.khuzait" gate_posX="750.5866" gate_posY="335.7404" text="{=ygJkPxyc}The town of Odokh sits at the foot of Kohi Rohini, the mountains of the dawn. Among the most remote of the towns of the Devseg, it is reputed to have been the abode of King Ahhak, a mythical tyrant from whose shoulders flowed serpents. Even today the Kohi Rohini has a reputation for black magic and mystery that helps keep outsiders at bay. The city fell during the Khuzait conquest to the Harfit clan, who have intermarried with the mountain peoples, and who honor their customs, participate in their rituals, and keep their secrets.">
     <Components>
-      <Town id="town_comp_K6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700" />
+      <Town id="town_comp_K6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="3200" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
       <Location id="center" scene_name="khuzait_town_004" scene_name_1="khuzait_town_004" scene_name_2="khuzait_town_004" scene_name_3="khuzait_town_004" />
@@ -6458,7 +6458,7 @@
       <Village id="castle_village_comp_SI_A5_1" village_type="VillageType.wheat_farm" hearth="258" gate_rotation="0.508" bound="Settlement.castle_SI_A5" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="aserai_village_k" />
+      <Location id="village_center" scene_name="Levente_Zenobia" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -6866,7 +6866,7 @@
       <Village id="village_comp_SI_A5_1" village_type="VillageType.steppe_horse_ranch" hearth="221" bound="Settlement.town_SI_A5" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" gate_rotation="0.008" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="khuzait_village_e" />
+      <Location id="village_center" scene_name="bagavi" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -6946,12 +6946,12 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_SI_A2_3" name="{=si_ar_village_SI_A2_3}Emad Avar" posX="706.388" posY="237.746" culture="Culture.aserai" text="{=si_ar_village_SI_A2_3_text}Emad Avar is a small shepherding village, situated on the grasslands between the Tiagys and Nahr al-Kals rivers. The shepherds here must remain ever vigilant for clouds of dust on the horizon, which herald the approach of nomadic raiders from the steppe.">
+  <Settlement id="village_SI_A2_3" name="{=si_ar_village_SI_A2_3_name}Hoqqa" posX="725.889" posY="249.251" culture="Culture.aserai" text="{=si_ar_village_SI_A2_3_text}Hoqqa is one of the easternmost villages of Calradia’s known landmass, sitting on a spur overlooking the Tiyagis River. The land is mostly desert-steppe. Barren most of the year except for scrub, it is covered in grass and flowers in the spring and is fine grazing for horses.">
     <Components>
-      <Village id="village_comp_SI_A2_3" village_type="VillageType.sheep_farm" hearth="327" bound="Settlement.town_A2" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+      <Village id="village_comp_SI_A2_3" village_type="VillageType.desert_horse_ranch" hearth="243" bound="Settlement.castle_SI_A11" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="aserai_village_m" />
+      <Location id="village_center" scene_name="aserai_village_j" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -6982,12 +6982,12 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_SI_K8_3" name="{=si_ar_castle_village_SI_K8_3}Anzeha" posX="735.108" posY="319.705" culture="Culture.khuzait" text="{=si_ar_castle_village_SI_K8_3_text}Anzeha lies on the southern end of the Devseg Plateau, on a desolate plain overlooking the juncture of Ozu and Teyagh rivers. The nomads here drove large herds of cattle between the ever-shrinking patches of grassland, only moving on when the land is devoid of vegetation.">
+  <Settlement id="castle_village_SI_K8_3" name="{=si_ar_castle_village_SI_K8_3}Gereden" posX="719.985" posY="262.71" culture="Culture.khuzait" text="{=si_ar_castle_village_SI_K8_3_text}Gereden alongside the Tiagys River, known in the local dialect as the 'Teyagh'. The waters here have a distinct reddish tint from the iron in the soil, which the villagers mine from riverside outcrops.">
     <Components>
-      <Village id="castle_village_comp_SI_K8_3" village_type="VillageType.cattle_farm" hearth="217" bound="Settlement.castle_K8" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
+      <Village id="castle_village_comp_SI_K8_3" village_type="VillageType.iron_mine" hearth="370" bound="Settlement.town_SI_A5" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="khuzait_village_i" />
+      <Location id="village_center" scene_name="khuzait_village_j" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7060,7 +7060,7 @@
       <Village id="castle_village_comp_SI_ES1_2" village_type="VillageType.olive_trees" hearth="147" gate_rotation="0.208" bound="Settlement.town_ES2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_j" />
+      <Location id="village_center" scene_name="Demestica" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7107,7 +7107,7 @@
       <Village id="village_comp_SI_ES1_1" village_type="VillageType.olive_trees" hearth="251" gate_rotation="0.208" bound="Settlement.town_SI_ES1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_j" />
+      <Location id="village_center" scene_name="Demestica" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7120,7 +7120,7 @@
       <Village id="village_comp_SI_ES1_2" village_type="VillageType.vineyard" hearth="246" bound="Settlement.town_SI_ES1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_s" />
+      <Location id="village_center" scene_name="scn_Asturica" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7255,7 +7255,7 @@
       <Village id="village_comp_SI_K1_2" village_type="VillageType.lumberjack" hearth="370" bound="Settlement.town_SI_K1" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="khuzait_village_k" />
+      <Location id="village_center" scene_name="bagavi" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7291,7 +7291,7 @@
       <Village id="castle_village_comp_SI_K1_2" village_type="VillageType.wheat_farm" hearth="204" gate_rotation="0.508" bound="Settlement.castle_SI_K1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="khuzait_village_c" />
+      <Location id="village_center" scene_name="bagavi" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7479,12 +7479,12 @@
       <Location id="prison" scene_name="vlandia_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_SI_V1_1" name="{=si_ar_castle_village_SI_V1_1}Modrisa" posX="167.686" posY="505.107" culture="Culture.vlandia" text="{=si_ar_castle_village_SI_V1_1_text}Modrisa sits at the northeastern edge of the Swadian Plains, overlooking the Ocspool. This land was once settled by Battanians, who gave their name to the village, though they are long gone. Today, Vlandian villagers grow wheat here on the temperate coastal plains.">
+  <Settlement id="castle_village_SI_V1_1" name="{=si_ar_castle_village_SI_V1_1_name}Fregian" posX="148.609" posY="494.408" culture="Culture.vlandia" text="{=si_ar_castle_village_SI_V1_1_text}Fregian sits on the flatlands north of Paravenos - known to the Vlandians as the 'Swadian Plains' - where the warmth of the south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.">
     <Components>
-      <Village id="castle_village_comp_SI_V1_1" village_type="VillageType.wheat_farm" hearth="410" gate_rotation="0.008" bound="Settlement.castle_SI_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_SI_V1_1" village_type="VillageType.flax_plant" hearth="347" gate_rotation="0.008" bound="Settlement.castle_SI_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_m" />
+      <Location id="village_center" scene_name="Levente_Singone" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7520,7 +7520,7 @@
       <Village id="castle_village_comp_SI_V2_1" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.castle_SI_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_f" />
+      <Location id="village_center" scene_name="Levente_Singone" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7533,7 +7533,7 @@
       <Village id="castle_village_comp_SI_V2_2" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.castle_SI_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_c" />
+      <Location id="village_center" scene_name="Bullero_Long_island" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7556,7 +7556,7 @@
       <Village id="castle_village_comp_SI_V3_1" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.castle_SI_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_f" />
+      <Location id="village_center" scene_name="Levente_Singone" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7564,12 +7564,12 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_SI_V3_2" name="{=si_ar_castle_village_SI_V3_2}Ibdeles" posX="155.042" posY="372.676" culture="Culture.vlandia" text="{=si_ar_castle_village_SI_V3_1_text}Ibdeles lies on the northern slopes of the Epiric Hills - a mountain range that divides the warm coastal plains north of the Bay of Charasea from the temperate lands to the north. The villagers here are known as tough foresters, felling timber to supply the shiprights of the Biscan Coast.">
+  <Settlement id="castle_village_SI_V3_2" name="{=si_ar_castle_village_SI_V3_2_name}Armacis" posX="170.209" posY="374.64" culture="Culture.vlandia" text="{=si_ar_castle_village_SI_V3_1_text}Armacis lies in the Neurval - a valley that runs between the Biscan and Epiric hills. The warm lands of the western provinces of the Calradian Empire are well-suited to the growing of olives.">
     <Components>
-      <Village id="castle_village_comp_SI_V3_2" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.castle_SI_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_SI_V3_2" village_type="VillageType.olive_trees" hearth="120" gate_rotation="0.058" bound="Settlement.castle_SI_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_c" />
+      <Location id="village_center" scene_name="vlandia_village_j" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7618,7 +7618,7 @@
       <Village id="village_comp_SI_V1_1" village_type="VillageType.vineyard" hearth="427" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="empire_village_s" />
+      <Location id="village_center" scene_name="scn_Asturica" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
@@ -7654,7 +7654,7 @@
       <Village id="castle_village_comp_SI_V5_1" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.castle_SI_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
-      <Location id="village_center" scene_name="vlandia_village_f" />
+      <Location id="village_center" scene_name="Levente_Singone" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
