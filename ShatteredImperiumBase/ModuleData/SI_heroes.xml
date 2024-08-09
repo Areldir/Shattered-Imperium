@@ -282,18 +282,18 @@
 	Western Calradian Republic
 	-->
 	<!-- Heraclonos -->
-	<Hero id="lord_NE9_l" spouse="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9" text=""/>
-	<Hero id="AR_lord_1_14" spouse="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9"/>
-	<Hero id="lord_NE9_s" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9"/>
+	<Hero id="lord_NE9_l" spouse="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9" text="{=si_lord_NE9_l_text}Eronys is the Archon of Charasea and head of the Heraclinos - one of the wealthiest and most ancient noble families in the Calradian Empire. He takes immense pride in the status of his family and their impeccable heritage as the custodians of the city of Calradios the Great - the true heartland of the Calradian Empire. Whilst many among the Calradian nobility consider him to be a vain individual, lording his family's reputation over his peers, the people of Charasea see things differently. To the commonfolk, Eronys is a beacon, a symbolic protector of all that Charasea represents - its history, institutions, and customs. An unwilling participant in the civil war that has engulfed the Calradian Empire, he has made several appeals to the courts of both the Comnos and Neretzes families, knowing that only through a unity of purpose might imperial authority in the west of the continent now survive against the oncoming hordes of the Vlandians. However, should diplomacy fail, and war with his peers amongst the Calradian nobility become an inevitability, Eronys has prepared his people for conflict. Years of war against the fierce Battanian hillmen have left him a capable warrior, and there are few who would doubt his competence in leading his legions in battle."/>
+	<Hero id="AR_lord_1_14" spouse="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9" text="{=si_ar_lord_1_14_text}Desadora is the wife of Eronys - the Archon of Charasea. Born to a family of lower standing amongst the city's aristocracy, her marriage into one of the oldest and most prestigious families in the Calradian Empire was certainly a surprise to some. A kind and generous woman, she has done much to improve her husband's reputation among the commonfolk of Charasea, meeting with local guilds and prominent families to gain their donations and support for even the poorest of citizens."/>
+	<Hero id="lord_NE9_s" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9" text="{=si_lord_NE9_s_text}Porphalios is the son of Eronys - the Archon of Charasea. He - like his father - is one day expected to rule over the city, though he shares few of his father's policies. Hardened by his experiences of war against the nascent Vlandian Kingdom, Porphalios has aligned himself with the group of prominent western senators who believe that the invaders should be given no quarter, and that the legions of Calradios should once more march forth to push their enemies into the sea. Such a position is popular, though risky, and it remains to be seen if Porphalios' rule of the ancient capital may bring about a second golden age, or its utter ruin."/>
 	<Hero id="lord_NE9_d" father="Hero.lord_NE9_l" mother="Hero.AR_lord_1_14" faction="Faction.clan_empire_north_9"/>
 	<!-- Dionicos -->
-	<Hero id="lord_1_11" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
+	<Hero id="lord_1_11" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3" text="{=si_lord_1_11_text}Dorios is the head of the Dionicos family, whose ancestors once held vast estates in the lands around the ancient capital of Paravenos. However, looking upon his family's fortunes in latter days, it would be hard to recognize them as the scions of such an ancient and storied family. Forced out of his ancestral home by the Vlandians, Dorios has become little more than a beggar - a vagabond with a noble title. A capable warrior and proven leader, he is determined to reclaim his family's lost estates, and to restore the western provinces of the Calradian Empire, at any cost."/>
 	<Hero id="lord_1_111" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<Hero id="lord_1_12" spouse="Hero.lord_1_11" faction="Faction.clan_empire_west_3"/>
 	<Hero id="lord_1_26" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<Hero id="lord_1_36" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
 	<!-- Varros -->
-	<Hero id="lord_1_9" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_9" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2" text="{=si_lord_1_9_text}Ascyron of the noble house of Varros is the lord of Ortysia, in the contested western provinces of the Calradian Empire. One of the most despised nobles on the continent, he has built upon the reputation of his forefathers for cruelty and an almost fanatical pursuit of wealth and political power. Whilst many saw the rise of the Vlandians as a dire threat - even as portents of the end times - Ascyron saw only an opportunity to aggrandise himself and his family, extorting refugees passing through their land and seizing the lands of his rivals under the pretence of them being 'traitors'. Despite his reputation however, Ascyron is no coward, and has proven most effective in leading his troops against the invaders, making him a useful, if unsavory, ally in these tumultuous times."/>
 	<Hero id="lord_1_10" spouse="Hero.lord_1_9" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_23" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_25" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
@@ -334,9 +334,12 @@
 	-->
 	<!-- Turakizt -->
 	<Hero id="dead_lord_6_1" alive="false" faction="Faction.clan_khuzait_1"/>
-	<Hero id="AR_lord_6_1" spouse="Hero.AR_lord_6_2" faction="Faction.clan_khuzait_1"/>
-	<Hero id="AR_lord_6_2" spouse="Hero.AR_lord_6_1" faction="Faction.clan_khuzait_1"/>
-	<Hero id="AR_lord_6_3" father="Hero.AR_lord_6_1" mother="Hero.AR_lord_6_2" faction="Faction.clan_khuzait_1"/>
+	<Hero id="dead_lord_6_2" alive="false" faction="Faction.clan_khuzait_1"/>
+	<Hero id="dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_1"/>
+	<Hero id="dead_lord_6_4" father="Hero.dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_1"/>
+	<Hero id="AR_lord_6_1" father="Hero.dead_lord_6_1" spouse="Hero.AR_lord_6_2" faction="Faction.clan_khuzait_1" text="{=si_ar_lord_6_1_text}Tulag Khan is the ruler of the Iltanlar and head of the Turakizt tribe - the fierce nomadic peoples who occupy the mountainous fringes of the vast steppe to the east of Calradia. A man whose intelligence and cunning is only matched by his cruelty, he has spent many years roaming the wastes of the east, killing or enslaving any who would dare to challenge the supremacy of his tribe. The prolonged, though rare, spirit of unity that has appeared amongst the usually disparate and warring tribes of the Devseg can be largely attributed to his iron will, casting aside the weaker tribes and welding those who have proven their strength into a singular force capable of challenging the Calradian and Darshi empires for control of the steppe. Despite his warlike manner, Tulag has not neglected his civil duties either, turning the spoils of battle and trade over to the purpose of enriching not only his nobles and warriors, but also the commonfolk accompanying his hordes. Indeed, it is not uncommon to see even the poorest members of an Iltanlar horde clad in more fine jewelery than the wealthiest of Calradian nobles - even if that jewelery is still stained in the blood of its previous owners. Such a reputation has made Tulag Khan a worthy figure for Calradians to both fear and respect."/>
+	<Hero id="AR_lord_6_2" spouse="Hero.AR_lord_6_1" faction="Faction.clan_khuzait_1" text="{=si_ar_lord_6_2_text}Bilik is the wife of Tulag Khan - the ruler of the Iltanlar Khanate. A formidable woman, renowned in her younger years for taming even the most wild of horses she is one of the few in the land who can even claim to equal the great Khan in both valor and cunning. Whilst her husband may ride out to crush his enemies in the field, it is BIlik who ensures domestic enemies remain placated, speaking at councils of the Iltanlar nobility and swaying the opinions of potential adversaries with carefully considered gifts and bribes."/>
+	<Hero id="AR_lord_6_3" father="Hero.AR_lord_6_1" mother="Hero.AR_lord_6_2" faction="Faction.clan_khuzait_1" text="{=si_ar_lord_6_3_text}Khakhun - 'He who shall one day be Khan' - is the son of Tulag and first in line to rule the Iltanlar Khanate. Much like his father, he is a consummate warrior and diplomat, having spent much of his life in the saddle or council tent doing battle with enemies both foreign and domestic. Unlike most of his people, Khakhun has no superstitions about the other peoples of Calradia, surrounding himself with foreign mercenaries, priests and scholars. Such a move has no altruistic basis, however, as Khakhun has set his eyes on further conquest - to ride west and seize the rich lands and city states of the Darshi along the great Lake Tanaz. For this, he says, 'a man must understand all facets of the world, his rivals, and their weaknesses with which a man might defeat them'."/>
 	<Hero id="lord_6_1" spouse="Hero.lord_6_2" faction="Faction.clan_khuzait_1"/>
 	<Hero id="lord_6_2" spouse="Hero.lord_6_1" faction="Faction.clan_khuzait_1"/>
 	<Hero id="lord_6_7" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1"/>
@@ -344,17 +347,14 @@
 	<Hero id="lord_6_101" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1"/>
 	<Hero id="lord_6_13" father="Hero.lord_6_1" faction="Faction.clan_khuzait_1"/>
 	<!-- Gunalait -->
-	<Hero id="dead_lord_6_2" alive="false" faction="Faction.clan_khuzait_2"/>
-	<Hero id="lord_6_3" spouse="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
+	<Hero id="lord_6_3" spouse="Hero.lord_6_4" faction="Faction.clan_khuzait_2" text="{=si_lord_6_3_text}Kuruntai is the head of the Gunalait - one of the most ferocious warrior tribes of the Iltanlar Khanate. Centuries ago, his ancestors migrated into the Devseg, establishing their camp along one of the primary trade routes between the Calradian and Darshi empires and extorting merchants from both. Such looted treasures brought great wealth to the Gunalait, making Kuruntai one of the wealthiest and most influential figures in the east of the continent. Known for leading from the front, Kuruntai has built a reputation for upholding the proud warrior traditions of his forefathers, making him an opponent the wise would readily avoid."/>
 	<Hero id="lord_6_4" spouse="Hero.lord_6_3" father="Hero.dead_lord_6_2" faction="Faction.clan_khuzait_2"/>
 	<Hero id="lord_6_8" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
 	<Hero id="lord_6_81" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
 	<Hero id="lord_6_11" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
 	<!-- Baljugit -->
-	<Hero id="dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3"/>
-	<Hero id="dead_lord_6_4" father="Hero.dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_5" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3" text="{=si_lord_6_5_text}Mizam of the Baljugit tribe is a relatively unknown figure throughout most of Calradia, though his influence on the eastern lands of the steppe cannot be understated. From his estates in the foothills of the Sulan Dag Mountains, he controls one of the only sources of timber in that barren realm of endless grasslands and jagged peaks, without which civilization would not be able to grow beyond the shores of the great Lake Tanaz. Such a fact is not lost on Mizam, who has grown his family fortunes greatly through deals with the less mercantile tribes. Whilst some complain that his monopoly is unfair, and his prices extortionate, none can deny that whilst he remains in power, all who dwell in the Devseg must rely upon his favor."/>
 	<Hero id="AR_lord_6_5" faction="Faction.clan_khuzait_3"/>
-	<Hero id="lord_6_5" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3"/>
 	<Hero id="lord_6_51" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
 	<Hero id="lord_6_9" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
 	<Hero id="lord_6_12" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
@@ -397,9 +397,9 @@
 	Sturgian Principalities
 	-->
 	<!-- Gundaroving -->
-	<Hero id="lord_2_1" spouse="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="Sivur is the Grand Prince of the Sturgians. Whilst a monarch in his own right, he has no real authority over the other Sturgian principalities, instead being elected from amongst his peers to lead the Sturgian people on the field of battle. A calculating and ruthless authoritarian, he wishes nothing more than to gain effective dominance over the other ruling Sturgian clans, however faces stiff resistence to his centralising actions from the other princes."/>
-	<Hero id="lord_2_2" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_7" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
+	<Hero id="lord_2_1" spouse="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="{=si_lord_2_1_text}Sivur is the Boyar of the Gundaroving and presiding ruler of the Sturgian Chiefdoms. He, like many boyars before him, has had to carefully maintain the balance of power between the warring groups of Sturgians and Vakken that make up his realm. Cunning and ruthless in both warfare and diplomacy, he has managed to thus far keep his peers in line by tactical displays of force, destroying minor threats with absolute might so that the other Sturgians may both fear and respect him. A Nord by blood, Sivur is always sure to make the best of his heritage and the reputation of his people, contracting bands of Nordic raiders to do his bidding in exchange for lands and titles within his realm. Such a practice remains controversial with the other boyars, who view Nords as little more than foreign savages, however few would dare openly question the Gundaroving, lest they be met with the cold axes of the north-men. Ever vigilant for opportunities to expand his power, Sivur views the ongoing civil war in the Calradian Empire as a chance for his people to reclaim much of their lost lands, and to expand their reach into the lands of the Calradians and their vassalized Vakken servants."/>
+	<Hero id="lord_2_2" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1" text="{=si_lord_2_2_text}Gudra is the wife of Sivur - Boyar of the Gundaroving and presiding ruler of the Sturgian Chiefdoms. A Nord by blood, just like her husband, she is scorned by the other highborn women of the realm for her forthright attitude and strange customs. Whereas many Sturgian women would prefer to remain in their halls, warmed by the hearths and surrounded by strong walls, Gudra prefers the life of a shield maiden, fighting alongside her husband and his warriors for the glory of her people. A harsh administrator and crude diplomat, she prefers to negotiate with the blade of her sword, rather than weak words."/>
+	<Hero id="lord_2_7" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1" text="{=si_lord_2_7_text}Temyr is the eldest son of Sivur - Boyar of the Gundaroving and presiding ruler of the Sturgian Chiefdoms. A proud Nord, he lacks his father's subtleties in matters of state, preferring to model his leadership on that of the leaders of the Nordic warbands in his father's service. 'If a man wishes not to wield this,' he often says, brandishing his favourite axe, 'then he should be ruled over by one who shall!' Whilst many are quick to attribute his attitude to youthful ignorance, there are those who know his true ambitions to unite all the Sturgian Chiefdoms under a singular ruler - a prince - who might turn their fortunes and forge them into a force capable of standing alongside the great powers of the continent."/>
 	<Hero id="lord_2_7_1" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_10" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_13" faction="Faction.clan_sturgia_1"/>
@@ -408,14 +408,14 @@
 	<Hero id="lord_2_13_3" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_13_4" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
 	<!-- Togaroving -->
-	<Hero id="lord_2_17" spouse="Hero.lord_2_17_1" faction="Faction.clan_sturgia_5"/>
+	<Hero id="lord_2_17" spouse="Hero.lord_2_17_1" faction="Faction.clan_sturgia_5" text="{=si_lord_2_17_text}Ragandur is the Boyar of the Togaroving Chiefdom and ruler of the ancient Sturgian city of Revyl. He is immensely proud of his ancestry as one of the oldest continuous lineages in the Sturgian nobility, stretching back to before the days of Calradios the Great. A devious politician, he jealously eyes the power that the Gundaroving boyars have claimed for themselves over recent generations, but knows that he does not have the resources to openly challenge them for the rulership of the realm. 'A savage Nord may rule Sturgia for now,' he whispers in secluded conversations, 'but it is the blood of Sturgia that made this land, and someday soon we shall retake our rightful place as its rulers!'"/>
 	<Hero id="lord_2_17_1" spouse="Hero.lord_2_17" faction="Faction.clan_sturgia_5"/>
 	<Hero id="lord_2_22" spouse="Hero.lord_2_22_1" faction="Faction.clan_sturgia_5"/>
 	<Hero id="lord_2_22_1" spouse="Hero.lord_2_22" faction="Faction.clan_sturgia_5"/>
 	<Hero id="lord_2_24" spouse="Hero.lord_2_24_1" faction="Faction.clan_sturgia_5"/>
 	<Hero id="lord_2_24_1" spouse="Hero.lord_2_24" faction="Faction.clan_sturgia_5"/>
 	<!-- Hayekoving -->
-	<Hero id="lord_2_5" spouse="Hero.lord_2_6" faction="Faction.clan_sturgia_3" text="{=6lZGNChB}Porev is lord of the Kaldaving, one of the younger houses of the Vaegirians. His people have always been as interested in trade as they have been in war, although Godun himself is everything a boyar might want: cooperative, prompt to pay his feudal dues, quick to respond to his liege's calls to arms. Yet Vidar has never fully trusted him, because it is hard to imagine a Kaldaving without his own long-term plan for personal aggrandizement."/>
+	<Hero id="lord_2_5" spouse="Hero.lord_2_6" faction="Faction.clan_sturgia_3" text="{=si_lord_2_5_text}Porev is the ruling Boyar of the Hayekoving and lord of Sibir - the Sturgian town set among the Chertyg Mountains. Mild-mannered and cautious, he prefers the marketplace to the battlefield, spending much of his time negotiating highly extortionate commercial treaties with the Vakken inhabitants of his northern realm. However, competition with enterprizing Vaegir merchants has nearly run the Hayekoving coffers dry, and now Porev trades more on influence than any currency. With little to pay his warriors for protection, he worries that if he cannot exploit the ongoing civil war to his advantage, the position of his house within the Sturgian nobility may be lost."/>
 	<Hero id="lord_2_6" spouse="Hero.lord_2_5" faction="Faction.clan_sturgia_3"/>
 	<Hero id="lord_2_9" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
 	<Hero id="lord_2_12" father="Hero.lord_2_5" mother="Hero.lord_2_6" faction="Faction.clan_sturgia_3"/>
@@ -523,20 +523,20 @@
 	Spahanfar Satrapy
 	-->
 	<!-- Spahanfar -->
-	<Hero id="AR_lord_12_1" spouse="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1" text="Nariman is the current Shah of the Spahanfar Satrapy. A proven commander known for fighting at the head of his armies, he has led the Spahanfari to great victories over the Aserai and Calradian Empire, ensuring the protection of his foothold in the Nahasa. Though he recognizes the authority of the Padishah, he knows that to maintain his own power, he must be every bit the stalwart monarch."/>
-	<Hero id="AR_lord_12_2" spouse="Hero.AR_lord_12_1" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_3" spouse="Hero.AR_lord_12_4" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
+	<Hero id="AR_lord_12_1" spouse="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1" text="{=si_ar_lord_12_1_text}Nariman is the Shah of the Spahanfar Satrapy and ruler of all lands belonging to the Padishah in Calradia. A proven commander known for fighting at the head of his armies, he has led the Spahanfari to great victories over the Aserai Emirates and Calradian Empire, ensuring the protection of his foothold in the Nahasa. From his many palaces in the Darshi borderlands, he reigns over a vast realm of arid deserts, featureless steppe and craggy mountains, occupied by a myriad of peoples who speak in a myriad of tongues. For nearly two centuries, his house has carried the banner of the Padishah proudly forward, even coming to rival the Calradian Empire itself on more than one occasion. Now, with that empire descending into civil war, and the thunder of hooves echoing across the desert and steppe, heralding the arrival of new foes, Nariman finds himself in a position unlike any of his ancestors, facing threats to his realm from all sides. Though he recognizes the authority of the Padishah, he knows that to maintain his own power, he must be every bit a sovereign in his own right, and so frequently holds court with his nobles and sends envoys to the peoples of Calradia to dictate the Padishah's terms, and of course, his own."/>
+	<Hero id="AR_lord_12_2" spouse="Hero.AR_lord_12_1" faction="Faction.clan_spahad_1" text="{=si_ar_lord_12_2_text}Janasa is the wife of Nariman - Shah of the Spahanfar Satrapy and ruler of all lands belonging to the Padishah in Calradia. A noblewoman typical of her class within Darshi society, she spends much of her time at one of her husband's many palaces, hosting dignitaries and running the mundane affairs of her house. Kind and generous with her time and money, she is well-liked by the common people of the Spahanfar Satrapy, even if most of them have not seen her beyond the windows of her home in the Shah's palace."/>
+	<Hero id="AR_lord_12_3" spouse="Hero.AR_lord_12_4" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1" text="{=si_ar_lord_12_3_text}Wasur is the son and heir of Nariman - the Shah of the Spahanfar Satrapy and ruler of all lands belonging to the Padishah in Calradia. An acclaimed commander in battle, he has led his father's warriors in many campaigns against the nomads of the Nahasa and Devseg, winning glories for his people and realm unseen since the days of the Padishah Hoshtar. Unlike his father, who would wish to maintain the borders of the Spahanfar Satrapy during these uncertain times, Wasur views the Calradian civil war as a great chance to expand his realm into new territories. His cavalry - known as the 'Gilded Ones' for their shining armor - strike fear into the Aserai and Iltanlar alike, and few would stand in the way of his ambitions."/>
 	<Hero id="AR_lord_12_4" spouse="Hero.AR_lord_12_3" faction="Faction.clan_spahad_1"/>
 	<Hero id="AR_lord_12_13" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
 	<Hero id="AR_lord_12_14" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
 	<!-- Dhami -->
-	<Hero id="AR_lord_12_5" spouse="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
+	<Hero id="AR_lord_12_5" spouse="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2" text="{=si_ar_lord_12_5_text}Lazur is the Spahbed of the Dhami - the second house of the Spahanfar Satrapy. Once, his ancestors sat on the 'Council of the Padishah' and held almost unrivalled power over the people of the Darshi Empire. Then, they are little more than border guards, sent to the frontier of Calradia to wither and die. However, Lazur, like his father and grandfather before him, has not sat idly and accepted the fate of his house, turning his reputation to gain monopolies over trade in and out of the western imperial borderlands. He now rivals the Shah of the Spahanfari in wealth and power, and remains ever vigilant for new avenues to expand his influence and standing in the realm."/>
 	<Hero id="AR_lord_12_6" spouse="Hero.AR_lord_12_5" faction="Faction.clan_spahad_2"/>
 	<Hero id="AR_lord_12_7" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" spouse="Hero.AR_lord_12_8" faction="Faction.clan_spahad_2"/>
 	<Hero id="AR_lord_12_8" spouse="Hero.AR_lord_12_7" faction="Faction.clan_spahad_2"/>
 	<Hero id="AR_lord_12_9" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
 	<!-- Musalan -->
-	<Hero id="AR_lord_12_10" faction="Faction.clan_spahad_3"/>
+	<Hero id="AR_lord_12_10" faction="Faction.clan_spahad_3" text="{=si_ar_lord_12_10_text}Ghalaza is the head of house Musalan and sworn vassal of the Spahanfar Satrapy. Descended from a lineage of proud warriors from the southernmost reaches of the Darshi Empire, her circumstances demonstrate the unique conditions of life in the western borderlands. In an unusual move for the conservative Darshi, Ghalaza was allowed to follow the customs of her ancestral peoples, and so inherited her familial estates and titles on the death of her husband. A formidable warrior and capable administrator in her own right, she has faced no difficulties in assuming the mantle of ruler, proving equally capable in battles of strength and wits. Whilst some may deride her feminine nature, few would dare to challenge her "/>
 	<Hero id="AR_lord_12_11" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_12" faction="Faction.clan_spahad_3"/>
 	<Hero id="AR_lord_12_12" spouse="Hero.AR_lord_12_11" faction="Faction.clan_spahad_3"/>
 	<Hero id="AR_lord_12_15" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_16" faction="Faction.clan_spahad_3"/>
@@ -581,7 +581,7 @@
 	Alkit Khanate
 	-->
 	<!-- Alkit -->
-	<Hero id="AR_lord_10_1" spouse="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1" text="Khomar is the current Khan of the Alkit. A merciless and cruel ruler, he has driven the tribes harshly onwards in a bloody march of conquest, destroying vast hosts of Sturgians and Vakken to carve out a sizeable realm in Calradia's frozen north. Whilst undoubtedly a great warrior Khomar has shown little patience for ruling and so his largely subjects, largely made up of conquered Sturgians, show little respect for his authority, whilst the leaders of his vassal clans ever eye his throne. He will have to fight hard to maintain his realm."/>
+	<Hero id="AR_lord_10_1" spouse="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
 	<Hero id="AR_lord_10_2" spouse="Hero.AR_lord_10_1" faction="Faction.clan_alkit_1"/>
 	<Hero id="AR_lord_10_3" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
 	<Hero id="AR_lord_10_4" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_alkit_1"/>
@@ -589,7 +589,7 @@
 	<Hero id="AR_lord_10_20" spouse="Hero.AR_lord_10_19" faction="Faction.clan_alkit_1"/>
 	<Hero id="AR_lord_10_21" father="Hero.AR_lord_10_19" mother="Hero.AR_lord_10_20" faction="Faction.clan_alkit_1"/>
 	<!-- Yanait -->
-	<Hero id="AR_lord_10_5" spouse="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2" text="Erigai is the head of the Yanait, one of the most powerful tribes among the vassals of the Alkit. A hardened warrior who lords over his tribe with an iron fist, he has proved an effective, if unpopular, leader in their migration into the north. Ever ambitious, some whisper he is biding his time until a moment of Alkit weakness when he may be able to seize control."/>
+	<Hero id="AR_lord_10_5" spouse="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2"/>
 	<Hero id="AR_lord_10_6" spouse="Hero.AR_lord_10_5" faction="Faction.clan_alkit_2"/>
 	<Hero id="AR_lord_10_7" spouse="Hero.AR_lord_10_8" faction="Faction.clan_alkit_2"/>
 	<Hero id="AR_lord_10_8" spouse="Hero.AR_lord_10_7" father="Hero.AR_lord_10_5" mother="Hero.AR_lord_10_6" faction="Faction.clan_alkit_2"/>
@@ -612,7 +612,7 @@
 	Byalic Confederation
 	-->
 	<!-- Aurvantus -->
-	<Hero id="AR_lord_13_1" spouse="Hero.AR_lord_13_2" faction="Faction.clan_jokbyalic_1" text="The current High Chieftain of the Jokbyalics is Thrasaric of the Aurvantus clan. It was he who led the Jokbyalics in their conquest of the lands to the east of Lake Tanaesis, carving out a new territory with at least notional safety from the Calradian Empire's legions, then defeated the legions of Emperor Themestios in open battle. However, these wars were costly, and now Thrasaric finds his realm threatened from all sides by the nomads of the steppe, foresters to the north, and the ever-present hand of the Calradian Empire."/>
+	<Hero id="AR_lord_13_1" spouse="Hero.AR_lord_13_2" faction="Faction.clan_jokbyalic_1"/>
 	<Hero id="AR_lord_13_2" spouse="Hero.AR_lord_13_1" faction="Faction.clan_jokbyalic_1"/>
 	<Hero id="AR_lord_13_3" father="Hero.AR_lord_13_1" mother="Hero.AR_lord_13_2" spouse="Hero.AR_lord_13_4" faction="Faction.clan_jokbyalic_1"/>
 	<Hero id="AR_lord_13_4" spouse="Hero.AR_lord_13_3" faction="Faction.clan_jokbyalic_1"/>
@@ -672,7 +672,7 @@
 	Quyazic Empire
 	-->
 	<!-- Naumatos -->
-	<Hero id="AR_lord_9_1" spouse="Hero.AR_lord_9_2" faction="Faction.clan_quyaz_1" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_9_1" spouse="Hero.AR_lord_9_2" faction="Faction.clan_quyaz_1"/>
 	<Hero id="AR_lord_9_2" spouse="Hero.AR_lord_9_1" faction="Faction.clan_quyaz_1"/>
 	<Hero id="AR_lord_9_3" father="Hero.AR_lord_9_1" mother="Hero.AR_lord_9_2" faction="Faction.clan_quyaz_1"/>
 	<Hero id="AR_lord_9_4" father="Hero.AR_lord_9_1" mother="Hero.AR_lord_9_2" faction="Faction.clan_quyaz_1"/>
@@ -704,7 +704,7 @@
 	Tanash City States
 	-->
 	<!-- Zarinzadeh -->
-	<Hero id="AR_lord_14_1" spouse="Hero.AR_lord_14_2" faction="Faction.clan_tanash_1" text="Khesrow is the current ruler of the Zarinzadeh family, speaking for the city state of Makeb and presiding over the noble council of the Tanash city states. Though not a ruler in his own right, Khesrow does maintain substantial sway over the decisions of the council, utilising his vast wealth to convince the other nobles of his cause. With the Calradian Empire in turmoil, he seeks others to fight his battles, advancing from the shadows a cause for Tanashi independence."/>
+	<Hero id="AR_lord_14_1" spouse="Hero.AR_lord_14_2" faction="Faction.clan_tanash_1"/>
 	<Hero id="AR_lord_14_2" spouse="Hero.AR_lord_14_1" faction="Faction.clan_tanash_1"/>
 	<Hero id="AR_lord_14_3" spouse="Hero.AR_lord_14_4" father="Hero.AR_lord_14_1" mother="Hero.AR_lord_14_2" faction="Faction.clan_tanash_1"/>
 	<Hero id="AR_lord_14_4" spouse="Hero.AR_lord_14_3" faction="Faction.clan_tanash_1"/>
@@ -733,7 +733,7 @@
 	Vaegirs
 	-->
 	<!-- Vagiraving -->
-	<Hero id="AR_lord_8_1" spouse="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1" text="The current High Boyar of the Vaegirians is Vidar. Stoic and proud, he maintains a staunch defence of the senatorial privilege against those boyars who wish for a more dictatorial ruler. His close ties to the Calradian Empire, particularly to the Leonipardes; his wife's family, grant him a unique position in Calradian politics."/>
+	<Hero id="AR_lord_8_1" spouse="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
 	<Hero id="AR_lord_8_2" spouse="Hero.AR_lord_8_1" mother="Hero.lord_1_16" faction="Faction.clan_vaegiria_1"/>
 	<Hero id="AR_lord_8_3" father="Hero.AR_lord_8_1" mother="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
 	<Hero id="AR_lord_8_4" father="Hero.AR_lord_8_1" mother="Hero.AR_lord_8_2" faction="Faction.clan_vaegiria_1"/>
@@ -797,7 +797,7 @@
 	Paravenos Archontate
 	-->
 	<!-- Akropolites -->
-	<Hero id="AR_lord_16_1" spouse="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_16_1" spouse="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
 	<Hero id="AR_lord_16_2" spouse="Hero.AR_lord_16_1" faction="Faction.clan_paravenos_1"/>
 	<Hero id="AR_lord_16_3" father="Hero.AR_lord_16_1" mother="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
 	<Hero id="AR_lord_16_4" father="Hero.AR_lord_16_1" mother="Hero.AR_lord_16_2" faction="Faction.clan_paravenos_1"/>
@@ -805,7 +805,7 @@
 	<Hero id="AR_lord_16_6" spouse="Hero.AR_lord_16_5" faction="Faction.clan_paravenos_1"/>
 	<Hero id="AR_lord_16_7" father="Hero.AR_lord_16_5" mother="Hero.AR_lord_16_6" faction="Faction.clan_paravenos_1"/>
 	<!-- Rendakis -->
-	<Hero id="AR_lord_16_8" spouse="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_16_8" spouse="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
 	<Hero id="AR_lord_16_9" spouse="Hero.AR_lord_16_8" faction="Faction.clan_paravenos_2"/>
 	<Hero id="AR_lord_16_10" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
 	<Hero id="AR_lord_16_11" father="Hero.AR_lord_16_8" mother="Hero.AR_lord_16_9" faction="Faction.clan_paravenos_2"/>
@@ -813,7 +813,7 @@
 	Yachios Archontate
 	-->
 	<!-- Carasios -->
-	<Hero id="AR_lord_15_1" spouse="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_15_1" spouse="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
 	<Hero id="AR_lord_15_2" spouse="Hero.AR_lord_15_1" faction="Faction.clan_yachios_1"/>
 	<Hero id="AR_lord_15_3" father="Hero.AR_lord_15_1" mother="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
 	<Hero id="AR_lord_15_4" father="Hero.AR_lord_15_1" mother="Hero.AR_lord_15_2" faction="Faction.clan_yachios_1"/>
@@ -821,8 +821,24 @@
 	<Hero id="AR_lord_15_6" spouse="Hero.AR_lord_15_5" faction="Faction.clan_yachios_1"/>
 	<Hero id="AR_lord_15_7" father="Hero.AR_lord_15_5" mother="Hero.AR_lord_15_6" faction="Faction.clan_yachios_1"/>
 	<!-- Khalkapatres -->
-	<Hero id="AR_lord_15_8" spouse="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2" text="PLACEHOLDER"/>
+	<Hero id="AR_lord_15_8" spouse="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
 	<Hero id="AR_lord_15_9" spouse="Hero.AR_lord_15_8" faction="Faction.clan_yachios_2"/>
 	<Hero id="AR_lord_15_10" father="Hero.AR_lord_15_8" mother="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
 	<Hero id="AR_lord_15_11" father="Hero.AR_lord_15_8" mother="Hero.AR_lord_15_9" faction="Faction.clan_yachios_2"/>
+	<!--
+	Tahyai Emirates
+	-->
+	<!-- Banu Harranad -->
+	<Hero id="AR_lord_19_1" spouse="Hero.AR_lord_19_2" faction="Faction.clan_tahyai_1"/>
+	<Hero id="AR_lord_19_2" spouse="Hero.AR_lord_19_1" faction="Faction.clan_tahyai_1"/>
+	<Hero id="AR_lord_19_3" father="Hero.AR_lord_19_1" mother="Hero.AR_lord_19_2" faction="Faction.clan_tahyai_1"/>
+	<Hero id="AR_lord_19_4" spouse="Hero.AR_lord_19_5" faction="Faction.clan_tahyai_1"/>
+	<Hero id="AR_lord_19_5" spouse="Hero.AR_lord_19_4" faction="Faction.clan_tahyai_1"/>
+	<Hero id="AR_lord_19_6" father="Hero.AR_lord_19_4" mother="Hero.AR_lord_19_5" faction="Faction.clan_tahyai_1"/>
+	<!-- Banu Sirsan -->
+	<Hero id="AR_lord_19_7" spouse="Hero.AR_lord_19_8" faction="Faction.clan_tahyai_2"/>
+	<Hero id="AR_lord_19_8" spouse="Hero.AR_lord_19_7" faction="Faction.clan_tahyai_2"/>
+	<Hero id="AR_lord_19_9" faction="Faction.clan_tahyai_2"/>
+	<Hero id="AR_lord_19_10" father="Hero.AR_lord_19_7" mother="Hero.AR_lord_19_8" faction="Faction.clan_tahyai_2"/>
+	<Hero id="AR_lord_19_11" father="Hero.AR_lord_19_7" mother="Hero.AR_lord_19_8" faction="Faction.clan_tahyai_2"/>
 </Heroes>

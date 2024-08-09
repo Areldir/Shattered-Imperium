@@ -30,6 +30,13 @@
 			<Trait id="Calculating" value="2"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_3_18"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="ase_king_template_bat_m"/>
+			<EquipmentSet id="ase_king_template_civ_m" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_3_18_1']/@name">
 		<xsl:attribute name="name">Nawa</xsl:attribute>
 	</xsl:template>
@@ -250,6 +257,13 @@
 	<!-- fen Derngil -->
 	<xsl:template match="NPCCharacter[@id='lord_5_3']/@name">
 		<xsl:attribute name="name">Aetaric</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_5_3"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="bat_king_template_bat_m"/>
+			<EquipmentSet id="bat_king_template_civ_m" civilian="true"/>
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_5_3_1']/@name">
 		<xsl:attribute name="name">Fionara</xsl:attribute>
@@ -1020,6 +1034,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_NE9_l']/@culture">
 		<xsl:attribute name="culture">Culture.empire_w</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_NE9_l"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="w_emp_king_template_bat_m"/>
+			<EquipmentSet id="w_emp_king_template_civ_m" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_NE9_s']/@name">
 		<xsl:attribute name="name">Porphalios</xsl:attribute>
 	</xsl:template>
@@ -1470,6 +1491,13 @@
 	<xsl:template match="NPCCharacter[@id='lord_2_1']/@name">
 		<xsl:attribute name="name">Sivur</xsl:attribute>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_2_1"]/Equipments'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<EquipmentSet id="stu_king_template_bat_m"/>
+			<EquipmentSet id="stu_king_template_civ_m" civilian="true"/>
+		</xsl:copy>
+	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_2']/@name">
 		<xsl:attribute name="name">Gudra</xsl:attribute>
 	</xsl:template>
@@ -1848,8 +1876,8 @@
 	<xsl:template match='NPCCharacter[@id="lord_4_5"]/Equipments'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
-			<EquipmentSet id="AR_mas_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="AR_mas_king_template_bat_m"/>
+			<EquipmentSet id="AR_mas_king_template_civ_m" civilian="true"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_9']/@name">

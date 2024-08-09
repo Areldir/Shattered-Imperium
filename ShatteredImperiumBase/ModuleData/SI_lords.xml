@@ -1,45 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<NPCCharacter id="AR_lord_test_a" default_group="Infantry" level="6" name="A - Lord Test" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.fighter_khuzait"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="120"/>
-			<skill id="OneHanded" value="20"/>
-			<skill id="TwoHanded" value="5"/>
-			<skill id="Polearm" value="20"/>
-			<skill id="Bow" value="5"/>
-			<skill id="Crossbow" value="5"/>
-			<skill id="Throwing" value="5"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentSet id="khu_civ_template_nomad"/>
-			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_lady_test_a" default_group="Infantry" level="6" name="A - Lady Test" is_female="true" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.fighter_khuzait"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="120"/>
-			<skill id="OneHanded" value="20"/>
-			<skill id="TwoHanded" value="5"/>
-			<skill id="Polearm" value="20"/>
-			<skill id="Bow" value="5"/>
-			<skill id="Crossbow" value="5"/>
-			<skill id="Throwing" value="5"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentSet id="khu_civ_template_lady_normal"/>
-			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 	<!--
 	Aserai Emirates
 	-->
@@ -235,8 +195,8 @@
 			<Trait id="Valor" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_emp_empress_battletemplate"/>
-			<EquipmentSet id="AR_emp_empress_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="s_emp_king_template_bat_f"/>
+			<EquipmentSet id="s_emp_king_template_civ_f" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_9" name="{=si_ar_lord_1_9_name}Themestios" age="42" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -252,8 +212,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="AR_emp_emperor_battletemplate"/>
-			<EquipmentSet id="AR_emp_emperor_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="s_emp_king_template_bat_m"/>
+			<EquipmentSet id="s_emp_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_10" name="{=si_ar_lord_1_10_name}Junaea" age="20" voice="softspoken" is_hero="true" is_female="true" default_group="Cavalry" culture="Culture.empire" occupation="Lord">
@@ -288,8 +248,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="AR_emp_emperor_battletemplate"/>
-			<EquipmentSet id="AR_emp_emperor_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="s_emp_king_template_bat_m"/>
+			<EquipmentSet id="s_emp_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_12" name="{=si_ar_lord_1_12_name}Pelicos" age="44" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -338,8 +298,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="AR_emp_emperor_battletemplate"/>
-			<EquipmentSet id="AR_emp_emperor_civiliantemplate" civilian="true"/>
+			<EquipmentSet id="s_emp_king_template_bat_m"/>
+			<EquipmentSet id="s_emp_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_16" name="{=si_ar_lord_1_16_name}Ulbos" default_group="Cavalry" age="71" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
@@ -379,8 +339,8 @@
 			<Trait id="Calculating" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_emp_sunemperor_battletemplate"/>
-			<EquipmentSet id="emp_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="n_emp_king_template_bat_m"/>
+			<EquipmentSet id="n_emp_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_1_6" name="{=si_ar_lord_1_6_name}Apolytea" age="46" voice="softspoken" is_female="true" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -450,13 +410,12 @@
 			<Trait id="Manager" value="6"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Honor" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="khu_bat_template_flamboyant"/>
-			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="khu_king_template_bat_m"/>
+			<EquipmentSet id="khu_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_6_2" name="{=FLrdHzSf}Bilik" age="47" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true" face_mesh_cache="true">
@@ -465,10 +424,11 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Politician" value="4"/>
+			<Trait id="Politician" value="6"/>
 			<Trait id="Manager" value="7"/>
-			<Trait id="Mercy" value="1"/>
-			<Trait id="Valor" value="1"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="khu_bat_template_medium"/>
@@ -518,7 +478,7 @@
 	<!--
 	Vlandian Kingdom
 	-->
-	<NPCCharacter id="AR_lord_4_1" name="{=jEIsVazl}Osric 'Iron-Arm'" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+	<NPCCharacter id="AR_lord_4_1" name="{=si_ar_lord_4_1}Osric 'Iron-Arm'" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="22" weight="0.5" build="0.7" key="0000FC021000234598A25E94DC849677396A8C717B876E16C7B287AB79C2A84B0077700307C96766000000000000000000000000000000000000000000F03000"/>
 		</face>
@@ -534,11 +494,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="AR_vla_king_battletemplate"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+			<EquipmentSet id="vla_king_template_bat_m"/>
+			<EquipmentSet id="vla_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_4_2" name="{=5N6i1jQP}Calatild" age="18" voice="ironic" is_female="true" culture="Culture.vlandia" is_hero="true" default_group="Cavalry" occupation="Lord">
+	<NPCCharacter id="AR_lord_4_2" name="{=si_ar_lord_4_2}Calatild" age="18" voice="ironic" is_female="true" culture="Culture.vlandia" is_hero="true" default_group="Cavalry" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="18" weight="0.5" build="0.5" key="0000940D800020058C72649AC8D98A6DC2BB35A8A7748638956746991C7775C70067700306C7966A000000000000000000000000000000000000000072D00100"/>
 		</face>
@@ -554,7 +514,7 @@
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_4_3" name="{=vEsKYrFR}Aldric" age="31" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
+	<NPCCharacter id="AR_lord_4_3" name="{=si_ar_lord_4_3}Aldric" age="31" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="31" weight="0.3858" build="0.5735" key="0002FC03570004060889E7BC4866D567396A8C717B876E8865B3498C79C2A84B0089600308898C78000000000000000000000000000000000000000001001040"/>
 		</face>
@@ -573,7 +533,7 @@
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_4_4" name="{=vEsKYrFR}Gilvard" age="74" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
+	<NPCCharacter id="AR_lord_4_4" name="{=si_ar_lord_4_4}Gilvard" age="74" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="74" weight="0.6389" build="0.3451" key="00027C04C00015410855B759C9893776396A8C717B876E8865B3498C79C2A84B0075A00307898C78000000000000000000000000000000000000000000D81040"/>
 		</face>
@@ -592,7 +552,7 @@
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_4_23" name="{=C1LIflK9}Richelda" age="43" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+	<NPCCharacter id="AR_lord_4_23" name="{=si_ar_lord_4_23}Richelda" age="43" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.5" key="0005240A002C300B65878AA361487BE89C5DA5467D8C9167894C6C892799E3780167761306C636A600000000000000000000000000000000000000002CBC3083"/>
 		</face>
@@ -610,7 +570,7 @@
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_4_28" name="{=BVNCWAai}Adalindis" age="39" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+	<NPCCharacter id="AR_lord_4_28" name="{=si_ar_lord_4_28}Adalindis" age="39" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.5664" build="0.6713" key="0005AC07004431CE4457B349656598876429217587CA893AB647627B3BA51745089A86890992B8D6000000000000000000000000000000000000000001205041"/>
 		</face>
@@ -633,7 +593,7 @@
 	<!--
 	Alkit Khanate
 	-->
-	<NPCCharacter id="AR_lord_10_1" name="{=Toj0vayQ}Khomar" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_1" name="{=si_ar_lord_10_1}Khomar" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="42" weight="0.4182" build="0.7361" key="0016F80E40003788B8568C85AB94D36964AB8B3ABDFE344C5538797A5B344A77007B6603077B718700000000000000000000000000000000000000003EF41002"/>
 		</face>
@@ -651,11 +611,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="khu_bat_template_flamboyant"/>
-			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="khu_king_template_bat_m"/>
+			<EquipmentSet id="khu_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_2" name="{=FLrdHzSf}Ikren" age="41" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true">
+	<NPCCharacter id="AR_lord_10_2" name="{=si_ar_lord_10_2}Ikren" age="41" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true">
 		<face>
 			<BodyProperties version="4" age="41" weight="0.4182" build="0.517" key="0016F80FC0000005B8A9A83688989667ADB68B3ABD8E344CBD8B82B84C775E6A007866030712AB8800000000000000000000000000000000000000003EF44003"/>
 		</face>
@@ -672,7 +632,7 @@
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_3" name="{=pKf56MdS}Tochi" age="24" voice="ironic" culture="Culture.khuzait" default_group="Cavalry" is_hero="true" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_3" name="{=si_ar_lord_10_3}Tochi" age="24" voice="ironic" culture="Culture.khuzait" default_group="Cavalry" is_hero="true" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="24" weight="0.4182" build="0.3843" key="0016F80E40003645B88B8998C5784D87ADB68B3ABD8E344CBD8B82B84C775E6A007666030712AB8800000000000000000000000000000000000000003EF44002"/>
 		</face>
@@ -691,7 +651,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_4" name="{=QJq4VAU7}Yesha" voice="curt" age="19" is_female="true" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
+	<NPCCharacter id="AR_lord_10_4" name="{=si_ar_lord_10_4}Yesha" voice="curt" age="19" is_female="true" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
 		<face>
 			<BodyProperties version="4" age="19" weight="0.3472" build="0.3657" key="0016A80FC000100A1868DD8A6DC68395963B8B3ABD8E344C39B3A83667B88966006556030672C47800000000000000000000000000000000000000003EBC00C3"/>
 		</face>
@@ -712,7 +672,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_5" name="{=p7kYHNDJ}Erigai" age="50" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_5" name="{=si_ar_lord_10_5}Erigai" age="50" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="50" weight="0.4354" build="0.4563" key="001CD40E4014068E367C15D88E83D5DC6BAD565AE9EEF6872837AAD7A4773465005776030546D87B000000000000000000000000000000000000000062BC50C2"/>
 		</face>
@@ -732,7 +692,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_6" name="{=GysebVMW}Mesui" age="48" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_6" name="{=si_ar_lord_10_6}Mesui" age="48" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="48" weight="0.0835" build="0.5952" key="0011A80E4014100A1879679596BA85D3C7997B3ABD8E344C72B624A949B8518600391603035658330000000000000000000000000000000000000000625C00C3"/>
 		</face>
@@ -749,7 +709,7 @@
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_7" name="{=IWI3T6zi}Pazhel" age="24" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.sturgia" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_7" name="{=si_ar_lord_10_7}Pazhel" age="24" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.sturgia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="24" weight="0.45" build="0.85" key="0005000AD80016827A94588DBB7589AABAAE866295B591777441424D7FF5366701AC76140AB6F176000000000000000000000000000000000000000021647142"/>
 		</face>
@@ -768,7 +728,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_8" name="{=p9nM7XwG}Sacha" age="21" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_8" name="{=si_ar_lord_10_8}Sacha" age="21" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="21" weight="0.0835" build="0.5952" key="001CA80E40143001188B83979D67764286A47B3ABD8E344C9B1B791C6194948500591603054A7736000000000000000000000000000000000000000062AC1083"/>
 		</face>
@@ -786,7 +746,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_9" name="{=p7kYHNDJ}Yana" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_9" name="{=si_ar_lord_10_9}Yana" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="18" weight="0.0835" build="0.5952" key="001CA80E401436831879679596BA85D3C7997B3ABD8E344C72B624A949B851860059160305565833000000000000000000000000000000000000000062BC40C2"/>
 		</face>
@@ -806,7 +766,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_10" name="{=GysebVMW}Olorun" age="48" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_10" name="{=si_ar_lord_10_10}Olorun" age="48" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="48" weight="0.0835" build="0.5952" key="0016FC0FC00033C40E6966359A56B7A0A4959AF6F9FE8E3DC8756149D64B84A80079160307B1E944000000000000000000000000000000000000000000F07080"/>
 		</face>
@@ -823,7 +783,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_11" name="{=IWI3T6zi}Gunefer" age="47" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_11" name="{=si_ar_lord_10_11}Gunefer" age="47" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="47" weight="0.4213" build="0.3843" key="001CDC0CC000100202477AB594618776C8AD9AF6F9FE8E31A76AA8A8B68995940066660306B516E700000000000000000000000000000000000000004AD84043"/>
 		</face>
@@ -842,7 +802,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_12" name="{=p9nM7XwG}Mehir" age="20" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_12" name="{=si_ar_lord_10_12}Mehir" age="20" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="20" weight="0.4213" build="0.3843" key="0016FC0FC00008410E7AC5A75A1B8578859C9AF6F9FE8E3D629273273A786654005666030523B447000000000000000000000000000000000000000000B070C0"/>
 		</face>
@@ -860,7 +820,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_13" name="{=p9nM7XwG}Ilgai" age="17" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_13" name="{=si_ar_lord_10_13}Ilgai" age="17" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="17" weight="0.4213" build="0.3843" key="001CDC0CC00030050E627B6B5AD33525A9999AF6F9FE8E3D8967053BC957B647005666030510A774000000000000000000000000000000000000000000B02100"/>
 		</face>
@@ -878,7 +838,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_14" name="{=p9nM7XwG}Ayla" age="17" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_14" name="{=si_ar_lord_10_14}Ayla" age="17" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="17" weight="0.4213" build="0.3843" key="001CDC0CC00020010E13C77DEA99B78DA9999AF6F9FE8E3D8967053BC957B647006666030610A77400000000000000000000000000000000000000004AD81083"/>
 		</face>
@@ -896,7 +856,7 @@
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_15" name="{=Toj0vayQ}Oragur" age="46" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_15" name="{=si_ar_lord_10_15}Oragur" age="46" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="46" weight="0.5" build="0.5" key="0015F80E40003354B8A7576A597151ABA7CA8B3ABDFEB44C5ACCB9963476DC260077760307826A6500000000000000000000000000000000000000003EF41002"/>
 		</face>
@@ -915,7 +875,7 @@
 			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_16" name="{=FLrdHzSf}Khachin" age="43" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true" is_female="true">
+	<NPCCharacter id="AR_lord_10_16" name="{=si_ar_lord_10_16}Khachin" age="43" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true" is_female="true">
 		<face>
 			<BodyProperties version="4" age="43" weight="0.3333" build="0.5" key="000DC40F0000200AB8635A7C77637A51D7468B3ABDFEC44C965796A7378AB7680077560307665A5500000000000000000000000000000000000000003EEC00C3"/>
 		</face>
@@ -932,7 +892,7 @@
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_17" name="{=pKf56MdS}Taralun" age="28" voice="ironic" is_female="true" culture="Culture.khuzait" default_group="Cavalry" is_hero="true" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_17" name="{=si_ar_lord_10_17}Taralun" age="28" voice="ironic" is_female="true" culture="Culture.khuzait" default_group="Cavalry" is_hero="true" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="28" weight="0.2037" build="0.5" key="000AF80E4000300FB8A7576A597151ABA7CA8B3ABDFEB44C5ACCB9963476DC260067360306826A6500000000000000000000000000000000000000003EBC1003"/>
 		</face>
@@ -950,7 +910,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_18" name="{=QJq4VAU7}Bilik" voice="curt" age="21" is_female="true" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
+	<NPCCharacter id="AR_lord_10_18" name="{=si_ar_lord_10_18}Bilik" voice="curt" age="21" is_female="true" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
 		<face>
 			<BodyProperties version="4" age="21" weight="0.4333" build="0.4" key="0013F80F00002006B8797A9576B37996D7468B3ABDFE444C54A7AD88378AB7680057560305913CC800000000000000000000000000000000000000003EBC1003"/>
 		</face>
@@ -968,7 +928,7 @@
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_19" name="{=Toj0vayQ}Targai" age="40" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_19" name="{=si_ar_lord_10_19}Targai" age="40" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="40" weight="0.5" build="0.5" key="0018F80D19003344B86ABA87695459B964AB8B3ABDFE344CE3783A4C5B344A7700777603078694A800000000000000000000000000000000000000003EF42002"/>
 		</face>
@@ -987,7 +947,7 @@
 			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_20" name="{=FLrdHzSf}Dalai" age="39" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true">
+	<NPCCharacter id="AR_lord_10_20" name="{=si_ar_lord_10_20}Dalai" age="39" voice="earnest" culture="Culture.khuzait" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true">
 		<face>
 			<BodyProperties version="4" age="39" weight="0.5" build="0.5" key="0016D40FC000000A28778866C9D4DA7888478B3CCD8FB44A557EE76AA3467779007776030762774900000000000000000000000000000000000000003EF41043"/>
 		</face>
@@ -1004,7 +964,7 @@
 			<EquipmentSet id="khu_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_21" name="{=QJq4VAU7}Shulun" voice="curt" age="20" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
+	<NPCCharacter id="AR_lord_10_21" name="{=si_ar_lord_10_21}Shulun" voice="curt" age="20" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
 		<face>
 			<BodyProperties version="4" age="20" weight="0.5" build="0.5" key="0018D80FC0000842286ABA87695459B964AB8B3ABDFE344CE3783A4C5B344A7700777603078694A800000000000000000000000000000000000000003EF42002"/>
 		</face>
@@ -1022,7 +982,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_22" name="{=QJq4VAU7}Yanagur" voice="curt" age="29" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
+	<NPCCharacter id="AR_lord_10_22" name="{=si_ar_lord_10_22}Yanagur" voice="curt" age="29" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
 		<face>
 			<BodyProperties version="4" age="29" weight="0.5" build="0.5" key="0010C80D8000188AB8DAD68748636988C6668B3ABDFEC44C757389C636556A8800577603057299B900000000000000000000000000000000000000003EBC3043"/>
 		</face>
@@ -1040,7 +1000,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_23" name="{=QJq4VAU7}Yanagur" voice="curt" age="11" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
+	<NPCCharacter id="AR_lord_10_23" name="{=si_ar_lord_10_23}Yanagur" voice="curt" age="11" culture="Culture.khuzait" occupation="Lord" default_group="HorseArcher" is_hero="true">
 		<face>
 			<BodyProperties version="4" age="23.41" weight="0.5" build="0.5" key="000AE40D80002346B81B9675B5AB3767C6668B1FBDFEC44CC77688B836556A88005776030581565500000000000000000000000000000000000000003EBC1083"/>
 		</face>
@@ -1054,7 +1014,7 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_10_24" name="{=IWI3T6zi}Volg" age="22" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+	<NPCCharacter id="AR_lord_10_24" name="{=si_ar_lord_10_24}Volg" age="22" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="22" weight="0.4198" build="0.7744" key="0005880080703010BC28C73984935A42437A74C6D9679A94A37E8CDAD6B99755017C661407A2A85E000000000000000000000000000000000000000048F41003"/>
 		</face>
@@ -1076,7 +1036,7 @@
 	<!--
 	Byalic Confederation
 	-->
-	<NPCCharacter id="AR_lord_13_1" name="Fidhr" voice="ironic" age="48" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_1" name="{=si_ar_lord_13_1}Fidhr" voice="ironic" age="48" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="48" weight="0.5" build="0.5" key="0015C80FC0B424C497A4CDD2AC462BD776D4B9646914C48A6B87B59AE8A798A600677603069A496A22246678787787F70000000000001577000000002ECC6083"/>
 		</face>
@@ -1090,11 +1050,11 @@
 			<Trait id="KnightFightingSkills" value="3"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_bya_king_battletemplate"/>
-			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
+			<EquipmentSet id="AR_bya_king_template_bat_m"/>
+			<EquipmentSet id="AR_bya_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_2" name="Vadamerca" voice="softspoken" age="47" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_2" name="{=si_ar_lord_13_2}Vadamerca" voice="softspoken" age="47" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="47" weight="0.5" build="0.5" key="0015840980FC000D499798939985756757773CA888A67A684AA158D8EB5B78580067760306A3279922246678787787F70000000000001577000000002ECC00C3"/>
 		</face>
@@ -1113,7 +1073,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_3" name="Caelic" voice="softspoken" age="29" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_3" name="{=si_ar_lord_13_3}Caelic" voice="softspoken" age="29" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="29" weight="0.5" build="0.5" key="0015800C40FC28419D5718A96C8A68759CC93955671633768D57783A9B89AAA30067760306A8B59C22246678787787F70000000000001577000000002ECC1083"/>
 		</face>
@@ -1129,7 +1089,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_4" name="Raila" voice="softspoken" age="24" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_4" name="{=si_ar_lord_13_4}Raila" voice="softspoken" age="24" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="24" weight="0.213" build="0.5" key="0015A40780FC2006A7974654BC568A68A87BB7368A49A4E45442A92D3438AAA50097360309B4576622246678787787F700000000000015770000000057342083"/>
 		</face>
@@ -1147,7 +1107,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_5" name="Geloyra" voice="ironic" age="42" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_5" name="{=si_ar_lord_13_5}Geloyra" voice="ironic" age="42" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="42" weight="0.2735" build="0.2174" key="001E380800A030025B857A6A7AE21F75B67B988438297AA552846B67B956375C00734603075A9D7422246678787787F70000000000001577000000001EFC10C3"/>
 		</face>
@@ -1165,7 +1125,7 @@
 			<EquipmentSet id="bat_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_6" name="Aune" voice="softspoken" age="20" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_6" name="{=si_ar_lord_13_6}Aune" voice="softspoken" age="20" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="20" weight="0.2735" build="0.2174" key="001B8006C0A010026475976A73285778A489A883994B4618525C38CC552D77AD00634603064B397822246678787787F70000000000001577000000004ED43083"/>
 		</face>
@@ -1173,7 +1133,7 @@
 		<Traits>
 			<Trait id="Valor" value="-1"/>
 			<Trait id="Mercy" value="-2"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -1184,7 +1144,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_7" name="Torsti" voice="softspoken" age="47" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_7" name="{=si_ar_lord_13_7}Torsti" voice="softspoken" age="47" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="47" weight="0.1452" build="0.6122" key="0018440554702A439D1A68A5A4EA36B7A9096616C557CAD688A7357A233A683B0099260309681AC722246678787787F700000000000015770000000031240143"/>
 		</face>
@@ -1200,7 +1160,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_8" name="Elja" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_8" name="{=si_ar_lord_13_8}Elja" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="44" weight="0.6686" build="0.536" key="001E2C0F00E4000EE2855788457649B5691B458D295B72BAD45B8C74984E93680068A60306666A6322246678787787F700000000000015770000000012D42003"/>
 		</face>
@@ -1218,7 +1178,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_9" name="Kuisma" voice="softspoken" age="28" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_9" name="{=si_ar_lord_13_9}Kuisma" voice="softspoken" age="28" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="28" weight="0.6686" build="0.536" key="0018480F00E433127B15CA98BD6D47659452C8698A75E6D8E8977ACAAC9669AA0068A60306A98E7A22246678787787F700000000000015770000000012D45143"/>
 		</face>
@@ -1234,7 +1194,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_10" name="Sivia" voice="softspoken" age="26" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_10" name="{=si_ar_lord_13_10}Sivia" voice="softspoken" age="26" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="26" weight="0.5055" build="0.8158" key="0018800B80CC0002992CA8DEBA4678E8968DC9B77E449BB667C5C77B7BACA178005C860305E857A822246678787787F7000000000000157700000000169C4043"/>
 		</face>
@@ -1250,13 +1210,13 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_11" name="Anssi" voice="ironic" age="40" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_11" name="{=si_ar_lord_13_11}Anssi" voice="ironic" age="40" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="40" weight="0.6395" build="0.5266" key="00107C0C404405542B76B5370A4AA7677A7AC513996237788A14BB6769DC34860058A603055858C622246678787787F7000000000000157700000000449C5082"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 			<Trait id="Commander" value="6"/>
@@ -1268,15 +1228,15 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_12" name="Stiina" voice="softspoken" age="37" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_12" name="{=si_ar_lord_13_12}Stiina" voice="softspoken" age="37" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="37" weight="0.5061" build="0.5252" key="0015440AC0CC1006C8A76A68967669764184459896C87487C8427BB4973498B8002886030287529722246678787787F7000000000000157700000000104C40C3"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -1287,7 +1247,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_13" name="Braga" voice="softspoken" age="19" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_13" name="{=si_ar_lord_13_13}Braga" voice="softspoken" age="19" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="19" weight="0.5061" build="0.5252" key="001B640AC0CC234277B98393C9877269D6959C5B7715A757188B443A8B96B99500288603025D858722246678787787F7000000000000157700000000104C3102"/>
 		</face>
@@ -1303,7 +1263,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_14" name="Kaethe" voice="softspoken" is_female="true" age="18" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_14" name="{=si_ar_lord_13_14}Kaethe" voice="softspoken" is_female="true" age="18" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="18" weight="0.4339" build="0.8142" key="00132C0540B42003CAC828374BBBAB91E783584A94C363869A9477777292AC75001C7603015A48C622246678787787F70000000000001577000000003E244083"/>
 		</face>
@@ -1321,15 +1281,15 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_15" name="Liuva" voice="softspoken" age="43" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_15" name="{=si_ar_lord_13_15}Liuva" voice="softspoken" age="43" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="43" weight="0.6284" build="0.706" key="001B640780B4100A65D4655977333C755D78BB7695656558A974A73BAC4A5CE5006B96030689159322246678787787F70000000000001577000000003EC430C3"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -1340,7 +1300,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_16" name="Rauni" voice="softspoken" age="23" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_16" name="{=si_ar_lord_13_16}Rauni" voice="softspoken" age="23" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="23" weight="0.6284" build="0.706" key="001B640780B41342656498543DAA79065D78BB7695656558A974A73BAC4A5CE5006B96030689159322246678787787F70000000000001577000000003EC43102"/>
 		</face>
@@ -1356,7 +1316,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_17" name="Jaana" voice="softspoken" is_female="true" age="22" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_17" name="{=si_ar_lord_13_17}Jaana" voice="softspoken" is_female="true" age="22" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="22" weight="0.4148" build="0.0985" key="001BDC0C407020158C64491769D782669A63C465584369BC7C5775AD8BDDB485005166030527B7AB22246678787787F700000000000015770000000016A43002"/>
 		</face>
@@ -1374,7 +1334,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_18" name="Mira" voice="softspoken" is_female="true" age="18" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_18" name="{=si_ar_lord_13_18}Mira" voice="softspoken" is_female="true" age="18" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="18" weight="0.2391" build="0.2501" key="001B2808C0B4134FE5C86717888373815A7A67736C9237A7B98A92D1A897A5980064460306778A4422246678787787F70000000000001577000000003EC44002"/>
 		</face>
@@ -1392,7 +1352,7 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_19" name="Eerik" voice="ironic" age="45" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_19" name="{=si_ar_lord_13_19}Eerik" voice="ironic" age="45" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="45" weight="0.3086" build="0.5802" key="0015C80D80B433C697453B68C5696156D415B9646914C48A545BBC6AB226514D0079560307787C9522246678787787F70000000000001577000000002EDC6143"/>
 		</face>
@@ -1410,7 +1370,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_20" name="Sanelma" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_20" name="{=si_ar_lord_13_20}Sanelma" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="44" weight="0.3812" build="0.554" key="001E340C40CC100A7A5A3497B8477A765B6A856774774CD488B79BBB6969B37C007866030794379822246678787787F70000000000001577000000003CFC2043"/>
 		</face>
@@ -1428,15 +1388,15 @@
 			<EquipmentSet id="bat_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_21" name="Sakarias" voice="softspoken" age="12" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_21" name="{=si_ar_lord_13_21}Sakarias" voice="softspoken" age="12" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="21" weight="0.3812" build="0.554" key="0015A80D80B4200139B37677C25748CC695C7BCB999A785687496476ABE87648006866030673505C22246678787787F70000000000001577000000002EDC1003"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -1447,7 +1407,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_22" name="Faravidh" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_22" name="{=si_ar_lord_13_22}Faravidh" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="42" weight="0.5522" build="0.4929" key="000D300C40E4044165C767C6A318DD99C7955A5CCB293BC3A7579826C6DBC89600778603076C63E900000000000000000000000000000000000000001AFC90C2"/>
 		</face>
@@ -1465,7 +1425,7 @@
 			<EquipmentSet id="AR_bya_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_13_23" name="Sunilda" voice="softspoken" age="41" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="AR_lord_13_23" name="{=si_ar_lord_13_23}Sunilda" voice="softspoken" age="41" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="41" weight="0.4429" build="0.4429" key="000A740AC000378F28A488A66B39468869A36D9A57539237C4777B78A5846CC90087760308C8738900000000000000000000000000000000000000004B0490C2"/>
 		</face>
@@ -1484,7 +1444,7 @@
 	<!--
 	Vaegir Kingdom
 	-->
-	<NPCCharacter id="AR_lord_8_1" name="Vidar" age="41" voice="curt" is_hero="true" default_group="Cavalry" culture="Culture.vakken" occupation="Lord">
+	<NPCCharacter id="AR_lord_8_1" name="{=si_ar_lord_8_1}Vidar" age="41" voice="curt" is_hero="true" default_group="Cavalry" culture="Culture.vakken" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="41" weight="0.5" build="0.5" key="000528000000000D839237A29A8884750D58A77AB674A6839A9A7C578161669A007776030792887900000000000000000000000000000000000000003CFC60C2"/>
 		</face>
@@ -1500,9 +1460,8 @@
 			<Trait id="Oligarchic" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_vae_bat_template_medium"/>
-			<!-- Ruler -->
-			<EquipmentSet id="AR_vae_civ_template_default" civilian="true"/>
+			<EquipmentSet id="AR_vae_king_template_bat_m"/>
+			<EquipmentSet id="AR_vae_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_8_2" name="Rhandana" age="36" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vakken" occupation="Lord">
@@ -1884,7 +1843,7 @@
 	<!--
 	Quyazic Empire
 	-->
-	<NPCCharacter id="AR_lord_9_1" name="{=waQPRCaT}Lamenon" age="52" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_1" name="{=si_ar_lord_9_1}Lamenon" age="52" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="52" weight="0.5" build="0.5" key="00205C0D8000330F698C9B8C5AC6CA8DB84B8967A2D875ABB77735955E74673C0097760309D68AB400000000000000000000000000000000000000003B3C9102"/>
 		</face>
@@ -1898,11 +1857,11 @@
 			<Trait id="Generosity" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_heavy"/>
-			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="AR_kan_king_template_bat_m"/>
+			<EquipmentSet id="AR_kan_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_2" name="{=d6aTWH9m}Verina" age="47" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_2" name="{=si_ar_lord_9_2}Verina" age="47" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="47" weight="0.5" build="0.5" key="001E800F000000158E7A8827833C659966E8A6D598CB97D957C74B8C67374888007776030794976600000000000000000000000000000000000000003AF42003"/>
 		</face>
@@ -1917,7 +1876,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_3" name="{=zaHnL2It}Rhanos" age="21" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_3" name="{=si_ar_lord_9_3}Rhanos" age="21" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="21" weight="0.5" build="0.5" key="00205C09800002C669AB5659B95AD479B84B8967A2D875AB59E75BB85E74673C00777603076ABD6800000000000000000000000000000000000000003AE49142"/>
 		</face>
@@ -1935,7 +1894,7 @@
 			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_4" name="{=zaHnL2It}Lisara" age="26" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_4" name="{=si_ar_lord_9_4}Lisara" age="26" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="26" weight="0.5" build="0.5" key="0020C808C0CC10018983A87639B6795A76F7C698485885425DD7657244786689003776030345D87A0000000000000000000000000000000000000000506C0043"/>
 		</face>
@@ -1953,7 +1912,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_5" name="{=waQPRCaT}Suterios" age="47" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_5" name="{=si_ar_lord_9_5}Suterios" age="47" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="22.12" weight="0.5" build="0.5" key="00159C000000338D8975A82745553688657B58C458875A78663C9448B4394C8B0077760307B5986A00000000000000000000000000000000000000003AE44042"/>
 		</face>
@@ -1971,7 +1930,7 @@
 			<EquipmentSet id="AR_kan_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_6" name="{=d6aTWH9m}Corena" age="42" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_6" name="{=si_ar_lord_9_6}Corena" age="42" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="42" weight="0.5" build="0.5" key="000A5C0200A03001759C42AE7964454EB8A86478C87746863477BBA686C7657900177603012769C900000000000000000000000000000000000000003E2C4043"/>
 		</face>
@@ -1986,7 +1945,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_7" name="{=zaHnL2It}Ocheros" age="25" voice="ironic" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_7" name="{=si_ar_lord_9_7}Ocheros" age="25" voice="ironic" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="22.12" weight="0.5" build="0.5" key="00159C014000128B899678B3E7CA9729553558C458875A785262494C82934DBC0077760307E71CB700000000000000000000000000000000000000003AE44042"/>
 		</face>
@@ -2004,7 +1963,7 @@
 			<EquipmentSet id="AR_kan_civ_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_8" name="{=zaHnL2It}Hyscasia" age="22" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_8" name="{=si_ar_lord_9_8}Hyscasia" age="22" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="22.12" weight="0.5" build="0.5" key="000A5C0200A0100A75958948A5A874A768986478C8774686C592B437CD4B78A600177603019355A300000000000000000000000000000000000000003E2C0083"/>
 		</face>
@@ -2022,13 +1981,13 @@
 			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_9" name="Lavalios" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
+	<NPCCharacter id="AR_lord_9_9" name="{=si_ar_lord_9_9}Lavalios" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="23.18" weight="0" build="0" key="0026700FC070000655BA3E6699662B99A7679BAC8A68743A27287897375778AA007006030799C7860000037F0000000F00000037049140010000000000F04000"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 			<Trait id="Commander" value="6"/>
@@ -2040,15 +1999,15 @@
 			<EquipmentSet id="AR_kan_civ_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_10" name="Deasora" voice="softspoken" is_female="true" age="41" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
+	<NPCCharacter id="AR_lord_9_10" name="{=si_ar_lord_9_10}Deasora" voice="softspoken" is_female="true" age="41" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="41" weight="0.2415" build="0.4635" key="0025800FC07C104A37858DC679643869A16885782994685B272878976175867C000746530899C7860000037F0000000F00000037049140010000000000503000"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -2059,7 +2018,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_11" name="Castor" voice="earnest" age="23" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
+	<NPCCharacter id="AR_lord_9_11" name="{=si_ar_lord_9_11}Castor" voice="earnest" age="23" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="23" weight="0.2415" build="0.4635" key="0025800FC07C104A37858DC679643869A16885782994685B272878976175867C000746530899C7860000037F0000000F00000037049140010000000000503000"/>
 		</face>
@@ -2075,7 +2034,7 @@
 			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_12" name="Mina" voice="softspoken" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
+	<NPCCharacter id="AR_lord_9_12" name="{=si_ar_lord_9_12}Mina" voice="softspoken" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="24.95" weight="0" build="0" key="0015B0078070300B6AE38A5394256526897B66695875A1AA6C75B9B56B3ABB8601700613F78B963D0000037F0000000F00000037049140010000000000E810C0"/>
 		</face>
@@ -2093,7 +2052,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_13" name="{=zaHnL2It}Hyradia" age="36" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_13" name="{=si_ar_lord_9_13}Hyradia" age="36" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="0020700D0088000AA9A497737E95B77AA995CAB579A7CA39C94992C4A1636C7A00477603047444C500000000000000000000000000000000000000003A8C00C3"/>
 		</face>
@@ -2111,7 +2070,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_14" name="{=waQPRCaT}Phelenos" age="19" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_14" name="{=si_ar_lord_9_14}Phelenos" age="19" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="0020600D808803425D5B8BAC85E7B7678A6B88C83D752DA93A8673777E318E48004776030487AC4600000000000000000000000000000000000000003A8C6003"/>
 		</face>
@@ -2129,7 +2088,7 @@
 			<EquipmentSet id="AR_kan_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_15" name="{=d6aTWH9m}Ariada" age="18" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_15" name="{=si_ar_lord_9_15}Ariada" age="18" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="0020700D80880002A95B8BAC85E7B7678A6BCAB579A7CA393A8673777E318E48004776030487AC4600000000000000000000000000000000000000003A8C0003"/>
 		</face>
@@ -2144,7 +2103,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_16" name="Zostios" voice="earnest" age="45" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
+	<NPCCharacter id="AR_lord_9_16" name="{=si_ar_lord_9_16}Zostios" voice="earnest" age="45" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="45" weight="0.3035" build="0.5375" key="0023A00980FC15C536AD675C89C9886247BB7974745347496686196BBE773C4B00785603F7756352000000000000000000000000000000000000000040F47002"/>
 		</face>
@@ -2162,7 +2121,7 @@
 			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_17" name="Isibala" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
+	<NPCCharacter id="AR_lord_9_17" name="{=si_ar_lord_9_17}Isibala" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kannic" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="44" weight="0.3845" build="0.4753" key="00157804004430045481695ABE86BCCCA96B655474B89A8776688476E189692B00776603F7C8335700000000000000000000000000000000000000004EEC20C3"/>
 		</face>
@@ -2179,7 +2138,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_18" name="{=zaHnL2It}Echalera" age="27" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_18" name="{=si_ar_lord_9_18}Echalera" age="27" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="27" weight="0.3845" build="0.4753" key="001E780800440006547535B98954C4689B9A655474B89A8787794838B483592900776603F762B96C00000000000000000000000000000000000000004EEC2003"/>
 		</face>
@@ -2197,7 +2156,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_19" name="{=waQPRCaT}Urios" age="29" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_19" name="{=si_ar_lord_9_19}Urios" age="29" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="29" weight="0.4667" build="0.4198" key="0010DC0D802C024FE78711B5998A8C78E3777A9A4B59826724C86786ABBA775600667603F6775D2700000000000000000000000000000000000000002ACC4103"/>
 		</face>
@@ -2215,7 +2174,7 @@
 			<EquipmentSet id="AR_kan_civ_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_22" name="{=waQPRCaT}Haratheos" age="35" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_22" name="{=si_ar_lord_9_22}Haratheos" age="35" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="35" weight="0.4522" build="0.4522" key="0020700A4088020EA9A497737E95B77AA995CAB579A7CA3965386146A1636C7A00477603F4A7738800000000000000000000000000000000000000003A8C0103"/>
 		</face>
@@ -2233,7 +2192,7 @@
 			<EquipmentSet id="AR_kan_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_23" name="{=zaHnL2It}Gisetha" age="33" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_23" name="{=si_ar_lord_9_23}Gisetha" age="33" is_female="true" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="33" weight="0.3256" build="0.2361" key="0020400F00880006465B3773C89ABB976AA7C9E6483BDBA6654BBCD659B4B7CC00545603F55B75C900000000000000000000000000000000000000003AB41083"/>
 		</face>
@@ -2251,7 +2210,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_24" name="{=d6aTWH9m}Ilina" age="14" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_24" name="{=si_ar_lord_9_24}Ilina" age="14" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="23.79" weight="0.2522" build="0.5522" key="0020980F008800156DA54A7AAA9649A1A995195A6CB38CB8654BBCD6A1636C7A00477603F45B75C900000000000000000000000000000000000000003A8C0083"/>
 		</face>
@@ -2266,7 +2225,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_25" name="{=waQPRCaT}Leosios" age="47" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_25" name="{=si_ar_lord_9_25}Leosios" age="47" voice="earnest" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="47" weight="0.5231" build="0.4969" key="0020400D8000238E98ACB5D754E99B8BB84BA669836A395578259B655E74673C00878603F8AC88B600000000000000000000000000000000000000003B0C4142"/>
 		</face>
@@ -2284,7 +2243,7 @@
 			<EquipmentSet id="AR_kan_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_26" name="{=d6aTWH9m}Debana" age="46" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_26" name="{=si_ar_lord_9_26}Debana" age="46" is_female="true" voice="softspoken" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="46" weight="0.4522" build="0.4522" key="0018680D0000300A84BB89617843864AB84B1A889757B8B69AA674645E74673C00677603F6A48AA900000000000000000000000000000000000000003ABC4003"/>
 		</face>
@@ -2299,7 +2258,7 @@
 			<EquipmentSet id="AR_kan_noncom_template_southfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_9_27" name="{=zaHnL2It}Talison" age="26" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="AR_lord_9_27" name="{=si_ar_lord_9_27}Talison" age="26" voice="curt" is_hero="true" culture="Culture.kannic" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="26" weight="0.3287" build="0.5139" key="0018680D8000104584BB89617843864AB84B1A889757B8B69AA674645E74673C00785603F7A48AA900000000000000000000000000000000000000003AE43102"/>
 		</face>
@@ -2345,9 +2304,9 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -2455,9 +2414,9 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -2527,7 +2486,7 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 			<Trait id="Commander" value="6"/>
@@ -2536,8 +2495,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="AR_dar_bat_template_heavy"/>
-			<EquipmentSet id="AR_dar_civ_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="AR_dar_king_template_bat_m"/>
+			<EquipmentSet id="AR_dar_king_template_civ_m" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="AR_lord_12_2" name="Janasa" voice="softspoken" is_female="true" age="44" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
@@ -2546,10 +2505,9 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
 			<Trait id="KnightFightingSkills" value="2"/>
@@ -2600,7 +2558,7 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 			<Trait id="Commander" value="6"/>
@@ -2619,9 +2577,9 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -2685,19 +2643,17 @@
 			<EquipmentSet id="AR_dar_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_10" name="Ghalaza" voice="softspoken" is_female="true" age="47" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+	<NPCCharacter id="AR_lord_12_10" name="Ghalaza" voice="curt" is_female="true" age="47" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
 		<face>
 			<BodyProperties version="4" age="47" weight="0.5" build="0.5" key="003FF80F002C30119D595D934ED8885A80CE8EA68986FDDFAFF7FEBF900073A800577603059FC47900000000000000000000000000000000000000003EB41004"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="2"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="KnightFightingSkills" value="8"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_dar_bat_template_lady"/>
@@ -3296,7 +3252,7 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 			<Trait id="Commander" value="6"/>
@@ -3315,9 +3271,9 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -3404,9 +3360,9 @@
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
@@ -4465,6 +4421,210 @@
 		<Equipments>
 			<EquipmentSet id="AR_n_emp_bat_template_medium"/>
 			<EquipmentSet id="AR_n_emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--
+	Tahyai Emirates
+	-->
+	<!-- Banu Harranad -->
+	<NPCCharacter id="AR_lord_19_1" name="{=si_ar_lord_19_1}Usair" age="40" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="40" weight="0.5511" build="0.3346" key="0026800D80581A0832B8898358C19785479893BB92A7B895764BA269B88698760085860308BC839700000000000000000000000000000000000000005D1C3002"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_heavy"/>
+			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_2" name="{=si_ar_lord_19_2}Manan" age="38" is_female="true" voice="softspoken" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="38" weight="0.4825" build="0.379" key="0029B80E402C2002A8BD158AA4527B7A4E95DA7296C67519586275B97996748800767603077888BD000000000000000000000000000000000000000040E400C3"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_3" name="{=si_ar_lord_19_3}Sira" age="19" is_female="true" voice="ironic" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.2052" build="0" key="0026800D8058100A32B8898358C19785479893BB92A7B895764BA269B88698760070360307BC839700000000000000000000000000000000000000005CF41003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_4" name="{=si_ar_lord_19_4}Nuqar" age="37" voice="earnest" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.4367" build="0.4429" key="0026800D805833CD328652CD8A7487BB479893BB92A7B895876A86AAB88698760077760307AAD77700000000000000000000000000000000000000005CE43082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_5" name="{=si_ar_lord_19_5}Razana" age="36" is_female="true" voice="earnest" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.3309" build="0.1945" key="0020E40D00A0100E7B5A5697B489DA9A788B996B38D15D24AAB6A4CA54DBAC6B00735603076B9B76000000000000000000000000000000000000000040DC30C3"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_bedouin" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_6" name="{=si_ar_lord_19_6}Thamza" age="16" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.3309" build="0.1945" key="0020E40A40A033C57B5A5697B489DA9A788B996B38D15D24AAB6A4CA54DBAC6B00735603076B9B76000000000000000000000000000000000000000040DC4082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_bedouin"/>
+			<EquipmentSet id="ase_civ_template_bedouin" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Banu Sirsan -->
+	<NPCCharacter id="AR_lord_19_7" name="{=si_ar_lord_19_7}Suruq" voice="softspoken" default_group="Cavalry" age="38" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38" weight="0.2978" build="0.4825" key="0029C80E40FC14C966CB37448468BA682A357999798D778C626C696B945B55ED0077460307B5738700000000000000000000000000000000000000003AF45082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_flamboyant"/>
+			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_8" name="{=si_ar_lord_19_8}Sasaitha" voice="earnest" is_female="True" default_group="Cavalry" age="34" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34" weight="0.4275" build="0.606" key="0023A00B80FC00013328A3B9854AE96479B348C8A398662374873C7D89ABA98A007966030778252600000000000000000000000000000000000000003AFC2083"/>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_9" name="{=si_ar_lord_19_9}Bushila" age="35" is_female="true" voice="softspoken" is_hero="true" default_group="Cavalry" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.2978" build="0.4825" key="0029C80E40FC100E66CB37448468BA682A357999798D778C626C696B945B55ED0077460307B5738700000000000000000000000000000000000000003AF430C3"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_10" name="{=si_ar_lord_19_10}Shimra" voice="ironic" age="20" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0" build="0.606" key="0023A40B80FC300AAA757DAD7E3269082A3529466A4C6456626C696B945B55ED0079060307B5738700000000000000000000000000000000000000003ADC20C3"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_lord_19_11" name="{=si_ar_lord_19_11}Iyalas" voice="ironic" age="16" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0" build="0.606" key="0023A40B80FC1954AA757DAD7E3269082A3529466A4C6456626C696B945B55ED0079060307B5738700000000000000000000000000000000000000003ADC5082"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- SHATTERED IMPERIUM: Lord Equipment Templates -->

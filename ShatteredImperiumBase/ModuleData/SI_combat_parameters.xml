@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      type="combat_parameters">
+  <definitions>
+
+    <def name="elephant_rider_look_down_limit"
+         val="-20" />
+
+  </definitions>
+  <combat_parameters>
+
+    <combat_parameter id="polearm_upthrust_ready_elephant"
+                      collision_check_starting_percent="0.32"
+                      collision_check_ending_percent="0.5"
+                      weapon_offset="0,0,0.3"
+                      vertical_rot_limit_multiplier_up="0.1"
+                      vertical_rot_limit_multiplier_down="0.75"
+                      left_rider_rot_limit="140"
+                      left_rider_min_rot_limit="40"
+                      right_rider_rot_limit="90"
+                      right_rider_min_rot_limit="0"
+                      rider_look_down_limit="elephant_rider_look_down_limit"
+                      left_ladder_rot_limit="67.3"
+                      right_ladder_rot_limit="57.3"
+                      hit_bone_index="27"
+                      shoulder_hit_bone_index="21" />
+
+    <combat_parameter id="polearm_upperthrust_elephant"
+                      collision_check_starting_percent="0.25"
+                      collision_damage_starting_percent="0.30"
+                      collision_check_ending_percent="0.50"
+                      weapon_offset="0,0,0.3"
+                      vertical_rot_limit_multiplier_up="0.1"
+                      vertical_rot_limit_multiplier_down="0.75"
+                      left_rider_rot_limit="140"
+                      left_rider_min_rot_limit="40"
+                      right_rider_rot_limit="90"
+                      right_rider_min_rot_limit="0"
+                      rider_look_down_limit="elephant_rider_look_down_limit"
+                      left_ladder_rot_limit="80.59"
+                      right_ladder_rot_limit="57.3"
+                      hit_bone_index="27"
+                      shoulder_hit_bone_index="21" />
+
+  </combat_parameters>
+</base>

@@ -5,6 +5,7 @@
 			<xsl:apply-templates select="node()|@*"/>
 		</xsl:copy>
 	</xsl:template>
+	<!-- Medieval Item Removal -->
 	<xsl:template match='Item[@id="old_kite_sparring_shield"]'>
 		<xsl:copy>
 			<xsl:attribute name="is_merchandise">false</xsl:attribute>
@@ -660,7 +661,7 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<!-- RBM Shields -->
+	<!-- RBM Shield Removal -->
 	<xsl:template match="Item[@id='decorated_steppe_shield_shoulder']/@is_merchandise">
 		<xsl:attribute name="is_merchandise">false</xsl:attribute>
 	</xsl:template>

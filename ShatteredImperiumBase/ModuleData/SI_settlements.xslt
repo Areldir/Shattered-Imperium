@@ -167,7 +167,7 @@
 		<xsl:attribute name='text'>{=si_ar_town_B4_text}Seonon, sad Seonon, has a history as dark as the waters of the Llyn Tywal. Here Algana the Fair stood atop the tower lamenting the death of her beloved Gorawan, until the spirits of the Otherworld were themselves overcome with sadness and allowed his shade to ascend through the pool for a day and a night to console her. In latter days this land has often been ravaged by raiders from the Sturgian and Vakken lowlands, though the fertile soil, watered by the Llyn Tywal, also affords great wealth to anyone who may hold the town.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_B4_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_B4_1_text}Bryn Glas sits in a ridge in the eastern escarpment of the Uchalion Massif. Villagers grow grapes in the fertile soil, watered by the Llyn Tywal, for the production of an uncommonly fine wine.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_village_B4_1_text}Bryn Glas sits in a ridge in the eastern escarpment of the Uchalion Massif. Villagers here raise vast flocks of sheep among the highland meadows, selling their wool in the markets of nearby Seonon.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_B4_2']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_B4_2_text}Andurn sits in a cleft in the hills overlooking Llyn Tywal - the ‘dark lake’. The villagers of these parts tend the forests, harvesting beech, oak and yew for sale to the towns.</xsl:attribute>
@@ -890,7 +890,7 @@
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V1']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V1_text}The town of Velucana was one of the first inland colonies of the nascent Calradian Kingdom, founded just two decades after Calradios the Great landed at Charasea. Located to protect the northern approaches to the port city, it grew wealthy over the centuries through trade with the Ialoi peoples along the Biscan coast, and the Battanians of the Uchalion Plateau. However, as the center of power moved northwards to Paravenos, then onwards to the cities of the east, Velucana slowly dwindled, until very few inhabitants remained within the town. Resurgence came in the form of Vlandian settlers, who rebuilt and reoccupied the abandoned ruins of those who came before. Whilst little of the older Calradian settlement now survives, Velucana has remained firmly under imperial influence.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_town_V1_text}The town of Velucana was one of the first inland colonies of the nascent Calradian Kingdom, founded just two decades after Calradios the Great landed at Charasea. Located to protect the northern approaches to the port city, it grew wealthy over the centuries through trade with the Palaic peoples along the Biscan coast, and the Battanians of the Uchalion Plateau. However, as the center of power moved northwards to Paravenos, then onwards to the cities of the east, Velucana slowly dwindled, until very few inhabitants remained within the town. Resurgence came in the form of Vlandian settlers, who built their homes over the abandoned ruins of those who came before. Now, Velucana sits at a crossroads between its Calradic heritage, and those newcomers from across the sea who now call it home.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V1']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_empire_north_4</xsl:attribute>
@@ -1194,6 +1194,45 @@
 	<xsl:template match="Settlement[@id='village_V5_3']/@text">
 		<xsl:attribute name='text'>{=si_ar_village_V5_3_text}Nogrent sits on a slope of the Biscan Hills in western Calradia. Villagers here raise sheep on the pastures between the coastal woods and the high crags of the hills.</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='town_V6']/@name">
+		<xsl:attribute name='name'>{=si_ar_town_V6_name}Jaculanys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match='Settlement[@id="town_V6"]/Components'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<Town id="town_comp_V6" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4000"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_V6']/@text">
+		<xsl:attribute name='text'>{=si_ar_town_V6_text}Jaculanys sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. However, in the third year of the reign of Emperor Themestios, Battanian raiders descended from the Rhennod Hills, destroying the town and putting many of its inhabitants to the sword. Despite the reconstruction efforts of the newly crowned Emperor, little of the old town remained, and so it was given over to Vlandian settlers as a gift for their service for their service alongside the legions. Today, few would know this was once part of the Calradian heartland, though the bustling markets of Jaculanys draw people from far and wide.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_3']/@name">
+		<xsl:attribute name='name'>{=si_ar_village_V6_3_name}Alnimys</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_3']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V6_3_text}Alnimys sits on a shelf overlooking the sea, at the foot of the Biscan Hills. The warm lands of the western provinces of the Calradian Empire are well-suited to the cultivation of olives.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_4']/@name">
+		<xsl:attribute name='name'>{=si_ar_village_V6_4_name}Chornadan</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_4']/@text">
+		<xsl:attribute name='text'>{=si_ar_village_V6_4_text}Chornadan sits overlooking a pass through the Biscan hills. The winds that blow from the Western Ocean make the hillsides uncommonly cold, and so the villagers of this region specialize in the raising of pigs.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_V6']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_V6']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_3']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_4']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
 	<!-- dey Fortes -->
 	<xsl:template match='Settlement[@id="town_V2"]/Components'>
 		<xsl:copy>
@@ -1289,14 +1328,17 @@
 		<xsl:attribute name='owner'>Faction.clan_vlandia_5</xsl:attribute>
 	</xsl:template>
 	<!-- dey Jelind -->
-	<xsl:template match="Settlement[@id='castle_village_V2_1']/@text">
-		<xsl:attribute name='text'>{=si_ar_ castle_village_V2_1_text}Hongard sits in the warm wooded lands near the meandering Trand River. This land, rich in wheat and once the heartland of the Calradian Empire, now forms the center of the nascent Vlandian kingdom.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_V2_2']/@name">
+	<xsl:template match="Settlement[@id='castle_village_V2_1']/@name">
 		<xsl:attribute name='name'>{=si_ar_castle_village_V2_2_name}Pherytona</xsl:attribute>
 	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V2_1']/@text">
+		<xsl:attribute name='text'>{=si_ar_ castle_village_V2_1_text}Pherytona sits in the warm wooded lands near the meandering Trand River. This land, rich in wheat and once the heartland of the Calradian Empire, now forms the center of the nascent Vlandian kingdom.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V2_2']/@name">
+		<xsl:attribute name='name'>{=si_ar_castle_village_V2_2_name}Hongard</xsl:attribute>
+	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V2_2']/@text">
-		<xsl:attribute name='text'>{=si_ar_castle_village_V2_2_text}Pherytona near a curve of the meandering Trand River, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.</xsl:attribute>
+		<xsl:attribute name='text'>{=si_ar_castle_village_V2_2_text}Hongard near a curve of the meandering Trand River, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V2']/@owner">
 		<xsl:attribute name='owner'>Faction.clan_vlandia_9</xsl:attribute>
@@ -1628,43 +1670,10 @@
 	Massa Confederation
 	-->
 	<!-- Armingar -->
-	<xsl:template match="Settlement[@id='town_V6']/@name">
-		<xsl:attribute name='name'>{=si_ar_town_V6_name}Jaculanys</xsl:attribute>
-	</xsl:template>
-	<xsl:template match='Settlement[@id="town_V6"]/Components'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<Town id="town_comp_V6" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4000"/>
-		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_V6']/@text">
-		<xsl:attribute name='text'>{=si_ar_town_V6_text}Jaculanys sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. However, in the third year of the reign of Emperor Themestios, Battanian raiders descended from the Rhennod Hills, destroying the town and putting many of its inhabitants to the sword. Despite the reconstruction efforts of the newly crowned Emperor, little of the old town remained to the present. It was seized by the rampaging Massa in the year 951, serving as the capital of their nascent realm.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_3']/@name">
-		<xsl:attribute name='name'>{=si_ar_village_V6_3_name}Alnimys</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_3']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V6_3_text}Alnimys sits on a shelf overlooking the sea, at the foot of the Biscan Hills. The warm lands of the western provinces of the Calradian Empire are well-suited to the cultivation of olives.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_4']/@name">
-		<xsl:attribute name='name'>{=si_ar_village_V6_4_name}Chornadan</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_4']/@text">
-		<xsl:attribute name='text'>{=si_ar_village_V6_4_text}Chornadan sits overlooking a pass through the Biscan hills. The winds that blow from the Western Ocean make the hillsides uncommonly cold, and so the villagers of this region specialize in the raising of pigs.</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_V6']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vlandia_3</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='town_V6']/@culture">
+	<xsl:template match="Settlement[@id='town_SI_V1']/@culture">
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_1']/@culture">
-		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_3']/@culture">
-		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='village_V6_4']/@culture">
+	<xsl:template match="Settlement[@id='village_SI_V1_3']/@culture">
 		<xsl:attribute name='culture'>Culture.massa</xsl:attribute>
 	</xsl:template>
 	<!-- Hathdar -->
@@ -2240,6 +2249,15 @@
 		<xsl:attribute name='culture'>Culture.empire_n</xsl:attribute>
 	</xsl:template>
 	<!--
+	Tahyai Emirates
+	-->
+	<xsl:template match="Settlement[@id='town_SI_A6']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_tahyai_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A14']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_tahyai_2</xsl:attribute>
+	</xsl:template>
+	<!--
 	Bandits
 	-->
 	<!-- SHATTERED IMPERIUM: Bandit Hideouts - Pirates -->
@@ -2303,7 +2321,7 @@
 	<xsl:template match="Settlement[@id='hideout_pirate_SI_20']/@culture">
 		<xsl:attribute name='culture'>Culture.pirates</xsl:attribute>
 	</xsl:template>
-  <!-- SHATTERED IMPERIUM: Bandit Hideouts - Rebel Gladiators -->
+	<!-- SHATTERED IMPERIUM: Bandit Hideouts - Rebel Gladiators -->
 	<xsl:template match="Settlement[@id='hideout_gladiator_SI_1']/@culture">
 		<xsl:attribute name='culture'>Culture.rebel_gladiators</xsl:attribute>
 	</xsl:template>

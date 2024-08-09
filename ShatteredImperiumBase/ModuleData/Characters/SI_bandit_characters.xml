@@ -87,6 +87,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t3_sea_raider"/>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_recruit"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t2_sea_raider_battletemplate"/>
@@ -110,6 +111,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t4_sea_raider"/>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t4_melee"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t3_sea_raider_battletemplate"/>
@@ -131,7 +133,9 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="130"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t5_melee"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t4_sea_raider_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
@@ -152,7 +156,9 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="130"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_nor_aux_t5_melee"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_sea_raiders_boss_battletemplate"/>
 			<EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
@@ -354,6 +360,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t3_desert_bandit"/>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t3"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t2_desert_bandit_battletemplate"/>
@@ -379,6 +386,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t4_desert_bandit"/>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t4_camel_melee"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t3_desert_bandit_battletemplate"/>
@@ -402,7 +410,9 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="100"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t5_camel_melee"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t4_desert_bandit_battletemplate"/>
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
@@ -423,7 +433,9 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="130"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_jawwal_t5_camel_melee"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_desert_bandits_boss_battletemplate"/>
 			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
@@ -447,6 +459,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t3_steppe_bandit"/>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t3"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t2_steppe_bandit_battletemplate"/>
@@ -470,6 +483,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t4_steppe_bandit"/>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t4_cav_archer"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t3_steppe_bandit_battletemplate"/>
@@ -491,7 +505,9 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t5_cav_archer"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_ban_t4_steppe_bandit_battletemplate"/>
 			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
@@ -512,7 +528,9 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="60"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_min_karakhuzaits_t5_cav_archer"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_steppe_bandits_boss_battletemplate"/>
 			<EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true"/>
@@ -672,6 +690,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t4_rebel_gladiator"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_gladiator_recruit"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_gladiator_recruit_battletemplate"/>
@@ -695,6 +714,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_gladiator_t4_sword"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_gladiator_t4_sword_battletemplate"/>
@@ -717,7 +737,10 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="130"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_ban_t5_rebel_gladiator"/>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_gladiator_t5_sword"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
 			<EquipmentSet id="AR_emp_aux_gladiator_t5_spear_battletemplate"/>
@@ -739,99 +762,12 @@
 			<skill id="Crossbow" value="60"/>
 			<skill id="Throwing" value="130"/>
 		</skills>
-		<upgrade_targets/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.AR_emp_aux_gladiator_t5_sword"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="AR_emp_aux_gladiator_t5_sword_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<!-- QUEST PILLAGERS -->
-	<NPCCharacter id="AR_mounted_pillager" default_group="HorseArcher" level="11" name="{=si_ar_mounted_pillager}Mounted Pillager" occupation="Bandit" is_basic_troop="true" culture="Culture.looters" is_hidden_encyclopedia="true">
-		<face>
-			<face_key_template value="BodyProperty.bandit_looter"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="100"/>
-			<skill id="Riding" value="40"/>
-			<skill id="OneHanded" value="20"/>
-			<skill id="TwoHanded" value="20"/>
-			<skill id="Polearm" value="20"/>
-			<skill id="Bow" value="40"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.hunting_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
-				<equipment slot="Item2" id="Item.default_arrows"/>
-				<equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
-				<equipment slot="Head" id="Item.pilgrim_hood"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Horse" id="Item.empire_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.hunting_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
-				<equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
-				<equipment slot="Leg" id="Item.leather_boots"/>
-				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
-				<equipment slot="Horse" id="Item.empire_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_mounted_ransacker" default_group="Cavalry" level="16" name="{=si_ar_mounted_ransacker}Mounted Ransacker" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.looters" is_hidden_encyclopedia="true">
-		<face>
-			<face_key_template value="BodyProperty.bandit_looter"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="70"/>
-			<skill id="Riding" value="70"/>
-			<skill id="OneHanded" value="70"/>
-			<skill id="TwoHanded" value="70"/>
-			<skill id="Polearm" value="70"/>
-			<skill id="Bow" value="40"/>
-			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="70"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.small_bit_axe_t2"/>
-				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
-				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Head" id="Item.arming_coif"/>
-				<equipment slot="Body" id="Item.bandit_fur_a"/>
-				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
-				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-				<equipment slot="Horse" id="Item.empire_horse"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
-				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Body" id="Item.bandit_fur_b"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
-				<equipment slot="Horse" id="Item.empire_horse"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
-				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Body" id="Item.bandit_fur_b"/>
-				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
-				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
-				<equipment slot="Horse" id="Item.empire_horse"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- PIRATES -->
@@ -921,6 +857,95 @@
 		<Equipments>
 			<EquipmentSet id="AR_pirates_boss_battletemplate"/>
 			<EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- QUEST PILLAGERS -->
+	<NPCCharacter id="AR_mounted_pillager" default_group="HorseArcher" level="11" name="{=si_ar_mounted_pillager}Mounted Pillager" occupation="Bandit" is_basic_troop="true" culture="Culture.looters" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="AR_mounted_ransacker" default_group="Cavalry" level="16" name="{=si_ar_mounted_ransacker}Mounted Ransacker" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.looters" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.bandit_looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.arming_coif"/>
+				<equipment slot="Body" id="Item.bandit_fur_a"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Body" id="Item.bandit_fur_b"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Body" id="Item.bandit_fur_b"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="AR_bandit_civilian_template_t1" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

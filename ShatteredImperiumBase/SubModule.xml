@@ -2,7 +2,7 @@
 <Module>
 	<Name value="Shattered Imperium: Base Files"/>
 	<Id value="ShatteredImperiumBase"/>
-	<Version value="v0.5.0"/>
+	<Version value="v0.6.0"/>
 	<ModuleCategory value="Singleplayer"/>
 	<Official value="false"/>
 	<DependedModules>
@@ -24,6 +24,12 @@
 		<DependedModule Id="ShatteredImperiumMap"/>
 	</DependedModules>
 	<SubModules>
+		<SubModule>
+			<Name value="ShatteredImperium"/>
+			<DLLName value="ShatteredImperium.dll"/>
+			<SubModuleClassType value="ShatteredImperium.Main"/>
+			<Tags/>
+		</SubModule>
 		<SubModule>
 			<Name value="StartDatePrototype"/>
 			<DLLName value="StartDatePrototype.dll"/>
@@ -157,9 +163,6 @@
 				<GameType value="CustomGame"/>
 				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="CraftingTemplates" path="SI_crafting_templates"/>
 		</XmlNode>
 	</Xmls>
 </Module>
